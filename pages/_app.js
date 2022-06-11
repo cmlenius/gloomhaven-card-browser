@@ -1,7 +1,12 @@
 import "../styles/globals.css";
+import { SpoilersProvider } from "../hooks/useSpoilers";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <SpoilersProvider>
+      <Component {...pageProps} />
+    </SpoilersProvider>
+  );
 }
 
 export default MyApp;
