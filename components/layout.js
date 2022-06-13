@@ -14,7 +14,7 @@ function TopBar() {
 
         <div className="header-links">
           <div className="header-link">
-            <Link href={{ pathname: "/characters", query: router.query }}>
+            <Link href="/characters">
               <span>
                 <FontAwesomeIcon className="header-icon" icon={faShield} />
                 <a>Characters</a>
@@ -22,7 +22,7 @@ function TopBar() {
             </Link>
           </div>
           <div className="header-link">
-            <Link href={{ pathname: "/items", query: router.query }}>
+            <Link href="/items">
               <span>
                 <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
                 <a>Items</a>

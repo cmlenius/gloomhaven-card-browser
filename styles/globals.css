@@ -24,6 +24,19 @@ body {
   min-height: calc(100vh - 52px);
 }
 
+.item-filters {
+  display: flex;
+}
+
+.item-icon {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.item-icon-selected {
+  border-bottom: 2px solid var(--primary);
+}
+
 /* --- CARDS --- */
 .cardList {
   align-items: center;
@@ -167,6 +180,7 @@ body {
 .toolbarInner {
   align-items: center;
   display: flex;
+  justify-content: space-between;
   max-width: 1100px;
   margin: auto;
   padding: 0 16px;
@@ -183,15 +197,15 @@ body {
   background: var(--grey-light);
   border: 1px solid var(--primary);
   border-radius: 4px;
+  cursor: pointer;
   display: flex;
   height: 28px;
   margin-right: 8px;
   padding: 2px 8px;
 }
 
-.pagination-btn span {
-  align-items: center;
-  display: flex;
+.pagination-btn:hover {
+  background: white;
 }
 
 .pagination-icon {
@@ -212,5 +226,9 @@ input[type="checkbox"]:checked {
 @media (max-width: 660px) {
   .card {
     flex: 1 0 32.75%;
+  }
+
+  .pagination-btn span {
+    display: none;
   }
 }

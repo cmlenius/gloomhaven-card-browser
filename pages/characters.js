@@ -40,23 +40,25 @@ function CharacterToolbar() {
   return (
     <div className="toolbar">
       <div className="toolbarInner">
-        <Dropdown
-          onChange={handleClassChange}
-          options={characterOptions}
-          value={optionToLabel(query.class, characterOptions)}
-        />
-        <span style={{ margin: "0 12px" }}>sorted by</span>
-        <Dropdown
-          onChange={handleSortOrderChange}
-          options={sortOrderOptions}
-          value={optionToLabel(query.order, sortOrderOptions)}
-        />
-        <span style={{ margin: "0 12px" }}>:</span>
-        <Dropdown
-          onChange={handleSortDirectionChange}
-          options={sortDirectionOptions}
-          value={optionToLabel(query.dir, sortDirectionOptions)}
-        />
+        <div>
+          <Dropdown
+            onChange={handleClassChange}
+            options={characterOptions}
+            value={optionToLabel(query.class, characterOptions)}
+          />
+          <span style={{ margin: "0 12px" }}>sorted by</span>
+          <Dropdown
+            onChange={handleSortOrderChange}
+            options={sortOrderOptions}
+            value={optionToLabel(query.order, sortOrderOptions)}
+          />
+          <span style={{ margin: "0 12px" }}>:</span>
+          <Dropdown
+            onChange={handleSortDirectionChange}
+            options={sortDirectionOptions}
+            value={optionToLabel(query.dir, sortDirectionOptions)}
+          />
+        </div>
       </div>
     </div>
   );
