@@ -1,5 +1,5 @@
 :root {
-  --primary: rgba(52, 92, 118);
+  --primary: #473123;
   --grey-light: #f3f4f5;
   --grey: #d5d6d7;
 }
@@ -24,16 +24,22 @@ body {
   min-height: calc(100vh - 52px);
 }
 
-.item-filters {
+/* --- FILTERS --- */
+.filters {
   display: flex;
 }
 
-.item-icon {
+.filter-icon {
   cursor: pointer;
   margin-left: 8px;
 }
 
-.item-icon-selected {
+.filter-icon img {
+  height: 24px;
+  width: 24px;
+}
+
+.filter-icon-selected {
   border-bottom: 2px solid var(--primary);
 }
 
@@ -116,6 +122,32 @@ body {
   color: white;
 }
 
+/* --- PAGINATION --- */
+.pagination {
+  display: flex;
+}
+
+.pagination-btn {
+  align-items: center;
+  background: var(--grey-light);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  height: 28px;
+  margin-right: 8px;
+  padding: 2px 8px;
+}
+
+.pagination-btn:hover {
+  background: white;
+}
+
+.pagination-icon {
+  height: 14px;
+  width: 14px;
+}
+
 /* --- TOPBAR --- */
 .topbar {
   align-items: center;
@@ -185,32 +217,6 @@ body {
   margin: auto;
   padding: 0 16px;
   width: 100%;
-}
-
-/* --- PAGINATION --- */
-.pagination {
-  display: flex;
-}
-
-.pagination-btn {
-  align-items: center;
-  background: var(--grey-light);
-  border: 1px solid var(--primary);
-  border-radius: 4px;
-  cursor: pointer;
-  display: flex;
-  height: 28px;
-  margin-right: 8px;
-  padding: 2px 8px;
-}
-
-.pagination-btn:hover {
-  background: white;
-}
-
-.pagination-icon {
-  height: 14px;
-  width: 14px;
 }
 
 input[type="checkbox"]:checked {

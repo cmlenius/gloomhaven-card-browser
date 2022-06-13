@@ -3,16 +3,25 @@ import { useRouter } from "next/router";
 
 import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
-import {
-  baseURL,
-  characterOptions,
-  sortDirectionOptions,
-  sortOrderOptions,
-  optionToLabel,
-} from "../data/characters";
+import { baseURL, optionToLabel, sortDirectionOptions } from "../data/utils";
 import { characterSearchResults } from "./api/characters";
 
-function CharacterToolbar() {
+const characterOptions = [
+  { id: "BR", color: "#375E78", name: "Brute" },
+  { id: "CH", color: "#575B29", name: "Cragheart" },
+  { id: "MT", color: "#3C4A5C", name: "Mindthief" },
+  { id: "SC", color: "#445326", name: "Scoundrel" },
+  { id: "SW", color: "#5B4173", name: "Spellweaver" },
+  { id: "TI", color: "#6D5C46", name: "Tinker" },
+];
+
+const sortOrderOptions = [
+  { id: "level", name: "Level" },
+  { id: "initiative", name: "Initiative" },
+  { id: "name", name: "Name" },
+];
+
+function ClassFilter() {
   const router = useRouter();
   const query = router.query;
 
@@ -22,6 +31,31 @@ function CharacterToolbar() {
       query: { ...query, class: newClass },
     });
   }
+
+  return (
+    <div className="filters">
+      {characterOptions.map((char, idx) => (
+        <div
+          key={idx}
+          className={`filter-icon ${
+            query.class === char.id ? "filter-icon-selected" : ""
+          }`}
+          onClick={() => handleClassChange(char.id)}
+        >
+          <img
+            src={`/icons/classes/${char.id}.png`}
+            height="24px"
+            width="24px"
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function CharacterToolbar() {
+  const router = useRouter();
+  const query = router.query;
 
   function handleSortOrderChange(newOrder) {
     router.push({
@@ -42,23 +76,18 @@ function CharacterToolbar() {
       <div className="toolbarInner">
         <div>
           <Dropdown
-            onChange={handleClassChange}
-            options={characterOptions}
-            value={optionToLabel(query.class, characterOptions)}
-          />
-          <span style={{ margin: "0 12px" }}>sorted by</span>
-          <Dropdown
             onChange={handleSortOrderChange}
             options={sortOrderOptions}
             value={optionToLabel(query.order, sortOrderOptions)}
           />
-          <span style={{ margin: "0 12px" }}>:</span>
+          <span style={{ margin: "0 8px" }}>:</span>
           <Dropdown
             onChange={handleSortDirectionChange}
             options={sortDirectionOptions}
             value={optionToLabel(query.dir, sortDirectionOptions)}
           />
         </div>
+        <ClassFilter />
       </div>
     </div>
   );
