@@ -16,6 +16,7 @@ body {
   overscroll-behavior: none;
 }
 
+/* --- MISC --- */
 .main {
   align-items: center;
   display: flex;
@@ -23,24 +24,9 @@ body {
   flex-direction: column;
   min-height: calc(100vh - 52px);
 }
-
-/* --- FILTERS --- */
-.filters {
-  display: flex;
-}
-
-.filter-icon {
-  cursor: pointer;
-  margin-left: 8px;
-}
-
-.filter-icon img {
-  height: 24px;
-  width: 24px;
-}
-
-.filter-icon-selected {
-  border-bottom: 2px solid var(--primary);
+ 
+input[type="checkbox"]:checked {
+  accent-color: var(--primary);
 }
 
 /* --- CARDS --- */
@@ -51,9 +37,9 @@ body {
   justify-content: center;
   margin-top: 20px;
   max-width: 1100px;
-  padding: 0 16px;
+  width: 100%;
 }
-
+ 
 .card {
   border-radius: 12px;
   flex: 1 0 21%;
@@ -122,9 +108,31 @@ body {
   color: white;
 }
 
+/* --- FILTERS --- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-icon {
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.filter-icon img {
+  height: 24px;
+  width: 24px;
+}
+
+.filter-icon-selected {
+  border-bottom: 2px solid var(--primary);
+}
+
 /* --- PAGINATION --- */
 .pagination {
   display: flex;
+  margin-left: 12px;
 }
 
 .pagination-btn {
@@ -215,14 +223,15 @@ body {
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  padding: 0 16px;
+  padding: 8px 16px;
   width: 100%;
 }
 
-input[type="checkbox"]:checked {
-  accent-color: var(--primary);
+.toolbar .sort {
+  flex-shrink: 0;
 }
 
+/* --- MEDIA QUERIES --- */
 @media (max-width: 920px) {
   .card {
     flex: 1 0 24.5%;

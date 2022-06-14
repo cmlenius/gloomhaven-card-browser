@@ -79,7 +79,7 @@ function ItemFilters() {
   );
 }
 
-function ItemsToolbar() {
+function ItemsToolbar({ maxPageCount }) {
   const router = useRouter();
   const query = router.query;
 
@@ -107,7 +107,7 @@ function ItemsToolbar() {
   return (
     <div className="toolbar">
       <div className="toolbarInner">
-        <div>
+        <div className="sort">
           <Dropdown
             onChange={handleSortOrderChange}
             options={sortOrderOptions}
@@ -121,23 +121,23 @@ function ItemsToolbar() {
           />
         </div>
         <ItemFilters />
-        <Pagination onPageChange={handlePageChange} />
+        <Pagination
+          maxPageCount={maxPageCount}
+          onPageChange={handlePageChange}
+        />
       </div>
     </div>
   );
 }
 
-function Items({ searchResults }) {
-  const router = useRouter();
-  const query = router.query;
-
+function Items({ searchResults, maxPageCount }) {
   useEffect(() => {
     document.documentElement.style.setProperty("--primary", "#473123");
   }, []);
 
   return (
     <Layout>
-      <ItemsToolbar />
+      <ItemsToolbar maxPageCount={maxPageCount} />
       <div className="cardList">
         {searchResults &&
           searchResults.map((card, idx) => (
@@ -154,11 +154,12 @@ function Items({ searchResults }) {
 }
 
 export async function getServerSideProps(context) {
-  const searchResults = await itemSearchResults(context.query);
+  const { searchResults, maxPageCount } = await itemSearchResults(context.query);
 
   return {
     props: {
-      searchResults: [],
+      searchResults: searchResults,
+      maxPageCount: maxPageCount,
     },
   };
 }

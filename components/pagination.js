@@ -1,26 +1,26 @@
-import { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
 function Pagination(params) {
-  const { onPageChange } = params;
+  const { maxPageCount, onPageChange } = params;
   const router = useRouter();
-  const query = router.query;
-
+  const page = parseInt(router.query?.page) || 1;
+     
   return (
     <div className="pagination">
       <button
         className="pagination-btn"
-        disabled={!query.page || query.page <= 0}
-        onClick={() => onPageChange(query.page - 1)}
+        disabled={page <= 1}
+        onClick={() => onPageChange(page - 1)}
       >
         <FontAwesomeIcon className="pagination-icon" icon={faAngleLeft} />
         <span style={{ marginLeft: "4px" }}>Prev 30</span>
       </button>
       <button
         className="pagination-btn"
-        onClick={() => onPageChange(query.page + 1)}
+        disabled={page >= maxPageCount}
+        onClick={() => onPageChange(page + 1)}
       >
         <span style={{ marginRight: "4px" }}>Next 30</span>
         <FontAwesomeIcon className="pagination-icon" icon={faAngleRight} />

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
-import { baseURL, optionToLabel, sortDirectionOptions } from "../data/utils";
+import { baseUrl, optionToLabel, sortDirectionOptions } from "../data/utils";
 import { characterSearchResults } from "./api/characters";
 
 const characterOptions = [
@@ -74,7 +74,7 @@ function CharacterToolbar() {
   return (
     <div className="toolbar">
       <div className="toolbarInner">
-        <div>
+        <div className="sort">
           <Dropdown
             onChange={handleSortOrderChange}
             options={sortOrderOptions}
@@ -111,7 +111,7 @@ function Characters({ searchResults }) {
         {searchResults &&
           searchResults.map((card, idx) => (
             <div key={idx} className="card">
-              <img className="card-img" src={baseURL + card.image} />
+              <img className="card-img" src={baseUrl + card.image} />
             </div>
           ))}
         {[...Array(4)].map((_, idx) => (

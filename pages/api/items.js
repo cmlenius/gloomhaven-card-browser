@@ -1,12 +1,14 @@
 import { itemCards } from "../../data/item-cards";
 
+const rowsPerPage = 30;
+
 export async function itemSearchResults(query) {
   let searchResults = itemCards;
 
   // Filter
-  const slots = new Set(query.slots || []);
-  if (slots.size > 0) {
-    searchResults = searchResults.filter((i) => slots.has(i.slot));
+  const slot = query.slot;
+  if (slot) {
+    searchResults = searchResults.filter((i) => i.slot === slot);
   }
   if (query.activations === "consumed") {
     searchResults = searchResults.filter((i) => i.consumed);
@@ -30,9 +32,11 @@ export async function itemSearchResults(query) {
   });
 
   // Pagination
-  searchResults = searchResults.slice(query.page * 30, (1 + query.page) * 30);
+  const maxPageCount = Math.ceil(searchResults.length / rowsPerPage);
+  const page = parseInt(query.page) || 1;
+  searchResults = searchResults.slice((page - 1) * rowsPerPage, page * rowsPerPage);
 
-  return searchResults;
+  return { searchResults: searchResults, maxPageCount: maxPageCount };
 }
 
 export default async function handler(req, res) {

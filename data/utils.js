@@ -1,5 +1,5 @@
 export const baseUrl =
-  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/images/items/gloomhaven/";
+  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/images/";
 
 export const sortDirectionOptions = [
   { id: "asc", name: "Asc" },

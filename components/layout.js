@@ -1,17 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSackDollar, faShield } from "@fortawesome/free-solid-svg-icons";
 
-function TopBar() {
-  const router = useRouter();
+function Spoilers() {
+  return <div></div>;
+}
 
+function TopBar() {
   return (
     <nav className="topbar">
       <div className="topbarInner">
         <img src="/logo.png" style={{ height: 40, width: 40 }} />
-
         <div className="header-links">
           <div className="header-link">
             <Link href="/characters">
