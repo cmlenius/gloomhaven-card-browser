@@ -9,3 +9,12 @@ export const sortDirectionOptions = [
 export function optionToLabel(id, options) {
   return options.find((option) => id == option.id)?.name || options[0].name;
 }
+
+export const colours = {
+  BR: "#375E78",
+  CH: "#575B29",
+  MT: "#3C4A5C",
+  SC: "#445326",
+  SW: "#5B4173",
+  TI: "#6D5C46",
+};

@@ -3,16 +3,22 @@ import { useRouter } from "next/router";
 
 import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
-import { baseUrl, optionToLabel, sortDirectionOptions } from "../data/utils";
+import {
+  baseUrl,
+  colours,
+  optionToLabel,
+  sortDirectionOptions,
+} from "../data/utils";
 import { characterSearchResults } from "./api/characters";
+import SvgCharacterIcon from "../components/svg";
 
 const characterOptions = [
-  { id: "BR", color: "#375E78", name: "Brute" },
-  { id: "CH", color: "#575B29", name: "Cragheart" },
-  { id: "MT", color: "#3C4A5C", name: "Mindthief" },
-  { id: "SC", color: "#445326", name: "Scoundrel" },
-  { id: "SW", color: "#5B4173", name: "Spellweaver" },
-  { id: "TI", color: "#6D5C46", name: "Tinker" },
+  { id: "BR", name: "Brute" },
+  { id: "CH", name: "Cragheart" },
+  { id: "MT", name: "Mindthief" },
+  { id: "SC", name: "Scoundrel" },
+  { id: "SW", name: "Spellweaver" },
+  { id: "TI", name: "Tinker" },
 ];
 
 const sortOrderOptions = [
@@ -42,11 +48,7 @@ function ClassFilter() {
           }`}
           onClick={() => handleClassChange(char.id)}
         >
-          <img
-            src={`/icons/classes/${char.id}.png`}
-            height="24px"
-            width="24px"
-          />
+          <SvgCharacterIcon character={char.id} />
         </div>
       ))}
     </div>
@@ -100,7 +102,10 @@ function Characters({ searchResults }) {
   useEffect(() => {
     const curClass = characterOptions.find((c) => c.id === query.class);
     if (curClass) {
-      document.documentElement.style.setProperty("--primary", curClass.color);
+      document.documentElement.style.setProperty(
+        "--primary",
+        colours[curClass.id]
+      );
     }
   }, [query.class]);
 
