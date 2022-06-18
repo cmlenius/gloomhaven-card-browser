@@ -108,7 +108,7 @@ function ItemsToolbar() {
 
   return (
     <div className="toolbar">
-      <div className="toolbarInner">
+      <div className="toolbar-inner">
         <div className="sort">
           <Dropdown
             onChange={handleSortOrderChange}
@@ -140,6 +140,10 @@ function Items({ searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
+  useEffect(() => {
+    setItems(searchResults.slice(0, rowsPerPage));
+  }, [searchResults]);
+
   return (
     <Layout>
       <ItemsToolbar />
@@ -150,7 +154,7 @@ function Items({ searchResults }) {
           hasMore={items.length < searchResults.length}
           loader={<h4 key={0}>Loading...</h4>}
         >
-          <div className="cardList">
+          <div className="card-list">
             {items
               .filter((card) => {
                 if (card.source === "Prosperity")

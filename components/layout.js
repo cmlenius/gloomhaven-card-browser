@@ -72,7 +72,7 @@ function Search() {
 function TopBar({ openSpoilerDrawer }) {
   return (
     <nav className="topbar">
-      <div className="topbarInner">
+      <div className="topbar-inner">
         <img src="/logo.png" style={{ height: 40, width: 40 }} />
         <Search />
         <div className="header-links">

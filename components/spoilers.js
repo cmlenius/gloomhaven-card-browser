@@ -26,10 +26,10 @@ function CharacterSpoiler({ char }) {
   }
 
   return (
-    <li className="spoiler-check-option">
+    <li className="spoiler-check-option" onClick={handleCharacterSpoilerToggle}>
       <input
         checked={spoilers.characters.has(char.id)}
-        onChange={handleCharacterSpoilerToggle}
+        readOnly
         style={{ accentColor: char.colour }}
         type="checkbox"
       />
@@ -57,12 +57,8 @@ function ItemSpoiler({ label, path }) {
   }
 
   return (
-    <div className="spoiler-check-option">
-      <input
-        checked={spoilers.items[path]}
-        onChange={handleItemSpoilerToggle}
-        type="checkbox"
-      />
+    <div className="spoiler-check-option" onClick={handleItemSpoilerToggle}>
+      <input checked={spoilers.items[path]} readOnly type="checkbox" />
       <span>{label}</span>
     </div>
   );
@@ -86,11 +82,10 @@ function ProsperitySpoiler({ level }) {
   }
 
   return (
-    <li className="flex">
+    <li className="prosperity-option" onClick={handleProsperityChange}>
       <input
         checked={spoilers.items.prosperity === level}
-        className="prosperity-option"
-        onChange={handleProsperityChange}
+        readOnly
         type="radio"
       />
       <span>{level}</span>
@@ -161,10 +156,13 @@ function Spoilers({ open, onClose }) {
 
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div>
-              <div className="spoiler-check-option">
+              <div
+                className="spoiler-check-option"
+                onClick={handleCharacterSpoilerToggleAll}
+              >
                 <input
                   checked={allCharacterSpoilers}
-                  onChange={handleCharacterSpoilerToggleAll}
+                  readOnly
                   type="checkbox"
                 />
                 <h4>Character Spoilers</h4>
@@ -178,12 +176,11 @@ function Spoilers({ open, onClose }) {
             </div>
 
             <div>
-              <div className="spoiler-check-option">
-                <input
-                  checked={allItemSpoilers}
-                  onChange={handleItemSpoilerToggleAll}
-                  type="checkbox"
-                />
+              <div
+                className="spoiler-check-option"
+                onClick={handleItemSpoilerToggleAll}
+              >
+                <input checked={allItemSpoilers} readOnly type="checkbox" />
                 <h4>Item Spoilers</h4>
               </div>
               <div className="prosperity-spoilers">

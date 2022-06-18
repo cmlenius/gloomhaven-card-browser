@@ -70,7 +70,7 @@ function CharacterToolbar() {
 
   return (
     <div className="toolbar">
-      <div className="toolbarInner">
+      <div className="toolbar-inner">
         <div className="sort">
           <Dropdown
             onChange={handleSortOrderChange}
@@ -105,7 +105,7 @@ function Characters({ searchResults }) {
   return (
     <Layout>
       <CharacterToolbar />
-      <div className="cardList">
+      <div className="card-list">
         {searchResults &&
           searchResults
             .filter(

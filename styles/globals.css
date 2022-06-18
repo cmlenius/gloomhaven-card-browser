@@ -31,7 +31,7 @@ body {
 }
 
 /* --- CARDS --- */
-.cardList {
+.card-list {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -164,10 +164,6 @@ body {
   padding: 16px 16px;
 }
 
-.spoilers h4 {
-  margin-left: 8px;
-}
-
 .spoilers ul {
   margin: 0 0 12px;
   padding: 0;
@@ -191,12 +187,13 @@ body {
 
 .spoiler-check-option {
   align-items: center;
+  cursor: pointer;
   display: flex;
   min-height: 28px;
 }
 
-.spoiler-check-option svg {
-  margin: 2px 4px;
+.spoiler-check-option input {
+  margin-right: 8px;
 }
 
 .spoilers .prosperity-spoilers {
@@ -206,7 +203,14 @@ body {
 }
 
 .spoilers .prosperity-option {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+
+.spoilers .prosperity-option input {
   height: 20px;
+  margin-right: 4px;
 }
 
 .spoilers .prosperity-spoilers h5 {
@@ -230,7 +234,7 @@ body {
   width: 100%;
 }
 
-.topbarInner {
+.topbar-inner {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -314,7 +318,7 @@ body {
   width: 100%;
 }
 
-.toolbarInner {
+.toolbar-inner {
   align-items: center;
   display: flex;
   justify-content: space-between;

@@ -32,7 +32,7 @@ function SearchToolbar() {
 
   return (
     <div className="toolbar">
-      <div className="toolbarInner">
+      <div className="toolbar-inner">
         <div className="filters">
           <div
             className={`filter-icon ${
@@ -93,7 +93,7 @@ function Search({ searchResults }) {
             hasMore={cards.length < searchResults.length}
             loader={<h4 key={0}>Loading...</h4>}
           >
-            <div className="cardList">
+            <div className="card-list">
               {cards.filter(filterSpoilers).map((card, idx) => (
                 <div key={idx} className="card">
                   <img className="card-img" src={baseUrl + card.image} />
