@@ -3,11 +3,93 @@ import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faEye,
   faMagnifyingGlass,
   faSackDollar,
   faShield,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
+
+import { useSpoilers } from "../hooks/useSpoilers";
+import { characters } from "../data/common";
+import SvgCharacterIcon from "../components/svg";
+
+function Spoilers({ open, onClose }) {
+  const { spoilers, updateSpoilers } = useSpoilers();
+
+  function handleCharacterSpoilerToggle(id) {
+    let newSet = spoilers.characters;
+    if (spoilers.characters?.has(id)) {
+      newSet.delete(id);
+    } else {
+      newSet.add(id);
+    }
+
+    updateSpoilers({ ...spoilers, characters: newSet });
+    localStorage.setItem(
+      "spoilers",
+      JSON.stringify({ ...spoilers, characters: Array.from(newSet) })
+    );
+  }
+
+  function handleCharacterSpoilerToggleAll() {
+    let newSet = [];
+    if (unlockabelClasses.some((c) => !spoilers.characters.has(c.id))) {
+      newSet = unlockabelClasses.map((c) => c.id);
+    }
+
+    updateSpoilers({ ...spoilers, characters: new Set(newSet) });
+    localStorage.setItem(
+      "spoilers",
+      JSON.stringify({
+        ...spoilers,
+        characters: newSet,
+      })
+    );
+  }
+
+  const unlockabelClasses = characters.filter((c) => !c.base);
+
+  return (
+    <div>
+      <div
+        className="spoilers-overlay"
+        onClick={onClose}
+        style={{ width: open ? "100%" : 0 }}
+      />
+      <div className="spoilers" style={{ width: open ? "280px" : 0 }}>
+        <div className="spoilers-inner">
+          <h2>Spoilers</h2>
+          <ul>
+            <li className="spoiler-check-option">
+              <input
+                checked={unlockabelClasses.every((c) =>
+                  spoilers.characters.has(c.id)
+                )}
+                onChange={handleCharacterSpoilerToggleAll}
+                type="checkbox"
+                style={{ accentColor: "#000000" }}
+              />
+              <h4 style={{ margin: "8px 4px" }}>Character Spoilers</h4>
+            </li>
+            {unlockabelClasses.map((char, idx) => (
+              <li key={idx} className="spoiler-check-option">
+                <input
+                  checked={spoilers.characters.has(char.id)}
+                  onChange={() => handleCharacterSpoilerToggle(char.id)}
+                  style={{ accentColor: char.colour }}
+                  type="checkbox"
+                />
+                <SvgCharacterIcon character={char.id} />
+                <span>{char.name}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function Search() {
   const router = useRouter();
@@ -67,6 +149,8 @@ function Search() {
 }
 
 function TopBar() {
+  const [spoilerDrawerOpen, setSpoilerDrawerOpen] = useState(false);
+
   return (
     <nav className="topbar">
       <div className="topbarInner">
@@ -89,8 +173,21 @@ function TopBar() {
               </span>
             </Link>
           </div>
+          <div
+            className="header-link"
+            onClick={() => setSpoilerDrawerOpen(true)}
+          >
+            <span>
+              <FontAwesomeIcon className="header-icon" icon={faEye} />
+              <a>Spoilers</a>
+            </span>
+          </div>
         </div>
       </div>
+      <Spoilers
+        open={spoilerDrawerOpen}
+        onClose={() => setSpoilerDrawerOpen(false)}
+      />
     </nav>
   );
 }

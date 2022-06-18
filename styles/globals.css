@@ -1,5 +1,5 @@
 :root {
-  --primary: #473123;
+  --primary: #432423;
   --grey-light: #f3f4f5;
   --grey: #d5d6d7;
 }
@@ -28,10 +28,6 @@ body {
   flex: 1;
   flex-direction: column;
   min-height: calc(100vh - 52px);
-}
-
-input[type="checkbox"]:checked {
-  accent-color: var(--primary);
 }
 
 /* --- CARDS --- */
@@ -160,6 +156,50 @@ input[type="checkbox"]:checked {
 .pagination-icon {
   height: 14px;
   width: 14px;
+}
+
+/* --- SPOILERS --- */
+.spoilers-overlay {
+  position: fixed;
+  background-color: black;
+  opacity: 0.3;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.spoilers {
+  background-color: #eee;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.spoilers-inner {
+  padding: 8px;
+}
+
+.spoilers ul {
+  padding: 0;
+}
+
+.spoilers li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.spoiler-check-option {
+  align-items: center;
+  display: flex;
+}
+
+.spoiler-check-option svg {
+  margin: 2px 4px;
 }
 
 /* --- TOPBAR --- */

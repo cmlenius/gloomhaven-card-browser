@@ -1,16 +1,19 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-import Dropdown from "../components/dropdown";
-import Layout from "../components/layout";
+import { useSpoilers } from "../hooks/useSpoilers";
 import {
+  baseCharacters,
   baseUrl,
-  characters,
+  characterClasses,
   colour,
   optionToLabel,
   sortDirectionOptions,
 } from "../data/common";
 import { characterSearchResults } from "./api/characters";
+
+import Dropdown from "../components/dropdown";
+import Layout from "../components/layout";
 import SvgCharacterIcon from "../components/svg";
 
 const sortOrderOptions = [
@@ -32,7 +35,7 @@ function ClassFilter() {
 
   return (
     <div className="filters">
-      {characters.map((char, idx) => (
+      {characterClasses.map((char, idx) => (
         <div
           key={idx}
           className={`filter-icon ${
@@ -88,6 +91,7 @@ function CharacterToolbar() {
 }
 
 function Characters({ searchResults }) {
+  const { spoilers } = useSpoilers();
   const router = useRouter();
   const query = router.query;
 
@@ -103,11 +107,17 @@ function Characters({ searchResults }) {
       <CharacterToolbar />
       <div className="cardList">
         {searchResults &&
-          searchResults.map((card, idx) => (
-            <div key={idx} className="card">
-              <img className="card-img" src={baseUrl + card.image} />
-            </div>
-          ))}
+          searchResults
+            .filter(
+              (card) =>
+                baseCharacters.includes(card.class) ||
+                spoilers.characters?.has(card.class)
+            )
+            .map((card, idx) => (
+              <div key={idx} className="card">
+                <img className="card-img" src={baseUrl + card.image} />
+              </div>
+            ))}
         {[...Array(4)].map((_, idx) => (
           <div key={idx} className="card" />
         ))}
