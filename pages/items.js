@@ -1,5 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import InfiniteScroll from "react-infinite-scroller";
 
 import { itemSearchResults } from "./api/items";
 import { useSpoilers } from "../hooks/useSpoilers";
@@ -12,7 +13,8 @@ import {
 
 import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
-import Pagination from "../components/pagination";
+
+const rowsPerPage = 20;
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
@@ -86,7 +88,7 @@ function ItemFilters() {
   );
 }
 
-function ItemsToolbar({ maxPageCount }) {
+function ItemsToolbar() {
   const router = useRouter();
   const query = router.query;
 
@@ -101,13 +103,6 @@ function ItemsToolbar({ maxPageCount }) {
     router.push({
       pathname: "/items",
       query: { ...query, dir: newDirection },
-    });
-  }
-
-  function handlePageChange(newPage) {
-    router.push({
-      pathname: "/items",
-      query: { ...query, page: newPage },
     });
   }
 
@@ -128,17 +123,18 @@ function ItemsToolbar({ maxPageCount }) {
           />
         </div>
         <ItemFilters />
-        <Pagination
-          maxPageCount={maxPageCount}
-          onPageChange={handlePageChange}
-        />
       </div>
     </div>
   );
 }
 
-function Items({ searchResults, maxPageCount }) {
+function Items({ searchResults }) {
   const { spoilers } = useSpoilers();
+  const [items, setItems] = useState(searchResults.slice(0, rowsPerPage));
+
+  function loadMore(page) {
+    setItems(searchResults.slice(0, (page + 1) * rowsPerPage));
+  }
 
   useEffect(() => {
     document.documentElement.style.setProperty("--primary", colour(null));
@@ -146,41 +142,46 @@ function Items({ searchResults, maxPageCount }) {
 
   return (
     <Layout>
-      <ItemsToolbar maxPageCount={maxPageCount} />
-      <div className="cardList">
-        {searchResults &&
-          searchResults
-            .filter((card) => {
-              if (card.source === "Prosperity")
-                return (
-                  card.prosperity <= parseInt(spoilers.items.prosperity, 10)
-                );
-              if (card.source === "Random Item Design")
-                return spoilers.items.recipes;
-              return spoilers.items.other;
-            })
-            .map((card, idx) => (
-              <div key={idx} className="card">
-                <img className="card-img" src={baseUrl + card.image} />
-              </div>
+      <ItemsToolbar />
+      {searchResults && (
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={loadMore}
+          hasMore={items.length < searchResults.length}
+          loader={<h4 key={0}>Loading...</h4>}
+        >
+          <div className="cardList">
+            {items
+              .filter((card) => {
+                if (card.source === "Prosperity")
+                  return (
+                    card.prosperity <= parseInt(spoilers.items.prosperity, 10)
+                  );
+                if (card.source === "Random Item Design")
+                  return spoilers.items.recipes;
+                return spoilers.items.other;
+              })
+              .map((card, idx) => (
+                <div key={idx} className="card">
+                  <img className="card-img" src={baseUrl + card.image} />
+                </div>
+              ))}
+            {[...Array(4)].map((_, idx) => (
+              <div key={idx} className="card" />
             ))}
-        {[...Array(4)].map((_, idx) => (
-          <div key={idx} className="card" />
-        ))}
-      </div>
+          </div>
+        </InfiniteScroll>
+      )}
     </Layout>
   );
 }
 
 export async function getServerSideProps(context) {
-  const { searchResults, maxPageCount } = await itemSearchResults(
-    context.query
-  );
+  const searchResults = await itemSearchResults(context.query);
 
   return {
     props: {
-      searchResults: searchResults,
-      maxPageCount: maxPageCount,
+      searchResults,
     },
   };
 }

@@ -5,6 +5,7 @@ import { customSort } from "../../data/common";
 const rowsPerPage = 30;
 
 export async function search(query) {
+  // Filter
   let searchResults = [
     ...(!query.type || query.type === "items" ? itemCards : []),
     ...(!query.type || query.type === "characters"
@@ -12,12 +13,11 @@ export async function search(query) {
       : []),
   ];
 
-  // Filter
   if (!query.search || query.search === "") {
     searchResults = [];
   } else {
     searchResults = searchResults.filter((sr) =>
-      sr.name.includes(query.search)
+      sr.name.toLowerCase().includes(query.search.toLowerCase())
     );
   }
 
@@ -26,15 +26,7 @@ export async function search(query) {
   const direction = query.dir || "asc";
   searchResults = searchResults.sort(customSort(order, direction));
 
-  // Pagination
-  const maxPageCount = Math.ceil(searchResults.length / rowsPerPage);
-  const page = parseInt(query.page) || 1;
-  searchResults = searchResults.slice(
-    (page - 1) * rowsPerPage,
-    page * rowsPerPage
-  );
-
-  return { searchResults: searchResults, maxPageCount: maxPageCount };
+  return { searchResults: searchResults, maxPageCount: 1 };
 }
 
 export default async function handler(req, res) {

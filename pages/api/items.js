@@ -22,15 +22,7 @@ export async function itemSearchResults(query) {
   const direction = query.dir || "asc";
   searchResults = searchResults.sort(customSort(order, direction));
 
-  // Pagination
-  const maxPageCount = Math.ceil(searchResults.length / rowsPerPage);
-  const page = parseInt(query.page) || 1;
-  searchResults = searchResults.slice(
-    (page - 1) * rowsPerPage,
-    page * rowsPerPage
-  );
-
-  return { searchResults: searchResults, maxPageCount: maxPageCount };
+  return searchResults;
 }
 
 export default async function handler(req, res) {

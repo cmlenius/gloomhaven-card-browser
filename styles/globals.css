@@ -131,33 +131,6 @@ body {
   border-bottom: 2px solid var(--primary);
 }
 
-/* --- PAGINATION --- */
-.pagination {
-  display: flex;
-  margin-left: 12px;
-}
-
-.pagination-btn {
-  align-items: center;
-  background: var(--grey-light);
-  border: 1px solid var(--primary);
-  border-radius: 4px;
-  cursor: pointer;
-  display: flex;
-  height: 28px;
-  margin-right: 8px;
-  padding: 2px 8px;
-}
-
-.pagination-btn:hover {
-  background: white;
-}
-
-.pagination-icon {
-  height: 14px;
-  width: 14px;
-}
-
 /* --- SPOILERS --- */
 .spoilers-overlay {
   background-color: black;
@@ -194,7 +167,7 @@ body {
 .spoilers h4 {
   margin-left: 8px;
 }
- 
+
 .spoilers ul {
   margin: 0 0 12px;
   padding: 0;
