@@ -5,7 +5,12 @@ import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
 import Pagination from "../components/pagination";
 import { itemSearchResults } from "./api/items";
-import { baseUrl, optionToLabel, sortDirectionOptions } from "../data/utils";
+import {
+  baseUrl,
+  colour,
+  optionToLabel,
+  sortDirectionOptions,
+} from "../data/common";
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
@@ -33,20 +38,20 @@ function ItemFilters() {
   const query = router.query;
 
   function handleSlotChange(newSlot) {
+    query.slot === newSlot ? delete query.slot : (query.slot = newSlot);
     router.push({
       pathname: "/items",
-      query: { ...query, slot: query.slot === newSlot ? undefined : newSlot },
+      query: query,
     });
   }
 
   function handleActivationsChange(newActivations) {
+    query.activations === newActivations
+      ? delete query.activations
+      : (query.activations = newActivations);
     router.push({
       pathname: "/items",
-      query: {
-        ...query,
-        activations:
-          query.activations === newActivations ? undefined : newActivations,
-      },
+      query: query,
     });
   }
 
@@ -132,7 +137,7 @@ function ItemsToolbar({ maxPageCount }) {
 
 function Items({ searchResults, maxPageCount }) {
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", "#473123");
+    document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
   return (
@@ -154,7 +159,9 @@ function Items({ searchResults, maxPageCount }) {
 }
 
 export async function getServerSideProps(context) {
-  const { searchResults, maxPageCount } = await itemSearchResults(context.query);
+  const { searchResults, maxPageCount } = await itemSearchResults(
+    context.query
+  );
 
   return {
     props: {

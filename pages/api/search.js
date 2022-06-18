@@ -1,33 +1,38 @@
 import { characterAbilityCards } from "../../data/character-ability-cards";
 import { itemCards } from "../../data/item-cards";
- 
+import { customSort } from "../../data/common";
+
 const rowsPerPage = 30;
 
 export async function search(query) {
-  let searchResults = [...characterAbilityCards, ...itemCards];
+  let searchResults = [
+    ...(!query.type || query.type === "items" ? itemCards : []),
+    ...(!query.type || query.type === "characters"
+      ? characterAbilityCards
+      : []),
+  ];
 
   // Filter
-  searchResults = searchResults.filter((sr) => sr.name.includes(query.search));
+  if (!query.search || query.search === "") {
+    searchResults = [];
+  } else {
+    searchResults = searchResults.filter((sr) =>
+      sr.name.includes(query.search)
+    );
+  }
 
   // Sort
   const order = query.order || "name";
   const direction = query.dir || "asc";
-  searchResults = searchResults.sort((a, b) => {
-    let sort = 1;
-    if (a[order] > b[order]) {
-      sort = 1;
-    } else if (a[order] < b[order]) {
-      sort = -1;
-    } else {
-      return a.name > b.name ? 1 : -1;
-    }
-    return direction === "asc" ? sort : -1 * sort;
-  });
-   
+  searchResults = searchResults.sort(customSort(order, direction));
+
   // Pagination
   const maxPageCount = Math.ceil(searchResults.length / rowsPerPage);
   const page = parseInt(query.page) || 1;
-  searchResults = searchResults.slice((page - 1) * rowsPerPage, page * rowsPerPage);
+  searchResults = searchResults.slice(
+    (page - 1) * rowsPerPage,
+    page * rowsPerPage
+  );
 
   return { searchResults: searchResults, maxPageCount: maxPageCount };
 }

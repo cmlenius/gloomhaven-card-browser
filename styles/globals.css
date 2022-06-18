@@ -115,6 +115,7 @@ input[type="checkbox"]:checked {
 
 /* --- FILTERS --- */
 .filters {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
 }

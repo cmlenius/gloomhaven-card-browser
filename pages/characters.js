@@ -5,21 +5,13 @@ import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
 import {
   baseUrl,
-  colours,
+  characters,
+  colour,
   optionToLabel,
   sortDirectionOptions,
-} from "../data/utils";
+} from "../data/common";
 import { characterSearchResults } from "./api/characters";
 import SvgCharacterIcon from "../components/svg";
-
-const characterOptions = [
-  { id: "BR", name: "Brute" },
-  { id: "CH", name: "Cragheart" },
-  { id: "MT", name: "Mindthief" },
-  { id: "SC", name: "Scoundrel" },
-  { id: "SW", name: "Spellweaver" },
-  { id: "TI", name: "Tinker" },
-];
 
 const sortOrderOptions = [
   { id: "level", name: "Level" },
@@ -40,15 +32,15 @@ function ClassFilter() {
 
   return (
     <div className="filters">
-      {characterOptions.map((char, idx) => (
+      {characters.map((char, idx) => (
         <div
           key={idx}
           className={`filter-icon ${
-            query.class === char.id ? "filter-icon-selected" : ""
+            query.class === char ? "filter-icon-selected" : ""
           }`}
-          onClick={() => handleClassChange(char.id)}
+          onClick={() => handleClassChange(char)}
         >
-          <SvgCharacterIcon character={char.id} />
+          <SvgCharacterIcon character={char} />
         </div>
       ))}
     </div>
@@ -100,13 +92,10 @@ function Characters({ searchResults }) {
   const query = router.query;
 
   useEffect(() => {
-    const curClass = characterOptions.find((c) => c.id === query.class);
-    if (curClass) {
-      document.documentElement.style.setProperty(
-        "--primary",
-        colours[curClass.id]
-      );
-    }
+    document.documentElement.style.setProperty(
+      "--primary",
+      colour(query.class)
+    );
   }, [query.class]);
 
   return (

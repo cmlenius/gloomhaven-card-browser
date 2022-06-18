@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,12 +13,23 @@ function Search() {
   const router = useRouter();
   const query = router.query;
 
-  const ref = useRef(null);
   const [search, setSearch] = useState("");
+  const ref = useRef();
 
-  const handleSearchChange = (e) => {
+  function handleSearchChange(e) {
     setSearch(e.target.value);
-  };
+  }
+
+  const handleSearch = useCallback(() => {
+    if (search && search !== "" && search !== query.search) {
+      router.push({
+        pathname: "/search",
+        query: {
+          search: search,
+        },
+      });
+    }
+  }, [search]);
 
   useEffect(() => {
     if (query.search && query.search !== search) {
@@ -26,34 +37,28 @@ function Search() {
     }
   }, [query.search]);
 
+  // TODO add listener to input element
   useEffect(() => {
     if (!ref.current) return;
 
     function handleEnterKey(event) {
-      if (event.key === "Enter" && search !== query.search) {
-        console.log(search, "searching");
-        router.push({
-          pathname: "/search",
-          query: {
-            search: search,
-          },
-        });
+      if (event.key === "Enter") {
+        handleSearch();
       }
     }
-
-    ref.current.addEventListener("keypress", handleEnterKey);
+    ref?.current?.addEventListener("keypress", handleEnterKey);
     return () => {
-      ref.current.removeEventListener("keypress", handleEnterKey);
+      ref?.current?.removeEventListener("keypress", handleEnterKey);
     };
-  }, [ref]);
+  }, [handleSearch]);
 
   return (
     <div className="search">
       <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
       <input
+        ref={ref}
         onChange={handleSearchChange}
         placeholder="Search for ability or item cards..."
-        ref={ref}
         type="text"
         value={search}
       />
@@ -69,7 +74,7 @@ function TopBar() {
         <Search />
         <div className="header-links">
           <div className="header-link">
-            <Link href="/characters">
+            <Link href="/characters?class=BR">
               <span>
                 <FontAwesomeIcon className="header-icon" icon={faShield} />
                 <a>Characters</a>

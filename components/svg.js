@@ -4,7 +4,7 @@ import MTicon from "../public/icons/classes/MT.svg";
 import SCicon from "../public/icons/classes/SC.svg";
 import SWicon from "../public/icons/classes/SW.svg";
 import TIicon from "../public/icons/classes/TI.svg";
-import { colours } from "../data/utils";
+import { colour } from "../data/common";
 
 const iconMap = {
   BR: BRicon,
@@ -19,7 +19,7 @@ const iconMap = {
 function SvgCharacterIcon({ character }) {
   const Icon = iconMap[character];
 
-  return <Icon fill={colours[character]} height="24px" width="24px" />;
+  return <Icon fill={colour(character)} height="24px" width="24px" />;
 }
 
 export default SvgCharacterIcon;

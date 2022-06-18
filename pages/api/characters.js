@@ -1,26 +1,17 @@
 import { characterAbilityCards } from "../../data/character-ability-cards";
+import { customSort } from "../../data/common";
 
 export async function characterSearchResults(query) {
   let searchResults = characterAbilityCards;
 
   // Filter
-  const className = query.class || "BR";
+  const className = query.class;
   searchResults = searchResults.filter((c) => c.class === className);
 
   // Sort
   const order = query.order || "level";
   const direction = query.dir || "asc";
-  searchResults = searchResults.sort((a, b) => {
-    let sort = 1;
-    if (a[order] > b[order]) {
-      sort = 1;
-    } else if (a[order] < b[order]) {
-      sort = -1;
-    } else {
-      return a.name > b.name ? 1 : -1;
-    }
-    return direction === "asc" ? sort : -1 * sort;
-  });
+  searchResults = searchResults.sort(customSort(order, direction));
 
   return searchResults;
 }
