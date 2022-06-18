@@ -5,7 +5,7 @@ const SpoilersContext = createContext();
 export const SpoilersProvider = ({ children }) => {
   const [spoilers, setSpoilers] = useState({
     characters: new Set(),
-    items: { prosperity: 1, recipes: false, other: false },
+    items: { prosperity: "1", recipes: false, other: false },
   });
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export const SpoilersProvider = ({ children }) => {
     if (!storageSpoilers) return;
 
     let parsedSpoilers = JSON.parse(storageSpoilers);
-    parsedSpoilers.characters = new Set(parsedSpoilers?.characters );
+    parsedSpoilers.characters = new Set(parsedSpoilers?.characters);
     setSpoilers(parsedSpoilers);
   }, []);
 

@@ -1,10 +1,12 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import Layout from "../components/layout";
-import Pagination from "../components/pagination";
 import { search } from "./api/search";
 import { baseUrl, colour } from "../data/common";
+
+import Layout from "../components/layout";
+import Pagination from "../components/pagination";
+import Spoilers from "../components/spoilers";
 
 const searchFilters = [
   { id: "characters", name: "Characters", icon: "/icons/equipment/head.png" },

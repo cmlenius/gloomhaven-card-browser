@@ -160,12 +160,13 @@ body {
 
 /* --- SPOILERS --- */
 .spoilers-overlay {
-  position: fixed;
   background-color: black;
-  opacity: 0.3;
   height: 100%;
   left: 0;
+  opacity: 0.3;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 9;
 }
 
@@ -173,18 +174,29 @@ body {
   background-color: #eee;
   height: 100%;
   opacity: 1;
+  overflow-x: hidden;
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 10;
   transition: 0.5s;
+  width: 360px;
+  white-space: nowrap;
+  z-index: 10;
 }
 
 .spoilers-inner {
-  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px 16px;
 }
 
+.spoilers h4 {
+  margin-left: 8px;
+}
+ 
 .spoilers ul {
+  margin: 0 0 12px;
   padding: 0;
 }
 
@@ -193,13 +205,46 @@ body {
   padding: 0;
 }
 
+.spoilers input {
+  accent-color: black;
+}
+
+.spoilers-close-icon {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+
 .spoiler-check-option {
   align-items: center;
   display: flex;
+  min-height: 28px;
 }
 
 .spoiler-check-option svg {
   margin: 2px 4px;
+}
+
+.spoilers .prosperity-spoilers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.spoilers .prosperity-option {
+  height: 20px;
+}
+
+.spoilers .prosperity-spoilers h5 {
+  align-self: center;
+  margin: 0;
+}
+
+.spoilers .prosperity-spoilers ul {
+  columns: 3;
+  -moz-columns: 3;
+  -webkit-columns: 3;
 }
 
 /* --- TOPBAR --- */
@@ -214,6 +259,7 @@ body {
 
 .topbarInner {
   align-items: center;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
@@ -271,6 +317,10 @@ body {
   width: 100%;
 }
 
+.topbar .search input::placeholder {
+  color: var(--grey);
+}
+
 .topbar .search input:focus {
   outline: none;
 }
@@ -315,6 +365,10 @@ body {
 @media (max-width: 660px) {
   .card {
     flex: 1 0 32.75%;
+  }
+
+  .spoilers {
+    width: 100%;
   }
 
   .pagination-btn span {

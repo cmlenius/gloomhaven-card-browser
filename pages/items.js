@@ -1,16 +1,18 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import Dropdown from "../components/dropdown";
-import Layout from "../components/layout";
-import Pagination from "../components/pagination";
 import { itemSearchResults } from "./api/items";
+import { useSpoilers } from "../hooks/useSpoilers";
 import {
   baseUrl,
   colour,
   optionToLabel,
   sortDirectionOptions,
 } from "../data/common";
+
+import Dropdown from "../components/dropdown";
+import Layout from "../components/layout";
+import Pagination from "../components/pagination";
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
@@ -136,6 +138,8 @@ function ItemsToolbar({ maxPageCount }) {
 }
 
 function Items({ searchResults, maxPageCount }) {
+  const { spoilers } = useSpoilers();
+
   useEffect(() => {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
@@ -145,11 +149,21 @@ function Items({ searchResults, maxPageCount }) {
       <ItemsToolbar maxPageCount={maxPageCount} />
       <div className="cardList">
         {searchResults &&
-          searchResults.map((card, idx) => (
-            <div key={idx} className="card">
-              <img className="card-img" src={baseUrl + card.image} />
-            </div>
-          ))}
+          searchResults
+            .filter((card) => {
+              if (card.source === "Prosperity")
+                return (
+                  card.prosperity <= parseInt(spoilers.items.prosperity, 10)
+                );
+              if (card.source === "Random Item Design")
+                return spoilers.items.recipes;
+              return spoilers.items.other;
+            })
+            .map((card, idx) => (
+              <div key={idx} className="card">
+                <img className="card-img" src={baseUrl + card.image} />
+              </div>
+            ))}
         {[...Array(4)].map((_, idx) => (
           <div key={idx} className="card" />
         ))}
