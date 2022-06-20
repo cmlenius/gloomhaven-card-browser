@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import InfiniteScroll from "react-infinite-scroller";
+import { faSackDollar, faShield } from "@fortawesome/free-solid-svg-icons";
 
 import { search } from "./api/search";
 import { baseUrl, baseCharacters, colour } from "../data/common";
@@ -10,8 +12,8 @@ import Layout from "../components/layout";
 const rowsPerPage = 20;
 
 const searchFilters = [
-  { id: "characters", name: "Characters", icon: "/icons/equipment/head.png" },
-  { id: "items", name: "Items", icon: "/icons/equipment/small.png" },
+  { id: "characters", name: "Characters", icon: faShield },
+  { id: "items", name: "Items", icon: faSackDollar },
 ];
 
 function SearchToolbar() {
@@ -34,14 +36,6 @@ function SearchToolbar() {
     <div className="toolbar">
       <div className="toolbar-inner">
         <div className="filters">
-          <div
-            className={`filter-icon ${
-              !query.type ? "filter-icon-selected" : ""
-            }`}
-            onClick={() => handleTypeChange("all")}
-          >
-            <span style={{ lineHeight: "24px" }}>All</span>
-          </div>
           {searchFilters.map((option, idx) => (
             <div
               key={idx}
@@ -50,7 +44,7 @@ function SearchToolbar() {
               }`}
               onClick={() => handleTypeChange(option.id)}
             >
-              <img src={option.icon} />
+              <FontAwesomeIcon icon={option.icon} height="18px" width="18px" />
             </div>
           ))}
         </div>
@@ -68,19 +62,28 @@ function Search({ searchResults }) {
   }
 
   function filterSpoilers(card) {
-    if (card.source === "Prosperity")
-      return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-    if (card.source === "Random Item Design") return spoilers.items.recipes;
-    if (card.source === "Other") return spoilers.items.other;
-    return (
-      baseCharacters.includes(card.class) ||
-      spoilers.characters?.has(card.class)
-    );
+    if (card.class) {
+      return (
+        baseCharacters.includes(card.class) ||
+        spoilers.characters?.has(card.class)
+      );
+    } else {
+      if (card.source === "Prosperity")
+        return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
+      if (card.source === "Random Item Design") return spoilers.items.recipes;
+      if (card.source === "Other") return spoilers.items.other;
+    }
+
+    return false;
   }
 
   useEffect(() => {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
+
+  useEffect(() => {
+    setCards(searchResults.slice(0, rowsPerPage));
+  }, [searchResults]);
 
   return (
     <Layout>

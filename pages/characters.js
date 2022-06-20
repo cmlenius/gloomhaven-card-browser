@@ -96,11 +96,18 @@ function Characters({ searchResults }) {
   const query = router.query;
 
   useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--primary",
-      colour(query.class)
-    );
-  }, [query.class]);
+    if (query.class) {
+      document.documentElement.style.setProperty(
+        "--primary",
+        colour(query.class)
+      );
+    } else {
+      router.push({
+        pathname: "/characters",
+        query: { ...query, class: "BR" },
+      });
+    }
+  }, [query, router]);
 
   return (
     <Layout>

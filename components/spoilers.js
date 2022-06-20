@@ -146,7 +146,7 @@ function Spoilers({ open, onClose }) {
         onClick={onClose}
         style={{ display: open ? "block" : "none" }}
       />
-      <div className="spoilers" style={{ width: open ? "360px" : "0px" }}>
+      <div className="spoilers" style={!open ? { width: "0px" } : {}}>
         <div className="spoilers-inner">
           <FontAwesomeIcon
             className="spoilers-close-icon"
@@ -154,8 +154,8 @@ function Spoilers({ open, onClose }) {
             onClick={onClose}
           />
 
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <div>
+          <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <div className="spoiler-section">
               <div
                 className="spoiler-check-option"
                 onClick={handleCharacterSpoilerToggleAll}
@@ -171,11 +171,10 @@ function Spoilers({ open, onClose }) {
                 {unlockabelClasses.map((char, idx) => (
                   <CharacterSpoiler key={idx} char={char} />
                 ))}
-                <li className="spoiler-check-option" />
               </ul>
             </div>
 
-            <div>
+            <div className="spoiler-section">
               <div
                 className="spoiler-check-option"
                 onClick={handleItemSpoilerToggleAll}

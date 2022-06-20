@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faClose,
+  faBars,
   faEye,
   faMagnifyingGlass,
   faSackDollar,
@@ -33,13 +33,13 @@ function Search() {
         },
       });
     }
-  }, [search]);
+  }, [query.search, router, search]);
 
   useEffect(() => {
     if (query.search && query.search !== search) {
       setSearch(query.search);
     }
-  }, [query.search]);
+  }, [query.search, search]);
 
   useEffect(() => {
     if (!ref.current) return;
@@ -53,7 +53,7 @@ function Search() {
     return () => {
       ref?.current?.removeEventListener("keypress", handleEnterKey);
     };
-  }, [handleSearch]);
+  }, [handleSearch, ref]);
 
   return (
     <div className="search">
@@ -69,36 +69,59 @@ function Search() {
   );
 }
 
+function HeaderLinks({ openSpoilerDrawer }) {
+  return (
+    <div className="header-links">
+      <div className="header-link">
+        <Link href="/characters?class=BR">
+          <span>
+            <FontAwesomeIcon className="header-icon" icon={faShield} />
+            <a>Characters</a>
+          </span>
+        </Link>
+      </div>
+      <div className="header-link">
+        <Link href="/items">
+          <span>
+            <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
+            <a>Items</a>
+          </span>
+        </Link>
+      </div>
+      <div className="header-link" onClick={openSpoilerDrawer}>
+        <span>
+          <FontAwesomeIcon className="header-icon" icon={faEye} />
+          <a>Spoilers</a>
+        </span>
+      </div>
+    </div>
+  );
+}
+
 function TopBar({ openSpoilerDrawer }) {
+  const [hiddenLinksOpen, setHiddenLinksOpen] = useState(true);
+
+  function handleHiddenLinksToggle() {
+    setHiddenLinksOpen(!hiddenLinksOpen);
+  }
+
   return (
     <nav className="topbar">
       <div className="topbar-inner">
         <img src="/logo.png" style={{ height: 40, width: 40 }} />
         <Search />
-        <div className="header-links">
-          <div className="header-link">
-            <Link href="/characters?class=BR">
-              <span>
-                <FontAwesomeIcon className="header-icon" icon={faShield} />
-                <a>Characters</a>
-              </span>
-            </Link>
-          </div>
-          <div className="header-link">
-            <Link href="/items">
-              <span>
-                <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
-                <a>Items</a>
-              </span>
-            </Link>
-          </div>
-          <div className="header-link" onClick={() => openSpoilerDrawer(true)}>
-            <span>
-              <FontAwesomeIcon className="header-icon" icon={faEye} />
-              <a>Spoilers</a>
-            </span>
-          </div>
+        <div className="main-header-links">
+          <HeaderLinks openSpoilerDrawer={openSpoilerDrawer} />
         </div>
+        <div className="view-more" onClick={handleHiddenLinksToggle}>
+          <FontAwesomeIcon className="header-icon" icon={faBars} />
+        </div>
+      </div>
+      <div
+        className="topbar-hidden-links"
+        style={hiddenLinksOpen ? { height: "52px" } : {}}
+      >
+        <HeaderLinks openSpoilerDrawer={openSpoilerDrawer} />
       </div>
     </nav>
   );

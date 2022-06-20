@@ -19,7 +19,6 @@ const rowsPerPage = 20;
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
   { id: "cost", name: "Cost" },
-  { id: "slot", name: "Equipment Slot" },
   { id: "name", name: "Name" },
 ];
 

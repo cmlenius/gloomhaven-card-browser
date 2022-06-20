@@ -22,8 +22,6 @@ export async function itemSearchResults(query) {
   const direction = query.dir || "asc";
   searchResults = searchResults.sort(customSort(order, direction));
 
-  console.log("aaa");
-
   return searchResults;
 }
 
