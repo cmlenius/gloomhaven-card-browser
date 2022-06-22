@@ -1,19 +1,20 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import InfiniteScroll from "react-infinite-scroller";
-import { faSackDollar, faShield } from "@fortawesome/free-solid-svg-icons";
 
 import { search } from "./api/search";
-import { baseUrl, baseCharacters, colour } from "../data/common";
+import { baseUrl, baseCharacters, colour, optionToLabel } from "../data/common";
 import { useSpoilers } from "../hooks/useSpoilers";
+
+import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
 
 const rowsPerPage = 20;
 
-const searchFilters = [
-  { id: "characters", name: "Characters", icon: faShield },
-  { id: "items", name: "Items", icon: faSackDollar },
+const searchFiltersOptions = [
+  { id: "all", name: "All" },
+  { id: "characters", name: "Characters" },
+  { id: "items", name: "Items" },
 ];
 
 function SearchToolbar() {
@@ -35,19 +36,11 @@ function SearchToolbar() {
   return (
     <div className="toolbar">
       <div className="toolbar-inner">
-        <div className="filters">
-          {searchFilters.map((option, idx) => (
-            <div
-              key={idx}
-              className={`filter-icon ${
-                query.type === option.id ? "filter-icon-selected" : ""
-              }`}
-              onClick={() => handleTypeChange(option.id)}
-            >
-              <FontAwesomeIcon icon={option.icon} height="18px" width="18px" />
-            </div>
-          ))}
-        </div>
+        <Dropdown
+          onChange={handleTypeChange}
+          options={searchFiltersOptions}
+          value={optionToLabel(query.type, searchFiltersOptions)}
+        />
       </div>
     </div>
   );
@@ -88,27 +81,24 @@ function Search({ searchResults }) {
   return (
     <Layout>
       <SearchToolbar />
-      <div className="cardList">
-        {searchResults && (
-          <InfiniteScroll
-            pageStart={0}
-            loadMore={loadMore}
-            hasMore={cards.length < searchResults.length}
-            loader={<h4 key={0}>Loading...</h4>}
-          >
-            <div className="card-list">
-              {cards.filter(filterSpoilers).map((card, idx) => (
-                <div key={idx} className="card">
-                  <img className="card-img" src={baseUrl + card.image} />
-                </div>
-              ))}
-              {[...Array(4)].map((_, idx) => (
-                <div key={idx} className="card" />
-              ))}
+      {searchResults && (
+        <InfiniteScroll
+          className="card-list"
+          hasMore={cards.length < searchResults.length}
+          loader={<h4 key={0}>Loading...</h4>}
+          loadMore={loadMore}
+          pageStart={0}
+        >
+          {cards.filter(filterSpoilers).map((card, idx) => (
+            <div key={idx} className="card">
+              <img alt="" className="card-img" src={baseUrl + card.image} />
             </div>
-          </InfiniteScroll>
-        )}
-      </div>
+          ))}
+          {[...Array(4)].map((_, idx) => (
+            <div key={idx} className="card" />
+          ))}
+        </InfiniteScroll>
+      )}
     </Layout>
   );
 }

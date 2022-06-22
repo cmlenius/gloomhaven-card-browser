@@ -36,10 +36,8 @@ function Search() {
   }, [query.search, router, search]);
 
   useEffect(() => {
-    if (query.search && query.search !== search) {
-      setSearch(query.search);
-    }
-  }, [query.search, search]);
+    setSearch(query.search);
+  }, [query.search]);
 
   useEffect(() => {
     if (!ref.current) return;
@@ -57,7 +55,11 @@ function Search() {
 
   return (
     <div className="search">
-      <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
+      <FontAwesomeIcon
+        className="search-icon"
+        icon={faMagnifyingGlass}
+        onClick={handleSearch}
+      />
       <input
         ref={ref}
         onChange={handleSearchChange}
@@ -99,6 +101,7 @@ function HeaderLinks({ openSpoilerDrawer }) {
 }
 
 function TopBar({ openSpoilerDrawer }) {
+  const router = useRouter();
   const [hiddenLinksOpen, setHiddenLinksOpen] = useState(true);
 
   function handleHiddenLinksToggle() {
@@ -108,7 +111,16 @@ function TopBar({ openSpoilerDrawer }) {
   return (
     <nav className="topbar">
       <div className="topbar-inner">
-        <img src="/logo.png" style={{ height: 40, width: 40 }} />
+        <img
+          alt=""
+          src="/logo.png"
+          style={{ cursor: "pointer", height: 40, width: 40 }}
+          onClick={() => {
+            router.push({
+              pathname: "/characters",
+            });
+          }}
+        />
         <Search />
         <div className="main-header-links">
           <HeaderLinks openSpoilerDrawer={openSpoilerDrawer} />

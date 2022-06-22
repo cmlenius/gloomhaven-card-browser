@@ -185,11 +185,13 @@ function Spoilers({ open, onClose }) {
               <div className="prosperity-spoilers">
                 <h5>Prosperity</h5>
                 <ul>
-                  {Array.from({ length: 9 }, (_, i) => String(i + 1)).map(
-                    (idx) => (
-                      <ProsperitySpoiler key={idx} level={idx} />
-                    )
-                  )}
+                  {[
+                    ...Array.from({ length: 3 }, (_, i) => String(i * 3 + 1)),
+                    ...Array.from({ length: 3 }, (_, i) => String(i * 3 + 2)),
+                    ...Array.from({ length: 3 }, (_, i) => String(i * 3 + 3)),
+                  ].map((idx) => (
+                    <ProsperitySpoiler key={idx} level={idx} />
+                  ))}
                 </ul>
               </div>
               <ItemSpoiler label="Random Item Designs" path="recipes" />

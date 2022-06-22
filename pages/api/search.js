@@ -2,8 +2,6 @@ import { characterAbilityCards } from "../../data/character-ability-cards";
 import { itemCards } from "../../data/item-cards";
 import { customSort } from "../../data/common";
 
-const rowsPerPage = 30;
-
 export async function search(query) {
   // Filter
   let searchResults = [

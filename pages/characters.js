@@ -122,7 +122,7 @@ function Characters({ searchResults }) {
             )
             .map((card, idx) => (
               <div key={idx} className="card">
-                <img className="card-img" src={baseUrl + card.image} />
+                <img alt="" className="card-img" src={baseUrl + card.image} />
               </div>
             ))}
         {[...Array(4)].map((_, idx) => (

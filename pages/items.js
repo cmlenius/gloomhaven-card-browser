@@ -68,7 +68,7 @@ function ItemFilters() {
           }`}
           onClick={() => handleSlotChange(slot.id)}
         >
-          <img src={slot.icon} />
+          <img alt="" src={slot.icon} />
         </div>
       ))}
       <span style={{ marginLeft: "16px" }} />
@@ -80,7 +80,7 @@ function ItemFilters() {
           }`}
           onClick={() => handleActivationsChange(activations.id)}
         >
-          <img src={activations.icon} />
+          <img alt="" src={activations.icon} />
         </div>
       ))}
     </div>
@@ -148,31 +148,30 @@ function Items({ searchResults }) {
       <ItemsToolbar />
       {searchResults && (
         <InfiniteScroll
-          pageStart={0}
-          loadMore={loadMore}
+          className="card-list"
           hasMore={items.length < searchResults.length}
           loader={<h4 key={0}>Loading...</h4>}
+          loadMore={loadMore}
+          pageStart={0}
         >
-          <div className="card-list">
-            {items
-              .filter((card) => {
-                if (card.source === "Prosperity")
-                  return (
-                    card.prosperity <= parseInt(spoilers.items.prosperity, 10)
-                  );
-                if (card.source === "Random Item Design")
-                  return spoilers.items.recipes;
-                return spoilers.items.other;
-              })
-              .map((card, idx) => (
-                <div key={idx} className="card">
-                  <img className="card-img" src={baseUrl + card.image} />
-                </div>
-              ))}
-            {[...Array(4)].map((_, idx) => (
-              <div key={idx} className="card" />
+          {items
+            .filter((card) => {
+              if (card.source === "Prosperity")
+                return (
+                  card.prosperity <= parseInt(spoilers.items.prosperity, 10)
+                );
+              if (card.source === "Random Item Design")
+                return spoilers.items.recipes;
+              return spoilers.items.other;
+            })
+            .map((card, idx) => (
+              <div key={idx} className="card">
+                <img alt="" className="card-img" src={baseUrl + card.image} />
+              </div>
             ))}
-          </div>
+          {[...Array(4)].map((_, idx) => (
+            <div key={idx} className="card" />
+          ))}
         </InfiniteScroll>
       )}
     </Layout>

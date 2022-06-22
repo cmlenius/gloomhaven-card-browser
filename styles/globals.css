@@ -318,7 +318,7 @@ input[type="radio"] {
   margin-left: 12px;
 }
 
-.topbar .search input {
+.topbar .search input[type=text] {
   background: none;
   border: none;
   caret-color: white;
@@ -327,17 +327,27 @@ input[type="radio"] {
   width: 100%;
 }
 
-.topbar .search input::placeholder {
+.topbar .search input[type=text]::placeholder {
   color: var(--grey);
   font-size: 14px;
 }
 
-.topbar .search input:focus {
+.topbar .search input[type=text]:focus {
   outline: none;
+}
+
+.topbar .search-filters {
+  color: var(--grey);
+  flex: 0 0 120px;
+}
+ 
+.topbar .search-filters input[type=checkbox] {
+  margin-right: 4px;
 }
 
 .topbar .search-icon {
   color: var(--grey);
+  cursor: pointer;
   height: 20px;
   margin-right: 8px;
   width: 20px;
