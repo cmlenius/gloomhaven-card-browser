@@ -67,6 +67,23 @@ input[type="radio"] {
   height: auto;
   width: 100%;
 }
+ 
+.mat-list {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 720px;
+  padding: 0 8px;
+  width: 100%;
+}
+ 
+.mat {
+  flex: 1 0 100%;
+  margin: 4px;
+}
 
 /* --- DROPDOWN --- */
 .dropdown {

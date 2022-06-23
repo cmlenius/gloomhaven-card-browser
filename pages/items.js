@@ -138,12 +138,12 @@ function Items({ searchResults }) {
   }
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", colour(null));
-  }, []);
+    setItems(searchResults?.slice(0, cardsPerPage) || []);
+  }, [searchResults]);
 
   useEffect(() => {
-    setItems(searchResults.slice(0, cardsPerPage));
-  }, [searchResults]);
+    document.documentElement.style.setProperty("--primary", colour(null));
+  }, []);
 
   const cardList = items.filter((card) => {
     if (card.source === "Prosperity")

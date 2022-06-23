@@ -62,12 +62,12 @@ function Search({ searchResults }) {
   }
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", colour(null));
-  }, []);
+    setCards(searchResults?.slice(0, cardsPerPage) || []);
+  }, [searchResults]);
 
   useEffect(() => {
-    setCards(searchResults.slice(0, cardsPerPage));
-  }, [searchResults]);
+    document.documentElement.style.setProperty("--primary", colour(null));
+  }, []);
 
   const cardList = cards.filter((card) => {
     if (card.class) {

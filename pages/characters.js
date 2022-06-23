@@ -108,6 +108,10 @@ function Characters({ searchResults }) {
   }
 
   useEffect(() => {
+    setClasses(searchResults?.slice(0, cardsPerPage) || []);
+  }, [searchResults]);
+
+  useEffect(() => {
     if (query.class) {
       document.documentElement.style.setProperty(
         "--primary",
@@ -120,10 +124,6 @@ function Characters({ searchResults }) {
       });
     }
   }, [query, router]);
-
-  useEffect(() => {
-    setClasses(searchResults?.slice(0, cardsPerPage) || []);
-  }, [searchResults]);
 
   const cardList =
     classes?.filter(

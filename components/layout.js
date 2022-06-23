@@ -6,6 +6,7 @@ import {
   faBars,
   faEye,
   faMagnifyingGlass,
+  faScroll,
   faSackDollar,
   faShield,
 } from "@fortawesome/free-solid-svg-icons";
@@ -87,6 +88,14 @@ function HeaderLinks({ openSpoilerDrawer }) {
           <span>
             <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
             <a>Items</a>
+          </span>
+        </Link>
+      </div>
+      <div className="header-link">
+        <Link href="/mats">
+          <span>
+            <FontAwesomeIcon className="header-icon" icon={faScroll} />
+            <a>Mats</a>
           </span>
         </Link>
       </div>

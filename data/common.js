@@ -1,5 +1,6 @@
-export const baseUrl =
-  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/images/";
+//export const baseUrl =
+//  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/images/";
+export const baseUrl = "http://localhost:8000/"
 
 export const defaultColour = "#432423";
 export const cardsPerPage = 8;
