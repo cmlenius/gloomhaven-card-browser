@@ -12,6 +12,7 @@ import {
 } from "../data/common";
 
 import Dropdown from "../components/dropdown";
+import Empty from "../components/empty";
 import Layout from "../components/layout";
 
 const rowsPerPage = 20;
@@ -129,7 +130,9 @@ function ItemsToolbar() {
 
 function Items({ searchResults }) {
   const { spoilers } = useSpoilers();
-  const [items, setItems] = useState(searchResults.slice(0, rowsPerPage));
+  const [items, setItems] = useState(
+    searchResults?.slice(0, rowsPerPage) || []
+  );
 
   function loadMore(page) {
     setItems(searchResults.slice(0, (page + 1) * rowsPerPage));
@@ -143,10 +146,17 @@ function Items({ searchResults }) {
     setItems(searchResults.slice(0, rowsPerPage));
   }, [searchResults]);
 
+  const cardList = items.filter((card) => {
+    if (card.source === "Prosperity")
+      return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
+    if (card.source === "Random Item Design") return spoilers.items.recipes;
+    return spoilers.items.other;
+  });
+
   return (
     <Layout>
       <ItemsToolbar />
-      {searchResults && (
+      {cardList.length > 0 ? (
         <InfiniteScroll
           className="card-list"
           hasMore={items.length < searchResults.length}
@@ -154,25 +164,17 @@ function Items({ searchResults }) {
           loadMore={loadMore}
           pageStart={0}
         >
-          {items
-            .filter((card) => {
-              if (card.source === "Prosperity")
-                return (
-                  card.prosperity <= parseInt(spoilers.items.prosperity, 10)
-                );
-              if (card.source === "Random Item Design")
-                return spoilers.items.recipes;
-              return spoilers.items.other;
-            })
-            .map((card, idx) => (
-              <div key={idx} className="card">
-                <img alt="" className="card-img" src={baseUrl + card.image} />
-              </div>
-            ))}
+          {cardList.map((card, idx) => (
+            <div key={idx} className="card">
+              <img alt="" className="card-img" src={baseUrl + card.image} />
+            </div>
+          ))}
           {[...Array(4)].map((_, idx) => (
             <div key={idx} className="card" />
           ))}
         </InfiniteScroll>
+      ) : (
+        <Empty />
       )}
     </Layout>
   );

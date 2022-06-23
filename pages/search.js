@@ -7,6 +7,7 @@ import { baseUrl, baseCharacters, colour, optionToLabel } from "../data/common";
 import { useSpoilers } from "../hooks/useSpoilers";
 
 import Dropdown from "../components/dropdown";
+import Empty from "../components/empty";
 import Layout from "../components/layout";
 
 const rowsPerPage = 20;
@@ -48,7 +49,9 @@ function SearchToolbar() {
 
 function Search({ searchResults }) {
   const { spoilers } = useSpoilers();
-  const [cards, setCards] = useState(searchResults.slice(0, rowsPerPage));
+  const [cards, setCards] = useState(
+    searchResults?.slice(0, rowsPerPage) || []
+  );
 
   function loadMore(page) {
     setCards(searchResults.slice(0, (page + 1) * rowsPerPage));
@@ -78,10 +81,12 @@ function Search({ searchResults }) {
     setCards(searchResults.slice(0, rowsPerPage));
   }, [searchResults]);
 
+  const cardList = cards.filter(filterSpoilers);
+
   return (
     <Layout>
       <SearchToolbar />
-      {searchResults && (
+      {cardList.length > 0 ? (
         <InfiniteScroll
           className="card-list"
           hasMore={cards.length < searchResults.length}
@@ -89,7 +94,7 @@ function Search({ searchResults }) {
           loadMore={loadMore}
           pageStart={0}
         >
-          {cards.filter(filterSpoilers).map((card, idx) => (
+          {cardList.map((card, idx) => (
             <div key={idx} className="card">
               <img alt="" className="card-img" src={baseUrl + card.image} />
             </div>
@@ -98,6 +103,8 @@ function Search({ searchResults }) {
             <div key={idx} className="card" />
           ))}
         </InfiniteScroll>
+      ) : (
+        <Empty />
       )}
     </Layout>
   );
