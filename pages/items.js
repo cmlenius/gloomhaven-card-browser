@@ -6,6 +6,7 @@ import { itemSearchResults } from "./api/items";
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
   baseUrl,
+  cardsPerPage,
   colour,
   optionToLabel,
   sortDirectionOptions,
@@ -14,8 +15,6 @@ import {
 import Dropdown from "../components/dropdown";
 import Empty from "../components/empty";
 import Layout from "../components/layout";
-
-const rowsPerPage = 20;
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
@@ -131,11 +130,11 @@ function ItemsToolbar() {
 function Items({ searchResults }) {
   const { spoilers } = useSpoilers();
   const [items, setItems] = useState(
-    searchResults?.slice(0, rowsPerPage) || []
+    searchResults?.slice(0, cardsPerPage) || []
   );
 
   function loadMore(page) {
-    setItems(searchResults.slice(0, (page + 1) * rowsPerPage));
+    setItems(searchResults.slice(0, (page + 1) * cardsPerPage));
   }
 
   useEffect(() => {
@@ -143,7 +142,7 @@ function Items({ searchResults }) {
   }, []);
 
   useEffect(() => {
-    setItems(searchResults.slice(0, rowsPerPage));
+    setItems(searchResults.slice(0, cardsPerPage));
   }, [searchResults]);
 
   const cardList = items.filter((card) => {

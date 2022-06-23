@@ -1,7 +1,8 @@
 export const baseUrl =
   "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/images/";
 
-const defaultColour = "#432423";
+export const defaultColour = "#432423";
+export const cardsPerPage = 8;
 
 export const sortDirectionOptions = [
   { id: "asc", name: "Asc" },

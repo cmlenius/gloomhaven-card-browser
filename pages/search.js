@@ -3,14 +3,18 @@ import { useRouter } from "next/router";
 import InfiniteScroll from "react-infinite-scroller";
 
 import { search } from "./api/search";
-import { baseUrl, baseCharacters, colour, optionToLabel } from "../data/common";
+import {
+  baseUrl,
+  baseCharacters,
+  cardsPerPage,
+  colour,
+  optionToLabel,
+} from "../data/common";
 import { useSpoilers } from "../hooks/useSpoilers";
 
 import Dropdown from "../components/dropdown";
 import Empty from "../components/empty";
 import Layout from "../components/layout";
-
-const rowsPerPage = 20;
 
 const searchFiltersOptions = [
   { id: "all", name: "All" },
@@ -50,14 +54,22 @@ function SearchToolbar() {
 function Search({ searchResults }) {
   const { spoilers } = useSpoilers();
   const [cards, setCards] = useState(
-    searchResults?.slice(0, rowsPerPage) || []
+    searchResults?.slice(0, cardsPerPage) || []
   );
 
   function loadMore(page) {
-    setCards(searchResults.slice(0, (page + 1) * rowsPerPage));
+    setCards(searchResults.slice(0, (page + 1) * cardsPerPage));
   }
 
-  function filterSpoilers(card) {
+  useEffect(() => {
+    document.documentElement.style.setProperty("--primary", colour(null));
+  }, []);
+
+  useEffect(() => {
+    setCards(searchResults.slice(0, cardsPerPage));
+  }, [searchResults]);
+
+  const cardList = cards.filter((card) => {
     if (card.class) {
       return (
         baseCharacters.includes(card.class) ||
@@ -71,17 +83,7 @@ function Search({ searchResults }) {
     }
 
     return false;
-  }
-
-  useEffect(() => {
-    document.documentElement.style.setProperty("--primary", colour(null));
-  }, []);
-
-  useEffect(() => {
-    setCards(searchResults.slice(0, rowsPerPage));
-  }, [searchResults]);
-
-  const cardList = cards.filter(filterSpoilers);
+  });
 
   return (
     <Layout>

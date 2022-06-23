@@ -1,10 +1,12 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import InfiniteScroll from "react-infinite-scroller";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
   baseCharacters,
   baseUrl,
+  cardsPerPage,
   characterClasses,
   colour,
   hiddenCharacters,
@@ -97,6 +99,14 @@ function Characters({ searchResults }) {
   const router = useRouter();
   const query = router.query;
 
+  const [classes, setClasses] = useState(
+    searchResults?.slice(0, cardsPerPage) || []
+  );
+
+  function loadMore(page) {
+    setClasses(searchResults.slice(0, (page + 1) * cardsPerPage));
+  }
+
   useEffect(() => {
     if (query.class) {
       document.documentElement.style.setProperty(
@@ -111,8 +121,12 @@ function Characters({ searchResults }) {
     }
   }, [query, router]);
 
+  useEffect(() => {
+    setClasses(searchResults?.slice(0, cardsPerPage) || []);
+  }, [searchResults]);
+
   const cardList =
-    searchResults?.filter(
+    classes?.filter(
       (card) =>
         baseCharacters.includes(card.class) ||
         spoilers.characters?.has(card.class) ||
@@ -123,7 +137,13 @@ function Characters({ searchResults }) {
     <Layout>
       <CharacterToolbar />
       {cardList.length > 0 ? (
-        <div className="card-list">
+        <InfiniteScroll
+          className="card-list"
+          hasMore={classes.length < searchResults.length}
+          loader={<h4 key={0}>Loading...</h4>}
+          loadMore={loadMore}
+          pageStart={0}
+        >
           {cardList.map((card, idx) => (
             <div key={idx} className="card">
               <img alt="" className="card-img" src={baseUrl + card.image} />
@@ -132,7 +152,7 @@ function Characters({ searchResults }) {
           {[...Array(4)].map((_, idx) => (
             <div key={idx} className="card" />
           ))}
-        </div>
+        </InfiniteScroll>
       ) : (
         <Empty />
       )}
