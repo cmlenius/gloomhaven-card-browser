@@ -43,6 +43,8 @@ const iconMap = {
 function SvgCharacterIcon({ character }) {
   const Icon = iconMap[character];
 
+  if (!Icon) return <div />;
+
   return <Icon fill={colour(character)} height="24px" width="24px" />;
 }
 

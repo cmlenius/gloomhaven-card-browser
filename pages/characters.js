@@ -7,11 +7,13 @@ import {
   baseUrl,
   characterClasses,
   colour,
+  hiddenCharacters,
   optionToLabel,
   sortDirectionOptions,
 } from "../data/common";
 import { characterSearchResults } from "./api/characters";
 
+import Empty from "../components/empty";
 import Dropdown from "../components/dropdown";
 import Layout from "../components/layout";
 import SvgCharacterIcon from "../components/svg";
@@ -109,26 +111,31 @@ function Characters({ searchResults }) {
     }
   }, [query, router]);
 
+  const cardList =
+    searchResults?.filter(
+      (card) =>
+        baseCharacters.includes(card.class) ||
+        spoilers.characters?.has(card.class) ||
+        hiddenCharacters.includes(card.class)
+    ) || [];
+
   return (
     <Layout>
       <CharacterToolbar />
-      <div className="card-list">
-        {searchResults &&
-          searchResults
-            .filter(
-              (card) =>
-                baseCharacters.includes(card.class) ||
-                spoilers.characters?.has(card.class)
-            )
-            .map((card, idx) => (
-              <div key={idx} className="card">
-                <img alt="" className="card-img" src={baseUrl + card.image} />
-              </div>
-            ))}
-        {[...Array(4)].map((_, idx) => (
-          <div key={idx} className="card" />
-        ))}
-      </div>
+      {cardList.length > 0 ? (
+        <div className="card-list">
+          {cardList.map((card, idx) => (
+            <div key={idx} className="card">
+              <img alt="" className="card-img" src={baseUrl + card.image} />
+            </div>
+          ))}
+          {[...Array(4)].map((_, idx) => (
+            <div key={idx} className="card" />
+          ))}
+        </div>
+      ) : (
+        <Empty />
+      )}
     </Layout>
   );
 }

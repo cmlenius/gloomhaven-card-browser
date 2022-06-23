@@ -36,7 +36,7 @@ function Search() {
   }, [query.search, router, search]);
 
   useEffect(() => {
-    setSearch(query.search);
+    setSearch(query.search || "");
   }, [query.search]);
 
   useEffect(() => {
