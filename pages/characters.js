@@ -7,6 +7,7 @@ import {
   baseUrl,
   characterClasses,
   colour,
+  hiddenCharacters,
   optionToLabel,
   sortDirectionOptions,
 } from "../data/common";
@@ -118,7 +119,8 @@ function Characters({ searchResults }) {
             .filter(
               (card) =>
                 baseCharacters.includes(card.class) ||
-                spoilers.characters?.has(card.class)
+                spoilers.characters?.has(card.class) ||
+                hiddenCharacters.includes(card.class)
             )
             .map((card, idx) => (
               <div key={idx} className="card">

@@ -480,14 +480,6 @@ export const characterAbilityCards = [
     level: 5,
   },
   {
-    name: "lightning moths",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-bioluminescence.png",
-    initiative: 80,
-    level: 5,
-  },
-  {
     name: "blood drain",
     class: "BS",
     expansion: "Gloomhaven",
@@ -520,14 +512,6 @@ export const characterAbilityCards = [
     level: 1,
   },
   {
-    name: "soul leeches",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-corrupting-parasites.png",
-    initiative: 97,
-    level: 1,
-  },
-  {
     name: "cyclone of blades",
     class: "BS",
     expansion: "Gloomhaven",
@@ -537,14 +521,6 @@ export const characterAbilityCards = [
   },
   {
     name: "death march",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-death-march.png",
-    initiative: 84,
-    level: 1,
-  },
-  {
-    name: "creeping beetles",
     class: "BS",
     expansion: "Gloomhaven",
     image: "character-ability-cards/BS/gh-death-march.png",
@@ -576,14 +552,6 @@ export const characterAbilityCards = [
     level: 1,
   },
   {
-    name: "angry wasps",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-engulfing-stingers.png",
-    initiative: 88,
-    level: 1,
-  },
-  {
     name: "focused scourge",
     class: "BS",
     expansion: "Gloomhaven",
@@ -593,14 +561,6 @@ export const characterAbilityCards = [
   },
   {
     name: "fury of the horde",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-fury-of-the-horde.png",
-    initiative: 86,
-    level: 7,
-  },
-  {
-    name: "rage hornets",
     class: "BS",
     expansion: "Gloomhaven",
     image: "character-ability-cards/BS/gh-fury-of-the-horde.png",
@@ -672,14 +632,6 @@ export const characterAbilityCards = [
     level: 3,
   },
   {
-    name: "bloat maggots",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-putrid-grubs.png",
-    initiative: 16,
-    level: 3,
-  },
-  {
     name: "repulsive host",
     class: "BS",
     expansion: "Gloomhaven",
@@ -736,14 +688,6 @@ export const characterAbilityCards = [
     level: 1.5,
   },
   {
-    name: "steel scarabs",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-unstoppable-army.png",
-    initiative: 94,
-    level: 1.5,
-  },
-  {
     name: "vampiric tempest",
     class: "BS",
     expansion: "Gloomhaven",
@@ -753,14 +697,6 @@ export const characterAbilityCards = [
   },
   {
     name: "wasteland",
-    class: "BS",
-    expansion: "Gloomhaven",
-    image: "character-ability-cards/BS/gh-wasteland.png",
-    initiative: 96,
-    level: 9,
-  },
-  {
-    name: "rust vermin",
     class: "BS",
     expansion: "Gloomhaven",
     image: "character-ability-cards/BS/gh-wasteland.png",

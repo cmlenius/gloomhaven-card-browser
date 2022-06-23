@@ -95,7 +95,7 @@ function ProsperitySpoiler({ level }) {
 
 function Spoilers({ open, onClose }) {
   const { spoilers, updateSpoilers } = useSpoilers();
-  const unlockabelClasses = characters.filter((c) => !c.base);
+  const unlockabelClasses = characters.filter((c) => !c.base && !c.hidden);
 
   function handleCharacterSpoilerToggleAll() {
     let newArr = [];
