@@ -91,6 +91,7 @@ function Items({ searchResults }) {
     if (card.source === "Prosperity")
       return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
     if (card.source === "Random Item Design") return spoilers.items.recipes;
+    if (card.source === "Solo Scenario") return spoilers.items.solo;
     return spoilers.items.other;
   };
 
