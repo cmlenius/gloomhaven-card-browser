@@ -12,9 +12,9 @@ import {
   sortDirectionOptions,
 } from "../data/common";
 
-import Dropdown from "../components/dropdown";
-import Empty from "../components/empty";
-import Layout from "../components/layout";
+import Dropdown from "../components/Dropdown";
+import Empty from "../components/Empty";
+import Layout from "../components/Layout";
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },

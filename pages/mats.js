@@ -12,9 +12,9 @@ import {
   sortDirectionOptions,
 } from "../data/common";
 
-import Empty from "../components/empty";
-import Dropdown from "../components/dropdown";
-import Layout from "../components/layout";
+import Dropdown from "../components/Dropdown";
+import Empty from "../components/Empty";
+import Layout from "../components/Layout";
 
 const matsPerPage = 5;
 

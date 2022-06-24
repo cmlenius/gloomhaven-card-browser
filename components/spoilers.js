@@ -3,7 +3,7 @@ import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import { characters } from "../data/common";
-import SvgCharacterIcon from "./svg";
+import SvgCharacterIcon from "./Svg";
 
 function CharacterSpoiler({ char }) {
   const { spoilers, updateSpoilers } = useSpoilers();

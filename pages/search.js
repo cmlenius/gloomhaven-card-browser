@@ -12,9 +12,9 @@ import {
 } from "../data/common";
 import { useSpoilers } from "../hooks/useSpoilers";
 
-import Dropdown from "../components/dropdown";
-import Empty from "../components/empty";
-import Layout from "../components/layout";
+import Dropdown from "../components/Dropdown";
+import Empty from "../components/Empty";
+import Layout from "../components/Layout";
 
 const searchFiltersOptions = [
   { id: "all", name: "All" },

@@ -15,10 +15,10 @@ import {
 } from "../data/common";
 import { characterSearchResults } from "./api/characters";
 
-import Empty from "../components/empty";
-import Dropdown from "../components/dropdown";
-import Layout from "../components/layout";
-import SvgCharacterIcon from "../components/svg";
+import Dropdown from "../components/Dropdown";
+import Empty from "../components/Empty";
+import Layout from "../components/Layout";
+import SvgCharacterIcon from "../components/Svg";
 
 const sortOrderOptions = [
   { id: "level", name: "Level" },

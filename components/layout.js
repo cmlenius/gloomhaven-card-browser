@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
-import Spoilers from "../components/spoilers";
+import Spoilers from "../components/Spoilers";
 
 function Search() {
   const router = useRouter();
