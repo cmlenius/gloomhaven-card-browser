@@ -3,7 +3,6 @@
 export const baseUrl = "http://localhost:8000/"
 
 export const defaultColour = "#432423";
-export const cardsPerPage = 8;
 
 export function customSort(order, direction) {
   return (a, b) => {

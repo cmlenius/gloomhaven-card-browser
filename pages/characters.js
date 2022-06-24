@@ -1,18 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
-import InfiniteScroll from "react-infinite-scroller";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
   baseCharacters,
-  baseUrl,
-  cardsPerPage,
   characterClasses,
   colour,
   hiddenCharacters,
 } from "../data/common";
 import { characterSearchResults } from "./api/characters";
 
+import CardList from "../components/CardList";
 import Empty from "../components/Empty";
 import Layout from "../components/Layout";
 import Toolbar from "../components/Toolbar";
@@ -57,18 +55,6 @@ function Characters({ searchResults }) {
   const router = useRouter();
   const query = router.query;
 
-  const [classes, setClasses] = useState(
-    searchResults?.slice(0, cardsPerPage) || []
-  );
-
-  function loadMore(page) {
-    setClasses(searchResults.slice(0, (page + 1) * cardsPerPage));
-  }
-
-  useEffect(() => {
-    setClasses(searchResults?.slice(0, cardsPerPage) || []);
-  }, [searchResults]);
-
   useEffect(() => {
     if (query.class) {
       document.documentElement.style.setProperty(
@@ -83,13 +69,10 @@ function Characters({ searchResults }) {
     }
   }, [query, router]);
 
-  const cardList =
-    classes?.filter(
-      (card) =>
-        baseCharacters.includes(card.class) ||
-        spoilers.characters?.has(card.class) ||
-        hiddenCharacters.includes(card.class)
-    ) || [];
+  const spoilerFilterFn = (card) =>
+    baseCharacters.includes(card.class) ||
+    spoilers.characters?.has(card.class) ||
+    hiddenCharacters.includes(card.class);
 
   return (
     <Layout>
@@ -98,26 +81,10 @@ function Characters({ searchResults }) {
         pathname="/characters"
         sortOrderOptions={sortOrderOptions}
       />
-      {cardList.length > 0 ? (
-        <InfiniteScroll
-          className="card-list"
-          hasMore={classes.length < searchResults.length}
-          loader={<h4 key={0}>Loading...</h4>}
-          loadMore={loadMore}
-          pageStart={0}
-        >
-          {cardList.map((card, idx) => (
-            <div key={idx} className="card">
-              <img alt="" className="card-img" src={baseUrl + card.image} />
-            </div>
-          ))}
-          {[...Array(4)].map((_, idx) => (
-            <div key={idx} className="card" />
-          ))}
-        </InfiniteScroll>
-      ) : (
-        <Empty />
-      )}
+      <CardList
+        spoilerFilterFn={spoilerFilterFn}
+        searchResults={searchResults || []}
+      />
     </Layout>
   );
 }
