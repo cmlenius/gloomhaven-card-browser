@@ -137,6 +137,7 @@ export const characterMats = [
   },
   {
     class: "DR",
+    name: "",
     image: "character-mats/forgotten-circles/fc-diviner.png",
     expansion: "forgotten circles",
     cards: 9,
@@ -144,6 +145,7 @@ export const characterMats = [
   },
   {
     class: "DE",
+    name: "",
     image: "character-mats/jaws-of-the-lion/jl-demolitionist-front.png",
     expansion: "jaws of the lion",
     cards: 9,
@@ -151,6 +153,7 @@ export const characterMats = [
   },
   {
     class: "HA",
+    name: "",
     image: "character-mats/jaws-of-the-lion/jl-hatchet-front.png",
     expansion: "jaws of the lion",
     cards: 10,
@@ -158,6 +161,7 @@ export const characterMats = [
   },
   {
     class: "RG",
+    name: "",
     image: "character-mats/jaws-of-the-lion/jl-red-guard-front.png",
     expansion: "jaws of the lion",
     cards: 10,
@@ -165,6 +169,7 @@ export const characterMats = [
   },
   {
     class: "VW",
+    name: "",
     image: "character-mats/jaws-of-the-lion/jl-voidwarden-front.png",
     expansion: "jaws of the lion",
     cards: 11,
@@ -172,6 +177,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-amber-aegis.png",
     expansion: "crimson scales",
     cards: 1,
@@ -179,6 +185,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-artificer.png",
     expansion: "crimson scales",
     cards: 1,
@@ -186,6 +193,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-bombard.png",
     expansion: "crimson scales",
     cards: 1,
@@ -193,6 +201,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-brightspark.png",
     expansion: "crimson scales",
     cards: 1,
@@ -200,6 +209,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-chainguard.png",
     expansion: "crimson scales",
     cards: 1,
@@ -207,6 +217,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-chieftain.png",
     expansion: "crimson scales",
     cards: 1,
@@ -214,6 +225,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-fire-knight.png",
     expansion: "crimson scales",
     cards: 1,
@@ -221,6 +233,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-hierophant.png",
     expansion: "crimson scales",
     cards: 1,
@@ -228,6 +241,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-hollowpact.png",
     expansion: "crimson scales",
     cards: 1,
@@ -235,6 +249,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-luminary.png",
     expansion: "crimson scales",
     cards: 1,
@@ -242,6 +257,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-mirefoot.png",
     expansion: "crimson scales",
     cards: 1,
@@ -249,6 +265,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-ruinmaw.png",
     expansion: "crimson scales",
     cards: 1,
@@ -256,6 +273,7 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-spirit-caller.png",
     expansion: "crimson scales",
     cards: 1,
@@ -263,10 +281,10 @@ export const characterMats = [
   },
   {
     class: "BE",
+    name: "",
     image: "character-mats/crimson-scales/cs-starslinger.png",
     expansion: "crimson scales",
     cards: 1,
     health: 1,
   },
 ];
-

@@ -7,7 +7,6 @@ export async function matsSearchResults(query) {
   // Filter
   searchResults = searchResults.filter((m) => m.expansion === "gloomhaven");
 
-  console.log(query);
   // Sort
   const order = query.order || "name";
   const direction = query.dir || "asc";

@@ -25,16 +25,18 @@ function CharacterSpoiler({ char }) {
     );
   }
 
+  const isChecked = spoilers.characters.has(char.id);
+
   return (
     <li className="spoiler-check-option" onClick={handleCharacterSpoilerToggle}>
       <input
-        checked={spoilers.characters.has(char.id)}
+        checked={isChecked}
         readOnly
         style={{ accentColor: char.colour }}
         type="checkbox"
       />
       <SvgCharacterIcon character={char.id} />
-      <span>{char.name}</span>
+      <span>{isChecked ? char.name : char.altName}</span>
     </li>
   );
 }

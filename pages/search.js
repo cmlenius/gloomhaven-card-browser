@@ -44,7 +44,7 @@ function SearchToolbar() {
   );
 }
 
-function Search({ searchResults }) {
+function Search({ isMat, searchResults }) {
   const { spoilers } = useSpoilers();
 
   useEffect(() => {
@@ -71,6 +71,7 @@ function Search({ searchResults }) {
     <Layout>
       <SearchToolbar />
       <CardList
+        isSingleColumn={isMat}
         spoilerFilterFn={spoilerFilterFn}
         searchResults={searchResults || []}
       />
@@ -79,11 +80,12 @@ function Search({ searchResults }) {
 }
 
 export async function getServerSideProps(context) {
-  const { searchResults } = await search(context.query);
+  const { isMat, searchResults } = await search(context.query);
 
   return {
     props: {
-      searchResults: searchResults,
+      searchResults,
+      isMat,
     },
   };
 }
