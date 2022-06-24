@@ -5,15 +5,6 @@ export const baseUrl = "http://localhost:8000/"
 export const defaultColour = "#432423";
 export const cardsPerPage = 8;
 
-export const sortDirectionOptions = [
-  { id: "asc", name: "Asc" },
-  { id: "desc", name: "Desc" },
-];
-
-export function optionToLabel(id, options) {
-  return options.find((option) => id == option.id)?.name || options[0].name;
-}
-
 export function customSort(order, direction) {
   return (a, b) => {
     let sort = 1;

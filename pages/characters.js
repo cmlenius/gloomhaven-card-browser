@@ -10,14 +10,12 @@ import {
   characterClasses,
   colour,
   hiddenCharacters,
-  optionToLabel,
-  sortDirectionOptions,
 } from "../data/common";
 import { characterSearchResults } from "./api/characters";
 
-import Dropdown from "../components/Dropdown";
 import Empty from "../components/Empty";
 import Layout from "../components/Layout";
+import Toolbar from "../components/Toolbar";
 import SvgCharacterIcon from "../components/Svg";
 
 const sortOrderOptions = [
@@ -50,46 +48,6 @@ function ClassFilter() {
           <SvgCharacterIcon character={char} />
         </div>
       ))}
-    </div>
-  );
-}
-
-function CharacterToolbar() {
-  const router = useRouter();
-  const query = router.query;
-
-  function handleSortOrderChange(newOrder) {
-    router.push({
-      pathname: "/characters",
-      query: { ...query, order: newOrder },
-    });
-  }
-
-  function handleSortDirectionChange(newDirection) {
-    router.push({
-      pathname: "/characters",
-      query: { ...query, dir: newDirection },
-    });
-  }
-
-  return (
-    <div className="toolbar">
-      <div className="toolbar-inner">
-        <div className="sort">
-          <Dropdown
-            onChange={handleSortOrderChange}
-            options={sortOrderOptions}
-            value={optionToLabel(query.order, sortOrderOptions)}
-          />
-          <span style={{ margin: "0 8px" }}>:</span>
-          <Dropdown
-            onChange={handleSortDirectionChange}
-            options={sortDirectionOptions}
-            value={optionToLabel(query.dir, sortDirectionOptions)}
-          />
-        </div>
-        <ClassFilter />
-      </div>
     </div>
   );
 }
@@ -135,7 +93,11 @@ function Characters({ searchResults }) {
 
   return (
     <Layout>
-      <CharacterToolbar />
+      <Toolbar
+        Filters={ClassFilter}
+        pathname="/characters"
+        sortOrderOptions={sortOrderOptions}
+      />
       {cardList.length > 0 ? (
         <InfiniteScroll
           className="card-list"

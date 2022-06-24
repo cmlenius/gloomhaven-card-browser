@@ -4,17 +4,11 @@ import InfiniteScroll from "react-infinite-scroller";
 
 import { itemSearchResults } from "./api/items";
 import { useSpoilers } from "../hooks/useSpoilers";
-import {
-  baseUrl,
-  cardsPerPage,
-  colour,
-  optionToLabel,
-  sortDirectionOptions,
-} from "../data/common";
+import { baseUrl, cardsPerPage, colour } from "../data/common";
 
-import Dropdown from "../components/Dropdown";
 import Empty from "../components/Empty";
 import Layout from "../components/Layout";
+import Toolbar from "../components/Toolbar";
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
@@ -87,46 +81,6 @@ function ItemFilters() {
   );
 }
 
-function ItemsToolbar() {
-  const router = useRouter();
-  const query = router.query;
-
-  function handleSortOrderChange(newOrder) {
-    router.push({
-      pathname: "/items",
-      query: { ...query, order: newOrder },
-    });
-  }
-
-  function handleSortDirectionChange(newDirection) {
-    router.push({
-      pathname: "/items",
-      query: { ...query, dir: newDirection },
-    });
-  }
-
-  return (
-    <div className="toolbar">
-      <div className="toolbar-inner">
-        <div className="sort">
-          <Dropdown
-            onChange={handleSortOrderChange}
-            options={sortOrderOptions}
-            value={optionToLabel(query.order, sortOrderOptions)}
-          />
-          <span style={{ margin: "0 8px" }}>:</span>
-          <Dropdown
-            onChange={handleSortDirectionChange}
-            options={sortDirectionOptions}
-            value={optionToLabel(query.dir, sortDirectionOptions)}
-          />
-        </div>
-        <ItemFilters />
-      </div>
-    </div>
-  );
-}
-
 function Items({ searchResults }) {
   const { spoilers } = useSpoilers();
   const [items, setItems] = useState(
@@ -154,7 +108,11 @@ function Items({ searchResults }) {
 
   return (
     <Layout>
-      <ItemsToolbar />
+      <Toolbar
+        Filters={ItemFilters}
+        pathname="/items"
+        sortOrderOptions={sortOrderOptions}
+      />
       {cardList.length > 0 ? (
         <InfiniteScroll
           className="card-list"

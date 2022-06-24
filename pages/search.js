@@ -8,7 +8,6 @@ import {
   baseCharacters,
   cardsPerPage,
   colour,
-  optionToLabel,
 } from "../data/common";
 import { useSpoilers } from "../hooks/useSpoilers";
 
@@ -44,7 +43,7 @@ function SearchToolbar() {
         <Dropdown
           onChange={handleTypeChange}
           options={searchFiltersOptions}
-          value={optionToLabel(query.type, searchFiltersOptions)}
+          value={query.type}
         />
       </div>
     </div>
