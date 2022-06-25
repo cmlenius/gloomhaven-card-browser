@@ -2,6 +2,7 @@
   --primary: #432423;
   --grey-light: #f3f4f5;
   --grey: #d5d6d7;
+  --warning: #aa0000;
 }
 
 html,
@@ -19,10 +20,12 @@ body {
 /* --- MISC --- */
 .empty {
   align-items: center;
+  color: var(--warning);
   display: flex;
   flex-direction: column;
   font-size: 16px;
   padding: 0 12px;
+  text-align: center;
 }
 
 .flex {
@@ -258,7 +261,7 @@ input[type="radio"] {
 }
 
 .spoilers-warning {
-  color: #aa0000;
+  color: var(--warning);
   margin-top: 8px;
   white-space: normal;
 }
