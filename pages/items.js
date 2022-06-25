@@ -88,11 +88,19 @@ function Items({ searchResults }) {
   }, []);
 
   const spoilerFilterFn = (card) => {
-    if (card.source === "Prosperity")
-      return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-    if (card.source === "Random Item Design") return spoilers.items.recipes;
-    if (card.source === "Solo Scenario") return spoilers.items.solo;
-    return spoilers.items.other;
+    switch (card.source) {
+      case "prosperity":
+        return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
+      case "random-design":
+        return spoilers.items.recipes;
+      case "solo-scenario":
+        return spoilers.items.solo;
+      case "fc":
+        console.log("yeee");
+        return spoilers.items.fc;
+      default:
+        return spoilers.items.other;
+    }
   };
 
   return (

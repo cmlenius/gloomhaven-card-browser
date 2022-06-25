@@ -4,7 +4,6 @@ import MTicon from "../public/icons/classes/MT.svg";
 import SCicon from "../public/icons/classes/SC.svg";
 import SWicon from "../public/icons/classes/SW.svg";
 import TIicon from "../public/icons/classes/TI.svg";
-
 import BEicon from "../public/icons/classes/BE.svg";
 import BTicon from "../public/icons/classes/BT.svg";
 import DSicon from "../public/icons/classes/DS.svg";
@@ -16,6 +15,10 @@ import SBicon from "../public/icons/classes/SB.svg";
 import SKicon from "../public/icons/classes/SK.svg";
 import SSicon from "../public/icons/classes/SS.svg";
 import SUicon from "../public/icons/classes/SU.svg";
+ 
+import DRicon from "../public/icons/classes/DR.svg";
+ 
+ 
 import { colour } from "../data/common";
 
 const iconMap = {
@@ -25,7 +28,6 @@ const iconMap = {
   SC: SCicon,
   SW: SWicon,
   TI: TIicon,
-
   BE: BEicon,
   BT: BTicon,
   DS: DSicon,
@@ -37,6 +39,9 @@ const iconMap = {
   SK: SKicon,
   SS: SSicon,
   SU: SUicon,
+   
+  // Forgotten Circles
+  DR: DRicon,
 };
 
 // TODO default icon

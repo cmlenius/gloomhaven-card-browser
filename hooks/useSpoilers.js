@@ -5,7 +5,7 @@ const SpoilersContext = createContext();
 export const SpoilersProvider = ({ children }) => {
   const [spoilers, setSpoilers] = useState({
     characters: new Set(),
-    items: { prosperity: "1", recipes: false, solo: false, other: false },
+    items: { prosperity: "1", recipes: false, solo: false, other: false, fc: false },
   });
 
   useEffect(() => {

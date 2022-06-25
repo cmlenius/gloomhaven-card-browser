@@ -20,6 +20,9 @@ export const characters = [
   { id: "SS", colour: "#75524E", name: "Soothsinger", altName: "Music Note" },
   { id: "SU", colour: "#713B5C", name: "Summoner", altName: "Circles" },
   { id: "BS", colour: "#403129", hidden: true, name: "Bladeswarm", altName: "???" },
+
+  // Forgotten Circles
+  { id: "DR", colour: "#555683", name: "Diviner", altName: "Diviner" },
 ];
 
 export const characterClasses = characters

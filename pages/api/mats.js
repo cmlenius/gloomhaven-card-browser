@@ -5,7 +5,9 @@ export async function matsSearchResults(query) {
   let searchResults = characterMats;
 
   // Filter
-  searchResults = searchResults.filter((m) => m.expansion === "gloomhaven");
+  searchResults = searchResults.filter(
+    (m) => m.expansion === "gh" || m.expansion === "fc"
+  );
 
   // Sort
   const order = query.order || "name";

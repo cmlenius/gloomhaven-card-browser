@@ -116,9 +116,9 @@ function Spoilers({ open, onClose }) {
   }
 
   function handleItemSpoilerToggleAll() {
-    let items = { prosperity: "9", recipes: true, solo: true, other: true };
+    let items = { prosperity: "9", recipes: true, solo: true, other: true, fc: true };
     if (allItemSpoilers) {
-      items = { prosperity: "1", recipes: false, solo: false, other: false };
+      items = { prosperity: "1", recipes: false, solo: false, other: false, fc: false };
     }
     updateSpoilers({
       ...spoilers,
@@ -205,6 +205,7 @@ function Spoilers({ open, onClose }) {
               <ItemSpoiler label="Random Item Designs" path="recipes" />
               <ItemSpoiler label="Solo Scenario" path="solo" />
               <ItemSpoiler label="Other Items" path="other" />
+              <ItemSpoiler label="Forgotten Circles" path="fc" />
             </div>
           </div>
         </div>
