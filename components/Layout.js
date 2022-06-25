@@ -1,171 +1,90 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBars,
-  faEye,
-  faMagnifyingGlass,
-  faScroll,
+  faGear,
   faSackDollar,
   faShield,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
-import Spoilers from "../components/Spoilers";
+import Settings from "./Settings";
 
-function Search() {
+const headerLinks = [
+  { icon: faShield, label: "Characters", pathname: "/characters" },
+  { icon: faSackDollar, label: "Items", pathname: "/items" },
+];
+
+function SettingsAnchor({ mobile, openSettingDrawer }) {
+  return (
+    <div
+      className={`header-link view-more ${mobile ? "mobile" : "desktop"}`}
+      onClick={openSettingDrawer}
+    >
+      <span>
+        <FontAwesomeIcon className="header-icon" icon={faGear} />
+        <span>Settings</span>
+      </span>
+    </div>
+  );
+}
+
+function HeaderLink({ game, link }) {
+  return (
+    <div className="header-link">
+      <Link
+        href={{
+          pathname: link.pathname,
+          query: { game: game },
+        }}
+      >
+        <span>
+          <FontAwesomeIcon className="header-icon" icon={link.icon} />
+          <a>{link.label}</a>
+        </span>
+      </Link>
+    </div>
+  );
+}
+
+function TopBar({ openSettingDrawer }) {
   const router = useRouter();
   const query = router.query;
-
-  const [search, setSearch] = useState("");
-  const ref = useRef();
-
-  function handleSearchChange(e) {
-    setSearch(e.target.value);
-  }
-
-  const handleSearch = useCallback(() => {
-    if (search && search !== "" && search !== query.search) {
-      router.push({
-        pathname: "/search",
-        query: {
-          search: search,
-        },
-      });
-    }
-  }, [query.search, router, search]);
-
-  useEffect(() => {
-    setSearch(query.search || "");
-  }, [query.search]);
-
-  useEffect(() => {
-    if (!ref.current) return;
-
-    function handleEnterKey(event) {
-      if (event.key === "Enter") {
-        handleSearch();
-      }
-    }
-    ref?.current?.addEventListener("keypress", handleEnterKey);
-    return () => {
-      ref?.current?.removeEventListener("keypress", handleEnterKey);
-    };
-  }, [handleSearch, ref]);
-
-  return (
-    <div className="search">
-      <FontAwesomeIcon
-        className="search-icon"
-        icon={faMagnifyingGlass}
-        onClick={handleSearch}
-      />
-      <input
-        ref={ref}
-        onChange={handleSearchChange}
-        placeholder="Search for ability or item cards..."
-        type="text"
-        value={search}
-      />
-    </div>
-  );
-}
-
-function HeaderLinks({ openSpoilerDrawer }) {
-  return (
-    <div className="header-links">
-      <div className="header-link">
-        <Link href="/characters?class=BR">
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faShield} />
-            <a>Characters</a>
-          </span>
-        </Link>
-      </div>
-      <div className="header-link">
-        <Link href="/items">
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
-            <a>Items</a>
-          </span>
-        </Link>
-      </div>
-      <div className="header-link">
-        <Link href="/mats">
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faScroll} />
-            <a>Mats</a>
-          </span>
-        </Link>
-      </div>
-      <div className="header-link" onClick={openSpoilerDrawer}>
-        <span>
-          <FontAwesomeIcon className="header-icon" icon={faEye} />
-          <a>Spoilers</a>
-        </span>
-      </div>
-    </div>
-  );
-}
-
-function TopBar({ openSpoilerDrawer }) {
-  const router = useRouter();
-  const [hiddenLinksOpen, setHiddenLinksOpen] = useState(true);
-
-  function handleHiddenLinksToggle() {
-    setHiddenLinksOpen(!hiddenLinksOpen);
-  }
 
   return (
     <nav className="topbar">
       <div className="topbar-inner">
-        <img
-          alt=""
-          src="/logo.png"
-          style={{ cursor: "pointer", height: 40, width: 40 }}
-          onClick={() => {
-            router.push({
-              pathname: "/characters",
-            });
-          }}
-        />
-        <Search />
-        <div className="main-header-links">
-          <HeaderLinks openSpoilerDrawer={openSpoilerDrawer} />
+        <div className="header-links">
+          {headerLinks.map((link, idx) => (
+            <HeaderLink key={idx} game={query.game || "gh"} link={link} />
+          ))}
+          <SettingsAnchor mobile openSettingDrawer={openSettingDrawer} />
         </div>
-        <div className="view-more" onClick={handleHiddenLinksToggle}>
-          <FontAwesomeIcon className="header-icon" icon={faBars} />
-        </div>
-      </div>
-      <div
-        className="topbar-hidden-links"
-        style={hiddenLinksOpen ? { height: "52px" } : {}}
-      >
-        <HeaderLinks openSpoilerDrawer={openSpoilerDrawer} />
+        <SettingsAnchor openSettingDrawer={openSettingDrawer} />
       </div>
     </nav>
   );
 }
 
 export default function Layout({ children }) {
-  const [spoilerDrawerOpen, setSpoilerDrawerOpen] = useState(false);
+  const [settingDrawerOpen, setSettingDrawerOpen] = useState(false);
 
   return (
     <>
       <Head>
-        <title>Gloomhaven Cards</title>
+        <title>Gloomhaven Card Browser</title>
         <meta
           name="description"
-          content="Gloomhaven Cards is a tool for browsing and searching Gloomhaven cards."
+          content="Gloomhaven Card Browser is a tool for browsing and viewing Gloomhaven cards. It includes cards from the Gloomhaven, Forgotten Circles, Jaws of the Lion, and Crimson Circles"
         />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Spoilers
-        open={spoilerDrawerOpen}
-        onClose={() => setSpoilerDrawerOpen(false)}
+      <Settings
+        open={settingDrawerOpen}
+        onClose={() => setSettingDrawerOpen(false)}
       />
-      <TopBar openSpoilerDrawer={() => setSpoilerDrawerOpen(true)} />
+      <TopBar openSettingDrawer={() => setSettingDrawerOpen(true)} />
       <main className="main">{children}</main>
     </>
   );

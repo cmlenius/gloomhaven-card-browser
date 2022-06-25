@@ -1,19 +1,19 @@
 import { itemCards } from "../../data/item-cards";
-import { customSort } from "../../data/common";
+import { customSort } from "../../data/utils";
 
 export async function itemSearchResults(query) {
   let searchResults = itemCards;
 
   // Filter
+  const game = query.game || "gh";
   const slot = query.slot;
-  if (slot) {
-    searchResults = searchResults.filter((i) => i.slot === slot);
-  }
-  if (query.activations === "consumed") {
-    searchResults = searchResults.filter((i) => i.consumed);
-  } else if (query.activations === "spent") {
-    searchResults = searchResults.filter((i) => i.spent);
-  }
+  searchResults = searchResults.filter((item) => {
+    if (item.game !== game) return false;
+    if (slot && item.slot !== slot) return false;
+    if (query.activations === "consumed" && !item.consumed) return false;
+    if (query.activations === "spent" && !item.spent) return false;
+    return true;
+  });
 
   // Sort
   const order = query.order || "id";
