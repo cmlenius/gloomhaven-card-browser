@@ -12,7 +12,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
-import Spoilers from "../components/Spoilers";
+import Dropdown from "./Dropdown";
+import Spoilers from "./Spoilers";
+
+const gameOptions = [
+  { id: "gh", name: "Gloomhaven" },
+  { id: "jotl", name: "Jaws of the Lion" },
+  { id: "cs", name: "Crimson Scales" },
+];
 
 function Search() {
   const router = useRouter();
@@ -73,10 +80,18 @@ function Search() {
 }
 
 function HeaderLinks({ openSpoilerDrawer }) {
+  const router = useRouter();
+  const query = router.query;
+
   return (
     <div className="header-links">
       <div className="header-link">
-        <Link href="/characters?class=BR">
+        <Link
+          href={{
+            pathname: "/characters",
+            query: { game: query.game || "gh" },
+          }}
+        >
           <span>
             <FontAwesomeIcon className="header-icon" icon={faShield} />
             <a>Characters</a>
@@ -84,7 +99,12 @@ function HeaderLinks({ openSpoilerDrawer }) {
         </Link>
       </div>
       <div className="header-link">
-        <Link href="/items">
+        <Link
+          href={{
+            pathname: "/items",
+            query: { game: query.game || "gh" },
+          }}
+        >
           <span>
             <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
             <a>Items</a>
@@ -92,7 +112,12 @@ function HeaderLinks({ openSpoilerDrawer }) {
         </Link>
       </div>
       <div className="header-link">
-        <Link href="/mats">
+        <Link
+          href={{
+            pathname: "/mats",
+            query: { game: query.game || "gh" },
+          }}
+        >
           <span>
             <FontAwesomeIcon className="header-icon" icon={faScroll} />
             <a>Mats</a>
@@ -111,24 +136,40 @@ function HeaderLinks({ openSpoilerDrawer }) {
 
 function TopBar({ openSpoilerDrawer }) {
   const router = useRouter();
+  const query = router.query;
   const [hiddenLinksOpen, setHiddenLinksOpen] = useState(true);
 
   function handleHiddenLinksToggle() {
     setHiddenLinksOpen(!hiddenLinksOpen);
   }
 
+  function handleGameChange(newGame) {
+    let newQuery = { game: newGame };
+
+    if (router.pathname === "/characters") {
+      if (newGame === "gh") {
+        newQuery.class = "BR";
+      } else if (newGame === "jotl") {
+        newQuery.class = "DE";
+      } else if (newGame === "cs") {
+        newQuery.class = "AA";
+      }
+    }
+
+    router.push({
+      pathname: router.pathname,
+      query: newQuery,
+    });
+  }
+
   return (
     <nav className="topbar">
       <div className="topbar-inner">
-        <img
-          alt=""
-          src="/logo.png"
-          style={{ cursor: "pointer", height: 40, width: 40 }}
-          onClick={() => {
-            router.push({
-              pathname: "/characters",
-            });
-          }}
+        <Dropdown
+          onChange={handleGameChange}
+          options={gameOptions}
+          value={query.game || "gh"}
+          width="154px"
         />
         <Search />
         <div className="main-header-links">

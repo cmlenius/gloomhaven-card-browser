@@ -87,7 +87,7 @@ function Items({ searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const spoilerFilterFn = (card) => {
+  const cardList = searchResults?.filter((card) => {
     switch (card.source) {
       case "prosperity":
         return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
@@ -101,7 +101,7 @@ function Items({ searchResults }) {
       default:
         return spoilers.items.other;
     }
-  };
+  });
 
   return (
     <Layout>
@@ -110,10 +110,7 @@ function Items({ searchResults }) {
         pathname="/items"
         sortOrderOptions={sortOrderOptions}
       />
-      <CardList
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      <CardList cardList={cardList || []} />
     </Layout>
   );
 }

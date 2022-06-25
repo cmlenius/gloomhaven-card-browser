@@ -5,8 +5,11 @@ export async function characterSearchResults(query) {
   let searchResults = characterAbilityCards;
 
   // Filter
+  const game = query.game || "gh";
+  searchResults = searchResults.filter((char) => char.game === game);
+
   const className = query.class;
-  searchResults = searchResults.filter((c) => c.class === className);
+  searchResults = searchResults.filter((char) => char.class === className);
 
   // Sort
   const order = query.order || "level";

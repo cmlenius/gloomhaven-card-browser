@@ -1,8 +1,9 @@
+import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
-import { characters } from "../data/common";
+import { characterClasses } from "../data/common";
 import SvgCharacterIcon from "./Svg";
 
 function CharacterSpoiler({ char }) {
@@ -97,7 +98,9 @@ function ProsperitySpoiler({ level }) {
 
 function Spoilers({ open, onClose }) {
   const { spoilers, updateSpoilers } = useSpoilers();
-  const unlockabelClasses = characters.filter((c) => !c.base && !c.hidden);
+  const router = useRouter();
+   
+  const unlockabelClasses = characterClasses(router.query?.game).filter((c) => !c.base && !c.hidden);
 
   function handleCharacterSpoilerToggleAll() {
     let newArr = [];

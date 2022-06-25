@@ -7,7 +7,7 @@ function optionToLabel(id, options) {
 }
 
 function Dropdown(params) {
-  const { onChange, options, value } = params;
+  const { onChange, options, value, width } = params;
   const ref = useRef(null);
 
   const [open, setOpen] = useState(false);
@@ -35,7 +35,7 @@ function Dropdown(params) {
   }, [ref]);
 
   return (
-    <div ref={ref} className="dropdown">
+    <div ref={ref} className="dropdown" style={width ? { width } : {}}>
       <div onClick={toggleMenu} className="dropdown-anchor">
         {optionToLabel(value, options)}
         <FontAwesomeIcon className="dropdown-arrow" icon={faAngleDown} />

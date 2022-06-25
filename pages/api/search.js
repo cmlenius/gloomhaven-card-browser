@@ -4,11 +4,12 @@ import { itemCards } from "../../data/item-cards";
 import { customSort } from "../../data/common";
 
 export async function search(query) {
-  let search = query.search?.toLowerCase() || "";
+  const search = query.search?.toLowerCase() || "";
+  const game = query.game || "gh";
 
   // Check if character match
   const characterMat = characterMats.find(
-    (m) => m.name.toLowerCase() === search
+    (mat) => mat.name.toLowerCase() === search && mat.game === game
   );
   if (characterMat) return { searchResults: [characterMat], isMat: true };
 
@@ -19,6 +20,7 @@ export async function search(query) {
       : []),
     ...(!query.type || query.type === "items" ? itemCards : []),
   ];
+  searchResults = searchResults.filter((char) => char.game === game);
 
   searchResults = searchResults.map((sr) => ({
     ...sr,

@@ -34,15 +34,15 @@ function ClassFilter() {
 
   return (
     <div className="filters">
-      {characterClasses.map((char, idx) => (
+      {characterClasses(query.game).map((char, idx) => (
         <div
           key={idx}
           className={`filter-icon ${
-            query.class === char ? "filter-icon-selected" : ""
+            query.class === char.id ? "filter-icon-selected" : ""
           }`}
-          onClick={() => handleClassChange(char)}
+          onClick={() => handleClassChange(char.id)}
         >
-          <SvgCharacterIcon character={char} />
+          <SvgCharacterIcon character={char.id} />
         </div>
       ))}
     </div>
@@ -61,17 +61,25 @@ function Characters({ searchResults }) {
         colour(query.class)
       );
     } else {
+      let defaultClass = "BR";
+      if (query.game === "jotl") {
+        defaultClass = "DE";
+      } else if (query.game === "cs") {
+        defaultClass = "AA";
+      }
       router.push({
         pathname: "/characters",
-        query: { ...query, class: "BR" },
+        query: { ...query, class: defaultClass },
       });
     }
   }, [query, router]);
 
-  const spoilerFilterFn = (card) =>
-    baseCharacters.includes(card.class) ||
-    spoilers.characters?.has(card.class) ||
-    hiddenCharacters.includes(card.class);
+  const cardList = searchResults?.filter(
+    (card) =>
+      baseCharacters.includes(card.class) ||
+      spoilers.characters?.has(card.class) ||
+      hiddenCharacters.includes(card.class)
+  );
 
   return (
     <Layout>
@@ -80,10 +88,7 @@ function Characters({ searchResults }) {
         pathname="/characters"
         sortOrderOptions={sortOrderOptions}
       />
-      <CardList
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      <CardList cardList={cardList || []} />
     </Layout>
   );
 }

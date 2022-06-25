@@ -21,17 +21,15 @@ function Mats({ searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const spoilerFilterFn = (mat) =>
-    baseCharacters.includes(mat.class) || spoilers.characters?.has(mat.class);
+  const cardList = searchResults?.filter(
+    (mat) =>
+      baseCharacters.includes(mat.class) || spoilers.characters?.has(mat.class)
+  );
 
   return (
     <Layout>
       <Toolbar pathname="/mats" sortOrderOptions={sortOrderOptions} />
-      <CardList
-        isSingleColumn
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      <CardList isSingleColumn cardList={cardList || []} />
     </Layout>
   );
 }

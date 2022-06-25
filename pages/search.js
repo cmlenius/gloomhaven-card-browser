@@ -20,7 +20,7 @@ function SearchToolbar() {
   const query = router.query;
 
   function handleTypeChange(newType) {
-    if (query.type === newType || newType === "all") {
+    if (newType === "all") {
       delete query.type;
     } else {
       query.type = newType;
@@ -51,7 +51,7 @@ function Search({ isMat, searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const spoilerFilterFn = (card) => {
+  const cardList = searchResults?.filter((card) => {
     if (card.class) {
       return (
         baseCharacters.includes(card.class) ||
@@ -65,16 +65,12 @@ function Search({ isMat, searchResults }) {
     }
 
     return false;
-  };
+  });
 
   return (
     <Layout>
       <SearchToolbar />
-      <CardList
-        isSingleColumn={isMat}
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      <CardList isSingleColumn={isMat} cardList={c || []} />
     </Layout>
   );
 }

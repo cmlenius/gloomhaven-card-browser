@@ -48,7 +48,7 @@ input[type="radio"] {
 
 /* --- CARDS --- */
 .card-list {
-  align-items: center;
+  align-items: stretch;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -61,13 +61,22 @@ input[type="radio"] {
 
 .card {
   border-radius: 12px;
+  box-sizing: border-box;
+  flex: 1 0 21%;
+  margin: 4px;
+}
+
+.card-blank {
+  border-radius: 12px;
+  box-sizing: border-box;
   flex: 1 0 21%;
   margin: 4px;
 }
 
 .card-img {
   border-radius: 12px;
-  height: auto;
+  text-align: center;
+  height: 100%;
   width: 100%;
 }
 
@@ -153,9 +162,11 @@ input[type="radio"] {
 }
 
 .filter-icon {
+  align-items: center;
   border-bottom: 2px solid transparent;
   cursor: pointer;
-  margin-left: 8px;
+  display: flex;
+  margin-left: 6px;
 }
 
 .filter-icon img {
