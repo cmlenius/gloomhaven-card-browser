@@ -11,7 +11,6 @@ import {
 import { characterSearchResults } from "./api/characters";
 
 import CardList from "../components/CardList";
-import Empty from "../components/Empty";
 import Layout from "../components/Layout";
 import Toolbar from "../components/Toolbar";
 import SvgCharacterIcon from "../components/Svg";

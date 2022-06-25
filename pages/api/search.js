@@ -1,7 +1,7 @@
 import { characterAbilityCards } from "../../data/character-ability-cards";
 import { characterMats } from "../../data/character-mats";
 import { itemCards } from "../../data/item-cards";
-import { characters, customSort } from "../../data/common";
+import { customSort } from "../../data/common";
 
 export async function search(query) {
   let search = query.search?.toLowerCase() || "";

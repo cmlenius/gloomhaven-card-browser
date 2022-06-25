@@ -154,8 +154,11 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Gloomhaven Card Viewer</title>
-        <meta name="description" content="Browse gloomhaven cards and data" />
+        <title>Gloomhaven Cards</title>
+        <meta
+          name="description"
+          content="Gloomhaven Cards is a tool for browsing and searching Gloomhaven cards."
+        />
         <link rel="icon" href="/logo.png" />
       </Head>
       <Spoilers

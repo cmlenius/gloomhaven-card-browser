@@ -1,8 +1,6 @@
 import { itemCards } from "../../data/item-cards";
 import { customSort } from "../../data/common";
 
-const rowsPerPage = 30;
-
 export async function itemSearchResults(query) {
   let searchResults = itemCards;
 

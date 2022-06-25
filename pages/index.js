@@ -1,5 +1,3 @@
-import { useRouter } from "next/router";
-
 import Layout from "../components/Layout";
 
 function Home() {
