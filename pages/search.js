@@ -1,16 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
-import InfiniteScroll from "react-infinite-scroller";
 
 import { search } from "./api/search";
-import { baseUrl, baseCharacters, colour, optionToLabel } from "../data/common";
+import { baseCharacters, colour } from "../data/common";
 import { useSpoilers } from "../hooks/useSpoilers";
 
-import Dropdown from "../components/dropdown";
-import Empty from "../components/empty";
-import Layout from "../components/layout";
-
-const rowsPerPage = 20;
+import CardList from "../components/CardList";
+import Dropdown from "../components/Dropdown";
+import Layout from "../components/Layout";
 
 const searchFiltersOptions = [
   { id: "all", name: "All" },
@@ -40,24 +37,21 @@ function SearchToolbar() {
         <Dropdown
           onChange={handleTypeChange}
           options={searchFiltersOptions}
-          value={optionToLabel(query.type, searchFiltersOptions)}
+          value={query.type}
         />
       </div>
     </div>
   );
 }
 
-function Search({ searchResults }) {
+function Search({ isMat, searchResults }) {
   const { spoilers } = useSpoilers();
-  const [cards, setCards] = useState(
-    searchResults?.slice(0, rowsPerPage) || []
-  );
 
-  function loadMore(page) {
-    setCards(searchResults.slice(0, (page + 1) * rowsPerPage));
-  }
+  useEffect(() => {
+    document.documentElement.style.setProperty("--primary", colour(null));
+  }, []);
 
-  function filterSpoilers(card) {
+  const spoilerFilterFn = (card) => {
     if (card.class) {
       return (
         baseCharacters.includes(card.class) ||
@@ -71,51 +65,27 @@ function Search({ searchResults }) {
     }
 
     return false;
-  }
-
-  useEffect(() => {
-    document.documentElement.style.setProperty("--primary", colour(null));
-  }, []);
-
-  useEffect(() => {
-    setCards(searchResults.slice(0, rowsPerPage));
-  }, [searchResults]);
-
-  const cardList = cards.filter(filterSpoilers);
+  };
 
   return (
     <Layout>
       <SearchToolbar />
-      {cardList.length > 0 ? (
-        <InfiniteScroll
-          className="card-list"
-          hasMore={cards.length < searchResults.length}
-          loader={<h4 key={0}>Loading...</h4>}
-          loadMore={loadMore}
-          pageStart={0}
-        >
-          {cardList.map((card, idx) => (
-            <div key={idx} className="card">
-              <img alt="" className="card-img" src={baseUrl + card.image} />
-            </div>
-          ))}
-          {[...Array(4)].map((_, idx) => (
-            <div key={idx} className="card" />
-          ))}
-        </InfiniteScroll>
-      ) : (
-        <Empty />
-      )}
+      <CardList
+        isSingleColumn={isMat}
+        spoilerFilterFn={spoilerFilterFn}
+        searchResults={searchResults || []}
+      />
     </Layout>
   );
 }
 
 export async function getServerSideProps(context) {
-  const { searchResults } = await search(context.query);
+  const { isMat, searchResults } = await search(context.query);
 
   return {
     props: {
-      searchResults: searchResults,
+      searchResults,
+      isMat,
     },
   };
 }

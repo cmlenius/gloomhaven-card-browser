@@ -2,6 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
+function optionToLabel(id, options) {
+  return options.find((option) => id == option.id)?.name || options[0].name;
+}
+
 function Dropdown(params) {
   const { onChange, options, value } = params;
   const ref = useRef(null);
@@ -33,7 +37,7 @@ function Dropdown(params) {
   return (
     <div ref={ref} className="dropdown">
       <div onClick={toggleMenu} className="dropdown-anchor">
-        {value}
+        {optionToLabel(value, options)}
         <FontAwesomeIcon className="dropdown-arrow" icon={faAngleDown} />
       </div>
       <ul

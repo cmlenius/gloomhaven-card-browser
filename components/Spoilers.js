@@ -3,7 +3,7 @@ import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import { characters } from "../data/common";
-import SvgCharacterIcon from "./svg";
+import SvgCharacterIcon from "./Svg";
 
 function CharacterSpoiler({ char }) {
   const { spoilers, updateSpoilers } = useSpoilers();
@@ -25,16 +25,18 @@ function CharacterSpoiler({ char }) {
     );
   }
 
+  const isChecked = spoilers.characters.has(char.id);
+
   return (
     <li className="spoiler-check-option" onClick={handleCharacterSpoilerToggle}>
       <input
-        checked={spoilers.characters.has(char.id)}
+        checked={isChecked}
         readOnly
         style={{ accentColor: char.colour }}
         type="checkbox"
       />
       <SvgCharacterIcon character={char.id} />
-      <span>{char.name}</span>
+      <span>{char.altName || char.name}</span>
     </li>
   );
 }
@@ -114,9 +116,9 @@ function Spoilers({ open, onClose }) {
   }
 
   function handleItemSpoilerToggleAll() {
-    let items = { prosperity: "9", recipes: true, other: true };
+    let items = { prosperity: "9", recipes: true, solo: true, other: true };
     if (allItemSpoilers) {
-      items = { prosperity: "1", recipes: false, other: false };
+      items = { prosperity: "1", recipes: false, solo: false, other: false };
     }
     updateSpoilers({
       ...spoilers,
@@ -153,6 +155,12 @@ function Spoilers({ open, onClose }) {
             icon={faClose}
             onClick={onClose}
           />
+
+          <div className="spoilers-warning">
+            Click the checkboxes below to reveal spoilers for characters and
+            items. Please be careful not to reveal anything you do not want to
+            see.
+          </div>
 
           <div style={{ display: "flex", justifyContent: "space-around" }}>
             <div className="spoiler-section">
@@ -195,6 +203,7 @@ function Spoilers({ open, onClose }) {
                 </ul>
               </div>
               <ItemSpoiler label="Random Item Designs" path="recipes" />
+              <ItemSpoiler label="Solo Scenario" path="solo" />
               <ItemSpoiler label="Other Items" path="other" />
             </div>
           </div>

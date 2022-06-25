@@ -1,21 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
-import InfiniteScroll from "react-infinite-scroller";
 
 import { itemSearchResults } from "./api/items";
 import { useSpoilers } from "../hooks/useSpoilers";
-import {
-  baseUrl,
-  colour,
-  optionToLabel,
-  sortDirectionOptions,
-} from "../data/common";
+import { colour } from "../data/common";
 
-import Dropdown from "../components/dropdown";
-import Empty from "../components/empty";
-import Layout from "../components/layout";
-
-const rowsPerPage = 20;
+import CardList from "../components/CardList";
+import Layout from "../components/Layout";
+import Toolbar from "../components/Toolbar";
 
 const sortOrderOptions = [
   { id: "id", name: "Item Number" },
@@ -88,94 +80,32 @@ function ItemFilters() {
   );
 }
 
-function ItemsToolbar() {
-  const router = useRouter();
-  const query = router.query;
-
-  function handleSortOrderChange(newOrder) {
-    router.push({
-      pathname: "/items",
-      query: { ...query, order: newOrder },
-    });
-  }
-
-  function handleSortDirectionChange(newDirection) {
-    router.push({
-      pathname: "/items",
-      query: { ...query, dir: newDirection },
-    });
-  }
-
-  return (
-    <div className="toolbar">
-      <div className="toolbar-inner">
-        <div className="sort">
-          <Dropdown
-            onChange={handleSortOrderChange}
-            options={sortOrderOptions}
-            value={optionToLabel(query.order, sortOrderOptions)}
-          />
-          <span style={{ margin: "0 8px" }}>:</span>
-          <Dropdown
-            onChange={handleSortDirectionChange}
-            options={sortDirectionOptions}
-            value={optionToLabel(query.dir, sortDirectionOptions)}
-          />
-        </div>
-        <ItemFilters />
-      </div>
-    </div>
-  );
-}
-
 function Items({ searchResults }) {
   const { spoilers } = useSpoilers();
-  const [items, setItems] = useState(
-    searchResults?.slice(0, rowsPerPage) || []
-  );
-
-  function loadMore(page) {
-    setItems(searchResults.slice(0, (page + 1) * rowsPerPage));
-  }
 
   useEffect(() => {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  useEffect(() => {
-    setItems(searchResults.slice(0, rowsPerPage));
-  }, [searchResults]);
-
-  const cardList = items.filter((card) => {
+  const spoilerFilterFn = (card) => {
     if (card.source === "Prosperity")
       return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
     if (card.source === "Random Item Design") return spoilers.items.recipes;
+    if (card.source === "Solo Scenario") return spoilers.items.solo;
     return spoilers.items.other;
-  });
+  };
 
   return (
     <Layout>
-      <ItemsToolbar />
-      {cardList.length > 0 ? (
-        <InfiniteScroll
-          className="card-list"
-          hasMore={items.length < searchResults.length}
-          loader={<h4 key={0}>Loading...</h4>}
-          loadMore={loadMore}
-          pageStart={0}
-        >
-          {cardList.map((card, idx) => (
-            <div key={idx} className="card">
-              <img alt="" className="card-img" src={baseUrl + card.image} />
-            </div>
-          ))}
-          {[...Array(4)].map((_, idx) => (
-            <div key={idx} className="card" />
-          ))}
-        </InfiniteScroll>
-      ) : (
-        <Empty />
-      )}
+      <Toolbar
+        Filters={ItemFilters}
+        pathname="/items"
+        sortOrderOptions={sortOrderOptions}
+      />
+      <CardList
+        spoilerFilterFn={spoilerFilterFn}
+        searchResults={searchResults || []}
+      />
     </Layout>
   );
 }

@@ -4,19 +4,16 @@ import { useRouter } from "next/router";
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
   baseCharacters,
-  baseUrl,
   characterClasses,
   colour,
   hiddenCharacters,
-  optionToLabel,
-  sortDirectionOptions,
 } from "../data/common";
 import { characterSearchResults } from "./api/characters";
 
-import Empty from "../components/empty";
-import Dropdown from "../components/dropdown";
-import Layout from "../components/layout";
-import SvgCharacterIcon from "../components/svg";
+import CardList from "../components/CardList";
+import Layout from "../components/Layout";
+import Toolbar from "../components/Toolbar";
+import SvgCharacterIcon from "../components/Svg";
 
 const sortOrderOptions = [
   { id: "level", name: "Level" },
@@ -52,46 +49,6 @@ function ClassFilter() {
   );
 }
 
-function CharacterToolbar() {
-  const router = useRouter();
-  const query = router.query;
-
-  function handleSortOrderChange(newOrder) {
-    router.push({
-      pathname: "/characters",
-      query: { ...query, order: newOrder },
-    });
-  }
-
-  function handleSortDirectionChange(newDirection) {
-    router.push({
-      pathname: "/characters",
-      query: { ...query, dir: newDirection },
-    });
-  }
-
-  return (
-    <div className="toolbar">
-      <div className="toolbar-inner">
-        <div className="sort">
-          <Dropdown
-            onChange={handleSortOrderChange}
-            options={sortOrderOptions}
-            value={optionToLabel(query.order, sortOrderOptions)}
-          />
-          <span style={{ margin: "0 8px" }}>:</span>
-          <Dropdown
-            onChange={handleSortDirectionChange}
-            options={sortDirectionOptions}
-            value={optionToLabel(query.dir, sortDirectionOptions)}
-          />
-        </div>
-        <ClassFilter />
-      </div>
-    </div>
-  );
-}
-
 function Characters({ searchResults }) {
   const { spoilers } = useSpoilers();
   const router = useRouter();
@@ -111,31 +68,22 @@ function Characters({ searchResults }) {
     }
   }, [query, router]);
 
-  const cardList =
-    searchResults?.filter(
-      (card) =>
-        baseCharacters.includes(card.class) ||
-        spoilers.characters?.has(card.class) ||
-        hiddenCharacters.includes(card.class)
-    ) || [];
+  const spoilerFilterFn = (card) =>
+    baseCharacters.includes(card.class) ||
+    spoilers.characters?.has(card.class) ||
+    hiddenCharacters.includes(card.class);
 
   return (
     <Layout>
-      <CharacterToolbar />
-      {cardList.length > 0 ? (
-        <div className="card-list">
-          {cardList.map((card, idx) => (
-            <div key={idx} className="card">
-              <img alt="" className="card-img" src={baseUrl + card.image} />
-            </div>
-          ))}
-          {[...Array(4)].map((_, idx) => (
-            <div key={idx} className="card" />
-          ))}
-        </div>
-      ) : (
-        <Empty />
-      )}
+      <Toolbar
+        Filters={ClassFilter}
+        pathname="/characters"
+        sortOrderOptions={sortOrderOptions}
+      />
+      <CardList
+        spoilerFilterFn={spoilerFilterFn}
+        searchResults={searchResults || []}
+      />
     </Layout>
   );
 }

@@ -1233,7 +1233,7 @@ export const itemCards = [
   {
     id: 134,
     name: "Imposing Blade",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-134-imposing-blade.png",
     cost: 50,
     slot: "1h",
@@ -1241,7 +1241,7 @@ export const itemCards = [
   {
     id: 135,
     name: "Focusing Ray",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-135-focusing-ray.png",
     cost: 50,
     slot: "1h",
@@ -1250,7 +1250,7 @@ export const itemCards = [
   {
     id: 136,
     name: "Volatile Elixir",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-136-volatile-elixir.png",
     cost: 50,
     slot: "small",
@@ -1259,7 +1259,7 @@ export const itemCards = [
   {
     id: 137,
     name: "Silent Stiletto",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-137-silent-stiletto.png",
     cost: 50,
     slot: "1h",
@@ -1267,7 +1267,7 @@ export const itemCards = [
   {
     id: 138,
     name: "Stone Charm",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-138-stone-charm.png",
     cost: 50,
     slot: "head",
@@ -1276,7 +1276,7 @@ export const itemCards = [
   {
     id: 139,
     name: "Psychic Knife",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-139-psychic-knife.png",
     cost: 50,
     slot: "1h",
@@ -1284,7 +1284,7 @@ export const itemCards = [
   {
     id: 140,
     name: "Sun Shield",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-140-sun-shield.png",
     cost: 50,
     slot: "1h",
@@ -1292,7 +1292,7 @@ export const itemCards = [
   {
     id: 141,
     name: "Utility Belt",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-141-utility-belt.png",
     cost: 50,
     slot: "small",
@@ -1301,7 +1301,7 @@ export const itemCards = [
   {
     id: 142,
     name: "Phasing Idol",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-142-phasing-idol.png",
     cost: 50,
     slot: "small",
@@ -1310,7 +1310,7 @@ export const itemCards = [
   {
     id: 143,
     name: "Smoke Elixir",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-143-smoke-elixir.png",
     cost: 50,
     slot: "small",
@@ -1319,7 +1319,7 @@ export const itemCards = [
   {
     id: 144,
     name: "Pendant of the Plague",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-144-pendant-of-the-plague.png",
     cost: 50,
     slot: "head",
@@ -1328,7 +1328,7 @@ export const itemCards = [
   {
     id: 145,
     name: "Mask of Death",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-145-mask-of-death.png",
     cost: 50,
     slot: "head",
@@ -1336,7 +1336,7 @@ export const itemCards = [
   {
     id: 146,
     name: "Masters Lute",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-146-masters-lute.png",
     cost: 50,
     slot: "2h",
@@ -1344,7 +1344,7 @@ export const itemCards = [
   {
     id: 147,
     name: "Cloak of the Hunter",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-147-cloak-of-the-hunter.png",
     cost: 50,
     slot: "body",
@@ -1352,7 +1352,7 @@ export const itemCards = [
   {
     id: 148,
     name: "Doctors Coat",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-148-doctors-coat.png",
     cost: 50,
     slot: "body",
@@ -1360,7 +1360,7 @@ export const itemCards = [
   {
     id: 149,
     name: "Elemental Boots",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-149-elemental-boots.png",
     cost: 50,
     slot: "legs",
@@ -1369,20 +1369,10 @@ export const itemCards = [
   {
     id: 150,
     name: "Staff of Command",
-    source: "Other",
+    source: "Solo Scenario",
     image: "items/gh-150-staff-of-command.png",
     cost: 50,
     slot: "2h",
     spent: true,
   },
-  {
-    id: 151,
-    name: "Sword of the Sands",
-    source: "Other",
-    image: "items/gh-151-sword-of-the-sands.png",
-    cost: 50,
-    slot: "1h",
-    consumed: true,
-  },
 ];
-

@@ -6,12 +6,13 @@ import {
   faBars,
   faEye,
   faMagnifyingGlass,
+  faScroll,
   faSackDollar,
   faShield,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
-import Spoilers from "../components/spoilers";
+import Spoilers from "../components/Spoilers";
 
 function Search() {
   const router = useRouter();
@@ -90,6 +91,14 @@ function HeaderLinks({ openSpoilerDrawer }) {
           </span>
         </Link>
       </div>
+      <div className="header-link">
+        <Link href="/mats">
+          <span>
+            <FontAwesomeIcon className="header-icon" icon={faScroll} />
+            <a>Mats</a>
+          </span>
+        </Link>
+      </div>
       <div className="header-link" onClick={openSpoilerDrawer}>
         <span>
           <FontAwesomeIcon className="header-icon" icon={faEye} />
@@ -145,8 +154,11 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Gloomhaven Card Viewer</title>
-        <meta name="description" content="Browse gloomhaven cards and data" />
+        <title>Gloomhaven Cards</title>
+        <meta
+          name="description"
+          content="Gloomhaven Cards is a tool for browsing and searching Gloomhaven cards."
+        />
         <link rel="icon" href="/logo.png" />
       </Head>
       <Spoilers

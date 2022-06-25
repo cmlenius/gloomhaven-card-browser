@@ -464,6 +464,14 @@ export const characterAbilityCards = [
     level: 5,
   },
   {
+    class: "BS",
+    name: "Sword of the Sands",
+    expansion: "Gloomhaven",
+    image: "items/gh-151-sword-of-the-sands.png",
+    initiative: 1,
+    level: 1,
+  },
+  {
     name: "armed and dangerous",
     class: "BS",
     expansion: "Gloomhaven",
