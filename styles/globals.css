@@ -277,6 +277,16 @@ input[type="radio"] {
   white-space: normal;
 }
 
+.spoilers .character-spoilers {
+  columns: 2;
+  -moz-columns: 2;
+  -webkit-columns: 2;
+}
+
+.spoilers .item-spoilers {
+  display: flex;
+}
+
 /* --- TOOLBAR --- */
 .toolbar {
   align-items: center;

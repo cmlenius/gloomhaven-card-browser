@@ -95,11 +95,18 @@ function Items({ searchResults }) {
         return spoilers.items.recipes;
       case "solo-scenario":
         return spoilers.items.solo;
-      case "fc":
-        console.log("yeee");
-        return spoilers.items.fc;
-      default:
+      case "other":
         return spoilers.items.other;
+      case "jotl":
+        return true;
+      case "jotl1":
+        return spoilers.items.jotl1;
+      case "jotl2":
+        return spoilers.items.jotl2;
+      case "jotl3":
+        return spoilers.items.jotl3;
+      default:
+        return false;
     }
   });
 
