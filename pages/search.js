@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 
 import { search } from "./api/search";
 import {
-  baseCharacterIds,
   characterSpoilerFilter,
   colour,
   itemSpoilerFilter,
@@ -42,7 +41,7 @@ function SearchToolbar() {
         <Dropdown
           onChange={handleTypeChange}
           options={searchFiltersOptions}
-          value={query.type}
+          value={query.type || "all"}
         />
       </div>
     </div>

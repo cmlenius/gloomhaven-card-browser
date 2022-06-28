@@ -16,7 +16,7 @@ function CardList({ cardList, isSingleColumn }) {
   useEffect(() => {
     setData(cardList?.slice(0, cardsPerPage));
   }, [cardsPerPage, cardList]);
-   
+
   if (data?.length === 0) return <Empty />;
 
   return (

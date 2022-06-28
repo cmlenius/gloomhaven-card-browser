@@ -2,11 +2,7 @@ import { useEffect } from "react";
 
 import { matsSearchResults } from "./api/mats";
 import { useSpoilers } from "../hooks/useSpoilers";
-import {
-  baseCharacterIds,
-  characterSpoilerFilter,
-  colour,
-} from "../data/utils";
+import { characterSpoilerFilter, colour } from "../data/utils";
 
 import CardList from "../components/CardList";
 import Layout from "../components/Layout";

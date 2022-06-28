@@ -3,12 +3,10 @@ import { useRouter } from "next/router";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
-  baseCharacterIds,
   characterClasses,
   characterSpoilerFilter,
   colour,
   defaultClass,
-  hiddenCharacterIds,
 } from "../data/utils";
 import { characterSearchResults } from "./api/characters";
 

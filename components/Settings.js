@@ -1,10 +1,19 @@
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClose } from "@fortawesome/free-solid-svg-icons";
+import { faClose, faWarning } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
-import { characterClasses } from "../data/utils";
+import { characterClasses, defaultClass } from "../data/utils";
+
+import Dropdown from "./Dropdown";
+import Search from "./Search";
 import SvgCharacterIcon from "./Svg";
+
+const gameOptions = [
+  { id: "gh", name: "Gloomhaven" },
+  { id: "jotl", name: "Jaws of the Lion" },
+  { id: "cs", name: "Crimson Scales" },
+];
 
 const itemSpoilerConfig = {
   gh: {
@@ -124,7 +133,7 @@ function ItemSpoilers({ itemSpoilers }) {
   return (
     <div className="spoiler-section">
       <div
-        className="spoiler-check-option"
+        className="spoiler-check-option spoiler-header"
         onClick={handleItemSpoilerToggleAll}
       >
         <input checked={allItemSpoilers} readOnly type="checkbox" />
@@ -203,7 +212,7 @@ function CharacterSpoilers({ classes }) {
   return (
     <div className="spoiler-section">
       <div
-        className="spoiler-check-option"
+        className="spoiler-check-option spoiler-header"
         onClick={handleCharacterSpoilerToggleAll}
       >
         <input checked={allCharacterSpoilers} readOnly type="checkbox" />
@@ -231,7 +240,7 @@ function CharacterSpoilers({ classes }) {
   );
 }
 
-function Spoilers({ open, onClose }) {
+function Settings({ open, onClose }) {
   const router = useRouter();
 
   const itemSpoilers = itemSpoilerConfig[router.query?.game || "gh"];
@@ -240,30 +249,56 @@ function Spoilers({ open, onClose }) {
     (c) => !c.base && !c.hidden
   );
 
+  function handleGameChange(newGame) {
+    let newQuery = { ...router.query, game: newGame };
+
+    if (router.pathname === "/characters") {
+      newQuery.class = defaultClass(newGame);
+    }
+
+    router.push({
+      pathname: router.pathname,
+      query: newQuery,
+    });
+  }
+
   return (
     <>
       <div
-        className="spoilers-overlay"
+        className="settings-overlay"
         onClick={onClose}
         style={{ display: open ? "block" : "none" }}
       />
-      <div className="spoilers" style={!open ? { width: "0px" } : {}}>
-        <div className="spoilers-inner">
-          <FontAwesomeIcon
-            className="spoilers-close-icon"
-            icon={faClose}
-            onClick={onClose}
-          />
-          <div className="spoilers-warning">
-            Click the checkboxes below to reveal spoilers for characters and
-            items. Please be careful not to reveal anything you do not want to
-            see.
+      <div className="settings" style={!open ? { width: "0px" } : {}}>
+        <div className="settings-inner">
+          <div className="settings-header">
+            <div style={{ width: "24px" }} />
+            <Dropdown
+              onChange={handleGameChange}
+              options={gameOptions}
+              value={router.query.game || "gh"}
+            />
+            <FontAwesomeIcon
+              className="spoilers-close-icon"
+              icon={faClose}
+              onClick={onClose}
+            />
           </div>
-          <div className="spoilers-content">
+          <div className="settings-search">
+            <Search searchCallback={onClose} />
+          </div>
+          <div className="spoilers">
             {unlockabelClasses.length > 0 && (
               <CharacterSpoilers classes={unlockabelClasses} />
             )}
             {itemSpoilers && <ItemSpoilers itemSpoilers={itemSpoilers} />}
+          </div>
+          <div className="spoilers-warning">
+            <FontAwesomeIcon color="#721c24" icon={faWarning} height="48px" />
+            <span>
+              Clicking the checkboxes above will reveal spoilers for those
+              characters and items
+            </span>
           </div>
         </div>
       </div>
@@ -271,4 +306,4 @@ function Spoilers({ open, onClose }) {
   );
 }
 
-export default Spoilers;
+export default Settings;
