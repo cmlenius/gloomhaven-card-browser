@@ -1,6 +1,6 @@
 export const itemCards = [
   {
-    id: "001",
+    id: 1,
     name: "boots of striding",
     game: "gh",
     source: "prosperity",
@@ -11,7 +11,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "002",
+    id: 2,
     name: "winged shoes",
     game: "gh",
     source: "prosperity",
@@ -22,7 +22,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "003",
+    id: 3,
     name: "hide armor",
     game: "gh",
     source: "prosperity",
@@ -33,7 +33,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "004",
+    id: 4,
     name: "leather armor",
     game: "gh",
     source: "prosperity",
@@ -44,7 +44,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "005",
+    id: 5,
     name: "cloak of invisibility",
     game: "gh",
     source: "prosperity",
@@ -55,7 +55,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "006",
+    id: 6,
     name: "eagle-eye goggles",
     game: "gh",
     source: "prosperity",
@@ -66,7 +66,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "007",
+    id: 7,
     name: "iron helmet",
     game: "gh",
     source: "prosperity",
@@ -76,7 +76,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "008",
+    id: 8,
     name: "heater shield",
     game: "gh",
     source: "prosperity",
@@ -87,7 +87,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "009",
+    id: 9,
     name: "piercing bow",
     game: "gh",
     source: "prosperity",
@@ -98,7 +98,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "010",
+    id: 10,
     name: "war hammer",
     game: "gh",
     source: "prosperity",
@@ -109,7 +109,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "011",
+    id: 11,
     name: "poison dagger",
     game: "gh",
     source: "prosperity",
@@ -120,7 +120,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "012",
+    id: 12,
     name: "minor healing potion",
     game: "gh",
     source: "prosperity",
@@ -131,7 +131,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "013",
+    id: 13,
     name: "minor stamina potion",
     game: "gh",
     source: "prosperity",
@@ -142,7 +142,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "014",
+    id: 14,
     name: "minor power potion",
     game: "gh",
     source: "prosperity",
@@ -153,7 +153,7 @@ export const itemCards = [
     prosperity: 1,
   },
   {
-    id: "015",
+    id: 15,
     name: "boots of speed",
     game: "gh",
     source: "prosperity",
@@ -164,7 +164,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "016",
+    id: 16,
     name: "cloak of pockets",
     game: "gh",
     source: "prosperity",
@@ -174,7 +174,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "017",
+    id: 17,
     name: "empowering talisman",
     game: "gh",
     source: "prosperity",
@@ -185,7 +185,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "018",
+    id: 18,
     name: "battle-axe",
     game: "gh",
     source: "prosperity",
@@ -196,7 +196,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "019",
+    id: 19,
     name: "weighted net",
     game: "gh",
     source: "prosperity",
@@ -207,7 +207,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "020",
+    id: 20,
     name: "minor mana potion",
     game: "gh",
     source: "prosperity",
@@ -218,7 +218,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "021",
+    id: 21,
     name: "stun powder",
     game: "gh",
     source: "prosperity",
@@ -229,7 +229,7 @@ export const itemCards = [
     prosperity: 2,
   },
   {
-    id: "022",
+    id: 22,
     name: "heavy greaves",
     game: "gh",
     source: "prosperity",
@@ -239,7 +239,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "023",
+    id: 23,
     name: "chainmail",
     game: "gh",
     source: "prosperity",
@@ -250,7 +250,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "024",
+    id: 24,
     name: "amulet of life",
     game: "gh",
     source: "prosperity",
@@ -261,7 +261,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "025",
+    id: 25,
     name: "jagged sword",
     game: "gh",
     source: "prosperity",
@@ -272,7 +272,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "026",
+    id: 26,
     name: "long spear",
     game: "gh",
     source: "prosperity",
@@ -283,7 +283,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "027",
+    id: 27,
     name: "major healing potion",
     game: "gh",
     source: "prosperity",
@@ -294,7 +294,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "028",
+    id: 28,
     name: "moon earring",
     game: "gh",
     source: "prosperity",
@@ -305,7 +305,7 @@ export const itemCards = [
     prosperity: 3,
   },
   {
-    id: "029",
+    id: 29,
     name: "comfortable shoes",
     game: "gh",
     source: "prosperity",
@@ -315,7 +315,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "030",
+    id: 30,
     name: "studded leather",
     game: "gh",
     source: "prosperity",
@@ -326,7 +326,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "031",
+    id: 31,
     name: "hawk helm",
     game: "gh",
     source: "prosperity",
@@ -337,7 +337,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "032",
+    id: 32,
     name: "tower shield",
     game: "gh",
     source: "prosperity",
@@ -348,7 +348,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "033",
+    id: 33,
     name: "volatile bomb",
     game: "gh",
     source: "prosperity",
@@ -359,7 +359,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "034",
+    id: 34,
     name: "major stamina potion",
     game: "gh",
     source: "prosperity",
@@ -370,7 +370,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "035",
+    id: 35,
     name: "falcon figurine",
     game: "gh",
     source: "prosperity",
@@ -381,7 +381,7 @@ export const itemCards = [
     prosperity: 4,
   },
   {
-    id: "036",
+    id: 36,
     name: "boots of dashing",
     game: "gh",
     source: "prosperity",
@@ -392,7 +392,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "037",
+    id: 37,
     name: "robes of evocation",
     game: "gh",
     source: "prosperity",
@@ -403,7 +403,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "038",
+    id: 38,
     name: "heavy basinet",
     game: "gh",
     source: "prosperity",
@@ -413,7 +413,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "039",
+    id: 39,
     name: "hooked chain",
     game: "gh",
     source: "prosperity",
@@ -424,7 +424,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "040",
+    id: 40,
     name: "versatile dagger",
     game: "gh",
     source: "prosperity",
@@ -434,7 +434,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "041",
+    id: 41,
     name: "major power potion",
     game: "gh",
     source: "prosperity",
@@ -445,7 +445,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "042",
+    id: 42,
     name: "ring of haste",
     game: "gh",
     source: "prosperity",
@@ -456,7 +456,7 @@ export const itemCards = [
     prosperity: 5,
   },
   {
-    id: "043",
+    id: 43,
     name: "boots of quickness",
     game: "gh",
     source: "prosperity",
@@ -467,7 +467,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "044",
+    id: 44,
     name: "splintmail",
     game: "gh",
     source: "prosperity",
@@ -477,7 +477,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "045",
+    id: 45,
     name: "pendant of dark pacts",
     game: "gh",
     source: "prosperity",
@@ -488,7 +488,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "046",
+    id: 46,
     name: "spiked shield",
     game: "gh",
     source: "prosperity",
@@ -499,7 +499,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "047",
+    id: 47,
     name: "reaping scythe",
     game: "gh",
     source: "prosperity",
@@ -510,7 +510,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "048",
+    id: 48,
     name: "major mana potion",
     game: "gh",
     source: "prosperity",
@@ -521,7 +521,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "049",
+    id: 49,
     name: "sun earring",
     game: "gh",
     source: "prosperity",
@@ -532,7 +532,7 @@ export const itemCards = [
     prosperity: 6,
   },
   {
-    id: "050",
+    id: 50,
     name: "steel sabatons",
     game: "gh",
     source: "prosperity",
@@ -542,7 +542,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "051",
+    id: 51,
     name: "shadow armor",
     game: "gh",
     source: "prosperity",
@@ -553,7 +553,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "052",
+    id: 52,
     name: "protective charm",
     game: "gh",
     source: "prosperity",
@@ -563,7 +563,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "053",
+    id: 53,
     name: "black knife",
     game: "gh",
     source: "prosperity",
@@ -574,7 +574,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "054",
+    id: 54,
     name: "staff of eminence",
     game: "gh",
     source: "prosperity",
@@ -585,7 +585,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "055",
+    id: 55,
     name: "super healing potion",
     game: "gh",
     source: "prosperity",
@@ -596,7 +596,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "056",
+    id: 56,
     name: "ring of brutality",
     game: "gh",
     source: "prosperity",
@@ -607,7 +607,7 @@ export const itemCards = [
     prosperity: 7,
   },
   {
-    id: "057",
+    id: 57,
     name: "serene sandals",
     game: "gh",
     source: "prosperity",
@@ -617,7 +617,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "058",
+    id: 58,
     name: "cloak of phasing",
     game: "gh",
     source: "prosperity",
@@ -627,7 +627,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "059",
+    id: 59,
     name: "telescopic lens",
     game: "gh",
     source: "prosperity",
@@ -638,7 +638,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "060",
+    id: 60,
     name: "unstable explosives",
     game: "gh",
     source: "prosperity",
@@ -649,7 +649,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "061",
+    id: 61,
     name: "wall shield",
     game: "gh",
     source: "prosperity",
@@ -660,7 +660,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "062",
+    id: 62,
     name: "doom powder",
     game: "gh",
     source: "prosperity",
@@ -671,7 +671,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "063",
+    id: 63,
     name: "lucky eye",
     game: "gh",
     source: "prosperity",
@@ -682,7 +682,7 @@ export const itemCards = [
     prosperity: 8,
   },
   {
-    id: "064",
+    id: 64,
     name: "boots of sprinting",
     game: "gh",
     source: "prosperity",
@@ -693,7 +693,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "065",
+    id: 65,
     name: "platemail",
     game: "gh",
     source: "prosperity",
@@ -704,7 +704,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "066",
+    id: 66,
     name: "mask of terror",
     game: "gh",
     source: "prosperity",
@@ -714,7 +714,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "067",
+    id: 67,
     name: "balanced blade",
     game: "gh",
     source: "prosperity",
@@ -724,7 +724,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "068",
+    id: 68,
     name: "halberd",
     game: "gh",
     source: "prosperity",
@@ -734,7 +734,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "069",
+    id: 69,
     name: "star earring",
     game: "gh",
     source: "prosperity",
@@ -745,7 +745,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "070",
+    id: 70,
     name: "second chance ring",
     game: "gh",
     source: "prosperity",
@@ -756,7 +756,7 @@ export const itemCards = [
     prosperity: 9,
   },
   {
-    id: "071",
+    id: 71,
     name: "boots of levitation",
     game: "gh",
     source: "random-design",
@@ -765,7 +765,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "072",
+    id: 72,
     name: "shoes of happiness",
     game: "gh",
     source: "random-design",
@@ -774,7 +774,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "073",
+    id: 73,
     name: "blinking cape",
     game: "gh",
     source: "random-design",
@@ -784,7 +784,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "074",
+    id: 74,
     name: "swordedge armor",
     game: "gh",
     source: "random-design",
@@ -794,7 +794,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "075",
+    id: 75,
     name: "circlet of elements",
     game: "gh",
     source: "random-design",
@@ -804,7 +804,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "076",
+    id: 76,
     name: "chain hood",
     game: "gh",
     source: "random-design",
@@ -813,7 +813,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "077",
+    id: 77,
     name: "frigid blade",
     game: "gh",
     source: "random-design",
@@ -822,7 +822,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "078",
+    id: 78,
     name: "storm blade",
     game: "gh",
     source: "random-design",
@@ -831,7 +831,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "079",
+    id: 79,
     name: "inferno blade",
     game: "gh",
     source: "random-design",
@@ -840,7 +840,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "080",
+    id: 80,
     name: "tremor blade",
     game: "gh",
     source: "random-design",
@@ -849,7 +849,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "081",
+    id: 81,
     name: "brilliant blade",
     game: "gh",
     source: "random-design",
@@ -858,7 +858,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "082",
+    id: 82,
     name: "night blade",
     game: "gh",
     source: "random-design",
@@ -867,7 +867,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "083",
+    id: 83,
     name: "wand of frost",
     game: "gh",
     source: "random-design",
@@ -877,7 +877,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "084",
+    id: 84,
     name: "wand of storms",
     game: "gh",
     source: "random-design",
@@ -887,7 +887,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "085",
+    id: 85,
     name: "wand of infernos",
     game: "gh",
     source: "random-design",
@@ -897,7 +897,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "086",
+    id: 86,
     name: "wand of tremors",
     game: "gh",
     source: "random-design",
@@ -907,7 +907,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "087",
+    id: 87,
     name: "wand of brilliance",
     game: "gh",
     source: "random-design",
@@ -917,7 +917,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "088",
+    id: 88,
     name: "wand of darkness",
     game: "gh",
     source: "random-design",
@@ -927,7 +927,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "089",
+    id: 89,
     name: "minor cure potion",
     game: "gh",
     source: "random-design",
@@ -937,7 +937,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "090",
+    id: 90,
     name: "major cure potion",
     game: "gh",
     source: "random-design",
@@ -947,7 +947,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "091",
+    id: 91,
     name: "steel ring",
     game: "gh",
     source: "random-design",
@@ -957,7 +957,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "092",
+    id: 92,
     name: "dampening ring",
     game: "gh",
     source: "random-design",
@@ -967,7 +967,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "093",
+    id: 93,
     name: "scroll of power",
     game: "gh",
     source: "random-design",
@@ -977,7 +977,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "094",
+    id: 94,
     name: "scroll of healing",
     game: "gh",
     source: "random-design",
@@ -987,7 +987,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "095",
+    id: 95,
     name: "scroll of stamina",
     game: "gh",
     source: "random-design",
@@ -997,7 +997,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "096",
+    id: 96,
     name: "rocket boots",
     game: "gh",
     source: "other",
@@ -1007,7 +1007,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "097",
+    id: 97,
     name: "endurance footwraps",
     game: "gh",
     source: "other",
@@ -1016,7 +1016,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "098",
+    id: 98,
     name: "drakescale boots",
     game: "gh",
     source: "other",
@@ -1025,7 +1025,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "099",
+    id: 99,
     name: "magma waders",
     game: "gh",
     source: "other",
@@ -1034,7 +1034,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "100",
+    id: 100,
     name: "robes of summoning",
     game: "gh",
     source: "other",
@@ -1044,7 +1044,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "101",
+    id: 101,
     name: "second skin",
     game: "gh",
     source: "other",
@@ -1053,7 +1053,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "102",
+    id: 102,
     name: "sacrificial robes",
     game: "gh",
     source: "other",
@@ -1063,7 +1063,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "103",
+    id: 103,
     name: "drakescale armor",
     game: "gh",
     source: "other",
@@ -1072,7 +1072,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "104",
+    id: 104,
     name: "steam armor",
     game: "gh",
     source: "other",
@@ -1082,7 +1082,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "105",
+    id: 105,
     name: "flea-bitten shawl",
     game: "gh",
     source: "other",
@@ -1091,7 +1091,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "106",
+    id: 106,
     name: "necklace of teeth",
     game: "gh",
     source: "other",
@@ -1100,7 +1100,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "107",
+    id: 107,
     name: "horned helm",
     game: "gh",
     source: "other",
@@ -1109,7 +1109,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "108",
+    id: 108,
     name: "drakescale helm",
     game: "gh",
     source: "other",
@@ -1118,7 +1118,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "109",
+    id: 109,
     name: "thiefs hood",
     game: "gh",
     source: "other",
@@ -1128,7 +1128,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "110",
+    id: 110,
     name: "helm of the mountain",
     game: "gh",
     source: "other",
@@ -1137,7 +1137,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "111",
+    id: 111,
     name: "wave crest",
     game: "gh",
     source: "other",
@@ -1146,7 +1146,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "112",
+    id: 112,
     name: "ancient drill",
     game: "gh",
     source: "other",
@@ -1156,7 +1156,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "113",
+    id: 113,
     name: "skullbane axe",
     game: "gh",
     source: "other",
@@ -1166,7 +1166,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "114",
+    id: 114,
     name: "staff of xorn",
     game: "gh",
     source: "other",
@@ -1176,7 +1176,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "115",
+    id: 115,
     name: "mountain hammer",
     game: "gh",
     source: "other",
@@ -1186,7 +1186,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "116",
+    id: 116,
     name: "fueled falchion",
     game: "gh",
     source: "other",
@@ -1196,7 +1196,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "117",
+    id: 117,
     name: "bloody axe",
     game: "gh",
     source: "other",
@@ -1206,7 +1206,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "118",
+    id: 118,
     name: "staff of elements",
     game: "gh",
     source: "other",
@@ -1216,7 +1216,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "119",
+    id: 119,
     name: "skull of hatred",
     game: "gh",
     source: "other",
@@ -1226,7 +1226,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "120",
+    id: 120,
     name: "staff of summoning",
     game: "gh",
     source: "other",
@@ -1236,7 +1236,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "121",
+    id: 121,
     name: "orb of dawn",
     game: "gh",
     source: "other",
@@ -1245,7 +1245,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "122",
+    id: 122,
     name: "orb of twilight",
     game: "gh",
     source: "other",
@@ -1254,7 +1254,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "123",
+    id: 123,
     name: "ring of skulls",
     game: "gh",
     source: "other",
@@ -1264,7 +1264,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "124",
+    id: 124,
     name: "doomed compass",
     game: "gh",
     source: "other",
@@ -1274,7 +1274,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "125",
+    id: 125,
     name: "curious gear",
     game: "gh",
     source: "other",
@@ -1284,7 +1284,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "126",
+    id: 126,
     name: "remote spider",
     game: "gh",
     source: "other",
@@ -1294,7 +1294,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "127",
+    id: 127,
     name: "giant remote spider",
     game: "gh",
     source: "other",
@@ -1304,7 +1304,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "128",
+    id: 128,
     name: "black censer",
     game: "gh",
     source: "other",
@@ -1314,7 +1314,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "129",
+    id: 129,
     name: "black card",
     game: "gh",
     source: "other",
@@ -1324,7 +1324,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "130",
+    id: 130,
     name: "helix ring",
     game: "gh",
     source: "other",
@@ -1334,7 +1334,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "131",
+    id: 131,
     name: "heart of the betrayer",
     game: "gh",
     source: "other",
@@ -1344,7 +1344,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "132",
+    id: 132,
     name: "power core",
     game: "gh",
     source: "other",
@@ -1354,7 +1354,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "133",
+    id: 133,
     name: "resonant crystal",
     game: "gh",
     source: "other",
@@ -1364,7 +1364,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "134",
+    id: 134,
     name: "imposing blade",
     game: "gh",
     source: "solo-scenario",
@@ -1373,7 +1373,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "135",
+    id: 135,
     name: "focusing ray",
     game: "gh",
     source: "solo-scenario",
@@ -1383,7 +1383,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "136",
+    id: 136,
     name: "volatile elixir",
     game: "gh",
     source: "solo-scenario",
@@ -1393,7 +1393,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "137",
+    id: 137,
     name: "silent stiletto",
     game: "gh",
     source: "solo-scenario",
@@ -1402,7 +1402,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "138",
+    id: 138,
     name: "stone charm",
     game: "gh",
     source: "solo-scenario",
@@ -1412,7 +1412,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "139",
+    id: 139,
     name: "psychic knife",
     game: "gh",
     source: "solo-scenario",
@@ -1421,7 +1421,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "140",
+    id: 140,
     name: "sun shield",
     game: "gh",
     source: "solo-scenario",
@@ -1430,7 +1430,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "141",
+    id: 141,
     name: "utility belt",
     game: "gh",
     source: "solo-scenario",
@@ -1440,7 +1440,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "142",
+    id: 142,
     name: "phasing idol",
     game: "gh",
     source: "solo-scenario",
@@ -1450,7 +1450,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "143",
+    id: 143,
     name: "smoke elixir",
     game: "gh",
     source: "solo-scenario",
@@ -1460,7 +1460,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "144",
+    id: 144,
     name: "pendant of the plague",
     game: "gh",
     source: "solo-scenario",
@@ -1470,7 +1470,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "145",
+    id: 145,
     name: "mask of death",
     game: "gh",
     source: "solo-scenario",
@@ -1479,7 +1479,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "146",
+    id: 146,
     name: "masters lute",
     game: "gh",
     source: "solo-scenario",
@@ -1488,7 +1488,7 @@ export const itemCards = [
     slot: "2h",
   },
   {
-    id: "147",
+    id: 147,
     name: "cloak of the hunter",
     game: "gh",
     source: "solo-scenario",
@@ -1497,7 +1497,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "148",
+    id: 148,
     name: "doctors coat",
     game: "gh",
     source: "solo-scenario",
@@ -1506,7 +1506,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "149",
+    id: 149,
     name: "elemental boots",
     game: "gh",
     source: "solo-scenario",
@@ -1516,7 +1516,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "150",
+    id: 150,
     name: "staff of command",
     game: "gh",
     source: "solo-scenario",
@@ -1526,7 +1526,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "152",
+    id: 152,
     name: "ring of duality",
     game: "fc",
     source: "gh",
@@ -1536,7 +1536,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "153",
+    id: 153,
     name: "minor antidote",
     game: "fc",
     source: "gh",
@@ -1545,7 +1545,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "154",
+    id: 154,
     name: "major antidote",
     game: "fc",
     source: "gh",
@@ -1554,7 +1554,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "155",
+    id: 155,
     name: "curseward armor",
     game: "fc",
     source: "gh",
@@ -1564,7 +1564,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "156",
+    id: 156,
     name: "elemental claymore",
     game: "fc",
     source: "gh",
@@ -1573,7 +1573,7 @@ export const itemCards = [
     slot: "2h",
   },
   {
-    id: "157",
+    id: 157,
     name: "ancient bow",
     game: "fc",
     source: "gh",
@@ -1583,7 +1583,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "158",
+    id: 158,
     name: "rejuvenation greaves",
     game: "fc",
     source: "gh",
@@ -1593,7 +1593,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "159",
+    id: 159,
     name: "scroll of haste",
     game: "fc",
     source: "gh",
@@ -1603,7 +1603,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "160",
+    id: 160,
     name: "cutpurse dagger",
     game: "fc",
     source: "gh",
@@ -1613,7 +1613,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "161",
+    id: 161,
     name: "throwing axe",
     game: "fc",
     source: "gh",
@@ -1623,7 +1623,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "162",
+    id: 162,
     name: "rift device",
     game: "fc",
     source: "gh",
@@ -1633,7 +1633,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "163",
+    id: 163,
     name: "crystal tiara",
     game: "fc",
     source: "gh",
@@ -1642,7 +1642,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "164",
+    id: 164,
     name: "basin of prophecy",
     game: "fc",
     source: "gh",
@@ -1651,7 +1651,7 @@ export const itemCards = [
     slot: "2h",
   },
   {
-    id: "01",
+    id: 1,
     name: "eagle-eye goggles",
     game: "jotl",
     source: "jotl",
@@ -1661,7 +1661,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "02",
+    id: 2,
     name: "iron helmet",
     game: "jotl",
     source: "jotl",
@@ -1670,7 +1670,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "03",
+    id: 3,
     name: "chain armor",
     game: "jotl",
     source: "jotl",
@@ -1680,7 +1680,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "04",
+    id: 4,
     name: "studded leather",
     game: "jotl",
     source: "jotl",
@@ -1690,7 +1690,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "05",
+    id: 5,
     name: "weathered boots",
     game: "jotl",
     source: "jotl",
@@ -1700,7 +1700,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "06",
+    id: 6,
     name: "winged shoes",
     game: "jotl",
     source: "jotl",
@@ -1710,7 +1710,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "07",
+    id: 7,
     name: "heater shield",
     game: "jotl",
     source: "jotl",
@@ -1720,7 +1720,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "08",
+    id: 8,
     name: "throwing hammer",
     game: "jotl",
     source: "jotl",
@@ -1730,7 +1730,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "09",
+    id: 9,
     name: "poison dagger",
     game: "jotl",
     source: "jotl",
@@ -1740,7 +1740,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "10",
+    id: 10,
     name: "iron spear",
     game: "jotl",
     source: "jotl",
@@ -1750,7 +1750,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "11",
+    id: 11,
     name: "healing potion",
     game: "jotl",
     source: "jotl",
@@ -1760,7 +1760,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "12",
+    id: 12,
     name: "stamina potion",
     game: "jotl",
     source: "jotl",
@@ -1770,7 +1770,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "13",
+    id: 13,
     name: "power potion",
     game: "jotl",
     source: "jotl",
@@ -1780,7 +1780,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "14",
+    id: 14,
     name: "mana potion",
     game: "jotl",
     source: "jotl1",
@@ -1790,7 +1790,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "15",
+    id: 15,
     name: "amulet of life",
     game: "jotl",
     source: "jotl1",
@@ -1800,7 +1800,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "16",
+    id: 16,
     name: "robes of evocation",
     game: "jotl",
     source: "jotl1",
@@ -1810,7 +1810,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "17",
+    id: 17,
     name: "comfortable shoes",
     game: "jotl",
     source: "jotl1",
@@ -1819,7 +1819,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "18",
+    id: 18,
     name: "battle-axe",
     game: "jotl",
     source: "jotl1",
@@ -1829,7 +1829,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "19",
+    id: 19,
     name: "black candle",
     game: "jotl",
     source: "jotl1",
@@ -1839,7 +1839,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "20",
+    id: 20,
     name: "stun powder",
     game: "jotl",
     source: "jotl1",
@@ -1849,7 +1849,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "21",
+    id: 21,
     name: "hawk helm",
     game: "jotl",
     source: "jotl2",
@@ -1859,7 +1859,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "22",
+    id: 22,
     name: "bladed armor",
     game: "jotl",
     source: "jotl2",
@@ -1869,7 +1869,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "23",
+    id: 23,
     name: "boots of striding",
     game: "jotl",
     source: "jotl2",
@@ -1879,7 +1879,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "24",
+    id: 24,
     name: "volatile bomb",
     game: "jotl",
     source: "jotl2",
@@ -1889,7 +1889,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "25",
+    id: 25,
     name: "barbed chain",
     game: "jotl",
     source: "jotl2",
@@ -1899,7 +1899,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "26",
+    id: 26,
     name: "oak charm",
     game: "jotl",
     source: "jotl2",
@@ -1909,7 +1909,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "27",
+    id: 27,
     name: "fateful compass",
     game: "jotl",
     source: "jotl3",
@@ -1919,7 +1919,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "28",
+    id: 28,
     name: "flea-bitten shawl",
     game: "jotl",
     source: "jotl3",
@@ -1928,7 +1928,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "29",
+    id: 29,
     name: "tower shield",
     game: "jotl",
     source: "jotl3",
@@ -1938,7 +1938,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "30",
+    id: 30,
     name: "ring of haste",
     game: "jotl",
     source: "jotl3",
@@ -1948,7 +1948,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "31",
+    id: 31,
     name: "ring of strength",
     game: "jotl",
     source: "jotl3",
@@ -1958,7 +1958,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "32",
+    id: 32,
     name: "ring of restoration",
     game: "jotl",
     source: "jotl3",
@@ -1968,7 +1968,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "33",
+    id: 33,
     name: "steel ring",
     game: "jotl",
     source: "jotl3",
@@ -1978,7 +1978,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "34",
+    id: 34,
     name: "barbed axe",
     game: "jotl",
     source: "jotl3",
@@ -1988,7 +1988,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "35",
+    id: 35,
     name: "robes of command",
     game: "jotl",
     source: "jotl3",
@@ -1998,16 +1998,17 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "36",
+    id: 36,
     name: "jet boots",
-    source: "prosperity",
-    image: "items//undefined-36-jet-boots.jpg",
+    game: "jotl",
+    source: "jotl3",
+    image: "items/jaws-of-the-lion/jotl-36-jet-boots.jpg",
     cost: 30,
     slot: "legs",
     spent: true,
   },
   {
-    id: "01",
+    id: 1,
     name: "orb of confusion",
     game: "cs",
     source: "cs",
@@ -2016,7 +2017,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "02",
+    id: 2,
     name: "orb of momentum",
     game: "cs",
     source: "cs",
@@ -2025,7 +2026,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "03",
+    id: 3,
     name: "orb of agility",
     game: "cs",
     source: "cs",
@@ -2034,70 +2035,70 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "04",
+    id: 4,
     name: "orb of vigor",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-04-orb-of-vigor.jpg",
-    cost: 15,
+    cost: 20,
     slot: "small",
   },
   {
-    id: "05",
+    id: 5,
     name: "orb of retribution",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-05-orb-of-retribution.jpg",
-    cost: 15,
+    cost: 20,
     slot: "small",
   },
   {
-    id: "06",
+    id: 6,
     name: "orb of infection",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-06-orb-of-infection.jpg",
-    cost: 15,
+    cost: 20,
     slot: "small",
   },
   {
-    id: "07",
+    id: 7,
     name: "orb of vitality",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-07-orb-of-vitality.jpg",
-    cost: 15,
+    cost: 20,
     slot: "small",
   },
   {
-    id: "08",
+    id: 8,
     name: "orb of protection",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-08-orb-of-protection.jpg",
-    cost: 15,
+    cost: 20,
     slot: "small",
   },
   {
-    id: "09",
+    id: 9,
     name: "orb of fortune",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-09-orb-of-fortune.jpg",
-    cost: 15,
+    cost: 30,
     slot: "small",
   },
   {
-    id: "10",
+    id: 10,
     name: "orb of despair",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-10-orb-of-despair.jpg",
-    cost: 15,
+    cost: 30,
     slot: "small",
   },
   {
-    id: "11",
+    id: 11,
     name: "pox antidote",
     game: "cs",
     source: "cs",
@@ -2107,7 +2108,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "12",
+    id: 12,
     name: "trophy helm",
     game: "cs",
     source: "cs",
@@ -2116,7 +2117,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "13",
+    id: 13,
     name: "war pick",
     game: "cs",
     source: "cs",
@@ -2126,7 +2127,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "14",
+    id: 14,
     name: "chain mace",
     game: "cs",
     source: "cs",
@@ -2136,7 +2137,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "15",
+    id: 15,
     name: "draining greaves",
     game: "cs",
     source: "cs",
@@ -2145,7 +2146,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "16",
+    id: 16,
     name: "shoes of phasing",
     game: "cs",
     source: "cs",
@@ -2154,7 +2155,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "17",
+    id: 17,
     name: "lightweight boots",
     game: "cs",
     source: "cs",
@@ -2164,7 +2165,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "18",
+    id: 18,
     name: "bottled moonlight",
     game: "cs",
     source: "cs",
@@ -2174,7 +2175,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "19",
+    id: 19,
     name: "boots of perpetuity",
     game: "cs",
     source: "cs",
@@ -2183,7 +2184,7 @@ export const itemCards = [
     slot: "legs",
   },
   {
-    id: "20",
+    id: 20,
     name: "curious pendant",
     game: "cs",
     source: "cs",
@@ -2193,7 +2194,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "21",
+    id: 21,
     name: "infrared goggles",
     game: "cs",
     source: "cs",
@@ -2202,7 +2203,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "22",
+    id: 22,
     name: "steel helmet",
     game: "cs",
     source: "cs",
@@ -2211,7 +2212,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "23",
+    id: 23,
     name: "woven plate armor",
     game: "cs",
     source: "cs",
@@ -2221,7 +2222,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "24",
+    id: 24,
     name: "mantle of purity",
     game: "cs",
     source: "cs",
@@ -2231,7 +2232,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "25",
+    id: 25,
     name: "boneclad shawl",
     game: "cs",
     source: "cs",
@@ -2241,7 +2242,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "26",
+    id: 26,
     name: "silhouette cuirass",
     game: "cs",
     source: "cs",
@@ -2251,7 +2252,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "27",
+    id: 27,
     name: "translocation device",
     game: "cs",
     source: "cs",
@@ -2261,7 +2262,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "28",
+    id: 28,
     name: "alchemy potion",
     game: "cs",
     source: "cs",
@@ -2271,7 +2272,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "29",
+    id: 29,
     name: "intoxicating potion",
     game: "cs",
     source: "cs",
@@ -2281,7 +2282,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "30",
+    id: 30,
     name: "iron snare",
     game: "cs",
     source: "cs",
@@ -2291,7 +2292,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "31",
+    id: 31,
     name: "concussion mine",
     game: "cs",
     source: "cs",
@@ -2301,7 +2302,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "32",
+    id: 32,
     name: "shifting compass",
     game: "cs",
     source: "cs",
@@ -2311,7 +2312,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "33",
+    id: 33,
     name: "battering ram",
     game: "cs",
     source: "cs",
@@ -2321,7 +2322,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "34",
+    id: 34,
     name: "claw trap",
     game: "cs",
     source: "cs",
@@ -2331,7 +2332,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "35",
+    id: 35,
     name: "staff of retribution",
     game: "cs",
     source: "cs",
@@ -2341,7 +2342,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "36",
+    id: 36,
     name: "curseblood blade",
     game: "cs",
     source: "cs",
@@ -2351,7 +2352,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "37",
+    id: 37,
     name: "drakescale shield",
     game: "cs",
     source: "cs",
@@ -2361,7 +2362,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "38",
+    id: 38,
     name: "drakescale dagger",
     game: "cs",
     source: "cs",
@@ -2371,7 +2372,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "39",
+    id: 39,
     name: "hook shot",
     game: "cs",
     source: "cs",
@@ -2381,7 +2382,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "40",
+    id: 40,
     name: "moonleather boots",
     game: "cs",
     source: "cs",
@@ -2391,7 +2392,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "41",
+    id: 41,
     name: "spirit libation",
     game: "cs",
     source: "cs",
@@ -2401,7 +2402,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "42",
+    id: 42,
     name: "robe of soothing",
     game: "cs",
     source: "cs",
@@ -2410,7 +2411,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "43",
+    id: 43,
     name: "resplendent mitre",
     game: "cs",
     source: "cs",
@@ -2420,7 +2421,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "44",
+    id: 44,
     name: "canister projectile",
     game: "cs",
     source: "cs",
@@ -2430,7 +2431,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "45",
+    id: 45,
     name: "chain cannon",
     game: "cs",
     source: "cs",
@@ -2440,17 +2441,17 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "46",
+    id: 46,
     name: "summoners whistle",
     game: "cs",
     source: "cs",
-    image: "items/crimson-scales/cs-46-summoner's-whistle.jpg",
+    image: "items/crimson-scales/cs-46-summoners-whistle.jpg",
     cost: 30,
     slot: "small",
     consumed: true,
   },
   {
-    id: "47",
+    id: 47,
     name: "nature armlets",
     game: "cs",
     source: "cs",
@@ -2459,7 +2460,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "48",
+    id: 48,
     name: "test tube",
     game: "cs",
     source: "cs",
@@ -2469,7 +2470,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "49",
+    id: 49,
     name: "booster shot",
     game: "cs",
     source: "cs",
@@ -2479,7 +2480,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "50",
+    id: 50,
     name: "luminous carapace",
     game: "cs",
     source: "cs",
@@ -2489,7 +2490,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "51",
+    id: 51,
     name: "flaming armor",
     game: "cs",
     source: "cs",
@@ -2498,7 +2499,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "52",
+    id: 52,
     name: "flaming axe",
     game: "cs",
     source: "cs",
@@ -2508,7 +2509,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "53",
+    id: 53,
     name: "field mortar",
     game: "cs",
     source: "cs",
@@ -2517,7 +2518,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "54",
+    id: 54,
     name: "vipertooth dagger",
     game: "cs",
     source: "cs",
@@ -2526,7 +2527,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "55",
+    id: 55,
     name: "ghost viper venom",
     game: "cs",
     source: "cs",
@@ -2536,7 +2537,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "56",
+    id: 56,
     name: "clamp trap",
     game: "cs",
     source: "cs",
@@ -2546,7 +2547,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "57",
+    id: 57,
     name: "cleansed voidheart",
     game: "cs",
     source: "cs",
@@ -2555,7 +2556,7 @@ export const itemCards = [
     slot: "body",
   },
   {
-    id: "58",
+    id: 58,
     name: "dizzying tincture",
     game: "cs",
     source: "cs",
@@ -2565,7 +2566,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "59",
+    id: 59,
     name: "drakes blood",
     game: "cs",
     source: "cs",
@@ -2575,7 +2576,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "60",
+    id: 60,
     name: "mana medicine",
     game: "cs",
     source: "cs",
@@ -2585,7 +2586,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "61",
+    id: 61,
     name: "ashsteel gauntlets",
     game: "cs",
     source: "cs",
@@ -2595,7 +2596,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "62",
+    id: 62,
     name: "smog emitter",
     game: "cs",
     source: "cs",
@@ -2605,7 +2606,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "63",
+    id: 63,
     name: "lucky horseshoe",
     game: "cs",
     source: "cs",
@@ -2615,7 +2616,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "64",
+    id: 64,
     name: "mild kindled tonic",
     game: "cs",
     source: "cs",
@@ -2625,7 +2626,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "65",
+    id: 65,
     name: "rescue axe",
     game: "cs",
     source: "cs",
@@ -2635,7 +2636,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "66",
+    id: 66,
     name: "iron malleus",
     game: "cs",
     source: "cs",
@@ -2645,7 +2646,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "67",
+    id: 67,
     name: "pike hook",
     game: "cs",
     source: "cs",
@@ -2655,7 +2656,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "68",
+    id: 68,
     name: "explosive tonic",
     game: "cs",
     source: "cs",
@@ -2664,7 +2665,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "69",
+    id: 69,
     name: "spicy kindled tonic",
     game: "cs",
     source: "cs",
@@ -2673,7 +2674,7 @@ export const itemCards = [
     slot: "small",
   },
   {
-    id: "70",
+    id: 70,
     name: "utility rope",
     game: "cs",
     source: "cs",
@@ -2683,7 +2684,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "71",
+    id: 71,
     name: "fireproof helm",
     game: "cs",
     source: "cs",
@@ -2692,7 +2693,7 @@ export const itemCards = [
     slot: "head",
   },
   {
-    id: "72",
+    id: 72,
     name: "wooden ladder",
     game: "cs",
     source: "cs",
@@ -2701,7 +2702,7 @@ export const itemCards = [
     slot: "2h",
   },
   {
-    id: "73",
+    id: 73,
     name: "medical kit",
     game: "cs",
     source: "cs",
@@ -2710,7 +2711,7 @@ export const itemCards = [
     slot: "1h",
   },
   {
-    id: "74",
+    id: 74,
     name: "mild bolstering tonic",
     game: "cs",
     source: "cs",
@@ -2720,7 +2721,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "75",
+    id: 75,
     name: "medallion of the oak",
     game: "cs",
     source: "cs",
@@ -2730,7 +2731,7 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "76",
+    id: 76,
     name: "cauterizing knife",
     game: "cs",
     source: "cs",
@@ -2740,7 +2741,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "77",
+    id: 77,
     name: "trauma kit",
     game: "cs",
     source: "cs",
@@ -2750,7 +2751,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "78",
+    id: 78,
     name: "scroll of charisma",
     game: "cs",
     source: "cs",
@@ -2760,7 +2761,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "79",
+    id: 79,
     name: "rescue shield",
     game: "cs",
     source: "cs",
@@ -2770,7 +2771,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "80",
+    id: 80,
     name: "scroll of protection",
     game: "cs",
     source: "cs",
@@ -2780,7 +2781,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "81",
+    id: 81,
     name: "spicy bolstering tonic",
     game: "cs",
     source: "cs",
@@ -2790,7 +2791,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "82",
+    id: 82,
     name: "scroll of command",
     game: "cs",
     source: "cs",
@@ -2800,7 +2801,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "83",
+    id: 83,
     name: "sphere of currents",
     game: "cs",
     source: "cs",
@@ -2810,16 +2811,17 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "84",
+    id: 84,
     name: "slug crossbow",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-84-slug-crossbow.jpg",
+    cost: 0,
     slot: "1h",
     consumed: true,
   },
   {
-    id: "85",
+    id: 85,
     name: "refined slug crossbow",
     game: "cs",
     source: "cs",
@@ -2829,16 +2831,17 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "86",
+    id: 86,
     name: "bulwark banner",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-86-bulwark-banner.jpg",
+    cost: 0,
     slot: "1h",
     consumed: true,
   },
   {
-    id: "87",
+    id: 87,
     name: "refined bulwark banner",
     game: "cs",
     source: "cs",
@@ -2848,16 +2851,17 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "88",
+    id: 88,
     name: "remote beetle",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-88-remote-beetle.jpg",
+    cost: 0,
     slot: "small",
     consumed: true,
   },
   {
-    id: "89",
+    id: 89,
     name: "refined remote beetle",
     game: "cs",
     source: "cs",
@@ -2867,16 +2871,17 @@ export const itemCards = [
     spent: true,
   },
   {
-    id: "90",
+    id: 90,
     name: "blazing boots",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-90-blazing-boots.jpg",
+    cost: 0,
     slot: "small",
     consumed: true,
   },
   {
-    id: "91",
+    id: 91,
     name: "refined blazing boots",
     game: "cs",
     source: "cs",
@@ -2886,7 +2891,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "92",
+    id: 92,
     name: "viper blowgun",
     game: "cs",
     source: "cs",
@@ -2895,7 +2900,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "93",
+    id: 93,
     name: "refined viper blowgun",
     game: "cs",
     source: "cs",
@@ -2905,7 +2910,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "94",
+    id: 94,
     name: "frost stone",
     game: "cs",
     source: "cs",
@@ -2915,7 +2920,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "95",
+    id: 95,
     name: "storm stone",
     game: "cs",
     source: "cs",
@@ -2925,7 +2930,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "96",
+    id: 96,
     name: "inferno stone",
     game: "cs",
     source: "cs",
@@ -2935,7 +2940,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "97",
+    id: 97,
     name: "tremor stone",
     game: "cs",
     source: "cs",
@@ -2945,7 +2950,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "98",
+    id: 98,
     name: "brilliant stone",
     game: "cs",
     source: "cs",
@@ -2955,7 +2960,7 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "99",
+    id: 99,
     name: "dark stone",
     game: "cs",
     source: "cs",
@@ -2965,12 +2970,12 @@ export const itemCards = [
     consumed: true,
   },
   {
-    id: "100",
+    id: 100,
     name: "wonder stone",
     game: "cs",
     source: "cs",
     image: "items/crimson-scales/cs-100-wonder-stone.jpg",
-    cost: 25,
+    cost: 40,
     slot: "small",
     consumed: true,
   },

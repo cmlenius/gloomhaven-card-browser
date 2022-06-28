@@ -66,13 +66,6 @@ input[type="radio"] {
   margin: 4px;
 }
 
-.card-blank {
-  border-radius: 12px;
-  box-sizing: border-box;
-  flex: 1 0 21%;
-  margin: 4px;
-}
-
 .card-img {
   border-radius: 12px;
   text-align: center;
@@ -135,7 +128,7 @@ input[type="radio"] {
   margin: 2px 0 0 0;
   min-width: 160px;
   padding: 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 .dropdown-content li {
@@ -437,7 +430,7 @@ input[type="radio"] {
 /* --- MEDIA QUERIES --- */
 @media (max-width: 920px) {
   .card {
-    flex: 1 0 24.5%;
+    flex: 1 0 26.5%;
   }
 }
 
@@ -450,6 +443,10 @@ input[type="radio"] {
 @media (max-width: 540px) {
   .filters {
     margin-top: 8px;
+  }
+
+  .game-picker {
+    display: none;
   }
 
   .spoilers {
@@ -474,6 +471,9 @@ input[type="radio"] {
   }
 
   .topbar-hidden-links {
-    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

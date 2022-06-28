@@ -29,11 +29,15 @@ function CardList({ isSingleColumn, cardList }) {
     >
       {data.map((card, idx) => (
         <div key={idx} className={isSingleColumn ? "mat" : "card"}>
-          <img alt={card.name} className="card-img" src={baseUrl + card.image} />
+          <img
+            alt={card.name}
+            className="card-img"
+            src={baseUrl + card.image}
+          />
         </div>
       ))}
       {!isSingleColumn &&
-        [...Array(4)].map((_, idx) => <div key={idx} className="card-blank" />)}
+        [...Array(4)].map((_, idx) => <div key={idx} className="card" />)}
     </InfiniteScroll>
   );
 }

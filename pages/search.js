@@ -58,19 +58,35 @@ function Search({ isMat, searchResults }) {
         spoilers.characters?.has(card.class)
       );
     } else {
-      if (card.source === "Prosperity")
-        return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-      if (card.source === "Random Item Design") return spoilers.items.recipes;
-      if (card.source === "Other") return spoilers.items.other;
+      switch (card.source) {
+        case "prosperity":
+          return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
+        case "random-design":
+          return spoilers.items.recipes;
+        case "solo-scenario":
+          return spoilers.items.solo;
+        case "other":
+          return spoilers.items.other;
+        case "jotl":
+          return true;
+        case "jotl1":
+          return spoilers.items.jotl1;
+        case "jotl2":
+          return spoilers.items.jotl2;
+        case "jotl3":
+          return spoilers.items.jotl3;
+        case "cs":
+          return true;
+        default:
+          return false;
+      }
     }
-
-    return false;
   });
 
   return (
     <Layout>
       <SearchToolbar />
-      <CardList isSingleColumn={isMat} cardList={c || []} />
+      <CardList isSingleColumn={isMat} cardList={cardList || []} />
     </Layout>
   );
 }

@@ -7913,7 +7913,7 @@ export const characterAbilityCards = [
     game: "cs",
     image:
       "character-ability-cards/crimson-scales/QA/cs-energy-transmission.jpg",
-    initiative: null,
+    initiative: 0.5,
     level: 4,
   },
   {
@@ -7930,7 +7930,7 @@ export const characterAbilityCards = [
     class: "QA",
     game: "cs",
     image: "character-ability-cards/crimson-scales/QA/cs-galvanic-coil.jpg",
-    initiative: null,
+    initiative: 0.7,
     level: 6,
   },
   {
@@ -7965,7 +7965,7 @@ export const characterAbilityCards = [
     game: "cs",
     image:
       "character-ability-cards/crimson-scales/QA/cs-instant-relocation-matrix.jpg",
-    initiative: null,
+    initiative: 0.9,
     level: 8,
   },
   {
@@ -8032,7 +8032,7 @@ export const characterAbilityCards = [
     class: "QA",
     game: "cs",
     image: "character-ability-cards/crimson-scales/QA/cs-power-modulation.jpg",
-    initiative: null,
+    initiative: 0.1,
     level: 1.5,
   },
   {
@@ -8106,7 +8106,7 @@ export const characterAbilityCards = [
     game: "cs",
     image:
       "character-ability-cards/crimson-scales/QA/cs-trajectory-diverter.jpg",
-    initiative: null,
+    initiative: 0.3,
     level: 2,
   },
   {

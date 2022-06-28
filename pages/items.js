@@ -105,10 +105,14 @@ function Items({ searchResults }) {
         return spoilers.items.jotl2;
       case "jotl3":
         return spoilers.items.jotl3;
+      case "cs":
+        return true;
       default:
         return false;
     }
   });
+
+  console.log(searchResults.length, cardList.length);
 
   return (
     <Layout>

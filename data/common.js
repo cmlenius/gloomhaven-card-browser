@@ -49,20 +49,20 @@ const joltCharacters = [
 ];
 
 const csCharacters = [
-  { id: "AA", colour: "#A77037", name: "Amber Aegis" },
-  { id: "BK", colour: "#AF8F42", name: "Brightspark" },
-  { id: "BM", colour: "#725C3F", name: "Bombard" },
-  { id: "CG", colour: "#1C1919", name: "Chainguard" },
-  { id: "CT", colour: "#5F8A87", name: "Chieftain" },
-  { id: "FK", colour: "#97452B", name: "Fire Knight" },
-  { id: "HO", colour: "#8B5E90", name: "Hollowpact" },
-  { id: "HP", colour: "#8C8A79", name: "Hierophant" },
-  { id: "LU", colour: "#53378B", name: "Luminary" },
-  { id: "MF", colour: "#334123", name: "Mirefoot" },
-  { id: "QA", colour: "#739097", name: "Artificier" },
-  { id: "RM", colour: "#8D2B27", name: "Ruinmaw" },
-  { id: "SP", colour: "#4F7F45", name: "Spirit Caller" },
-  { id: "ST", colour: "#384070", name: "Starslinger" },
+  { id: "AA", colour: "#A77037", name: "Amber Aegis", altName: "Beetle" },
+  { id: "BK", colour: "#AF8F42", name: "Brightspark", altName: "Flask" },
+  { id: "BM", colour: "#725C3F", name: "Bombard", altName: "Target" },
+  { id: "CG", colour: "#1C1919", name: "Chainguard", altName: "Chained Helmet" },
+  { id: "CT", colour: "#5F8A87", name: "Chieftain", altName: "Tusks" },
+  { id: "FK", colour: "#97452B", name: "Fire Knight", altName: "Ladder Axe" },
+  { id: "HO", colour: "#8B5E90", name: "Hollowpact", altName: "Vortex" },
+  { id: "HP", colour: "#8C8A79", name: "Hierophant", altName: "Leaf" },
+  { id: "LU", colour: "#53378B", name: "Luminary", altName: "Crescent Sun" },
+  { id: "MF", colour: "#334123", name: "Mirefoot", altName: "Sprig" },
+  { id: "QA", colour: "#739097", name: "Artificier", altName: "Tools" },
+  { id: "RM", colour: "#8D2B27", name: "Ruinmaw", altName: "Bleeding Claw" },
+  { id: "SP", colour: "#4F7F45", name: "Spirit Caller", altName: "Skull" },
+  { id: "ST", colour: "#384070", name: "Starslinger", altName: "Galaxy" },
 ];
 
 export const allChars = [...ghCharacters, ...joltCharacters, ...csCharacters];

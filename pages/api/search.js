@@ -7,9 +7,11 @@ export async function search(query) {
   const search = query.search?.toLowerCase() || "";
   const game = query.game || "gh";
 
+  if (search === "") return { searchResults: [], isMat: false };
+
   // Check if character match
   const characterMat = characterMats.find(
-    (mat) => mat.name.toLowerCase() === search && mat.game === game
+    (mat) => mat.name === search && mat.game === game
   );
   if (characterMat) return { searchResults: [characterMat], isMat: true };
 
@@ -20,20 +22,9 @@ export async function search(query) {
       : []),
     ...(!query.type || query.type === "items" ? itemCards : []),
   ];
-  searchResults = searchResults.filter((char) => char.game === game);
-
-  searchResults = searchResults.map((sr) => ({
-    ...sr,
-    name: sr.name.toLowerCase(),
-  }));
-
-  if (!search || search === "") {
-    searchResults = [];
-  } else {
-    searchResults = searchResults.filter((sr) =>
-      sr.name.includes(search.toLowerCase())
-    );
-  }
+  searchResults = searchResults.filter(
+    (card) => card.game === game && card.name.includes(search)
+  );
 
   // Sort
   searchResults = searchResults.sort(customSort("name", "asc"));

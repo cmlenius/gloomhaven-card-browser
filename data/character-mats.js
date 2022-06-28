@@ -1,7 +1,7 @@
 export const characterMats = [
   {
     class: "BE",
-    name: "Berserker",
+    name: "berserker",
     game: "gh",
     image: "character-mats/gloomhaven/gh-berserker.jpg",
     cards: 10,
@@ -9,7 +9,7 @@ export const characterMats = [
   },
   {
     class: "BR",
-    name: "Brute",
+    name: "brute",
     game: "gh",
     image: "character-mats/gloomhaven/gh-brute.jpg",
     cards: 10,
@@ -17,7 +17,7 @@ export const characterMats = [
   },
   {
     class: "BT",
-    name: "Beast Tyrant",
+    name: "beast tyrant",
     game: "gh",
     image: "character-mats/gloomhaven/gh-beast-tyrant.jpg",
     cards: 10,
@@ -25,7 +25,7 @@ export const characterMats = [
   },
   {
     class: "CH",
-    name: "Cragheart",
+    name: "cragheart",
     game: "gh",
     image: "character-mats/gloomhaven/gh-cragheart.jpg",
     cards: 11,
@@ -33,7 +33,7 @@ export const characterMats = [
   },
   {
     class: "DS",
-    name: "Doomstalker",
+    name: "doomstalker",
     game: "gh",
     image: "character-mats/gloomhaven/gh-doomstalker.jpg",
     cards: 12,
@@ -41,7 +41,7 @@ export const characterMats = [
   },
   {
     class: "EL",
-    name: "Elementalist",
+    name: "elementalist",
     game: "gh",
     image: "character-mats/gloomhaven/gh-elementalist.jpg",
     cards: 10,
@@ -49,7 +49,7 @@ export const characterMats = [
   },
   {
     class: "MT",
-    name: "Mindthief",
+    name: "mindthief",
     game: "gh",
     image: "character-mats/gloomhaven/gh-mindthief.jpg",
     cards: 10,
@@ -57,7 +57,7 @@ export const characterMats = [
   },
   {
     class: "NS",
-    name: "Nightshroud",
+    name: "nightshroud",
     game: "gh",
     image: "character-mats/gloomhaven/gh-nightshroud.jpg",
     cards: 9,
@@ -65,7 +65,7 @@ export const characterMats = [
   },
   {
     class: "PH",
-    name: "Plagueherald",
+    name: "plagueherald",
     game: "gh",
     image: "character-mats/gloomhaven/gh-plagueherald.jpg",
     cards: 11,
@@ -73,7 +73,7 @@ export const characterMats = [
   },
   {
     class: "QM",
-    name: "Quartermaster",
+    name: "quartermaster",
     game: "gh",
     image: "character-mats/gloomhaven/gh-quartermaster.jpg",
     cards: 9,
@@ -81,7 +81,7 @@ export const characterMats = [
   },
   {
     class: "SB",
-    name: "Sawbones",
+    name: "sawbones",
     game: "gh",
     image: "character-mats/gloomhaven/gh-sawbones.jpg",
     cards: 10,
@@ -89,7 +89,7 @@ export const characterMats = [
   },
   {
     class: "SC",
-    name: "Scoundrel",
+    name: "scoundrel",
     game: "gh",
     image: "character-mats/gloomhaven/gh-scoundrel.jpg",
     cards: 9,
@@ -97,7 +97,7 @@ export const characterMats = [
   },
   {
     class: "SK",
-    name: "Sunkeeper",
+    name: "sunkeeper",
     game: "gh",
     image: "character-mats/gloomhaven/gh-sunkeeper.jpg",
     cards: 11,
@@ -105,7 +105,7 @@ export const characterMats = [
   },
   {
     class: "SS",
-    name: "Soothsinger",
+    name: "soothsinger",
     game: "gh",
     image: "character-mats/gloomhaven/gh-soothsinger.jpg",
     cards: 9,
@@ -113,7 +113,7 @@ export const characterMats = [
   },
   {
     class: "SU",
-    name: "Summoner",
+    name: "summoner",
     game: "gh",
     image: "character-mats/gloomhaven/gh-summoner.jpg",
     cards: 9,
@@ -121,7 +121,7 @@ export const characterMats = [
   },
   {
     class: "SW",
-    name: "Spellweaver",
+    name: "spellweaver",
     game: "gh",
     image: "character-mats/gloomhaven/gh-spellweaver.jpg",
     cards: 8,
@@ -129,7 +129,7 @@ export const characterMats = [
   },
   {
     class: "TI",
-    name: "Tinkerer",
+    name: "tinkerer",
     game: "gh",
     image: "character-mats/gloomhaven/gh-tinkerer.jpg",
     cards: 12,
@@ -137,7 +137,7 @@ export const characterMats = [
   },
   {
     class: "DR",
-    name: "Diviner",
+    name: "diviner",
     game: "gh",
     image: "character-mats/forgotten-circles/fc-diviner.jpg",
     cards: 9,
@@ -145,7 +145,7 @@ export const characterMats = [
   },
   {
     class: "DE",
-    name: "Demolitionist",
+    name: "demolitionist",
     game: "jotl",
     image: "character-mats/jaws-of-the-lion/jl-demolitionist-front.jpg",
     cards: 9,
@@ -153,7 +153,7 @@ export const characterMats = [
   },
   {
     class: "HA",
-    name: "Hatchet",
+    name: "hatchet",
     game: "jotl",
     image: "character-mats/jaws-of-the-lion/jl-hatchet-front.jpg",
     cards: 10,
@@ -161,7 +161,7 @@ export const characterMats = [
   },
   {
     class: "RG",
-    name: "Red Guard",
+    name: "red guard",
     game: "jotl",
     image: "character-mats/jaws-of-the-lion/jl-red-guard-front.jpg",
     cards: 10,
@@ -169,7 +169,7 @@ export const characterMats = [
   },
   {
     class: "VW",
-    name: "Void Warden",
+    name: "void warden",
     game: "jotl",
     image: "character-mats/jaws-of-the-lion/jl-voidwarden-front.jpg",
     cards: 11,
@@ -177,7 +177,7 @@ export const characterMats = [
   },
   {
     class: "AA",
-    name: "Amber Aegis",
+    name: "amber aegis",
     game: "cs",
     image: "character-mats/crimson-scales/cs-amber-aegis.jpg",
     cards: 11,
@@ -185,7 +185,7 @@ export const characterMats = [
   },
   {
     class: "BK",
-    name: "Brightspark",
+    name: "brightspark",
     game: "cs",
     image: "character-mats/crimson-scales/cs-brightspark.jpg",
     cards: 9,
@@ -193,7 +193,7 @@ export const characterMats = [
   },
   {
     class: "BM",
-    name: "Bombard",
+    name: "bombard",
     game: "cs",
     image: "character-mats/crimson-scales/cs-bombard.jpg",
     cards: 11,
@@ -201,7 +201,7 @@ export const characterMats = [
   },
   {
     class: "CG",
-    name: "Chainguard",
+    name: "chainguard",
     game: "cs",
     image: "character-mats/crimson-scales/cs-chainguard.jpg",
     cards: 10,
@@ -209,7 +209,7 @@ export const characterMats = [
   },
   {
     class: "CT",
-    name: "Chieftain",
+    name: "chieftain",
     game: "cs",
     image: "character-mats/crimson-scales/cs-chieftain.jpg",
     cards: 10,
@@ -217,7 +217,7 @@ export const characterMats = [
   },
   {
     class: "FK",
-    name: "Fire Knight",
+    name: "fire knight",
     game: "cs",
     image: "character-mats/crimson-scales/cs-fire-knight.jpg",
     cards: 10,
@@ -225,7 +225,7 @@ export const characterMats = [
   },
   {
     class: "HO",
-    name: "Hollowpact",
+    name: "hollowpact",
     game: "cs",
     image: "character-mats/crimson-scales/cs-hollowpact.jpg",
     cards: 10,
@@ -233,7 +233,7 @@ export const characterMats = [
   },
   {
     class: "HP",
-    name: "Hierophant",
+    name: "hierophant",
     game: "cs",
     image: "character-mats/crimson-scales/cs-hierophant.jpg",
     cards: 11,
@@ -241,7 +241,7 @@ export const characterMats = [
   },
   {
     class: "LU",
-    name: "Luminary",
+    name: "luminary",
     game: "cs",
     image: "character-mats/crimson-scales/cs-luminary.jpg",
     cards: 11,
@@ -249,7 +249,7 @@ export const characterMats = [
   },
   {
     class: "MF",
-    name: "Mirefoot",
+    name: "mirefoot",
     game: "cs",
     image: "character-mats/crimson-scales/cs-mirefoot.jpg",
     cards: 10,
@@ -257,7 +257,7 @@ export const characterMats = [
   },
   {
     class: "QA",
-    name: "Artificier",
+    name: "artificier",
     game: "cs",
     image: "character-mats/crimson-scales/cs-artificer.jpg",
     cards: 9,
@@ -265,7 +265,7 @@ export const characterMats = [
   },
   {
     class: "RM",
-    name: "Ruinmaw",
+    name: "ruinmaw",
     game: "cs",
     image: "character-mats/crimson-scales/cs-ruinmaw.jpg",
     cards: 11,
@@ -273,7 +273,7 @@ export const characterMats = [
   },
   {
     class: "SP",
-    name: "Spirit Caller",
+    name: "spirit caller",
     game: "cs",
     image: "character-mats/crimson-scales/cs-spirit-caller.jpg",
     cards: 10,
@@ -281,7 +281,7 @@ export const characterMats = [
   },
   {
     class: "ST",
-    name: "Starslinger",
+    name: "starslinger",
     game: "cs",
     image: "character-mats/crimson-scales/cs-starslinger.jpg",
     cards: 10,

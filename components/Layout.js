@@ -37,11 +37,12 @@ function Search() {
       router.push({
         pathname: "/search",
         query: {
+          ...(query.game ? { game: query.game } : {}),
           search: search,
         },
       });
     }
-  }, [query.search, router, search]);
+  }, [query, router, search]);
 
   useEffect(() => {
     setSearch(query.search || "");
@@ -79,51 +80,33 @@ function Search() {
   );
 }
 
+const headerLinks = [
+  { icon: faShield, label: "Characters", pathname: "/characters" },
+  { icon: faShield, label: "Items", pathname: "/items" },
+  { icon: faShield, label: "Mats", pathname: "/mats" },
+];
+
 function HeaderLinks({ openSpoilerDrawer }) {
   const router = useRouter();
   const query = router.query;
 
   return (
     <div className="header-links">
-      <div className="header-link">
-        <Link
-          href={{
-            pathname: "/characters",
-            query: { game: query.game || "gh" },
-          }}
-        >
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faShield} />
-            <a>Characters</a>
-          </span>
-        </Link>
-      </div>
-      <div className="header-link">
-        <Link
-          href={{
-            pathname: "/items",
-            query: { game: query.game || "gh" },
-          }}
-        >
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faSackDollar} />
-            <a>Items</a>
-          </span>
-        </Link>
-      </div>
-      <div className="header-link">
-        <Link
-          href={{
-            pathname: "/mats",
-            query: { game: query.game || "gh" },
-          }}
-        >
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faScroll} />
-            <a>Mats</a>
-          </span>
-        </Link>
-      </div>
+      {headerLinks.map((link, idx) => (
+        <div key={idx} className="header-link">
+          <Link
+            href={{
+              pathname: link.pathname,
+              query: { game: query.game || "gh" },
+            }}
+          >
+            <span>
+              <FontAwesomeIcon className="header-icon" icon={link.icon} />
+              <a>{link.label}</a>
+            </span>
+          </Link>
+        </div>
+      ))}
       <div className="header-link" onClick={openSpoilerDrawer}>
         <span>
           <FontAwesomeIcon className="header-icon" icon={faEye} />
@@ -166,6 +149,7 @@ function TopBar({ openSpoilerDrawer }) {
     <nav className="topbar">
       <div className="topbar-inner">
         <Dropdown
+          className="game-picker"
           onChange={handleGameChange}
           options={gameOptions}
           value={query.game || "gh"}

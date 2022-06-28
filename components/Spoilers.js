@@ -232,7 +232,6 @@ function CharacterSpoilers({ classes }) {
 }
 
 function Spoilers({ open, onClose }) {
-  const { spoilers } = useSpoilers();
   const router = useRouter();
 
   const itemSpoilers = itemSpoilerConfig[router.query?.game || "gh"];
