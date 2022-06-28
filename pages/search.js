@@ -2,7 +2,12 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import { search } from "./api/search";
-import { baseCharacters, colour } from "../data/common";
+import {
+  baseCharacterIds,
+  characterSpoilerFilter,
+  colour,
+  itemSpoilerFilter,
+} from "../data/utils";
 import { useSpoilers } from "../hooks/useSpoilers";
 
 import CardList from "../components/CardList";
@@ -51,35 +56,13 @@ function Search({ isMat, searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
+  const charactersFilter = characterSpoilerFilter(spoilers);
+  const itemsFilter = itemSpoilerFilter(spoilers);
   const cardList = searchResults?.filter((card) => {
     if (card.class) {
-      return (
-        baseCharacters.includes(card.class) ||
-        spoilers.characters?.has(card.class)
-      );
+      return charactersFilter(card);
     } else {
-      switch (card.source) {
-        case "prosperity":
-          return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-        case "random-design":
-          return spoilers.items.recipes;
-        case "solo-scenario":
-          return spoilers.items.solo;
-        case "other":
-          return spoilers.items.other;
-        case "jotl":
-          return true;
-        case "jotl1":
-          return spoilers.items.jotl1;
-        case "jotl2":
-          return spoilers.items.jotl2;
-        case "jotl3":
-          return spoilers.items.jotl3;
-        case "cs":
-          return true;
-        default:
-          return false;
-      }
+      return itemsFilter(card);
     }
   });
 

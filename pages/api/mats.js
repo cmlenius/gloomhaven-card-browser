@@ -1,5 +1,5 @@
 import { characterMats } from "../../data/character-mats";
-import { customSort } from "../../data/common";
+import { customSort } from "../../data/utils";
 
 export async function matsSearchResults(query) {
   let searchResults = characterMats;

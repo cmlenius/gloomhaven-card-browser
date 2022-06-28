@@ -3,11 +3,13 @@ import { useRouter } from "next/router";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
-  baseCharacters,
+  baseCharacterIds,
   characterClasses,
+  characterSpoilerFilter,
   colour,
-  hiddenCharacters,
-} from "../data/common";
+  defaultClass,
+  hiddenCharacterIds,
+} from "../data/utils";
 import { characterSearchResults } from "./api/characters";
 
 import CardList from "../components/CardList";
@@ -61,25 +63,15 @@ function Characters({ searchResults }) {
         colour(query.class)
       );
     } else {
-      let defaultClass = "BR";
-      if (query.game === "jotl") {
-        defaultClass = "DE";
-      } else if (query.game === "cs") {
-        defaultClass = "AA";
-      }
+      let char = defaultClass(query.game);
       router.push({
         pathname: "/characters",
-        query: { ...query, class: defaultClass },
+        query: { ...query, class: char },
       });
     }
   }, [query, router]);
 
-  const cardList = searchResults?.filter(
-    (card) =>
-      baseCharacters.includes(card.class) ||
-      spoilers.characters?.has(card.class) ||
-      hiddenCharacters.includes(card.class)
-  );
+  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
@@ -88,7 +80,7 @@ function Characters({ searchResults }) {
         pathname="/characters"
         sortOrderOptions={sortOrderOptions}
       />
-      <CardList cardList={cardList || []} />
+      {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );
 }

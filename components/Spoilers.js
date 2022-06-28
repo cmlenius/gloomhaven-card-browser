@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
-import { characterClasses } from "../data/common";
+import { characterClasses } from "../data/utils";
 import SvgCharacterIcon from "./Svg";
 
 const itemSpoilerConfig = {

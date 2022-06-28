@@ -12,8 +12,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
+import { defaultClass } from "../data/utils";
 import Dropdown from "./Dropdown";
 import Spoilers from "./Spoilers";
+
+const headerLinks = [
+  { icon: faShield, label: "Characters", pathname: "/characters" },
+  { icon: faSackDollar, label: "Items", pathname: "/items" },
+  { icon: faScroll, label: "Mats", pathname: "/mats" },
+];
 
 const gameOptions = [
   { id: "gh", name: "Gloomhaven" },
@@ -80,12 +87,6 @@ function Search() {
   );
 }
 
-const headerLinks = [
-  { icon: faShield, label: "Characters", pathname: "/characters" },
-  { icon: faShield, label: "Items", pathname: "/items" },
-  { icon: faShield, label: "Mats", pathname: "/mats" },
-];
-
 function HeaderLinks({ openSpoilerDrawer }) {
   const router = useRouter();
   const query = router.query;
@@ -127,16 +128,10 @@ function TopBar({ openSpoilerDrawer }) {
   }
 
   function handleGameChange(newGame) {
-    let newQuery = { game: newGame };
+    let newQuery = { ...query, game: newGame };
 
     if (router.pathname === "/characters") {
-      if (newGame === "gh") {
-        newQuery.class = "BR";
-      } else if (newGame === "jotl") {
-        newQuery.class = "DE";
-      } else if (newGame === "cs") {
-        newQuery.class = "AA";
-      }
+      newQuery.class = defaultClass(newGame);
     }
 
     router.push({

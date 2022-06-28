@@ -2,7 +2,11 @@ import { useEffect } from "react";
 
 import { matsSearchResults } from "./api/mats";
 import { useSpoilers } from "../hooks/useSpoilers";
-import { baseCharacters, colour } from "../data/common";
+import {
+  baseCharacterIds,
+  characterSpoilerFilter,
+  colour,
+} from "../data/utils";
 
 import CardList from "../components/CardList";
 import Layout from "../components/Layout";
@@ -21,15 +25,12 @@ function Mats({ searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const cardList = searchResults?.filter(
-    (mat) =>
-      baseCharacters.includes(mat.class) || spoilers.characters?.has(mat.class)
-  );
+  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
       <Toolbar pathname="/mats" sortOrderOptions={sortOrderOptions} />
-      <CardList isSingleColumn cardList={cardList || []} />
+      {!spoilers.loading && <CardList isSingleColumn cardList={cardList} />}
     </Layout>
   );
 }

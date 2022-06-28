@@ -1,4 +1,4 @@
-import { colour } from "../data/common";
+import { colour } from "../data/utils";
 
 // Gloomhaven
 import BR from "../public/icons/classes/gh/BR.svg";

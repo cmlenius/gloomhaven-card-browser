@@ -1,5 +1,5 @@
 import { characterAbilityCards } from "../../data/character-ability-cards";
-import { customSort } from "../../data/common";
+import { customSort, defaultClass } from "../../data/utils";
 
 export async function characterSearchResults(query) {
   let searchResults = characterAbilityCards;
@@ -8,7 +8,7 @@ export async function characterSearchResults(query) {
   const game = query.game || "gh";
   searchResults = searchResults.filter((char) => char.game === game);
 
-  const className = query.class;
+  const className = query.class || defaultClass(game);
   searchResults = searchResults.filter((char) => char.class === className);
 
   // Sort

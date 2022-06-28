@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import { itemSearchResults } from "./api/items";
 import { useSpoilers } from "../hooks/useSpoilers";
-import { colour } from "../data/common";
+import { colour, itemSpoilerFilter } from "../data/utils";
 
 import CardList from "../components/CardList";
 import Layout from "../components/Layout";
@@ -87,32 +87,7 @@ function Items({ searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const cardList = searchResults?.filter((card) => {
-    switch (card.source) {
-      case "prosperity":
-        return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-      case "random-design":
-        return spoilers.items.recipes;
-      case "solo-scenario":
-        return spoilers.items.solo;
-      case "other":
-        return spoilers.items.other;
-      case "jotl":
-        return true;
-      case "jotl1":
-        return spoilers.items.jotl1;
-      case "jotl2":
-        return spoilers.items.jotl2;
-      case "jotl3":
-        return spoilers.items.jotl3;
-      case "cs":
-        return true;
-      default:
-        return false;
-    }
-  });
-
-  console.log(searchResults.length, cardList.length);
+  const cardList = searchResults?.filter(itemSpoilerFilter(spoilers));
 
   return (
     <Layout>
@@ -121,7 +96,7 @@ function Items({ searchResults }) {
         pathname="/items"
         sortOrderOptions={sortOrderOptions}
       />
-      <CardList cardList={cardList || []} />
+      {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );
 }

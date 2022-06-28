@@ -1,5 +1,5 @@
 import { itemCards } from "../../data/item-cards";
-import { customSort } from "../../data/common";
+import { customSort } from "../../data/utils";
 
 export async function itemSearchResults(query) {
   let searchResults = itemCards;
