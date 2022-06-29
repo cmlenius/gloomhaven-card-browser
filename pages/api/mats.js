@@ -1,11 +1,12 @@
 import { characterMats } from "../../data/character-mats";
-import { customSort } from "../../data/common";
+import { customSort } from "../../data/utils";
 
 export async function matsSearchResults(query) {
   let searchResults = characterMats;
 
   // Filter
-  searchResults = searchResults.filter((m) => m.expansion === "gloomhaven");
+  const game = query.game || "gh";
+  searchResults = searchResults.filter((mat) => mat.game === game);
 
   // Sort
   const order = query.order || "name";

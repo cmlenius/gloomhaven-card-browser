@@ -1,10 +1,13 @@
 import { itemCards } from "../../data/item-cards";
-import { customSort } from "../../data/common";
+import { customSort } from "../../data/utils";
 
 export async function itemSearchResults(query) {
   let searchResults = itemCards;
 
   // Filter
+  const game = query.game || "gh";
+  searchResults = searchResults.filter((item) => item.game === game);
+
   const slot = query.slot;
   if (slot) {
     searchResults = searchResults.filter((i) => i.slot === slot);

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import { itemSearchResults } from "./api/items";
 import { useSpoilers } from "../hooks/useSpoilers";
-import { colour } from "../data/common";
+import { colour, itemSpoilerFilter } from "../data/utils";
 
 import CardList from "../components/CardList";
 import Layout from "../components/Layout";
@@ -87,13 +87,7 @@ function Items({ searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const spoilerFilterFn = (card) => {
-    if (card.source === "Prosperity")
-      return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-    if (card.source === "Random Item Design") return spoilers.items.recipes;
-    if (card.source === "Solo Scenario") return spoilers.items.solo;
-    return spoilers.items.other;
-  };
+  const cardList = searchResults?.filter(itemSpoilerFilter(spoilers));
 
   return (
     <Layout>
@@ -102,10 +96,7 @@ function Items({ searchResults }) {
         pathname="/items"
         sortOrderOptions={sortOrderOptions}
       />
-      <CardList
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );
 }

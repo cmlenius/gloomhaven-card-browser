@@ -3,11 +3,11 @@ import { useRouter } from "next/router";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
-  baseCharacters,
   characterClasses,
+  characterSpoilerFilter,
   colour,
-  hiddenCharacters,
-} from "../data/common";
+  defaultClass,
+} from "../data/utils";
 import { characterSearchResults } from "./api/characters";
 
 import CardList from "../components/CardList";
@@ -34,15 +34,15 @@ function ClassFilter() {
 
   return (
     <div className="filters">
-      {characterClasses.map((char, idx) => (
+      {characterClasses(query.game).map((char, idx) => (
         <div
           key={idx}
           className={`filter-icon ${
-            query.class === char ? "filter-icon-selected" : ""
+            query.class === char.id ? "filter-icon-selected" : ""
           }`}
-          onClick={() => handleClassChange(char)}
+          onClick={() => handleClassChange(char.id)}
         >
-          <SvgCharacterIcon character={char} />
+          <SvgCharacterIcon character={char.id} />
         </div>
       ))}
     </div>
@@ -61,17 +61,15 @@ function Characters({ searchResults }) {
         colour(query.class)
       );
     } else {
+      let char = defaultClass(query.game);
       router.push({
         pathname: "/characters",
-        query: { ...query, class: "BR" },
+        query: { ...query, class: char },
       });
     }
   }, [query, router]);
 
-  const spoilerFilterFn = (card) =>
-    baseCharacters.includes(card.class) ||
-    spoilers.characters?.has(card.class) ||
-    hiddenCharacters.includes(card.class);
+  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
@@ -80,10 +78,7 @@ function Characters({ searchResults }) {
         pathname="/characters"
         sortOrderOptions={sortOrderOptions}
       />
-      <CardList
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );
 }

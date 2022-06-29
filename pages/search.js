@@ -2,7 +2,11 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import { search } from "./api/search";
-import { baseCharacters, colour } from "../data/common";
+import {
+  characterSpoilerFilter,
+  colour,
+  itemSpoilerFilter,
+} from "../data/utils";
 import { useSpoilers } from "../hooks/useSpoilers";
 
 import CardList from "../components/CardList";
@@ -20,7 +24,7 @@ function SearchToolbar() {
   const query = router.query;
 
   function handleTypeChange(newType) {
-    if (query.type === newType || newType === "all") {
+    if (newType === "all") {
       delete query.type;
     } else {
       query.type = newType;
@@ -37,7 +41,7 @@ function SearchToolbar() {
         <Dropdown
           onChange={handleTypeChange}
           options={searchFiltersOptions}
-          value={query.type}
+          value={query.type || "all"}
         />
       </div>
     </div>
@@ -51,30 +55,20 @@ function Search({ isMat, searchResults }) {
     document.documentElement.style.setProperty("--primary", colour(null));
   }, []);
 
-  const spoilerFilterFn = (card) => {
+  const charactersFilter = characterSpoilerFilter(spoilers);
+  const itemsFilter = itemSpoilerFilter(spoilers);
+  const cardList = searchResults?.filter((card) => {
     if (card.class) {
-      return (
-        baseCharacters.includes(card.class) ||
-        spoilers.characters?.has(card.class)
-      );
+      return charactersFilter(card);
     } else {
-      if (card.source === "Prosperity")
-        return card.prosperity <= parseInt(spoilers.items.prosperity, 10);
-      if (card.source === "Random Item Design") return spoilers.items.recipes;
-      if (card.source === "Other") return spoilers.items.other;
+      return itemsFilter(card);
     }
-
-    return false;
-  };
+  });
 
   return (
     <Layout>
       <SearchToolbar />
-      <CardList
-        isSingleColumn={isMat}
-        spoilerFilterFn={spoilerFilterFn}
-        searchResults={searchResults || []}
-      />
+      <CardList isSingleColumn={isMat} cardList={cardList || []} />
     </Layout>
   );
 }
