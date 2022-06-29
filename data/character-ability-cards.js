@@ -1322,14 +1322,6 @@ export const characterAbilityCards = [
     level: 6,
   },
   {
-    name: "giant toad",
-    class: "DS",
-    game: "gh",
-    image: "character-ability-cards/gloomhaven/DS/gh-natures-hunger.jpg",
-    initiative: 82,
-    level: 6,
-  },
-  {
     name: "predator and prey",
     class: "DS",
     game: "gh",
