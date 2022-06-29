@@ -2,22 +2,27 @@
 
 https://www.gloomhavencards.com
 
-I started playing Gloomhaven recently and was looking for a site that displayed all the character ability and item cards in a way that way easy to read, sort, filter, and search. There were a couple I found out there but they didn't seem very polished so I decided to make my own.
+I started playing Gloomhaven recently and was looking for a site to browse character ability and item cards. There were a couple I found out there but they didn't seem very polished or didn't unify ability and item cards. So I decided to make my own!
 
-The UI was inspired by a popular site I used for searching Magic the Gathering cards and the images were pulled from https://github.com/any2cards/worldhaven.
+The UI was inspired by a [popular site](https://scryfall.com/) I used for searching Magic the Gathering cards and the images were pulled from [worldhaven](https://github.com/any2cards/worldhaven).
 
-**Features**
+The app was created using the [next.js](https://nextjs.org/) react framework leveraging Server Side Rendering wherever possible and deployed using [vercel](https://vercel.com/).
 
-* All character ability and item cards from base game
-* Sort and Filter options
-* Card searching (by name)
-* Spoiler configuration (It should save your spoiler configuration in your browser's storage so it persists when you return)
+## Features
 
-The UI was inspired by a popular site I used for search Magic the Gathering cards and the images were pulled from https://github.com/any2cards/worldhaven.
+- Content from base game, Forgotten Circles, Jaws of the Lion, and Crimson Scales (Frosthaven coming in the future...)
+- Character Ability Cards, Item cards and Character Mats
+- Sort and Filter options
+- Card searching (by name)
+- Persistent spoiler configuration
 
-Sample previews:
+## Previews
+
 **Characters**
-![alt tag](https://github.com/cmlenius/gloomhaven-card-viewer/blob/main/preview/characters.png)
- 
+![alt tag](https://github.com/cmlenius/gloomhaven-card-viewer/blob/main/preview/characters.jpg)
+
 **Items**
-![alt tag](https://github.com/cmlenius/gloomhaven-card-viewer/blob/main/preview/items.png)
+![alt tag](https://github.com/cmlenius/gloomhaven-card-viewer/blob/main/preview/items.jpg)
+
+**Mats**
+![alt tag](https://github.com/cmlenius/gloomhaven-card-viewer/blob/main/preview/mats.jpg)
