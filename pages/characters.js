@@ -34,7 +34,7 @@ function ClassFilter() {
 
   return (
     <div className="filters">
-      {characterClasses(query.game).map((char, idx) => (
+      {characterClasses(query.game || "gh").map((char, idx) => (
         <div
           key={idx}
           className={`filter-icon ${

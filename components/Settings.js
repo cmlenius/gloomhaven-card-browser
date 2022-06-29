@@ -245,7 +245,7 @@ function Settings({ open, onClose }) {
 
   const itemSpoilers = itemSpoilerConfig[router.query?.game || "gh"];
 
-  const unlockabelClasses = characterClasses(router.query?.game).filter(
+  const unlockabelClasses = characterClasses(router.query?.game || "gh").filter(
     (c) => !c.base && !c.hidden
   );
 
