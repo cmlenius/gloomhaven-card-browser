@@ -48,7 +48,7 @@ function SearchToolbar() {
   );
 }
 
-function Search({ isMat, searchResults }) {
+function Search({ searchResults }) {
   const { spoilers } = useSpoilers();
 
   useEffect(() => {
@@ -68,18 +68,17 @@ function Search({ isMat, searchResults }) {
   return (
     <Layout>
       <SearchToolbar />
-      <CardList isSingleColumn={isMat} cardList={cardList || []} />
+      <CardList cardList={cardList || []} />
     </Layout>
   );
 }
 
 export async function getServerSideProps(context) {
-  const { isMat, searchResults } = await search(context.query);
+  const searchResults = await search(context.query);
 
   return {
     props: {
       searchResults,
-      isMat,
     },
   };
 }

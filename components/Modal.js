@@ -16,14 +16,19 @@ function Modal({ content, open, onClose }) {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [ref]);
+  }, [ref, onClose]);
 
   return (
     <div className="modal" style={{ display: open ? "block" : "none" }}>
       <div ref={ref} className="modal-content">
         {content}
         <div className="close" onClick={onClose}>
-          <FontAwesomeIcon color="white" icon={faClose} height="28px" width="28px"/>
+          <FontAwesomeIcon
+            color="white"
+            icon={faClose}
+            height="28px"
+            width="28px"
+          />
         </div>
       </div>
     </div>

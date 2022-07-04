@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import { useSpoilers } from "../hooks/useSpoilers";
@@ -59,6 +59,11 @@ function Characters({ searchResults }) {
   const [character, setCharacter] = useState(null);
   const [modalContent, setModalContent] = useState(null);
 
+  const closeModal = useCallback(
+    () => setModalContent(null),
+    [setModalContent]
+  );
+
   useEffect(() => {
     if (query.class) {
       document.documentElement.style.setProperty(
@@ -81,7 +86,7 @@ function Characters({ searchResults }) {
     if (!char) return;
 
     setCharacter(char);
-  }, [query.class]);
+  }, [query]);
 
   const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
@@ -101,9 +106,9 @@ function Characters({ searchResults }) {
       {!spoilers.loading && <CardList cardList={cardList} />}
       {modalContent && (
         <Modal
-          content={<img src={baseUrl + modalContent} />}
+          content={<img alt="" src={baseUrl + modalContent} />}
           open={!!modalContent}
-          onClose={() => setModalContent(null)}
+          onClose={closeModal}
         />
       )}
     </Layout>

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGear,
-  faScroll,
   faSackDollar,
   faShield,
 } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +15,6 @@ import Settings from "./Settings";
 const headerLinks = [
   { icon: faShield, label: "Characters", pathname: "/characters" },
   { icon: faSackDollar, label: "Items", pathname: "/items" },
-  { icon: faScroll, label: "Mats", pathname: "/mats" },
 ];
 
 function TopBar({ openSettingDrawer }) {

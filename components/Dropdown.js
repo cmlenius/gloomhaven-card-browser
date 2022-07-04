@@ -1,5 +1,4 @@
 function Dropdown({ onChange, options, value }) {
-   
   function handleOptionChange(event) {
     onChange(event.target.value);
   }
