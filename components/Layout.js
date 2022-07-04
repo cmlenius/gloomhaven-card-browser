@@ -9,7 +9,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
-import Search from "./Search";
 import Settings from "./Settings";
 
 const headerLinks = [
@@ -24,9 +23,6 @@ function TopBar({ openSettingDrawer }) {
   return (
     <nav className="topbar">
       <div className="topbar-inner">
-        <div className="main-search">
-          <Search />
-        </div>
         <div className="header-links">
           {headerLinks.map((link, idx) => (
             <div key={idx} className="header-link">
@@ -43,9 +39,12 @@ function TopBar({ openSettingDrawer }) {
               </Link>
             </div>
           ))}
-          <div className="header-link view-more" onClick={openSettingDrawer}>
+        </div>
+        <div className="header-link view-more" onClick={openSettingDrawer}>
+          <span>
             <FontAwesomeIcon className="header-icon" icon={faGear} />
-          </div>
+            <span>Settings</span>
+          </span>
         </div>
       </div>
     </nav>

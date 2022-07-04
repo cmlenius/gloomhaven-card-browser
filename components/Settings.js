@@ -6,7 +6,6 @@ import { useSpoilers } from "../hooks/useSpoilers";
 import { characterClasses, defaultClass } from "../data/utils";
 
 import Dropdown from "./Dropdown";
-import Search from "./Search";
 import SvgCharacterIcon from "./Svg";
 
 const gameOptions = [
@@ -283,9 +282,6 @@ function Settings({ open, onClose }) {
               icon={faClose}
               onClick={onClose}
             />
-          </div>
-          <div className="settings-search">
-            <Search searchCallback={onClose} />
           </div>
           <div className="spoilers">
             {unlockabelClasses.length > 0 && (
