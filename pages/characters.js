@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
+  baseUrl,
   characterClasses,
   characterSpoilerFilter,
   colour,
@@ -12,6 +13,7 @@ import { characterSearchResults } from "./api/characters";
 
 import CardList from "../components/CardList";
 import Layout from "../components/Layout";
+import Modal from "../components/Modal";
 import Toolbar from "../components/Toolbar";
 import SvgCharacterIcon from "../components/Svg";
 
@@ -38,11 +40,11 @@ function ClassFilter() {
         <div
           key={idx}
           className={`filter-icon ${
-            query.class === char.id ? "filter-icon-selected" : ""
+            query.class === char.class ? "filter-icon-selected" : ""
           }`}
-          onClick={() => handleClassChange(char.id)}
+          onClick={() => handleClassChange(char.class)}
         >
-          <SvgCharacterIcon character={char.id} />
+          <SvgCharacterIcon character={char.class} />
         </div>
       ))}
     </div>
@@ -53,6 +55,9 @@ function Characters({ searchResults }) {
   const { spoilers } = useSpoilers();
   const router = useRouter();
   const query = router.query;
+
+  const [character, setCharacter] = useState(null);
+  const [modalContent, setModalContent] = useState(null);
 
   useEffect(() => {
     if (query.class) {
@@ -69,16 +74,38 @@ function Characters({ searchResults }) {
     }
   }, [query, router]);
 
+  useEffect(() => {
+    const char = characterClasses(query.game).find(
+      (c) => c.class == query.class
+    );
+    if (!char) return;
+
+    setCharacter(char);
+  }, [query.class]);
+
   const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
-      <Toolbar
-        Filters={ClassFilter}
-        pathname="/characters"
-        sortOrderOptions={sortOrderOptions}
-      />
+      <Toolbar pathname="/characters" sortOrderOptions={sortOrderOptions}>
+        <div className="button-group">
+          <button onClick={() => setModalContent(character.matImage)}>
+            Character Mat
+          </button>
+          <button onClick={() => setModalContent(character.sheetImage)}>
+            Character Sheet
+          </button>
+        </div>
+      </Toolbar>
+      <ClassFilter />
       {!spoilers.loading && <CardList cardList={cardList} />}
+      {modalContent && (
+        <Modal
+          content={<img src={baseUrl + modalContent} />}
+          open={!!modalContent}
+          onClose={() => setModalContent(null)}
+        />
+      )}
     </Layout>
   );
 }

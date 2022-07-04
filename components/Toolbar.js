@@ -6,7 +6,7 @@ const sortDirectionOptions = [
   { id: "desc", name: "Desc" },
 ];
 
-function Toolbar({ Filters, pathname, sortOrderOptions }) {
+function Toolbar({ children, pathname, sortOrderOptions }) {
   const router = useRouter();
   const query = router.query;
 
@@ -42,7 +42,7 @@ function Toolbar({ Filters, pathname, sortOrderOptions }) {
             />
           </div>
         )}
-        {Filters && <Filters />}
+        {children}
       </div>
     </div>
   );

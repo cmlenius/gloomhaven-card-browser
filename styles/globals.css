@@ -18,6 +18,16 @@ body {
 }
 
 /* --- MISC --- */
+.button-group {
+  align-items: center;
+  display: flex;
+
+}
+
+.button-group > *:not(:nth-child(1)) {
+  margin-left: 8px;
+}
+
 .empty {
   align-items: center;
   color: var(--warning);
@@ -57,7 +67,7 @@ input[type="radio"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 12px;
   max-width: 1100px;
   padding: 0 8px;
   width: 100%;
@@ -178,7 +188,7 @@ input[type="radio"] {
 .search input[type="text"]:focus {
   outline: none;
 }
- 
+
 .search-icon {
   color: var(--grey);
   cursor: pointer;
@@ -190,7 +200,7 @@ input[type="radio"] {
 .settings .search-icon {
   color: black;
 }
- 
+
 .settings .search input[type="text"] {
   background: none;
   border-bottom: 1px solid black;
@@ -199,12 +209,57 @@ input[type="radio"] {
   padding: 4px;
   margin-right: 12px;
 }
- 
+
 .settings .search input[type="text"]::placeholder {
   color: #333;
   font-size: 14px;
 }
 
+/* --- MODAL --- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+  margin: 15% auto;
+  position: relative;
+  max-width: 720px;
+  width: 80%;
+}
+
+.modal-content img {
+  height: 100%;
+  width: 100%;
+}
+
+.modal .close {
+  align-items: center;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 36px;
+  opacity: 0.8;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 36px;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+  opacity: 1;
+}
 
 /* --- SETTINGS --- */
 .settings-overlay {
@@ -215,7 +270,7 @@ input[type="radio"] {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 10;
 }
 
 .settings {
@@ -251,7 +306,7 @@ input[type="radio"] {
   height: 40px;
   margin-top: 8px;
 }
- 
+
 .spoilers {
   padding: 0 4px;
   margin-bottom: 16px;
@@ -266,7 +321,6 @@ input[type="radio"] {
   list-style-type: none;
   padding: 0;
 }
-
 
 .spoilers-close-icon {
   align-self: flex-end;
@@ -359,6 +413,7 @@ input[type="radio"] {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   min-height: 52px;
+  margin-bottom: 12px;
   width: 100%;
 }
 
