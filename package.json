@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "name": "gloomhaven-card-viewer",
+  "name": "gloomhaven-card-browser",
   "private": true,
   "scripts": {
     "dev": "next dev",

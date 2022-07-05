@@ -1,7 +1,7 @@
 import { characters } from "./characters";
 
 export const baseUrl =
-  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/";
+  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/";
 
 const baseCharacterClasses = new Set(
   characters.filter((c) => c.base).map((c) => c.class)
