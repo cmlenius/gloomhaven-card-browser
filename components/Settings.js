@@ -6,7 +6,6 @@ import { useSpoilers } from "../hooks/useSpoilers";
 import { characterClasses, defaultClass } from "../data/utils";
 
 import Dropdown from "./Dropdown";
-import Search from "./Search";
 import SvgCharacterIcon from "./Svg";
 
 const gameOptions = [
@@ -50,50 +49,12 @@ const itemSpoilerConfig = {
   },
 };
 
-function ItemSpoiler({ label, path }) {
-  const { spoilers, updateSpoilers } = useSpoilers();
-
-  function handleItemSpoilerToggle() {
-    let newSpoilers = { ...spoilers };
-    newSpoilers.items[path] = !spoilers.items[path];
-
-    updateSpoilers(newSpoilers);
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        ...newSpoilers,
-        characters: Array.from(newSpoilers.characters),
-      })
-    );
-  }
-
+function ProsperitySpoiler({ handleItemSpoilerChange, level, spoilers }) {
   return (
-    <div className="spoiler-check-option" onClick={handleItemSpoilerToggle}>
-      <input checked={spoilers.items[path] || false} readOnly type="checkbox" />
-      <span>{label}</span>
-    </div>
-  );
-}
-
-function ProsperitySpoiler({ level }) {
-  const { spoilers, updateSpoilers } = useSpoilers();
-
-  function handleProsperityChange() {
-    updateSpoilers({
-      ...spoilers,
-      items: { ...spoilers.items, prosperity: level },
-    });
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        characters: Array.from(spoilers.characters),
-        items: { ...spoilers.items, prosperity: level },
-      })
-    );
-  }
-
-  return (
-    <li className="prosperity-option" onClick={handleProsperityChange}>
+    <li
+      className="prosperity-option"
+      onClick={() => handleItemSpoilerChange("prosperity", level)}
+    >
       <input
         checked={spoilers.items.prosperity === level}
         readOnly
@@ -101,6 +62,18 @@ function ProsperitySpoiler({ level }) {
       />
       <span>{level}</span>
     </li>
+  );
+}
+
+function ItemSpoiler({ handleItemSpoilerChange, label, path, spoilers }) {
+  return (
+    <div
+      className="spoiler-check-option"
+      onClick={() => handleItemSpoilerChange(path, !spoilers.items[path])}
+    >
+      <input checked={spoilers.items[path] || false} readOnly type="checkbox" />
+      <span>{label}</span>
+    </div>
   );
 }
 
@@ -118,14 +91,12 @@ function ItemSpoilers({ itemSpoilers }) {
       ...spoilers,
       items: { ...spoilers.items, ...items },
     });
+  }
 
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        characters: Array.from(spoilers.characters),
-        items: { ...spoilers.items, ...items },
-      })
-    );
+  function handleItemSpoilerChange(path, value) {
+    let newSpoilers = { ...spoilers };
+    newSpoilers.items[path] = value;
+    updateSpoilers(newSpoilers);
   }
 
   if (!itemSpoilers) return <div />;
@@ -142,7 +113,13 @@ function ItemSpoilers({ itemSpoilers }) {
       <div className="item-spoilers">
         <div>
           {itemSpoilers.misc.map((is, idx) => (
-            <ItemSpoiler key={idx} label={is.label} path={is.path} />
+            <ItemSpoiler
+              key={idx}
+              label={is.label}
+              handleItemSpoilerChange={handleItemSpoilerChange}
+              path={is.path}
+              spoilers={spoilers}
+            />
           ))}
         </div>
         {itemSpoilers.prosperity && (
@@ -154,7 +131,12 @@ function ItemSpoilers({ itemSpoilers }) {
                 ...Array.from({ length: 3 }, (_, i) => String(i * 3 + 2)),
                 ...Array.from({ length: 3 }, (_, i) => String(i * 3 + 3)),
               ].map((idx) => (
-                <ProsperitySpoiler key={idx} level={idx} />
+                <ProsperitySpoiler
+                  key={idx}
+                  handleItemSpoilerChange={handleItemSpoilerChange}
+                  level={idx}
+                  spoilers={spoilers}
+                />
               ))}
             </ul>
           </div>
@@ -168,29 +150,23 @@ function CharacterSpoilers({ classes }) {
   const { spoilers, updateSpoilers } = useSpoilers();
 
   const allCharacterSpoilers = classes.every((c) =>
-    spoilers.characters.has(c.id)
+    spoilers.characters.has(c.class)
   );
 
   function handleCharacterSpoilerToggleAll() {
     let newSet = new Set(spoilers.characters);
-    if (classes.some((c) => !spoilers.characters.has(c.id))) {
+
+    if (classes.some((c) => !spoilers.characters.has(c.class))) {
       for (const c of classes) {
-        newSet.add(c.id);
+        newSet.add(c.class);
       }
     } else {
       for (const c of classes) {
-        newSet.delete(c.id);
+        newSet.delete(c.class);
       }
     }
 
     updateSpoilers({ ...spoilers, characters: newSet });
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        ...spoilers,
-        characters: Array.from(newSet),
-      })
-    );
   }
 
   function handleCharacterSpoilerToggle(id) {
@@ -203,10 +179,6 @@ function CharacterSpoilers({ classes }) {
     }
 
     updateSpoilers({ ...spoilers, characters: newSet });
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({ ...spoilers, characters: Array.from(newSet) })
-    );
   }
 
   return (
@@ -223,15 +195,15 @@ function CharacterSpoilers({ classes }) {
           <li
             key={idx}
             className="spoiler-check-option"
-            onClick={() => handleCharacterSpoilerToggle(char.id)}
+            onClick={() => handleCharacterSpoilerToggle(char.class)}
           >
             <input
-              checked={spoilers.characters.has(char.id)}
+              checked={spoilers.characters.has(char.class)}
               readOnly
               style={{ accentColor: char.colour }}
               type="checkbox"
             />
-            <SvgCharacterIcon character={char.id} />
+            <SvgCharacterIcon character={char.class} />
             <span>{char.altName || char.name}</span>
           </li>
         ))}
@@ -284,9 +256,6 @@ function Settings({ open, onClose }) {
               onClick={onClose}
             />
           </div>
-          <div className="settings-search">
-            <Search searchCallback={onClose} />
-          </div>
           <div className="spoilers">
             {unlockabelClasses.length > 0 && (
               <CharacterSpoilers classes={unlockabelClasses} />
@@ -294,7 +263,7 @@ function Settings({ open, onClose }) {
             {itemSpoilers && <ItemSpoilers itemSpoilers={itemSpoilers} />}
           </div>
           <div className="spoilers-warning">
-            <FontAwesomeIcon color="#721c24" icon={faWarning} height="48px" />
+            <FontAwesomeIcon icon={faWarning} height="48px" />
             <span>
               Clicking the checkboxes above will reveal spoilers for those
               characters and items

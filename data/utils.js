@@ -1,23 +1,24 @@
 import { characters } from "./characters";
 
 export const baseUrl =
-  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-viewer/images/";
-export const baseCharacterIds = new Set(
-  characters.filter((c) => c.base).map((c) => c.id)
+  "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/";
+
+const baseCharacterClasses = new Set(
+  characters.filter((c) => c.base).map((c) => c.class)
 );
-export const hiddenCharacterIds = new Set(
-  characters.filter((c) => c.hidden).map((c) => c.id)
+const hiddenCharacterClasses = new Set(
+  characters.filter((c) => c.hidden).map((c) => c.class)
 );
 
 export function characterClasses(game) {
-  return characters.filter((c) => c.game === game);
+  return characters.filter((c) => c.game === (game || "gh"));
 }
 
 export function colour(char) {
   const defaultColour = "#432423";
 
   if (!char) return defaultColour;
-  return characters.find((c) => c.id === char)?.colour || defaultColour;
+  return characters.find((c) => c.class === char)?.colour || defaultColour;
 }
 
 export function defaultClass(game) {
@@ -45,9 +46,10 @@ export function customSort(order, direction) {
 
 export function characterSpoilerFilter(spoilers) {
   return (card) =>
-    baseCharacterIds.has(card.class) ||
-    spoilers.characters?.has(card.class) ||
-    hiddenCharacterIds.has(card.class);
+    (baseCharacterClasses.has(card.class) ||
+      spoilers.characters?.has(card.class) ||
+      hiddenCharacterClasses.has(card.class)) &&
+    card.level < spoilers.level + 1;
 }
 
 export function itemSpoilerFilter(spoilers) {
@@ -61,6 +63,8 @@ export function itemSpoilerFilter(spoilers) {
         return spoilers.items.solo;
       case "other":
         return spoilers.items.other;
+      case "fc":
+        return spoilers.items.fc;
       case "jotl":
         return true;
       case "jotl1":

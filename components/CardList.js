@@ -4,9 +4,9 @@ import InfiniteScroll from "react-infinite-scroller";
 import { baseUrl } from "../data/utils";
 import Empty from "../components/Empty";
 
-function CardList({ cardList, isSingleColumn }) {
-  const cardsPerPage = isSingleColumn ? 4 : 12;
+const cardsPerPage = 12;
 
+function CardList({ cardList }) {
   const [data, setData] = useState(cardList.slice(0, cardsPerPage));
 
   function loadMore(page) {
@@ -15,20 +15,20 @@ function CardList({ cardList, isSingleColumn }) {
 
   useEffect(() => {
     setData(cardList?.slice(0, cardsPerPage));
-  }, [cardsPerPage, cardList]);
+  }, [cardList]);
 
   if (data?.length === 0) return <Empty />;
 
   return (
     <InfiniteScroll
-      className={isSingleColumn ? "mat-list" : "card-list"}
+      className="card-list"
       hasMore={data?.length < cardList.length}
       loader={<h4 key={0}>Loading...</h4>}
       loadMore={loadMore}
       pageStart={0}
     >
       {data?.map((card, idx) => (
-        <div key={idx} className={isSingleColumn ? "mat" : "card"}>
+        <div key={idx} className="card">
           <img
             alt={card.name}
             className="card-img"
@@ -36,8 +36,9 @@ function CardList({ cardList, isSingleColumn }) {
           />
         </div>
       ))}
-      {!isSingleColumn &&
-        [...Array(4)].map((_, idx) => <div key={idx} className="card" />)}
+      {[...Array(4)].map((_, idx) => (
+        <div key={idx} className="card" />
+      ))}
     </InfiniteScroll>
   );
 }

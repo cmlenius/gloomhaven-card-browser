@@ -91,11 +91,9 @@ function Items({ searchResults }) {
 
   return (
     <Layout>
-      <Toolbar
-        Filters={ItemFilters}
-        pathname="/items"
-        sortOrderOptions={sortOrderOptions}
-      />
+      <Toolbar pathname="/items" sortOrderOptions={sortOrderOptions}>
+        <ItemFilters />
+      </Toolbar>
       {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );

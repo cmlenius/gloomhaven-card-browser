@@ -1,17 +1,18 @@
-import { useEffect } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import { useSpoilers } from "../hooks/useSpoilers";
 import {
+  baseUrl,
   characterClasses,
   characterSpoilerFilter,
-  colour,
   defaultClass,
 } from "../data/utils";
 import { characterSearchResults } from "./api/characters";
 
 import CardList from "../components/CardList";
 import Layout from "../components/Layout";
+import Modal from "../components/Modal";
 import Toolbar from "../components/Toolbar";
 import SvgCharacterIcon from "../components/Svg";
 
@@ -38,11 +39,11 @@ function ClassFilter() {
         <div
           key={idx}
           className={`filter-icon ${
-            query.class === char.id ? "filter-icon-selected" : ""
+            query.class === char.class ? "filter-icon-selected" : ""
           }`}
-          onClick={() => handleClassChange(char.id)}
+          onClick={() => handleClassChange(char.class)}
         >
-          <SvgCharacterIcon character={char.id} />
+          <SvgCharacterIcon character={char.class} />
         </div>
       ))}
     </div>
@@ -50,35 +51,77 @@ function ClassFilter() {
 }
 
 function Characters({ searchResults }) {
-  const { spoilers } = useSpoilers();
+  const { spoilers, updateSpoilers } = useSpoilers();
   const router = useRouter();
   const query = router.query;
 
+  const [character, setCharacter] = useState(null);
+  const [modalContent, setModalContent] = useState(null);
+
+  const closeModal = useCallback(
+    () => setModalContent(null),
+    [setModalContent]
+  );
+
+  function updateLevel(event) {
+    const newLevel = parseInt(event.target.value);
+    if (!newLevel || newLevel < 1 || newLevel > 9) return;
+
+    updateSpoilers({ ...spoilers, level: newLevel });
+  }
+
   useEffect(() => {
-    if (query.class) {
-      document.documentElement.style.setProperty(
-        "--primary",
-        colour(query.class)
-      );
-    } else {
-      let char = defaultClass(query.game);
+    let char = characterClasses(query.game).find((c) => c.class == query.class);
+
+    if (!char) {
+      char = defaultClass(query.game);
       router.push({
         pathname: "/characters",
         query: { ...query, class: char },
       });
     }
+
+    document.documentElement.style.setProperty("--primary", char.colour);
+    setCharacter(char);
   }, [query, router]);
 
   const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
-      <Toolbar
-        Filters={ClassFilter}
-        pathname="/characters"
-        sortOrderOptions={sortOrderOptions}
-      />
+      <Toolbar pathname="/characters" sortOrderOptions={sortOrderOptions}>
+        {!spoilers.loading && (
+          <div className="slider">
+            <span>{"Level: " + (spoilers.level || "1")}</span>
+            <input
+              type="range"
+              name="level"
+              id="level"
+              min="1"
+              max="9"
+              onInput={updateLevel}
+              value={spoilers.level || 1}
+            />
+          </div>
+        )}
+        <div className="button-group">
+          <button onClick={() => setModalContent(character.matImage)}>
+            Character Mat
+          </button>
+          <button onClick={() => setModalContent(character.sheetImage)}>
+            Character Sheet
+          </button>
+        </div>
+      </Toolbar>
+      <ClassFilter />
       {!spoilers.loading && <CardList cardList={cardList} />}
+      {modalContent && (
+        <Modal
+          content={<img alt="" src={baseUrl + modalContent} />}
+          open={!!modalContent}
+          onClose={closeModal}
+        />
+      )}
     </Layout>
   );
 }
