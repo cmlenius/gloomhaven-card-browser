@@ -16,6 +16,38 @@ const headerLinks = [
   { icon: faSackDollar, label: "Items", pathname: "/items" },
 ];
 
+function SettingsAnchor({ mobile, openSettingDrawer }) {
+  return (
+    <div
+      className={`header-link view-more ${mobile ? "mobile" : "desktop"}`}
+      onClick={openSettingDrawer}
+    >
+      <span>
+        <FontAwesomeIcon className="header-icon" icon={faGear} />
+        <span>Settings</span>
+      </span>
+    </div>
+  );
+}
+
+function HeaderLink({ game, link }) {
+  return (
+    <div className="header-link">
+      <Link
+        href={{
+          pathname: link.pathname,
+          query: { game: game },
+        }}
+      >
+        <span>
+          <FontAwesomeIcon className="header-icon" icon={link.icon} />
+          <a>{link.label}</a>
+        </span>
+      </Link>
+    </div>
+  );
+}
+
 function TopBar({ openSettingDrawer }) {
   const router = useRouter();
   const query = router.query;
@@ -25,33 +57,11 @@ function TopBar({ openSettingDrawer }) {
       <div className="topbar-inner">
         <div className="header-links">
           {headerLinks.map((link, idx) => (
-            <div key={idx} className="header-link">
-              <Link
-                href={{
-                  pathname: link.pathname,
-                  query: { game: query.game || "gh" },
-                }}
-              >
-                <span>
-                  <FontAwesomeIcon className="header-icon" icon={link.icon} />
-                  <a>{link.label}</a>
-                </span>
-              </Link>
-            </div>
+            <HeaderLink key={idx} game={query.game || "gh"} link={link} />
           ))}
-          <div className="header-link view-more view-more-mobile" onClick={openSettingDrawer}>
-            <span>
-              <FontAwesomeIcon className="header-icon" icon={faGear} />
-              <span>Settings</span>
-            </span>
-          </div>
+          <SettingsAnchor mobile openSettingDrawer={openSettingDrawer} />
         </div>
-        <div className="header-link view-more view-more-desktop" onClick={openSettingDrawer}>
-          <span>
-            <FontAwesomeIcon className="header-icon" icon={faGear} />
-            <span>Settings</span>
-          </span>
-        </div>
+        <SettingsAnchor openSettingDrawer={openSettingDrawer} />
       </div>
     </nav>
   );
@@ -63,10 +73,10 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Gloomhaven Cards</title>
+        <title>Gloomhaven Card Browser</title>
         <meta
           name="description"
-          content="Gloomhaven Cards is a tool for browsing and searching Gloomhaven cards."
+          content="Gloomhaven Card Browser is a tool for browsing and viewing Gloomhaven cards. It includes cards from the Gloomhaven, Forgotten Circles, Jaws of the Lion, and Crimson Circles"
         />
         <link rel="icon" href="/logo.png" />
       </Head>

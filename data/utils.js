@@ -49,7 +49,7 @@ export function characterSpoilerFilter(spoilers) {
     (baseCharacterClasses.has(card.class) ||
       spoilers.characters?.has(card.class) ||
       hiddenCharacterClasses.has(card.class)) &&
-    card.level <= spoilers.level;
+    card.level < spoilers.level + 1;
 }
 
 export function itemSpoilerFilter(spoilers) {

@@ -6,10 +6,10 @@ export async function characterSearchResults(query) {
 
   // Filter
   const game = query.game || "gh";
-  searchResults = searchResults.filter((char) => char.game === game);
-
   const className = query.class || defaultClass(game);
-  searchResults = searchResults.filter((char) => char.class === className);
+  searchResults = searchResults.filter(
+    (char) => char.game === game && char.class === className
+  );
 
   // Sort
   const order = query.order || "level";

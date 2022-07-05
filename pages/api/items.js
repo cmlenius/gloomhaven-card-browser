@@ -6,17 +6,14 @@ export async function itemSearchResults(query) {
 
   // Filter
   const game = query.game || "gh";
-  searchResults = searchResults.filter((item) => item.game === game);
-
   const slot = query.slot;
-  if (slot) {
-    searchResults = searchResults.filter((i) => i.slot === slot);
-  }
-  if (query.activations === "consumed") {
-    searchResults = searchResults.filter((i) => i.consumed);
-  } else if (query.activations === "spent") {
-    searchResults = searchResults.filter((i) => i.spent);
-  }
+  searchResults = searchResults.filter((item) => {
+    if (item.game !== game) return false;
+    if (slot && item.slot !== slot) return false;
+    if (query.activations === "consumed" && !item.consumed) return false;
+    if (query.activations === "spent" && !item.spent) return false;
+    return true;
+  });
 
   // Sort
   const order = query.order || "id";

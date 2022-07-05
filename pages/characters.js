@@ -92,7 +92,7 @@ function Characters({ searchResults }) {
       <Toolbar pathname="/characters" sortOrderOptions={sortOrderOptions}>
         {!spoilers.loading && (
           <div className="slider">
-            <span>{spoilers.level}</span>
+            <span>{"Level: " + (spoilers.level || "1")}</span>
             <input
               type="range"
               name="level"
