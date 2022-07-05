@@ -39,8 +39,14 @@ function TopBar({ openSettingDrawer }) {
               </Link>
             </div>
           ))}
+          <div className="header-link view-more view-more-mobile" onClick={openSettingDrawer}>
+            <span>
+              <FontAwesomeIcon className="header-icon" icon={faGear} />
+              <span>Settings</span>
+            </span>
+          </div>
         </div>
-        <div className="header-link view-more" onClick={openSettingDrawer}>
+        <div className="header-link view-more view-more-desktop" onClick={openSettingDrawer}>
           <span>
             <FontAwesomeIcon className="header-icon" icon={faGear} />
             <span>Settings</span>

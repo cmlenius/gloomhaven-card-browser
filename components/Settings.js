@@ -57,13 +57,6 @@ function ItemSpoiler({ label, path }) {
     newSpoilers.items[path] = !spoilers.items[path];
 
     updateSpoilers(newSpoilers);
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        ...newSpoilers,
-        characters: Array.from(newSpoilers.characters),
-      })
-    );
   }
 
   return (
@@ -82,13 +75,6 @@ function ProsperitySpoiler({ level }) {
       ...spoilers,
       items: { ...spoilers.items, prosperity: level },
     });
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        characters: Array.from(spoilers.characters),
-        items: { ...spoilers.items, prosperity: level },
-      })
-    );
   }
 
   return (
@@ -117,14 +103,6 @@ function ItemSpoilers({ itemSpoilers }) {
       ...spoilers,
       items: { ...spoilers.items, ...items },
     });
-
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        characters: Array.from(spoilers.characters),
-        items: { ...spoilers.items, ...items },
-      })
-    );
   }
 
   if (!itemSpoilers) return <div />;
@@ -167,29 +145,22 @@ function CharacterSpoilers({ classes }) {
   const { spoilers, updateSpoilers } = useSpoilers();
 
   const allCharacterSpoilers = classes.every((c) =>
-    spoilers.characters.has(c.id)
+    spoilers.characters.has(c.class)
   );
 
   function handleCharacterSpoilerToggleAll() {
     let newSet = new Set(spoilers.characters);
-    if (classes.some((c) => !spoilers.characters.has(c.id))) {
+    if (classes.some((c) => !spoilers.characters.has(c.class))) {
       for (const c of classes) {
-        newSet.add(c.id);
+        newSet.add(c.class);
       }
     } else {
       for (const c of classes) {
-        newSet.delete(c.id);
+        newSet.delete(c.class);
       }
     }
 
     updateSpoilers({ ...spoilers, characters: newSet });
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({
-        ...spoilers,
-        characters: Array.from(newSet),
-      })
-    );
   }
 
   function handleCharacterSpoilerToggle(id) {
@@ -202,10 +173,6 @@ function CharacterSpoilers({ classes }) {
     }
 
     updateSpoilers({ ...spoilers, characters: newSet });
-    localStorage.setItem(
-      "spoilers",
-      JSON.stringify({ ...spoilers, characters: Array.from(newSet) })
-    );
   }
 
   return (
@@ -222,15 +189,15 @@ function CharacterSpoilers({ classes }) {
           <li
             key={idx}
             className="spoiler-check-option"
-            onClick={() => handleCharacterSpoilerToggle(char.id)}
+            onClick={() => handleCharacterSpoilerToggle(char.class)}
           >
             <input
-              checked={spoilers.characters.has(char.id)}
+              checked={spoilers.characters.has(char.class)}
               readOnly
               style={{ accentColor: char.colour }}
               type="checkbox"
             />
-            <SvgCharacterIcon character={char.id} />
+            <SvgCharacterIcon character={char.class} />
             <span>{char.altName || char.name}</span>
           </li>
         ))}

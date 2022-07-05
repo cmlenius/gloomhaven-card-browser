@@ -19,7 +19,7 @@ function Modal({ content, open, onClose }) {
   }, [ref, onClose]);
 
   return (
-    <div className="modal" style={{ display: open ? "block" : "none" }}>
+    <div className="modal" style={{ display: open ? "flex" : "none" }}>
       <div ref={ref} className="modal-content">
         {content}
         <div className="close" onClick={onClose}>

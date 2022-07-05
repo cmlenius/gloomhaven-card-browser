@@ -46,9 +46,10 @@ export function customSort(order, direction) {
 
 export function characterSpoilerFilter(spoilers) {
   return (card) =>
-    baseCharacterClasses.has(card.class) ||
-    spoilers.characters?.has(card.class) ||
-    hiddenCharacterClasses.has(card.class);
+    (baseCharacterClasses.has(card.class) ||
+      spoilers.characters?.has(card.class) ||
+      hiddenCharacterClasses.has(card.class)) &&
+    card.level <= spoilers.level;
 }
 
 export function itemSpoilerFilter(spoilers) {
@@ -62,6 +63,8 @@ export function itemSpoilerFilter(spoilers) {
         return spoilers.items.solo;
       case "other":
         return spoilers.items.other;
+      case "fc":
+        return spoilers.items.fc;
       case "jotl":
         return true;
       case "jotl1":

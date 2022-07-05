@@ -6,7 +6,6 @@ import {
   baseUrl,
   characterClasses,
   characterSpoilerFilter,
-  colour,
   defaultClass,
 } from "../data/utils";
 import { characterSearchResults } from "./api/characters";
@@ -52,7 +51,7 @@ function ClassFilter() {
 }
 
 function Characters({ searchResults }) {
-  const { spoilers } = useSpoilers();
+  const { spoilers, updateSpoilers } = useSpoilers();
   const router = useRouter();
   const query = router.query;
 
@@ -64,35 +63,47 @@ function Characters({ searchResults }) {
     [setModalContent]
   );
 
+  function updateLevel(event) {
+    const newLevel = parseInt(event.target.value);
+    if (!newLevel || newLevel < 1 || newLevel > 9) return;
+
+    updateSpoilers({ ...spoilers, level: newLevel });
+  }
+
   useEffect(() => {
-    if (query.class) {
-      document.documentElement.style.setProperty(
-        "--primary",
-        colour(query.class)
-      );
-    } else {
-      let char = defaultClass(query.game);
+    let char = characterClasses(query.game).find((c) => c.class == query.class);
+
+    if (!char) {
+      char = defaultClass(query.game);
       router.push({
         pathname: "/characters",
         query: { ...query, class: char },
       });
     }
-  }, [query, router]);
 
-  useEffect(() => {
-    const char = characterClasses(query.game).find(
-      (c) => c.class == query.class
-    );
-    if (!char) return;
-
+    document.documentElement.style.setProperty("--primary", char.colour);
     setCharacter(char);
-  }, [query]);
+  }, [query, router]);
 
   const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
       <Toolbar pathname="/characters" sortOrderOptions={sortOrderOptions}>
+        {!spoilers.loading && (
+          <div className="slider">
+            <span>{spoilers.level}</span>
+            <input
+              type="range"
+              name="level"
+              id="level"
+              min="1"
+              max="9"
+              onInput={updateLevel}
+              value={spoilers.level || 1}
+            />
+          </div>
+        )}
         <div className="button-group">
           <button onClick={() => setModalContent(character.matImage)}>
             Character Mat
