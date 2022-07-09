@@ -4,7 +4,7 @@ let characters = [
   { id: "MT", game: "gh", colour: "#374458", base: true, name: "Mindthief" },
   { id: "SC", game: "gh", colour: "#415021", base: true, name: "Scoundrel" },
   { id: "SW", game: "gh", colour: "#583D72", base: true, name: "Spellweaver" },
-  { id: "TI", game: "gh", colour: "#6C5A45", base: true, name: "Tinker" },
+  { id: "TI", game: "gh", colour: "#6C5A45", base: true, name: "Tinkerer" },
   {
     id: "BE",
     game: "gh",

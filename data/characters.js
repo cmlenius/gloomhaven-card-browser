@@ -47,10 +47,10 @@ export const characters = [
   {
     class: "TI",
     colour: "#6C5A45",
-    name: "Tinker",
+    name: "Tinkerer",
     game: "gh",
-    matImage: "character-mats/gloomhaven/gh-tinker.jpg",
-    sheetImage: "character-perks/gloomhaven/gh-tinker-perks.jpg",
+    matImage: "character-mats/gloomhaven/gh-tinkerer.jpg",
+    sheetImage: "character-perks/gloomhaven/gh-tinkerer-perks.jpg",
     base: true,
   },
   {
