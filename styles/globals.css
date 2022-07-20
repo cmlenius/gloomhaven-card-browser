@@ -5,7 +5,10 @@
   --warning: #721c24;
 }
 
-html,
+html {
+  background-color: var(--primary);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -14,7 +17,6 @@ body {
   font-size: 14px;
   background-image: url("/background.jpg");
   background-size: 100%;
-  overscroll-behavior: none;
 }
 
 /* --- MISC --- */
@@ -238,7 +240,6 @@ input[type="radio"] {
 .settings-inner {
   display: flex;
   flex-direction: column;
-  height: 100%;
   padding: 16px 16px;
 }
 
@@ -538,6 +539,10 @@ input[type="radio"] {
   .settings {
     height: 100%;
     width: 100%;
+  }
+
+  .settings-inner {
+    height: 100%;
   }
 
   .slider {
