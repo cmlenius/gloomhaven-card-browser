@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
+import Image from "next/image";
 
 import { baseUrl } from "../data/utils";
 import Empty from "../components/Empty";
@@ -29,9 +30,12 @@ function CardList({ cardList }) {
     >
       {data?.map((card, idx) => (
         <div key={idx} className="card">
-          <img
+          <Image
             alt={card.name}
             className="card-img"
+            layout="responsive"
+            height="600px"
+            width="400px"
             src={baseUrl + card.image}
           />
         </div>
