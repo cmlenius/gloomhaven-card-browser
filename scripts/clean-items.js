@@ -3860,7 +3860,7 @@ items = items.map((item) => {
     name: item.name.toLowerCase().replaceAll("'", ""),
     game: expansion === "fc" ? "gh" : expansion,
     source: source,
-    image: `items/${expansionName}/${expansion}-${id}-${imageName}.jpg`,
+    image: `items/${expansionName}/${expansion}-${id}-${imageName}.jpeg`,
     cost: item.cost,
     slot: item.slot,
     spent: item.spent,
