@@ -19,9 +19,12 @@
     "react-infinite-scroller": "^1.2.6"
   },
   "devDependencies": {
+    "@types/node": "^18.6.3",
+    "@types/react": "^18.0.15",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "typescript": "^4.7.4"
   }
 }
