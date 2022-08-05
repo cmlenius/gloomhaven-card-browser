@@ -102,14 +102,14 @@ let characters = [
     base: true,
     name: "Demolitionist",
   },
-  { id: "HA", game: "jotl", colour: "#224564", base: true, name: "Hachet" },
+  { id: "HA", game: "jotl", colour: "#224564", base: true, name: "Hatchet" },
   { id: "RG", game: "jotl", colour: "#7B201B", base: true, name: "Red Guard" },
   {
     id: "VW",
     game: "jotl",
     colour: "#5F5D5E",
     base: true,
-    name: "Void Warden",
+    name: "Voidwarden",
   },
 
   // Crimson Scales
@@ -201,7 +201,7 @@ let characters = [
     id: "QA",
     game: "cs",
     colour: "#739097",
-    name: "Artificier",
+    name: "Artificer",
     altName: "Tools",
   },
   {

@@ -184,10 +184,10 @@ export const characters = [
   {
     class: "HA",
     colour: "#224564",
-    name: "Hachet",
+    name: "Hatchet",
     game: "jotl",
-    matImage: "character-mats/jaws-of-the-lion/jotl-hachet.jpeg",
-    sheetImage: "character-perks/jaws-of-the-lion/jotl-hachet-perks.jpeg",
+    matImage: "character-mats/jaws-of-the-lion/jotl-hatchet.jpeg",
+    sheetImage: "character-perks/jaws-of-the-lion/jotl-hatchet-perks.jpeg",
     base: true,
   },
   {
@@ -202,10 +202,10 @@ export const characters = [
   {
     class: "VW",
     colour: "#5F5D5E",
-    name: "Void Warden",
+    name: "Voidwarden",
     game: "jotl",
-    matImage: "character-mats/jaws-of-the-lion/jotl-void-warden.jpeg",
-    sheetImage: "character-perks/jaws-of-the-lion/jotl-void-warden-perks.jpeg",
+    matImage: "character-mats/jaws-of-the-lion/jotl-voidwarden.jpeg",
+    sheetImage: "character-perks/jaws-of-the-lion/jotl-voidwarden-perks.jpeg",
     base: true,
   },
   {
@@ -319,11 +319,11 @@ export const characters = [
   {
     class: "QA",
     colour: "#739097",
-    name: "Artificier",
+    name: "Artificer",
     altName: "Tools",
     game: "cs",
-    matImage: "character-mats/crimson-scales/cs-artificier.jpeg",
-    sheetImage: "character-perks/crimson-scales/cs-artificier-perks.jpeg",
+    matImage: "character-mats/crimson-scales/cs-artificer.jpeg",
+    sheetImage: "character-perks/crimson-scales/cs-artificer-perks.jpeg",
   },
   {
     class: "RM",
