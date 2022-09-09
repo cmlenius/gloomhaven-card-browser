@@ -44,11 +44,11 @@ export function customSort(order, direction) {
   };
 }
 
-export function characterSpoilerFilter(spoilers) {
+export function characterSpoilerFilter(spoilers, allowHiddenClasses) {
   return (card) =>
     (baseCharacterClasses.has(card.class) ||
       spoilers.characters?.has(card.class) ||
-      hiddenCharacterClasses.has(card.class)) &&
+      (allowHiddenClasses && hiddenCharacterClasses.has(card.class))) &&
     card.level < 1 + (spoilers.level || 1);
 }
 

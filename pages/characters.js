@@ -85,7 +85,13 @@ function Characters({ searchResults }) {
     setCharacter(char);
   }, [query, router]);
 
-  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
+  // Hide hidden classes when searching to avoid accidental spoilers with broad
+  // search terms, but still allow showing them if directly accessing their class URL
+  const showHiddenClasses = !query.searchFilter;
+
+  const cardList = searchResults?.filter(
+    characterSpoilerFilter(spoilers, showHiddenClasses)
+  );
 
   return (
     <Layout>
