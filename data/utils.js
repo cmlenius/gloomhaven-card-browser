@@ -80,3 +80,9 @@ export function itemSpoilerFilter(spoilers) {
     }
   };
 }
+
+export function nameSearchFilter(term) {
+  return (card) => {
+    return card.name.toLowerCase().includes(term.toLowerCase());
+  };
+}

@@ -1,5 +1,5 @@
 import { itemCards } from "../../data/item-cards";
-import { customSort } from "../../data/utils";
+import { customSort, nameSearchFilter } from "../../data/utils";
 
 export async function itemSearchResults(query) {
   let searchResults = itemCards;
@@ -14,6 +14,11 @@ export async function itemSearchResults(query) {
     if (query.activations === "spent" && !item.spent) return false;
     return true;
   });
+
+  const searchFilter = query.searchFilter;
+  if (searchFilter) {
+    searchResults = searchResults.filter(nameSearchFilter(searchFilter));
+  }
 
   // Sort
   const order = query.order || "id";

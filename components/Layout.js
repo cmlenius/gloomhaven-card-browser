@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGear,
+  faMagnifyingGlass,
   faSackDollar,
   faShield,
 } from "@fortawesome/free-solid-svg-icons";
@@ -15,6 +16,43 @@ const headerLinks = [
   { icon: faShield, label: "Characters", pathname: "/characters" },
   { icon: faSackDollar, label: "Items", pathname: "/items" },
 ];
+
+function SearchBar() {
+  const router = useRouter();
+  const query = router.query;
+  const initialSearchText = query.searchFilter ?? "";
+
+  const [searchText, setSearchText] = useState(initialSearchText);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    if (searchText) {
+      query.searchFilter = searchText;
+    } else {
+      delete query.searchFilter;
+    }
+
+    router.push({
+      pathname: router.pathname,
+      query,
+    });
+  };
+
+  return (
+    <form className="header-search" onSubmit={onSubmit}>
+      <input
+        type="search"
+        defaultValue={searchText}
+        onChange={(e) => setSearchText(e.target.value)}
+      />
+
+      <button type="submit">
+        <FontAwesomeIcon className="header-icon" icon={faMagnifyingGlass} />
+      </button>
+    </form>
+  );
+}
 
 function SettingsAnchor({ mobile, openSettingDrawer }) {
   return (
@@ -61,6 +99,7 @@ function TopBar({ openSettingDrawer }) {
           ))}
           <SettingsAnchor mobile openSettingDrawer={openSettingDrawer} />
         </div>
+        <SearchBar />
         <SettingsAnchor openSettingDrawer={openSettingDrawer} />
       </div>
     </nav>

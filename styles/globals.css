@@ -189,7 +189,7 @@ input[type="radio"] {
   height: 100%;
   width: 100%;
 }
- 
+
 .modal .close {
   align-items: center;
   background-color: black;
@@ -444,7 +444,8 @@ input[type="radio"] {
   align-items: center;
   box-sizing: border-box;
   display: flex;
-  height: 56px;
+  flex-wrap: wrap;
+  column-gap: 16px;
   justify-content: space-between;
   justify-self: center;
   max-width: 1100px;
@@ -456,7 +457,8 @@ input[type="radio"] {
 .topbar .header-links {
   align-items: center;
   display: flex;
-  height: 100%;
+  gap: 16px;
+  height: 40px;
   justify-content: space-between;
 }
 
@@ -466,7 +468,6 @@ input[type="radio"] {
   cursor: pointer;
   display: flex;
   height: 100%;
-  padding-right: 16px;
 }
 
 .topbar .header-link:hover {
@@ -489,6 +490,33 @@ input[type="radio"] {
   height: 14px;
   margin-right: 8px;
   width: 14px;
+}
+
+.topbar .header-search {
+  display: flex;
+  flex: 1;
+}
+
+.topbar .header-search input {
+  width: 100%;
+  height: 2.25em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 0;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+}
+
+.topbar .header-search button {
+  height: 2.25em;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  padding-left: 8px;
+  border-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
 }
 
 .topbar .view-more {

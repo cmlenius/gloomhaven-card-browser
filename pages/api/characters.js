@@ -1,15 +1,20 @@
 import { characterAbilityCards } from "../../data/character-ability-cards";
-import { customSort, defaultClass } from "../../data/utils";
+import { customSort, defaultClass, nameSearchFilter } from "../../data/utils";
 
 export async function characterSearchResults(query) {
   let searchResults = characterAbilityCards;
 
   // Filter
   const game = query.game || "gh";
-  const className = query.class || defaultClass(game);
-  searchResults = searchResults.filter(
-    (char) => char.game === game && char.class === className
-  );
+  searchResults = searchResults.filter((char) => char.game === game);
+
+  const searchFilter = query.searchFilter;
+  if (searchFilter) {
+    searchResults = searchResults.filter(nameSearchFilter(searchFilter));
+  } else {
+    const className = query.class || defaultClass(game);
+    searchResults = searchResults.filter((char) => char.class === className);
+  }
 
   // Sort
   const order = query.order || "level";
