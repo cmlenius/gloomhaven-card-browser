@@ -1442,6 +1442,16 @@ let abilities = [
     cardno: "129",
   },
   {
+    name: "opposing strike",
+    points: 159,
+    expansion: "Gloomhaven",
+    image: "character-ability-cards/gloomhaven/CH/gh-opposing-strike.png",
+    xws: "opposingstrike",
+    level: "1",
+    initiative: "46",
+    cardno: "116",
+  },
+  {
     name: "petrify",
     points: 160,
     expansion: "Gloomhaven",
@@ -1946,7 +1956,7 @@ let abilities = [
     points: 215,
     expansion: "Gloomhaven",
     image:
-    "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.png",
+      "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.png",
     xws: "etherealmanifestation",
     level: "9",
     initiative: "98",
@@ -2047,7 +2057,7 @@ let abilities = [
     points: 226,
     expansion: "Gloomhaven",
     image:
-    "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.png",
+      "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.png",
     xws: "pragmaticreinforcement",
     level: "7",
     initiative: "56",

@@ -1106,6 +1106,14 @@ export const characterAbilityCards = [
     level: 1.5,
   },
   {
+    name: "opposing strike",
+    class: "CH",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/CH/gh-opposing-strike.jpeg",
+    initiative: 46,
+    level: 1,
+  },
+  {
     name: "petrify",
     class: "CH",
     game: "gh",
