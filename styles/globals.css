@@ -73,6 +73,17 @@ button:hover {
   min-height: calc(100vh - 56px);
 }
 
+.issues {
+  align-self: center;
+  margin: 12px 0;
+}
+
+.issues a {
+  color: black;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   accent-color: #432423;

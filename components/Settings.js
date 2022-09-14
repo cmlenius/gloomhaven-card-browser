@@ -269,6 +269,15 @@ function Settings({ open, onClose }) {
               characters and items
             </span>
           </div>
+          <div className="issues">
+            <a
+              href="https://github.com/cmlenius/gloomhaven-card-browser/issues"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Report issues or missing content
+            </a>
+          </div>
         </div>
       </div>
     </>
