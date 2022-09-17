@@ -12,6 +12,7 @@ const gameOptions = [
   { id: "gh", name: "Gloomhaven" },
   { id: "jotl", name: "Jaws of the Lion" },
   { id: "cs", name: "Crimson Scales" },
+  { id: "fh", name: "Frosthaven" },
 ];
 
 const itemSpoilerConfig = {
@@ -262,13 +263,15 @@ function Settings({ open, onClose }) {
             )}
             {itemSpoilers && <ItemSpoilers itemSpoilers={itemSpoilers} />}
           </div>
-          <div className="spoilers-warning">
-            <FontAwesomeIcon icon={faWarning} height="48px" />
-            <span>
-              Clicking the checkboxes above will reveal spoilers for those
-              characters and items
-            </span>
-          </div>
+          {(unlockabelClasses.length > 0 || itemSpoilers) && (
+            <div className="spoilers-warning">
+              <FontAwesomeIcon icon={faWarning} height="48px" />
+              <span>
+                Clicking the checkboxes above will reveal spoilers for those
+                characters and items
+              </span>
+            </div>
+          )}
           <div className="issues">
             <a
               href="https://github.com/cmlenius/gloomhaven-card-browser/issues"

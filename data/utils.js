@@ -26,6 +26,8 @@ export function defaultClass(game) {
     return "DE";
   } else if (game === "cs") {
     return "BK";
+  } else if (game === "fh") {
+    return "BB";
   }
   return "BR";
 }
