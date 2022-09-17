@@ -211,6 +211,12 @@ let characters = [
     name: "Ruinmaw",
     altName: "Bleeding Claw",
   },
+  { id: "BB", game: "fh", colour: "#3E7D9B", base: true, name: "Blinkblade" },
+  { id: "BN", game: "fh", colour: "#B29243", base: true, name: "Banner Spear" },
+  { id: "BO", game: "fh", colour: "#347132", base: true, name: "Boneshaper" },
+  { id: "DF", game: "fh", colour: "#8C7566", base: true, name: "Drifter" },
+  { id: "DW", game: "fh", colour: "#747A8B", base: true, name: "Deathwalker" },
+  { id: "GE", game: "fh", colour: "#94274E", base: true, name: "Geminate" },
 ];
 
 let fs = require("fs");
@@ -232,6 +238,9 @@ characters = characters.map((character) => {
       break;
     case "cs":
       expansion = "crimson-scales";
+      break;
+    case "fh":
+      expansion = "frosthaven";
       break;
     default:
       expansion = "";
