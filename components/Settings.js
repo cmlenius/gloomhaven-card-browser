@@ -12,6 +12,7 @@ const gameOptions = [
   { id: "gh", name: "Gloomhaven" },
   { id: "jotl", name: "Jaws of the Lion" },
   { id: "cs", name: "Crimson Scales" },
+  { id: "fh", name: "Frosthaven" },
 ];
 
 const itemSpoilerConfig = {

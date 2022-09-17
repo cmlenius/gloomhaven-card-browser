@@ -44,6 +44,14 @@ import RM from "../public/icons/classes/cs/RM.svg";
 import SP from "../public/icons/classes/cs/SP.svg";
 import ST from "../public/icons/classes/cs/ST.svg";
 
+// Frosthaven
+import BB from "../public/icons/classes/fh/BB.svg";
+import BN from "../public/icons/classes/fh/BN.svg";
+import BO from "../public/icons/classes/fh/BO.svg";
+import DF from "../public/icons/classes/fh/DF.svg";
+import DW from "../public/icons/classes/fh/DW.svg";
+import GE from "../public/icons/classes/fh/GE.svg";
+
 const iconMap = {
   BR,
   CH,
@@ -87,6 +95,14 @@ const iconMap = {
   RM,
   SP,
   ST,
+
+  // Frosthaven
+  BB,
+  BN,
+  BO,
+  DF,
+  DW,
+  GE,
 };
 
 // TODO default icon
