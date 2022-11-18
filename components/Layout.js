@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Script from "next/script";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGear,
@@ -80,6 +81,18 @@ export default function Layout({ children }) {
         />
         <link rel="icon" href="/logo.png" />
       </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-FFL6ZJNJ4T"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag("js", new Date());
+          gtag("config", "G-FFL6ZJNJ4T");
+        `}
+      </Script>
       <Settings
         open={settingDrawerOpen}
         onClose={() => setSettingDrawerOpen(false)}
