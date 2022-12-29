@@ -287,6 +287,54 @@ let mats = [
     cards: 10,
     health: 6,
   },
+  {
+    class: "IN",
+    name: "Incarnate",
+    image: "character-mats/trail-of-ashes/toa-incarnate.png",
+    expansion: "trail of ashes",
+    cards: 11,
+    health: 10,
+  },
+  {
+    class: "RH",
+    name: "Rimehearth",
+    image: "character-mats/trail-of-ashes/toa-rimehearth.png",
+    expansion: "trail of ashes",
+    cards: 10,
+    health: 8,
+  },
+  {
+    class: "SR",
+    name: "Shardrender",
+    image: "character-mats/trail-of-ashes/toa-shardrender.png",
+    expansion: "trail of ashes",
+    cards: 10,
+    health: 6,
+  },
+  {
+    class: "TP",
+    name: "Tempest",
+    image: "character-mats/trail-of-ashes/toa-tempest.png",
+    expansion: "trail of ashes",
+    cards: 10,
+    health: 6,
+  },
+  {
+    class: "TR",
+    name: "Thornreaper",
+    image: "character-mats/trail-of-ashes/toa-thornreaper.png",
+    expansion: "trail of ashes",
+    cards: 11,
+    health: 9,
+  },
+  {
+    class: "VQ",
+    name: "Vanquisher",
+    image: "character-mats/trail-of-ashes/toa-vanquisher.png",
+    expansion: "trail of ashes",
+    cards: 9,
+    health: 10,
+  },
 ];
 let fs = require("fs");
 
@@ -305,6 +353,9 @@ mats = mats.map((mat) => {
       break;
     case "crimson scales":
       expansion = "cs";
+      break;
+    case "trail of ashes":
+      expansion = "toa";
       break;
     default:
       expansion = "";

@@ -13,6 +13,7 @@ const gameOptions = [
   { id: "jotl", name: "Jaws of the Lion" },
   { id: "cs", name: "Crimson Scales" },
   { id: "fh", name: "Frosthaven" },
+  { id: "toa", name: "Trail of Ashes" },
 ];
 
 const itemSpoilerConfig = {

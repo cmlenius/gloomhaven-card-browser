@@ -28,6 +28,8 @@ export function defaultClass(game) {
     return "BK";
   } else if (game === "fh") {
     return "BB";
+  } else if (game === "toa") {
+    return "IN";
   }
   return "BR";
 }
@@ -76,6 +78,8 @@ export function itemSpoilerFilter(spoilers) {
       case "jotl3":
         return spoilers.items.jotl3;
       case "cs":
+        return true;
+      case "toa":
         return true;
       default:
         return false;

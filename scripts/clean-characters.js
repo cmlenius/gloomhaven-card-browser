@@ -217,6 +217,17 @@ let characters = [
   { id: "DF", game: "fh", colour: "#8C7566", base: true, name: "Drifter" },
   { id: "DW", game: "fh", colour: "#747A8B", base: true, name: "Deathwalker" },
   { id: "GE", game: "fh", colour: "#94274E", base: true, name: "Geminate" },
+  { id: "IN", game: "toa", colour: "#7B2D40", name: "Incarnate" },
+  { id: "RH", game: "toa", colour: "#364A6D", name: "Rimehearth" },
+  { id: "SR", game: "toa", colour: "#79552C", name: "Shardrender" },
+  { id: "TP", game: "toa", colour: "#265372", name: "Tempest" },
+  { id: "TR", game: "toa", colour: "#6B693B", name: "Thornreaper" },
+  {
+    id: "VQ",
+    game: "toa",
+    colour: "#AD4F3F",
+    name: "Vanquisher",
+  },
 ];
 
 let fs = require("fs");
@@ -241,6 +252,9 @@ characters = characters.map((character) => {
       break;
     case "fh":
       expansion = "frosthaven";
+      break;
+    case "toa":
+      expansion = "trail-of-ashes";
       break;
     default:
       expansion = "";

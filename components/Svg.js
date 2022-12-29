@@ -52,7 +52,16 @@ import DF from "../public/icons/classes/fh/DF.svg";
 import DW from "../public/icons/classes/fh/DW.svg";
 import GE from "../public/icons/classes/fh/GE.svg";
 
+// Trail of Ashes
+import IN from "../public/icons/classes/toa/IN.svg";
+import RH from "../public/icons/classes/toa/RH.svg";
+import SR from "../public/icons/classes/toa/SR.svg";
+import TP from "../public/icons/classes/toa/TP.svg";
+import TR from "../public/icons/classes/toa/TR.svg";
+import VQ from "../public/icons/classes/toa/VQ.svg";
+
 const iconMap = {
+  // Gloomhaven
   BR,
   CH,
   MT,
@@ -103,6 +112,14 @@ const iconMap = {
   DF,
   DW,
   GE,
+
+  // Trail of Ashes
+  IN,
+  RH,
+  SR,
+  TP,
+  TR,
+  VQ,
 };
 
 // TODO default icon
