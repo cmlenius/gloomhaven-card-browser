@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../public/global.css";
 import { SpoilersProvider } from "../hooks/useSpoilers";
 
 function MyApp({ Component, pageProps }) {

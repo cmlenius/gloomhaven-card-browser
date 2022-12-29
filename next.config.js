@@ -15,7 +15,17 @@ module.exports = {
     return [
       {
         source: "/",
-        destination: "/characters",
+        destination: "/gh/characters",
+        permanent: true,
+      },
+      {
+        source: "/characters",
+        destination: "/gh/characters",
+        permanent: true,
+      },
+      {
+        source: "/items",
+        destination: "/gh/items",
         permanent: true,
       },
     ];

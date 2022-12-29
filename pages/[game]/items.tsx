@@ -1,21 +1,23 @@
 import { useEffect } from "react";
+import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 
-import { itemSearchResults } from "./api/items";
-import { useSpoilers } from "../hooks/useSpoilers";
-import { colour, itemSpoilerFilter } from "../data/utils";
+import { itemSearchResults } from "../api/items";
+import { useSpoilers } from "../../hooks/useSpoilers";
+import { getCharacterColor, itemSpoilerFilter } from "../../common/helpers";
+import { FilterOption, Item, SortOption } from "../../common/types";
 
-import CardList from "../components/CardList";
-import Layout from "../components/Layout";
-import Toolbar from "../components/Toolbar";
+import CardList from "../../components/CardList";
+import Layout from "../../components/Layout";
+import Toolbar from "../../components/Toolbar";
 
-const sortOrderOptions = [
+const sortOrderOptions: SortOption[] = [
   { id: "id", name: "Item Number" },
   { id: "cost", name: "Cost" },
   { id: "name", name: "Name" },
 ];
 
-const slotFilters = [
+const slotFilters: FilterOption[] = [
   { id: "head", name: "Head", icon: "/icons/equipment/head.png" },
   { id: "body", name: "Body", icon: "/icons/equipment/body.png" },
   { id: "1h", name: "1 Hand", icon: "/icons/equipment/1h.png" },
@@ -24,32 +26,32 @@ const slotFilters = [
   { id: "small", name: "Small Item", icon: "/icons/equipment/small.png" },
 ];
 
-const activationsFilters = [
+const activationsFilters: FilterOption[] = [
   { id: "consumed", name: "Consumed", icon: "/icons/consumed.png" },
   { id: "spent", name: "Spent", icon: "/icons/spent.png" },
 ];
 
-function ItemFilters() {
+const ItemFilters = () => {
   const router = useRouter();
   const query = router.query;
 
-  function handleSlotChange(newSlot) {
+  const handleSlotChange = (newSlot: string | null) => {
     query.slot === newSlot ? delete query.slot : (query.slot = newSlot);
     router.push({
-      pathname: "/items",
+      pathname: "items",
       query: query,
     });
-  }
+  };
 
-  function handleActivationsChange(newActivations) {
+  const handleActivationsChange = (newActivations: string | null) => {
     query.activations === newActivations
       ? delete query.activations
       : (query.activations = newActivations);
     router.push({
-      pathname: "/items",
+      pathname: "items",
       query: query,
     });
-  }
+  };
 
   return (
     <div className="filters">
@@ -78,28 +80,35 @@ function ItemFilters() {
       ))}
     </div>
   );
-}
+};
 
-function Items({ searchResults }) {
+type PageProps = {
+  searchResults: Item[];
+};
+
+const Items = ({ searchResults }: PageProps) => {
   const { spoilers } = useSpoilers();
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", colour(null));
+    document.documentElement.style.setProperty(
+      "--primary",
+      getCharacterColor(null)
+    );
   }, []);
 
   const cardList = searchResults?.filter(itemSpoilerFilter(spoilers));
 
   return (
     <Layout>
-      <Toolbar pathname="/items" sortOrderOptions={sortOrderOptions}>
+      <Toolbar pathname="items" sortOrderOptions={sortOrderOptions}>
         <ItemFilters />
       </Toolbar>
       {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );
-}
+};
 
-export async function getServerSideProps(context) {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   const searchResults = await itemSearchResults(context.query);
 
   return {
@@ -107,6 +116,6 @@ export async function getServerSideProps(context) {
       searchResults,
     },
   };
-}
+};
 
 export default Items;

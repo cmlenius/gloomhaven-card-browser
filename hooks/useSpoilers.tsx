@@ -1,32 +1,45 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import { Spoilers } from "../common/types";
 
-const SpoilersContext = createContext();
+interface SpoilersContextInterface {
+  spoilers: Spoilers;
+  setSpoilers: (sc: Spoilers) => void;
+}
+
+export const defaultSpoilersContextValue: Spoilers = {
+  characters: new Set<string>(),
+  items: {
+    prosperity: "1",
+    recipes: false,
+    solo: false,
+    other: false,
+    fc: false,
+  },
+  level: 1,
+  loading: true,
+};
+
+const SpoilersContext = createContext<SpoilersContextInterface>({
+  spoilers: defaultSpoilersContextValue,
+  setSpoilers: () => {},
+});
 
 export const SpoilersProvider = ({ children }) => {
-  const [spoilers, setSpoilers] = useState({
-    characters: new Set(),
-    items: {
-      prosperity: "1",
-      recipes: false,
-      solo: false,
-      other: false,
-      fc: false,
-    },
-    level: 1,
-    loading: true,
-  });
+  const [spoilers, setSpoilers] = useState<Spoilers>(
+    defaultSpoilersContextValue
+  );
 
   useEffect(() => {
     const storageSpoilers = localStorage.getItem("spoilers");
     if (!storageSpoilers) {
-      setSpoilers({ ...spoilers, loading: false });
+      setSpoilers((spoilers) => ({ ...spoilers, loading: false }));
       return;
     }
 
-    let parsedSpoilers = JSON.parse(storageSpoilers);
+    const parsedSpoilers = JSON.parse(storageSpoilers);
     if (!parsedSpoilers) {
       localStorage.delete("spoilers");
-      setSpoilers({ ...spoilers, loading: false });
+      setSpoilers((spoilers) => ({ ...spoilers, loading: false }));
       return;
     }
 
@@ -44,7 +57,7 @@ export const SpoilersProvider = ({ children }) => {
 export const useSpoilers = () => {
   const { spoilers, setSpoilers } = useContext(SpoilersContext);
 
-  function updateSpoilers(newSpoilers) {
+  const updateSpoilers = (newSpoilers: Spoilers) => {
     localStorage.setItem(
       "spoilers",
       JSON.stringify({
@@ -53,7 +66,7 @@ export const useSpoilers = () => {
       })
     );
     setSpoilers(newSpoilers);
-  }
+  };
 
   return { spoilers, updateSpoilers };
 };
