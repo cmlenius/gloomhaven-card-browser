@@ -1,4 +1,5 @@
-export const characterAbilityCards = [
+export const characterAbilityCards = 
+[
   {
     name: "blood pact",
     class: "BE",

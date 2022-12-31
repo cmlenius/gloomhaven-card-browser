@@ -1,4 +1,5 @@
-export const characters = [
+export const characters = 
+[
   {
     class: "BR",
     colour: "#335970",

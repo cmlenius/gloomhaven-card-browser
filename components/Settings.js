@@ -12,8 +12,8 @@ const gameOptions = [
   { id: "gh", name: "Gloomhaven" },
   { id: "jotl", name: "Jaws of the Lion" },
   { id: "cs", name: "Crimson Scales" },
-  { id: "fh", name: "Frosthaven" },
   { id: "toa", name: "Trail of Ashes" },
+  { id: "fh", name: "Frosthaven" },
 ];
 
 const itemSpoilerConfig = {
@@ -216,10 +216,11 @@ function CharacterSpoilers({ classes }) {
 
 function Settings({ open, onClose }) {
   const router = useRouter();
+  const game = router.query?.game || "gh";
 
-  const itemSpoilers = itemSpoilerConfig[router.query?.game || "gh"];
+  const itemSpoilers = itemSpoilerConfig[game];
 
-  const unlockabelClasses = characterClasses(router.query?.game || "gh").filter(
+  const unlockabelClasses = characterClasses(game).filter(
     (c) => !c.base && !c.hidden
   );
 
@@ -250,7 +251,7 @@ function Settings({ open, onClose }) {
             <Dropdown
               onChange={handleGameChange}
               options={gameOptions}
-              value={router.query.game || "gh"}
+              value={game}
             />
             <FontAwesomeIcon
               className="spoilers-close-icon"

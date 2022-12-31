@@ -25,6 +25,7 @@ const sortOrderOptions = [
 function ClassFilter() {
   const router = useRouter();
   const query = router.query;
+  const game = query.game || "gh";
 
   function handleClassChange(newClass) {
     router.push({
@@ -35,17 +36,19 @@ function ClassFilter() {
 
   return (
     <div className="filters">
-      {characterClasses(query.game || "gh").map((char, idx) => (
-        <div
-          key={idx}
-          className={`filter-icon ${
-            query.class === char.class ? "filter-icon-selected" : ""
-          }`}
-          onClick={() => handleClassChange(char.class)}
-        >
-          <SvgCharacterIcon character={char.class} />
-        </div>
-      ))}
+      {characterClasses(game)
+        .filter((c) => !c.hidden)
+        .map((char, idx) => (
+          <div
+            key={idx}
+            className={`filter-icon ${
+              query.class === char.class ? "filter-icon-selected" : ""
+            }`}
+            onClick={() => handleClassChange(char.class)}
+          >
+            <SvgCharacterIcon character={char.class} />
+          </div>
+        ))}
     </div>
   );
 }
@@ -54,6 +57,7 @@ function Characters({ searchResults }) {
   const { spoilers, updateSpoilers } = useSpoilers();
   const router = useRouter();
   const query = router.query;
+  const game = query.game || "gh";
 
   const [character, setCharacter] = useState(null);
   const [modalContent, setModalContent] = useState(null);
@@ -71,10 +75,10 @@ function Characters({ searchResults }) {
   }
 
   useEffect(() => {
-    let char = characterClasses(query.game).find((c) => c.class == query.class);
+    let char = characterClasses(game).find((c) => c.class == query.class);
 
     if (!char) {
-      char = defaultClass(query.game);
+      char = defaultClass(game);
       router.push({
         pathname: "/characters",
         query: { ...query, class: char },
@@ -83,7 +87,7 @@ function Characters({ searchResults }) {
 
     document.documentElement.style.setProperty("--primary", char.colour);
     setCharacter(char);
-  }, [query, router]);
+  }, [query, router, game]);
 
   const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 

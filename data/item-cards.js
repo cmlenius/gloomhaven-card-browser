@@ -1,4 +1,5 @@
-export const itemCards = [
+export const itemCards = 
+[
   {
     id: 1,
     name: "boots of striding",

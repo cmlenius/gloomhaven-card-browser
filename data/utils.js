@@ -11,7 +11,7 @@ const hiddenCharacterClasses = new Set(
 );
 
 export function characterClasses(game) {
-  return characters.filter((c) => c.game === (game || "gh"));
+  return characters.filter((c) => c.game === game);
 }
 
 export function colour(char) {
@@ -22,16 +22,18 @@ export function colour(char) {
 }
 
 export function defaultClass(game) {
-  if (game === "jotl") {
-    return "DE";
-  } else if (game === "cs") {
-    return "BK";
-  } else if (game === "fh") {
-    return "BB";
-  } else if (game === "toa") {
-    return "IN";
+  switch (game) {
+    case "gh":
+      return "BR";
+    case "jotl":
+      return "DE";
+    case "cs":
+      return "BK";
+    case "toa":
+      return "IN";
+    case "fh":
+      return "BB";
   }
-  return "BR";
 }
 
 export function customSort(order, direction) {

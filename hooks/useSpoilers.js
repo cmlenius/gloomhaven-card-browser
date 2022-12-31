@@ -19,14 +19,14 @@ export const SpoilersProvider = ({ children }) => {
   useEffect(() => {
     const storageSpoilers = localStorage.getItem("spoilers");
     if (!storageSpoilers) {
-      setSpoilers({ ...spoilers, loading: false });
+      setSpoilers((spoilers) => ({ ...spoilers, loading: false }));
       return;
     }
 
     let parsedSpoilers = JSON.parse(storageSpoilers);
     if (!parsedSpoilers) {
       localStorage.delete("spoilers");
-      setSpoilers({ ...spoilers, loading: false });
+      setSpoilers((spoilers) => ({ ...spoilers, loading: false }));
       return;
     }
 
