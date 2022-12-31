@@ -4204,7 +4204,10 @@ items = items.map((item) => {
     }
   }
 
-  const imageName = item.name.toLowerCase().replaceAll(" ", "-");
+  const imageName = item.name
+    .toLowerCase()
+    .replaceAll("'", "")
+    .replaceAll(" ", "-");
 
   let source = item.source;
   if (item.gameType === "jotl") {
@@ -4250,10 +4253,12 @@ items = items.map((item) => {
     case "cs":
       expansionName = "crimson-scales";
       break;
+    case "toa":
+      expansionName = "trail-of-ashes";
+      break;
   }
 
-  let image = item.image;
-  if (image == null) image = `items/${expansionName}/${expansion}-${id}-${imageName}.jpeg`;
+  let image = `images/items/${expansionName}/${expansion}-${id}-${imageName}.jpeg`;
 
   return {
     id: parseInt(id.toString(), 10),

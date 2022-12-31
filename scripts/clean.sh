@@ -12,13 +12,6 @@ if [ "$1" = "items" ]; then
   mv item-cards.js ../data/item-cards.js
 fi
  
-if [ "$1" = "mats" ]; then
-  node clean-mats.js
-  prettier --write character-mats.js
-  echo "$(echo -n 'export const characterMats = '; cat character-mats.js)" > character-mats.js
-  mv character-mats.js ../data/character-mats.js
-fi
- 
 if [ "$1" = "characters" ]; then
   node clean-characters.js
   prettier --write characters.js

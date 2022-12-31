@@ -15251,7 +15251,7 @@ abilities = abilities.map((ability) => {
     name: ability.name.toLowerCase(),
     class: characterClass,
     game: expansion,
-    image: ability.image.replaceAll(".png", ".jpeg"),
+    image: "images/" + ability.image.replaceAll(".png", ".jpeg"),
     initiative: parseFloat(ability.initiative),
     level: ability.level === "X" ? 1.5 : parseInt(ability.level),
   };

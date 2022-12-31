@@ -270,8 +270,8 @@ characters = characters.map((character) => {
     name: character.name,
     altName: character.altName,
     game: character.game === "fc" ? "gh" : character.game,
-    matImage: `character-mats/${path}.jpeg`,
-    sheetImage: `character-perks/${path}-perks.jpeg`,
+    matImage: `images/character-mats/${path}.jpeg`,
+    sheetImage: `images/character-perks/${path}-perks.jpeg`,
     base: character.base,
     hidden: character.hidden,
   };
