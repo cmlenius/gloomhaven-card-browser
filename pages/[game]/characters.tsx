@@ -1,42 +1,48 @@
 import { useCallback, useEffect, useState } from "react";
+import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 
-import { useSpoilers } from "../hooks/useSpoilers";
+import { useSpoilers } from "../../hooks/useSpoilers";
 import {
-  baseUrl,
-  characterClasses,
   characterSpoilerFilter,
-  defaultClass,
-} from "../data/utils";
-import { characterSearchResults } from "./api/characters";
+  getBaseUrl,
+  getCharacter,
+  getCharacterClasses,
+  getDefaultCharacterClass,
+  verifyQueryParam,
+} from "../../common/helpers";
+import { CharacterAbilityCard, SortOption } from "../../common/types";
+import { characterSearchResults } from "../api/characters";
+import CardList from "../../components/CardList";
+import Layout from "../../components/Layout";
+import Modal from "../../components/Modal";
+import Toolbar from "../../components/Toolbar";
+import SvgCharacterIcon from "../../components/Svg";
 
-import CardList from "../components/CardList";
-import Layout from "../components/Layout";
-import Modal from "../components/Modal";
-import Toolbar from "../components/Toolbar";
-import SvgCharacterIcon from "../components/Svg";
-
-const sortOrderOptions = [
+const sortOrderOptions: SortOption[] = [
   { id: "level", name: "Level" },
   { id: "initiative", name: "Initiative" },
   { id: "name", name: "Name" },
 ];
 
-function ClassFilter() {
+type ClassFilterProps = {
+  game: string;
+};
+
+const ClassFilter = ({ game }: ClassFilterProps) => {
   const router = useRouter();
   const query = router.query;
-  const game = query.game || "gh";
 
-  function handleClassChange(newClass) {
+  const handleClassChange = (newClass: string) => {
     router.push({
-      pathname: "/characters",
+      pathname: "characters",
       query: { ...query, class: newClass },
     });
-  }
+  };
 
   return (
     <div className="filters">
-      {characterClasses(game)
+      {getCharacterClasses(game)
         .filter((c) => !c.hidden)
         .map((char, idx) => (
           <div
@@ -51,49 +57,46 @@ function ClassFilter() {
         ))}
     </div>
   );
-}
+};
 
-function Characters({ searchResults }) {
+type PageProps = {
+  searchResults: CharacterAbilityCard[];
+};
+
+const Characters = ({ searchResults }: PageProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
   const router = useRouter();
-  const query = router.query;
-  const game = query.game || "gh";
-
-  const [character, setCharacter] = useState(null);
   const [modalContent, setModalContent] = useState(null);
+
+  const game = verifyQueryParam(router.query.game, "gh");
+  const characterClass = verifyQueryParam(
+    router.query.class,
+    getDefaultCharacterClass(game)
+  );
+  const character = getCharacter(characterClass);
 
   const closeModal = useCallback(
     () => setModalContent(null),
     [setModalContent]
   );
 
-  function updateLevel(event) {
+  const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
     if (!newLevel || newLevel < 1 || newLevel > 9) return;
 
     updateSpoilers({ ...spoilers, level: newLevel });
-  }
+  };
 
   useEffect(() => {
-    let char = characterClasses(game).find((c) => c.class == query.class);
-
-    if (!char) {
-      char = defaultClass(game);
-      router.push({
-        pathname: "/characters",
-        query: { ...query, class: char },
-      });
-    }
-
-    document.documentElement.style.setProperty("--primary", char.colour);
-    setCharacter(char);
-  }, [query, router, game]);
+    if (character)
+      document.documentElement.style.setProperty("--primary", character.colour);
+  }, [character]);
 
   const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   return (
     <Layout>
-      <Toolbar pathname="/characters" sortOrderOptions={sortOrderOptions}>
+      <Toolbar pathname="characters" sortOrderOptions={sortOrderOptions}>
         {!spoilers.loading && (
           <div className="slider">
             <span>{"Level: " + (spoilers.level || "1")}</span>
@@ -117,20 +120,20 @@ function Characters({ searchResults }) {
           </button>
         </div>
       </Toolbar>
-      <ClassFilter />
+      <ClassFilter game={game} />
       {!spoilers.loading && <CardList cardList={cardList} />}
       {modalContent && (
         <Modal
-          content={<img alt="" src={baseUrl + modalContent} />}
+          content={<img alt="" src={getBaseUrl() + modalContent} />}
           open={!!modalContent}
           onClose={closeModal}
         />
       )}
     </Layout>
   );
-}
+};
 
-export async function getServerSideProps(context) {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   const searchResults = await characterSearchResults(context.query);
 
   return {
@@ -138,6 +141,6 @@ export async function getServerSideProps(context) {
       searchResults,
     },
   };
-}
+};
 
 export default Characters;
