@@ -2,15 +2,21 @@ import { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 
-function Modal({ content, open, onClose }) {
+type ModalProps = {
+  content: React.ReactNode;
+  open: boolean;
+  onClose: () => void;
+};
+
+const Modal = ({ content, open, onClose }: ModalProps) => {
   const ref = useRef(null);
 
   useEffect(() => {
-    function handleClickOutside(event) {
-      if (ref.current && !ref.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (ref.current && !ref.current.contains(event?.target)) {
         onClose();
       }
-    }
+    };
 
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -33,6 +39,6 @@ function Modal({ content, open, onClose }) {
       </div>
     </div>
   );
-}
+};
 
 export default Modal;

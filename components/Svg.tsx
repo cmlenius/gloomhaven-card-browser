@@ -1,4 +1,4 @@
-import { colour } from "../data/utils";
+import { getCharacterColor } from "../common/helpers";
 
 // Gloomhaven
 import BR from "../public/icons/classes/gh/BR.svg";
@@ -122,13 +122,18 @@ const iconMap = {
   VQ,
 };
 
-// TODO default icon
-function SvgCharacterIcon({ character }) {
+type SvgCharacterIconProps = {
+  character: string;
+};
+
+const SvgCharacterIcon = ({ character }: SvgCharacterIconProps) => {
   const Icon = iconMap[character];
 
   if (!Icon) return <div />;
 
-  return <Icon fill={colour(character)} height="24px" width="24px" />;
-}
+  return (
+    <Icon fill={getCharacterColor(character)} height="24px" width="24px" />
+  );
+};
 
 export default SvgCharacterIcon;

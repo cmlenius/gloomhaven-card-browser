@@ -200,7 +200,7 @@ input[type="radio"] {
   height: 100%;
   width: 100%;
 }
- 
+
 .modal .close {
   align-items: center;
   background-color: black;
@@ -433,7 +433,7 @@ input[type="radio"] {
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  padding: 8px 16px;
+  padding: 8px 12px;
   width: 100%;
 }
 
@@ -460,7 +460,6 @@ input[type="radio"] {
   justify-self: center;
   max-width: 1100px;
   margin: auto;
-  padding: 8px 16px;
   width: 100%;
 }
 
@@ -477,7 +476,7 @@ input[type="radio"] {
   cursor: pointer;
   display: flex;
   height: 100%;
-  padding-right: 16px;
+  margin: 0 12px;
 }
 
 .topbar .header-link:hover {
@@ -543,6 +542,10 @@ input[type="radio"] {
     width: 100%;
   }
 
+  .home {
+    width: 300px;
+  }
+
   .modal-content {
     width: 100%;
   }
@@ -570,7 +573,7 @@ input[type="radio"] {
 
   .toolbar-inner {
     flex-direction: column;
-    padding: 16px;
+    padding: 12px;
   }
 
   .toolbar-inner > *:not(:nth-child(1)) {

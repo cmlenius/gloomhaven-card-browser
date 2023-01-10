@@ -1,7 +1,18 @@
-function Dropdown({ onChange, options, value }) {
-  function handleOptionChange(event) {
+type DropdownOption = {
+  id: string;
+  name: string;
+};
+
+type DropdownProps = {
+  onChange: (s: string) => void;
+  options: DropdownOption[];
+  value: string | string[];
+};
+
+const Dropdown = ({ onChange, options, value }: DropdownProps) => {
+  const handleOptionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     onChange(event.target.value);
-  }
+  };
 
   return (
     <div className="dropdown">
@@ -18,6 +29,6 @@ function Dropdown({ onChange, options, value }) {
       </select>
     </div>
   );
-}
+};
 
 export default Dropdown;

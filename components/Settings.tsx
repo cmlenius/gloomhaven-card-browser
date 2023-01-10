@@ -3,12 +3,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose, faWarning } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
-import { characterClasses, defaultClass } from "../data/utils";
+import { getCharacterClasses, verifyQueryParam } from "../common/helpers";
+import { Character, Spoilers } from "../common/types";
+import type { ParsedUrlQuery } from "querystring";
 
 import Dropdown from "./Dropdown";
 import SvgCharacterIcon from "./Svg";
 
-const gameOptions = [
+type GameOption = {
+  id: string;
+  name: string;
+};
+
+const gameOptions: GameOption[] = [
   { id: "gh", name: "Gloomhaven" },
   { id: "jotl", name: "Jaws of the Lion" },
   { id: "cs", name: "Crimson Scales" },
@@ -16,7 +23,21 @@ const gameOptions = [
   { id: "fh", name: "Frosthaven" },
 ];
 
-const itemSpoilerConfig = {
+type ItemMiscSpoiler = {
+  label: string;
+  path: string;
+};
+
+type ItemSpoilerValue = string | boolean;
+
+type ItemSpoilerConfig = {
+  all: Record<string, ItemSpoilerValue>;
+  default: Record<string, ItemSpoilerValue>;
+  prosperity?: number;
+  misc: ItemMiscSpoiler[];
+};
+
+const itemSpoilerConfig: Record<string, ItemSpoilerConfig> = {
   gh: {
     all: {
       prosperity: "9",
@@ -51,7 +72,15 @@ const itemSpoilerConfig = {
   },
 };
 
-function ProsperitySpoiler({ handleItemSpoilerChange, level, spoilers }) {
+type ProsperitySpoilerProps = {
+  handleItemSpoilerChange: (key: string, level: string) => void;
+  level: string;
+  spoilers: Spoilers;
+};
+
+const ProsperitySpoiler = (props: ProsperitySpoilerProps) => {
+  const { handleItemSpoilerChange, level, spoilers } = props;
+
   return (
     <li
       className="prosperity-option"
@@ -65,41 +94,57 @@ function ProsperitySpoiler({ handleItemSpoilerChange, level, spoilers }) {
       <span>{level}</span>
     </li>
   );
-}
+};
 
-function ItemSpoiler({ handleItemSpoilerChange, label, path, spoilers }) {
+type ItemSpoilerProps = {
+  handleItemSpoilerChange: (path: string, value: ItemSpoilerValue) => void;
+  label: string;
+  path: string;
+  spoilers: Spoilers;
+};
+
+const ItemSpoiler = ({
+  handleItemSpoilerChange,
+  label,
+  path,
+  spoilers,
+}: ItemSpoilerProps) => {
   return (
     <div
       className="spoiler-check-option"
       onClick={() => handleItemSpoilerChange(path, !spoilers.items[path])}
     >
-      <input checked={spoilers.items[path] || false} readOnly type="checkbox" />
+      <input
+        checked={!!spoilers.items[path] || false}
+        readOnly
+        type="checkbox"
+      />
       <span>{label}</span>
     </div>
   );
-}
+};
 
-function ItemSpoilers({ itemSpoilers }) {
+const ItemSpoilers = ({ itemSpoilers }) => {
   const { spoilers, updateSpoilers } = useSpoilers();
 
   const allItemSpoilers = Object.keys(itemSpoilers.all).every(
     (key) => itemSpoilers.all[key] === spoilers.items[key]
   );
 
-  function handleItemSpoilerToggleAll() {
+  const handleItemSpoilerToggleAll = () => {
     const items = allItemSpoilers ? itemSpoilers.default : itemSpoilers.all;
 
     updateSpoilers({
       ...spoilers,
       items: { ...spoilers.items, ...items },
     });
-  }
+  };
 
-  function handleItemSpoilerChange(path, value) {
-    let newSpoilers = { ...spoilers };
+  const handleItemSpoilerChange = (path: string, value: ItemSpoilerValue) => {
+    const newSpoilers = { ...spoilers };
     newSpoilers.items[path] = value;
     updateSpoilers(newSpoilers);
-  }
+  };
 
   if (!itemSpoilers) return <div />;
 
@@ -114,7 +159,7 @@ function ItemSpoilers({ itemSpoilers }) {
       </div>
       <div className="item-spoilers">
         <div>
-          {itemSpoilers.misc.map((is, idx) => (
+          {itemSpoilers.misc.map((is: ItemMiscSpoiler, idx: number) => (
             <ItemSpoiler
               key={idx}
               label={is.label}
@@ -146,19 +191,23 @@ function ItemSpoilers({ itemSpoilers }) {
       </div>
     </div>
   );
-}
+};
 
-function CharacterSpoilers({ classes }) {
+type CharacterSpoilersProps = {
+  classes: Character[];
+};
+
+const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
 
-  const allCharacterSpoilers = classes.every((c) =>
+  const allCharacterSpoilers = classes.every((c: Character) =>
     spoilers.characters.has(c.class)
   );
 
-  function handleCharacterSpoilerToggleAll() {
-    let newSet = new Set(spoilers.characters);
+  const handleCharacterSpoilerToggleAll = () => {
+    const newSet = new Set(spoilers.characters);
 
-    if (classes.some((c) => !spoilers.characters.has(c.class))) {
+    if (classes.some((c: Character) => !spoilers.characters.has(c.class))) {
       for (const c of classes) {
         newSet.add(c.class);
       }
@@ -169,10 +218,10 @@ function CharacterSpoilers({ classes }) {
     }
 
     updateSpoilers({ ...spoilers, characters: newSet });
-  }
+  };
 
-  function handleCharacterSpoilerToggle(id) {
-    let newSet = spoilers.characters;
+  const handleCharacterSpoilerToggle = (id: string) => {
+    const newSet = spoilers.characters;
 
     if (spoilers.characters?.has(id)) {
       newSet.delete(id);
@@ -181,7 +230,7 @@ function CharacterSpoilers({ classes }) {
     }
 
     updateSpoilers({ ...spoilers, characters: newSet });
-  }
+  };
 
   return (
     <div className="spoiler-section">
@@ -212,30 +261,31 @@ function CharacterSpoilers({ classes }) {
       </ul>
     </div>
   );
-}
+};
 
-function Settings({ open, onClose }) {
+type SettingsProps = {
+  open: boolean;
+  onClose: () => void;
+};
+
+const Settings = ({ open, onClose }: SettingsProps) => {
   const router = useRouter();
-  const game = router.query?.game || "gh";
-
+  const game = verifyQueryParam(router.query.game, "gh");
   const itemSpoilers = itemSpoilerConfig[game];
-
-  const unlockabelClasses = characterClasses(game).filter(
+  const unlockabelClasses = getCharacterClasses(game).filter(
     (c) => !c.base && !c.hidden
   );
 
-  function handleGameChange(newGame) {
-    let newQuery = { ...router.query, game: newGame };
-
-    if (router.pathname === "/characters") {
-      newQuery.class = defaultClass(newGame);
-    }
+  const handleGameChange = (newGame: string) => {
+    const newQuery: ParsedUrlQuery = {
+      game: newGame,
+    };
 
     router.push({
       pathname: router.pathname,
       query: newQuery,
     });
-  }
+  };
 
   return (
     <>
@@ -287,6 +337,6 @@ function Settings({ open, onClose }) {
       </div>
     </>
   );
-}
+};
 
 export default Settings;

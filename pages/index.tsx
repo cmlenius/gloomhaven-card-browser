@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 
-function Home() {
+const Home = () => {
   return <Layout />;
-}
+};
+
 export default Home;
