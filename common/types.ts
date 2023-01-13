@@ -7,6 +7,7 @@ export type CharacterAbilityCard = {
   image: string;
   initiative: number;
   level: number;
+  flip?: boolean;
 };
 
 export type Item = {
