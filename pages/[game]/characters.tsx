@@ -26,10 +26,11 @@ const sortOrderOptions: SortOption[] = [
 ];
 
 type ClassFilterProps = {
+  characterClass: string;
   game: string;
 };
 
-const ClassFilter = ({ game }: ClassFilterProps) => {
+const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
   const router = useRouter();
   const query = router.query;
 
@@ -48,7 +49,7 @@ const ClassFilter = ({ game }: ClassFilterProps) => {
           <div
             key={idx}
             className={`filter-icon ${
-              query.class === char.class ? "filter-icon-selected" : ""
+              characterClass === char.class ? "filter-icon-selected" : ""
             }`}
             onClick={() => handleClassChange(char.class)}
           >
@@ -120,7 +121,7 @@ const Characters = ({ searchResults }: PageProps) => {
           </button>
         </div>
       </Toolbar>
-      <ClassFilter game={game} />
+      <ClassFilter game={game} characterClass={characterClass} />
       {!spoilers.loading && <CardList cardList={cardList} />}
       {modalContent && (
         <Modal

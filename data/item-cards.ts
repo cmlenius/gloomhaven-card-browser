@@ -1,5 +1,4 @@
 import { Item } from "../common/types";
-
 export const itemCards: Item[] = [
   {
     id: 1,

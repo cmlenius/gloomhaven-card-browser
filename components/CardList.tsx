@@ -22,7 +22,7 @@ const Empty = () => {
 interface Card {
   name: string;
   image: string;
-  flip?: boolean;
+  imageBack?: boolean;
 }
 
 type CardProps = {
@@ -66,7 +66,7 @@ const FlipCard = ({ card }: CardProps) => {
           <img
             alt={card.name}
             className="card-img"
-            src="https://cards.scryfall.io/large/front/a/a/aae6fb12-b252-453b-bca7-1ea2a0d6c8dc.jpg?1581395173"
+            src={getBaseUrl() + card.imageBack}
           />
         </div>
       </div>
@@ -110,7 +110,7 @@ const CardList = ({ cardList }: CardListProps) => {
       pageStart={0}
     >
       {data?.map((card, idx) =>
-        card.flip ? (
+        card.imageBack ? (
           <FlipCard key={idx} card={card} />
         ) : (
           <Card key={idx} card={card} />
