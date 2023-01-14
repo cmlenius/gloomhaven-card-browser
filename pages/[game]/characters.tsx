@@ -25,11 +25,29 @@ const sortOrderOptions: SortOption[] = [
   { id: "name", name: "Name" },
 ];
 
+type MilestoneFilterProps = {
+  handleMilestoneChange: () => void;
+  showMilestone: boolean;
+};
+
+const MilestoneFilter = ({
+  handleMilestoneChange,
+  showMilestone,
+}: MilestoneFilterProps) => {
+  return (
+    <div className="milestone-filter" onClick={handleMilestoneChange}>
+      <input checked={showMilestone} readOnly type="checkbox" />
+      <span>Milestone</span>
+    </div>
+  );
+};
+
 type ClassFilterProps = {
+  characterClass: string;
   game: string;
 };
 
-const ClassFilter = ({ game }: ClassFilterProps) => {
+const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
   const router = useRouter();
   const query = router.query;
 
@@ -48,7 +66,7 @@ const ClassFilter = ({ game }: ClassFilterProps) => {
           <div
             key={idx}
             className={`filter-icon ${
-              query.class === char.class ? "filter-icon-selected" : ""
+              characterClass === char.class ? "filter-icon-selected" : ""
             }`}
             onClick={() => handleClassChange(char.class)}
           >
@@ -65,15 +83,15 @@ type PageProps = {
 
 const Characters = ({ searchResults }: PageProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
-  const router = useRouter();
   const [modalContent, setModalContent] = useState(null);
+  const [showMilestone, setShowMilestone] = useState(false);
+  const router = useRouter();
 
   const game = verifyQueryParam(router.query.game, "gh");
   const characterClass = verifyQueryParam(
     router.query.class,
     getDefaultCharacterClass(game)
   );
-  const character = getCharacter(characterClass);
 
   const closeModal = useCallback(
     () => setModalContent(null),
@@ -87,16 +105,35 @@ const Characters = ({ searchResults }: PageProps) => {
     updateSpoilers({ ...spoilers, level: newLevel });
   };
 
+  const handleMilestoneChange = () => {
+    setShowMilestone(!showMilestone);
+  };
+
+  const character = getCharacter(characterClass);
+  let cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
+  if (!showMilestone) cardList = cardList.filter((c) => !c.milestone);
+
   useEffect(() => {
     if (character)
       document.documentElement.style.setProperty("--primary", character.colour);
   }, [character]);
 
-  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
-
   return (
     <Layout>
-      <Toolbar pathname="characters" sortOrderOptions={sortOrderOptions}>
+      <Toolbar
+        pathname="characters"
+        sortOrderOptions={sortOrderOptions}
+        milestoneFilter={
+          ["cs", "toa"].includes(game) && (
+            <span className="milestone-filter-desktop">
+              <MilestoneFilter
+                handleMilestoneChange={handleMilestoneChange}
+                showMilestone={showMilestone}
+              />
+            </span>
+          )
+        }
+      >
         {!spoilers.loading && (
           <div className="slider">
             <span>{"Level: " + (spoilers.level || "1")}</span>
@@ -111,6 +148,14 @@ const Characters = ({ searchResults }: PageProps) => {
             />
           </div>
         )}
+        {["cs", "toa"].includes(game) && (
+          <span className="milestone-filter-mobile">
+            <MilestoneFilter
+              handleMilestoneChange={handleMilestoneChange}
+              showMilestone={showMilestone}
+            />
+          </span>
+        )}
         <div className="button-group">
           <button onClick={() => setModalContent(character.matImage)}>
             Character Mat
@@ -120,7 +165,7 @@ const Characters = ({ searchResults }: PageProps) => {
           </button>
         </div>
       </Toolbar>
-      <ClassFilter game={game} />
+      <ClassFilter game={game} characterClass={characterClass} />
       {!spoilers.loading && <CardList cardList={cardList} />}
       {modalContent && (
         <Modal

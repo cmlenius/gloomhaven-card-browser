@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBan } from "@fortawesome/free-solid-svg-icons";
+import { faBan, faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
 import { getBaseUrl } from "../common/helpers";
 
@@ -22,7 +22,67 @@ const Empty = () => {
 interface Card {
   name: string;
   image: string;
+  imageBack?: boolean;
 }
+
+type CardProps = {
+  card: Card;
+};
+const Card = ({ card }: CardProps) => {
+  return (
+    <div className="card">
+      <div className="card-inner">
+        <div className="card-img-front">
+          <img
+            alt={card.name}
+            className="card-img"
+            src={getBaseUrl() + card.image}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const FlipCard = ({ card }: CardProps) => {
+  const [flipped, setFlipped] = useState(false);
+
+  const handleBtnClick = () => {
+    console.log(flipped);
+    setFlipped(!flipped);
+  };
+
+  return (
+    <div className="card">
+      <div className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}>
+        <div className="card-img-front">
+          <img
+            alt={card.name}
+            className="card-img"
+            src={getBaseUrl() + card.image}
+          />
+        </div>
+        <div className="card-img-back">
+          <img
+            alt={card.name}
+            className="card-img"
+            src={getBaseUrl() + card.imageBack}
+          />
+        </div>
+      </div>
+      <button
+        className={`${flipped ? "card-flip-btn-back" : "card-flip-btn"}`}
+        onClick={handleBtnClick}
+      >
+        <FontAwesomeIcon
+          className={`${flipped ? "card-flip-svg-back" : "card-flip-svg"}`}
+          icon={faArrowsRotate}
+          height="48px"
+        />
+      </button>
+    </div>
+  );
+};
 
 type CardListProps = {
   cardList: Card[];
@@ -49,15 +109,13 @@ const CardList = ({ cardList }: CardListProps) => {
       loadMore={loadMore}
       pageStart={0}
     >
-      {data?.map((card, idx) => (
-        <div key={idx} className="card">
-          <img
-            alt={card.name}
-            className="card-img"
-            src={getBaseUrl() + card.image}
-          />
-        </div>
-      ))}
+      {data?.map((card, idx) =>
+        card.imageBack ? (
+          <FlipCard key={idx} card={card} />
+        ) : (
+          <Card key={idx} card={card} />
+        )
+      )}
       {[...Array(4)].map((_, idx) => (
         <div key={idx} className="card" />
       ))}

@@ -13,12 +13,18 @@ const sortDirectionOptions: SortDirectionOption[] = [
 ];
 
 type ToolbarProps = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
+  milestoneFilter?: React.ReactNode;
   pathname: string;
   sortOrderOptions: SortOption[];
 };
 
-const Toolbar = ({ children, pathname, sortOrderOptions }: ToolbarProps) => {
+const Toolbar = ({
+  children,
+  milestoneFilter,
+  pathname,
+  sortOrderOptions,
+}: ToolbarProps) => {
   const router = useRouter();
   const query = router.query;
 
@@ -52,6 +58,7 @@ const Toolbar = ({ children, pathname, sortOrderOptions }: ToolbarProps) => {
               options={sortDirectionOptions}
               value={query.dir}
             />
+            {milestoneFilter}
           </div>
         )}
         {children}

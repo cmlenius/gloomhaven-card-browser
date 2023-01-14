@@ -87,6 +87,7 @@ button:hover {
 input[type="checkbox"],
 input[type="radio"] {
   accent-color: #432423;
+  cursor: pointer;
 }
 
 /* --- CARDS --- */
@@ -105,6 +106,7 @@ input[type="radio"] {
 .card {
   border-radius: 12px;
   box-sizing: border-box;
+  position: relative;
   flex: 1 0 21%;
   margin: 4px;
 }
@@ -114,6 +116,68 @@ input[type="radio"] {
   text-align: center;
   height: 100%;
   width: 100%;
+}
+
+.card-inner {
+  padding-top: 150%;
+  transition: transform 600ms, -webkit-transform 600ms;
+  transform-style: preserve-3d;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+}
+
+.card-inner-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-img-front,
+.card-img-back {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+}
+
+.card-img-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.card-flip-btn,
+.card-flip-btn-back {
+  border-radius: 100%;
+  opacity: 0.7;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-flip-btn-back,
+.card-flip-btn-back:hover {
+  background-color: black;
+}
+
+.card-flip-btn:hover,
+.card-flip-btn-back:hover {
+  opacity: 0.9;
+}
+
+.card-flip-svg,
+.card-flip-svg-back {
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+}
+
+.card-flip-svg-back {
+  color: white;
 }
 
 /* --- DROPDOWN --- */
@@ -438,9 +502,31 @@ input[type="radio"] {
 }
 
 .toolbar .sort {
+  align-items: center;
   display: flex;
   flex-shrink: 0;
   min-width: 240px;
+}
+
+.milestone-filter {
+  align-items: center;
+  display: flex;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.milestone-filter input[type="checkbox"] {
+  accent-color: var(--primary);
+  margin-right: 4px;
+  height: 14px;
+  width: 14px;
+}
+
+.milestone-filter-mobile {
+  display: none;
 }
 
 /* --- TOPBAR --- */
@@ -545,6 +631,15 @@ input[type="radio"] {
   .home {
     width: 300px;
   }
+   
+  .milestone-filter-desktop {
+    display: none;
+  }
+
+  .milestone-filter-mobile {
+    display: flex;
+    margin-bottom: 8px;
+  }
 
   .modal-content {
     width: 100%;
@@ -560,7 +655,8 @@ input[type="radio"] {
   }
 
   .slider {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    width: 240px;
   }
 
   .topbar .desktop {

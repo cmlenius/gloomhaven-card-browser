@@ -7,6 +7,8 @@ export type CharacterAbilityCard = {
   image: string;
   initiative: number;
   level: number;
+  imageBack?: boolean;
+  milestone?: boolean;
 };
 
 export type Item = {

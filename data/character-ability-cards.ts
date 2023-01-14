@@ -1,6 +1,13 @@
 import { CharacterAbilityCard } from "../common/types";
-
 export const characterAbilityCards: CharacterAbilityCard[] = [
+  {
+    name: "be-back",
+    class: "BE",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/BE/gh-be-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
   {
     name: "blood pact",
     class: "BE",
@@ -235,6 +242,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 8,
   },
   {
+    name: "br-back",
+    class: "BR",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/BR/gh-br-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "balanced measure",
     class: "BR",
     game: "gh",
@@ -465,6 +480,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/BR/gh-whirlwind.jpeg",
     initiative: 28,
     level: 5,
+  },
+  {
+    name: "bs-back",
+    class: "BS",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/BS/gh-bs-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "armed and dangerous",
@@ -708,6 +731,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 9,
   },
   {
+    name: "bt-back",
+    class: "BT",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/BT/gh-bt-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "ancient ward",
     class: "BT",
     game: "gh",
@@ -720,8 +751,8 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     class: "BT",
     game: "gh",
     image: "character-ability-cards/gloomhaven/BT/gh-bear-reference.jpeg",
-    initiative: null,
-    level: null,
+    initiative: 0,
+    level: 0.5,
   },
   {
     name: "blood hunger",
@@ -946,6 +977,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/BT/gh-vicious-ally.jpeg",
     initiative: 86,
     level: 3,
+  },
+  {
+    name: "ch-back",
+    class: "CH",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/CH/gh-ch-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "avalanche",
@@ -1186,6 +1225,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/CH/gh-unstable-upheaval.jpeg",
     initiative: 13,
     level: 1,
+  },
+  {
+    name: "ds-back",
+    class: "DS",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/DS/gh-ds-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "a moment's peace",
@@ -1437,6 +1484,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 5,
   },
   {
+    name: "el-back",
+    class: "EL",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/EL/gh-el-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "boiling arc",
     class: "EL",
     game: "gh",
@@ -1669,6 +1724,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/EL/gh-winters-edge.jpeg",
     initiative: 43,
     level: 5,
+  },
+  {
+    name: "mt-back",
+    class: "MT",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/MT/gh-mt-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "brain leech",
@@ -1904,6 +1967,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 2,
   },
   {
+    name: "ns-back",
+    class: "NS",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/NS/gh-ns-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "angel of death",
     class: "NS",
     game: "gh",
@@ -2126,6 +2197,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/NS/gh-wings-of-the-night.jpeg",
     initiative: 24,
     level: 1.5,
+  },
+  {
+    name: "ph-back",
+    class: "PH",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/PH/gh-ph-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "accelerated end",
@@ -2369,6 +2448,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "qm-back",
+    class: "QM",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/QM/gh-qm-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "bag of holding",
     class: "QM",
     game: "gh",
@@ -2594,6 +2681,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 4,
   },
   {
+    name: "sb-back",
+    class: "SB",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/SB/gh-sb-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "amputate",
     class: "SB",
     game: "gh",
@@ -2719,7 +2814,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "gh",
     image: "character-ability-cards/gloomhaven/SB/gh-large-medical-pack.jpeg",
     initiative: 30,
-    level: null,
+    level: 0.5,
   },
   {
     name: "master physician",
@@ -2735,7 +2830,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "gh",
     image: "character-ability-cards/gloomhaven/SB/gh-medical-pack.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "mobile response",
@@ -2840,6 +2935,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/SB/gh-vital-strike.jpeg",
     initiative: 38,
     level: 3,
+  },
+  {
+    name: "sc-back",
+    class: "SC",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/SC/gh-sc-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "backstab",
@@ -3065,6 +3168,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/SC/gh-watch-it-burn.jpeg",
     initiative: 98,
     level: 9,
+  },
+  {
+    name: "sk-back",
+    class: "SK",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/SK/gh-sk-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "angelic ascension",
@@ -3308,6 +3419,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 7,
   },
   {
+    name: "ss-back",
+    class: "SS",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/SS/gh-ss-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "booming proclamation",
     class: "SS",
     game: "gh",
@@ -3531,6 +3650,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/SS/gh-wistful-wounding.jpeg",
     initiative: 16,
     level: 1.5,
+  },
+  {
+    name: "su-back",
+    class: "SU",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/SU/gh-su-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "biting wind",
@@ -3758,6 +3885,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "sw-back",
+    class: "SW",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/SW/gh-sw-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "aid from the ether",
     class: "SW",
     game: "gh",
@@ -3972,6 +4107,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/SW/gh-zephyr-wings.jpeg",
     initiative: 85,
     level: 8,
+  },
+  {
+    name: "ti-back",
+    class: "TI",
+    game: "gh",
+    image: "character-ability-cards/gloomhaven/TI/gh-ti-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "auto turret",
@@ -4223,6 +4366,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/gloomhaven/TI/gh-volatile-concoction.jpeg",
     initiative: 76,
     level: 1.5,
+  },
+  {
+    name: "dr-back",
+    class: "DR",
+    game: "gh",
+    image: "character-ability-cards/forgotten-circles/DR/fc-dr-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "anguish and salvation",
@@ -5410,6 +5561,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 6,
   },
   {
+    name: "aa-back",
+    class: "AA",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/AA/cs-aa-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "alate dispersion",
     class: "AA",
     game: "cs",
@@ -5672,6 +5831,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 3,
   },
   {
+    name: "bk-back",
+    class: "BK",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/BK/cs-bk-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "acquire funding",
     class: "BK",
     game: "cs",
@@ -5929,6 +6096,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 3,
   },
   {
+    name: "bm-back",
+    class: "BM",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/BM/cs-bm-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "airborne skyrocket",
     class: "BM",
     game: "cs",
@@ -6165,6 +6340,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
       "character-ability-cards/crimson-scales/BM/cs-unexpected-bombshell.jpeg",
     initiative: 85,
     level: 1,
+  },
+  {
+    name: "cg-back",
+    class: "CG",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/CG/cs-cg-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "agonizing clamp",
@@ -6408,6 +6591,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "ct-back",
+    class: "CT",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/CT/cs-ct-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "agile predator",
     class: "CT",
     game: "cs",
@@ -6641,6 +6832,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/crimson-scales/CT/cs-war-paint.jpeg",
     initiative: 28,
     level: 4,
+  },
+  {
+    name: "fk-back",
+    class: "FK",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/FK/cs-fk-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "backdraft",
@@ -6890,6 +7089,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 2,
   },
   {
+    name: "ho-back",
+    class: "HO",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/HO/cs-ho-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "borrowed vitality",
     class: "HO",
     game: "cs",
@@ -7137,12 +7344,20 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "hp-back",
+    class: "HP",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/HP/cs-hp-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "aspiration",
     class: "HP",
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-aspiration.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "beacon of hope",
@@ -7175,7 +7390,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-devotion.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "devout assistance",
@@ -7227,7 +7442,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-grace.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "harsh rebuke",
@@ -7268,7 +7483,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-lamentation.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "meditation",
@@ -7276,7 +7491,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-meditation.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "oaks embrace",
@@ -7292,7 +7507,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-ordination.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "penitence",
@@ -7300,7 +7515,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-penitence.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "prosperous concord",
@@ -7360,7 +7575,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "cs",
     image: "character-ability-cards/crimson-scales/HP/cs-salvation.jpeg",
     initiative: 50,
-    level: null,
+    level: 0.5,
   },
   {
     name: "soulful salvation",
@@ -7454,6 +7669,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/crimson-scales/HP/cs-weakened-will.jpeg",
     initiative: 17,
     level: 2,
+  },
+  {
+    name: "lu-back",
+    class: "LU",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/LU/cs-lu-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "blackened rage",
@@ -7705,6 +7928,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "mf-back",
+    class: "MF",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/MF/cs-mf-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "airborne spores",
     class: "MF",
     game: "cs",
@@ -7940,6 +8171,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/crimson-scales/MF/cs-wild-stings.jpeg",
     initiative: 71,
     level: 7,
+  },
+  {
+    name: "qa-back",
+    class: "QA",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/QA/cs-qa-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "annihilating contraption",
@@ -8181,6 +8420,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/crimson-scales/QA/cs-trudging-bulwark.jpeg",
     initiative: 73,
     level: 3,
+  },
+  {
+    name: "rm-back",
+    class: "RM",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/RM/cs-rm-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "belly of the beast",
@@ -8429,6 +8676,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 5,
   },
   {
+    name: "sp-back",
+    class: "SP",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/SP/cs-sp-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "burning pit",
     class: "SP",
     game: "cs",
@@ -8668,6 +8923,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/crimson-scales/SP/cs-white-glow.jpeg",
     initiative: 77,
     level: 4,
+  },
+  {
+    name: "st-back",
+    class: "ST",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/ST/cs-st-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "absolute magnitude",
@@ -9146,6 +9409,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "bn-back",
+    class: "BN",
+    game: "fh",
+    image: "character-ability-cards/frosthaven/BN/fh-bn-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "air support",
     class: "BN",
     game: "fh",
@@ -9376,6 +9647,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/frosthaven/BN/fh-unbreakable-wall.jpeg",
     initiative: 83,
     level: 1,
+  },
+  {
+    name: "bo-back",
+    class: "BO",
+    game: "fh",
+    image: "character-ability-cards/frosthaven/BO/fh-bo-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "angry spirits",
@@ -9629,6 +9908,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1.5,
   },
   {
+    name: "df-back",
+    class: "DF",
+    game: "fh",
+    image: "character-ability-cards/frosthaven/DF/fh-df-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "accurate strikes",
     class: "DF",
     game: "fh",
@@ -9878,6 +10165,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 1,
   },
   {
+    name: "dw-back",
+    class: "DW",
+    game: "fh",
+    image: "character-ability-cards/frosthaven/DW/fh-dw-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "anger of the dead",
     class: "DW",
     game: "fh",
@@ -10119,6 +10414,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/frosthaven/DW/fh-when-your-time-comes.jpeg",
     initiative: 72,
     level: 9,
+  },
+  {
+    name: "ge-back",
+    class: "GE",
+    game: "fh",
+    image: "character-ability-cards/frosthaven/GE/fh-ge-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "accelerated metabolism",
@@ -10395,6 +10698,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 9,
   },
   {
+    name: "in-back",
+    class: "IN",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-in-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "alone in the end",
     class: "IN",
     game: "toa",
@@ -10652,6 +10963,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 8,
   },
   {
+    name: "rh-back",
+    class: "RH",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/RH/toa-rh-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "a balance struck",
     class: "RH",
     game: "toa",
@@ -10887,6 +11206,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
       "character-ability-cards/trail-of-ashes/RH/toa-wreathed-in-flame.jpeg",
     initiative: 63,
     level: 1.5,
+  },
+  {
+    name: "sr-back",
+    class: "SR",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-sr-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "amassed formation",
@@ -11143,6 +11470,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 3,
   },
   {
+    name: "tp-back",
+    class: "TP",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-tp-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "aerial dominance",
     class: "TP",
     game: "toa",
@@ -11384,6 +11719,14 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/trail-of-ashes/TP/toa-voltaic-burst.jpeg",
     initiative: 27,
     level: 1,
+  },
+  {
+    name: "tr-back",
+    class: "TR",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-tr-back.jpeg",
+    initiative: 0,
+    level: 0,
   },
   {
     name: "barbed onslaught",
@@ -11635,13 +11978,21 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     level: 3,
   },
   {
+    name: "vq-back",
+    class: "VQ",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-vq-back.jpeg",
+    initiative: 0,
+    level: 0,
+  },
+  {
     name: "beckoning of the beast",
     class: "VQ",
     game: "toa",
     image:
       "character-ability-cards/trail-of-ashes/VQ/toa-beckoning-of-the-beast.jpeg",
     initiative: 26,
-    level: null,
+    level: 0.5,
   },
   {
     name: "blackout",
@@ -11649,7 +12000,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-blackout.jpeg",
     initiative: 24,
-    level: null,
+    level: 0.5,
   },
   {
     name: "blasphemous charge",
@@ -11675,7 +12026,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image:
       "character-ability-cards/trail-of-ashes/VQ/toa-bringer-of-grief.jpeg",
     initiative: 31,
-    level: null,
+    level: 0.5,
   },
   {
     name: "brutal awakening",
@@ -11692,7 +12043,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-condemnation.jpeg",
     initiative: 25,
-    level: null,
+    level: 0.5,
   },
   {
     name: "crazed leap",
@@ -11708,7 +12059,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-demons-aid.jpeg",
     initiative: 18,
-    level: null,
+    level: 0.5,
   },
   {
     name: "embrace the chaos",
@@ -11725,7 +12076,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-extended-horns.jpeg",
     initiative: 19,
-    level: null,
+    level: 0.5,
   },
   {
     name: "fatal retribution",
@@ -11750,7 +12101,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-first-to-strike.jpeg",
     initiative: 16,
-    level: null,
+    level: 0.5,
   },
   {
     name: "forged from fire",
@@ -11819,7 +12170,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image:
       "character-ability-cards/trail-of-ashes/VQ/toa-raging-pandemonium.jpeg",
     initiative: 14,
-    level: null,
+    level: 0.5,
   },
   {
     name: "sadistic swipe",
@@ -11827,7 +12178,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-sadistic-swipe.jpeg",
     initiative: 20,
-    level: null,
+    level: 0.5,
   },
   {
     name: "searing coals",
@@ -11947,7 +12298,7 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     game: "toa",
     image: "character-ability-cards/trail-of-ashes/VQ/toa-wall-of-flames.jpeg",
     initiative: 9,
-    level: null,
+    level: 0.5,
   },
   {
     name: "wings of hell",
@@ -11956,5 +12307,185 @@ export const characterAbilityCards: CharacterAbilityCard[] = [
     image: "character-ability-cards/trail-of-ashes/VQ/toa-wings-of-hell.jpeg",
     initiative: 98,
     level: 5,
+  },
+  {
+    name: "razorweb puppetry",
+    class: "AA",
+    game: "cs",
+    image:
+      "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.jpeg",
+    milestone: true,
+    initiative: 39,
+    level: 0.5,
+  },
+  {
+    name: "adaptive engineering",
+    class: "QA",
+    game: "cs",
+    image:
+      "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.jpeg",
+    milestone: true,
+    initiative: 75,
+    level: 0.5,
+  },
+  {
+    name: "pummeling chain",
+    class: "BM",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.jpeg",
+    milestone: true,
+    initiative: 17,
+    level: 0.5,
+  },
+  {
+    name: "creative sparks",
+    class: "BK",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/BK/cs-creative-sparks.jpeg",
+    milestone: true,
+    initiative: 40,
+    level: 0.5,
+  },
+  {
+    name: "rope pit",
+    class: "CG",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/CG/cs-rope-pit.jpeg",
+    milestone: true,
+    initiative: 32,
+    level: 0.5,
+  },
+  {
+    name: "call of the wild",
+    class: "CT",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.jpeg",
+    milestone: true,
+    initiative: 10,
+    level: 0.5,
+  },
+  {
+    name: "improvised methods",
+    class: "FK",
+    game: "cs",
+    image:
+      "character-ability-cards/crimson-scales/FK/cs-improvised-methods.jpeg",
+    milestone: true,
+    initiative: 16,
+    level: 0.5,
+  },
+  {
+    name: "uplifting ascension",
+    class: "HP",
+    game: "cs",
+    image:
+      "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.jpeg",
+    milestone: true,
+    initiative: 80,
+    level: 0.5,
+  },
+  {
+    name: "the void consumes",
+    class: "HO",
+    game: "cs",
+    image:
+      "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.jpeg",
+    milestone: true,
+    initiative: 35,
+    level: 0.5,
+  },
+  {
+    name: "giant slayer",
+    class: "MF",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/MF/cs-giant-slayer.jpeg",
+    milestone: true,
+    initiative: 22,
+    level: 0.5,
+  },
+  {
+    name: "blood rite",
+    class: "RM",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/RM/cs-blood-rite.jpeg",
+    milestone: true,
+    initiative: 67,
+    level: 0.5,
+  },
+  {
+    name: "terror of the deep",
+    class: "SP",
+    game: "cs",
+    image:
+      "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.jpeg",
+    milestone: true,
+    initiative: 33,
+    level: 0.5,
+  },
+  {
+    name: "deflection",
+    class: "ST",
+    game: "cs",
+    image: "character-ability-cards/crimson-scales/ST/cs-deflection.jpeg",
+    milestone: true,
+    initiative: 46,
+    level: 0.5,
+  },
+  {
+    name: "myla's stone hammer",
+    class: "IN",
+    game: "toa",
+    image:
+      "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.jpeg",
+    milestone: true,
+    initiative: 44,
+    level: 0.5,
+  },
+  {
+    name: "geyser surge",
+    class: "RH",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/RH/toa-geyser-surge.jpeg",
+    milestone: true,
+    initiative: 30,
+    level: 0.5,
+  },
+  {
+    name: "crystalline refraction",
+    class: "SR",
+    game: "toa",
+    image:
+      "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.jpeg",
+    milestone: true,
+    initiative: 73,
+    level: 0.5,
+  },
+  {
+    name: "power transfer",
+    class: "TP",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.jpeg",
+    milestone: true,
+    initiative: 25,
+    level: 0.5,
+  },
+  {
+    name: "amanita spores",
+    class: "TR",
+    game: "toa",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.jpeg",
+    milestone: true,
+    initiative: 42,
+    level: 0.5,
+  },
+  {
+    name: "sustained energy",
+    class: "VQ",
+    game: "toa",
+    image:
+      "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.jpeg",
+    milestone: true,
+    initiative: 69,
+    level: 0.5,
   },
 ];
