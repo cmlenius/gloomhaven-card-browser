@@ -1,13 +1,11 @@
-export type SearchResult = CharacterAbilityCard | Item;
-
-export type CharacterAbilityCard = {
+export type CharacterAbility = {
   name: string;
   class: string;
   game: string;
   image: string;
   initiative: number;
   level: number;
-  imageBack?: boolean;
+  imageBack?: string;
   milestone?: boolean;
 };
 
@@ -22,6 +20,15 @@ export type Item = {
   consumed?: boolean;
   spent?: boolean;
   prosperity?: number;
+};
+
+export type Event = {
+  name: number;
+  game: string;
+  image: string;
+  imageBack?: string;
+  city?: boolean;
+  road?: boolean;
 };
 
 export type Character = {

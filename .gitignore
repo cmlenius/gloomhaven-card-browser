@@ -17,7 +17,6 @@
 .DS_Store
 *.pem
 *.swp
-/scripts
 
 # debug
 npm-debug.log*

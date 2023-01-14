@@ -11,13 +11,12 @@ import {
   getDefaultCharacterClass,
   verifyQueryParam,
 } from "../../common/helpers";
-import { CharacterAbilityCard, SortOption } from "../../common/types";
+import { CharacterAbility, SortOption } from "../../common/types";
 import { characterSearchResults } from "../api/characters";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Modal from "../../components/Modal";
-import Toolbar from "../../components/Toolbar";
-import SvgCharacterIcon from "../../components/Svg";
+import Sort from "../../components/Sort";
 
 const sortOrderOptions: SortOption[] = [
   { id: "level", name: "Level" },
@@ -70,7 +69,10 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
             }`}
             onClick={() => handleClassChange(char.class)}
           >
-            <SvgCharacterIcon character={char.class} />
+            <img
+              alt=""
+              src={getBaseUrl() + `character-icons/${game}/${char.class}.png`}
+            />
           </div>
         ))}
     </div>
@@ -78,7 +80,7 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
 };
 
 type PageProps = {
-  searchResults: CharacterAbilityCard[];
+  searchResults: CharacterAbility[];
 };
 
 const Characters = ({ searchResults }: PageProps) => {
@@ -120,51 +122,55 @@ const Characters = ({ searchResults }: PageProps) => {
 
   return (
     <Layout>
-      <Toolbar
-        pathname="characters"
-        sortOrderOptions={sortOrderOptions}
-        milestoneFilter={
-          ["cs", "toa"].includes(game) && (
-            <span className="milestone-filter-desktop">
+      <div className="toolbar">
+        <div className="toolbar-inner">
+          <div>
+            <div className="flex">
+              <Sort pathname="characters" sortOrderOptions={sortOrderOptions} />
+              {["cs", "toa"].includes(game) && (
+                <span className="milestone-filter-desktop">
+                  <MilestoneFilter
+                    handleMilestoneChange={handleMilestoneChange}
+                    showMilestone={showMilestone}
+                  />
+                </span>
+              )}
+            </div>
+          </div>
+          {!spoilers.loading && (
+            <div className="slider">
+              <span>{"Level: " + (spoilers.level || "1")}</span>
+              <input
+                type="range"
+                name="level"
+                id="level"
+                min="1"
+                max="9"
+                onInput={updateLevel}
+                value={spoilers.level || 1}
+              />
+            </div>
+          )}
+          {["cs", "toa"].includes(game) && (
+            <div className="milestone-filter-mobile">
               <MilestoneFilter
                 handleMilestoneChange={handleMilestoneChange}
                 showMilestone={showMilestone}
               />
-            </span>
-          )
-        }
-      >
-        {!spoilers.loading && (
-          <div className="slider">
-            <span>{"Level: " + (spoilers.level || "1")}</span>
-            <input
-              type="range"
-              name="level"
-              id="level"
-              min="1"
-              max="9"
-              onInput={updateLevel}
-              value={spoilers.level || 1}
-            />
+            </div>
+          )}
+          <div>
+            <div className="button-group">
+              <button onClick={() => setModalContent(character.matImage)}>
+                Character Mat
+              </button>
+              <button onClick={() => setModalContent(character.sheetImage)}>
+                Character Sheet
+              </button>
+            </div>
           </div>
-        )}
-        {["cs", "toa"].includes(game) && (
-          <span className="milestone-filter-mobile">
-            <MilestoneFilter
-              handleMilestoneChange={handleMilestoneChange}
-              showMilestone={showMilestone}
-            />
-          </span>
-        )}
-        <div className="button-group">
-          <button onClick={() => setModalContent(character.matImage)}>
-            Character Mat
-          </button>
-          <button onClick={() => setModalContent(character.sheetImage)}>
-            Character Sheet
-          </button>
         </div>
-      </Toolbar>
+      </div>
       <ClassFilter game={game} characterClass={characterClass} />
       {!spoilers.loading && <CardList cardList={cardList} />}
       {modalContent && (
