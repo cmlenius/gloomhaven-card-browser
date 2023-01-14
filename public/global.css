@@ -87,6 +87,7 @@ button:hover {
 input[type="checkbox"],
 input[type="radio"] {
   accent-color: #432423;
+  cursor: pointer;
 }
 
 /* --- CARDS --- */
@@ -501,9 +502,31 @@ input[type="radio"] {
 }
 
 .toolbar .sort {
+  align-items: center;
   display: flex;
   flex-shrink: 0;
   min-width: 240px;
+}
+
+.milestone-filter {
+  align-items: center;
+  display: flex;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.milestone-filter input[type="checkbox"] {
+  accent-color: var(--primary);
+  margin-right: 4px;
+  height: 14px;
+  width: 14px;
+}
+
+.milestone-filter-mobile {
+  display: none;
 }
 
 /* --- TOPBAR --- */
@@ -608,6 +631,15 @@ input[type="radio"] {
   .home {
     width: 300px;
   }
+   
+  .milestone-filter-desktop {
+    display: none;
+  }
+
+  .milestone-filter-mobile {
+    display: flex;
+    margin-bottom: 8px;
+  }
 
   .modal-content {
     width: 100%;
@@ -623,7 +655,8 @@ input[type="radio"] {
   }
 
   .slider {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    width: 240px;
   }
 
   .topbar .desktop {
