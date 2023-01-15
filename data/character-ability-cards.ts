@@ -1,4 +1,4 @@
-import { CharacterAbility} from "../common/types";
+import { CharacterAbility } from "../common/types";
 export const characterAbilityCards: Record<
   string,
   Record<string, CharacterAbility[]>
@@ -4792,6 +4792,14 @@ export const characterAbilityCards: Record<
   jotl: {
     DE: [
       {
+        name: "de-back",
+        class: "DE",
+        game: "jotl",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-de-back.jpeg",
+        initiative: 0,
+        level: 0,
+      },
+      {
         name: "collateral damage",
         class: "DE",
         game: "jotl",
@@ -5025,6 +5033,14 @@ export const characterAbilityCards: Record<
       },
     ],
     HA: [
+      {
+        name: "ha-back",
+        class: "HA",
+        game: "jotl",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-ha-back.jpeg",
+        initiative: 0,
+        level: 0,
+      },
       {
         name: "bombardment",
         class: "HA",
@@ -5271,6 +5287,14 @@ export const characterAbilityCards: Record<
       },
     ],
     RG: [
+      {
+        name: "rg-back",
+        class: "RG",
+        game: "jotl",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-rg-back.jpeg",
+        initiative: 0,
+        level: 0,
+      },
       {
         name: "barbaric instincts",
         class: "RG",
@@ -5523,6 +5547,14 @@ export const characterAbilityCards: Record<
       },
     ],
     VW: [
+      {
+        name: "vw-back",
+        class: "VW",
+        game: "jotl",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-vw-back.jpeg",
+        initiative: 0,
+        level: 0,
+      },
       {
         name: "black boon",
         class: "VW",
