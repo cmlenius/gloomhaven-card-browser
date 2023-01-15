@@ -1,12 +1,6 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import {
-  Character,
-  CharacterAbilityCard,
-  Item,
-  SearchResult,
-  Spoilers,
-} from "./types";
+import { Character, CharacterAbility, Item, Spoilers } from "./types";
 
 export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
@@ -43,6 +37,10 @@ export function getDefaultCharacterClass(gameId: string): string | null {
   return null;
 }
 
+interface SearchResult {
+  name: number | string;
+}
+
 export function customSort(
   order: string,
   direction: string
@@ -62,7 +60,7 @@ export function customSort(
 
 export function characterSpoilerFilter(
   spoilers: Spoilers
-): (card: CharacterAbilityCard) => boolean {
+): (card: CharacterAbility) => boolean {
   const baseCharacterClasses = new Set(
     characters.filter((c) => c.base).map((c) => c.class)
   );

@@ -20,9 +20,9 @@ const Empty = () => {
 };
 
 interface Card {
-  name: string;
+  name: number | string;
   image: string;
-  imageBack?: boolean;
+  imageBack?: string;
 }
 
 type CardProps = {
@@ -34,7 +34,7 @@ const Card = ({ card }: CardProps) => {
       <div className="card-inner">
         <div className="card-img-front">
           <img
-            alt={card.name}
+            alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.image}
           />
@@ -48,7 +48,6 @@ const FlipCard = ({ card }: CardProps) => {
   const [flipped, setFlipped] = useState(false);
 
   const handleBtnClick = () => {
-    console.log(flipped);
     setFlipped(!flipped);
   };
 
@@ -57,14 +56,14 @@ const FlipCard = ({ card }: CardProps) => {
       <div className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}>
         <div className="card-img-front">
           <img
-            alt={card.name}
+            alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.image}
           />
         </div>
         <div className="card-img-back">
           <img
-            alt={card.name}
+            alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.imageBack}
           />

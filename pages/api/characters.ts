@@ -18,9 +18,11 @@ export const characterSearchResults = async (query: {
   const order = verifyQueryParam(query.order, "level");
   const direction = verifyQueryParam(query.dir, "asc");
 
-  return characterAbilityCards
-    .filter((char) => char.game === game && char.class === className)
-    .sort(customSort(order, direction));
+  return (
+    characterAbilityCards[game]?.[className]?.sort(
+      customSort(order, direction)
+    ) || []
+  );
 };
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {

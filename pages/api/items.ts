@@ -12,15 +12,16 @@ export const itemSearchResults = async (query: {
   const activations = verifyQueryParam(query.activations);
   const slot = verifyQueryParam(query.slot);
 
-  return itemCards
-    .filter((item) => {
-      if (item.game !== game) return false;
-      if (slot && item.slot !== slot) return false;
-      if (activations === "consumed" && !item.consumed) return false;
-      if (activations === "spent" && !item.spent) return false;
-      return true;
-    })
-    .sort(customSort(order, direction));
+  return (
+    itemCards[game]
+      ?.filter((item) => {
+        if (slot && item.slot !== slot) return false;
+        if (activations === "consumed" && !item.consumed) return false;
+        if (activations === "spent" && !item.spent) return false;
+        return true;
+      })
+      .sort(customSort(order, direction)) || []
+  );
 };
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
