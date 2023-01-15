@@ -11,7 +11,7 @@ import {
   getDefaultCharacterClass,
   verifyQueryParam,
 } from "../../common/helpers";
-import { CharacterAbilityCard, SortOption } from "../../common/types";
+import { CharacterAbility, SortOption } from "../../common/types";
 import { characterSearchResults } from "../api/characters";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
@@ -78,7 +78,7 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
 };
 
 type PageProps = {
-  searchResults: CharacterAbilityCard[];
+  searchResults: CharacterAbility[];
 };
 
 const Characters = ({ searchResults }: PageProps) => {
