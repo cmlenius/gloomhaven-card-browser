@@ -8,6 +8,11 @@ echo "$(echo -n 'import { Item } from "../common/types"; export const itemCards:
 prettier --write item-cards.js
 mv item-cards.js ../data/item-cards.ts
  
+node events.js
+echo "$(echo -n 'import { Event } from "../common/types"; export const eventCards: Record<string, Event[]> = '; cat event-cards.js)" > event-cards.js
+prettier --write event-cards.js
+mv event-cards.js ../data/event-cards.ts
+ 
 node characters.js
 echo "$(echo -n 'import { Character } from "../common/types"; export const characters: Character[] = '; cat character-stats.js)" > character-stats.js
 prettier --write character-stats.js

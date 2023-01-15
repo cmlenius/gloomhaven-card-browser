@@ -20,6 +20,17 @@ body {
 }
 
 /* --- MISC --- */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 button {
   background-color: var(--grey-light);
   border: 1px solid var(--primary);
@@ -219,24 +230,47 @@ input[type="radio"] {
 }
 
 /* --- FILTERS --- */
+.event-id-filter {
+  background-color: var(--grey-light);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 24px;
+  margin: 0 8px;
+  padding: 2px 8px;
+  text-align: right;
+  width: 48px;
+}
+
 .filters {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   padding: 0 12px;
 }
+ 
+.filters > *:not(:nth-child(1)) {
+  margin-left: 8px;
+}
+
 
 .filter-icon {
   align-items: center;
   border-bottom: 2px solid transparent;
   cursor: pointer;
   display: flex;
-  margin-left: 6px;
+  justify-content: center;
 }
 
 .filter-icon img {
   height: 24px;
   width: 24px;
+}
+ 
+.filter-icon svg {
+  height: 20px;
+  width: 20px;
 }
 
 .filter-icon-selected {
