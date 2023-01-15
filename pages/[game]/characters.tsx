@@ -17,7 +17,6 @@ import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Modal from "../../components/Modal";
 import Toolbar from "../../components/Toolbar";
-import SvgCharacterIcon from "../../components/Svg";
 
 const sortOrderOptions: SortOption[] = [
   { id: "level", name: "Level" },
@@ -70,7 +69,10 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
             }`}
             onClick={() => handleClassChange(char.class)}
           >
-            <SvgCharacterIcon character={char.class} />
+            <img
+              alt=""
+              src={getBaseUrl() + `character-icons/${game}/${char.class}.png`}
+            />
           </div>
         ))}
     </div>

@@ -3,12 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose, faWarning } from "@fortawesome/free-solid-svg-icons";
 
 import { useSpoilers } from "../hooks/useSpoilers";
-import { getCharacterClasses, verifyQueryParam } from "../common/helpers";
+import {
+  getBaseUrl,
+  getCharacterClasses,
+  verifyQueryParam,
+} from "../common/helpers";
 import { Character, Spoilers } from "../common/types";
 import type { ParsedUrlQuery } from "querystring";
 
 import Dropdown from "./Dropdown";
-import SvgCharacterIcon from "./Svg";
 
 type GameOption = {
   id: string;
@@ -199,6 +202,9 @@ type CharacterSpoilersProps = {
 
 const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
+  const router = useRouter();
+
+  const game = verifyQueryParam(router.query?.game, "gh");
 
   const allCharacterSpoilers = classes.every((c: Character) =>
     spoilers.characters.has(c.class)
@@ -254,7 +260,11 @@ const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
               style={{ accentColor: char.colour }}
               type="checkbox"
             />
-            <SvgCharacterIcon character={char.class} />
+            <img
+              alt=""
+              className="spoiler-class-icon"
+              src={getBaseUrl() + `character-icons/${game}/${char.class}.png`}
+            />
             <span>{char.altName || char.name}</span>
           </li>
         ))}
