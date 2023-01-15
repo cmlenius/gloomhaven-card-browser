@@ -51,6 +51,17 @@ import BO from "../public/icons/classes/fh/BO.svg";
 import DF from "../public/icons/classes/fh/DF.svg";
 import DW from "../public/icons/classes/fh/DW.svg";
 import GE from "../public/icons/classes/fh/GE.svg";
+import CR from "../public/icons/classes/fh/CR.svg";
+import DT from "../public/icons/classes/fh/DT.svg";
+import FF from "../public/icons/classes/fh/FF.svg";
+import HV from "../public/icons/classes/fh/HV.svg";
+import IF from "../public/icons/classes/fh/IF.svg";
+import ME from "../public/icons/classes/fh/ME.svg";
+import PC from "../public/icons/classes/fh/PC.svg";
+import PY from "../public/icons/classes/fh/PY.svg";
+import SD from "../public/icons/classes/fh/SD.svg";
+import SH from "../public/icons/classes/fh/SH.svg";
+import TA from "../public/icons/classes/fh/TA.svg";
 
 // Trail of Ashes
 import IN from "../public/icons/classes/toa/IN.svg";
@@ -112,6 +123,17 @@ const iconMap = {
   DF,
   DW,
   GE,
+  CR,
+  DT,
+  FF,
+  HV,
+  IF,
+  ME,
+  PC,
+  PY,
+  SD,
+  SH,
+  TA,
 
   // Trail of Ashes
   IN,

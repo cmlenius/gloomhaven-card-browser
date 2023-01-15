@@ -258,6 +258,7 @@ const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
             <span>{char.altName || char.name}</span>
           </li>
         ))}
+        {classes.length % 2 == 1 && <li className="spoiler-check-option" />}
       </ul>
     </div>
   );
