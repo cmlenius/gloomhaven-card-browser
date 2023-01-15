@@ -7,6 +7,7 @@ import {
   faGear,
   faSackDollar,
   faShield,
+  faRoad,
   IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
@@ -24,6 +25,7 @@ type HeaderLink = {
 const headerLinks = [
   { icon: faShield, label: "Characters", pathname: "characters" },
   { icon: faSackDollar, label: "Items", pathname: "items" },
+  { icon: faRoad, label: "Event", pathname: "events" },
 ];
 
 type SettingsAnchorProps = {

@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { itemSearchResults } from "../api/items";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import { getCharacterColor, itemSpoilerFilter } from "../../common/helpers";
-import { FilterOption, Item, SortOption } from "../../common/types";
+import { Item, SortOption } from "../../common/types";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
@@ -16,6 +16,12 @@ const sortOrderOptions: SortOption[] = [
   { id: "cost", name: "Cost" },
   { id: "name", name: "Name" },
 ];
+
+export type FilterOption = {
+  id: string;
+  name: string;
+  icon: string;
+};
 
 const slotFilters: FilterOption[] = [
   { id: "head", name: "Head", icon: "/icons/equipment/head.png" },
