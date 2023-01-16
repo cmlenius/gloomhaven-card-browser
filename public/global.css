@@ -341,6 +341,12 @@ input[type="radio"] {
   padding: 0;
 }
 
+.spoiler-class-icon {
+  margin-right: 4px;
+  height: 22px;
+  width: 22px;
+}
+
 .spoilers-close-icon {
   align-self: flex-end;
   cursor: pointer;
