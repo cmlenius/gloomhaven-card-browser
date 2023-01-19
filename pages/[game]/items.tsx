@@ -9,7 +9,7 @@ import { FilterOption, Item, SortOption } from "../../common/types";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
-import Toolbar from "../../components/Toolbar";
+import Sort from "../../components/Sort";
 
 const sortOrderOptions: SortOption[] = [
   { id: "id", name: "Item Number" },
@@ -54,7 +54,7 @@ const ItemFilters = () => {
   };
 
   return (
-    <div className="filters">
+    <div className="button-group filters">
       {slotFilters.map((slot, idx) => (
         <div
           key={idx}
@@ -100,9 +100,12 @@ const Items = ({ searchResults }: PageProps) => {
 
   return (
     <Layout>
-      <Toolbar pathname="items" sortOrderOptions={sortOrderOptions}>
-        <ItemFilters />
-      </Toolbar>
+      <div className="toolbar">
+        <div className="toolbar-inner">
+          <Sort pathname="characters" sortOrderOptions={sortOrderOptions} />
+          <ItemFilters />
+        </div>
+      </div>
       {!spoilers.loading && <CardList cardList={cardList} />}
     </Layout>
   );
