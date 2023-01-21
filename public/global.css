@@ -118,7 +118,12 @@ input[type="radio"] {
 }
 
 .card-inner {
+  border-radius: 12px;
+  background-image: repeating-linear-gradient(-55deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
+  color: black;
+  font-weight: 500;
   padding-top: 150%;
+  text-align: center;
   transition: transform 600ms, -webkit-transform 600ms;
   transform-style: preserve-3d;
   width: 100%;

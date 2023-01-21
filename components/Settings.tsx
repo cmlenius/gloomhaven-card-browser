@@ -59,8 +59,8 @@ const itemSpoilerConfig: Record<string, ItemSpoilerConfig> = {
     prosperity: 9,
     misc: [
       { label: "Random Item Designs", path: "recipes" },
-      { label: "Solo Scenario", path: "solo" },
       { label: "Other Items", path: "other" },
+      { label: "Solo Scenario", path: "solo" },
       { label: "Forgotten Circles", path: "fc" },
     ],
   },

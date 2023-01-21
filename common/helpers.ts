@@ -99,8 +99,8 @@ export function itemSpoilerFilter(spoilers: Spoilers): (item: Item) => boolean {
       case "jotl3":
         return !!spoilers.items.jotl3;
       case "cs":
-        return true;
       case "toa":
+      case "fh":
         return true;
       default:
         return false;
