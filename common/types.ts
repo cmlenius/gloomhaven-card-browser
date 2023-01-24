@@ -17,6 +17,7 @@ export type Item = {
   image: string;
   cost: number;
   slot: string;
+  imageBack?: string;
   consumed?: boolean;
   spent?: boolean;
   prosperity?: number;

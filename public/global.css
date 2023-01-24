@@ -38,8 +38,7 @@ button:hover {
   align-items: center;
   display: flex;
   justify-content: flex-end;
-  flex-shrink: 0;
-  min-width: 240px;
+  min-width: 230px;
 }
 
 .button-group > *:not(:nth-child(1)) {
@@ -119,7 +118,12 @@ input[type="radio"] {
 }
 
 .card-inner {
+  border-radius: 12px;
+  background-image: repeating-linear-gradient(-55deg, #DDD, #DDD 5px, #CCC 5px, #CCC 10px);
+  color: black;
+  font-weight: 500;
   padding-top: 150%;
+  text-align: center;
   transition: transform 600ms, -webkit-transform 600ms;
   transform-style: preserve-3d;
   width: 100%;
@@ -219,7 +223,6 @@ input[type="radio"] {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 0 12px;
 }
 
@@ -437,9 +440,9 @@ input[type="radio"] {
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
   margin: 0 20px;
   margin-top: -4px;
+  width: 240px;
 }
 
 .slider span {
@@ -508,11 +511,14 @@ input[type="radio"] {
   width: 100%;
 }
 
+.toolbar-inner > div {
+  flex: 1;
+}
+
 .toolbar .sort {
   align-items: center;
   display: flex;
   flex-shrink: 0;
-  min-width: 240px;
 }
 
 .milestone-filter {
@@ -622,11 +628,16 @@ input[type="radio"] {
 }
 
 @media (max-width: 620px) {
+  .button-group {
+    justify-content: center;
+  }
+
   .card {
     flex: 1 0 32.75%;
   }
 
   .filters {
+    justify-content: center;
     margin-top: 8px;
   }
 
@@ -638,7 +649,7 @@ input[type="radio"] {
   .home {
     width: 300px;
   }
-   
+
   .milestone-filter-desktop {
     display: none;
   }
