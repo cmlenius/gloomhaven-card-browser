@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
+
+import { Option } from "../common/types";
+import { verifyQueryParam } from "../common/helpers";
 import Dropdown from "../components/Dropdown";
-import { SortOption } from "../common/types";
 
 type SortDirectionOption = {
   id: string;
@@ -14,7 +16,7 @@ const sortDirectionOptions: SortDirectionOption[] = [
 
 type SortProps = {
   pathname: string;
-  sortOrderOptions: SortOption[];
+  sortOrderOptions: Option[];
 };
 
 const Sort = ({ pathname, sortOrderOptions }: SortProps) => {
@@ -40,13 +42,13 @@ const Sort = ({ pathname, sortOrderOptions }: SortProps) => {
       <Dropdown
         onChange={handleSortOrderChange}
         options={sortOrderOptions}
-        value={query.order}
+        value={verifyQueryParam(query.order)}
       />
-      <span style={{ margin: "0 8px" }}>:</span>
+      <span style={{ marginRight: "8px" }}>:</span>
       <Dropdown
         onChange={handleSortDirectionChange}
         options={sortDirectionOptions}
-        value={query.dir}
+        value={verifyQueryParam(query.dir)}
       />
     </div>
   );

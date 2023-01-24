@@ -26,10 +26,10 @@ export type Item = {
 export type Event = {
   name: number;
   game: string;
+  eventType: string;
   image: string;
   imageBack?: string;
-  city?: boolean;
-  road?: boolean;
+  season?: string;
 };
 
 export type Character = {
@@ -51,13 +51,7 @@ export type Game = {
   defaultClass: string;
 };
 
-export type FilterOption = {
-  id: string;
-  name: string;
-  icon: string;
-};
-
-export type SortOption = {
+export type Option = {
   id: string;
   name: string;
 };
