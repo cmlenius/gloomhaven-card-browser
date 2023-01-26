@@ -27,6 +27,7 @@ export const eventSearchResults = async (query: {
           season !== event.season
         )
           return false;
+
         return true;
       })
       ?.sort(customSort(order, direction)) || []

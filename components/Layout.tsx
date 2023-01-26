@@ -1,75 +1,34 @@
 import { useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Script from "next/script";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGear,
-  faSackDollar,
-  faShield,
-  faRoad,
-  IconDefinition,
-} from "@fortawesome/free-solid-svg-icons";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
-import { verifyQueryParam } from "../common/helpers";
 
+import { DropdownNav } from "../components/Dropdown";
+import { verifyQueryParam } from "../common/helpers";
+import { DropdownOption } from "../common/types";
+import { games } from "../data/games";
 import Settings from "./Settings";
 
-type HeaderLink = {
-  icon: IconDefinition;
-  isHome?: boolean;
-  label: string;
-  pathname: string;
-};
-
-const headerLinks = [
-  { icon: faShield, label: "Characters", pathname: "characters" },
-  { icon: faSackDollar, label: "Items", pathname: "items" },
-  { icon: faRoad, label: "Event", pathname: "events" },
+const cardTypeOptions: DropdownOption[] = [
+  { id: "characters", name: "Characters" },
+  { id: "items", name: "Items" },
+  { id: "events", name: "Events" },
 ];
 
 type SettingsAnchorProps = {
-  mobile?: boolean;
   openSettingsDrawer: () => void;
 };
 
-const SettingsAnchor = ({
-  mobile,
-  openSettingsDrawer,
-}: SettingsAnchorProps) => {
+const SettingsAnchor = ({ openSettingsDrawer }: SettingsAnchorProps) => {
   return (
-    <div
-      className={`header-link view-more ${mobile ? "mobile" : "desktop"}`}
-      onClick={openSettingsDrawer}
-    >
+    <div className="header-link view-more" onClick={openSettingsDrawer}>
       <span>
         <FontAwesomeIcon className="header-icon" icon={faGear} />
         <span>Settings</span>
       </span>
     </div>
-  );
-};
-
-type HeaderLinkProps = {
-  game: string | null;
-  link: HeaderLink;
-};
-
-const HeaderLink = ({ game, link }: HeaderLinkProps) => {
-  return (
-    <Link
-      href={{
-        pathname: link.pathname,
-        ...(game && !link.isHome && { query: { game: game } }),
-      }}
-    >
-      <div className="header-link">
-        <span>
-          <FontAwesomeIcon className="header-icon" icon={link.icon} />
-          <a>{link.label}</a>
-        </span>
-      </div>
-    </Link>
   );
 };
 
@@ -79,28 +38,36 @@ type TopBarProps = {
 
 const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
   const router = useRouter();
+  const game = verifyQueryParam(router.query.game, "gh");
 
-  const showLinks = router.pathname !== "/";
+  const handleGameChange = (newGame: string) => {
+    return {
+      pathname: router.pathname,
+      query: { game: newGame },
+    };
+  };
+
+  const handleCardTypeChange = (newCardType: string) => {
+    return {
+      pathname: newCardType,
+      query: { game: game },
+    };
+  };
+
+  const cardType = router.pathname.split("/").reverse()[0];
 
   return (
     <nav className="topbar">
       <div className="topbar-inner">
         <div className="header-links">
-          {showLinks &&
-            headerLinks.map((link, idx) => (
-              <HeaderLink
-                key={idx}
-                game={verifyQueryParam(router.query.game)}
-                link={link}
-              />
-            ))}
-          {showLinks && (
-            <SettingsAnchor mobile openSettingsDrawer={openSettingsDrawer} />
-          )}
+          <DropdownNav href={handleGameChange} options={games} value={game} />
+          <DropdownNav
+            href={handleCardTypeChange}
+            options={cardTypeOptions}
+            value={cardType}
+          />
         </div>
-        {showLinks && (
-          <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />
-        )}
+        <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />
       </div>
     </nav>
   );

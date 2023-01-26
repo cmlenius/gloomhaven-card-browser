@@ -51,7 +51,7 @@ export type Game = {
   defaultClass: string;
 };
 
-export type SortOption = {
+export type DropdownOption = {
   id: string;
   name: string;
 };
