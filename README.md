@@ -8,7 +8,7 @@ The app was created using the [next.js](https://nextjs.org/) react framework lev
 
 ## Features
 
-- Content from Base Game, Forgotten Circles, Jaws of the Lion, and Crimson Scales + Trail of Ashes
+- Content from Base Game, Frosthaven, Forgotten Circles, Jaws of the Lion, and Crimson Scales + Trail of Ashes
 - Character Ability Cards (including Character Mats & Sheets)
 - Item cards
 - Sort and Filter options

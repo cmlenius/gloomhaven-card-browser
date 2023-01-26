@@ -102,7 +102,7 @@ const Items = ({ searchResults }: PageProps) => {
     <Layout>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <Sort pathname="characters" sortOrderOptions={sortOrderOptions} />
+          <Sort pathname="items" sortOrderOptions={sortOrderOptions} />
           <ItemFilters />
         </div>
       </div>
