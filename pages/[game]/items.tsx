@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 import { itemSearchResults } from "../api/items";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import { getCharacterColor, itemSpoilerFilter } from "../../common/helpers";
-import { Item, SortOption } from "../../common/types";
+import { Item, DropdownOption } from "../../common/types";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Sort from "../../components/Sort";
 
-const sortOrderOptions: SortOption[] = [
+const sortOrderOptions: DropdownOption[] = [
   { id: "id", name: "Item Number" },
   { id: "cost", name: "Cost" },
   { id: "name", name: "Name" },

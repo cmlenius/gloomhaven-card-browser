@@ -11,14 +11,14 @@ import {
   getDefaultCharacterClass,
   verifyQueryParam,
 } from "../../common/helpers";
-import { CharacterAbility, SortOption } from "../../common/types";
+import { CharacterAbility, DropdownOption } from "../../common/types";
 import { characterSearchResults } from "../api/characters";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Modal from "../../components/Modal";
 import Sort from "../../components/Sort";
 
-const sortOrderOptions: SortOption[] = [
+const sortOrderOptions: DropdownOption[] = [
   { id: "level", name: "Level" },
   { id: "initiative", name: "Initiative" },
   { id: "name", name: "Name" },

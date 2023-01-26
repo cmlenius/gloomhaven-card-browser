@@ -15,10 +15,13 @@ export const eventSearchResults = async (query: {
   return (
     eventCards[game]
       ?.filter((event) => {
-        if (eventType && eventType !== "" && eventType !== event.eventType)
-          return false;
+        let et = event.eventType;
+        if (et === "outpost") et = "city";
+
+        if (eventType && eventType !== "" && eventType !== et) return false;
         if (game === "fh" && season && season !== "" && season !== event.season)
           return false;
+
         return true;
       })
       ?.sort(customSort(order, direction)) || []

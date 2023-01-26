@@ -9,22 +9,9 @@ import {
   verifyQueryParam,
 } from "../common/helpers";
 import { Character, Spoilers } from "../common/types";
-import type { ParsedUrlQuery } from "querystring";
+import { games } from "../data/games";
 
 import Dropdown from "./Dropdown";
-
-type GameOption = {
-  id: string;
-  name: string;
-};
-
-const gameOptions: GameOption[] = [
-  { id: "gh", name: "Gloomhaven" },
-  { id: "jotl", name: "Jaws of the Lion" },
-  { id: "cs", name: "Crimson Scales" },
-  { id: "toa", name: "Trail of Ashes" },
-  { id: "fh", name: "Frosthaven" },
-];
 
 type ItemMiscSpoiler = {
   label: string;
@@ -288,7 +275,7 @@ const Settings = ({ open, onClose }: SettingsProps) => {
   );
 
   const handleGameChange = (newGame: string) => {
-    const newQuery: ParsedUrlQuery = {
+    const newQuery = {
       game: newGame,
     };
 
@@ -311,7 +298,7 @@ const Settings = ({ open, onClose }: SettingsProps) => {
             <div style={{ width: "24px" }} />
             <Dropdown
               onChange={handleGameChange}
-              options={gameOptions}
+              options={games}
               value={game}
             />
             <FontAwesomeIcon

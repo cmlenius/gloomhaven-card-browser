@@ -1,12 +1,40 @@
-type DropdownOption = {
-  id: string;
-  name: string;
-};
+import { DropdownOption } from "../common/types";
 
 type DropdownProps = {
   onChange: (s: string) => void;
   options: DropdownOption[];
-  value: string | string[];
+  value: string;
+  width?: number;
+};
+
+export const DropdownNav = ({
+  onChange,
+  options,
+  value,
+  width,
+}: DropdownProps) => {
+  const handleOptionChange = (newOption: string) => {
+    onChange(newOption);
+  };
+
+  const currentOption = options.find((o) => o.id === value)?.name || "Unknown";
+
+  return (
+    <div className="dropdownnav" style={{ width }}>
+      <div className="dropdownnav-anchor">{currentOption}</div>
+      <div className="dropdownnav-content">
+        {options.map((opt, idx) => (
+          <div
+            key={idx}
+            className="dropdownnav-option"
+            onClick={() => handleOptionChange(opt.id)}
+          >
+            {opt.name}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 const Dropdown = ({ onChange, options, value }: DropdownProps) => {
