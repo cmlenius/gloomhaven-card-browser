@@ -11,22 +11,17 @@ import {
 import { eventSearchResults } from "../api/events";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import { getCharacterColor, verifyQueryParam } from "../../common/helpers";
-import { Event } from "../../common/types";
+import { Event, Option } from "../../common/types";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
-
-type FilterOption = {
-  id: string;
-  name: string;
-};
 
 type SeasonOption = {
   id: string;
   icon: IconDefinition;
 };
 
-const eventTypeFilters: Record<string, FilterOption[]> = {
+const eventTypeFilters: Record<string, Option[]> = {
   gh: [
     { id: "city", name: "City" },
     { id: "road", name: "Road" },

@@ -51,7 +51,7 @@ export type Game = {
   defaultClass: string;
 };
 
-export type DropdownOption = {
+export type Option = {
   id: string;
   name: string;
 };

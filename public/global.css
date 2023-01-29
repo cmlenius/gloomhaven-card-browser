@@ -229,7 +229,7 @@ input[type="radio"] {
 }
 
 .dropdown select {
-  background-image: url("/icons/select.svg");
+  background-image: url("/select.svg");
   background-position: right center;
   background-size: 20px 30px;
   background-repeat: no-repeat;

@@ -7,11 +7,11 @@ import { useRouter } from "next/router";
 
 import { DropdownNav } from "../components/Dropdown";
 import { verifyQueryParam } from "../common/helpers";
-import { DropdownOption } from "../common/types";
+import { Option } from "../common/types";
 import { games } from "../data/games";
 import Settings from "./Settings";
 
-const cardTypeOptions: DropdownOption[] = [
+const cardTypeOptions: Option[] = [
   { id: "characters", name: "Characters" },
   { id: "items", name: "Items" },
   { id: "events", name: "Events" },

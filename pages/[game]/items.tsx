@@ -4,37 +4,35 @@ import { useRouter } from "next/router";
 
 import { itemSearchResults } from "../api/items";
 import { useSpoilers } from "../../hooks/useSpoilers";
-import { getCharacterColor, itemSpoilerFilter } from "../../common/helpers";
-import { Item, DropdownOption } from "../../common/types";
+import {
+  getBaseUrl,
+  getCharacterColor,
+  itemSpoilerFilter,
+} from "../../common/helpers";
+import { Item, Option } from "../../common/types";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Sort from "../../components/Sort";
 
-const sortOrderOptions: DropdownOption[] = [
+const sortOrderOptions: Option[] = [
   { id: "id", name: "Item Number" },
   { id: "cost", name: "Cost" },
   { id: "name", name: "Name" },
 ];
 
-export type FilterOption = {
-  id: string;
-  name: string;
-  icon: string;
-};
-
-const slotFilters: FilterOption[] = [
-  { id: "head", name: "Head", icon: "/icons/equipment/head.png" },
-  { id: "body", name: "Body", icon: "/icons/equipment/body.png" },
-  { id: "1h", name: "1 Hand", icon: "/icons/equipment/1h.png" },
-  { id: "2h", name: "2 Hands", icon: "/icons/equipment/2h.png" },
-  { id: "legs", name: "Legs", icon: "/icons/equipment/legs.png" },
-  { id: "small", name: "Small Item", icon: "/icons/equipment/small.png" },
+const slotFilters: Option[] = [
+  { id: "head", name: "Head" },
+  { id: "body", name: "Body" },
+  { id: "1h", name: "1 Hand" },
+  { id: "2h", name: "2 Hands" },
+  { id: "legs", name: "Legs" },
+  { id: "small", name: "Small Item" },
 ];
 
-const activationsFilters: FilterOption[] = [
-  { id: "consumed", name: "Consumed", icon: "/icons/consumed.png" },
-  { id: "spent", name: "Spent", icon: "/icons/spent.png" },
+const activationsFilters: Option[] = [
+  { id: "consumed", name: "Consumed" },
+  { id: "spent", name: "Spent" },
 ];
 
 const ItemFilters = () => {
@@ -69,19 +67,19 @@ const ItemFilters = () => {
           }`}
           onClick={() => handleSlotChange(slot.id)}
         >
-          <img alt="" src={slot.icon} />
+          <img alt="" src={getBaseUrl() + `icons/items/${slot.id}.png`} />
         </div>
       ))}
       <span style={{ marginLeft: "16px" }} />
-      {activationsFilters.map((activations, idx) => (
+      {activationsFilters.map((activation, idx) => (
         <div
           key={idx}
           className={`filter-icon ${
-            query.activations === activations.id ? "filter-icon-selected" : ""
+            query.activations === activation.id ? "filter-icon-selected" : ""
           }`}
-          onClick={() => handleActivationsChange(activations.id)}
+          onClick={() => handleActivationsChange(activation.id)}
         >
-          <img alt="" src={activations.icon} />
+          <img alt="" src={getBaseUrl() + `icons/items/${activation.id}.png`} />
         </div>
       ))}
     </div>

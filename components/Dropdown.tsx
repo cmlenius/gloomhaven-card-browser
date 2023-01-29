@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { DropdownOption } from "../common/types";
 import Link from "next/link";
+
+import { Option } from "../common/types";
 
 type DropdownProps = {
   onChange?: (s: string) => void;
   href?: (s: string) => Record<string, string | Record<string, string>>;
-  options: DropdownOption[];
+  options: Option[];
   value: string;
 };
 

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { DropdownOption } from "../common/types";
+import { Option } from "../common/types";
 import { verifyQueryParam } from "../common/helpers";
 import Dropdown from "../components/Dropdown";
 
@@ -16,7 +16,7 @@ const sortDirectionOptions: SortDirectionOption[] = [
 
 type SortProps = {
   pathname: string;
-  sortOrderOptions: DropdownOption[];
+  sortOrderOptions: Option[];
 };
 
 const Sort = ({ pathname, sortOrderOptions }: SortProps) => {
