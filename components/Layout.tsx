@@ -109,32 +109,15 @@ type LayoutProps = {
 };
 
 const Layout = ({ children }: LayoutProps) => {
-  const router = useRouter();
-  const game = verifyQueryParam(router?.query?.game, "gh");
-
   const [settingDrawerOpen, setSettingDrawerOpen] = useState(false);
-
-  let titlePrefix = "Gloomhaven";
-  switch (game) {
-    case "fh":
-      titlePrefix = "Frosthaven";
-      break;
-    case "cs":
-    case "toa":
-      titlePrefix = "Crimson Scales";
-      break;
-    case "jotl":
-      titlePrefix = "Jaws of the Lion";
-      break;
-  }
 
   return (
     <>
       <Head>
-        <title>{titlePrefix + " Card Browser"}</title>
+        <title>Gloomhaven Card Browser</title>
         <meta
           name="description"
-          content="Gloomhaven Card Browser is a tool for viewing and browsing Class Ability and Item cards. It includes cards from the Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
+          content="Gloomhaven Card Browser is a tool for viewing and browsing content such as Class Ability Cards and Item Cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
         />
         <link rel="icon" href="/logo.png" />
       </Head>
