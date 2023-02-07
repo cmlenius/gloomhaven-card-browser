@@ -15,6 +15,7 @@ const cardTypeOptions: Option[] = [
   { id: "characters", name: "Characters" },
   { id: "items", name: "Items" },
   { id: "events", name: "Events" },
+  { id: "monsters", name: "Monsters" },
 ];
 
 type SettingsAnchorProps = {
@@ -41,17 +42,11 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
   const game = verifyQueryParam(router.query.game, "gh");
 
   const handleGameChange = (newGame: string) => {
-    return {
-      pathname: router.pathname,
-      query: { game: newGame },
-    };
+    return `/${newGame}/${cardType}`;
   };
 
   const handleCardTypeChange = (newCardType: string) => {
-    return {
-      pathname: newCardType,
-      query: { game: game },
-    };
+    return `/${game}/${newCardType}`;
   };
 
   const cardType = router.pathname.split("/").reverse()[0];

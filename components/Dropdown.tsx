@@ -5,7 +5,7 @@ import { Option } from "../common/types";
 
 type DropdownProps = {
   onChange?: (s: string) => void;
-  href?: (s: string) => Record<string, string | Record<string, string>>;
+  href?: (s: string) => string;
   options: Option[];
   value: string;
 };
