@@ -27,7 +27,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -121,6 +121,14 @@ input[type="radio"] {
   margin: 4px;
 }
 
+.card-horizontal {
+  border-radius: 12px;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1 0 32%;
+  margin: 4px;
+}
+
 .card-img {
   border-radius: 12px;
   text-align: center;
@@ -139,7 +147,6 @@ input[type="radio"] {
   );
   color: black;
   font-weight: 500;
-  padding-top: 150%;
   text-align: center;
   transition: transform 600ms, -webkit-transform 600ms;
   transform-style: preserve-3d;
@@ -201,6 +208,30 @@ input[type="radio"] {
   color: white;
 }
 
+.monster-stat-card {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 80%;
+}
+
+.monster-img {
+  height: 100%;
+  transition: transform 500ms, -webkit-transform 500ms;
+  width: 100%;
+}
+ 
+.card-index-btn {
+  border-radius: 100%;
+  opacity: 0.9;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  font-weight: 700;
+  font-size: 18px;
+  top: 10px;
+  left: 10px;
+}
+
 /* --- DROPDOWN --- */
 .dropdown {
   position: relative;
@@ -253,6 +284,8 @@ input[type="radio"] {
 .dropdownnav:hover .dropdownnav-anchor {
   color: white;
   text-decoration: underline;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .dropdownnav-content {
@@ -672,7 +705,7 @@ input[type="radio"] {
   user-select: none;
   -webkit-user-select: none;
 }
- 
+
 .topbar .view-more:hover {
   color: white;
   text-decoration: underline;
@@ -692,6 +725,9 @@ input[type="radio"] {
   .card {
     flex: 1 0 26.5%;
   }
+  .card-horizontal {
+    flex: 1 0 32.75%;
+  }
 }
 
 @media (max-width: 620px) {
@@ -701,6 +737,10 @@ input[type="radio"] {
 
   .card {
     flex: 1 0 32.75%;
+  }
+
+  .card-horizontal {
+    flex: 1 0 51%;
   }
 
   .filters {

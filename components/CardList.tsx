@@ -27,11 +27,16 @@ interface Card {
 
 type CardProps = {
   card: Card;
+  horizontal?: boolean;
 };
-const Card = ({ card }: CardProps) => {
+
+const Card = ({ card, horizontal }: CardProps) => {
   return (
-    <div className="card">
-      <div className="card-inner">
+    <div className={horizontal ? "card-horizontal" : "card"}>
+      <div
+        className="card-inner"
+        style={{ paddingTop: horizontal ? "66%" : "150%" }}
+      >
         <div className="card-img-front">
           <img
             alt={String(card.name)}
@@ -44,7 +49,7 @@ const Card = ({ card }: CardProps) => {
   );
 };
 
-const FlipCard = ({ card }: CardProps) => {
+const FlipCard = ({ card, horizontal }: CardProps) => {
   const [flipped, setFlipped] = useState(false);
 
   const handleBtnClick = () => {
@@ -52,8 +57,11 @@ const FlipCard = ({ card }: CardProps) => {
   };
 
   return (
-    <div className="card">
-      <div className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}>
+    <div className={horizontal ? "card-horizontal" : "card"}>
+      <div
+        className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}
+        style={{ paddingTop: horizontal ? "66%" : "150%" }}
+      >
         <div className="card-img-front">
           <img
             alt={String(card.name)}
@@ -85,9 +93,10 @@ const FlipCard = ({ card }: CardProps) => {
 
 type CardListProps = {
   cardList: Card[];
+  horizontal?: boolean;
 };
 
-const CardList = ({ cardList }: CardListProps) => {
+const CardList = ({ cardList, horizontal }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
   const loadMore = (page: number) => {
@@ -110,13 +119,13 @@ const CardList = ({ cardList }: CardListProps) => {
     >
       {data?.map((card, idx) =>
         card.imageBack ? (
-          <FlipCard key={idx} card={card} />
+          <FlipCard key={idx} card={card} horizontal={horizontal} />
         ) : (
-          <Card key={idx} card={card} />
+          <Card key={idx} card={card} horizontal={horizontal} />
         )
       )}
       {[...Array(4)].map((_, idx) => (
-        <div key={idx} className="card" />
+        <div key={idx} className={horizontal ? "card-horizontal" : "card"} />
       ))}
     </InfiniteScroll>
   );

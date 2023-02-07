@@ -1,3 +1,22 @@
+export type Game = {
+  id: string;
+  name: string;
+  defaultClass: string;
+};
+
+export type Character = {
+  class: string;
+  colour: string;
+  name: string;
+  altName?: string;
+  game: string;
+  matImage: string;
+  source?: string;
+  sheetImage: string;
+  base?: boolean;
+  hidden?: boolean;
+};
+
 export type CharacterAbility = {
   name: string;
   class: string;
@@ -32,23 +51,13 @@ export type Event = {
   season?: string;
 };
 
-export type Character = {
-  class: string;
-  colour: string;
-  name: string;
-  altName?: string;
-  game: string;
-  matImage: string;
-  source?: string;
-  sheetImage: string;
-  base?: boolean;
-  hidden?: boolean;
-};
-
-export type Game = {
+export type Monster = {
   id: string;
   name: string;
-  defaultClass: string;
+  game: string;
+  statCards: string[];
+  abilityCards: string[];
+  isVertical: boolean;
 };
 
 export type Option = {
