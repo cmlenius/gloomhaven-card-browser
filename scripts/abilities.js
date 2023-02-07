@@ -6981,16 +6981,6 @@ let abilities = [
     cardno: "AA-022",
   },
   {
-    name: "rockspine termite",
-    points: 995,
-    expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/AA/cs-alate-dispersion.png",
-    xws: "alatedispersion",
-    level: "4",
-    initiative: "58",
-    cardno: "AA-022",
-  },
-  {
     name: "anti-venom",
     points: 996,
     expansion: "Crimson Scales",
@@ -17251,7 +17241,7 @@ let abilities = [
     expansion: "Frosthaven",
     image: "character-ability-cards/frosthaven/PC/fh-redemption.png",
     xws: "redemption",
-    level: "8",
+    level: "9",
     initiative: "33",
     cardno: "328",
   },
@@ -18592,7 +18582,9 @@ let milestones = [
   {
     name: "razorweb puppetry",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.png",
+    image: "milestones/cs-ms-amber-aegis.png",
+    imageBack:
+      "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.png",
     level: "M",
     initiative: "39",
     milestone: true,
@@ -18600,7 +18592,9 @@ let milestones = [
   {
     name: "pummeling chain",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.png",
+    image: "milestones/cs-ms-bombard.png",
+    imageBack:
+      "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.png",
     level: "M",
     initiative: "17",
     milestone: true,
@@ -18608,7 +18602,9 @@ let milestones = [
   {
     name: "creative sparks",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/BK/cs-creative-sparks.png",
+    image: "milestones/cs-ms-brightspark.png",
+    imageBack:
+      "character-ability-cards/crimson-scales/BK/cs-creative-sparks.png",
     level: "M",
     initiative: "40",
     milestone: true,
@@ -18616,7 +18612,8 @@ let milestones = [
   {
     name: "rope pit",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/CG/cs-rope-pit.png",
+    image: "milestones/cs-ms-chainguard.png",
+    imageBack: "character-ability-cards/crimson-scales/CG/cs-rope-pit.png",
     level: "M",
     initiative: "32",
     milestone: true,
@@ -18624,7 +18621,9 @@ let milestones = [
   {
     name: "call of the wild",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.png",
+    image: "milestones/cs-ms-chieftain.png",
+    imageBack:
+      "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.png",
     level: "M",
     initiative: "10",
     milestone: true,
@@ -18632,7 +18631,8 @@ let milestones = [
   {
     name: "improvised methods",
     expansion: "Crimson Scales",
-    image:
+    image: "milestones/cs-ms-fire-knight.png",
+    imageBack:
       "character-ability-cards/crimson-scales/FK/cs-improvised-methods.png",
     level: "M",
     initiative: "16",
@@ -18641,7 +18641,9 @@ let milestones = [
   {
     name: "the void consumes",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.png",
+    image: "milestones/cs-ms-hollowpact.png",
+    imageBack:
+      "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.png",
     level: "M",
     initiative: "35",
     milestone: true,
@@ -18649,7 +18651,8 @@ let milestones = [
   {
     name: "uplifting ascension",
     expansion: "Crimson Scales",
-    image:
+    image: "milestones/cs-ms-hierophant.png",
+    imageBack:
       "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.png",
     level: "M",
     initiative: "80",
@@ -18658,7 +18661,8 @@ let milestones = [
   {
     name: "drawn into the light",
     expansion: "Crimson Scales",
-    image:
+    image: "milestones/cs-ms-luminary.png",
+    imageBack:
       "character-ability-cards/crimson-scales/LU/cs-drawn-into-the-light.png",
     level: "M",
     initiative: "47",
@@ -18667,7 +18671,8 @@ let milestones = [
   {
     name: "giant slayer",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/MF/cs-giant-slayer.png",
+    image: "milestones/cs-ms-mirefoot.png",
+    imageBack: "character-ability-cards/crimson-scales/MF/cs-giant-slayer.png",
     level: "M",
     initiative: "22",
     milestone: true,
@@ -18675,7 +18680,8 @@ let milestones = [
   {
     name: "adaptive engineering",
     expansion: "Crimson Scales",
-    image:
+    image: "milestones/cs-ms-artificer.png",
+    imageBack:
       "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.png",
     level: "M",
     initiative: "75",
@@ -18684,7 +18690,8 @@ let milestones = [
   {
     name: "blood rite",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/RM/cs-blood-rite.png",
+    image: "milestones/cs-ms-ruinmaw.png",
+    imageBack: "character-ability-cards/crimson-scales/RM/cs-blood-rite.png",
     level: "M",
     initiative: "67",
     milestone: true,
@@ -18692,7 +18699,8 @@ let milestones = [
   {
     name: "terror of the deep",
     expansion: "Crimson Scales",
-    image:
+    image: "milestones/cs-ms-spirit-caller.png",
+    imageBack:
       "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.png",
     level: "M",
     initiative: "33",
@@ -18701,7 +18709,8 @@ let milestones = [
   {
     name: "deflection",
     expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/ST/cs-deflection.png",
+    image: "milestones/cs-ms-starslinger.png",
+    imageBack: "character-ability-cards/crimson-scales/ST/cs-deflection.png",
     level: "M",
     initiative: "46",
     milestone: true,
@@ -18709,7 +18718,8 @@ let milestones = [
   {
     name: "myla's stone hammer",
     expansion: "Trail of Ashes",
-    image:
+    image: "milestones/toa-ms-incarnate.png",
+    imageBack:
       "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.png",
     level: "M",
     initiative: "44",
@@ -18718,7 +18728,8 @@ let milestones = [
   {
     name: "geyser surge",
     expansion: "Trail of Ashes",
-    image: "character-ability-cards/trail-of-ashes/RH/toa-geyser-surge.png",
+    image: "milestones/toa-ms-rimehearth.png",
+    imageBack: "character-ability-cards/trail-of-ashes/RH/toa-geyser-surge.png",
     level: "M",
     initiative: "30",
     milestone: true,
@@ -18726,7 +18737,8 @@ let milestones = [
   {
     name: "crystalline refraction",
     expansion: "Trail of Ashes",
-    image:
+    image: "milestones/toa-ms-shardrender.png",
+    imageBack:
       "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.png",
     level: "M",
     initiative: "73",
@@ -18735,7 +18747,9 @@ let milestones = [
   {
     name: "amanita spores",
     expansion: "Trail of Ashes",
-    image: "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.png",
+    image: "milestones/toa-ms-thornreaper.png",
+    imageBack:
+      "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.png",
     level: "M",
     initiative: "42",
     milestone: true,
@@ -18743,7 +18757,9 @@ let milestones = [
   {
     name: "power transfer",
     expansion: "Trail of Ashes",
-    image: "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.png",
+    image: "milestones/toa-ms-tempest.png",
+    imageBack:
+      "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.png",
     level: "M",
     initiative: "25",
     milestone: true,
@@ -18751,13 +18767,15 @@ let milestones = [
   {
     name: "sustained energy",
     expansion: "Trail of Ashes",
-    image: "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.png",
+    image: "milestones/toa-ms-vanquisher.png",
+    imageBack:
+      "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.png",
     level: "M",
     initiative: "69",
     milestone: true,
   },
 ];
- 
+
 const groupBy = (items, key) =>
   items.reduce(
     (result, item) => ({
@@ -18770,7 +18788,9 @@ const groupBy = (items, key) =>
 const fs = require("fs");
 
 abilities = abilities.concat(milestones).map((ability) => {
-  let characterClass = ability.image.split("/")[2];
+  let characterClass = ability.milestone
+    ? ability.imageBack.split("/")[2]
+    : ability.image.split("/")[2];
 
   let expansion = ability.expansion;
   switch (ability.expansion) {
@@ -18796,6 +18816,8 @@ abilities = abilities.concat(milestones).map((ability) => {
   let level = ability.level;
   if (level === "X") {
     level = 1.5;
+  } else if (level == "M") {
+    level = 0.25;
   } else if (level.toLowerCase() != level.toUpperCase()) {
     level = 0.5;
   } else {

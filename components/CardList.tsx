@@ -1,46 +1,36 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBan, faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
+import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
 import { getBaseUrl } from "../common/helpers";
+import { Card } from "../common/types";
+import Empty from "./Empty";
 
 const CARDS_PER_PAGE = 12;
-
-const Empty = () => {
-  return (
-    <div className="empty">
-      <FontAwesomeIcon icon={faBan} height="48px" />
-      <div>No Results</div>
-      <div>
-        Check your spoiler settings or try changing your search & filters
-      </div>
-    </div>
-  );
-};
-
-interface Card {
-  name: number | string;
-  image: string;
-  imageBack?: string;
-}
 
 type CardProps = {
   card: Card;
   horizontal?: boolean;
+  showId?: boolean;
 };
 
-const Card = ({ card, horizontal }: CardProps) => {
+const Card = ({ card, horizontal, showId }: CardProps) => {
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
+      {showId && <div className="card-id">{card.id}</div>}
       <div
         className="card-inner"
         style={{ paddingTop: horizontal ? "66%" : "150%" }}
       >
         <div className="card-img-front">
+          <span aria-hidden="true" className="invisible">
+            {card.name}
+          </span>
           <img
             alt={String(card.name)}
             className="card-img"
+            key={card.image}
             src={getBaseUrl() + card.image}
           />
         </div>
@@ -49,7 +39,7 @@ const Card = ({ card, horizontal }: CardProps) => {
   );
 };
 
-const FlipCard = ({ card, horizontal }: CardProps) => {
+const FlipCard = ({ card, horizontal, showId }: CardProps) => {
   const [flipped, setFlipped] = useState(false);
 
   const handleBtnClick = () => {
@@ -58,22 +48,31 @@ const FlipCard = ({ card, horizontal }: CardProps) => {
 
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
+      {showId && <div className="card-id">{card.id}</div>}
       <div
         className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}
         style={{ paddingTop: horizontal ? "66%" : "150%" }}
       >
         <div className="card-img-front">
+          <span aria-hidden="true" className="invisible">
+            {card.name}
+          </span>
           <img
             alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.image}
+            key={card.image + "-front"}
           />
         </div>
         <div className="card-img-back">
+          <span aria-hidden="true" className="invisible">
+            {card.name}
+          </span>
           <img
             alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.imageBack}
+            key={card.image + "-back"}
           />
         </div>
       </div>
@@ -94,9 +93,10 @@ const FlipCard = ({ card, horizontal }: CardProps) => {
 type CardListProps = {
   cardList: Card[];
   horizontal?: boolean;
+  showId?: boolean;
 };
 
-const CardList = ({ cardList, horizontal }: CardListProps) => {
+const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
   const loadMore = (page: number) => {
@@ -117,11 +117,21 @@ const CardList = ({ cardList, horizontal }: CardListProps) => {
       loadMore={loadMore}
       pageStart={0}
     >
-      {data?.map((card, idx) =>
+      {data?.map((card) =>
         card.imageBack ? (
-          <FlipCard key={idx} card={card} horizontal={horizontal} />
+          <FlipCard
+            key={card.image}
+            card={card}
+            horizontal={horizontal}
+            showId={showId}
+          />
         ) : (
-          <Card key={idx} card={card} horizontal={horizontal} />
+          <Card
+            key={card.image}
+            card={card}
+            horizontal={horizontal}
+            showId={showId}
+          />
         )
       )}
       {[...Array(4)].map((_, idx) => (

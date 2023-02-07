@@ -19,7 +19,7 @@ let characters = [
   { id: "SK", game: "gh", colour: "#7E6C34", name: "Sunkeeper", altName: "Sun", },
   { id: "SS", game: "gh", colour: "#75524E", name: "Soothsinger", altName: "Music Note", },
   { id: "SU", game: "gh", colour: "#713B5C", name: "Summoner", altName: "Circles", },
-  { id: "BS", game: "gh", colour: "#403129", hidden: true, name: "Bladeswarm", altName: "???", },
+  { id: "BS", game: "gh", colour: "#403129", hidden: true, name: "Bladeswarm", altName: "Baldeswarm", },
 
   // Forgotten Circles
   { id: "DR", game: "fc", colour: "#555683", name: "Diviner", altName: "Diviner", },
@@ -47,12 +47,12 @@ let characters = [
   { id: "RM", game: "cs", colour: "#8D2B27", name: "Ruinmaw", altName: "Bleeding Claw", },
 
   // Trail of Ashes
-  { id: "IN", game: "toa", colour: "#7B2D40", name: "Incarnate" },
-  { id: "RH", game: "toa", colour: "#364A6D", name: "Rimehearth" },
-  { id: "SR", game: "toa", colour: "#79552C", name: "Shardrender" },
-  { id: "TP", game: "toa", colour: "#265372", name: "Tempest" },
-  { id: "TR", game: "toa", colour: "#6B693B", name: "Thornreaper" },
-  { id: "VQ", game: "toa", colour: "#AD4F3F", name: "Vanquisher", },
+  { id: "IN", game: "toa", colour: "#7B2D40", name: "Incarnate", altName: "Three Eyes" },
+  { id: "RH", game: "toa", colour: "#364A6D", name: "Rimehearth", altName: "Ice Meteor" },
+  { id: "SR", game: "toa", colour: "#79552C", name: "Shardrender", altName: "Gemstone" },
+  { id: "TP", game: "toa", colour: "#265372", name: "Tempest", altName: "Lightning Ball" },
+  { id: "TR", game: "toa", colour: "#6B693B", name: "Thornreaper", altName: "Spiked Ring" },
+  { id: "VQ", game: "toa", colour: "#AD4F3F", hidden: true, name: "Vanquisher", altName: "Vanquisher" },
 
   // Frosthaven
   { id: "BB", game: "fh", colour: "#3E7D9B", base: true, name: "Blinkblade" },
@@ -71,7 +71,7 @@ let characters = [
   { id: "PY", game: "fh", colour: "#BE462F", name: "Pyroclast", altName: "Meteor" },
   { id: "SD", game: "fh", colour: "#5995A2", name: "Snowdancer", altName: "Snowflake" },
   { id: "SH", game: "fh", colour: "#807681", name: "Shattersong", altName: "Shards" },
-  { id: "TA", game: "fh", colour: "#714A2E", name: "Trapper", altName: "Trapper" },
+  { id: "TA", game: "fh", colour: "#714A2E", name: "Trapper", altName: "Trap" },
 ];
 
 let fs = require("fs");
@@ -115,6 +115,7 @@ characters = characters.map((character) => {
     altName: character.altName,
     game: character.game === "fc" ? "gh" : character.game,
     matImage: `character-mats/${path}.jpeg`,
+    matImageBack: `character-mats/${path}-back.jpeg`,
     sheetImage: `character-perks/${path}-perks.jpeg`,
     base: character.base,
     hidden: character.hidden,

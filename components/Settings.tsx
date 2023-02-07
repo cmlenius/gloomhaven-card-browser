@@ -9,9 +9,6 @@ import {
   verifyQueryParam,
 } from "../common/helpers";
 import { Character, Spoilers } from "../common/types";
-import { games } from "../data/games";
-
-import Dropdown from "./Dropdown";
 
 type ItemMiscSpoiler = {
   label: string;
@@ -274,17 +271,6 @@ const Settings = ({ open, onClose }: SettingsProps) => {
     (c) => !c.base && !c.hidden
   );
 
-  const handleGameChange = (newGame: string) => {
-    const newQuery = {
-      game: newGame,
-    };
-
-    router.push({
-      pathname: router.pathname,
-      query: newQuery,
-    });
-  };
-
   return (
     <>
       <div
@@ -296,11 +282,6 @@ const Settings = ({ open, onClose }: SettingsProps) => {
         <div className="settings-inner">
           <div className="settings-header">
             <div style={{ width: "24px" }} />
-            <Dropdown
-              onChange={handleGameChange}
-              options={games}
-              value={game}
-            />
             <FontAwesomeIcon
               className="spoilers-close-icon"
               icon={faClose}

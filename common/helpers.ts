@@ -1,10 +1,36 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import { Character, CharacterAbility, Item, Spoilers } from "./types";
+import { Card, Character, CharacterAbility, Item, Spoilers } from "./types";
+
+export const defaultDescription =
+  "Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes";
+export const defaultTitle = "Gloomhaven Card Browser";
 
 export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
 }
+
+const nameToClassKeyMapping = characters.reduce((map, character) => {
+  map[character.name.toLowerCase().replace(/\s/g, "")] = character.class;
+  if (character.altName) {
+    map[character.altName.toLowerCase().replace(/\s/g, "")] = character.class;
+  }
+  return map;
+}, {});
+
+const articles = new Set(["a", "an", "and", "of", "the"]);
+const toTitleCase = (phrase: string | number) => {
+  return phrase
+    .toString()
+    .toLowerCase()
+    .split(" ")
+    .map((word, i) =>
+      i !== 0 && articles.has(word)
+        ? word
+        : word.charAt(0).toUpperCase() + word.slice(1)
+    )
+    .join(" ");
+};
 
 export function verifyQueryParam(
   param: string | string[] | null,
@@ -13,6 +39,40 @@ export function verifyQueryParam(
   if (!param) return defaultValue;
   if (param instanceof Array) return param[0];
   return param;
+}
+
+export function getDescription(
+  game: string,
+  subject: string,
+  cards: Card[]
+): string {
+  const gameName = games.find((g) => g.id === game)?.name;
+  const description =
+    gameName +
+    " " +
+    subject +
+    "; " +
+    cards.map((c) => toTitleCase(c.name)).join(", ");
+
+  if (
+    !gameName ||
+    !subject ||
+    !cards ||
+    cards.length == 0 ||
+    description.trim() == ""
+  )
+    return defaultDescription;
+
+  return description.trim();
+}
+
+export function getTitle(game: string, subject: string): string {
+  const gameName = games.find((g) => g.id === game)?.name;
+  const title = gameName + " " + subject;
+
+  if (!gameName || !subject || title.trim() == "") return defaultTitle;
+
+  return title.trim();
 }
 
 export function getCharacterClasses(game: string): Character[] {
@@ -26,13 +86,32 @@ export function getCharacterColor(char: string): string {
   return characters.find((c) => c.class === char)?.colour || defaultColour;
 }
 
-export function getCharacter(characterClass: string): Character | null {
-  return characters.find((c) => c.class === characterClass);
+export function getCharacter(
+  game: string,
+  characterClass: string
+): Character | null {
+  const chars = game ? characters.filter((c) => c.game === game) : characters;
+  let character = chars.find((c) => c.class === characterClass);
+  if (character == null) {
+    const characterClassName = characterClass.toLowerCase().replace(/\s/g, "");
+    character = chars.find(
+      (c) => c.class === nameToClassKeyMapping[characterClassName]
+    );
+  }
+
+  return character;
 }
 
 export function getDefaultCharacterClass(gameId: string): string | null {
   const game = games.find((g) => g.id === gameId);
   if (game) return game.defaultClass;
+
+  return null;
+}
+
+export function getDefaultMonster(gameId: string): string | null {
+  const game = games.find((g) => g.id === gameId);
+  if (game) return game.defaultMonster;
 
   return null;
 }

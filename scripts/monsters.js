@@ -1106,6 +1106,30 @@ let monsters = [
     xws: "zealot",
   },
   {
+    deck: "blood-ooze",
+    name: "blood ooze",
+    points: 341,
+    expansion: "Crimson Scales",
+    image: "monster-stat-cards/crimson-scales/cs-blood-ooze-4.png",
+    xws: "waterspirit",
+  },
+  {
+    deck: "flaming-drake",
+    name: "Flaming Drake",
+    points: 341,
+    expansion: "Crimson Scales",
+    image: "monster-stat-cards/crimson-scales/cs-flaming-drake-4.png",
+    xws: "waterspirit",
+  },
+  {
+    deck: "frozen-cadaver",
+    name: "Frozen Cadaver",
+    points: 341,
+    expansion: "Crimson Scales",
+    image: "monster-stat-cards/crimson-scales/cs-frozen-cadaver-4.png",
+    xws: "waterspirit",
+  },
+  {
     deck: "gnashing-drake",
     name: "gnashing drake",
     points: 313,
@@ -1115,11 +1139,19 @@ let monsters = [
   },
   {
     deck: "boss",
-    name: "goremyon shatter-mind",
+    name: "Goremyon Shatter Mind",
     points: 317,
     expansion: "Crimson Scales",
     image: "monster-stat-cards/crimson-scales/cs-goremyon-shatter-mind-6.png",
     xws: "goremyonshattermind",
+  },
+  {
+    deck: "hail-demon",
+    name: "Hail Demon",
+    points: 341,
+    expansion: "Crimson Scales",
+    image: "monster-stat-cards/crimson-scales/cs-hail-demon-4.png",
+    xws: "waterspirit",
   },
   {
     deck: "harrower-aegis",
@@ -1128,6 +1160,14 @@ let monsters = [
     expansion: "Crimson Scales",
     image: "monster-stat-cards/crimson-scales/cs-harrower-aegis-6.png",
     xws: "harroweraegis",
+  },
+  {
+    deck: "harrower-icecrawlers",
+    name: "harrower Icecrawlers",
+    points: 341,
+    expansion: "Crimson Scales",
+    image: "monster-stat-cards/crimson-scales/cs-harrower-icecrawlers-4.png",
+    xws: "waterspirit",
   },
   {
     deck: "boss",
@@ -1162,6 +1202,14 @@ let monsters = [
     xws: "terrorscaledrake",
   },
   {
+    deck: "toxic-imp",
+    name: "Toxic Imp",
+    points: 341,
+    expansion: "Crimson Scales",
+    image: "monster-stat-cards/crimson-scales/cs-toxic-imp-4.png",
+    xws: "waterspirit",
+  },
+  {
     deck: "water-spirit",
     name: "water spirit",
     points: 341,
@@ -1170,7 +1218,7 @@ let monsters = [
     xws: "waterspirit",
   },
   {
-    deck: "scavenger",
+    deck: "boss",
     name: "harrower bugflute",
     points: 345,
     expansion: "Trail of Ashes",
@@ -1202,8 +1250,24 @@ let monsters = [
     xws: "talo",
   },
   {
+    deck: "scavenger",
+    name: "vermling scavenger",
+    points: 361,
+    expansion: "Trail of Ashes",
+    image: "monster-stat-cards/trail-of-ashes/toa-vermling-scavenger-4.png",
+    xws: "valrathvanquisher",
+  },
+  {
     deck: "valrath-vanquisher",
     name: "valrath vanquisher",
+    points: 361,
+    expansion: "Trail of Ashes",
+    image: "monster-stat-cards/trail-of-ashes/toa-valrath-vanquisher-6.png",
+    xws: "valrathvanquisher",
+  },
+  {
+    deck: "enraged-vanquisher",
+    name: "enraged vanquisher",
     points: 361,
     expansion: "Trail of Ashes",
     image: "monster-stat-cards/trail-of-ashes/toa-valrath-vanquisher-6.png",
@@ -11916,6 +11980,69 @@ let monsterAbilities = [
       "monster-ability-cards/trail-of-ashes/valrath-vanquisher/toa-ma-valrath-vanquisher-4.png",
     xws: "toamavalrath-vanquisher4",
   },
+  {
+    name: "gh-ma-bo-back",
+    points: 18,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-back.png",
+    xws: "ghmaboback",
+  },
+  {
+    name: "gh-ma-bo-1",
+    points: 19,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-1.png",
+    xws: "ghmabo1",
+  },
+  {
+    name: "gh-ma-bo-2",
+    points: 20,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-2.png",
+    xws: "ghmabo2",
+  },
+  {
+    name: "gh-ma-bo-3",
+    points: 21,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-3.png",
+    xws: "ghmabo3",
+  },
+  {
+    name: "gh-ma-bo-4",
+    points: 22,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-4.png",
+    xws: "ghmabo4",
+  },
+  {
+    name: "gh-ma-bo-5",
+    points: 23,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-5.png",
+    xws: "ghmabo5",
+  },
+  {
+    name: "gh-ma-bo-6",
+    points: 24,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-6.png",
+    xws: "ghmabo6",
+  },
+  {
+    name: "gh-ma-bo-7",
+    points: 25,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-7.png",
+    xws: "ghmabo7",
+  },
+  {
+    name: "gh-ma-bo-8",
+    points: 26,
+    expansion: "Trail of Ashes",
+    image: "monster-ability-cards/gloomhaven/boss/gh-ma-bo-8.png",
+    xws: "ghmabo8",
+  },
 ];
 
 const groupBy = (items, key) =>
@@ -11926,15 +12053,6 @@ const groupBy = (items, key) =>
     }),
     {}
   );
-
-const group = (items) =>
-  items.reduce((result, item) => {
-    const key = item.image.split("/")[2];
-    return {
-      ...result,
-      [key]: [...(result[key] || []), item],
-    };
-  }, {});
 
 monsterAbilities = monsterAbilities
   .filter((a) => !a.name.endsWith("-back"))
@@ -12005,7 +12123,7 @@ monsters = monsters
         game = "";
     }
 
-    let id = monster.name.replace(" ", "-");
+    let id = monster.name.replaceAll(" ", "-");
     let statCards = [];
     if (monster.image.endsWith("-4.png")) {
       statCards = [monster.image.replace("-4.png", "-0.png"), monster.image];
@@ -12018,25 +12136,46 @@ monsters = monsters
       ];
     }
 
-    let abilityCards = monsterAbilities[game]?.[monster.deck];
+    let isVertical = monster.image.endsWith("-6.png");
+    let gameId = game === "jotl" ? "jl" : game;
+    let abilityCards =
+      monsterAbilities[game]?.[monster.deck]
+        ?.map((a) => {
+          if (game == "fh")
+            return a.image.replace("gloomhaven/boss/gh", "frosthaven/boss/fh");
+          if (game == "jotl")
+            return a.image.replace(
+              "gloomhaven/boss/gh",
+              "jaws-of-the-lion/boss/jl"
+            );
+          return a.image;
+        })
+        ?.filter((a) => !a.endsWith("-back.png"))
+        ?.filter((a) => {
+          return (
+            id === "enraged-vanquisher" ||
+            monster.deck === "boss" ||
+            monster.expansion === "Forgotten Circles" ||
+            a.split("/")[3]?.startsWith(`${gameId}-ma`)
+          );
+        }) || [];
+    abilityCards = [...new Set(abilityCards)].sort();
+
     return {
       id: id,
       name: monster.name
         .toLowerCase()
         .split(" ")
-        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .map((w, i) =>
+          i !== 0 && (w === "of" || w === "the")
+            ? w
+            : w.charAt(0).toUpperCase() + w.slice(1)
+        )
         .join(" "),
       game: game,
       statCards: statCards,
-      abilityCards:
-        abilityCards
-          ?.map((a) => a.image)
-          ?.filter((a) => !a.endsWith("-back.png")) || [],
-      isVertical: !!(
-        game == "toa" ||
-        game == "cs" ||
-        (game == "fh" && monster.deck === "boss")
-      ),
+      abilityCards: abilityCards,
+      isVertical: isVertical,
     };
   });
 

@@ -2,6 +2,7 @@ import { Event } from "../common/types";
 export const eventCards: Record<string, Event[]> = {
   gh: [
     {
+      id: 1,
       name: 1,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-01-f.jpeg",
@@ -9,6 +10,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 2,
       name: 2,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-02-f.jpeg",
@@ -16,6 +18,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 3,
       name: 3,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-03-f.jpeg",
@@ -23,6 +26,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 4,
       name: 4,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-04-f.jpeg",
@@ -30,6 +34,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 5,
       name: 5,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-05-f.jpeg",
@@ -37,6 +42,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 6,
       name: 6,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-06-f.jpeg",
@@ -44,6 +50,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 7,
       name: 7,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-07-f.jpeg",
@@ -51,6 +58,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 8,
       name: 8,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-08-f.jpeg",
@@ -58,6 +66,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 9,
       name: 9,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-09-f.jpeg",
@@ -65,6 +74,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 10,
       name: 10,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-10-f.jpeg",
@@ -72,6 +82,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 11,
       name: 11,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-11-f.jpeg",
@@ -79,6 +90,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 12,
       name: 12,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-12-f.jpeg",
@@ -86,6 +98,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 13,
       name: 13,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-13-f.jpeg",
@@ -93,6 +106,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 14,
       name: 14,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-14-f.jpeg",
@@ -100,6 +114,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 15,
       name: 15,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-15-f.jpeg",
@@ -107,6 +122,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 16,
       name: 16,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-16-f.jpeg",
@@ -114,6 +130,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 17,
       name: 17,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-17-f.jpeg",
@@ -121,6 +138,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 18,
       name: 18,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-18-f.jpeg",
@@ -128,6 +146,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 19,
       name: 19,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-19-f.jpeg",
@@ -135,6 +154,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 20,
       name: 20,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-20-f.jpeg",
@@ -142,6 +162,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 21,
       name: 21,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-21-f.jpeg",
@@ -149,6 +170,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 22,
       name: 22,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-22-f.jpeg",
@@ -156,6 +178,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 23,
       name: 23,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-23-f.jpeg",
@@ -163,6 +186,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 24,
       name: 24,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-24-f.jpeg",
@@ -170,6 +194,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 25,
       name: 25,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-25-f.jpeg",
@@ -177,6 +202,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 26,
       name: 26,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-26-f.jpeg",
@@ -184,6 +210,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 27,
       name: 27,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-27-f.jpeg",
@@ -191,6 +218,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 28,
       name: 28,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-28-f.jpeg",
@@ -198,6 +226,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 29,
       name: 29,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-29-f.jpeg",
@@ -205,6 +234,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 30,
       name: 30,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-30-f.jpeg",
@@ -212,6 +242,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 31,
       name: 31,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-31-f.jpeg",
@@ -219,6 +250,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 32,
       name: 32,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-32-f.jpeg",
@@ -226,6 +258,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 33,
       name: 33,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-33-f.jpeg",
@@ -233,6 +266,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 34,
       name: 34,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-34-f.jpeg",
@@ -240,6 +274,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 35,
       name: 35,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-35-f.jpeg",
@@ -247,6 +282,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 36,
       name: 36,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-36-f.jpeg",
@@ -254,6 +290,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 37,
       name: 37,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-37-f.jpeg",
@@ -261,6 +298,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 38,
       name: 38,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-38-f.jpeg",
@@ -268,6 +306,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 39,
       name: 39,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-39-f.jpeg",
@@ -275,6 +314,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 40,
       name: 40,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-40-f.jpeg",
@@ -282,6 +322,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 41,
       name: 41,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-41-f.jpeg",
@@ -289,6 +330,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 42,
       name: 42,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-42-f.jpeg",
@@ -296,6 +338,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 43,
       name: 43,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-43-f.jpeg",
@@ -303,6 +346,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 44,
       name: 44,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-44-f.jpeg",
@@ -310,6 +354,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 45,
       name: 45,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-45-f.jpeg",
@@ -317,6 +362,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 46,
       name: 46,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-46-f.jpeg",
@@ -324,6 +370,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 47,
       name: 47,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-47-f.jpeg",
@@ -331,6 +378,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 48,
       name: 48,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-48-f.jpeg",
@@ -338,6 +386,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 49,
       name: 49,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-49-f.jpeg",
@@ -345,6 +394,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 50,
       name: 50,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-50-f.jpeg",
@@ -352,6 +402,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 51,
       name: 51,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-51-f.jpeg",
@@ -359,6 +410,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 52,
       name: 52,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-52-f.jpeg",
@@ -366,6 +418,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 53,
       name: 53,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-53-f.jpeg",
@@ -373,6 +426,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 54,
       name: 54,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-54-f.jpeg",
@@ -380,6 +434,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 55,
       name: 55,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-55-f.jpeg",
@@ -387,6 +442,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 56,
       name: 56,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-56-f.jpeg",
@@ -394,6 +450,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 57,
       name: 57,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-57-f.jpeg",
@@ -401,6 +458,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 58,
       name: 58,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-58-f.jpeg",
@@ -408,6 +466,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 59,
       name: 59,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-59-f.jpeg",
@@ -415,6 +474,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 60,
       name: 60,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-60-f.jpeg",
@@ -422,6 +482,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 61,
       name: 61,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-61-f.jpeg",
@@ -429,6 +490,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 62,
       name: 62,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-62-f.jpeg",
@@ -436,6 +498,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 63,
       name: 63,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-63-f.jpeg",
@@ -443,6 +506,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 64,
       name: 64,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-64-f.jpeg",
@@ -450,6 +514,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 65,
       name: 65,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-65-f.jpeg",
@@ -457,6 +522,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 66,
       name: 66,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-66-f.jpeg",
@@ -464,6 +530,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 67,
       name: 67,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-67-f.jpeg",
@@ -471,6 +538,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 68,
       name: 68,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-68-f.jpeg",
@@ -478,6 +546,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 69,
       name: 69,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-69-f.jpeg",
@@ -485,6 +554,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 70,
       name: 70,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-70-f.jpeg",
@@ -492,6 +562,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 71,
       name: 71,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-71-f.jpeg",
@@ -499,6 +570,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 72,
       name: 72,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-72-f.jpeg",
@@ -506,6 +578,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 73,
       name: 73,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-73-f.jpeg",
@@ -513,6 +586,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 74,
       name: 74,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-74-f.jpeg",
@@ -520,6 +594,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 75,
       name: 75,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-75-f.jpeg",
@@ -527,6 +602,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 76,
       name: 76,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-76-f.jpeg",
@@ -534,6 +610,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 77,
       name: 77,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-77-f.jpeg",
@@ -541,6 +618,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 78,
       name: 78,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-78-f.jpeg",
@@ -548,6 +626,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 79,
       name: 79,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-79-f.jpeg",
@@ -555,6 +634,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 80,
       name: 80,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-80-f.jpeg",
@@ -562,6 +642,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 81,
       name: 81,
       game: "gh",
       image: "events/gloomhaven/city/gh-ce-81-f.jpeg",
@@ -569,6 +650,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 1,
       name: 1,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-01-f.jpeg",
@@ -576,6 +658,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 2,
       name: 2,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-02-f.jpeg",
@@ -583,6 +666,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 3,
       name: 3,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-03-f.jpeg",
@@ -590,6 +674,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 4,
       name: 4,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-04-f.jpeg",
@@ -597,6 +682,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 5,
       name: 5,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-05-f.jpeg",
@@ -604,6 +690,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 6,
       name: 6,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-06-f.jpeg",
@@ -611,6 +698,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 7,
       name: 7,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-07-f.jpeg",
@@ -618,6 +706,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 8,
       name: 8,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-08-f.jpeg",
@@ -625,6 +714,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 9,
       name: 9,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-09-f.jpeg",
@@ -632,6 +722,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 10,
       name: 10,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-10-f.jpeg",
@@ -639,6 +730,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 11,
       name: 11,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-11-f.jpeg",
@@ -646,6 +738,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 12,
       name: 12,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-12-f.jpeg",
@@ -653,6 +746,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 13,
       name: 13,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-13-f.jpeg",
@@ -660,6 +754,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 14,
       name: 14,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-14-f.jpeg",
@@ -667,6 +762,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 15,
       name: 15,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-15-f.jpeg",
@@ -674,6 +770,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 16,
       name: 16,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-16-f.jpeg",
@@ -681,6 +778,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 17,
       name: 17,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-17-f.jpeg",
@@ -688,6 +786,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 18,
       name: 18,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-18-f.jpeg",
@@ -695,6 +794,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 19,
       name: 19,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-19-f.jpeg",
@@ -702,6 +802,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 20,
       name: 20,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-20-f.jpeg",
@@ -709,6 +810,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 21,
       name: 21,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-21-f.jpeg",
@@ -716,6 +818,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 22,
       name: 22,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-22-f.jpeg",
@@ -723,6 +826,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 23,
       name: 23,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-23-f.jpeg",
@@ -730,6 +834,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 24,
       name: 24,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-24-f.jpeg",
@@ -737,6 +842,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 25,
       name: 25,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-25-f.jpeg",
@@ -744,6 +850,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 26,
       name: 26,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-26-f.jpeg",
@@ -751,6 +858,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 27,
       name: 27,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-27-f.jpeg",
@@ -758,6 +866,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 28,
       name: 28,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-28-f.jpeg",
@@ -765,6 +874,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 29,
       name: 29,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-29-f.jpeg",
@@ -772,6 +882,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 30,
       name: 30,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-30-f.jpeg",
@@ -779,6 +890,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 31,
       name: 31,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-31-f.jpeg",
@@ -786,6 +898,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 32,
       name: 32,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-32-f.jpeg",
@@ -793,6 +906,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 33,
       name: 33,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-33-f.jpeg",
@@ -800,6 +914,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 34,
       name: 34,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-34-f.jpeg",
@@ -807,6 +922,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 35,
       name: 35,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-35-f.jpeg",
@@ -814,6 +930,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 36,
       name: 36,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-36-f.jpeg",
@@ -821,6 +938,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 37,
       name: 37,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-37-f.jpeg",
@@ -828,6 +946,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 38,
       name: 38,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-38-f.jpeg",
@@ -835,6 +954,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 39,
       name: 39,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-39-f.jpeg",
@@ -842,6 +962,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 40,
       name: 40,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-40-f.jpeg",
@@ -849,6 +970,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 41,
       name: 41,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-41-f.jpeg",
@@ -856,6 +978,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 42,
       name: 42,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-42-f.jpeg",
@@ -863,6 +986,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 43,
       name: 43,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-43-f.jpeg",
@@ -870,6 +994,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 44,
       name: 44,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-44-f.jpeg",
@@ -877,6 +1002,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 45,
       name: 45,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-45-f.jpeg",
@@ -884,6 +1010,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 46,
       name: 46,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-46-f.jpeg",
@@ -891,6 +1018,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 47,
       name: 47,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-47-f.jpeg",
@@ -898,6 +1026,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 48,
       name: 48,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-48-f.jpeg",
@@ -905,6 +1034,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 49,
       name: 49,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-49-f.jpeg",
@@ -912,6 +1042,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 50,
       name: 50,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-50-f.jpeg",
@@ -919,6 +1050,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 51,
       name: 51,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-51-f.jpeg",
@@ -926,6 +1058,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 52,
       name: 52,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-52-f.jpeg",
@@ -933,6 +1066,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 53,
       name: 53,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-53-f.jpeg",
@@ -940,6 +1074,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 54,
       name: 54,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-54-f.jpeg",
@@ -947,6 +1082,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 55,
       name: 55,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-55-f.jpeg",
@@ -954,6 +1090,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 56,
       name: 56,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-56-f.jpeg",
@@ -961,6 +1098,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 57,
       name: 57,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-57-f.jpeg",
@@ -968,6 +1106,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 58,
       name: 58,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-58-f.jpeg",
@@ -975,6 +1114,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 59,
       name: 59,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-59-f.jpeg",
@@ -982,6 +1122,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 60,
       name: 60,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-60-f.jpeg",
@@ -989,6 +1130,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 61,
       name: 61,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-61-f.jpeg",
@@ -996,6 +1138,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 62,
       name: 62,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-62-f.jpeg",
@@ -1003,6 +1146,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 63,
       name: 63,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-63-f.jpeg",
@@ -1010,6 +1154,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 64,
       name: 64,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-64-f.jpeg",
@@ -1017,6 +1162,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 65,
       name: 65,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-65-f.jpeg",
@@ -1024,6 +1170,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 66,
       name: 66,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-66-f.jpeg",
@@ -1031,6 +1178,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 67,
       name: 67,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-67-f.jpeg",
@@ -1038,6 +1186,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 68,
       name: 68,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-68-f.jpeg",
@@ -1045,6 +1194,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 69,
       name: 69,
       game: "gh",
       image: "events/gloomhaven/road/gh-re-69-f.jpeg",
@@ -1052,6 +1202,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 82,
       name: 82,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-82-f.jpeg",
@@ -1059,6 +1210,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 83,
       name: 83,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-83-f.jpeg",
@@ -1066,6 +1218,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 84,
       name: 84,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-84-f.jpeg",
@@ -1073,6 +1226,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 85,
       name: 85,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-85-f.jpeg",
@@ -1080,6 +1234,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 86,
       name: 86,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-86-f.jpeg",
@@ -1087,6 +1242,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 87,
       name: 87,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-87-f.jpeg",
@@ -1094,6 +1250,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 88,
       name: 88,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-88-f.jpeg",
@@ -1101,6 +1258,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 89,
       name: 89,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-89-f.jpeg",
@@ -1108,6 +1266,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 90,
       name: 90,
       game: "gh",
       image: "events/forgotten-circles/city/fc-ce-90-f.jpeg",
@@ -1115,6 +1274,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 1,
       name: 1,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-01-f.jpeg",
@@ -1122,6 +1282,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 2,
       name: 2,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-02-f.jpeg",
@@ -1129,6 +1290,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 3,
       name: 3,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-03-f.jpeg",
@@ -1136,6 +1298,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 4,
       name: 4,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-04-f.jpeg",
@@ -1143,6 +1306,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 5,
       name: 5,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-05-f.jpeg",
@@ -1150,6 +1314,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 6,
       name: 6,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-06-f.jpeg",
@@ -1157,6 +1322,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 7,
       name: 7,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-07-f.jpeg",
@@ -1164,6 +1330,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 8,
       name: 8,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-08-f.jpeg",
@@ -1171,6 +1338,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 9,
       name: 9,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-09-f.jpeg",
@@ -1178,6 +1346,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 10,
       name: 10,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-10-f.jpeg",
@@ -1185,6 +1354,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 11,
       name: 11,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-11-f.jpeg",
@@ -1192,6 +1362,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 12,
       name: 12,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-12-f.jpeg",
@@ -1199,6 +1370,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 13,
       name: 13,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-13-f.jpeg",
@@ -1206,6 +1378,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 14,
       name: 14,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-14-f.jpeg",
@@ -1213,6 +1386,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 15,
       name: 15,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-15-f.jpeg",
@@ -1220,6 +1394,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 16,
       name: 16,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-16-f.jpeg",
@@ -1227,6 +1402,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 17,
       name: 17,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-17-f.jpeg",
@@ -1234,6 +1410,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 18,
       name: 18,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-18-f.jpeg",
@@ -1241,6 +1418,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 19,
       name: 19,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-19-f.jpeg",
@@ -1248,6 +1426,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 20,
       name: 20,
       game: "gh",
       image: "events/forgotten-circles/rift/fc-rf-20-f.jpeg",
@@ -1255,6 +1434,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "rift",
     },
     {
+      id: 82,
       name: 82,
       game: "gh",
       image: "events/forgotten-circles/road/fc-re-82-f.jpeg",
@@ -1262,6 +1442,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 83,
       name: 83,
       game: "gh",
       image: "events/forgotten-circles/road/fc-re-83-f.jpeg",
@@ -1271,6 +1452,7 @@ export const eventCards: Record<string, Event[]> = {
   ],
   jotl: [
     {
+      id: 1,
       name: 1,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-01-f.jpeg",
@@ -1278,6 +1460,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 2,
       name: 2,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-02-f.jpeg",
@@ -1285,6 +1468,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 3,
       name: 3,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-03-f.jpeg",
@@ -1292,6 +1476,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 4,
       name: 4,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-04-f.jpeg",
@@ -1299,6 +1484,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 5,
       name: 5,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-05-f.jpeg",
@@ -1306,6 +1492,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 6,
       name: 6,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-06-f.jpeg",
@@ -1313,6 +1500,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 7,
       name: 7,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-07-f.jpeg",
@@ -1320,6 +1508,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 8,
       name: 8,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-08-f.jpeg",
@@ -1327,6 +1516,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 9,
       name: 9,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-09-f.jpeg",
@@ -1334,6 +1524,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 10,
       name: 10,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-10-f.jpeg",
@@ -1341,6 +1532,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 11,
       name: 11,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-11-f.jpeg",
@@ -1348,6 +1540,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 12,
       name: 12,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-12-f.jpeg",
@@ -1355,6 +1548,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 13,
       name: 13,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-13-f.jpeg",
@@ -1362,6 +1556,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 14,
       name: 14,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-14-f.jpeg",
@@ -1369,6 +1564,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 15,
       name: 15,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-15-f.jpeg",
@@ -1376,6 +1572,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 16,
       name: 16,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-16-f.jpeg",
@@ -1383,6 +1580,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 17,
       name: 17,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-17-f.jpeg",
@@ -1390,6 +1588,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 18,
       name: 18,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-18-f.jpeg",
@@ -1397,6 +1596,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 19,
       name: 19,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-19-f.jpeg",
@@ -1404,6 +1604,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 20,
       name: 20,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-20-f.jpeg",
@@ -1411,6 +1612,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 21,
       name: 21,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-21-f.jpeg",
@@ -1418,6 +1620,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 22,
       name: 22,
       game: "jotl",
       image: "events/jaws-of-the-lion/city/jl-ce-22-f.jpeg",
@@ -1427,6 +1630,7 @@ export const eventCards: Record<string, Event[]> = {
   ],
   cs: [
     {
+      id: 1,
       name: 1,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-01-f.jpeg",
@@ -1434,6 +1638,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 2,
       name: 2,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-02-f.jpeg",
@@ -1441,6 +1646,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 3,
       name: 3,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-03-f.jpeg",
@@ -1448,6 +1654,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 4,
       name: 4,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-04-f.jpeg",
@@ -1455,6 +1662,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 5,
       name: 5,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-05-f.jpeg",
@@ -1462,6 +1670,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 6,
       name: 6,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-06-f.jpeg",
@@ -1469,6 +1678,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 7,
       name: 7,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-07-f.jpeg",
@@ -1476,6 +1686,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 8,
       name: 8,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-08-f.jpeg",
@@ -1483,6 +1694,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 9,
       name: 9,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-09-f.jpeg",
@@ -1490,6 +1702,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 10,
       name: 10,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-10-f.jpeg",
@@ -1497,6 +1710,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 11,
       name: 11,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-11-f.jpeg",
@@ -1504,6 +1718,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 12,
       name: 12,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-12-f.jpeg",
@@ -1511,6 +1726,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 13,
       name: 13,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-13-f.jpeg",
@@ -1518,6 +1734,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 14,
       name: 14,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-14-f.jpeg",
@@ -1525,6 +1742,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 15,
       name: 15,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-15-f.jpeg",
@@ -1532,6 +1750,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 16,
       name: 16,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-16-f.jpeg",
@@ -1539,6 +1758,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 17,
       name: 17,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-17-f.jpeg",
@@ -1546,6 +1766,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 18,
       name: 18,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-18-f.jpeg",
@@ -1553,6 +1774,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 19,
       name: 19,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-19-f.jpeg",
@@ -1560,6 +1782,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 20,
       name: 20,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-20-f.jpeg",
@@ -1567,6 +1790,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 21,
       name: 21,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-21-f.jpeg",
@@ -1574,6 +1798,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 22,
       name: 22,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-22-f.jpeg",
@@ -1581,6 +1806,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 23,
       name: 23,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-23-f.jpeg",
@@ -1588,6 +1814,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 24,
       name: 24,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-24-f.jpeg",
@@ -1595,6 +1822,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 25,
       name: 25,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-25-f.jpeg",
@@ -1602,6 +1830,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 26,
       name: 26,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-26-f.jpeg",
@@ -1609,6 +1838,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 27,
       name: 27,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-27-f.jpeg",
@@ -1616,6 +1846,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 28,
       name: 28,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-28-f.jpeg",
@@ -1623,6 +1854,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 29,
       name: 29,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-29-f.jpeg",
@@ -1630,6 +1862,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 30,
       name: 30,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-30-f.jpeg",
@@ -1637,6 +1870,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 31,
       name: 31,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-31-f.jpeg",
@@ -1644,6 +1878,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 32,
       name: 32,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-32-f.jpeg",
@@ -1651,6 +1886,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 33,
       name: 33,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-33-f.jpeg",
@@ -1658,6 +1894,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 34,
       name: 34,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-34-f.jpeg",
@@ -1665,6 +1902,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 35,
       name: 35,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-35-f.jpeg",
@@ -1672,6 +1910,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 36,
       name: 36,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-36-f.jpeg",
@@ -1679,6 +1918,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 37,
       name: 37,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-37-f.jpeg",
@@ -1686,6 +1926,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 38,
       name: 38,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-38-f.jpeg",
@@ -1693,6 +1934,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 39,
       name: 39,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-39-f.jpeg",
@@ -1700,6 +1942,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 40,
       name: 40,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-40-f.jpeg",
@@ -1707,6 +1950,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 41,
       name: 41,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-41-f.jpeg",
@@ -1714,6 +1958,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 42,
       name: 42,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-42-f.jpeg",
@@ -1721,6 +1966,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 43,
       name: 43,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-43-f.jpeg",
@@ -1728,6 +1974,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 44,
       name: 44,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-44-f.jpeg",
@@ -1735,6 +1982,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 45,
       name: 45,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-45-f.jpeg",
@@ -1742,6 +1990,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 46,
       name: 46,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-46-f.jpeg",
@@ -1749,6 +1998,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 47,
       name: 47,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-47-f.jpeg",
@@ -1756,6 +2006,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 48,
       name: 48,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-48-f.jpeg",
@@ -1763,6 +2014,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 49,
       name: 49,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-49-f.jpeg",
@@ -1770,6 +2022,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 50,
       name: 50,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-50-f.jpeg",
@@ -1777,6 +2030,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 51,
       name: 51,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-51-f.jpeg",
@@ -1784,6 +2038,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 52,
       name: 52,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-52-f.jpeg",
@@ -1791,6 +2046,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 53,
       name: 53,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-53-f.jpeg",
@@ -1798,6 +2054,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 54,
       name: 54,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-54-f.jpeg",
@@ -1805,6 +2062,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 55,
       name: 55,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-55-f.jpeg",
@@ -1812,6 +2070,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 56,
       name: 56,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-56-f.jpeg",
@@ -1819,6 +2078,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 57,
       name: 57,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-57-f.jpeg",
@@ -1826,6 +2086,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 58,
       name: 58,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-58-f.jpeg",
@@ -1833,6 +2094,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 59,
       name: 59,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-59-f.jpeg",
@@ -1840,6 +2102,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 60,
       name: 60,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-60-f.jpeg",
@@ -1847,6 +2110,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-aa-01-f.jpeg",
@@ -1854,6 +2118,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-aa-02-f.jpeg",
@@ -1861,6 +2126,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-qa-01-f.jpeg",
@@ -1868,6 +2134,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-qa-02-f.jpeg",
@@ -1875,6 +2142,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-qa-03-f.jpeg",
@@ -1882,6 +2150,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-rm-01-f.jpeg",
@@ -1889,6 +2158,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/city/cs-ce-rm-02-f.jpeg",
@@ -1896,6 +2166,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 1,
       name: 1,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-01-f.jpeg",
@@ -1903,6 +2174,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 2,
       name: 2,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-02-f.jpeg",
@@ -1910,6 +2182,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 3,
       name: 3,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-03-f.jpeg",
@@ -1917,6 +2190,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 4,
       name: 4,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-04-f.jpeg",
@@ -1924,6 +2198,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 5,
       name: 5,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-05-f.jpeg",
@@ -1931,6 +2206,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 6,
       name: 6,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-06-f.jpeg",
@@ -1938,6 +2214,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 7,
       name: 7,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-07-f.jpeg",
@@ -1945,6 +2222,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 8,
       name: 8,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-08-f.jpeg",
@@ -1952,6 +2230,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 9,
       name: 9,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-09-f.jpeg",
@@ -1959,6 +2238,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 10,
       name: 10,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-10-f.jpeg",
@@ -1966,6 +2246,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 11,
       name: 11,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-11-f.jpeg",
@@ -1973,6 +2254,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 12,
       name: 12,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-12-f.jpeg",
@@ -1980,6 +2262,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 13,
       name: 13,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-13-f.jpeg",
@@ -1987,6 +2270,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 14,
       name: 14,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-14-f.jpeg",
@@ -1994,6 +2278,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 15,
       name: 15,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-15-f.jpeg",
@@ -2001,6 +2286,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 16,
       name: 16,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-16-f.jpeg",
@@ -2008,6 +2294,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 17,
       name: 17,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-17-f.jpeg",
@@ -2015,6 +2302,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 18,
       name: 18,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-18-f.jpeg",
@@ -2022,6 +2310,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 19,
       name: 19,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-19-f.jpeg",
@@ -2029,6 +2318,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 20,
       name: 20,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-20-f.jpeg",
@@ -2036,6 +2326,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 21,
       name: 21,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-21-f.jpeg",
@@ -2043,6 +2334,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 22,
       name: 22,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-22-f.jpeg",
@@ -2050,6 +2342,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 23,
       name: 23,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-23-f.jpeg",
@@ -2057,6 +2350,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 24,
       name: 24,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-24-f.jpeg",
@@ -2064,6 +2358,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 25,
       name: 25,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-25-f.jpeg",
@@ -2071,6 +2366,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 26,
       name: 26,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-26-f.jpeg",
@@ -2078,6 +2374,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 27,
       name: 27,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-27-f.jpeg",
@@ -2085,6 +2382,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 28,
       name: 28,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-28-f.jpeg",
@@ -2092,6 +2390,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 29,
       name: 29,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-29-f.jpeg",
@@ -2099,6 +2398,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 30,
       name: 30,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-30-f.jpeg",
@@ -2106,6 +2406,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 31,
       name: 31,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-31-f.jpeg",
@@ -2113,6 +2414,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 32,
       name: 32,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-32-f.jpeg",
@@ -2120,6 +2422,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 33,
       name: 33,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-33-f.jpeg",
@@ -2127,6 +2430,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 34,
       name: 34,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-34-f.jpeg",
@@ -2134,6 +2438,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 35,
       name: 35,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-35-f.jpeg",
@@ -2141,6 +2446,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 36,
       name: 36,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-36-f.jpeg",
@@ -2148,6 +2454,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 37,
       name: 37,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-37-f.jpeg",
@@ -2155,6 +2462,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 38,
       name: 38,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-38-f.jpeg",
@@ -2162,6 +2470,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 39,
       name: 39,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-39-f.jpeg",
@@ -2169,6 +2478,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 40,
       name: 40,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-40-f.jpeg",
@@ -2176,6 +2486,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 41,
       name: 41,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-41-f.jpeg",
@@ -2183,6 +2494,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 42,
       name: 42,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-42-f.jpeg",
@@ -2190,6 +2502,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 43,
       name: 43,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-43-f.jpeg",
@@ -2197,6 +2510,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 44,
       name: 44,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-44-f.jpeg",
@@ -2204,6 +2518,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 45,
       name: 45,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-45-f.jpeg",
@@ -2211,6 +2526,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 46,
       name: 46,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-46-f.jpeg",
@@ -2218,6 +2534,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 47,
       name: 47,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-47-f.jpeg",
@@ -2225,6 +2542,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 48,
       name: 48,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-48-f.jpeg",
@@ -2232,6 +2550,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 49,
       name: 49,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-49-f.jpeg",
@@ -2239,6 +2558,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 50,
       name: 50,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-50-f.jpeg",
@@ -2246,6 +2566,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 51,
       name: 51,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-51-f.jpeg",
@@ -2253,6 +2574,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 52,
       name: 52,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-52-f.jpeg",
@@ -2260,6 +2582,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 53,
       name: 53,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-53-f.jpeg",
@@ -2267,6 +2590,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 54,
       name: 54,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-54-f.jpeg",
@@ -2274,6 +2598,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 55,
       name: 55,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-55-f.jpeg",
@@ -2281,6 +2606,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 56,
       name: 56,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-56-f.jpeg",
@@ -2288,6 +2614,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 57,
       name: 57,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-57-f.jpeg",
@@ -2295,6 +2622,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 58,
       name: 58,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-58-f.jpeg",
@@ -2302,6 +2630,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 59,
       name: 59,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-59-f.jpeg",
@@ -2309,6 +2638,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 60,
       name: 60,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-60-f.jpeg",
@@ -2316,6 +2646,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-aa-01-f.jpeg",
@@ -2323,6 +2654,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-aa-02-f.jpeg",
@@ -2330,6 +2662,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-qa-01-f.jpeg",
@@ -2337,6 +2670,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-qa-02-f.jpeg",
@@ -2344,6 +2678,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-rm-01-f.jpeg",
@@ -2351,6 +2686,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: null,
       name: null,
       game: "cs",
       image: "events/crimson-scales/road/cs-re-rm-02-f.jpeg",
@@ -2360,6 +2696,7 @@ export const eventCards: Record<string, Event[]> = {
   ],
   toa: [
     {
+      id: 61,
       name: 61,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-61-f.jpeg",
@@ -2367,6 +2704,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 62,
       name: 62,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-62-f.jpeg",
@@ -2374,6 +2712,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 63,
       name: 63,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-63-f.jpeg",
@@ -2381,6 +2720,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 64,
       name: 64,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-64-f.jpeg",
@@ -2388,6 +2728,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 65,
       name: 65,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-65-f.jpeg",
@@ -2395,6 +2736,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 66,
       name: 66,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-66-f.jpeg",
@@ -2402,6 +2744,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 67,
       name: 67,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-67-f.jpeg",
@@ -2409,6 +2752,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 68,
       name: 68,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-68-f.jpeg",
@@ -2416,6 +2760,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 69,
       name: 69,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-69-f.jpeg",
@@ -2423,6 +2768,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 70,
       name: 70,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-70-f.jpeg",
@@ -2430,6 +2776,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 71,
       name: 71,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-71-f.jpeg",
@@ -2437,6 +2784,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 72,
       name: 72,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-72-f.jpeg",
@@ -2444,6 +2792,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 73,
       name: 73,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-73-f.jpeg",
@@ -2451,6 +2800,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 74,
       name: 74,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-74-f.jpeg",
@@ -2458,6 +2808,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 75,
       name: 75,
       game: "toa",
       image: "events/trail-of-ashes/city/toa-ce-75-f.jpeg",
@@ -2465,6 +2816,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "city",
     },
     {
+      id: 61,
       name: 61,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-61-f.jpeg",
@@ -2472,6 +2824,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 62,
       name: 62,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-62-f.jpeg",
@@ -2479,6 +2832,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 63,
       name: 63,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-63-f.jpeg",
@@ -2486,6 +2840,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 64,
       name: 64,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-64-f.jpeg",
@@ -2493,6 +2848,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 65,
       name: 65,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-65-f.jpeg",
@@ -2500,6 +2856,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 66,
       name: 66,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-66-f.jpeg",
@@ -2507,6 +2864,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 67,
       name: 67,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-67-f.jpeg",
@@ -2514,6 +2872,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 68,
       name: 68,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-68-f.jpeg",
@@ -2521,6 +2880,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 69,
       name: 69,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-69-f.jpeg",
@@ -2528,6 +2888,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 70,
       name: 70,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-70-f.jpeg",
@@ -2535,6 +2896,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 71,
       name: 71,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-71-f.jpeg",
@@ -2542,6 +2904,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 72,
       name: 72,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-72-f.jpeg",
@@ -2549,6 +2912,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 73,
       name: 73,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-73-f.jpeg",
@@ -2556,6 +2920,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 74,
       name: 74,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-74-f.jpeg",
@@ -2563,6 +2928,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "road",
     },
     {
+      id: 75,
       name: 75,
       game: "toa",
       image: "events/trail-of-ashes/road/toa-re-75-f.jpeg",
@@ -2572,6 +2938,7 @@ export const eventCards: Record<string, Event[]> = {
   ],
   fh: [
     {
+      id: 1,
       name: 1,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-01-f.jpeg",
@@ -2579,6 +2946,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 2,
       name: 2,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-02-f.jpeg",
@@ -2586,6 +2954,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 3,
       name: 3,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-03-f.jpeg",
@@ -2593,6 +2962,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 4,
       name: 4,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-04-f.jpeg",
@@ -2600,6 +2970,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 5,
       name: 5,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-05-f.jpeg",
@@ -2607,6 +2978,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 6,
       name: 6,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-06-f.jpeg",
@@ -2614,6 +2986,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 7,
       name: 7,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-07-f.jpeg",
@@ -2621,6 +2994,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 8,
       name: 8,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-08-f.jpeg",
@@ -2628,6 +3002,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 9,
       name: 9,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-09-f.jpeg",
@@ -2635,6 +3010,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 10,
       name: 10,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-10-f.jpeg",
@@ -2642,6 +3018,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 11,
       name: 11,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-11-f.jpeg",
@@ -2649,6 +3026,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 12,
       name: 12,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-12-f.jpeg",
@@ -2656,6 +3034,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 13,
       name: 13,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-13-f.jpeg",
@@ -2663,6 +3042,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 14,
       name: 14,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-14-f.jpeg",
@@ -2670,6 +3050,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 15,
       name: 15,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-15-f.jpeg",
@@ -2677,6 +3058,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 16,
       name: 16,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-16-f.jpeg",
@@ -2684,6 +3066,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 17,
       name: 17,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-17-f.jpeg",
@@ -2691,6 +3074,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 18,
       name: 18,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-18-f.jpeg",
@@ -2698,6 +3082,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 19,
       name: 19,
       game: "fh",
       image: "events/frosthaven/boat/fh-be-19-f.jpeg",
@@ -2705,6 +3090,7 @@ export const eventCards: Record<string, Event[]> = {
       eventType: "boat",
     },
     {
+      id: 1,
       name: 1,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-01-f.jpeg",
@@ -2713,6 +3099,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 2,
       name: 2,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-02-f.jpeg",
@@ -2721,6 +3108,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 3,
       name: 3,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-03-f.jpeg",
@@ -2729,6 +3117,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 4,
       name: 4,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-04-f.jpeg",
@@ -2737,6 +3126,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 5,
       name: 5,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-05-f.jpeg",
@@ -2745,6 +3135,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 6,
       name: 6,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-06-f.jpeg",
@@ -2753,6 +3144,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 7,
       name: 7,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-07-f.jpeg",
@@ -2761,6 +3153,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 8,
       name: 8,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-08-f.jpeg",
@@ -2769,6 +3162,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 9,
       name: 9,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-09-f.jpeg",
@@ -2777,6 +3171,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 10,
       name: 10,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-10-f.jpeg",
@@ -2785,6 +3180,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 11,
       name: 11,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-11-f.jpeg",
@@ -2793,6 +3189,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 12,
       name: 12,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-12-f.jpeg",
@@ -2801,6 +3198,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 13,
       name: 13,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-13-f.jpeg",
@@ -2809,6 +3207,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 14,
       name: 14,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-14-f.jpeg",
@@ -2817,6 +3216,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 15,
       name: 15,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-15-f.jpeg",
@@ -2825,6 +3225,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 16,
       name: 16,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-16-f.jpeg",
@@ -2833,6 +3234,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 17,
       name: 17,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-17-f.jpeg",
@@ -2841,6 +3243,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 18,
       name: 18,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-18-f.jpeg",
@@ -2849,6 +3252,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 19,
       name: 19,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-19-f.jpeg",
@@ -2857,6 +3261,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 20,
       name: 20,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-20-f.jpeg",
@@ -2865,6 +3270,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 21,
       name: 21,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-21-f.jpeg",
@@ -2873,6 +3279,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 22,
       name: 22,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-22-f.jpeg",
@@ -2881,6 +3288,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 23,
       name: 23,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-23-f.jpeg",
@@ -2889,6 +3297,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 24,
       name: 24,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-24-f.jpeg",
@@ -2897,6 +3306,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 25,
       name: 25,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-25-f.jpeg",
@@ -2905,6 +3315,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 26,
       name: 26,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-26-f.jpeg",
@@ -2913,6 +3324,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 27,
       name: 27,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-27-f.jpeg",
@@ -2921,6 +3333,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 28,
       name: 28,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-28-f.jpeg",
@@ -2929,6 +3342,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 29,
       name: 29,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-29-f.jpeg",
@@ -2937,6 +3351,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 30,
       name: 30,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-30-f.jpeg",
@@ -2945,6 +3360,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 31,
       name: 31,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-31-f.jpeg",
@@ -2953,6 +3369,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 32,
       name: 32,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-32-f.jpeg",
@@ -2961,6 +3378,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 33,
       name: 33,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-33-f.jpeg",
@@ -2969,6 +3387,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 34,
       name: 34,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-34-f.jpeg",
@@ -2977,6 +3396,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 35,
       name: 35,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-35-f.jpeg",
@@ -2985,6 +3405,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 36,
       name: 36,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-36-f.jpeg",
@@ -2993,6 +3414,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 37,
       name: 37,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-37-f.jpeg",
@@ -3001,6 +3423,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 38,
       name: 38,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-38-f.jpeg",
@@ -3009,6 +3432,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 39,
       name: 39,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-39-f.jpeg",
@@ -3017,6 +3441,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 40,
       name: 40,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-40-f.jpeg",
@@ -3025,6 +3450,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 41,
       name: 41,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-41-f.jpeg",
@@ -3033,6 +3459,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 42,
       name: 42,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-42-f.jpeg",
@@ -3041,6 +3468,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 43,
       name: 43,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-43-f.jpeg",
@@ -3049,6 +3477,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 44,
       name: 44,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-44-f.jpeg",
@@ -3057,6 +3486,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 45,
       name: 45,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-45-f.jpeg",
@@ -3065,6 +3495,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 46,
       name: 46,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-46-f.jpeg",
@@ -3073,6 +3504,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 47,
       name: 47,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-47-f.jpeg",
@@ -3081,6 +3513,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 48,
       name: 48,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-48-f.jpeg",
@@ -3089,6 +3522,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 49,
       name: 49,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-49-f.jpeg",
@@ -3097,6 +3531,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 50,
       name: 50,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-50-f.jpeg",
@@ -3105,6 +3540,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 51,
       name: 51,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-51-f.jpeg",
@@ -3113,6 +3549,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 52,
       name: 52,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-52-f.jpeg",
@@ -3121,6 +3558,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 53,
       name: 53,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-53-f.jpeg",
@@ -3129,6 +3567,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 54,
       name: 54,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-54-f.jpeg",
@@ -3137,6 +3576,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 55,
       name: 55,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-55-f.jpeg",
@@ -3145,6 +3585,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 56,
       name: 56,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-56-f.jpeg",
@@ -3153,6 +3594,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 57,
       name: 57,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-57-f.jpeg",
@@ -3161,6 +3603,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 58,
       name: 58,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-58-f.jpeg",
@@ -3169,6 +3612,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 59,
       name: 59,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-59-f.jpeg",
@@ -3177,6 +3621,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 60,
       name: 60,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-60-f.jpeg",
@@ -3185,6 +3630,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 61,
       name: 61,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-61-f.jpeg",
@@ -3193,6 +3639,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 62,
       name: 62,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-62-f.jpeg",
@@ -3201,6 +3648,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 63,
       name: 63,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-63-f.jpeg",
@@ -3209,6 +3657,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 64,
       name: 64,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-64-f.jpeg",
@@ -3217,6 +3666,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 65,
       name: 65,
       game: "fh",
       image: "events/frosthaven/outpost/fh-soe-65-f.jpeg",
@@ -3225,6 +3675,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 1,
       name: 1,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-01-f.jpeg",
@@ -3233,6 +3684,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 2,
       name: 2,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-02-f.jpeg",
@@ -3241,6 +3693,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 3,
       name: 3,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-03-f.jpeg",
@@ -3249,6 +3702,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 4,
       name: 4,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-04-f.jpeg",
@@ -3257,6 +3711,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 5,
       name: 5,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-05-f.jpeg",
@@ -3265,6 +3720,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 6,
       name: 6,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-06-f.jpeg",
@@ -3273,6 +3729,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 7,
       name: 7,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-07-f.jpeg",
@@ -3281,6 +3738,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 8,
       name: 8,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-08-f.jpeg",
@@ -3289,6 +3747,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 9,
       name: 9,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-09-f.jpeg",
@@ -3297,6 +3756,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 10,
       name: 10,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-10-f.jpeg",
@@ -3305,6 +3765,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 11,
       name: 11,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-11-f.jpeg",
@@ -3313,6 +3774,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 12,
       name: 12,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-12-f.jpeg",
@@ -3321,6 +3783,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 13,
       name: 13,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-13-f.jpeg",
@@ -3329,6 +3792,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 14,
       name: 14,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-14-f.jpeg",
@@ -3337,6 +3801,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 15,
       name: 15,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-15-f.jpeg",
@@ -3345,6 +3810,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 16,
       name: 16,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-16-f.jpeg",
@@ -3353,6 +3819,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 17,
       name: 17,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-17-f.jpeg",
@@ -3361,6 +3828,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 18,
       name: 18,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-18-f.jpeg",
@@ -3369,6 +3837,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 19,
       name: 19,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-19-f.jpeg",
@@ -3377,6 +3846,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 20,
       name: 20,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-20-f.jpeg",
@@ -3385,6 +3855,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 21,
       name: 21,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-21-f.jpeg",
@@ -3393,6 +3864,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 22,
       name: 22,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-22-f.jpeg",
@@ -3401,6 +3873,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 23,
       name: 23,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-23-f.jpeg",
@@ -3409,6 +3882,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 24,
       name: 24,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-24-f.jpeg",
@@ -3417,6 +3891,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 25,
       name: 25,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-25-f.jpeg",
@@ -3425,6 +3900,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 26,
       name: 26,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-26-f.jpeg",
@@ -3433,6 +3909,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 27,
       name: 27,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-27-f.jpeg",
@@ -3441,6 +3918,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 28,
       name: 28,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-28-f.jpeg",
@@ -3449,6 +3927,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 29,
       name: 29,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-29-f.jpeg",
@@ -3457,6 +3936,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 30,
       name: 30,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-30-f.jpeg",
@@ -3465,6 +3945,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 31,
       name: 31,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-31-f.jpeg",
@@ -3473,6 +3954,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 32,
       name: 32,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-32-f.jpeg",
@@ -3481,6 +3963,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 33,
       name: 33,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-33-f.jpeg",
@@ -3489,6 +3972,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 34,
       name: 34,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-34-f.jpeg",
@@ -3497,6 +3981,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 35,
       name: 35,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-35-f.jpeg",
@@ -3505,6 +3990,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 36,
       name: 36,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-36-f.jpeg",
@@ -3513,6 +3999,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 37,
       name: 37,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-37-f.jpeg",
@@ -3521,6 +4008,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 38,
       name: 38,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-38-f.jpeg",
@@ -3529,6 +4017,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 39,
       name: 39,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-39-f.jpeg",
@@ -3537,6 +4026,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 40,
       name: 40,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-40-f.jpeg",
@@ -3545,6 +4035,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 41,
       name: 41,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-41-f.jpeg",
@@ -3553,6 +4044,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 42,
       name: 42,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-42-f.jpeg",
@@ -3561,6 +4053,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 43,
       name: 43,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-43-f.jpeg",
@@ -3569,6 +4062,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 44,
       name: 44,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-44-f.jpeg",
@@ -3577,6 +4071,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 45,
       name: 45,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-45-f.jpeg",
@@ -3585,6 +4080,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 46,
       name: 46,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-46-f.jpeg",
@@ -3593,6 +4089,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 47,
       name: 47,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-47-f.jpeg",
@@ -3601,6 +4098,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 48,
       name: 48,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-48-f.jpeg",
@@ -3609,6 +4107,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 49,
       name: 49,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-49-f.jpeg",
@@ -3617,6 +4116,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 50,
       name: 50,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-50-f.jpeg",
@@ -3625,6 +4125,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 51,
       name: 51,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-51-f.jpeg",
@@ -3633,6 +4134,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 52,
       name: 52,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-52-f.jpeg",
@@ -3641,6 +4143,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 53,
       name: 53,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-53-f.jpeg",
@@ -3649,6 +4152,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 54,
       name: 54,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-54-f.jpeg",
@@ -3657,6 +4161,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 55,
       name: 55,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-55-f.jpeg",
@@ -3665,6 +4170,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 56,
       name: 56,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-56-f.jpeg",
@@ -3673,6 +4179,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 57,
       name: 57,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-57-f.jpeg",
@@ -3681,6 +4188,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 58,
       name: 58,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-58-f.jpeg",
@@ -3689,6 +4197,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 59,
       name: 59,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-59-f.jpeg",
@@ -3697,6 +4206,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 60,
       name: 60,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-60-f.jpeg",
@@ -3705,6 +4215,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 61,
       name: 61,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-61-f.jpeg",
@@ -3713,6 +4224,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 62,
       name: 62,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-62-f.jpeg",
@@ -3721,6 +4233,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 63,
       name: 63,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-63-f.jpeg",
@@ -3729,6 +4242,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 64,
       name: 64,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-64-f.jpeg",
@@ -3737,6 +4251,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 65,
       name: 65,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-65-f.jpeg",
@@ -3745,6 +4260,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 66,
       name: 66,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-66-f.jpeg",
@@ -3753,6 +4269,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 67,
       name: 67,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-67-f.jpeg",
@@ -3761,6 +4278,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 68,
       name: 68,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-68-f.jpeg",
@@ -3769,6 +4287,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 69,
       name: 69,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-69-f.jpeg",
@@ -3777,6 +4296,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 70,
       name: 70,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-70-f.jpeg",
@@ -3785,6 +4305,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 71,
       name: 71,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-71-f.jpeg",
@@ -3793,6 +4314,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 72,
       name: 72,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-72-f.jpeg",
@@ -3801,6 +4323,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 73,
       name: 73,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-73-f.jpeg",
@@ -3809,6 +4332,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 74,
       name: 74,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-74-f.jpeg",
@@ -3817,6 +4341,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 75,
       name: 75,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-75-f.jpeg",
@@ -3825,6 +4350,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 76,
       name: 76,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-76-f.jpeg",
@@ -3833,6 +4359,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 77,
       name: 77,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-77-f.jpeg",
@@ -3841,6 +4368,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 78,
       name: 78,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-78-f.jpeg",
@@ -3849,6 +4377,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 79,
       name: 79,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-79-f.jpeg",
@@ -3857,6 +4386,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 80,
       name: 80,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-80-f.jpeg",
@@ -3865,6 +4395,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 81,
       name: 81,
       game: "fh",
       image: "events/frosthaven/outpost/fh-woe-81-f.jpeg",
@@ -3873,6 +4404,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 1,
       name: 1,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-01-f.jpeg",
@@ -3881,6 +4413,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 2,
       name: 2,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-02-f.jpeg",
@@ -3889,6 +4422,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 3,
       name: 3,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-03-f.jpeg",
@@ -3897,6 +4431,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 4,
       name: 4,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-04-f.jpeg",
@@ -3905,6 +4440,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 5,
       name: 5,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-05-f.jpeg",
@@ -3913,6 +4449,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 6,
       name: 6,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-06-f.jpeg",
@@ -3921,6 +4458,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 7,
       name: 7,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-07-f.jpeg",
@@ -3929,6 +4467,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 8,
       name: 8,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-08-f.jpeg",
@@ -3937,6 +4476,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 9,
       name: 9,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-09-f.jpeg",
@@ -3945,6 +4485,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 10,
       name: 10,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-10-f.jpeg",
@@ -3953,6 +4494,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 11,
       name: 11,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-11-f.jpeg",
@@ -3961,6 +4503,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 12,
       name: 12,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-12-f.jpeg",
@@ -3969,6 +4512,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 13,
       name: 13,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-13-f.jpeg",
@@ -3977,6 +4521,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 14,
       name: 14,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-14-f.jpeg",
@@ -3985,6 +4530,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 15,
       name: 15,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-15-f.jpeg",
@@ -3993,6 +4539,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 16,
       name: 16,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-16-f.jpeg",
@@ -4001,6 +4548,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 17,
       name: 17,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-17-f.jpeg",
@@ -4009,6 +4557,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 18,
       name: 18,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-18-f.jpeg",
@@ -4017,6 +4566,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 19,
       name: 19,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-19-f.jpeg",
@@ -4025,6 +4575,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 20,
       name: 20,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-20-f.jpeg",
@@ -4033,6 +4584,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 21,
       name: 21,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-21-f.jpeg",
@@ -4041,6 +4593,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 22,
       name: 22,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-22-f.jpeg",
@@ -4049,6 +4602,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 23,
       name: 23,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-23-f.jpeg",
@@ -4057,6 +4611,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 24,
       name: 24,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-24-f.jpeg",
@@ -4065,6 +4620,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 25,
       name: 25,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-25-f.jpeg",
@@ -4073,6 +4629,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 26,
       name: 26,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-26-f.jpeg",
@@ -4081,6 +4638,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 27,
       name: 27,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-27-f.jpeg",
@@ -4089,6 +4647,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 28,
       name: 28,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-28-f.jpeg",
@@ -4097,6 +4656,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 29,
       name: 29,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-29-f.jpeg",
@@ -4105,6 +4665,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 30,
       name: 30,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-30-f.jpeg",
@@ -4113,6 +4674,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 31,
       name: 31,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-31-f.jpeg",
@@ -4121,6 +4683,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 32,
       name: 32,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-32-f.jpeg",
@@ -4129,6 +4692,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 33,
       name: 33,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-33-f.jpeg",
@@ -4137,6 +4701,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 34,
       name: 34,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-34-f.jpeg",
@@ -4145,6 +4710,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 35,
       name: 35,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-35-f.jpeg",
@@ -4153,6 +4719,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 36,
       name: 36,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-36-f.jpeg",
@@ -4161,6 +4728,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 37,
       name: 37,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-37-f.jpeg",
@@ -4169,6 +4737,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 38,
       name: 38,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-38-f.jpeg",
@@ -4177,6 +4746,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 39,
       name: 39,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-39-f.jpeg",
@@ -4185,6 +4755,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 40,
       name: 40,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-40-f.jpeg",
@@ -4193,6 +4764,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 41,
       name: 41,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-41-f.jpeg",
@@ -4201,6 +4773,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 42,
       name: 42,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-42-f.jpeg",
@@ -4209,6 +4782,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 43,
       name: 43,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-43-f.jpeg",
@@ -4217,6 +4791,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 44,
       name: 44,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-44-f.jpeg",
@@ -4225,6 +4800,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 45,
       name: 45,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-45-f.jpeg",
@@ -4233,6 +4809,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 46,
       name: 46,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-46-f.jpeg",
@@ -4241,6 +4818,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 47,
       name: 47,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-47-f.jpeg",
@@ -4249,6 +4827,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 48,
       name: 48,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-48-f.jpeg",
@@ -4257,6 +4836,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 49,
       name: 49,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-49-f.jpeg",
@@ -4265,6 +4845,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 50,
       name: 50,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-50-f.jpeg",
@@ -4273,6 +4854,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 51,
       name: 51,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-51-f.jpeg",
@@ -4281,6 +4863,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 52,
       name: 52,
       game: "fh",
       image: "events/frosthaven/road/fh-sre-52-f.jpeg",
@@ -4289,6 +4872,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "summer",
     },
     {
+      id: 1,
       name: 1,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-01-f.jpeg",
@@ -4297,6 +4881,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 2,
       name: 2,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-02-f.jpeg",
@@ -4305,6 +4890,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 3,
       name: 3,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-03-f.jpeg",
@@ -4313,6 +4899,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 4,
       name: 4,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-04-f.jpeg",
@@ -4321,6 +4908,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 5,
       name: 5,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-05-f.jpeg",
@@ -4329,6 +4917,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 6,
       name: 6,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-06-f.jpeg",
@@ -4337,6 +4926,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 7,
       name: 7,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-07-f.jpeg",
@@ -4345,6 +4935,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 8,
       name: 8,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-08-f.jpeg",
@@ -4353,6 +4944,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 9,
       name: 9,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-09-f.jpeg",
@@ -4361,6 +4953,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 10,
       name: 10,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-10-f.jpeg",
@@ -4369,6 +4962,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 11,
       name: 11,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-11-f.jpeg",
@@ -4377,6 +4971,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 12,
       name: 12,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-12-f.jpeg",
@@ -4385,6 +4980,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 13,
       name: 13,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-13-f.jpeg",
@@ -4393,6 +4989,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 14,
       name: 14,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-14-f.jpeg",
@@ -4401,6 +4998,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 15,
       name: 15,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-15-f.jpeg",
@@ -4409,6 +5007,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 16,
       name: 16,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-16-f.jpeg",
@@ -4417,6 +5016,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 17,
       name: 17,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-17-f.jpeg",
@@ -4425,6 +5025,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 18,
       name: 18,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-18-f.jpeg",
@@ -4433,6 +5034,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 19,
       name: 19,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-19-f.jpeg",
@@ -4441,6 +5043,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 20,
       name: 20,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-20-f.jpeg",
@@ -4449,6 +5052,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 21,
       name: 21,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-21-f.jpeg",
@@ -4457,6 +5061,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 22,
       name: 22,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-22-f.jpeg",
@@ -4465,6 +5070,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 23,
       name: 23,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-23-f.jpeg",
@@ -4473,6 +5079,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 24,
       name: 24,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-24-f.jpeg",
@@ -4481,6 +5088,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 25,
       name: 25,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-25-f.jpeg",
@@ -4489,6 +5097,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 26,
       name: 26,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-26-f.jpeg",
@@ -4497,6 +5106,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 27,
       name: 27,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-27-f.jpeg",
@@ -4505,6 +5115,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 28,
       name: 28,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-28-f.jpeg",
@@ -4513,6 +5124,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 29,
       name: 29,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-29-f.jpeg",
@@ -4521,6 +5133,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 30,
       name: 30,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-30-f.jpeg",
@@ -4529,6 +5142,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 31,
       name: 31,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-31-f.jpeg",
@@ -4537,6 +5151,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 32,
       name: 32,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-32-f.jpeg",
@@ -4545,6 +5160,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 33,
       name: 33,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-33-f.jpeg",
@@ -4553,6 +5169,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 34,
       name: 34,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-34-f.jpeg",
@@ -4561,6 +5178,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 35,
       name: 35,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-35-f.jpeg",
@@ -4569,6 +5187,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 36,
       name: 36,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-36-f.jpeg",
@@ -4577,6 +5196,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 37,
       name: 37,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-37-f.jpeg",
@@ -4585,6 +5205,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 38,
       name: 38,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-38-f.jpeg",
@@ -4593,6 +5214,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 39,
       name: 39,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-39-f.jpeg",
@@ -4601,6 +5223,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 40,
       name: 40,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-40-f.jpeg",
@@ -4609,6 +5232,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 41,
       name: 41,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-41-f.jpeg",
@@ -4617,6 +5241,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 42,
       name: 42,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-42-f.jpeg",
@@ -4625,6 +5250,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 43,
       name: 43,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-43-f.jpeg",
@@ -4633,6 +5259,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 44,
       name: 44,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-44-f.jpeg",
@@ -4641,6 +5268,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 45,
       name: 45,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-45-f.jpeg",
@@ -4649,6 +5277,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 46,
       name: 46,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-46-f.jpeg",
@@ -4657,6 +5286,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 47,
       name: 47,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-47-f.jpeg",
@@ -4665,6 +5295,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 48,
       name: 48,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-48-f.jpeg",
@@ -4673,6 +5304,7 @@ export const eventCards: Record<string, Event[]> = {
       season: "winter",
     },
     {
+      id: 49,
       name: 49,
       game: "fh",
       image: "events/frosthaven/road/fh-wre-49-f.jpeg",

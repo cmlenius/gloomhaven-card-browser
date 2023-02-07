@@ -6,7 +6,11 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
 import { DropdownNav } from "../components/Dropdown";
-import { verifyQueryParam } from "../common/helpers";
+import {
+  defaultDescription,
+  defaultTitle,
+  verifyQueryParam,
+} from "../common/helpers";
 import { Option } from "../common/types";
 import { games } from "../data/games";
 import Settings from "./Settings";
@@ -42,14 +46,20 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
   const game = verifyQueryParam(router.query.game, "gh");
 
   const handleGameChange = (newGame: string) => {
-    return `/${newGame}/${cardType}`;
+    let path = `/${newGame}`;
+    if (cardType) path += `/${cardType}`;
+    return path;
   };
 
   const handleCardTypeChange = (newCardType: string) => {
     return `/${game}/${newCardType}`;
   };
 
-  const cardType = router.pathname.split("/").reverse()[0];
+  const path = router.asPath.split("/");
+  let cardType = path.length >= 3 ? path[2] : null;
+  if (cardType) {
+    cardType = cardType.split("?")[0];
+  }
 
   return (
     <nav className="topbar">
@@ -59,7 +69,7 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
           <DropdownNav
             href={handleCardTypeChange}
             options={cardTypeOptions}
-            value={cardType}
+            value={cardType || "characters"}
           />
         </div>
         <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />
@@ -70,18 +80,21 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
 
 type LayoutProps = {
   children?: React.ReactNode;
+  description?: string;
+  title?: string;
 };
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, description, title }: LayoutProps) => {
   const [settingDrawerOpen, setSettingDrawerOpen] = useState(false);
 
   return (
     <>
       <Head>
-        <title>Gloomhaven Card Browser</title>
+        <title>{title || defaultTitle}</title>
+        <meta name="description" content={description || defaultDescription} />
         <meta
-          name="description"
-          content="Gloomhaven Card Browser is a tool for viewing and browsing content such as Class Ability Cards and Item Cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
+          name="google-site-verification"
+          content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg"
         />
         <link rel="icon" href="/logo.png" />
       </Head>

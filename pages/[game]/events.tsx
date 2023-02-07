@@ -10,7 +10,11 @@ import {
 
 import { eventSearchResults } from "../api/events";
 import { useSpoilers } from "../../hooks/useSpoilers";
-import { getCharacterColor, verifyQueryParam } from "../../common/helpers";
+import {
+  getCharacterColor,
+  getTitle,
+  verifyQueryParam,
+} from "../../common/helpers";
 import { Event, Option } from "../../common/types";
 
 import CardList from "../../components/CardList";
@@ -52,11 +56,12 @@ const EventFilters = () => {
   const router = useRouter();
   const query = router.query;
   const game = verifyQueryParam(query.game, "gh");
-  const eventType = verifyQueryParam(query.eventType, "outpost");
-  const season = verifyQueryParam(query.season);
+  const eventType = verifyQueryParam(
+    query.eventType,
+    game === "fh" ? "outpost" : "city"
+  );
 
   const handleEventTypeChange = (newEventType: string | null) => {
-    console.log(newEventType);
     if (eventType === newEventType) return;
     router.push({
       pathname: "events",
@@ -64,36 +69,14 @@ const EventFilters = () => {
     });
   };
 
-  const handleSeasonChange = (newSeason: string | null) => {
-    query.season === newSeason
-      ? delete query.season
-      : (query.season = newSeason);
-    router.push({
-      pathname: "events",
-      query: query,
-    });
-  };
-
   return (
-    <div className="button-group">
-      {game === "fh" && (
-        <>
-          {seasonFilters.map((s) => (
-            <div
-              key={s.id}
-              className={`filter-icon ${
-                season === s.id ? "filter-icon-selected" : ""
-              }`}
-              onClick={() => handleSeasonChange(s.id)}
-              style={{ marginRight: "4px", padding: "4px 0" }}
-            >
-              <FontAwesomeIcon icon={s.icon} />
-            </div>
-          ))}
-        </>
-      )}
+    <div className="button-group-left">
       {eventTypeFilters[game]?.map((et) => (
-        <button key={et.id} onClick={() => handleEventTypeChange(et.id)}>
+        <button
+          key={et.id}
+          className={eventType === et.name.toLowerCase() ? "btn-selected" : ""}
+          onClick={() => handleEventTypeChange(et.id)}
+        >
           {et.name}
         </button>
       ))}
@@ -108,6 +91,20 @@ type PageProps = {
 const Events = ({ searchResults }: PageProps) => {
   const [search, setSearch] = useState(null);
   const { spoilers } = useSpoilers();
+  const router = useRouter();
+  const query = router.query;
+  const game = verifyQueryParam(query.game, "gh");
+  const season = verifyQueryParam(query.season);
+
+  const handleSeasonChange = (newSeason: string | null) => {
+    query.season === newSeason
+      ? delete query.season
+      : (query.season = newSeason);
+    router.push({
+      pathname: "events",
+      query: query,
+    });
+  };
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(parseInt(e.target.value, 10));
@@ -123,21 +120,47 @@ const Events = ({ searchResults }: PageProps) => {
   const cardList = searchResults.filter((e) => !search || e.name === search);
 
   return (
-    <Layout>
+    <Layout title={getTitle(game, "Events")}>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <span>
+          <EventFilters />
+          <div
+            className="flex"
+            style={{ fontWeight: 600, justifyContent: "center" }}
+          >
             {"Event ID:"}
             <input
-              className="event-id-filter"
+              className="id-filter"
               onChange={handleSearchChange}
               type="number"
             />
-          </span>
-          <EventFilters />
+          </div>
+          {game === "fh" ? (
+            <div
+              className="button-group"
+              style={{
+                minWidth: 0,
+              }}
+            >
+              {seasonFilters.map((s) => (
+                <div
+                  key={s.id}
+                  className={`filter-icon ${
+                    season === s.id ? "filter-icon-selected" : ""
+                  }`}
+                  onClick={() => handleSeasonChange(s.id)}
+                  style={{ marginRight: "4px", padding: "4px 0" }}
+                >
+                  <FontAwesomeIcon icon={s.icon} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div />
+          )}
         </div>
       </div>
-      {!spoilers.loading && <CardList cardList={cardList} />}
+      {!spoilers.loading && <CardList cardList={cardList} showId />}
     </Layout>
   );
 };

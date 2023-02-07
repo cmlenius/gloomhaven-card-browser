@@ -3,6 +3,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { characterAbilityCards } from "../../data/character-ability-cards";
 import {
   customSort,
+  getCharacter,
   getDefaultCharacterClass,
   verifyQueryParam,
 } from "../../common/helpers";
@@ -12,16 +13,23 @@ export const characterSearchResults = async (query: {
 }) => {
   const game = verifyQueryParam(query.game, "gh");
   const className = verifyQueryParam(
-    query.class,
+    query.character,
     getDefaultCharacterClass(game)
   );
   const order = verifyQueryParam(query.order, "level");
   const direction = verifyQueryParam(query.dir, "asc");
 
+  const character = getCharacter(game, className?.toUpperCase());
+  if (character == null) {
+    return [];
+  }
+
   return (
-    characterAbilityCards[game]?.[className]?.sort(
-      customSort(order, direction)
-    ) || []
+    characterAbilityCards[game]?.[character?.class.toUpperCase()]
+      ?.map((card) =>
+        card.name.endsWith("-back") ? { ...card, name: character?.name } : card
+      )
+      .sort(customSort(order, direction)) || []
   );
 };
 

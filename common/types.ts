@@ -1,7 +1,15 @@
+export interface Card {
+  id?: number | string;
+  name: number | string;
+  image: string;
+  imageBack?: string;
+}
+
 export type Game = {
   id: string;
   name: string;
   defaultClass: string;
+  defaultMonster: string;
 };
 
 export type Character = {
@@ -11,6 +19,7 @@ export type Character = {
   altName?: string;
   game: string;
   matImage: string;
+  matImageBack: string;
   source?: string;
   sheetImage: string;
   base?: boolean;
@@ -43,6 +52,7 @@ export type Item = {
 };
 
 export type Event = {
+  id: number;
   name: number;
   game: string;
   eventType: string;

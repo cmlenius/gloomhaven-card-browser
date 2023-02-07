@@ -1921,6 +1921,20 @@ let items = [
     folder: "64-151",
     gameType: "ghss",
   },
+  {
+    id: 151,
+    name: "Sword of the Sands",
+    count: 1,
+    cost: 50,
+    slot: "1h",
+    source: "Reward from Solo Scenario #18 — {XX}",
+    consumed: true,
+    desc: "During your melee attack, add POISON and WOUND to the entire action.",
+    soloItem: "XX",
+    folder: "64-151",
+    gameType: "ghss",
+    specialUnlock: "ghss",
+  },
 
   // Forgotten Circles
 
@@ -5620,6 +5634,7 @@ let items = [
     expansion: "Frosthaven",
     gameType: "fh",
     image: "items/frosthaven/129-167/fh-148-circlet-of-sanctity.png",
+    imageBack: "items/frosthaven/129-167/fh-148-circlet-of-sanctity-back.png",
     slot: "head",
   },
   {
@@ -5963,7 +5978,7 @@ let items = [
     gameType: "fh",
     image: "items/frosthaven/168-192/fh-187-dangerous-gear.png",
     consumed: true,
-    slot: "samll",
+    slot: "small",
   },
   {
     id: 188,
@@ -6761,20 +6776,22 @@ items = items.map((item) => {
     } else if (item.id >= 27 && item.id <= 36) {
       source = "jotl3";
     }
+  } else if (item.gameType === "gh") {
+    if (item.id >= 1 && item.id <= 70) {
+      source = "prosperity";
+    } else if (item.id >= 71 && item.id <= 95) {
+      source = "random-design";
+    } else if (item.id >= 96 && item.id <= 133) {
+      source = "other";
+    }
+  } else if (item.gameType === "ghss") {
+    source = "solo-scenario";
   } else if (item.gameType === "fc") {
     source = "fc";
   } else if (item.gameType === "cs") {
     source = "cs";
   } else if (item.gameType === "toa") {
     source = "toa";
-  } else if (item.gameType === "gh" && item.id >= 1 && item.id <= 70) {
-    source = "prosperity";
-  } else if (item.gameType === "gh" && item.id >= 71 && item.id <= 95) {
-    source = "random-design";
-  } else if (item.gameType === "gh" && item.id >= 96 && item.id <= 133) {
-    source = "other";
-  } else if (item.gameType === "gh" && item.id >= 134 && item.id <= 151) {
-    source = "solo-scenario";
   } else if (item.gameType === "fh") {
     source = "fh";
   }

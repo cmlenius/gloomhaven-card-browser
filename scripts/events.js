@@ -8919,8 +8919,10 @@ events = events
         break;
     }
 
+    let id = parseInt(event.name.split("-")[2]);
     return {
-      name: parseInt(event.name.split("-")[2]),
+      id: id,
+      name: id,
       game: expansion,
       image: event.image.replaceAll(".png", ".jpeg"),
       imageBack: event.image.replaceAll("f.png", "b.jpeg"),

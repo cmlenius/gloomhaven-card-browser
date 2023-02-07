@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 import { Option } from "../common/types";
@@ -11,22 +11,26 @@ type DropdownProps = {
 };
 
 export const DropdownNav = ({ href, options, value }: DropdownProps) => {
-  const [stopHover, setStopHover] = useState(false);
-
-  // To force dropdown to disapear
-  useEffect(() => setStopHover(false), [stopHover]);
-
+  const [isHovered, setIsHovered] = useState(false);
   const currentOption = options.find((o) => o.id === value)?.name || "Unknown";
 
   return (
-    <div className={`dropdownnav ${stopHover ? "" : "dropdownnav-hover"}`}>
+    <div
+      className={`dropdownnav ${isHovered ? "dropdownnav-hover" : ""}`}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      onClick={() => setIsHovered(true)}
+    >
       <div className="dropdownnav-anchor">{currentOption}</div>
-      <div className="dropdownnav-content">
+      <div className="dropdownnav-content" key={value}>
         {options.map((opt) => (
           <Link key={opt.id} href={href(opt.id)}>
             <a
               className="dropdownnav-option"
-              onClick={() => setStopHover(true)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setTimeout(() => setIsHovered(false), 200);
+              }}
             >
               {opt.name}
             </a>
