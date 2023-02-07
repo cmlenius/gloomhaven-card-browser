@@ -53,7 +53,6 @@ const EventFilters = () => {
   const query = router.query;
   const game = verifyQueryParam(query.game, "gh");
   const eventType = verifyQueryParam(query.eventType, "outpost");
-  const season = verifyQueryParam(query.season);
 
   const handleEventTypeChange = (newEventType: string | null) => {
     console.log(newEventType);
@@ -64,34 +63,8 @@ const EventFilters = () => {
     });
   };
 
-  const handleSeasonChange = (newSeason: string | null) => {
-    query.season === newSeason
-      ? delete query.season
-      : (query.season = newSeason);
-    router.push({
-      pathname: "events",
-      query: query,
-    });
-  };
-
   return (
     <div className="button-group">
-      {game === "fh" && (
-        <>
-          {seasonFilters.map((s) => (
-            <div
-              key={s.id}
-              className={`filter-icon ${
-                season === s.id ? "filter-icon-selected" : ""
-              }`}
-              onClick={() => handleSeasonChange(s.id)}
-              style={{ marginRight: "4px", padding: "4px 0" }}
-            >
-              <FontAwesomeIcon icon={s.icon} />
-            </div>
-          ))}
-        </>
-      )}
       {eventTypeFilters[game]?.map((et) => (
         <button key={et.id} onClick={() => handleEventTypeChange(et.id)}>
           {et.name}
@@ -108,6 +81,20 @@ type PageProps = {
 const Events = ({ searchResults }: PageProps) => {
   const [search, setSearch] = useState(null);
   const { spoilers } = useSpoilers();
+  const router = useRouter();
+  const query = router.query;
+  const game = verifyQueryParam(query.game, "gh");
+  const season = verifyQueryParam(query.season);
+
+  const handleSeasonChange = (newSeason: string | null) => {
+    query.season === newSeason
+      ? delete query.season
+      : (query.season = newSeason);
+    router.push({
+      pathname: "events",
+      query: query,
+    });
+  };
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(parseInt(e.target.value, 10));
@@ -126,14 +113,37 @@ const Events = ({ searchResults }: PageProps) => {
     <Layout>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <span>
+          <div className="flex">
             {"Event ID:"}
             <input
               className="event-id-filter"
               onChange={handleSearchChange}
               type="number"
             />
-          </span>
+            {game === "fh" && (
+              <div
+                className="button-group"
+                style={{
+                  justifyContent: "flex-start",
+                  marginLeft: "12px",
+                  minWidth: 0,
+                }}
+              >
+                {seasonFilters.map((s) => (
+                  <div
+                    key={s.id}
+                    className={`filter-icon ${
+                      season === s.id ? "filter-icon-selected" : ""
+                    }`}
+                    onClick={() => handleSeasonChange(s.id)}
+                    style={{ marginRight: "4px", padding: "4px 0" }}
+                  >
+                    <FontAwesomeIcon icon={s.icon} />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
           <EventFilters />
         </div>
       </div>
