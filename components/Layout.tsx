@@ -83,6 +83,10 @@ const Layout = ({ children }: LayoutProps) => {
           name="description"
           content="Gloomhaven Card Browser is a tool for viewing and browsing content such as Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
         />
+        <meta
+          name="google-site-verification"
+          content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg"
+        />
         <link rel="icon" href="/logo.png" />
       </Head>
       <Script
