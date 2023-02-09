@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRotateRight } from "@fortawesome/free-solid-svg-icons";
+import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 
 import { monsterSearchResults } from "../api/monsters";
 import {
@@ -32,9 +32,9 @@ const MonsterStatCard = ({
 
   const handleBtnClick = () => {
     if (isVertical) {
-      setRotation(rotation + 180);
+      setRotation(rotation - 180);
     } else {
-      setRotation(rotation + 90);
+      setRotation(rotation - 90);
     }
   };
 
@@ -42,21 +42,30 @@ const MonsterStatCard = ({
     setRotation(isVertical ? 0 : -90);
   }, [images, isVertical]);
 
+  const displayIndex = index * (isVertical ? 2 : 4);
+
   return (
     <div className="monster-stat-card">
-      <img
-        className="monster-img"
-        alt=""
-        src={getBaseUrl() + images[index]}
-        style={{ transform: `rotate(${rotation}deg)` }}
-      />
+      <div className="monster-img-outer">
+        {images.map((img, idx) => (
+          <img
+            key={idx}
+            className={`monster-img ${
+              index === idx ? "monster-img-active" : ""
+            }`}
+            alt=""
+            src={getBaseUrl() + img}
+            style={{ transform: `rotate(${rotation}deg)` }}
+          />
+        ))}
+      </div>
       <button className="card-index-btn" onClick={handleIndexChange}>
-        {index + 1}
+        {displayIndex}
       </button>
       <button className="card-flip-btn" onClick={handleBtnClick}>
         <FontAwesomeIcon
           className="card-flip-svg"
-          icon={faRotateRight}
+          icon={faRotateLeft}
           height="48px"
         />
       </button>

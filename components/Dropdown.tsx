@@ -30,7 +30,7 @@ export const DropdownNav = ({ href, options, value }: DropdownProps) => {
               className="dropdownnav-option"
               onClick={(e) => {
                 e.stopPropagation();
-                setIsHovered(false);
+                setTimeout(() => setIsHovered(false), 200);
               }}
             >
               {opt.name}
