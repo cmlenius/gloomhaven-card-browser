@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/characters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/items</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/events</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/monsters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/items</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/events</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/monsters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/items</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/events</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/monsters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/items</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/events</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/monsters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/items</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/events</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/monsters</loc>
+  <lastmod>2023-02-09T16:11:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
