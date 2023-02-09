@@ -11,14 +11,14 @@ import {
   getDefaultCharacterClass,
   verifyQueryParam,
 } from "../../common/helpers";
-import { CharacterAbility, SortOption } from "../../common/types";
+import { CharacterAbility, Option } from "../../common/types";
 import { characterSearchResults } from "../api/characters";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Modal from "../../components/Modal";
 import Sort from "../../components/Sort";
 
-const sortOrderOptions: SortOption[] = [
+const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },
   { id: "initiative", name: "Initiative" },
   { id: "name", name: "Name" },
@@ -71,7 +71,7 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
           >
             <img
               alt=""
-              src={getBaseUrl() + `character-icons/${game}/${char.class}.png`}
+              src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`}
             />
           </div>
         ))}

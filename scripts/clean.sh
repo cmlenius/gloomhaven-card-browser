@@ -13,3 +13,12 @@ echo "$(echo -n 'import { Character } from "../common/types"; export const chara
 prettier --write character-stats.js
 mv character-stats.js ../data/characters.ts
 
+node monsters.js
+echo "$(echo -n 'import { Monster } from "../common/types"; export const monsterCards: Record<string, Monster[]> = '; cat monster-cards.js)" > monster-cards.js
+prettier --write monster-cards.js
+mv monster-cards.js ../data/monster-cards.ts
+ 
+node events.js
+echo "$(echo -n 'import { Event } from "../common/types"; export const eventCards: Record<string, Event[]> = '; cat event-cards.js)" > event-cards.js
+prettier --write event-cards.js
+mv event-cards.js ../data/event-cards.ts

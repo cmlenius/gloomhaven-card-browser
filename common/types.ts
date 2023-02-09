@@ -1,3 +1,22 @@
+export type Game = {
+  id: string;
+  name: string;
+  defaultClass: string;
+};
+
+export type Character = {
+  class: string;
+  colour: string;
+  name: string;
+  altName?: string;
+  game: string;
+  matImage: string;
+  source?: string;
+  sheetImage: string;
+  base?: boolean;
+  hidden?: boolean;
+};
+
 export type CharacterAbility = {
   name: string;
   class: string;
@@ -26,38 +45,22 @@ export type Item = {
 export type Event = {
   name: number;
   game: string;
+  eventType: string;
   image: string;
   imageBack?: string;
-  city?: boolean;
-  road?: boolean;
+  season?: string;
 };
 
-export type Character = {
-  class: string;
-  colour: string;
+export type Monster = {
+  id: string;
   name: string;
-  altName?: string;
   game: string;
-  matImage: string;
-  source?: string;
-  sheetImage: string;
-  base?: boolean;
-  hidden?: boolean;
+  statCards: string[];
+  abilityCards: string[];
+  isVertical: boolean;
 };
 
-export type Game = {
-  id: string;
-  name: string;
-  defaultClass: string;
-};
-
-export type FilterOption = {
-  id: string;
-  name: string;
-  icon: string;
-};
-
-export type SortOption = {
+export type Option = {
   id: string;
   name: string;
 };
