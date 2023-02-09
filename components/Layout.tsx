@@ -81,7 +81,7 @@ const Layout = ({ children }: LayoutProps) => {
         <title>Gloomhaven Card Browser</title>
         <meta
           name="description"
-          content="Gloomhaven Card Browser is a tool for viewing and browsing content such as Class Ability Cards and Item Cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
+          content="Gloomhaven Card Browser is a tool for viewing and browsing content such as Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
         />
         <link rel="icon" href="/logo.png" />
       </Head>
