@@ -64,7 +64,7 @@ const EventFilters = () => {
   };
 
   return (
-    <div className="button-group">
+    <div className="button-group-left">
       {eventTypeFilters[game]?.map((et) => (
         <button key={et.id} onClick={() => handleEventTypeChange(et.id)}>
           {et.name}
@@ -113,38 +113,41 @@ const Events = ({ searchResults }: PageProps) => {
     <Layout>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <div className="flex">
+          <EventFilters />
+          <div
+            className="flex"
+            style={{ fontWeight: 600, justifyContent: "center" }}
+          >
             {"Event ID:"}
             <input
-              className="event-id-filter"
+              className="id-filter"
               onChange={handleSearchChange}
               type="number"
             />
-            {game === "fh" && (
-              <div
-                className="button-group"
-                style={{
-                  justifyContent: "flex-start",
-                  marginLeft: "12px",
-                  minWidth: 0,
-                }}
-              >
-                {seasonFilters.map((s) => (
-                  <div
-                    key={s.id}
-                    className={`filter-icon ${
-                      season === s.id ? "filter-icon-selected" : ""
-                    }`}
-                    onClick={() => handleSeasonChange(s.id)}
-                    style={{ marginRight: "4px", padding: "4px 0" }}
-                  >
-                    <FontAwesomeIcon icon={s.icon} />
-                  </div>
-                ))}
-              </div>
-            )}
           </div>
-          <EventFilters />
+          {game === "fh" ? (
+            <div
+              className="button-group"
+              style={{
+                minWidth: 0,
+              }}
+            >
+              {seasonFilters.map((s) => (
+                <div
+                  key={s.id}
+                  className={`filter-icon ${
+                    season === s.id ? "filter-icon-selected" : ""
+                  }`}
+                  onClick={() => handleSeasonChange(s.id)}
+                  style={{ marginRight: "4px", padding: "4px 0" }}
+                >
+                  <FontAwesomeIcon icon={s.icon} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div />
+          )}
         </div>
       </div>
       {!spoilers.loading && <CardList cardList={cardList} />}

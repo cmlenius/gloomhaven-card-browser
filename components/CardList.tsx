@@ -20,6 +20,7 @@ const Empty = () => {
 };
 
 interface Card {
+  id?: number | string;
   name: number | string;
   image: string;
   imageBack?: string;
@@ -28,11 +29,13 @@ interface Card {
 type CardProps = {
   card: Card;
   horizontal?: boolean;
+  showId?: boolean;
 };
 
-const Card = ({ card, horizontal }: CardProps) => {
+const Card = ({ card, horizontal, showId }: CardProps) => {
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
+      {showId && <div className="card-id">{card.id}</div>}
       <div
         className="card-inner"
         style={{ paddingTop: horizontal ? "66%" : "150%" }}
@@ -49,7 +52,7 @@ const Card = ({ card, horizontal }: CardProps) => {
   );
 };
 
-const FlipCard = ({ card, horizontal }: CardProps) => {
+const FlipCard = ({ card, horizontal, showId }: CardProps) => {
   const [flipped, setFlipped] = useState(false);
 
   const handleBtnClick = () => {
@@ -58,6 +61,7 @@ const FlipCard = ({ card, horizontal }: CardProps) => {
 
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
+      {showId && <div className="card-id">{card.id}</div>}
       <div
         className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}
         style={{ paddingTop: horizontal ? "66%" : "150%" }}
@@ -94,9 +98,10 @@ const FlipCard = ({ card, horizontal }: CardProps) => {
 type CardListProps = {
   cardList: Card[];
   horizontal?: boolean;
+  showId?: boolean;
 };
 
-const CardList = ({ cardList, horizontal }: CardListProps) => {
+const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
   const loadMore = (page: number) => {
@@ -119,9 +124,14 @@ const CardList = ({ cardList, horizontal }: CardListProps) => {
     >
       {data?.map((card, idx) =>
         card.imageBack ? (
-          <FlipCard key={idx} card={card} horizontal={horizontal} />
+          <FlipCard
+            key={idx}
+            card={card}
+            horizontal={horizontal}
+            showId={showId}
+          />
         ) : (
-          <Card key={idx} card={card} horizontal={horizontal} />
+          <Card key={idx} card={card} horizontal={horizontal} showId={showId} />
         )
       )}
       {[...Array(4)].map((_, idx) => (

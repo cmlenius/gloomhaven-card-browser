@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState, ChangeEvent } from "react";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 
@@ -91,7 +91,12 @@ type PageProps = {
 };
 
 const Items = ({ searchResults }: PageProps) => {
+  const [search, setSearch] = useState(null);
   const { spoilers } = useSpoilers();
+
+  const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setSearch(parseInt(e.target.value, 10));
+  };
 
   useEffect(() => {
     document.documentElement.style.setProperty(
@@ -100,17 +105,30 @@ const Items = ({ searchResults }: PageProps) => {
     );
   }, []);
 
-  const cardList = searchResults?.filter(itemSpoilerFilter(spoilers));
+  const cardList = searchResults
+    ?.filter(itemSpoilerFilter(spoilers))
+    .filter((i) => !search || i.id === search);
 
   return (
     <Layout>
       <div className="toolbar">
         <div className="toolbar-inner">
           <Sort pathname="items" sortOrderOptions={sortOrderOptions} />
+          <div
+            className="flex"
+            style={{ fontWeight: 600, justifyContent: "center" }}
+          >
+            {"Item ID:"}
+            <input
+              className="id-filter"
+              onChange={handleSearchChange}
+              type="number"
+            />
+          </div>
           <ItemFilters />
         </div>
       </div>
-      {!spoilers.loading && <CardList cardList={cardList} />}
+      {!spoilers.loading && <CardList cardList={cardList} showId />}
     </Layout>
   );
 };
