@@ -85,14 +85,15 @@ type PageProps = {
 const Monsters = ({ searchResults }: PageProps) => {
   const [index, setIndex] = useState(0);
   const router = useRouter();
-  const monster = verifyQueryParam(
+  const monsterSearch = verifyQueryParam(
     router.query.monster,
-    searchResults.monsterList[0]?.name
+    searchResults.monsterList?.[0]?.name
   );
   const game = verifyQueryParam(router.query.game, "gh");
+  const { monsterList, monster } = searchResults;
 
   const handleIndexChange = () => {
-    setIndex((index + 1) % searchResults.monster?.statCards?.length);
+    setIndex((index + 1) % monster?.statCards?.length);
   };
 
   const handleMonsterChange = (newMonster: string) => {
@@ -115,20 +116,27 @@ const Monsters = ({ searchResults }: PageProps) => {
   }, [game]);
 
   const cardList =
-    searchResults?.monster?.abilityCards?.map((abilityImage) => ({
+    monster?.abilityCards?.map((abilityImage) => ({
       name: "",
       image: abilityImage,
     })) || [];
+
+  const horizontal = ![
+    "manifestation-of-corruption",
+    "enraged-vanquisher",
+  ].includes(monster?.id);
 
   return (
     <Layout>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <Dropdown
-            onChange={handleMonsterChange}
-            options={searchResults.monsterList || []}
-            value={monster}
-          />
+          {monsterList && monsterList.length > 0 && (
+            <Dropdown
+              onChange={handleMonsterChange}
+              options={searchResults.monsterList || []}
+              value={monsterSearch}
+            />
+          )}
         </div>
       </div>
       <div
@@ -141,13 +149,15 @@ const Monsters = ({ searchResults }: PageProps) => {
           width: "100%",
         }}
       >
-        <MonsterStatCard
-          handleIndexChange={handleIndexChange}
-          index={index}
-          images={searchResults.monster?.statCards || []}
-          isVertical={searchResults.monster?.isVertical}
-        />
-        <CardList cardList={cardList} horizontal />
+        {monster?.statCards && monster.statCards.length > 0 && (
+          <MonsterStatCard
+            handleIndexChange={handleIndexChange}
+            index={index}
+            images={monster?.statCards || []}
+            isVertical={monster?.isVertical}
+          />
+        )}
+        <CardList cardList={cardList} horizontal={horizontal} />
       </div>
     </Layout>
   );
