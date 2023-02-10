@@ -52,7 +52,18 @@ button:hover {
   min-width: 230px;
 }
 
+.button-group-left {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 230px;
+}
+
 .button-group > *:not(:nth-child(1)) {
+  margin-left: 8px;
+}
+
+.button-group-left > *:not(:nth-child(1)) {
   margin-left: 8px;
 }
 
@@ -176,8 +187,28 @@ input[type="radio"] {
   -webkit-transform: rotateY(180deg);
 }
 
+.card-id {
+  align-items: center;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  font-weight: 600;
+  font-size: 10px;
+  justify-content: center;
+  opacity: 0.7;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+}
+
 .card-flip-btn,
 .card-flip-btn-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100%;
   opacity: 0.7;
   height: 40px;
@@ -214,13 +245,12 @@ input[type="radio"] {
   margin: 0 16px;
   max-width: 90%;
 }
- 
+
 .monster-img-outer {
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
-
 
 .monster-img {
   display: none;
@@ -328,7 +358,7 @@ input[type="radio"] {
 }
 
 /* --- FILTERS --- */
-.event-id-filter {
+.id-filter {
   background-color: var(--grey-light);
   border: 1px solid var(--primary);
   border-radius: 4px;
@@ -338,7 +368,7 @@ input[type="radio"] {
   margin: 0 8px;
   padding: 2px 8px;
   text-align: right;
-  width: 48px;
+  width: 44px;
 }
 
 .filters {
@@ -744,7 +774,8 @@ input[type="radio"] {
 }
 
 @media (max-width: 620px) {
-  .button-group {
+  .button-group,
+  .button-group-left {
     justify-content: center;
   }
 

@@ -17251,7 +17251,7 @@ let abilities = [
     expansion: "Frosthaven",
     image: "character-ability-cards/frosthaven/PC/fh-redemption.png",
     xws: "redemption",
-    level: "8",
+    level: "9",
     initiative: "33",
     cardno: "328",
   },

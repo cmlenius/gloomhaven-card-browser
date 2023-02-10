@@ -7,10 +7,11 @@ export const monsterSearchResults = async (query: {
   [key: string]: string | string[];
 }) => {
   const game = verifyQueryParam(query.game, "gh");
-  const monster = verifyQueryParam(query.monster, monsterCards[game][0].id);
+  const monster = verifyQueryParam(query.monster, monsterCards[game]?.[0].id);
 
   return {
-    monsterList: monsterCards[game].map((m) => ({ id: m.id, name: m.name })),
+    monsterList:
+      monsterCards[game]?.map((m) => ({ id: m.id, name: m.name })) || [],
     monster: monsterCards[game]?.find((m) => m.id === monster) || [],
   };
 };

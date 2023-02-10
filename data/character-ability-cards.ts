@@ -14775,7 +14775,7 @@ export const characterAbilityCards: Record<
         game: "fh",
         image: "character-ability-cards/frosthaven/PC/fh-redemption.jpeg",
         initiative: 33,
-        level: 8,
+        level: 9,
       },
       {
         name: "reject the gift",
