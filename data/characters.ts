@@ -531,7 +531,7 @@ export const characters: Character[] = [
     class: "TA",
     colour: "#714A2E",
     name: "Trapper",
-    altName: "Trapper",
+    altName: "Trap",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-trapper.jpeg",
     sheetImage: "character-perks/frosthaven/fh-trapper-perks.jpeg",

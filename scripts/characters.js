@@ -71,7 +71,7 @@ let characters = [
   { id: "PY", game: "fh", colour: "#BE462F", name: "Pyroclast", altName: "Meteor" },
   { id: "SD", game: "fh", colour: "#5995A2", name: "Snowdancer", altName: "Snowflake" },
   { id: "SH", game: "fh", colour: "#807681", name: "Shattersong", altName: "Shards" },
-  { id: "TA", game: "fh", colour: "#714A2E", name: "Trapper", altName: "Trapper" },
+  { id: "TA", game: "fh", colour: "#714A2E", name: "Trapper", altName: "Trap" },
 ];
 
 let fs = require("fs");
