@@ -20,6 +20,31 @@ module.exports = {
         destination: "/gh/items",
         permanent: true,
       },
+      {
+        source: "/gh",
+        destination: "/gh/characters",
+        permanent: true,
+      },
+      {
+        source: "/fh",
+        destination: "/fh/characters",
+        permanent: true,
+      },
+      {
+        source: "/jotl",
+        destination: "/jotl/characters",
+        permanent: true,
+      },
+      {
+        source: "/cs",
+        destination: "/cs/characters",
+        permanent: true,
+      },
+      {
+        source: "/toa",
+        destination: "/toa/characters",
+        permanent: true,
+      },
     ];
   },
 };
