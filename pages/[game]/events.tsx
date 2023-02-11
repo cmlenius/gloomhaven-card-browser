@@ -150,7 +150,7 @@ const Events = ({ searchResults }: PageProps) => {
           )}
         </div>
       </div>
-      {!spoilers.loading && <CardList cardList={cardList} />}
+      {!spoilers.loading && <CardList cardList={cardList} showId />}
     </Layout>
   );
 };

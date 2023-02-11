@@ -43,6 +43,7 @@ export type Item = {
 };
 
 export type Event = {
+  id: number;
   name: number;
   game: string;
   eventType: string;
