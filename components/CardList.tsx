@@ -44,6 +44,7 @@ const Card = ({ card, horizontal, showId }: CardProps) => {
           <img
             alt={String(card.name)}
             className="card-img"
+            key={card.image}
             src={getBaseUrl() + card.image}
           />
         </div>
@@ -71,6 +72,7 @@ const FlipCard = ({ card, horizontal, showId }: CardProps) => {
             alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.image}
+            key={card.image + "-front"}
           />
         </div>
         <div className="card-img-back">
@@ -78,6 +80,7 @@ const FlipCard = ({ card, horizontal, showId }: CardProps) => {
             alt={String(card.name)}
             className="card-img"
             src={getBaseUrl() + card.imageBack}
+            key={card.image + "-back"}
           />
         </div>
       </div>
