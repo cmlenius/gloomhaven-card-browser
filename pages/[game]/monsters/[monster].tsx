@@ -4,34 +4,36 @@ import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 
-import { monsterSearchResults } from "../api/monsters";
+import { monsterSearchResults } from "../../api/monsters";
 import {
   getBaseUrl,
   getCharacterColor,
+  getDefaultMonster,
+  getTitle,
   verifyQueryParam,
-} from "../../common/helpers";
-import { Monster, Option } from "../../common/types";
-import CardList from "../../components/CardList";
-import Layout from "../../components/Layout";
-import Dropdown from "../../components/Dropdown";
+} from "../../../common/helpers";
+import { Monster, Option } from "../../../common/types";
+import CardList from "../../../components/CardList";
+import Layout from "../../../components/Layout";
+import Dropdown from "../../../components/Dropdown";
 
 type MonsterStatCardProps = {
-  images: string[];
   index: number;
-  isVertical: boolean;
+  game: string;
   handleIndexChange: () => void;
+  monster: Monster;
 };
 
 const MonsterStatCard = ({
+  game,
   handleIndexChange,
   index,
-  images,
-  isVertical,
+  monster,
 }: MonsterStatCardProps) => {
-  const [rotation, setRotation] = useState(isVertical ? 0 : -90);
+  const [rotation, setRotation] = useState(monster.isVertical ? 0 : -90);
 
   const handleBtnClick = () => {
-    if (isVertical) {
+    if (monster.isVertical) {
       setRotation(rotation - 180);
     } else {
       setRotation(rotation - 90);
@@ -39,15 +41,20 @@ const MonsterStatCard = ({
   };
 
   useEffect(() => {
-    setRotation(isVertical ? 0 : -90);
-  }, [images, isVertical]);
+    setRotation(monster.isVertical ? 0 : -90);
+  }, [monster]);
 
-  const displayIndex = index * (isVertical ? 2 : 4);
+  const displayIndex = index * (monster.isVertical ? 2 : 4);
 
   return (
-    <div className="monster-stat-card">
-      <div className="monster-img-outer">
-        {images.map((img, idx) => (
+    <div className="monster-stat-card" key={monster.id}>
+      <div
+        className="monster-img-outer"
+        style={{
+          paddingTop: monster.isVertical && game !== "fh" ? "150%" : "100%",
+        }}
+      >
+        {monster.statCards?.map((img, idx) => (
           <img
             key={idx}
             className={`monster-img ${
@@ -83,14 +90,16 @@ type PageProps = {
 };
 
 const Monsters = ({ searchResults }: PageProps) => {
+  const { monsterList, monster } = searchResults;
+
   const [index, setIndex] = useState(0);
   const router = useRouter();
+
+  const game = verifyQueryParam(router.query.game, "gh");
   const monsterSearch = verifyQueryParam(
     router.query.monster,
-    searchResults.monsterList?.[0]?.name
+    getDefaultMonster(game)
   );
-  const game = verifyQueryParam(router.query.game, "gh");
-  const { monsterList, monster } = searchResults;
 
   const handleIndexChange = () => {
     setIndex((index + 1) % monster?.statCards?.length);
@@ -98,10 +107,11 @@ const Monsters = ({ searchResults }: PageProps) => {
 
   const handleMonsterChange = (newMonster: string) => {
     setIndex(0);
-    router.push({
-      pathname: router.pathname,
-      query: { ...router.query, monster: newMonster },
-    });
+    router.push(hreffn(newMonster));
+  };
+
+  const hreffn = (newMonster: string) => {
+    return `/${game}/monsters/${newMonster}`;
   };
 
   useEffect(() => {
@@ -127,11 +137,12 @@ const Monsters = ({ searchResults }: PageProps) => {
   ].includes(monster?.id);
 
   return (
-    <Layout>
+    <Layout title={getTitle(game, monster.name)}>
       <div className="toolbar">
         <div className="toolbar-inner">
           {monsterList && monsterList.length > 0 && (
             <Dropdown
+              href={hreffn}
               onChange={handleMonsterChange}
               options={searchResults.monsterList || []}
               value={monsterSearch}
@@ -152,9 +163,9 @@ const Monsters = ({ searchResults }: PageProps) => {
         {monster?.statCards && monster.statCards.length > 0 && (
           <MonsterStatCard
             handleIndexChange={handleIndexChange}
+            game={game}
             index={index}
-            images={monster?.statCards || []}
-            isVertical={monster?.isVertical}
+            monster={monster}
           />
         )}
         <CardList cardList={cardList} horizontal={horizontal} />

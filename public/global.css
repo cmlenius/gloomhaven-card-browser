@@ -86,6 +86,17 @@ button:hover {
   display: flex;
 }
 
+.invisible {
+  color: transparent;
+  letter-spacing: 0px;
+  margin-top: 12px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
 .main {
   align-items: center;
   display: flex;
@@ -243,20 +254,31 @@ input[type="radio"] {
   box-sizing: border-box;
   position: relative;
   margin: 0 16px;
-  max-width: 90%;
+  max-width: 400px;
+  overflow: hidden;
+  width: 90%;
 }
 
 .monster-img-outer {
+  background-image: repeating-linear-gradient(
+    -55deg,
+    #ddd,
+    #ddd 5px,
+    #ccc 5px,
+    #ccc 10px
+  );
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .monster-img {
-  display: none;
+  top: 0;
+  left: 0;
   height: 100%;
-  transition: transform 500ms, -webkit-transform 500ms;
   width: 100%;
+  position:absolute;
+  display: none;
+  transition: transform 500ms, -webkit-transform 500ms;
 }
 
 .monster-img-active {
@@ -489,7 +511,6 @@ input[type="radio"] {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 16px;
 }
 
 .spoilers {

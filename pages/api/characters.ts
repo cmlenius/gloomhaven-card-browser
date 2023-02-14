@@ -12,7 +12,7 @@ export const characterSearchResults = async (query: {
 }) => {
   const game = verifyQueryParam(query.game, "gh");
   const className = verifyQueryParam(
-    query.class,
+    query.character,
     getDefaultCharacterClass(game)
   );
   const order = verifyQueryParam(query.order, "level");

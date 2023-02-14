@@ -6,6 +6,17 @@ export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
 }
 
+export function getTitle(game: string, subject: string): string {
+  const defaultTitle = "Gloomhaven Card Browser";
+
+  const gameName = games.find((g) => g.id === game)?.name;
+  const title = gameName + " " + subject;
+
+  if (!gameName || !subject || title.trim() == "") return defaultTitle;
+
+  return title.trim();
+}
+
 export function verifyQueryParam(
   param: string | string[] | null,
   defaultValue?: string
@@ -33,6 +44,13 @@ export function getCharacter(characterClass: string): Character | null {
 export function getDefaultCharacterClass(gameId: string): string | null {
   const game = games.find((g) => g.id === gameId);
   if (game) return game.defaultClass;
+
+  return null;
+}
+
+export function getDefaultMonster(gameId: string): string | null {
+  const game = games.find((g) => g.id === gameId);
+  if (game) return game.defaultMonster;
 
   return null;
 }

@@ -103,7 +103,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "captain-of-the-guard",
-      name: "Captain Of The Guard",
+      name: "Captain of the Guard",
       game: "gh",
       statCards: [
         "monster-stat-cards/gloomhaven/gh-captain-of-the-guard-0.png",
@@ -1003,7 +1003,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "manifestation-of-corruption",
-      name: "Manifestation Of Corruption",
+      name: "Manifestation of Corruption",
       game: "gh",
       statCards: [
         "monster-stat-cards/forgotten-circles/fc-manifestation-of-corruption-0.png",
@@ -1055,7 +1055,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "sraka-the-wise",
-      name: "Sraka The Wise",
+      name: "Sraka the Wise",
       game: "gh",
       statCards: [
         "monster-stat-cards/forgotten-circles/fc-sraka-the-wise-0.png",
@@ -1603,7 +1603,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "fracture-of-the-deep",
-      name: "Fracture Of The Deep",
+      name: "Fracture of the Deep",
       game: "fh",
       statCards: [
         "monster-stat-cards/frosthaven/fh-fracture-of-the-deep-0.png",
@@ -1687,7 +1687,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "harbinger-of-shadow",
-      name: "Harbinger Of Shadow",
+      name: "Harbinger of Shadow",
       game: "fh",
       statCards: [
         "monster-stat-cards/frosthaven/fh-harbinger-of-shadow-0.png",
@@ -1849,7 +1849,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "lord-of-chaos",
-      name: "Lord Of Chaos",
+      name: "Lord of Chaos",
       game: "fh",
       statCards: [
         "monster-stat-cards/frosthaven/fh-lord-of-chaos-0.png",
@@ -2053,7 +2053,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "prince-of-frost",
-      name: "Prince Of Frost",
+      name: "Prince of Frost",
       game: "fh",
       statCards: [
         "monster-stat-cards/frosthaven/fh-prince-of-frost-0.png",
@@ -2219,7 +2219,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "seeker-of-the-abyss",
-      name: "Seeker Of The Abyss",
+      name: "Seeker of the Abyss",
       game: "fh",
       statCards: [
         "monster-stat-cards/frosthaven/fh-seeker-of-the-abyss-0.png",
@@ -2447,7 +2447,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "vestige-of-the-imprisoned-god",
-      name: "Vestige Of The Imprisoned God",
+      name: "Vestige of the Imprisoned God",
       game: "fh",
       statCards: [
         "monster-stat-cards/frosthaven/fh-vestige-of-the-imprisoned-god-0.png",
@@ -2656,7 +2656,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "first-of-the-order",
-      name: "First Of The Order",
+      name: "First of the Order",
       game: "jotl",
       statCards: [
         "monster-stat-cards/jaws-of-the-lion/jl-first-of-the-order-0.png",
@@ -2940,7 +2940,7 @@ export const monsterCards: Record<string, Monster[]> = {
     },
     {
       id: "Goremyon-Shatter-Mind",
-      name: "Goremyon Shatter-Mind",
+      name: "Goremyon Shatter Mind",
       game: "cs",
       statCards: [
         "monster-stat-cards/crimson-scales/cs-goremyon-shatter-mind-0.png",

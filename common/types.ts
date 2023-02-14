@@ -2,6 +2,7 @@ export type Game = {
   id: string;
   name: string;
   defaultClass: string;
+  defaultMonster: string;
 };
 
 export type Character = {

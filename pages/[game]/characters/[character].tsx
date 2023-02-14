@@ -1,22 +1,24 @@
 import { useCallback, useEffect, useState } from "react";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
-import { useSpoilers } from "../../hooks/useSpoilers";
+import { useSpoilers } from "../../../hooks/useSpoilers";
 import {
   characterSpoilerFilter,
   getBaseUrl,
   getCharacter,
   getCharacterClasses,
   getDefaultCharacterClass,
+  getTitle,
   verifyQueryParam,
-} from "../../common/helpers";
-import { CharacterAbility, Option } from "../../common/types";
-import { characterSearchResults } from "../api/characters";
-import CardList from "../../components/CardList";
-import Layout from "../../components/Layout";
-import Modal from "../../components/Modal";
-import Sort from "../../components/Sort";
+} from "../../../common/helpers";
+import { CharacterAbility, Option } from "../../../common/types";
+import { characterSearchResults } from "../../api/characters";
+import CardList from "../../../components/CardList";
+import Layout from "../../../components/Layout";
+import Modal from "../../../components/Modal";
+import Sort from "../../../components/Sort";
 
 const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },
@@ -47,33 +49,25 @@ type ClassFilterProps = {
 };
 
 const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
-  const router = useRouter();
-  const query = router.query;
-
-  const handleClassChange = (newClass: string) => {
-    router.push({
-      pathname: "characters",
-      query: { ...query, class: newClass },
-    });
-  };
-
   return (
     <div className="filters">
       {getCharacterClasses(game)
         .filter((c) => !c.hidden)
-        .map((char, idx) => (
-          <div
-            key={idx}
-            className={`filter-icon ${
-              characterClass === char.class ? "filter-icon-selected" : ""
-            }`}
-            onClick={() => handleClassChange(char.class)}
-          >
-            <img
-              alt=""
-              src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`}
-            />
-          </div>
+        .map((char) => (
+          <Link key={char.class} href={`/${game}/characters/${char.class}`}>
+            <a
+              className={`filter-icon ${
+                characterClass === char.class ? "filter-icon-selected" : ""
+              }`}
+            >
+              <img
+                alt=""
+                src={
+                  getBaseUrl() + `icons/characters/${game}/${char.class}.png`
+                }
+              />
+            </a>
+          </Link>
         ))}
     </div>
   );
@@ -91,7 +85,7 @@ const Characters = ({ searchResults }: PageProps) => {
 
   const game = verifyQueryParam(router.query.game, "gh");
   const characterClass = verifyQueryParam(
-    router.query.class,
+    router.query.character,
     getDefaultCharacterClass(game)
   );
 
@@ -121,7 +115,7 @@ const Characters = ({ searchResults }: PageProps) => {
   }, [character]);
 
   return (
-    <Layout>
+    <Layout title={getTitle(game, character.altName || character.name)}>
       <div className="toolbar">
         <div className="toolbar-inner">
           <div>
