@@ -12,7 +12,6 @@ type DropdownProps = {
 
 export const DropdownNav = ({ href, options, value }: DropdownProps) => {
   const [isHovered, setIsHovered] = useState(false);
-
   const currentOption = options.find((o) => o.id === value)?.name || "Unknown";
 
   return (
@@ -23,7 +22,7 @@ export const DropdownNav = ({ href, options, value }: DropdownProps) => {
       onClick={() => setIsHovered(true)}
     >
       <div className="dropdownnav-anchor">{currentOption}</div>
-      <div className="dropdownnav-content">
+      <div className="dropdownnav-content" key={value}>
         {options.map((opt) => (
           <Link key={opt.id} href={href(opt.id)}>
             <a

@@ -7,7 +7,9 @@ import { useSpoilers } from "../../hooks/useSpoilers";
 import {
   getBaseUrl,
   getCharacterColor,
+  getTitle,
   itemSpoilerFilter,
+  verifyQueryParam,
 } from "../../common/helpers";
 import { Item, Option } from "../../common/types";
 
@@ -94,6 +96,9 @@ const Items = ({ searchResults }: PageProps) => {
   const [search, setSearch] = useState(null);
   const { spoilers } = useSpoilers();
 
+  const router = useRouter();
+  const game = verifyQueryParam(router.query.game, "gh");
+
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(parseInt(e.target.value, 10));
   };
@@ -110,7 +115,7 @@ const Items = ({ searchResults }: PageProps) => {
     .filter((i) => !search || i.id === search);
 
   return (
-    <Layout>
+    <Layout title={getTitle(game, "Items")}>
       <div className="toolbar">
         <div className="toolbar-inner">
           <Sort pathname="items" sortOrderOptions={sortOrderOptions} />

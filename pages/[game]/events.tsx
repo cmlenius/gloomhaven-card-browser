@@ -10,7 +10,11 @@ import {
 
 import { eventSearchResults } from "../api/events";
 import { useSpoilers } from "../../hooks/useSpoilers";
-import { getCharacterColor, verifyQueryParam } from "../../common/helpers";
+import {
+  getCharacterColor,
+  getTitle,
+  verifyQueryParam,
+} from "../../common/helpers";
 import { Event, Option } from "../../common/types";
 
 import CardList from "../../components/CardList";
@@ -110,7 +114,7 @@ const Events = ({ searchResults }: PageProps) => {
   const cardList = searchResults.filter((e) => !search || e.name === search);
 
   return (
-    <Layout>
+    <Layout title={getTitle(game, "Events")}>
       <div className="toolbar">
         <div className="toolbar-inner">
           <EventFilters />

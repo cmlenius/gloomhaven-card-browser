@@ -6,44 +6,49 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/",
-        destination: "/gh/characters",
-        permanent: true,
-      },
-      {
         source: "/characters",
         destination: "/gh/characters",
-        permanent: true,
+        permanent: false,
       },
       {
         source: "/items",
         destination: "/gh/items",
-        permanent: true,
+        permanent: false,
+      },
+      {
+        source: "/events",
+        destination: "/gh/events",
+        permanent: false,
+      },
+      {
+        source: "/monsters",
+        destination: "/gh/monsters",
+        permanent: false,
       },
       {
         source: "/gh",
         destination: "/gh/characters",
-        permanent: true,
+        permanent: false,
       },
       {
         source: "/fh",
         destination: "/fh/characters",
-        permanent: true,
+        permanent: false,
       },
       {
         source: "/jotl",
         destination: "/jotl/characters",
-        permanent: true,
+        permanent: false,
       },
       {
         source: "/cs",
         destination: "/cs/characters",
-        permanent: true,
+        permanent: false,
       },
       {
         source: "/toa",
         destination: "/toa/characters",
-        permanent: true,
+        permanent: false,
       },
     ];
   },

@@ -41,6 +41,9 @@ const Card = ({ card, horizontal, showId }: CardProps) => {
         style={{ paddingTop: horizontal ? "66%" : "150%" }}
       >
         <div className="card-img-front">
+          <span aria-hidden="true" className="invisible">
+            {card.name}
+          </span>
           <img
             alt={String(card.name)}
             className="card-img"
@@ -68,6 +71,9 @@ const FlipCard = ({ card, horizontal, showId }: CardProps) => {
         style={{ paddingTop: horizontal ? "66%" : "150%" }}
       >
         <div className="card-img-front">
+          <span aria-hidden="true" className="invisible">
+            {card.name}
+          </span>
           <img
             alt={String(card.name)}
             className="card-img"
@@ -76,6 +82,9 @@ const FlipCard = ({ card, horizontal, showId }: CardProps) => {
           />
         </div>
         <div className="card-img-back">
+          <span aria-hidden="true" className="invisible">
+            {card.name}
+          </span>
           <img
             alt={String(card.name)}
             className="card-img"

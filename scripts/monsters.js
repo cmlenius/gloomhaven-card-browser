@@ -1139,7 +1139,7 @@ let monsters = [
   },
   {
     deck: "boss",
-    name: "Goremyon Shatter-Mind",
+    name: "Goremyon Shatter Mind",
     points: 317,
     expansion: "Crimson Scales",
     image: "monster-stat-cards/crimson-scales/cs-goremyon-shatter-mind-6.png",
@@ -12164,8 +12164,13 @@ monsters = monsters
     return {
       id: id,
       name: monster.name
+        .toLowerCase()
         .split(" ")
-        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .map((w, i) =>
+          i !== 0 && (w === "of" || w === "the")
+            ? w
+            : w.charAt(0).toUpperCase() + w.slice(1)
+        )
         .join(" "),
       game: game,
       statCards: statCards,

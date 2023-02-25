@@ -49,7 +49,8 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
     return `/${game}/${newCardType}`;
   };
 
-  const cardType = router.pathname.split("/").reverse()[0];
+  const path = router.asPath.split("/");
+  const cardType = path.length >= 3 ? path[2] : null;
 
   return (
     <nav className="topbar">
@@ -70,18 +71,19 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
 
 type LayoutProps = {
   children?: React.ReactNode;
+  title?: string;
 };
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, title }: LayoutProps) => {
   const [settingDrawerOpen, setSettingDrawerOpen] = useState(false);
 
   return (
     <>
       <Head>
-        <title>Gloomhaven Card Browser</title>
+        <title>{title || "Gloomhaven Card Browser"}</title>
         <meta
           name="description"
-          content="Gloomhaven Card Browser is a tool for viewing and browsing content such as Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
+          content="Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
         />
         <meta
           name="google-site-verification"
