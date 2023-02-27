@@ -118,7 +118,7 @@ const Items = ({ searchResults }: PageProps) => {
     <Layout title={getTitle(game, "Items")}>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <Sort pathname="items" sortOrderOptions={sortOrderOptions} />
+          <Sort sortOrderOptions={sortOrderOptions} />
           <div
             className="flex"
             style={{ fontWeight: 600, justifyContent: "center" }}

@@ -15,24 +15,23 @@ const sortDirectionOptions: SortDirectionOption[] = [
 ];
 
 type SortProps = {
-  pathname: string;
   sortOrderOptions: Option[];
 };
 
-const Sort = ({ pathname, sortOrderOptions }: SortProps) => {
+const Sort = ({ sortOrderOptions }: SortProps) => {
   const router = useRouter();
   const query = router.query;
 
   const handleSortOrderChange = (newOrder: string) => {
     router.push({
-      pathname: pathname,
+      pathname: router.pathname,
       query: { ...query, order: newOrder },
     });
   };
 
   const handleSortDirectionChange = (newDirection: string) => {
     router.push({
-      pathname: pathname,
+      pathname: router.pathname,
       query: { ...query, dir: newDirection },
     });
   };

@@ -120,7 +120,7 @@ const Characters = ({ searchResults }: PageProps) => {
         <div className="toolbar-inner">
           <div>
             <div className="flex">
-              <Sort pathname="characters" sortOrderOptions={sortOrderOptions} />
+              <Sort sortOrderOptions={sortOrderOptions} />
               {["cs", "toa"].includes(game) && (
                 <span className="milestone-filter-desktop">
                   <MilestoneFilter

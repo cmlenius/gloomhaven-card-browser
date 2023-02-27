@@ -50,7 +50,10 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
   };
 
   const path = router.asPath.split("/");
-  const cardType = path.length >= 3 ? path[2] : null;
+  let cardType = path.length >= 3 ? path[2] : null;
+  if (cardType) {
+    cardType = cardType.split("?")[0];
+  }
 
   return (
     <nav className="topbar">

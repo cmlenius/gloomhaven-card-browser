@@ -67,7 +67,7 @@ const Characters = () => {
         <div className="toolbar-inner">
           <div>
             <div className="flex">
-              <Sort pathname="characters" sortOrderOptions={sortOrderOptions} />
+              <Sort sortOrderOptions={sortOrderOptions} />
             </div>
           </div>
           <div />
