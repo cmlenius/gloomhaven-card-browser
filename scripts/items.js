@@ -6761,20 +6761,22 @@ items = items.map((item) => {
     } else if (item.id >= 27 && item.id <= 36) {
       source = "jotl3";
     }
+  } else if (item.gameType === "gh") {
+    if (item.id >= 1 && item.id <= 70) {
+      source = "prosperity";
+    } else if (item.id >= 71 && item.id <= 95) {
+      source = "random-design";
+    } else if (item.id >= 96 && item.id <= 133) {
+      source = "other";
+    }
+  } else if (item.gameType === "ghss") {
+    source = "solo-scenario";
   } else if (item.gameType === "fc") {
     source = "fc";
   } else if (item.gameType === "cs") {
     source = "cs";
   } else if (item.gameType === "toa") {
     source = "toa";
-  } else if (item.gameType === "gh" && item.id >= 1 && item.id <= 70) {
-    source = "prosperity";
-  } else if (item.gameType === "gh" && item.id >= 71 && item.id <= 95) {
-    source = "random-design";
-  } else if (item.gameType === "gh" && item.id >= 96 && item.id <= 133) {
-    source = "other";
-  } else if (item.gameType === "gh" && item.id >= 134 && item.id <= 151) {
-    source = "solo-scenario";
   } else if (item.gameType === "fh") {
     source = "fh";
   }
