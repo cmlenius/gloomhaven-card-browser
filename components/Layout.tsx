@@ -42,7 +42,9 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
   const game = verifyQueryParam(router.query.game, "gh");
 
   const handleGameChange = (newGame: string) => {
-    return `/${newGame}/${cardType}`;
+    let path = `/${newGame}`;
+    if (cardType) path += `/${cardType}`;
+    return path;
   };
 
   const handleCardTypeChange = (newCardType: string) => {
@@ -55,6 +57,8 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
     cardType = cardType.split("?")[0];
   }
 
+  console.log(cardType);
+
   return (
     <nav className="topbar">
       <div className="topbar-inner">
@@ -63,7 +67,7 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
           <DropdownNav
             href={handleCardTypeChange}
             options={cardTypeOptions}
-            value={cardType}
+            value={cardType || "characters"}
           />
         </div>
         <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />

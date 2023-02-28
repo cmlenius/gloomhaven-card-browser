@@ -1,87 +1,45 @@
-import { useEffect } from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
+import { GetServerSideProps } from "next";
 
+import { characterSearchResults } from "../../api/characters";
 import {
-  getBaseUrl,
-  getCharacterClasses,
+  getCharacter,
   getDefaultCharacterClass,
   getTitle,
   verifyQueryParam,
 } from "../../../common/helpers";
-import { Option } from "../../../common/types";
+import { CharacterAbility } from "../../../common/types";
+import CharactersPage from "../../../components/pages/CharactersPage";
 import Layout from "../../../components/Layout";
-import Sort from "../../../components/Sort";
 
-const sortOrderOptions: Option[] = [
-  { id: "level", name: "Level" },
-  { id: "initiative", name: "Initiative" },
-  { id: "name", name: "Name" },
-];
-
-type ClassFilterProps = {
-  game: string;
+type PageProps = {
+  searchResults: CharacterAbility[];
 };
 
-const ClassFilter = ({ game }: ClassFilterProps) => {
-  return (
-    <div className="filters">
-      {getCharacterClasses(game)
-        .filter((c) => !c.hidden)
-        .map((char) => (
-          <Link key={char.class} href={`/${game}/characters/${char.class}`}>
-            <a className={`filter-icon`}>
-              <img
-                alt=""
-                src={
-                  getBaseUrl() + `icons/characters/${game}/${char.class}.png`
-                }
-              />
-            </a>
-          </Link>
-        ))}
-    </div>
-  );
-};
-
-const Characters = () => {
+const Characters = ({ searchResults }: PageProps) => {
   const router = useRouter();
   const game = verifyQueryParam(router.query.game, "gh");
-  const characterClass = verifyQueryParam(
-    router.query.character,
-    getDefaultCharacterClass(game)
-  );
-
-  useEffect(() => {
-    if (!router || !router?.query?.game) return;
-    if (characterClass === null) {
-      router.push(`/gh/characters/BR`);
-    } else {
-      router.push(`/${router.query.game}/characters/${characterClass}`);
-    }
-  }, [characterClass, router]);
+  const character = getCharacter(getDefaultCharacterClass(game));
 
   return (
     <Layout title={getTitle(game, "Characters")}>
-      <div className="toolbar">
-        <div className="toolbar-inner">
-          <div>
-            <div className="flex">
-              <Sort sortOrderOptions={sortOrderOptions} />
-            </div>
-          </div>
-          <div />
-          <div>
-            <div className="button-group">
-              <button disabled>Character Mat</button>
-              <button disabled>Character Sheet</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ClassFilter game={game} />
+      <CharactersPage
+        character={character}
+        game={game}
+        searchResults={searchResults}
+      />
     </Layout>
   );
+};
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const searchResults = await characterSearchResults(context.query);
+
+  return {
+    props: {
+      searchResults,
+    },
+  };
 };
 
 export default Characters;
