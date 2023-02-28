@@ -28,7 +28,9 @@ const Characters = ({ searchResults }: PageProps) => {
   const character = getCharacter(characterClass);
 
   return (
-    <Layout title={getTitle(game, character.altName || character.name)}>
+    <Layout
+      title={getTitle(game, (character.altName || character.name) + " Class")}
+    >
       <CharactersPage
         character={character}
         game={game}
