@@ -1166,7 +1166,7 @@ let monsters = [
     name: "harrower Icecrawlers",
     points: 341,
     expansion: "Crimson Scales",
-    image: "monster-stat-cards/crimson-scales/cs-water-spirit-6.png",
+    image: "monster-stat-cards/crimson-scales/cs-harrower-icecrawlers-4.png",
     xws: "waterspirit",
   },
   {

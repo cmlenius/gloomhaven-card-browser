@@ -3007,10 +3007,8 @@ export const monsterCards: Record<string, Monster[]> = {
       name: "Harrower Icecrawlers",
       game: "cs",
       statCards: [
-        "monster-stat-cards/crimson-scales/cs-water-spirit-0.png",
-        "monster-stat-cards/crimson-scales/cs-water-spirit-2.png",
-        "monster-stat-cards/crimson-scales/cs-water-spirit-4.png",
-        "monster-stat-cards/crimson-scales/cs-water-spirit-6.png",
+        "monster-stat-cards/crimson-scales/cs-harrower-icecrawlers-0.png",
+        "monster-stat-cards/crimson-scales/cs-harrower-icecrawlers-4.png",
       ],
       abilityCards: [
         "monster-ability-cards/crimson-scales/harrower-icecrawlers/cs-ma-harrower-icecrawlers-1.png",
@@ -3022,7 +3020,7 @@ export const monsterCards: Record<string, Monster[]> = {
         "monster-ability-cards/crimson-scales/harrower-icecrawlers/cs-ma-harrower-icecrawlers-7.png",
         "monster-ability-cards/crimson-scales/harrower-icecrawlers/cs-ma-harrower-icecrawlers-8.png",
       ],
-      isVertical: true,
+      isVertical: false,
     },
     {
       id: "inox-bloodguard",
