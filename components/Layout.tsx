@@ -57,8 +57,6 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
     cardType = cardType.split("?")[0];
   }
 
-  console.log(cardType);
-
   return (
     <nav className="topbar">
       <div className="topbar-inner">

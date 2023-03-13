@@ -19,7 +19,7 @@ export const characterSearchResults = async (query: {
   const direction = verifyQueryParam(query.dir, "asc");
 
   return (
-    characterAbilityCards[game]?.[className]?.sort(
+    characterAbilityCards[game]?.[className?.toUpperCase()]?.sort(
       customSort(order, direction)
     ) || []
   );

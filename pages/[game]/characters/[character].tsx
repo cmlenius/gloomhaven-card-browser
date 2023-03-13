@@ -25,12 +25,11 @@ const Characters = ({ searchResults }: PageProps) => {
     getDefaultCharacterClass(game)
   );
 
-  const character = getCharacter(characterClass);
+  const character = getCharacter(characterClass.toUpperCase());
+  const name = character?.altName || character?.name || "Character";
 
   return (
-    <Layout
-      title={getTitle(game, (character.altName || character.name) + " Class")}
-    >
+    <Layout title={getTitle(game, name + " Class")}>
       <CharactersPage
         character={character}
         game={game}

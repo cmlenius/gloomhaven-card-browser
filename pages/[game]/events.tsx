@@ -59,7 +59,6 @@ const EventFilters = () => {
   const eventType = verifyQueryParam(query.eventType, "outpost");
 
   const handleEventTypeChange = (newEventType: string | null) => {
-    console.log(newEventType);
     if (eventType === newEventType) return;
     router.push({
       pathname: "events",
