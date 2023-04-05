@@ -5834,15 +5834,6 @@ export const characterAbilityCards: Record<
         level: 4,
       },
       {
-        name: "rockspine termite",
-        class: "AA",
-        game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-alate-dispersion.jpeg",
-        initiative: 58,
-        level: 4,
-      },
-      {
         name: "anti-venom",
         class: "AA",
         game: "cs",

@@ -6981,16 +6981,6 @@ let abilities = [
     cardno: "AA-022",
   },
   {
-    name: "rockspine termite",
-    points: 995,
-    expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/AA/cs-alate-dispersion.png",
-    xws: "alatedispersion",
-    level: "4",
-    initiative: "58",
-    cardno: "AA-022",
-  },
-  {
     name: "anti-venom",
     points: 996,
     expansion: "Crimson Scales",
