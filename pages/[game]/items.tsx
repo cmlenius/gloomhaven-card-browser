@@ -7,6 +7,7 @@ import { useSpoilers } from "../../hooks/useSpoilers";
 import {
   getBaseUrl,
   getCharacterColor,
+  getDescription,
   getTitle,
   itemSpoilerFilter,
   verifyQueryParam,
@@ -115,7 +116,10 @@ const Items = ({ searchResults }: PageProps) => {
     .filter((i) => !search || i.id === search);
 
   return (
-    <Layout title={getTitle(game, "Items")}>
+    <Layout
+      description={getDescription(game, "Item Cards", searchResults)}
+      title={getTitle(game, "Items")}
+    >
       <div className="toolbar">
         <div className="toolbar-inner">
           <Sort sortOrderOptions={sortOrderOptions} />

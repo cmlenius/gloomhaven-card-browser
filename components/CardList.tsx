@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBan, faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
 import { getBaseUrl } from "../common/helpers";
+import { Card } from "../common/types";
 
 const CARDS_PER_PAGE = 12;
 
@@ -18,13 +19,6 @@ const Empty = () => {
     </div>
   );
 };
-
-interface Card {
-  id?: number | string;
-  name: number | string;
-  image: string;
-  imageBack?: string;
-}
 
 type CardProps = {
   card: Card;
