@@ -1,14 +1,55 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import { Character, CharacterAbility, Item, Spoilers } from "./types";
+import { Card, Character, CharacterAbility, Item, Spoilers } from "./types";
+
+export const defaultDescription =
+  "Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes";
+export const defaultTitle = "Gloomhaven Card Browser";
 
 export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
 }
 
-export function getTitle(game: string, subject: string): string {
-  const defaultTitle = "Gloomhaven Card Browser";
+const articles = new Set(["a", "an", "and", "of", "the"]);
+const toTitleCase = (phrase: string | number) => {
+  return phrase
+    .toString()
+    .toLowerCase()
+    .split(" ")
+    .map((word, i) =>
+      i !== 0 && articles.has(word)
+        ? word
+        : word.charAt(0).toUpperCase() + word.slice(1)
+    )
+    .join(" ");
+};
 
+export function getDescription(
+  game: string,
+  subject: string,
+  cards: Card[]
+): string {
+  const gameName = games.find((g) => g.id === game)?.name;
+  const description =
+    gameName +
+    " " +
+    subject +
+    "; " +
+    cards.map((c) => toTitleCase(c.name)).join(", ");
+
+  if (
+    !gameName ||
+    !subject ||
+    !cards ||
+    cards.length == 0 ||
+    description.trim() == ""
+  )
+    return defaultDescription;
+
+  return description.trim();
+}
+
+export function getTitle(game: string, subject: string): string {
   const gameName = games.find((g) => g.id === game)?.name;
   const title = gameName + " " + subject;
 

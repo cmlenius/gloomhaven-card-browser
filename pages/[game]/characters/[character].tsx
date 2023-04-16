@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import {
   getCharacter,
   getDefaultCharacterClass,
+  getDescription,
   getTitle,
   verifyQueryParam,
 } from "../../../common/helpers";
@@ -29,7 +30,14 @@ const Characters = ({ searchResults }: PageProps) => {
   const name = character?.altName || character?.name || "Character";
 
   return (
-    <Layout title={getTitle(game, name + " Class")}>
+    <Layout
+      description={getDescription(
+        game,
+        "Character Ability Cards",
+        searchResults
+      )}
+      title={getTitle(game, name + " Class")}
+    >
       <CharactersPage
         character={character}
         game={game}

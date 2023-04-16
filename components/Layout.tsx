@@ -6,7 +6,11 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
 
 import { DropdownNav } from "../components/Dropdown";
-import { verifyQueryParam } from "../common/helpers";
+import {
+  defaultDescription,
+  defaultTitle,
+  verifyQueryParam,
+} from "../common/helpers";
 import { Option } from "../common/types";
 import { games } from "../data/games";
 import Settings from "./Settings";
@@ -76,20 +80,18 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
 
 type LayoutProps = {
   children?: React.ReactNode;
+  description?: string;
   title?: string;
 };
 
-const Layout = ({ children, title }: LayoutProps) => {
+const Layout = ({ children, description, title }: LayoutProps) => {
   const [settingDrawerOpen, setSettingDrawerOpen] = useState(false);
 
   return (
     <>
       <Head>
-        <title>{title || "Gloomhaven Card Browser"}</title>
-        <meta
-          name="description"
-          content="Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes"
-        />
+        <title>{title || defaultTitle}</title>
+        <meta name="description" content={description || defaultDescription} />
         <meta
           name="google-site-verification"
           content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg"

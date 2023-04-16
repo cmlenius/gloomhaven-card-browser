@@ -1,3 +1,10 @@
+export interface Card {
+  id?: number | string;
+  name: number | string;
+  image: string;
+  imageBack?: string;
+}
+
 export type Game = {
   id: string;
   name: string;
