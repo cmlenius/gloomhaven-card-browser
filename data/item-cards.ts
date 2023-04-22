@@ -4901,6 +4901,7 @@ export const itemCards: Record<string, Item[]> = {
       game: "fh",
       source: "fh",
       image: "items/frosthaven/fh-148-circlet-of-sanctity.jpeg",
+      imageBack: "items/frosthaven/fh-148-circlet-of-sanctity-back.jpeg",
       cost: 0,
       slot: "head",
     },

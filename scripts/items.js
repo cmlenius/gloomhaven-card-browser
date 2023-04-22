@@ -5620,6 +5620,7 @@ let items = [
     expansion: "Frosthaven",
     gameType: "fh",
     image: "items/frosthaven/129-167/fh-148-circlet-of-sanctity.png",
+    imageBack: "items/frosthaven/129-167/fh-148-circlet-of-sanctity-back.png",
     slot: "head",
   },
   {
