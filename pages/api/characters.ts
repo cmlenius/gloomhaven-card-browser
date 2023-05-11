@@ -18,10 +18,14 @@ export const characterSearchResults = async (query: {
   );
   const order = verifyQueryParam(query.order, "level");
   const direction = verifyQueryParam(query.dir, "asc");
-  const character = getCharacter(className?.toUpperCase());
+
+  const character = getCharacter(game, className?.toUpperCase());
+  if (character == null) {
+    return [];
+  }
 
   return (
-    characterAbilityCards[game]?.[className?.toUpperCase()]
+    characterAbilityCards[game]?.[character?.class.toUpperCase()]
       ?.map((card) =>
         card.name.endsWith("-back") ? { ...card, name: character?.name } : card
       )

@@ -19,7 +19,7 @@ type PageProps = {
 const Characters = ({ searchResults }: PageProps) => {
   const router = useRouter();
   const game = verifyQueryParam(router.query.game, "gh");
-  const character = getCharacter(getDefaultCharacterClass(game));
+  const character = getCharacter(game, getDefaultCharacterClass(game));
 
   return (
     <Layout title={getTitle(game, "Characters")}>

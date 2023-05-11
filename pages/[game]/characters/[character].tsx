@@ -26,7 +26,7 @@ const Characters = ({ searchResults }: PageProps) => {
     getDefaultCharacterClass(game)
   );
 
-  const character = getCharacter(characterClass.toUpperCase());
+  const character = getCharacter(game, characterClass.toUpperCase());
   const name = character?.altName || character?.name || "Character";
 
   return (

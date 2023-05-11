@@ -10,6 +10,14 @@ export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
 }
 
+const nameToClassKeyMapping = characters.reduce((map, character) => {
+  map[character.name.toLowerCase().replace(/\s/g, "")] = character.class;
+  if (character.altName) {
+    map[character.altName.toLowerCase().replace(/\s/g, "")] = character.class;
+  }
+  return map;
+}, {});
+
 const articles = new Set(["a", "an", "and", "of", "the"]);
 const toTitleCase = (phrase: string | number) => {
   return phrase
@@ -23,6 +31,15 @@ const toTitleCase = (phrase: string | number) => {
     )
     .join(" ");
 };
+
+export function verifyQueryParam(
+  param: string | string[] | null,
+  defaultValue?: string
+): string | null {
+  if (!param) return defaultValue;
+  if (param instanceof Array) return param[0];
+  return param;
+}
 
 export function getDescription(
   game: string,
@@ -58,15 +75,6 @@ export function getTitle(game: string, subject: string): string {
   return title.trim();
 }
 
-export function verifyQueryParam(
-  param: string | string[] | null,
-  defaultValue?: string
-): string | null {
-  if (!param) return defaultValue;
-  if (param instanceof Array) return param[0];
-  return param;
-}
-
 export function getCharacterClasses(game: string): Character[] {
   return characters.filter((c) => c.game === game);
 }
@@ -78,8 +86,20 @@ export function getCharacterColor(char: string): string {
   return characters.find((c) => c.class === char)?.colour || defaultColour;
 }
 
-export function getCharacter(characterClass: string): Character | null {
-  return characters.find((c) => c.class === characterClass);
+export function getCharacter(
+  game: string,
+  characterClass: string
+): Character | null {
+  const chars = game ? characters.filter((c) => c.game === game) : characters;
+  let character = chars.find((c) => c.class === characterClass);
+  if (character == null) {
+    const characterClassName = characterClass.toLowerCase().replace(/\s/g, "");
+    character = chars.find(
+      (c) => c.class === nameToClassKeyMapping[characterClassName]
+    );
+  }
+
+  return character;
 }
 
 export function getDefaultCharacterClass(gameId: string): string | null {
