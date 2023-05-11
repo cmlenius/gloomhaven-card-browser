@@ -5964,7 +5964,7 @@ let items = [
     gameType: "fh",
     image: "items/frosthaven/168-192/fh-187-dangerous-gear.png",
     consumed: true,
-    slot: "samll",
+    slot: "small",
   },
   {
     id: 188,

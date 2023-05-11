@@ -5284,7 +5284,7 @@ export const itemCards: Record<string, Item[]> = {
       source: "fh",
       image: "items/frosthaven/fh-187-dangerous-gear.jpeg",
       cost: 0,
-      slot: "samll",
+      slot: "small",
       consumed: true,
     },
     {
