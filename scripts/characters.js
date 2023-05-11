@@ -47,12 +47,12 @@ let characters = [
   { id: "RM", game: "cs", colour: "#8D2B27", name: "Ruinmaw", altName: "Bleeding Claw", },
 
   // Trail of Ashes
-  { id: "IN", game: "toa", colour: "#7B2D40", name: "Incarnate" },
-  { id: "RH", game: "toa", colour: "#364A6D", name: "Rimehearth" },
-  { id: "SR", game: "toa", colour: "#79552C", name: "Shardrender" },
-  { id: "TP", game: "toa", colour: "#265372", name: "Tempest" },
-  { id: "TR", game: "toa", colour: "#6B693B", name: "Thornreaper" },
-  { id: "VQ", game: "toa", colour: "#AD4F3F", name: "Vanquisher", },
+  { id: "IN", game: "toa", colour: "#7B2D40", name: "Incarnate", altName: "Three Eyes" },
+  { id: "RH", game: "toa", colour: "#364A6D", name: "Rimehearth", altName: "Ice Meteor" },
+  { id: "SR", game: "toa", colour: "#79552C", name: "Shardrender", altName: "Gemstone" },
+  { id: "TP", game: "toa", colour: "#265372", name: "Tempest", altName: "Lightning Ball" },
+  { id: "TR", game: "toa", colour: "#6B693B", name: "Thornreaper", altName: "Spiked Ring" },
+  { id: "VQ", game: "toa", colour: "#AD4F3F", hidden: true, name: "Vanquisher", altName: "???" },
 
   // Frosthaven
   { id: "BB", game: "fh", colour: "#3E7D9B", base: true, name: "Blinkblade" },
