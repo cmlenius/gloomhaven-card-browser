@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 import { useSpoilers } from "../../hooks/useSpoilers";
@@ -41,12 +42,24 @@ type ClassFilterProps = {
 };
 
 const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
+  const router = useRouter();
+  const query = router.query;
+
   return (
     <div className="filters">
       {getCharacterClasses(game)
         .filter((c) => !c.hidden)
         .map((char) => (
-          <Link key={char.class} href={`/${game}/characters/${char.class}`}>
+          <Link
+            key={char.class}
+            href={{
+              pathname: `/${game}/characters/${char.class}`,
+              query: {
+                ...(query.dir && { dir: query.dir }),
+                ...(query.order && { order: query.order }),
+              },
+            }}
+          >
             <a
               className={`filter-icon ${
                 characterClass === char.class ? "filter-icon-selected" : ""
