@@ -19,23 +19,6 @@ const sortOrderOptions: Option[] = [
   { id: "name", name: "Name" },
 ];
 
-type MilestoneFilterProps = {
-  handleMilestoneChange: () => void;
-  showMilestone: boolean;
-};
-
-const MilestoneFilter = ({
-  handleMilestoneChange,
-  showMilestone,
-}: MilestoneFilterProps) => {
-  return (
-    <div className="milestone-filter" onClick={handleMilestoneChange}>
-      <input checked={showMilestone} readOnly type="checkbox" />
-      <span>Milestone</span>
-    </div>
-  );
-};
-
 type ClassFilterProps = {
   characterClass: string;
   game: string;
@@ -87,7 +70,6 @@ type PageProps = {
 const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
   const [modalContent, setModalContent] = useState(null);
-  const [showMilestone, setShowMilestone] = useState(false);
 
   const closeModal = useCallback(
     () => setModalContent(null),
@@ -101,12 +83,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     updateSpoilers({ ...spoilers, level: newLevel });
   };
 
-  const handleMilestoneChange = () => {
-    setShowMilestone(!showMilestone);
-  };
-
-  let cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
-  if (!showMilestone) cardList = cardList.filter((c) => !c.milestone);
+  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
 
   useEffect(() => {
     if (character)
@@ -120,14 +97,6 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           <div>
             <div className="flex">
               <Sort sortOrderOptions={sortOrderOptions} />
-              {["cs", "toa"].includes(game) && (
-                <span className="milestone-filter-desktop">
-                  <MilestoneFilter
-                    handleMilestoneChange={handleMilestoneChange}
-                    showMilestone={showMilestone}
-                  />
-                </span>
-              )}
             </div>
           </div>
           {!spoilers.loading && (
@@ -141,14 +110,6 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
                 max="9"
                 onInput={updateLevel}
                 value={spoilers.level || 1}
-              />
-            </div>
-          )}
-          {["cs", "toa"].includes(game) && (
-            <div className="milestone-filter-mobile">
-              <MilestoneFilter
-                handleMilestoneChange={handleMilestoneChange}
-                showMilestone={showMilestone}
               />
             </div>
           )}

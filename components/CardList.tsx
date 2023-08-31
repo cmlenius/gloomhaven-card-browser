@@ -128,16 +128,21 @@ const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
       loadMore={loadMore}
       pageStart={0}
     >
-      {data?.map((card, idx) =>
+      {data?.map((card) =>
         card.imageBack ? (
           <FlipCard
-            key={idx}
+            key={card.name}
             card={card}
             horizontal={horizontal}
             showId={showId}
           />
         ) : (
-          <Card key={idx} card={card} horizontal={horizontal} showId={showId} />
+          <Card
+            key={card.name}
+            card={card}
+            horizontal={horizontal}
+            showId={showId}
+          />
         )
       )}
       {[...Array(4)].map((_, idx) => (
