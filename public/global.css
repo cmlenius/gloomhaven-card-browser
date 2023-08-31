@@ -705,27 +705,6 @@ input[type="radio"] {
   flex-shrink: 0;
 }
 
-.milestone-filter {
-  align-items: center;
-  display: flex;
-  color: var(--primary);
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  margin-left: 8px;
-}
-
-.milestone-filter input[type="checkbox"] {
-  accent-color: var(--primary);
-  margin-right: 4px;
-  height: 14px;
-  width: 14px;
-}
-
-.milestone-filter-mobile {
-  display: none;
-}
-
 /* --- TOPBAR --- */
 .topbar {
   background-color: var(--primary);
@@ -816,15 +795,6 @@ input[type="radio"] {
 
   .home {
     width: 300px;
-  }
-
-  .milestone-filter-desktop {
-    display: none;
-  }
-
-  .milestone-filter-mobile {
-    display: flex;
-    margin-bottom: 8px;
   }
 
   .modal-content {
