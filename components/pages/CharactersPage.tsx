@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
@@ -8,10 +8,15 @@ import {
   getBaseUrl,
   getCharacterClasses,
 } from "../../common/helpers";
-import { Character, CharacterAbility, Option } from "../../common/types";
-import CardList from "../../components/CardList";
-import Modal from "../../components/Modal";
-import Sort from "../../components/Sort";
+import {
+  Character,
+  CharacterAbility,
+  Option,
+  Spoilers,
+} from "../../common/types";
+import CardList from "..//CardList";
+import Sort from "..//Sort";
+import Empty from "../Empty";
 
 const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },
@@ -61,6 +66,23 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
   );
 };
 
+type CharacterDetailsProps = {
+  character: Character;
+  spoilers: Spoilers;
+};
+
+const CharacterDetails = ({ character, spoilers }: CharacterDetailsProps) => {
+  if (spoilers.characters.has(character.class) || character.base)
+    return (
+      <div className="character-details">
+        <img alt="" src={getBaseUrl() + character.matImageBack} />
+        <img alt="" src={getBaseUrl() + character.matImage} />
+        <img alt="" src={getBaseUrl() + character.sheetImage} />
+      </div>
+    );
+  return <Empty />;
+};
+
 type PageProps = {
   searchResults: CharacterAbility[];
   game: string;
@@ -69,12 +91,7 @@ type PageProps = {
 
 const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
-  const [modalContent, setModalContent] = useState(null);
-
-  const closeModal = useCallback(
-    () => setModalContent(null),
-    [setModalContent]
-  );
+  const [showCharacterDetails, setShowCharacterDetails] = useState(false);
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -115,25 +132,29 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           )}
           <div>
             <div className="button-group">
-              <button onClick={() => setModalContent(character.matImage)}>
-                Character Mat
+              <button
+                className={!showCharacterDetails ? "btn-selected" : ""}
+                onClick={() => setShowCharacterDetails(false)}
+              >
+                Ability Cards
               </button>
-              <button onClick={() => setModalContent(character.sheetImage)}>
-                Character Sheet
+              <button
+                className={showCharacterDetails ? "btn-selected" : ""}
+                onClick={() => setShowCharacterDetails(true)}
+              >
+                Character Details
               </button>
             </div>
           </div>
         </div>
       </div>
       <ClassFilter game={game} characterClass={character?.class} />
-      {!spoilers.loading && <CardList cardList={cardList} />}
-      {modalContent && (
-        <Modal
-          content={<img alt="" src={getBaseUrl() + modalContent} />}
-          open={!!modalContent}
-          onClose={closeModal}
-        />
-      )}
+      {!spoilers.loading &&
+        (showCharacterDetails ? (
+          <CharacterDetails character={character} spoilers={spoilers} />
+        ) : (
+          <CardList cardList={cardList} />
+        ))}
     </>
   );
 };

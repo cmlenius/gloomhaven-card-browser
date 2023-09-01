@@ -6,6 +6,7 @@ export const characters: Character[] = [
     name: "Brute",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-brute.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-brute-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-brute-perks.jpeg",
     base: true,
   },
@@ -15,6 +16,7 @@ export const characters: Character[] = [
     name: "Cragheart",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-cragheart.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-cragheart-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-cragheart-perks.jpeg",
     base: true,
   },
@@ -24,6 +26,7 @@ export const characters: Character[] = [
     name: "Mindthief",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-mindthief.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-mindthief-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-mindthief-perks.jpeg",
     base: true,
   },
@@ -33,6 +36,7 @@ export const characters: Character[] = [
     name: "Scoundrel",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-scoundrel.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-scoundrel-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-scoundrel-perks.jpeg",
     base: true,
   },
@@ -42,6 +46,7 @@ export const characters: Character[] = [
     name: "Spellweaver",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-spellweaver.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-spellweaver-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-spellweaver-perks.jpeg",
     base: true,
   },
@@ -51,6 +56,7 @@ export const characters: Character[] = [
     name: "Tinkerer",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-tinkerer.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-tinkerer-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-tinkerer-perks.jpeg",
     base: true,
   },
@@ -61,6 +67,7 @@ export const characters: Character[] = [
     altName: "Lightning Bolts",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-berserker.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-berserker-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-berserker-perks.jpeg",
   },
   {
@@ -70,6 +77,7 @@ export const characters: Character[] = [
     altName: "Two Minis",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-beast-tyrant.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-beast-tyrant-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-beast-tyrant-perks.jpeg",
   },
   {
@@ -79,6 +87,7 @@ export const characters: Character[] = [
     altName: "Angry Face",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-doomstalker.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-doomstalker-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-doomstalker-perks.jpeg",
   },
   {
@@ -88,6 +97,7 @@ export const characters: Character[] = [
     altName: "Triangles",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-elementalist.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-elementalist-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-elementalist-perks.jpeg",
   },
   {
@@ -97,6 +107,7 @@ export const characters: Character[] = [
     altName: "Eclipse",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-nightshroud.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-nightshroud-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-nightshroud-perks.jpeg",
   },
   {
@@ -106,6 +117,7 @@ export const characters: Character[] = [
     altName: "Cthulhu",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-plagueherald.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-plagueherald-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-plagueherald-perks.jpeg",
   },
   {
@@ -115,6 +127,7 @@ export const characters: Character[] = [
     altName: "Three Spears",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-quartermaster.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-quartermaster-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-quartermaster-perks.jpeg",
   },
   {
@@ -124,6 +137,7 @@ export const characters: Character[] = [
     altName: "Saw",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-sawbones.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-sawbones-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-sawbones-perks.jpeg",
   },
   {
@@ -133,6 +147,7 @@ export const characters: Character[] = [
     altName: "Sun",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-sunkeeper.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-sunkeeper-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-sunkeeper-perks.jpeg",
   },
   {
@@ -142,6 +157,7 @@ export const characters: Character[] = [
     altName: "Music Note",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-soothsinger.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-soothsinger-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-soothsinger-perks.jpeg",
   },
   {
@@ -151,6 +167,7 @@ export const characters: Character[] = [
     altName: "Circles",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-summoner.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-summoner-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-summoner-perks.jpeg",
   },
   {
@@ -160,6 +177,7 @@ export const characters: Character[] = [
     altName: "Baldeswarm",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-bladeswarm.jpeg",
+    matImageBack: "character-mats/gloomhaven/gh-bladeswarm-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-bladeswarm-perks.jpeg",
     hidden: true,
   },
@@ -170,6 +188,7 @@ export const characters: Character[] = [
     altName: "Diviner",
     game: "gh",
     matImage: "character-mats/forgotten-circles/fc-diviner.jpeg",
+    matImageBack: "character-mats/forgotten-circles/fc-diviner-back.jpeg",
     sheetImage: "character-perks/forgotten-circles/fc-diviner-perks.jpeg",
   },
   {
@@ -178,6 +197,8 @@ export const characters: Character[] = [
     name: "Demolitionist",
     game: "jotl",
     matImage: "character-mats/jaws-of-the-lion/jotl-demolitionist.jpeg",
+    matImageBack:
+      "character-mats/jaws-of-the-lion/jotl-demolitionist-back.jpeg",
     sheetImage:
       "character-perks/jaws-of-the-lion/jotl-demolitionist-perks.jpeg",
     base: true,
@@ -188,6 +209,7 @@ export const characters: Character[] = [
     name: "Hatchet",
     game: "jotl",
     matImage: "character-mats/jaws-of-the-lion/jotl-hatchet.jpeg",
+    matImageBack: "character-mats/jaws-of-the-lion/jotl-hatchet-back.jpeg",
     sheetImage: "character-perks/jaws-of-the-lion/jotl-hatchet-perks.jpeg",
     base: true,
   },
@@ -197,6 +219,7 @@ export const characters: Character[] = [
     name: "Red Guard",
     game: "jotl",
     matImage: "character-mats/jaws-of-the-lion/jotl-red-guard.jpeg",
+    matImageBack: "character-mats/jaws-of-the-lion/jotl-red-guard-back.jpeg",
     sheetImage: "character-perks/jaws-of-the-lion/jotl-red-guard-perks.jpeg",
     base: true,
   },
@@ -206,6 +229,7 @@ export const characters: Character[] = [
     name: "Voidwarden",
     game: "jotl",
     matImage: "character-mats/jaws-of-the-lion/jotl-voidwarden.jpeg",
+    matImageBack: "character-mats/jaws-of-the-lion/jotl-voidwarden-back.jpeg",
     sheetImage: "character-perks/jaws-of-the-lion/jotl-voidwarden-perks.jpeg",
     base: true,
   },
@@ -216,6 +240,7 @@ export const characters: Character[] = [
     altName: "Flask",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-brightspark.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-brightspark-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-brightspark-perks.jpeg",
   },
   {
@@ -225,6 +250,7 @@ export const characters: Character[] = [
     altName: "Target",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-bombard.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-bombard-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-bombard-perks.jpeg",
   },
   {
@@ -234,6 +260,7 @@ export const characters: Character[] = [
     altName: "Chained Helmet",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-chainguard.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-chainguard-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-chainguard-perks.jpeg",
   },
   {
@@ -243,6 +270,7 @@ export const characters: Character[] = [
     altName: "Tusks",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-chieftain.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-chieftain-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-chieftain-perks.jpeg",
   },
   {
@@ -252,6 +280,7 @@ export const characters: Character[] = [
     altName: "Ladder Axe",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-fire-knight.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-fire-knight-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-fire-knight-perks.jpeg",
   },
   {
@@ -261,6 +290,7 @@ export const characters: Character[] = [
     altName: "Vortex",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-hollowpact.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-hollowpact-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-hollowpact-perks.jpeg",
   },
   {
@@ -270,6 +300,7 @@ export const characters: Character[] = [
     altName: "Leaf",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-hierophant.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-hierophant-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-hierophant-perks.jpeg",
   },
   {
@@ -279,6 +310,7 @@ export const characters: Character[] = [
     altName: "Crescent Sun",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-luminary.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-luminary-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-luminary-perks.jpeg",
   },
   {
@@ -288,6 +320,7 @@ export const characters: Character[] = [
     altName: "Sprig",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-mirefoot.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-mirefoot-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-mirefoot-perks.jpeg",
   },
   {
@@ -297,6 +330,7 @@ export const characters: Character[] = [
     altName: "Skull",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-spirit-caller.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-spirit-caller-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-spirit-caller-perks.jpeg",
   },
   {
@@ -306,6 +340,7 @@ export const characters: Character[] = [
     altName: "Galaxy",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-starslinger.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-starslinger-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-starslinger-perks.jpeg",
   },
   {
@@ -315,6 +350,7 @@ export const characters: Character[] = [
     altName: "Beetle",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-amber-aegis.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-amber-aegis-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-amber-aegis-perks.jpeg",
   },
   {
@@ -324,6 +360,7 @@ export const characters: Character[] = [
     altName: "Tools",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-artificer.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-artificer-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-artificer-perks.jpeg",
   },
   {
@@ -333,6 +370,7 @@ export const characters: Character[] = [
     altName: "Bleeding Claw",
     game: "cs",
     matImage: "character-mats/crimson-scales/cs-ruinmaw.jpeg",
+    matImageBack: "character-mats/crimson-scales/cs-ruinmaw-back.jpeg",
     sheetImage: "character-perks/crimson-scales/cs-ruinmaw-perks.jpeg",
   },
   {
@@ -342,6 +380,7 @@ export const characters: Character[] = [
     altName: "Three Eyes",
     game: "toa",
     matImage: "character-mats/trail-of-ashes/toa-incarnate.jpeg",
+    matImageBack: "character-mats/trail-of-ashes/toa-incarnate-back.jpeg",
     sheetImage: "character-perks/trail-of-ashes/toa-incarnate-perks.jpeg",
   },
   {
@@ -351,6 +390,7 @@ export const characters: Character[] = [
     altName: "Ice Meteor",
     game: "toa",
     matImage: "character-mats/trail-of-ashes/toa-rimehearth.jpeg",
+    matImageBack: "character-mats/trail-of-ashes/toa-rimehearth-back.jpeg",
     sheetImage: "character-perks/trail-of-ashes/toa-rimehearth-perks.jpeg",
   },
   {
@@ -360,6 +400,7 @@ export const characters: Character[] = [
     altName: "Gemstone",
     game: "toa",
     matImage: "character-mats/trail-of-ashes/toa-shardrender.jpeg",
+    matImageBack: "character-mats/trail-of-ashes/toa-shardrender-back.jpeg",
     sheetImage: "character-perks/trail-of-ashes/toa-shardrender-perks.jpeg",
   },
   {
@@ -369,6 +410,7 @@ export const characters: Character[] = [
     altName: "Lightning Ball",
     game: "toa",
     matImage: "character-mats/trail-of-ashes/toa-tempest.jpeg",
+    matImageBack: "character-mats/trail-of-ashes/toa-tempest-back.jpeg",
     sheetImage: "character-perks/trail-of-ashes/toa-tempest-perks.jpeg",
   },
   {
@@ -378,6 +420,7 @@ export const characters: Character[] = [
     altName: "Spiked Ring",
     game: "toa",
     matImage: "character-mats/trail-of-ashes/toa-thornreaper.jpeg",
+    matImageBack: "character-mats/trail-of-ashes/toa-thornreaper-back.jpeg",
     sheetImage: "character-perks/trail-of-ashes/toa-thornreaper-perks.jpeg",
   },
   {
@@ -387,6 +430,7 @@ export const characters: Character[] = [
     altName: "Vanquisher",
     game: "toa",
     matImage: "character-mats/trail-of-ashes/toa-vanquisher.jpeg",
+    matImageBack: "character-mats/trail-of-ashes/toa-vanquisher-back.jpeg",
     sheetImage: "character-perks/trail-of-ashes/toa-vanquisher-perks.jpeg",
     hidden: true,
   },
@@ -396,6 +440,7 @@ export const characters: Character[] = [
     name: "Blinkblade",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-blinkblade.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-blinkblade-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-blinkblade-perks.jpeg",
     base: true,
   },
@@ -405,6 +450,7 @@ export const characters: Character[] = [
     name: "Banner Spear",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-banner-spear.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-banner-spear-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-banner-spear-perks.jpeg",
     base: true,
   },
@@ -414,6 +460,7 @@ export const characters: Character[] = [
     name: "Boneshaper",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-boneshaper.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-boneshaper-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-boneshaper-perks.jpeg",
     base: true,
   },
@@ -423,6 +470,7 @@ export const characters: Character[] = [
     name: "Drifter",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-drifter.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-drifter-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-drifter-perks.jpeg",
     base: true,
   },
@@ -432,6 +480,7 @@ export const characters: Character[] = [
     name: "Deathwalker",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-deathwalker.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-deathwalker-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-deathwalker-perks.jpeg",
     base: true,
   },
@@ -441,6 +490,7 @@ export const characters: Character[] = [
     name: "Geminate",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-geminate.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-geminate-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-geminate-perks.jpeg",
     base: true,
   },
@@ -451,6 +501,7 @@ export const characters: Character[] = [
     altName: "Coral",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-crashing-tide.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-crashing-tide-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-crashing-tide-perks.jpeg",
   },
   {
@@ -460,6 +511,7 @@ export const characters: Character[] = [
     altName: "Kelp",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-deepwraith.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-deepwraith-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-deepwraith-perks.jpeg",
   },
   {
@@ -469,6 +521,7 @@ export const characters: Character[] = [
     altName: "Fist",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-frozen-fist.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-frozen-fist-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-frozen-fist-perks.jpeg",
   },
   {
@@ -478,6 +531,7 @@ export const characters: Character[] = [
     altName: "Prism",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-hive.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-hive-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-hive-perks.jpeg",
   },
   {
@@ -487,6 +541,7 @@ export const characters: Character[] = [
     altName: "Astral",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-infuser.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-infuser-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-infuser-perks.jpeg",
   },
   {
@@ -496,6 +551,7 @@ export const characters: Character[] = [
     altName: "Drill",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-metal-mosaic.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-metal-mosaic-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-metal-mosaic-perks.jpeg",
   },
   {
@@ -505,6 +561,7 @@ export const characters: Character[] = [
     altName: "Shackles",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-pain-conduit.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-pain-conduit-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-pain-conduit-perks.jpeg",
   },
   {
@@ -514,6 +571,7 @@ export const characters: Character[] = [
     altName: "Meteor",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-pyroclast.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-pyroclast-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-pyroclast-perks.jpeg",
   },
   {
@@ -523,6 +581,7 @@ export const characters: Character[] = [
     altName: "Snowflake",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-snowdancer.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-snowdancer-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-snowdancer-perks.jpeg",
   },
   {
@@ -532,6 +591,7 @@ export const characters: Character[] = [
     altName: "Shards",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-shattersong.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-shattersong-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-shattersong-perks.jpeg",
   },
   {
@@ -541,6 +601,7 @@ export const characters: Character[] = [
     altName: "Trap",
     game: "fh",
     matImage: "character-mats/frosthaven/fh-trapper.jpeg",
+    matImageBack: "character-mats/frosthaven/fh-trapper-back.jpeg",
     sheetImage: "character-perks/frosthaven/fh-trapper-perks.jpeg",
   },
 ];

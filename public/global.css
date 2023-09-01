@@ -45,6 +45,11 @@ button:hover {
   background-color: white;
 }
 
+.btn-selected {
+  background-color: white;
+  font-weight: 800;
+}
+
 .button-group {
   align-items: center;
   display: flex;
@@ -276,7 +281,7 @@ input[type="radio"] {
   left: 0;
   height: 100%;
   width: 100%;
-  position:absolute;
+  position: absolute;
   display: none;
   transition: transform 500ms, -webkit-transform 500ms;
 }
@@ -295,6 +300,24 @@ input[type="radio"] {
   font-size: 18px;
   top: 10px;
   left: 10px;
+}
+
+/* --- CHARACTER DETAILS --- */
+.character-details {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+  max-width: 720px;
+  padding: 0 12px;
+  width: 100%;
+}
+
+.character-details img {
+  padding: 8px 0;
+  width: 100%;
 }
 
 /* --- DROPDOWN --- */

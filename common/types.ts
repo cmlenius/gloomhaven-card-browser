@@ -19,6 +19,7 @@ export type Character = {
   altName?: string;
   game: string;
   matImage: string;
+  matImageBack: string;
   source?: string;
   sheetImage: string;
   base?: boolean;

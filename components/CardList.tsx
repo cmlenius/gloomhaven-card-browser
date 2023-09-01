@@ -1,24 +1,13 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBan, faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
+import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
 import { getBaseUrl } from "../common/helpers";
 import { Card } from "../common/types";
+import Empty from "./Empty";
 
 const CARDS_PER_PAGE = 12;
-
-const Empty = () => {
-  return (
-    <div className="empty">
-      <FontAwesomeIcon icon={faBan} height="48px" />
-      <div>No Results</div>
-      <div>
-        Check your spoiler settings or try changing your search & filters
-      </div>
-    </div>
-  );
-};
 
 type CardProps = {
   card: Card;
