@@ -56,7 +56,10 @@ const EventFilters = () => {
   const router = useRouter();
   const query = router.query;
   const game = verifyQueryParam(query.game, "gh");
-  const eventType = verifyQueryParam(query.eventType, "outpost");
+  const eventType = verifyQueryParam(
+    query.eventType,
+    game === "fh" ? "outpost" : "city"
+  );
 
   const handleEventTypeChange = (newEventType: string | null) => {
     if (eventType === newEventType) return;
@@ -69,7 +72,11 @@ const EventFilters = () => {
   return (
     <div className="button-group-left">
       {eventTypeFilters[game]?.map((et) => (
-        <button key={et.id} onClick={() => handleEventTypeChange(et.id)}>
+        <button
+          key={et.id}
+          className={eventType === et.name.toLowerCase() ? "btn-selected" : ""}
+          onClick={() => handleEventTypeChange(et.id)}
+        >
           {et.name}
         </button>
       ))}

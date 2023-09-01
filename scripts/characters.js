@@ -115,6 +115,7 @@ characters = characters.map((character) => {
     altName: character.altName,
     game: character.game === "fc" ? "gh" : character.game,
     matImage: `character-mats/${path}.jpeg`,
+    matImageBack: `character-mats/${path}-back.jpeg`,
     sheetImage: `character-perks/${path}-perks.jpeg`,
     base: character.base,
     hidden: character.hidden,
