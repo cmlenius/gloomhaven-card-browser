@@ -131,14 +131,14 @@ const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
       {data?.map((card) =>
         card.imageBack ? (
           <FlipCard
-            key={card.name}
+            key={card.image}
             card={card}
             horizontal={horizontal}
             showId={showId}
           />
         ) : (
           <Card
-            key={card.name}
+            key={card.image}
             card={card}
             horizontal={horizontal}
             showId={showId}
