@@ -1,6 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { Spoilers } from "../common/types";
-import { characters } from "../data/characters";
 
 interface SpoilersContextInterface {
   spoilers: Spoilers;
@@ -8,7 +7,7 @@ interface SpoilersContextInterface {
 }
 
 export const defaultSpoilersContextValue: Spoilers = {
-  characters: new Set<string>(characters.map((c) => c.class)),
+  characters: new Set<string>(),
   items: {
     prosperity: "9",
     recipes: true,
