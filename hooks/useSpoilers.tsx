@@ -9,11 +9,11 @@ interface SpoilersContextInterface {
 export const defaultSpoilersContextValue: Spoilers = {
   characters: new Set<string>(),
   items: {
-    prosperity: "9",
-    recipes: true,
-    solo: true,
-    other: true,
-    fc: true,
+    prosperity: "1",
+    recipes: false,
+    solo: false,
+    other: false,
+    fc: false,
   },
   level: 1,
   loading: true,
