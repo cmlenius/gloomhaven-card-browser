@@ -179,7 +179,6 @@ export const characters: Character[] = [
     matImage: "character-mats/gloomhaven/gh-bladeswarm.jpeg",
     matImageBack: "character-mats/gloomhaven/gh-bladeswarm-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-bladeswarm-perks.jpeg",
-    hidden: true,
   },
   {
     class: "DR",

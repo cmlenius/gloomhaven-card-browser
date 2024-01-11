@@ -1528,6 +1528,16 @@ export const itemCards: Record<string, Item[]> = {
       spent: true,
     },
     {
+      id: 151,
+      name: "sword of the sands",
+      game: "gh",
+      source: "solo-scenario",
+      image: "items/gloomhaven/gh-151-sword-of-the-sands.jpeg",
+      cost: 50,
+      slot: "1h",
+      consumed: true,
+    },
+    {
       id: 152,
       name: "ring of duality",
       game: "gh",

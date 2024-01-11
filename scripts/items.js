@@ -1921,6 +1921,20 @@ let items = [
     folder: "64-151",
     gameType: "ghss",
   },
+  {
+    id: 151,
+    name: "Sword of the Sands",
+    count: 1,
+    cost: 50,
+    slot: "1h",
+    source: "Reward from Solo Scenario #18 — {XX}",
+    consumed: true,
+    desc: "During your melee attack, add POISON and WOUND to the entire action.",
+    soloItem: "XX",
+    folder: "64-151",
+    gameType: "ghss",
+    specialUnlock: "ghss",
+  },
 
   // Forgotten Circles
 
