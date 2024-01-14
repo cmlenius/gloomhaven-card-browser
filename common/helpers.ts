@@ -186,3 +186,48 @@ export function itemSpoilerFilter(spoilers: Spoilers): (item: Item) => boolean {
     }
   };
 }
+
+type Ranges = { start: number; end: number }[];
+
+/**
+ * Parses a string of "ranges" into an array of range objects.
+ * EG: "1-10,92" => [{ start: 1, end : 10 }, { start: 92, end: 92 }].
+ * @param str The string to parse into ranges.
+ * @returns The range objects, or null if empty input string or error.
+ */
+export function parseRanges(str: string): Ranges | null {
+  if (str === "") {
+    return null;
+  }
+  const result: Ranges = [];
+
+  for (const segment of str.split(",")) {
+    const parts = segment.split("-");
+    if (parts.length === 2) {
+      const [start, end] = parts;
+      result.push({ start: parseInt(start), end: parseInt(end) });
+    } else if (parts.length === 1) {
+      const val = parseInt(parts[0]);
+      result.push({ start: val, end: val });
+    } else {
+      return null;
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Determines whether the supplied number is contained within any of the
+ * supplied ranges (inclusive of endpoints). EG:
+ *
+ * `isInRanges(10, [{ start: 1, end : 10 }, { start: 92, end: 92 }]) => true`
+ *
+ * `isInRanges(14, [{ start: 1, end : 10 }, { start: 92, end: 92 }]) => false`
+ * @param n The number to check if in any range
+ * @param ranges The ranges to check
+ * @returns `true` if n is in any range, `false` otherwise
+ */
+export function isInRanges(n: number, ranges: Ranges): boolean {
+  return ranges.some((range) => range.start <= n && n <= range.end);
+}

@@ -9,7 +9,9 @@ import {
   getCharacterColor,
   getDescription,
   getTitle,
+  isInRanges,
   itemSpoilerFilter,
+  parseRanges,
   verifyQueryParam,
 } from "../../common/helpers";
 import { Item, Option } from "../../common/types";
@@ -101,7 +103,7 @@ const Items = ({ searchResults }: PageProps) => {
   const game = verifyQueryParam(router.query.game, "gh");
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setSearch(parseInt(e.target.value, 10));
+    setSearch(parseRanges(e.target.value));
   };
 
   useEffect(() => {
@@ -113,7 +115,7 @@ const Items = ({ searchResults }: PageProps) => {
 
   const cardList = searchResults
     ?.filter(itemSpoilerFilter(spoilers))
-    .filter((i) => !search || i.id === search);
+    .filter((i) => !search || isInRanges(i.id, search));
 
   return (
     <Layout
@@ -131,7 +133,7 @@ const Items = ({ searchResults }: PageProps) => {
             <input
               className="id-filter"
               onChange={handleSearchChange}
-              type="number"
+              placeholder="1-10,15"
             />
           </div>
           <ItemFilters />
