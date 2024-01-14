@@ -13,6 +13,8 @@ import { useSpoilers } from "../../hooks/useSpoilers";
 import {
   getCharacterColor,
   getTitle,
+  isInRanges,
+  parseRanges,
   verifyQueryParam,
 } from "../../common/helpers";
 import { Event, Option } from "../../common/types";
@@ -107,7 +109,7 @@ const Events = ({ searchResults }: PageProps) => {
   };
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setSearch(parseInt(e.target.value, 10));
+    setSearch(parseRanges(e.target.value));
   };
 
   useEffect(() => {
@@ -117,7 +119,9 @@ const Events = ({ searchResults }: PageProps) => {
     );
   }, []);
 
-  const cardList = searchResults.filter((e) => !search || e.name === search);
+  const cardList = searchResults.filter(
+    (e) => !search || isInRanges(e.name, search)
+  );
 
   return (
     <Layout title={getTitle(game, "Events")}>
@@ -132,7 +136,7 @@ const Events = ({ searchResults }: PageProps) => {
             <input
               className="id-filter"
               onChange={handleSearchChange}
-              type="number"
+              placeholder="1-10,15"
             />
           </div>
           {game === "fh" ? (
