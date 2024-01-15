@@ -174,11 +174,12 @@ export const characters: Character[] = [
     class: "BS",
     colour: "#403129",
     name: "Bladeswarm",
-    altName: "Baldeswarm",
+    altName: "Crossed Swords",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-bladeswarm.jpeg",
     matImageBack: "character-mats/gloomhaven/gh-bladeswarm-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-bladeswarm-perks.jpeg",
+    hidden: false,
   },
   {
     class: "DR",

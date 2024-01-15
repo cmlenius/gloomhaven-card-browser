@@ -19,7 +19,7 @@ let characters = [
   { id: "SK", game: "gh", colour: "#7E6C34", name: "Sunkeeper", altName: "Sun", },
   { id: "SS", game: "gh", colour: "#75524E", name: "Soothsinger", altName: "Music Note", },
   { id: "SU", game: "gh", colour: "#713B5C", name: "Summoner", altName: "Circles", },
-  { id: "BS", game: "gh", colour: "#403129", hidden: true, name: "Bladeswarm", altName: "Baldeswarm", },
+  { id: "BS", game: "gh", colour: "#403129", hidden: false, name: "Bladeswarm", altName: "Crossed Swords", },
 
   // Forgotten Circles
   { id: "DR", game: "fc", colour: "#555683", name: "Diviner", altName: "Diviner", },
