@@ -1,26 +1,16 @@
-import { useEffect, useState, ChangeEvent } from "react";
-import { GetServerSideProps } from "next";
-import { useRouter } from "next/router";
+import { IconDefinition, faSnowflake, faSun } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSun,
-  faSnowflake,
-  IconDefinition,
-} from "@fortawesome/free-solid-svg-icons";
+import { GetStaticPaths, GetStaticProps } from "next";
+import { useRouter } from "next/router";
+import { ChangeEvent, useEffect, useState } from "react";
 
-import { eventSearchResults } from "../api/events";
-import { useSpoilers } from "../../hooks/useSpoilers";
-import {
-  getCharacterColor,
-  getTitle,
-  isInRanges,
-  parseRanges,
-  verifyQueryParam,
-} from "../../common/helpers";
-import { Event, Option } from "../../common/types";
-
+import { eventSearchResults } from "../../common/search-results";
+import { Event, GameParams, Option } from "../../common/types";
+import { getCharacterColor, getTitle, isInRanges, parseRanges, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
+import { eventRoutes } from "../../data/routes";
+import { useSpoilers } from "../../hooks/useSpoilers";
 
 type SeasonOption = {
   id: string;
@@ -54,30 +44,23 @@ const seasonFilters: SeasonOption[] = [
   { id: "winter", icon: faSnowflake },
 ];
 
-const EventFilters = () => {
+type EventFiltersProps = {
+  eventTypeFilter: string;
+  handleEventTypeFilterChange: (newValue: string) => void;
+};
+
+const EventFilters = ({ eventTypeFilter, handleEventTypeFilterChange }: EventFiltersProps) => {
   const router = useRouter();
   const query = router.query;
   const game = verifyQueryParam(query.game, "gh");
-  const eventType = verifyQueryParam(
-    query.eventType,
-    game === "fh" ? "outpost" : "city"
-  );
-
-  const handleEventTypeChange = (newEventType: string | null) => {
-    if (eventType === newEventType) return;
-    router.push({
-      pathname: "events",
-      query: { ...query, eventType: newEventType },
-    });
-  };
 
   return (
     <div className="button-group-left">
       {eventTypeFilters[game]?.map((et) => (
         <button
           key={et.id}
-          className={eventType === et.name.toLowerCase() ? "btn-selected" : ""}
-          onClick={() => handleEventTypeChange(et.id)}
+          className={eventTypeFilter === et.name.toLowerCase() ? "btn-selected" : ""}
+          onClick={() => handleEventTypeFilterChange(et.id)}
         >
           {et.name}
         </button>
@@ -91,21 +74,26 @@ type PageProps = {
 };
 
 const Events = ({ searchResults }: PageProps) => {
-  const [search, setSearch] = useState(null);
   const { spoilers } = useSpoilers();
   const router = useRouter();
   const query = router.query;
   const game = verifyQueryParam(query.game, "gh");
-  const season = verifyQueryParam(query.season);
+
+  const [search, setSearch] = useState(null);
+  const [season, setSeason] = useState(null);
+  const [eventTypeFilter, setEventTypeFilter] = useState(game === "fh" ? "outpost" : "city");
+
+  const handleEventTypeFilterChange = (newEventType: string | null) => {
+    if (eventTypeFilter === newEventType) return;
+    setEventTypeFilter(newEventType);
+  };
 
   const handleSeasonChange = (newSeason: string | null) => {
-    query.season === newSeason
-      ? delete query.season
-      : (query.season = newSeason);
-    router.push({
-      pathname: "events",
-      query: query,
-    });
+    if (query.season === newSeason) {
+      setSeason(null);
+    } else {
+      setSeason(newSeason);
+    }
   };
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -113,31 +101,32 @@ const Events = ({ searchResults }: PageProps) => {
   };
 
   useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--primary",
-      getCharacterColor(null)
-    );
+    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
   }, []);
 
-  const cardList = searchResults.filter(
-    (e) => !search || isInRanges(e.name, search)
-  );
+  const cardList = searchResults?.filter((event) => {
+    if (search !== null && !isInRanges(event.name, search)) return false;
+    if (eventTypeFilter !== null && eventTypeFilter !== event.eventType) return false;
+    if (
+      game === "fh" &&
+      (eventTypeFilter === "outpost" || eventTypeFilter === "road") &&
+      season &&
+      season !== "" &&
+      season !== event.season
+    )
+      return false;
+
+    return true;
+  });
 
   return (
     <Layout title={getTitle(game, "Events")}>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <EventFilters />
-          <div
-            className="flex"
-            style={{ fontWeight: 600, justifyContent: "center" }}
-          >
+          <EventFilters eventTypeFilter={eventTypeFilter} handleEventTypeFilterChange={handleEventTypeFilterChange} />
+          <div className="flex" style={{ fontWeight: 600, justifyContent: "center" }}>
             {"Event ID:"}
-            <input
-              className="id-filter"
-              onChange={handleSearchChange}
-              placeholder="1-10,15"
-            />
+            <input className="id-filter" onChange={handleSearchChange} placeholder="1-10,15" />
           </div>
           {game === "fh" ? (
             <div
@@ -149,9 +138,7 @@ const Events = ({ searchResults }: PageProps) => {
               {seasonFilters.map((s) => (
                 <div
                   key={s.id}
-                  className={`filter-icon ${
-                    season === s.id ? "filter-icon-selected" : ""
-                  }`}
+                  className={`filter-icon ${season === s.id ? "filter-icon-selected" : ""}`}
                   onClick={() => handleSeasonChange(s.id)}
                   style={{ marginRight: "4px", padding: "4px 0" }}
                 >
@@ -169,8 +156,18 @@ const Events = ({ searchResults }: PageProps) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const searchResults = await eventSearchResults(context.query);
+export default Events;
+
+export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
+  return eventRoutes;
+};
+
+export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
+  const { game, character } = context.params;
+  const searchResults = eventSearchResults({
+    game: game,
+    character: character,
+  });
 
   return {
     props: {
@@ -178,5 +175,3 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     },
   };
 };
-
-export default Events;

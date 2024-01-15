@@ -3,7 +3,7 @@ import InfiniteScroll from "react-infinite-scroller";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
-import { getBaseUrl } from "../common/helpers";
+import { getBaseUrl } from "../common/utils";
 import { Card } from "../common/types";
 import Empty from "./Empty";
 
@@ -19,20 +19,12 @@ const Card = ({ card, horizontal, showId }: CardProps) => {
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
       {showId && <div className="card-id">{card.id}</div>}
-      <div
-        className="card-inner"
-        style={{ paddingTop: horizontal ? "66%" : "150%" }}
-      >
+      <div className="card-inner" style={{ paddingTop: horizontal ? "66%" : "150%" }}>
         <div className="card-img-front">
           <span aria-hidden="true" className="invisible">
             {card.name}
           </span>
-          <img
-            alt={String(card.name)}
-            className="card-img"
-            key={card.image}
-            src={getBaseUrl() + card.image}
-          />
+          <img alt={String(card.name)} className="card-img" key={card.image} src={getBaseUrl() + card.image} />
         </div>
       </div>
     </div>
@@ -76,10 +68,7 @@ const FlipCard = ({ card, horizontal, showId }: CardProps) => {
           />
         </div>
       </div>
-      <button
-        className={`${flipped ? "card-flip-btn-back" : "card-flip-btn"}`}
-        onClick={handleBtnClick}
-      >
+      <button className={`${flipped ? "card-flip-btn-back" : "card-flip-btn"}`} onClick={handleBtnClick}>
         <FontAwesomeIcon
           className={`${flipped ? "card-flip-svg-back" : "card-flip-svg"}`}
           icon={faArrowsRotate}
@@ -119,19 +108,9 @@ const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
     >
       {data?.map((card) =>
         card.imageBack ? (
-          <FlipCard
-            key={card.image}
-            card={card}
-            horizontal={horizontal}
-            showId={showId}
-          />
+          <FlipCard key={card.image} card={card} horizontal={horizontal} showId={showId} />
         ) : (
-          <Card
-            key={card.image}
-            card={card}
-            horizontal={horizontal}
-            showId={showId}
-          />
+          <Card key={card.image} card={card} horizontal={horizontal} showId={showId} />
         )
       )}
       {[...Array(4)].map((_, idx) => (

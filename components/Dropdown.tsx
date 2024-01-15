@@ -1,5 +1,5 @@
-import { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 import { Option } from "../common/types";
 
@@ -24,16 +24,16 @@ export const DropdownNav = ({ href, options, value }: DropdownProps) => {
       <div className="dropdownnav-anchor">{currentOption}</div>
       <div className="dropdownnav-content" key={value}>
         {options.map((opt) => (
-          <Link key={opt.id} href={href(opt.id)}>
-            <a
-              className="dropdownnav-option"
-              onClick={(e) => {
-                e.stopPropagation();
-                setTimeout(() => setIsHovered(false), 200);
-              }}
-            >
-              {opt.name}
-            </a>
+          <Link
+            key={opt.id}
+            href={href(opt.id)}
+            className="dropdownnav-option"
+            onClick={(e) => {
+              e.stopPropagation();
+              setTimeout(() => setIsHovered(false), 200);
+            }}
+          >
+            {opt.name}
           </Link>
         ))}
       </div>
@@ -48,11 +48,7 @@ const Dropdown = ({ onChange, options, value }: DropdownProps) => {
 
   return (
     <div className="dropdown">
-      <select
-        className="dropdown-anchor"
-        onChange={handleOptionChange}
-        value={value}
-      >
+      <select className="dropdown-anchor" onChange={handleOptionChange} value={value}>
         {options.map((opt, idx) => (
           <option key={idx} value={opt.id}>
             {opt.name}

@@ -174,11 +174,12 @@ export const characters: Character[] = [
     class: "BS",
     colour: "#403129",
     name: "Bladeswarm",
-    altName: "Baldeswarm",
+    altName: "Crossed Swords",
     game: "gh",
     matImage: "character-mats/gloomhaven/gh-bladeswarm.jpeg",
     matImageBack: "character-mats/gloomhaven/gh-bladeswarm-back.jpeg",
     sheetImage: "character-perks/gloomhaven/gh-bladeswarm-perks.jpeg",
+    hidden: false,
   },
   {
     class: "DR",
@@ -196,10 +197,8 @@ export const characters: Character[] = [
     name: "Demolitionist",
     game: "jotl",
     matImage: "character-mats/jaws-of-the-lion/jotl-demolitionist.jpeg",
-    matImageBack:
-      "character-mats/jaws-of-the-lion/jotl-demolitionist-back.jpeg",
-    sheetImage:
-      "character-perks/jaws-of-the-lion/jotl-demolitionist-perks.jpeg",
+    matImageBack: "character-mats/jaws-of-the-lion/jotl-demolitionist-back.jpeg",
+    sheetImage: "character-perks/jaws-of-the-lion/jotl-demolitionist-perks.jpeg",
     base: true,
   },
   {

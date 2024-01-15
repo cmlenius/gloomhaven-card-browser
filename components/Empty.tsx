@@ -1,14 +1,12 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBan } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Empty = () => {
   return (
     <div className="empty">
       <FontAwesomeIcon icon={faBan} height="48px" />
       <div>No Results</div>
-      <div>
-        Check your spoiler settings or try changing your search & filters
-      </div>
+      <div>Check your spoiler settings or try changing your search & filters</div>
     </div>
   );
 };

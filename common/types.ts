@@ -1,3 +1,5 @@
+import { ParsedUrlQuery } from "querystring";
+
 export interface Card {
   id?: number | string;
   name: number | string;
@@ -70,6 +72,11 @@ export type Monster = {
   isVertical: boolean;
 };
 
+export type MonsterSearch = {
+  monster: Monster;
+  monsterList: Option[];
+};
+
 export type Option = {
   id: string;
   name: string;
@@ -80,4 +87,18 @@ export interface Spoilers {
   items: Record<string, string | boolean>;
   level: number;
   loading: boolean;
+}
+
+export interface CharacterParams extends ParsedUrlQuery {
+  game: string;
+  character: string;
+}
+
+export interface MonsterParams extends ParsedUrlQuery {
+  game: string;
+  monster: string;
+}
+
+export interface GameParams extends ParsedUrlQuery {
+  game: string;
 }

@@ -15,7 +15,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 14px;
-  background-image: url("/background.jpeg");
+  background-image: url("https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/background.jpeg");
   background-repeat: repeat;
 }
 
@@ -348,7 +348,7 @@ input[type="radio"] {
 }
 
 .dropdown select {
-  background-image: url("/select.svg");
+  background-image: url("https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/icons/select.svg");
   background-position: right center;
   background-size: 20px 30px;
   background-repeat: no-repeat;
@@ -510,7 +510,7 @@ input[type="radio"] {
 }
 
 .settings {
-  background-image: url("/background.jpeg");
+  background-image: url("https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/background.jpeg");
   background-repeat: repeat;
   height: 100%;
   opacity: 1;
