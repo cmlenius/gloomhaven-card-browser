@@ -1,17 +1,13 @@
-import { useState } from "react";
-import Head from "next/head";
-import Script from "next/script";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Head from "next/head";
 import { useRouter } from "next/router";
+import Script from "next/script";
+import { useState } from "react";
 
-import { DropdownNav } from "../components/Dropdown";
-import {
-  defaultDescription,
-  defaultTitle,
-  verifyQueryParam,
-} from "../common/helpers";
 import { Option } from "../common/types";
+import { defaultDescription, defaultTitle, verifyQueryParam } from "../common/utils";
+import { DropdownNav } from "../components/Dropdown";
 import { games } from "../data/games";
 import Settings from "./Settings";
 
@@ -66,11 +62,7 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
       <div className="topbar-inner">
         <div className="header-links">
           <DropdownNav href={handleGameChange} options={games} value={game} />
-          <DropdownNav
-            href={handleCardTypeChange}
-            options={cardTypeOptions}
-            value={cardType || "characters"}
-          />
+          <DropdownNav href={handleCardTypeChange} options={cardTypeOptions} value={cardType || "characters"} />
         </div>
         <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />
       </div>
@@ -92,16 +84,10 @@ const Layout = ({ children, description, title }: LayoutProps) => {
       <Head>
         <title>{title || defaultTitle}</title>
         <meta name="description" content={description || defaultDescription} />
-        <meta
-          name="google-site-verification"
-          content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg"
-        />
+        <meta name="google-site-verification" content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-FFL6ZJNJ4T"
-        strategy="afterInteractive"
-      />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-FFL6ZJNJ4T" strategy="afterInteractive" />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -110,10 +96,7 @@ const Layout = ({ children, description, title }: LayoutProps) => {
           gtag("config", "G-FFL6ZJNJ4T");
         `}
       </Script>
-      <Settings
-        open={settingDrawerOpen}
-        onClose={() => setSettingDrawerOpen(false)}
-      />
+      <Settings open={settingDrawerOpen} onClose={() => setSettingDrawerOpen(false)} />
       <TopBar openSettingsDrawer={() => setSettingDrawerOpen(true)} />
       <main className="main">{children}</main>
     </>

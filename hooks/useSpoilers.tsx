@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
+
 import { Spoilers } from "../common/types";
 
 interface SpoilersContextInterface {
@@ -25,9 +26,7 @@ const SpoilersContext = createContext<SpoilersContextInterface>({
 });
 
 export const SpoilersProvider = ({ children }) => {
-  const [spoilers, setSpoilers] = useState<Spoilers>(
-    defaultSpoilersContextValue
-  );
+  const [spoilers, setSpoilers] = useState<Spoilers>(defaultSpoilersContextValue);
 
   useEffect(() => {
     const storageSpoilers = localStorage.getItem("spoilers");
@@ -47,11 +46,7 @@ export const SpoilersProvider = ({ children }) => {
     setSpoilers({ ...parsedSpoilers, loading: false });
   }, []);
 
-  return (
-    <SpoilersContext.Provider value={{ spoilers, setSpoilers: setSpoilers }}>
-      {children}
-    </SpoilersContext.Provider>
-  );
+  return <SpoilersContext.Provider value={{ spoilers, setSpoilers: setSpoilers }}>{children}</SpoilersContext.Provider>;
 };
 
 export const useSpoilers = () => {

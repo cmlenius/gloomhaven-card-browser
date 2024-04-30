@@ -1,5 +1,5 @@
-import { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 import { Option } from "../common/types";
 
@@ -48,11 +48,7 @@ const Dropdown = ({ onChange, options, value }: DropdownProps) => {
 
   return (
     <div className="dropdown">
-      <select
-        className="dropdown-anchor"
-        onChange={handleOptionChange}
-        value={value}
-      >
+      <select className="dropdown-anchor" onChange={handleOptionChange} value={value}>
         {options.map((opt, idx) => (
           <option key={idx} value={opt.id}>
             {opt.name}

@@ -1,8 +1,5 @@
 import { CharacterAbility } from "../common/types";
-export const characterAbilityCards: Record<
-  string,
-  Record<string, CharacterAbility[]>
-> = {
+export const characterAbilityCards: Record<string, Record<string, CharacterAbility[]>> = {
   gh: {
     BE: [
       {
@@ -81,8 +78,7 @@ export const characterAbilityCards: Record<
         name: "defiance of death",
         class: "BE",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BE/gh-defiance-of-death.jpeg",
+        image: "character-ability-cards/gloomhaven/BE/gh-defiance-of-death.jpeg",
         initiative: 31,
         level: 1,
       },
@@ -170,8 +166,7 @@ export const characterAbilityCards: Record<
         name: "reckless offensive",
         class: "BE",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BE/gh-reckless-offensive.jpeg",
+        image: "character-ability-cards/gloomhaven/BE/gh-reckless-offensive.jpeg",
         initiative: 21,
         level: 2,
       },
@@ -195,8 +190,7 @@ export const characterAbilityCards: Record<
         name: "shiny distraction",
         class: "BE",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BE/gh-shiny-distraction.jpeg",
+        image: "character-ability-cards/gloomhaven/BE/gh-shiny-distraction.jpeg",
         initiative: 8,
         level: 4,
       },
@@ -212,8 +206,7 @@ export const characterAbilityCards: Record<
         name: "strength in agony",
         class: "BE",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BE/gh-strength-in-agony.jpeg",
+        image: "character-ability-cards/gloomhaven/BE/gh-strength-in-agony.jpeg",
         initiative: 37,
         level: 1,
       },
@@ -221,8 +214,7 @@ export const characterAbilityCards: Record<
         name: "the maw of madness",
         class: "BE",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BE/gh-the-maw-of-madness.jpeg",
+        image: "character-ability-cards/gloomhaven/BE/gh-the-maw-of-madness.jpeg",
         initiative: 10,
         level: 9,
       },
@@ -238,8 +230,7 @@ export const characterAbilityCards: Record<
         name: "unstoppable destruction",
         class: "BE",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BE/gh-unstoppable-destruction.jpeg",
+        image: "character-ability-cards/gloomhaven/BE/gh-unstoppable-destruction.jpeg",
         initiative: 57,
         level: 6,
       },
@@ -281,8 +272,7 @@ export const characterAbilityCards: Record<
         name: "crippling offensive",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-crippling-offensive.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-crippling-offensive.jpeg",
         initiative: 33,
         level: 7,
       },
@@ -290,8 +280,7 @@ export const characterAbilityCards: Record<
         name: "defensive tactics",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-defensive-tactics.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-defensive-tactics.jpeg",
         initiative: 26,
         level: 7,
       },
@@ -331,8 +320,7 @@ export const characterAbilityCards: Record<
         name: "frenzied onslaught",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-frenzied-onslaught.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-frenzied-onslaught.jpeg",
         initiative: 41,
         level: 8,
       },
@@ -356,8 +344,7 @@ export const characterAbilityCards: Record<
         name: "immovable phalanx",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-immovable-phalanx.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-immovable-phalanx.jpeg",
         initiative: 17,
         level: 6,
       },
@@ -389,8 +376,7 @@ export const characterAbilityCards: Record<
         name: "overwhelming assault",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-overwhelming-assault.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-overwhelming-assault.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -414,8 +400,7 @@ export const characterAbilityCards: Record<
         name: "selfish retribution",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-selfish-retribution.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-selfish-retribution.jpeg",
         initiative: 12,
         level: 8,
       },
@@ -439,8 +424,7 @@ export const characterAbilityCards: Record<
         name: "skirmishing maneuver",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-skirmishing-maneuver.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-skirmishing-maneuver.jpeg",
         initiative: 29,
         level: 5,
       },
@@ -472,8 +456,7 @@ export const characterAbilityCards: Record<
         name: "unstoppable charge",
         class: "BR",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BR/gh-unstoppable-charge.jpeg",
+        image: "character-ability-cards/gloomhaven/BR/gh-unstoppable-charge.jpeg",
         initiative: 86,
         level: 4,
       },
@@ -515,8 +498,7 @@ export const characterAbilityCards: Record<
         name: "armed and dangerous",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-armed-and-dangerous.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-armed-and-dangerous.jpeg",
         initiative: 78,
         level: 3,
       },
@@ -548,8 +530,7 @@ export const characterAbilityCards: Record<
         name: "call of the grave",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-call-of-the-grave.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-call-of-the-grave.jpeg",
         initiative: 49,
         level: 1,
       },
@@ -557,8 +538,7 @@ export const characterAbilityCards: Record<
         name: "corrupting parasites",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-corrupting-parasites.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-corrupting-parasites.jpeg",
         initiative: 97,
         level: 1,
       },
@@ -566,8 +546,7 @@ export const characterAbilityCards: Record<
         name: "cyclone of blades",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-cyclone-of-blades.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-cyclone-of-blades.jpeg",
         initiative: 27,
         level: 5,
       },
@@ -583,8 +562,7 @@ export const characterAbilityCards: Record<
         name: "deflecting blades",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-deflecting-blades.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-deflecting-blades.jpeg",
         initiative: 11,
         level: 1,
       },
@@ -600,8 +578,7 @@ export const characterAbilityCards: Record<
         name: "engulfing stingers",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-engulfing-stingers.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-engulfing-stingers.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -617,8 +594,7 @@ export const characterAbilityCards: Record<
         name: "fury of the horde",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-fury-of-the-horde.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-fury-of-the-horde.jpeg",
         initiative: 86,
         level: 7,
       },
@@ -666,8 +642,7 @@ export const characterAbilityCards: Record<
         name: "omniscient assault",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-omniscient-assault.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-omniscient-assault.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -675,8 +650,7 @@ export const characterAbilityCards: Record<
         name: "overwhelming offensive",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-overwhelming-offensive.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-overwhelming-offensive.jpeg",
         initiative: 12,
         level: 2,
       },
@@ -700,8 +674,7 @@ export const characterAbilityCards: Record<
         name: "scattered defense",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-scattered-defense.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-scattered-defense.jpeg",
         initiative: 13,
         level: 1,
       },
@@ -733,8 +706,7 @@ export const characterAbilityCards: Record<
         name: "tomb of the immortal",
         class: "BS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BS/gh-tomb-of-the-immortal.jpeg",
+        image: "character-ability-cards/gloomhaven/BS/gh-tomb-of-the-immortal.jpeg",
         initiative: 59,
         level: 1.5,
       },
@@ -808,8 +780,7 @@ export const characterAbilityCards: Record<
         name: "concentrated rage",
         class: "BT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BT/gh-concentrated-rage.jpeg",
+        image: "character-ability-cards/gloomhaven/BT/gh-concentrated-rage.jpeg",
         initiative: 51,
         level: 1,
       },
@@ -817,8 +788,7 @@ export const characterAbilityCards: Record<
         name: "disappearing wounds",
         class: "BT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BT/gh-disappearing-wounds.jpeg",
+        image: "character-ability-cards/gloomhaven/BT/gh-disappearing-wounds.jpeg",
         initiative: 23,
         level: 1,
       },
@@ -826,8 +796,7 @@ export const characterAbilityCards: Record<
         name: "disorienting roar",
         class: "BT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BT/gh-disorienting-roar.jpeg",
+        image: "character-ability-cards/gloomhaven/BT/gh-disorienting-roar.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -843,8 +812,7 @@ export const characterAbilityCards: Record<
         name: "energizing strike",
         class: "BT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BT/gh-energizing-strike.jpeg",
+        image: "character-ability-cards/gloomhaven/BT/gh-energizing-strike.jpeg",
         initiative: 29,
         level: 2,
       },
@@ -852,8 +820,7 @@ export const characterAbilityCards: Record<
         name: "focused aggression",
         class: "BT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BT/gh-focused-aggression.jpeg",
+        image: "character-ability-cards/gloomhaven/BT/gh-focused-aggression.jpeg",
         initiative: 31,
         level: 1.5,
       },
@@ -997,8 +964,7 @@ export const characterAbilityCards: Record<
         name: "unstoppable beast",
         class: "BT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/BT/gh-unstoppable-beast.jpeg",
+        image: "character-ability-cards/gloomhaven/BT/gh-unstoppable-beast.jpeg",
         initiative: 32,
         level: 3,
       },
@@ -1040,8 +1006,7 @@ export const characterAbilityCards: Record<
         name: "backup ammunition",
         class: "CH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/CH/gh-backup-ammunition.jpeg",
+        image: "character-ability-cards/gloomhaven/CH/gh-backup-ammunition.jpeg",
         initiative: 77,
         level: 1,
       },
@@ -1049,8 +1014,7 @@ export const characterAbilityCards: Record<
         name: "blind destruction",
         class: "CH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/CH/gh-blind-destruction.jpeg",
+        image: "character-ability-cards/gloomhaven/CH/gh-blind-destruction.jpeg",
         initiative: 74,
         level: 9,
       },
@@ -1266,8 +1230,7 @@ export const characterAbilityCards: Record<
         name: "unstable upheaval",
         class: "CH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/CH/gh-unstable-upheaval.jpeg",
+        image: "character-ability-cards/gloomhaven/CH/gh-unstable-upheaval.jpeg",
         initiative: 13,
         level: 1,
       },
@@ -1381,8 +1344,7 @@ export const characterAbilityCards: Record<
         name: "frightening curse",
         class: "DS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/DS/gh-frightening-curse.jpeg",
+        image: "character-ability-cards/gloomhaven/DS/gh-frightening-curse.jpeg",
         initiative: 37,
         level: 1,
       },
@@ -1406,8 +1368,7 @@ export const characterAbilityCards: Record<
         name: "lead to slaughter",
         class: "DS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/DS/gh-lead-to-slaughter.jpeg",
+        image: "character-ability-cards/gloomhaven/DS/gh-lead-to-slaughter.jpeg",
         initiative: 40,
         level: 9,
       },
@@ -1415,8 +1376,7 @@ export const characterAbilityCards: Record<
         name: "multi-pronged assault",
         class: "DS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/DS/gh-multi-pronged-assault.jpeg",
+        image: "character-ability-cards/gloomhaven/DS/gh-multi-pronged-assault.jpeg",
         initiative: 14,
         level: 1,
       },
@@ -1432,8 +1392,7 @@ export const characterAbilityCards: Record<
         name: "predator and prey",
         class: "DS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/DS/gh-predator-and-prey.jpeg",
+        image: "character-ability-cards/gloomhaven/DS/gh-predator-and-prey.jpeg",
         initiative: 86,
         level: 9,
       },
@@ -1449,8 +1408,7 @@ export const characterAbilityCards: Record<
         name: "race to the grave",
         class: "DS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/DS/gh-race-to-the-grave.jpeg",
+        image: "character-ability-cards/gloomhaven/DS/gh-race-to-the-grave.jpeg",
         initiative: 9,
         level: 1,
       },
@@ -1466,8 +1424,7 @@ export const characterAbilityCards: Record<
         name: "relentless offensive",
         class: "DS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/DS/gh-relentless-offensive.jpeg",
+        image: "character-ability-cards/gloomhaven/DS/gh-relentless-offensive.jpeg",
         initiative: 52,
         level: 2,
       },
@@ -1581,8 +1538,7 @@ export const characterAbilityCards: Record<
         name: "crystallizing blast",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-crystallizing-blast.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-crystallizing-blast.jpeg",
         initiative: 67,
         level: 2,
       },
@@ -1598,8 +1554,7 @@ export const characterAbilityCards: Record<
         name: "encompassing shadow",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-encompassing-shadow.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-encompassing-shadow.jpeg",
         initiative: 23,
         level: 1.5,
       },
@@ -1607,8 +1562,7 @@ export const characterAbilityCards: Record<
         name: "eternal equilibrium",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-eternal-equilibrium.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-eternal-equilibrium.jpeg",
         initiative: 27,
         level: 9,
       },
@@ -1616,8 +1570,7 @@ export const characterAbilityCards: Record<
         name: "ethereal manifestation",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.jpeg",
         initiative: 98,
         level: 9,
       },
@@ -1625,8 +1578,7 @@ export const characterAbilityCards: Record<
         name: "eye of the hurricane",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-eye-of-the-hurricane.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-eye-of-the-hurricane.jpeg",
         initiative: 29,
         level: 6,
       },
@@ -1682,8 +1634,7 @@ export const characterAbilityCards: Record<
         name: "malleable evocation",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-malleable-evocation.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-malleable-evocation.jpeg",
         initiative: 50,
         level: 1.5,
       },
@@ -1699,8 +1650,7 @@ export const characterAbilityCards: Record<
         name: "pragmatic reinforcement",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.jpeg",
         initiative: 56,
         level: 7,
       },
@@ -1716,8 +1666,7 @@ export const characterAbilityCards: Record<
         name: "pure augmentation",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-pure-augmentation.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-pure-augmentation.jpeg",
         initiative: 48,
         level: 1,
       },
@@ -1733,8 +1682,7 @@ export const characterAbilityCards: Record<
         name: "shaping the ether",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-shaping-the-ether.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-shaping-the-ether.jpeg",
         initiative: 54,
         level: 1,
       },
@@ -1758,8 +1706,7 @@ export const characterAbilityCards: Record<
         name: "tremulant cyclone",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-tremulant-cyclone.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-tremulant-cyclone.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -1775,8 +1722,7 @@ export const characterAbilityCards: Record<
         name: "volatile consumption",
         class: "EL",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/EL/gh-volatile-consumption.jpeg",
+        image: "character-ability-cards/gloomhaven/EL/gh-volatile-consumption.jpeg",
         initiative: 64,
         level: 8,
       },
@@ -1810,8 +1756,7 @@ export const characterAbilityCards: Record<
         name: "corrupting embrace",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-corrupting-embrace.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-corrupting-embrace.jpeg",
         initiative: 39,
         level: 6,
       },
@@ -1843,8 +1788,7 @@ export const characterAbilityCards: Record<
         name: "empathetic assault",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-empathetic-assault.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-empathetic-assault.jpeg",
         initiative: 11,
         level: 1,
       },
@@ -1868,8 +1812,7 @@ export const characterAbilityCards: Record<
         name: "frigid apparition",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-frigid-apparition.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-frigid-apparition.jpeg",
         initiative: 29,
         level: 1.5,
       },
@@ -1925,8 +1868,7 @@ export const characterAbilityCards: Record<
         name: "parasitic influence",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-parasitic-influence.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-parasitic-influence.jpeg",
         initiative: 71,
         level: 1,
       },
@@ -1942,8 +1884,7 @@ export const characterAbilityCards: Record<
         name: "phantasmal killer",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-phantasmal-killer.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-phantasmal-killer.jpeg",
         initiative: 67,
         level: 9,
       },
@@ -1967,8 +1908,7 @@ export const characterAbilityCards: Record<
         name: "psychic projection",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-psychic-projection.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-psychic-projection.jpeg",
         initiative: 92,
         level: 7,
       },
@@ -2000,8 +1940,7 @@ export const characterAbilityCards: Record<
         name: "submissive affliction",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-submissive-affliction.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-submissive-affliction.jpeg",
         initiative: 48,
         level: 1,
       },
@@ -2009,8 +1948,7 @@ export const characterAbilityCards: Record<
         name: "the mind's weakness",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-the-minds-weakness.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-the-minds-weakness.jpeg",
         initiative: 75,
         level: 1,
       },
@@ -2034,8 +1972,7 @@ export const characterAbilityCards: Record<
         name: "wretched creature",
         class: "MT",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/MT/gh-wretched-creature.jpeg",
+        image: "character-ability-cards/gloomhaven/MT/gh-wretched-creature.jpeg",
         initiative: 84,
         level: 2,
       },
@@ -2061,8 +1998,7 @@ export const characterAbilityCards: Record<
         name: "armor of the night",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-armor-of-the-night.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-armor-of-the-night.jpeg",
         initiative: 23,
         level: 3,
       },
@@ -2086,8 +2022,7 @@ export const characterAbilityCards: Record<
         name: "claws of the night",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-claws-of-the-night.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-claws-of-the-night.jpeg",
         initiative: 26,
         level: 5,
       },
@@ -2103,8 +2038,7 @@ export const characterAbilityCards: Record<
         name: "concealed dominance",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-concealed-dominance.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-concealed-dominance.jpeg",
         initiative: 35,
         level: 1.5,
       },
@@ -2152,8 +2086,7 @@ export const characterAbilityCards: Record<
         name: "eyes of the night",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-eyes-of-the-night.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-eyes-of-the-night.jpeg",
         initiative: 35,
         level: 7,
       },
@@ -2193,8 +2126,7 @@ export const characterAbilityCards: Record<
         name: "prepare for the kill",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-prepare-for-the-kill.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-prepare-for-the-kill.jpeg",
         initiative: 7,
         level: 2,
       },
@@ -2234,8 +2166,7 @@ export const characterAbilityCards: Record<
         name: "spirit of the night",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-spirit-of-the-night.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-spirit-of-the-night.jpeg",
         initiative: 84,
         level: 1,
       },
@@ -2243,8 +2174,7 @@ export const characterAbilityCards: Record<
         name: "swallowed by fear",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-swallowed-by-fear.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-swallowed-by-fear.jpeg",
         initiative: 90,
         level: 6,
       },
@@ -2268,8 +2198,7 @@ export const characterAbilityCards: Record<
         name: "voice of the night",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-voice-of-the-night.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-voice-of-the-night.jpeg",
         initiative: 6,
         level: 9,
       },
@@ -2277,8 +2206,7 @@ export const characterAbilityCards: Record<
         name: "wings of the night",
         class: "NS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/NS/gh-wings-of-the-night.jpeg",
+        image: "character-ability-cards/gloomhaven/NS/gh-wings-of-the-night.jpeg",
         initiative: 24,
         level: 1.5,
       },
@@ -2336,8 +2264,7 @@ export const characterAbilityCards: Record<
         name: "blistering vortex",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-blistering-vortex.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-blistering-vortex.jpeg",
         initiative: 21,
         level: 1.5,
       },
@@ -2345,8 +2272,7 @@ export const characterAbilityCards: Record<
         name: "convert the flock",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-convert-the-flock.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-convert-the-flock.jpeg",
         initiative: 29,
         level: 9,
       },
@@ -2418,8 +2344,7 @@ export const characterAbilityCards: Record<
         name: "nightmarish affliction",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-nightmarish-affliction.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-nightmarish-affliction.jpeg",
         initiative: 43,
         level: 4,
       },
@@ -2451,8 +2376,7 @@ export const characterAbilityCards: Record<
         name: "spreading scourge",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-spreading-scourge.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-spreading-scourge.jpeg",
         initiative: 71,
         level: 8,
       },
@@ -2460,8 +2384,7 @@ export const characterAbilityCards: Record<
         name: "spread the plague",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-spread-the-plague.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-spread-the-plague.jpeg",
         initiative: 27,
         level: 1,
       },
@@ -2485,8 +2408,7 @@ export const characterAbilityCards: Record<
         name: "succumb to the gift",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-succumb-to-the-gift.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-succumb-to-the-gift.jpeg",
         initiative: 70,
         level: 3,
       },
@@ -2518,8 +2440,7 @@ export const characterAbilityCards: Record<
         name: "willing sacrifice",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-willing-sacrifice.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-willing-sacrifice.jpeg",
         initiative: 84,
         level: 5,
       },
@@ -2527,8 +2448,7 @@ export const characterAbilityCards: Record<
         name: "winged congregation",
         class: "PH",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/PH/gh-winged-congregation.jpeg",
+        image: "character-ability-cards/gloomhaven/PH/gh-winged-congregation.jpeg",
         initiative: 16,
         level: 1,
       },
@@ -2570,8 +2490,7 @@ export const characterAbilityCards: Record<
         name: "catastrophic bomb",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-catastrophic-bomb.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-catastrophic-bomb.jpeg",
         initiative: 46,
         level: 6,
       },
@@ -2611,8 +2530,7 @@ export const characterAbilityCards: Record<
         name: "fortified position",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-fortified-position.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-fortified-position.jpeg",
         initiative: 10,
         level: 8,
       },
@@ -2660,8 +2578,7 @@ export const characterAbilityCards: Record<
         name: "portable ballista",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-portable-ballista.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-portable-ballista.jpeg",
         initiative: 41,
         level: 8,
       },
@@ -2725,8 +2642,7 @@ export const characterAbilityCards: Record<
         name: "scroll of annihilation",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-scroll-of-annihilation.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-scroll-of-annihilation.jpeg",
         initiative: 56,
         level: 9,
       },
@@ -2734,8 +2650,7 @@ export const characterAbilityCards: Record<
         name: "scroll of blizzards",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-scroll-of-blizzards.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-scroll-of-blizzards.jpeg",
         initiative: 46,
         level: 7,
       },
@@ -2743,8 +2658,7 @@ export const characterAbilityCards: Record<
         name: "scroll of judgment",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-scroll-of-judgment.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-scroll-of-judgment.jpeg",
         initiative: 66,
         level: 5,
       },
@@ -2752,8 +2666,7 @@ export const characterAbilityCards: Record<
         name: "scroll of lightning",
         class: "QM",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/QM/gh-scroll-of-lightning.jpeg",
+        image: "character-ability-cards/gloomhaven/QM/gh-scroll-of-lightning.jpeg",
         initiative: 77,
         level: 3,
       },
@@ -2803,8 +2716,7 @@ export const characterAbilityCards: Record<
         name: "battlefield medicine",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-battlefield-medicine.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-battlefield-medicine.jpeg",
         initiative: 83,
         level: 1,
       },
@@ -2820,8 +2732,7 @@ export const characterAbilityCards: Record<
         name: "blood transfusion",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-blood-transfusion.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-blood-transfusion.jpeg",
         initiative: 52,
         level: 4,
       },
@@ -2901,8 +2812,7 @@ export const characterAbilityCards: Record<
         name: "hand of the surgeon",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-hand-of-the-surgeon.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-hand-of-the-surgeon.jpeg",
         initiative: 62,
         level: 1,
       },
@@ -2910,8 +2820,7 @@ export const characterAbilityCards: Record<
         name: "hold back the pain",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-hold-back-the-pain.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-hold-back-the-pain.jpeg",
         initiative: 57,
         level: 1,
       },
@@ -2919,8 +2828,7 @@ export const characterAbilityCards: Record<
         name: "large medical pack",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-large-medical-pack.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-large-medical-pack.jpeg",
         initiative: 30,
         level: 0.25,
       },
@@ -2976,8 +2884,7 @@ export const characterAbilityCards: Record<
         name: "prevention is key",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-prevention-is-key.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-prevention-is-key.jpeg",
         initiative: 13,
         level: 1.5,
       },
@@ -2985,8 +2892,7 @@ export const characterAbilityCards: Record<
         name: "regenerative tissue",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-regenerative-tissue.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-regenerative-tissue.jpeg",
         initiative: 46,
         level: 3,
       },
@@ -2994,8 +2900,7 @@ export const characterAbilityCards: Record<
         name: "research the cure",
         class: "SB",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SB/gh-research-the-cure.jpeg",
+        image: "character-ability-cards/gloomhaven/SB/gh-research-the-cure.jpeg",
         initiative: 40,
         level: 5,
       },
@@ -3125,8 +3030,7 @@ export const characterAbilityCards: Record<
         name: "gruesome advantage",
         class: "SC",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SC/gh-gruesome-advantage.jpeg",
+        image: "character-ability-cards/gloomhaven/SC/gh-gruesome-advantage.jpeg",
         initiative: 62,
         level: 4,
       },
@@ -3182,8 +3086,7 @@ export const characterAbilityCards: Record<
         name: "sinister opportunity",
         class: "SC",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SC/gh-sinister-opportunity.jpeg",
+        image: "character-ability-cards/gloomhaven/SC/gh-sinister-opportunity.jpeg",
         initiative: 93,
         level: 1.5,
       },
@@ -3215,8 +3118,7 @@ export const characterAbilityCards: Record<
         name: "stick to the shadows",
         class: "SC",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SC/gh-stick-to-the-shadows.jpeg",
+        image: "character-ability-cards/gloomhaven/SC/gh-stick-to-the-shadows.jpeg",
         initiative: 26,
         level: 7,
       },
@@ -3256,8 +3158,7 @@ export const characterAbilityCards: Record<
         name: "trickster's reversal",
         class: "SC",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SC/gh-tricksters-reversal.jpeg",
+        image: "character-ability-cards/gloomhaven/SC/gh-tricksters-reversal.jpeg",
         initiative: 9,
         level: 1.5,
       },
@@ -3273,8 +3174,7 @@ export const characterAbilityCards: Record<
         name: "visage of the inevitable",
         class: "SC",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SC/gh-visage-of-the-inevitable.jpeg",
+        image: "character-ability-cards/gloomhaven/SC/gh-visage-of-the-inevitable.jpeg",
         initiative: 88,
         level: 5,
       },
@@ -3300,8 +3200,7 @@ export const characterAbilityCards: Record<
         name: "angelic ascension",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-angelic-ascension.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-angelic-ascension.jpeg",
         initiative: 87,
         level: 9,
       },
@@ -3381,8 +3280,7 @@ export const characterAbilityCards: Record<
         name: "divine intervention",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-divine-intervention.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-divine-intervention.jpeg",
         initiative: 9,
         level: 9,
       },
@@ -3390,8 +3288,7 @@ export const characterAbilityCards: Record<
         name: "empowering command",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-empowering-command.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-empowering-command.jpeg",
         initiative: 32,
         level: 1,
       },
@@ -3399,8 +3296,7 @@ export const characterAbilityCards: Record<
         name: "engulfing radiance",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-engulfing-radiance.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-engulfing-radiance.jpeg",
         initiative: 20,
         level: 4,
       },
@@ -3432,8 +3328,7 @@ export const characterAbilityCards: Record<
         name: "illuminate the target",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-illuminate-the-target.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-illuminate-the-target.jpeg",
         initiative: 91,
         level: 6,
       },
@@ -3441,8 +3336,7 @@ export const characterAbilityCards: Record<
         name: "inspiring sanctity",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-inspiring-sanctity.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-inspiring-sanctity.jpeg",
         initiative: 79,
         level: 8,
       },
@@ -3482,8 +3376,7 @@ export const characterAbilityCards: Record<
         name: "protective blessing",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-protective-blessing.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-protective-blessing.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -3499,8 +3392,7 @@ export const characterAbilityCards: Record<
         name: "righteous strength",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-righteous-strength.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-righteous-strength.jpeg",
         initiative: 18,
         level: 4,
       },
@@ -3508,8 +3400,7 @@ export const characterAbilityCards: Record<
         name: "scales of justice",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-scales-of-justice.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-scales-of-justice.jpeg",
         initiative: 68,
         level: 5,
       },
@@ -3533,8 +3424,7 @@ export const characterAbilityCards: Record<
         name: "unwavering mandate",
         class: "SK",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SK/gh-unwavering-mandate.jpeg",
+        image: "character-ability-cards/gloomhaven/SK/gh-unwavering-mandate.jpeg",
         initiative: 72,
         level: 2,
       },
@@ -3560,8 +3450,7 @@ export const characterAbilityCards: Record<
         name: "booming proclamation",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-booming-proclamation.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-booming-proclamation.jpeg",
         initiative: 65,
         level: 7,
       },
@@ -3577,8 +3466,7 @@ export const characterAbilityCards: Record<
         name: "captivating performance",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-captivating-performance.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-captivating-performance.jpeg",
         initiative: 25,
         level: 9,
       },
@@ -3594,8 +3482,7 @@ export const characterAbilityCards: Record<
         name: "commanding presence",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-commanding-presence.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-commanding-presence.jpeg",
         initiative: 59,
         level: 8,
       },
@@ -3619,8 +3506,7 @@ export const characterAbilityCards: Record<
         name: "disorienting dirge",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-disorienting-dirge.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-disorienting-dirge.jpeg",
         initiative: 14,
         level: 4,
       },
@@ -3652,8 +3538,7 @@ export const characterAbilityCards: Record<
         name: "melody and harmony",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-melody-and-harmony.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-melody-and-harmony.jpeg",
         initiative: 78,
         level: 5,
       },
@@ -3661,8 +3546,7 @@ export const characterAbilityCards: Record<
         name: "mobilizing measure",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-mobilizing-measure.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-mobilizing-measure.jpeg",
         initiative: 6,
         level: 5,
       },
@@ -3670,8 +3554,7 @@ export const characterAbilityCards: Record<
         name: "nightmare serenade",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-nightmare-serenade.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-nightmare-serenade.jpeg",
         initiative: 13,
         level: 7,
       },
@@ -3759,8 +3642,7 @@ export const characterAbilityCards: Record<
         name: "tuning the outcome",
         class: "SS",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SS/gh-tuning-the-outcome.jpeg",
+        image: "character-ability-cards/gloomhaven/SS/gh-tuning-the-outcome.jpeg",
         initiative: 78,
         level: 1,
       },
@@ -3874,8 +3756,7 @@ export const characterAbilityCards: Record<
         name: "grasping the void",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-grasping-the-void.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-grasping-the-void.jpeg",
         initiative: 62,
         level: 2,
       },
@@ -3891,8 +3772,7 @@ export const characterAbilityCards: Record<
         name: "inexorable momentum",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-inexorable-momentum.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-inexorable-momentum.jpeg",
         initiative: 32,
         level: 6,
       },
@@ -3900,8 +3780,7 @@ export const characterAbilityCards: Record<
         name: "interplanar mastery",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-interplanar-mastery.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-interplanar-mastery.jpeg",
         initiative: 22,
         level: 9,
       },
@@ -3909,8 +3788,7 @@ export const characterAbilityCards: Record<
         name: "intervening apparitions",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-intervening-apparitions.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-intervening-apparitions.jpeg",
         initiative: 68,
         level: 8,
       },
@@ -3958,8 +3836,7 @@ export const characterAbilityCards: Record<
         name: "oozing manifestation",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-oozing-manifestation.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-oozing-manifestation.jpeg",
         initiative: 86,
         level: 3,
       },
@@ -3967,8 +3844,7 @@ export const characterAbilityCards: Record<
         name: "otherworldly rage",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-otherworldly-rage.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-otherworldly-rage.jpeg",
         initiative: 35,
         level: 8,
       },
@@ -3984,8 +3860,7 @@ export const characterAbilityCards: Record<
         name: "strength in numbers",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-strength-in-numbers.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-strength-in-numbers.jpeg",
         initiative: 45,
         level: 5,
       },
@@ -4001,8 +3876,7 @@ export const characterAbilityCards: Record<
         name: "unending dominance",
         class: "SU",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SU/gh-unending-dominance.jpeg",
+        image: "character-ability-cards/gloomhaven/SU/gh-unending-dominance.jpeg",
         initiative: 98,
         level: 1,
       },
@@ -4044,8 +3918,7 @@ export const characterAbilityCards: Record<
         name: "aid from the ether",
         class: "SW",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SW/gh-aid-from-the-ether.jpeg",
+        image: "character-ability-cards/gloomhaven/SW/gh-aid-from-the-ether.jpeg",
         initiative: 91,
         level: 1.5,
       },
@@ -4061,8 +3934,7 @@ export const characterAbilityCards: Record<
         name: "chromatic explosion",
         class: "SW",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SW/gh-chromatic-explosion.jpeg",
+        image: "character-ability-cards/gloomhaven/SW/gh-chromatic-explosion.jpeg",
         initiative: 71,
         level: 5,
       },
@@ -4102,8 +3974,7 @@ export const characterAbilityCards: Record<
         name: "engulfed in flames",
         class: "SW",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SW/gh-engulfed-in-flames.jpeg",
+        image: "character-ability-cards/gloomhaven/SW/gh-engulfed-in-flames.jpeg",
         initiative: 44,
         level: 5,
       },
@@ -4183,8 +4054,7 @@ export const characterAbilityCards: Record<
         name: "impaling eruption",
         class: "SW",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/SW/gh-impaling-eruption.jpeg",
+        image: "character-ability-cards/gloomhaven/SW/gh-impaling-eruption.jpeg",
         initiative: 70,
         level: 1,
       },
@@ -4306,8 +4176,7 @@ export const characterAbilityCards: Record<
         name: "dangerous contraption",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-dangerous-contraption.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-dangerous-contraption.jpeg",
         initiative: 84,
         level: 4,
       },
@@ -4315,8 +4184,7 @@ export const characterAbilityCards: Record<
         name: "disintegration beam",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-disintegration-beam.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-disintegration-beam.jpeg",
         initiative: 36,
         level: 5,
       },
@@ -4324,8 +4192,7 @@ export const characterAbilityCards: Record<
         name: "disorienting flash",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-disorienting-flash.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-disorienting-flash.jpeg",
         initiative: 73,
         level: 2,
       },
@@ -4341,8 +4208,7 @@ export const characterAbilityCards: Record<
         name: "enhancement field",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-enhancement-field.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-enhancement-field.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -4366,8 +4232,7 @@ export const characterAbilityCards: Record<
         name: "harmless contraption",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-harmless-contraption.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-harmless-contraption.jpeg",
         initiative: 74,
         level: 1,
       },
@@ -4423,8 +4288,7 @@ export const characterAbilityCards: Record<
         name: "murderous contraption",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-murderous-contraption.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-murderous-contraption.jpeg",
         initiative: 94,
         level: 7,
       },
@@ -4464,8 +4328,7 @@ export const characterAbilityCards: Record<
         name: "reinvigorating elixir",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-reinvigorating-elixir.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-reinvigorating-elixir.jpeg",
         initiative: 37,
         level: 1,
       },
@@ -4521,8 +4384,7 @@ export const characterAbilityCards: Record<
         name: "volatile concoction",
         class: "TI",
         game: "gh",
-        image:
-          "character-ability-cards/gloomhaven/TI/gh-volatile-concoction.jpeg",
+        image: "character-ability-cards/gloomhaven/TI/gh-volatile-concoction.jpeg",
         initiative: 76,
         level: 1.5,
       },
@@ -4540,8 +4402,7 @@ export const characterAbilityCards: Record<
         name: "anguish and salvation",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-anguish-and-salvation.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-anguish-and-salvation.jpeg",
         initiative: 21,
         level: 8,
       },
@@ -4549,8 +4410,7 @@ export const characterAbilityCards: Record<
         name: "anticipate intricacies",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-anticipate-intricacies.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-anticipate-intricacies.jpeg",
         initiative: 79,
         level: 1,
       },
@@ -4566,8 +4426,7 @@ export const characterAbilityCards: Record<
         name: "call of the nether",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-call-of-the-nether.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-call-of-the-nether.jpeg",
         initiative: 43,
         level: 3,
       },
@@ -4575,8 +4434,7 @@ export const characterAbilityCards: Record<
         name: "careful attunement",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-careful-attunement.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-careful-attunement.jpeg",
         initiative: 7,
         level: 6,
       },
@@ -4584,8 +4442,7 @@ export const characterAbilityCards: Record<
         name: "clairvoyance",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-clairvoyance.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-clairvoyance.jpeg",
         initiative: 8,
         level: 1,
       },
@@ -4593,8 +4450,7 @@ export const characterAbilityCards: Record<
         name: "cleansing rite",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-cleansing-rite.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-cleansing-rite.jpeg",
         initiative: 62,
         level: 4,
       },
@@ -4602,8 +4458,7 @@ export const characterAbilityCards: Record<
         name: "curative flux",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-curative-flux.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-curative-flux.jpeg",
         initiative: 40,
         level: 7,
       },
@@ -4611,8 +4466,7 @@ export const characterAbilityCards: Record<
         name: "cursed ground",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-cursed-ground.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-cursed-ground.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -4620,8 +4474,7 @@ export const characterAbilityCards: Record<
         name: "deep contemplation",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-deep-contemplation.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-deep-contemplation.jpeg",
         initiative: 91,
         level: 8,
       },
@@ -4629,8 +4482,7 @@ export const characterAbilityCards: Record<
         name: "dimensional divide",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-dimensional-divide.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-dimensional-divide.jpeg",
         initiative: 13,
         level: 5,
       },
@@ -4638,8 +4490,7 @@ export const characterAbilityCards: Record<
         name: "dimensional transfer",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-dimensional-transfer.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-dimensional-transfer.jpeg",
         initiative: 57,
         level: 1,
       },
@@ -4647,8 +4498,7 @@ export const characterAbilityCards: Record<
         name: "duality shards",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-duality-shards.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-duality-shards.jpeg",
         initiative: 39,
         level: 1.5,
       },
@@ -4656,8 +4506,7 @@ export const characterAbilityCards: Record<
         name: "enfeebling hex",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-enfeebling-hex.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-enfeebling-hex.jpeg",
         initiative: 52,
         level: 6,
       },
@@ -4665,8 +4514,7 @@ export const characterAbilityCards: Record<
         name: "envision the course",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-envision-the-course.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-envision-the-course.jpeg",
         initiative: 80,
         level: 3,
       },
@@ -4674,8 +4522,7 @@ export const characterAbilityCards: Record<
         name: "ethereal vortex",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-ethereal-vortex.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-ethereal-vortex.jpeg",
         initiative: 59,
         level: 7,
       },
@@ -4683,8 +4530,7 @@ export const characterAbilityCards: Record<
         name: "gift of the void",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-gift-of-the-void.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-gift-of-the-void.jpeg",
         initiative: 72,
         level: 2,
       },
@@ -4692,8 +4538,7 @@ export const characterAbilityCards: Record<
         name: "hand of destiny",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-hand-of-destiny.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-hand-of-destiny.jpeg",
         initiative: 96,
         level: 9,
       },
@@ -4701,8 +4546,7 @@ export const characterAbilityCards: Record<
         name: "inspiration from beyond",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-inspiration-from-beyond.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-inspiration-from-beyond.jpeg",
         initiative: 23,
         level: 1.5,
       },
@@ -4710,8 +4554,7 @@ export const characterAbilityCards: Record<
         name: "otherworldly journey",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-otherworldly-journey.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-otherworldly-journey.jpeg",
         initiative: 34,
         level: 1,
       },
@@ -4719,8 +4562,7 @@ export const characterAbilityCards: Record<
         name: "peer into battle",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-peer-into-battle.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-peer-into-battle.jpeg",
         initiative: 82,
         level: 1,
       },
@@ -4728,8 +4570,7 @@ export const characterAbilityCards: Record<
         name: "planar fissure",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-planar-fissure.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-planar-fissure.jpeg",
         initiative: 75,
         level: 9,
       },
@@ -4737,8 +4578,7 @@ export const characterAbilityCards: Record<
         name: "preordain the path",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-preordain-the-path.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-preordain-the-path.jpeg",
         initiative: 87,
         level: 4,
       },
@@ -4746,8 +4586,7 @@ export const characterAbilityCards: Record<
         name: "protective aura",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-protective-aura.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-protective-aura.jpeg",
         initiative: 13,
         level: 1,
       },
@@ -4755,8 +4594,7 @@ export const characterAbilityCards: Record<
         name: "ray of light",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-ray-of-light.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-ray-of-light.jpeg",
         initiative: 48,
         level: 1,
       },
@@ -4764,8 +4602,7 @@ export const characterAbilityCards: Record<
         name: "revitalizing fount",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-revitalizing-fount.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-revitalizing-fount.jpeg",
         initiative: 21,
         level: 2,
       },
@@ -4773,8 +4610,7 @@ export const characterAbilityCards: Record<
         name: "seal their fate",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-seal-their-fate.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-seal-their-fate.jpeg",
         initiative: 37,
         level: 5,
       },
@@ -4782,8 +4618,7 @@ export const characterAbilityCards: Record<
         name: "void snare",
         class: "DR",
         game: "gh",
-        image:
-          "character-ability-cards/forgotten-circles/DR/fc-void-snare.jpeg",
+        image: "character-ability-cards/forgotten-circles/DR/fc-void-snare.jpeg",
         initiative: 25,
         level: 1,
       },
@@ -4803,8 +4638,7 @@ export const characterAbilityCards: Record<
         name: "collateral damage",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-collateral-damage.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-collateral-damage.jpeg",
         initiative: 15,
         level: 9,
       },
@@ -4812,8 +4646,7 @@ export const characterAbilityCards: Record<
         name: "crash protocol",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-crash-protocol.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-crash-protocol.jpeg",
         initiative: 74,
         level: 2,
       },
@@ -4821,8 +4654,7 @@ export const characterAbilityCards: Record<
         name: "crushing weight",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-crushing-weight.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-crushing-weight.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -4854,8 +4686,7 @@ export const characterAbilityCards: Record<
         name: "explosive blitz",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-explosive-blitz.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-explosive-blitz.jpeg",
         initiative: 19,
         level: 1,
       },
@@ -4895,8 +4726,7 @@ export const characterAbilityCards: Record<
         name: "insult to injury",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-insult-to-injury.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-insult-to-injury.jpeg",
         initiative: 64,
         level: 7,
       },
@@ -4904,8 +4734,7 @@ export const characterAbilityCards: Record<
         name: "knock out the support",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-knock-out-the-support.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-knock-out-the-support.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -4921,8 +4750,7 @@ export const characterAbilityCards: Record<
         name: "lobbed charge",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-lobbed-charge.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-lobbed-charge.jpeg",
         initiative: 52,
         level: 1.5,
       },
@@ -4938,8 +4766,7 @@ export const characterAbilityCards: Record<
         name: "micro missiles",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-micro-missiles.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-micro-missiles.jpeg",
         initiative: 16,
         level: 7,
       },
@@ -4947,8 +4774,7 @@ export const characterAbilityCards: Record<
         name: "nowhere to run",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-nowhere-to-run.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-nowhere-to-run.jpeg",
         initiative: 39,
         level: 3,
       },
@@ -4956,8 +4782,7 @@ export const characterAbilityCards: Record<
         name: "one-two punch",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-one-two-punch.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-one-two-punch.jpeg",
         initiative: 66,
         level: 1,
       },
@@ -4965,8 +4790,7 @@ export const characterAbilityCards: Record<
         name: "piston punch",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-piston-punch.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-piston-punch.jpeg",
         initiative: 42,
         level: 1,
       },
@@ -4974,8 +4798,7 @@ export const characterAbilityCards: Record<
         name: "remote detonation",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-remote-detonation.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-remote-detonation.jpeg",
         initiative: 63,
         level: 4,
       },
@@ -4983,8 +4806,7 @@ export const characterAbilityCards: Record<
         name: "robotic enhancement",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-robotic-enhancement.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-robotic-enhancement.jpeg",
         initiative: 33,
         level: 2,
       },
@@ -5000,8 +4822,7 @@ export const characterAbilityCards: Record<
         name: "the bigger one",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-the-bigger-one.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-the-bigger-one.jpeg",
         initiative: 31,
         level: 8,
       },
@@ -5009,8 +4830,7 @@ export const characterAbilityCards: Record<
         name: "the big one",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-the-big-one.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-the-big-one.jpeg",
         initiative: 37,
         level: 1,
       },
@@ -5018,8 +4838,7 @@ export const characterAbilityCards: Record<
         name: "wholesale destruction",
         class: "DE",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/DE/jl-wholesale-destruction.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/DE/jl-wholesale-destruction.jpeg",
         initiative: 34,
         level: 9,
       },
@@ -5045,8 +4864,7 @@ export const characterAbilityCards: Record<
         name: "bombardment",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-bombardment.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-bombardment.jpeg",
         initiative: 54,
         level: 6,
       },
@@ -5062,8 +4880,7 @@ export const characterAbilityCards: Record<
         name: "camaraderie",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-camaraderie.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-camaraderie.jpeg",
         initiative: 75,
         level: 8,
       },
@@ -5071,8 +4888,7 @@ export const characterAbilityCards: Record<
         name: "care package",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-care-package.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-care-package.jpeg",
         initiative: 30,
         level: 1.5,
       },
@@ -5080,8 +4896,7 @@ export const characterAbilityCards: Record<
         name: "center mass",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-center-mass.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-center-mass.jpeg",
         initiative: 24,
         level: 1,
       },
@@ -5097,8 +4912,7 @@ export const characterAbilityCards: Record<
         name: "disorienting barrage",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-disorienting-barrage.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-disorienting-barrage.jpeg",
         initiative: 51,
         level: 1,
       },
@@ -5106,8 +4920,7 @@ export const characterAbilityCards: Record<
         name: "double throw",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-double-throw.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-double-throw.jpeg",
         initiative: 64,
         level: 1,
       },
@@ -5115,8 +4928,7 @@ export const characterAbilityCards: Record<
         name: "excessive force",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-excessive-force.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-excessive-force.jpeg",
         initiative: 47,
         level: 7,
       },
@@ -5124,8 +4936,7 @@ export const characterAbilityCards: Record<
         name: "executioner's axe",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-executioners-axe.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-executioners-axe.jpeg",
         initiative: 79,
         level: 9,
       },
@@ -5149,8 +4960,7 @@ export const characterAbilityCards: Record<
         name: "fearsome efficiency",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-fearsome-efficiency.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-fearsome-efficiency.jpeg",
         initiative: 58,
         level: 3,
       },
@@ -5158,8 +4968,7 @@ export const characterAbilityCards: Record<
         name: "follow through",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-follow-through.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-follow-through.jpeg",
         initiative: 39,
         level: 1,
       },
@@ -5167,8 +4976,7 @@ export const characterAbilityCards: Record<
         name: "heart seeker",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-heart-seeker.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-heart-seeker.jpeg",
         initiative: 32,
         level: 9,
       },
@@ -5184,8 +4992,7 @@ export const characterAbilityCards: Record<
         name: "power pitch",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-power-pitch.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-power-pitch.jpeg",
         initiative: 60,
         level: 1,
       },
@@ -5193,8 +5000,7 @@ export const characterAbilityCards: Record<
         name: "quick turnaround",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-quick-turnaround.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-quick-turnaround.jpeg",
         initiative: 11,
         level: 6,
       },
@@ -5202,8 +5008,7 @@ export const characterAbilityCards: Record<
         name: "repeat shot",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-repeat-shot.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-repeat-shot.jpeg",
         initiative: 31,
         level: 2,
       },
@@ -5227,8 +5032,7 @@ export const characterAbilityCards: Record<
         name: "ripped from the flesh",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-ripped-from-the-flesh.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-ripped-from-the-flesh.jpeg",
         initiative: 20,
         level: 4,
       },
@@ -5236,8 +5040,7 @@ export const characterAbilityCards: Record<
         name: "second wind",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-second-wind.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-second-wind.jpeg",
         initiative: 18,
         level: 1,
       },
@@ -5245,8 +5048,7 @@ export const characterAbilityCards: Record<
         name: "sharpened blades",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-sharpened-blades.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-sharpened-blades.jpeg",
         initiative: 44,
         level: 3,
       },
@@ -5262,8 +5064,7 @@ export const characterAbilityCards: Record<
         name: "stopping power",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-stopping-power.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-stopping-power.jpeg",
         initiative: 35,
         level: 1,
       },
@@ -5271,8 +5072,7 @@ export const characterAbilityCards: Record<
         name: "the favorite",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-the-favorite.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-the-favorite.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -5280,8 +5080,7 @@ export const characterAbilityCards: Record<
         name: "the new favorite",
         class: "HA",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/HA/jl-the-new-favorite.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/HA/jl-the-new-favorite.jpeg",
         initiative: 15,
         level: 5,
       },
@@ -5299,8 +5098,7 @@ export const characterAbilityCards: Record<
         name: "barbaric instincts",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-barbaric-instincts.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-barbaric-instincts.jpeg",
         initiative: 12,
         level: 2,
       },
@@ -5308,8 +5106,7 @@ export const characterAbilityCards: Record<
         name: "blade dance",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-blade-dance.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-blade-dance.jpeg",
         initiative: 29,
         level: 1.5,
       },
@@ -5317,8 +5114,7 @@ export const characterAbilityCards: Record<
         name: "blinding sickle",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-blinding-sickle.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-blinding-sickle.jpeg",
         initiative: 87,
         level: 1,
       },
@@ -5326,8 +5122,7 @@ export const characterAbilityCards: Record<
         name: "burn away the dark",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-burn-away-the-dark.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-burn-away-the-dark.jpeg",
         initiative: 31,
         level: 4,
       },
@@ -5335,8 +5130,7 @@ export const characterAbilityCards: Record<
         name: "desert night",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-desert-night.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-desert-night.jpeg",
         initiative: 90,
         level: 1,
       },
@@ -5344,8 +5138,7 @@ export const characterAbilityCards: Record<
         name: "fierce brilliance",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-fierce-brilliance.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-fierce-brilliance.jpeg",
         initiative: 22,
         level: 6,
       },
@@ -5353,8 +5146,7 @@ export const characterAbilityCards: Record<
         name: "flame shroud",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-flame-shroud.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-flame-shroud.jpeg",
         initiative: 6,
         level: 1,
       },
@@ -5362,8 +5154,7 @@ export const characterAbilityCards: Record<
         name: "flaming sickle",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-flaming-sickle.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-flaming-sickle.jpeg",
         initiative: 63,
         level: 1,
       },
@@ -5371,8 +5162,7 @@ export const characterAbilityCards: Record<
         name: "flying sickle",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-flying-sickle.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-flying-sickle.jpeg",
         initiative: 91,
         level: 6,
       },
@@ -5380,8 +5170,7 @@ export const characterAbilityCards: Record<
         name: "harvest sickle",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-harvest-sickle.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-harvest-sickle.jpeg",
         initiative: 52,
         level: 2,
       },
@@ -5389,8 +5178,7 @@ export const characterAbilityCards: Record<
         name: "healing sands",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-healing-sands.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-healing-sands.jpeg",
         initiative: 32,
         level: 1,
       },
@@ -5398,8 +5186,7 @@ export const characterAbilityCards: Record<
         name: "honorable fury",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-honorable-fury.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-honorable-fury.jpeg",
         initiative: 89,
         level: 9,
       },
@@ -5407,8 +5194,7 @@ export const characterAbilityCards: Record<
         name: "horns of the beast",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-horns-of-the-beast.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-horns-of-the-beast.jpeg",
         initiative: 8,
         level: 7,
       },
@@ -5424,8 +5210,7 @@ export const characterAbilityCards: Record<
         name: "precision strike",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-precision-strike.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-precision-strike.jpeg",
         initiative: 40,
         level: 1.5,
       },
@@ -5433,8 +5218,7 @@ export const characterAbilityCards: Record<
         name: "prismatic sickle",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-prismatic-sickle.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-prismatic-sickle.jpeg",
         initiative: 70,
         level: 8,
       },
@@ -5442,8 +5226,7 @@ export const characterAbilityCards: Record<
         name: "radiant sickle",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-radiant-sickle.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-radiant-sickle.jpeg",
         initiative: 79,
         level: 4,
       },
@@ -5459,8 +5242,7 @@ export const characterAbilityCards: Record<
         name: "shield of the desert",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-shield-of-the-desert.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-shield-of-the-desert.jpeg",
         initiative: 10,
         level: 1,
       },
@@ -5468,8 +5250,7 @@ export const characterAbilityCards: Record<
         name: "shield spikes",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-shield-spikes.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-shield-spikes.jpeg",
         initiative: 41,
         level: 1,
       },
@@ -5477,8 +5258,7 @@ export const characterAbilityCards: Record<
         name: "shocking advance",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-shocking-advance.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-shocking-advance.jpeg",
         initiative: 14,
         level: 1,
       },
@@ -5486,8 +5266,7 @@ export const characterAbilityCards: Record<
         name: "soaring shield",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-soaring-shield.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-soaring-shield.jpeg",
         initiative: 11,
         level: 9,
       },
@@ -5495,8 +5274,7 @@ export const characterAbilityCards: Record<
         name: "strangling chain",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-strangling-chain.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-strangling-chain.jpeg",
         initiative: 19,
         level: 3,
       },
@@ -5504,8 +5282,7 @@ export const characterAbilityCards: Record<
         name: "swift strength",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-swift-strength.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-swift-strength.jpeg",
         initiative: 16,
         level: 1,
       },
@@ -5513,8 +5290,7 @@ export const characterAbilityCards: Record<
         name: "twirling stabs",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-twirling-stabs.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-twirling-stabs.jpeg",
         initiative: 38,
         level: 1,
       },
@@ -5522,8 +5298,7 @@ export const characterAbilityCards: Record<
         name: "vicious ballet",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-vicious-ballet.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-vicious-ballet.jpeg",
         initiative: 28,
         level: 7,
       },
@@ -5531,8 +5306,7 @@ export const characterAbilityCards: Record<
         name: "warmth of the sun",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-warmth-of-the-sun.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-warmth-of-the-sun.jpeg",
         initiative: 23,
         level: 3,
       },
@@ -5540,8 +5314,7 @@ export const characterAbilityCards: Record<
         name: "warrior of the sun",
         class: "RG",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/RG/jl-warrior-of-the-sun.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/RG/jl-warrior-of-the-sun.jpeg",
         initiative: 13,
         level: 1.5,
       },
@@ -5567,8 +5340,7 @@ export const characterAbilityCards: Record<
         name: "close to the abyss",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-close-to-the-abyss.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-close-to-the-abyss.jpeg",
         initiative: 72,
         level: 1,
       },
@@ -5576,8 +5348,7 @@ export const characterAbilityCards: Record<
         name: "cold embrace",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-cold-embrace.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-cold-embrace.jpeg",
         initiative: 71,
         level: 1.5,
       },
@@ -5585,8 +5356,7 @@ export const characterAbilityCards: Record<
         name: "commanding presence",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-commanding-presence.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-commanding-presence.jpeg",
         initiative: 75,
         level: 3,
       },
@@ -5594,8 +5364,7 @@ export const characterAbilityCards: Record<
         name: "crushing cold",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-crushing-cold.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-crushing-cold.jpeg",
         initiative: 86,
         level: 2,
       },
@@ -5603,8 +5372,7 @@ export const characterAbilityCards: Record<
         name: "empowered link",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-empowered-link.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-empowered-link.jpeg",
         initiative: 59,
         level: 8,
       },
@@ -5612,8 +5380,7 @@ export const characterAbilityCards: Record<
         name: "eye of the void",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-eye-of-the-void.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-eye-of-the-void.jpeg",
         initiative: 19,
         level: 9,
       },
@@ -5621,8 +5388,7 @@ export const characterAbilityCards: Record<
         name: "freeze the soul",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-freeze-the-soul.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-freeze-the-soul.jpeg",
         initiative: 58,
         level: 1,
       },
@@ -5630,8 +5396,7 @@ export const characterAbilityCards: Record<
         name: "gift of the void",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-gift-of-the-void.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-gift-of-the-void.jpeg",
         initiative: 89,
         level: 1,
       },
@@ -5639,8 +5404,7 @@ export const characterAbilityCards: Record<
         name: "give and take",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-give-and-take.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-give-and-take.jpeg",
         initiative: 21,
         level: 2,
       },
@@ -5648,8 +5412,7 @@ export const characterAbilityCards: Record<
         name: "grasp of doom",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-grasp-of-doom.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-grasp-of-doom.jpeg",
         initiative: 36,
         level: 1,
       },
@@ -5657,8 +5420,7 @@ export const characterAbilityCards: Record<
         name: "hateful blast",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-hateful-blast.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-hateful-blast.jpeg",
         initiative: 29,
         level: 7,
       },
@@ -5666,8 +5428,7 @@ export const characterAbilityCards: Record<
         name: "lull into oblivion",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-lull-into-oblivion.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-lull-into-oblivion.jpeg",
         initiative: 11,
         level: 8,
       },
@@ -5675,8 +5436,7 @@ export const characterAbilityCards: Record<
         name: "lure of the void",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-lure-of-the-void.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-lure-of-the-void.jpeg",
         initiative: 67,
         level: 1,
       },
@@ -5684,8 +5444,7 @@ export const characterAbilityCards: Record<
         name: "master influence",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-master-influence.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-master-influence.jpeg",
         initiative: 83,
         level: 1,
       },
@@ -5693,8 +5452,7 @@ export const characterAbilityCards: Record<
         name: "possessed by fate",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-possessed-by-fate.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-possessed-by-fate.jpeg",
         initiative: 66,
         level: 9,
       },
@@ -5702,8 +5460,7 @@ export const characterAbilityCards: Record<
         name: "resigned frenzy",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-resigned-frenzy.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-resigned-frenzy.jpeg",
         initiative: 26,
         level: 1.5,
       },
@@ -5719,8 +5476,7 @@ export const characterAbilityCards: Record<
         name: "savage instinct",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-savage-instinct.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-savage-instinct.jpeg",
         initiative: 51,
         level: 4,
       },
@@ -5728,8 +5484,7 @@ export const characterAbilityCards: Record<
         name: "signs of the void",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-signs-of-the-void.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-signs-of-the-void.jpeg",
         initiative: 15,
         level: 1,
       },
@@ -5737,8 +5492,7 @@ export const characterAbilityCards: Record<
         name: "spirit hunger",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-spirit-hunger.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-spirit-hunger.jpeg",
         initiative: 68,
         level: 7,
       },
@@ -5762,8 +5516,7 @@ export const characterAbilityCards: Record<
         name: "surge of power",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-surge-of-power.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-surge-of-power.jpeg",
         initiative: 81,
         level: 6,
       },
@@ -5771,8 +5524,7 @@ export const characterAbilityCards: Record<
         name: "taunting fate",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-taunting-fate.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-taunting-fate.jpeg",
         initiative: 13,
         level: 3,
       },
@@ -5780,8 +5532,7 @@ export const characterAbilityCards: Record<
         name: "the last journey",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-the-last-journey.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-the-last-journey.jpeg",
         initiative: 38,
         level: 4,
       },
@@ -5789,8 +5540,7 @@ export const characterAbilityCards: Record<
         name: "turn out the lights",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-turn-out-the-lights.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-turn-out-the-lights.jpeg",
         initiative: 49,
         level: 1,
       },
@@ -5798,8 +5548,7 @@ export const characterAbilityCards: Record<
         name: "wicked scratch",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-wicked-scratch.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-wicked-scratch.jpeg",
         initiative: 68,
         level: 1,
       },
@@ -5807,8 +5556,7 @@ export const characterAbilityCards: Record<
         name: "withering conviction",
         class: "VW",
         game: "jotl",
-        image:
-          "character-ability-cards/jaws-of-the-lion/VW/jl-withering-conviction.jpeg",
+        image: "character-ability-cards/jaws-of-the-lion/VW/jl-withering-conviction.jpeg",
         initiative: 44,
         level: 6,
       },
@@ -5828,8 +5576,7 @@ export const characterAbilityCards: Record<
         name: "alate dispersion",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-alate-dispersion.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-alate-dispersion.jpeg",
         initiative: 58,
         level: 4,
       },
@@ -5845,8 +5592,7 @@ export const characterAbilityCards: Record<
         name: "assimilate adversaries",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-assimilate-adversaries.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-assimilate-adversaries.jpeg",
         initiative: 50,
         level: 6,
       },
@@ -5854,8 +5600,7 @@ export const characterAbilityCards: Record<
         name: "birthing chambers",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-birthing-chambers.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-birthing-chambers.jpeg",
         initiative: 61,
         level: 5,
       },
@@ -5863,8 +5608,7 @@ export const characterAbilityCards: Record<
         name: "burning stingers",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-burning-stingers.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-burning-stingers.jpeg",
         initiative: 73,
         level: 1,
       },
@@ -5880,8 +5624,7 @@ export const characterAbilityCards: Record<
         name: "clad in spikes",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-clad-in-spikes.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-clad-in-spikes.jpeg",
         initiative: 12,
         level: 2,
       },
@@ -5889,8 +5632,7 @@ export const characterAbilityCards: Record<
         name: "coordinated infestation",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-coordinated-infestation.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-coordinated-infestation.jpeg",
         initiative: 45,
         level: 8,
       },
@@ -5898,8 +5640,7 @@ export const characterAbilityCards: Record<
         name: "corrosive spittle",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-corrosive-spittle.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-corrosive-spittle.jpeg",
         initiative: 45,
         level: 1,
       },
@@ -5907,8 +5648,7 @@ export const characterAbilityCards: Record<
         name: "divide and conquer",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-divide-and-conquer.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-divide-and-conquer.jpeg",
         initiative: 97,
         level: 9,
       },
@@ -5916,8 +5656,7 @@ export const characterAbilityCards: Record<
         name: "encasing webs",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-encasing-webs.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-encasing-webs.jpeg",
         initiative: 33,
         level: 1,
       },
@@ -5925,8 +5664,7 @@ export const characterAbilityCards: Record<
         name: "erupting mandibles",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-erupting-mandibles.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-erupting-mandibles.jpeg",
         initiative: 54,
         level: 8,
       },
@@ -5934,8 +5672,7 @@ export const characterAbilityCards: Record<
         name: "ferocious proliferation",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-ferocious-proliferation.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-ferocious-proliferation.jpeg",
         initiative: 58,
         level: 4,
       },
@@ -5943,8 +5680,7 @@ export const characterAbilityCards: Record<
         name: "frantic migration",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-frantic-migration.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-frantic-migration.jpeg",
         initiative: 8,
         level: 6,
       },
@@ -5952,8 +5688,7 @@ export const characterAbilityCards: Record<
         name: "horned carapace",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-horned-carapace.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-horned-carapace.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -5961,8 +5696,7 @@ export const characterAbilityCards: Record<
         name: "lacerating horde",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-lacerating-horde.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-lacerating-horde.jpeg",
         initiative: 22,
         level: 7,
       },
@@ -5970,8 +5704,7 @@ export const characterAbilityCards: Record<
         name: "maddening chatter",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-maddening-chatter.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-maddening-chatter.jpeg",
         initiative: 29,
         level: 3,
       },
@@ -5979,8 +5712,7 @@ export const characterAbilityCards: Record<
         name: "march of multitudes",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-march-of-multitudes.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-march-of-multitudes.jpeg",
         initiative: 37,
         level: 1.5,
       },
@@ -5988,8 +5720,7 @@ export const characterAbilityCards: Record<
         name: "nurture the weak",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-nurture-the-weak.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-nurture-the-weak.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -5997,8 +5728,7 @@ export const characterAbilityCards: Record<
         name: "overwhelming swarm",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-overwhelming-swarm.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-overwhelming-swarm.jpeg",
         initiative: 44,
         level: 1.5,
       },
@@ -6006,8 +5736,7 @@ export const characterAbilityCards: Record<
         name: "primal pheromones",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-primal-pheromones.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-primal-pheromones.jpeg",
         initiative: 92,
         level: 1.5,
       },
@@ -6015,8 +5744,7 @@ export const characterAbilityCards: Record<
         name: "repel intruders",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-repel-intruders.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-repel-intruders.jpeg",
         initiative: 36,
         level: 1,
       },
@@ -6024,8 +5752,7 @@ export const characterAbilityCards: Record<
         name: "retribution of the hive",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-retribution-of-the-hive.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-retribution-of-the-hive.jpeg",
         initiative: 16,
         level: 1,
       },
@@ -6033,8 +5760,7 @@ export const characterAbilityCards: Record<
         name: "seek nourishment",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-seek-nourishment.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-seek-nourishment.jpeg",
         initiative: 24,
         level: 1,
       },
@@ -6050,8 +5776,7 @@ export const characterAbilityCards: Record<
         name: "shelter the nest",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-shelter-the-nest.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-shelter-the-nest.jpeg",
         initiative: 16,
         level: 1,
       },
@@ -6059,8 +5784,7 @@ export const characterAbilityCards: Record<
         name: "stalk the prey",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-stalk-the-prey.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-stalk-the-prey.jpeg",
         initiative: 79,
         level: 7,
       },
@@ -6068,8 +5792,7 @@ export const characterAbilityCards: Record<
         name: "steelsilk weaver",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-steelsilk-weaver.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-steelsilk-weaver.jpeg",
         initiative: 41,
         level: 2,
       },
@@ -6077,8 +5800,7 @@ export const characterAbilityCards: Record<
         name: "supreme authority",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-supreme-authority.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-supreme-authority.jpeg",
         initiative: 3,
         level: 9,
       },
@@ -6086,8 +5808,7 @@ export const characterAbilityCards: Record<
         name: "violent outlash",
         class: "AA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/AA/cs-violent-outlash.jpeg",
+        image: "character-ability-cards/crimson-scales/AA/cs-violent-outlash.jpeg",
         initiative: 63,
         level: 3,
       },
@@ -6098,8 +5819,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-amber-aegis.jpeg",
         initiative: 39,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.jpeg",
         milestone: true,
       },
     ],
@@ -6116,8 +5836,7 @@ export const characterAbilityCards: Record<
         name: "acquire funding",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-acquire-funding.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-acquire-funding.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -6125,8 +5844,7 @@ export const characterAbilityCards: Record<
         name: "advanced research",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-advanced-research.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-advanced-research.jpeg",
         initiative: 85,
         level: 5,
       },
@@ -6134,8 +5852,7 @@ export const characterAbilityCards: Record<
         name: "antibiotic boost",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-antibiotic-boost.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-antibiotic-boost.jpeg",
         initiative: 56,
         level: 6,
       },
@@ -6143,8 +5860,7 @@ export const characterAbilityCards: Record<
         name: "astronomical strike",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-astronomical-strike.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-astronomical-strike.jpeg",
         initiative: 57,
         level: 7,
       },
@@ -6152,8 +5868,7 @@ export const characterAbilityCards: Record<
         name: "befuddling serum",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-befuddling-serum.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-befuddling-serum.jpeg",
         initiative: 49,
         level: 4,
       },
@@ -6161,8 +5876,7 @@ export const characterAbilityCards: Record<
         name: "blinding lightwaves",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-blinding-lightwaves.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-blinding-lightwaves.jpeg",
         initiative: 68,
         level: 1,
       },
@@ -6170,8 +5884,7 @@ export const characterAbilityCards: Record<
         name: "cell regeneration",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-cell-regeneration.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-cell-regeneration.jpeg",
         initiative: 73,
         level: 1,
       },
@@ -6179,8 +5892,7 @@ export const characterAbilityCards: Record<
         name: "contagious malady",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-contagious-malady.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-contagious-malady.jpeg",
         initiative: 13,
         level: 1,
       },
@@ -6188,8 +5900,7 @@ export const characterAbilityCards: Record<
         name: "corrosive combustion",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-corrosive-combustion.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-corrosive-combustion.jpeg",
         initiative: 32,
         level: 1,
       },
@@ -6197,8 +5908,7 @@ export const characterAbilityCards: Record<
         name: "critical hypothesis",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-critical-hypothesis.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-critical-hypothesis.jpeg",
         initiative: 16,
         level: 8,
       },
@@ -6206,8 +5916,7 @@ export const characterAbilityCards: Record<
         name: "critical observation",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-critical-observation.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-critical-observation.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -6215,8 +5924,7 @@ export const characterAbilityCards: Record<
         name: "dynamic balance",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-dynamic-balance.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-dynamic-balance.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -6224,8 +5932,7 @@ export const characterAbilityCards: Record<
         name: "electromagnetism",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-electromagnetism.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-electromagnetism.jpeg",
         initiative: 84,
         level: 3,
       },
@@ -6233,8 +5940,7 @@ export const characterAbilityCards: Record<
         name: "elevated chemicals",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-elevated-chemicals.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-elevated-chemicals.jpeg",
         initiative: 44,
         level: 5,
       },
@@ -6242,8 +5948,7 @@ export const characterAbilityCards: Record<
         name: "elevated intake",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-elevated-intake.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-elevated-intake.jpeg",
         initiative: 50,
         level: 1.5,
       },
@@ -6251,8 +5956,7 @@ export const characterAbilityCards: Record<
         name: "elixir of life",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-elixir-of-life.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-elixir-of-life.jpeg",
         initiative: 38,
         level: 9,
       },
@@ -6260,8 +5964,7 @@ export const characterAbilityCards: Record<
         name: "enviromental survey",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-enviromental-survey.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-enviromental-survey.jpeg",
         initiative: 31,
         level: 1.5,
       },
@@ -6269,8 +5972,7 @@ export const characterAbilityCards: Record<
         name: "exothermic cocktail",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-exothermic-cocktail.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-exothermic-cocktail.jpeg",
         initiative: 45,
         level: 1,
       },
@@ -6278,8 +5980,7 @@ export const characterAbilityCards: Record<
         name: "frozen explosion",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-frozen-explosion.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-frozen-explosion.jpeg",
         initiative: 55,
         level: 1,
       },
@@ -6287,8 +5988,7 @@ export const characterAbilityCards: Record<
         name: "leftover tonic",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-leftover-tonic.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-leftover-tonic.jpeg",
         initiative: 70,
         level: 1.5,
       },
@@ -6296,8 +5996,7 @@ export const characterAbilityCards: Record<
         name: "magnetic field",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-magnetic-field.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-magnetic-field.jpeg",
         initiative: 28,
         level: 1,
       },
@@ -6305,8 +6004,7 @@ export const characterAbilityCards: Record<
         name: "molecular hydroblast",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-molecular-hydroblast.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-molecular-hydroblast.jpeg",
         initiative: 29,
         level: 6,
       },
@@ -6314,8 +6012,7 @@ export const characterAbilityCards: Record<
         name: "nourishing formula",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-nourishing-formula.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-nourishing-formula.jpeg",
         initiative: 77,
         level: 7,
       },
@@ -6323,8 +6020,7 @@ export const characterAbilityCards: Record<
         name: "nutrient overdose",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-nutrient-overdose.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-nutrient-overdose.jpeg",
         initiative: 17,
         level: 2,
       },
@@ -6332,8 +6028,7 @@ export const characterAbilityCards: Record<
         name: "preliminary research",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-preliminary-research.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-preliminary-research.jpeg",
         initiative: 24,
         level: 1,
       },
@@ -6341,8 +6036,7 @@ export const characterAbilityCards: Record<
         name: "strength elixir",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-strength-elixir.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-strength-elixir.jpeg",
         initiative: 19,
         level: 4,
       },
@@ -6350,8 +6044,7 @@ export const characterAbilityCards: Record<
         name: "transformation libation",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-transformation-libation.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-transformation-libation.jpeg",
         initiative: 27,
         level: 2,
       },
@@ -6359,8 +6052,7 @@ export const characterAbilityCards: Record<
         name: "ultraviolet rays",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-ultraviolet-rays.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-ultraviolet-rays.jpeg",
         initiative: 66,
         level: 9,
       },
@@ -6368,8 +6060,7 @@ export const characterAbilityCards: Record<
         name: "versatile concoction",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-versatile-concoction.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-versatile-concoction.jpeg",
         initiative: 58,
         level: 8,
       },
@@ -6377,8 +6068,7 @@ export const characterAbilityCards: Record<
         name: "weather forecast",
         class: "BK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BK/cs-weather-forecast.jpeg",
+        image: "character-ability-cards/crimson-scales/BK/cs-weather-forecast.jpeg",
         initiative: 30,
         level: 3,
       },
@@ -6389,8 +6079,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-brightspark.jpeg",
         initiative: 40,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/BK/cs-creative-sparks.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/BK/cs-creative-sparks.jpeg",
         milestone: true,
       },
     ],
@@ -6407,8 +6096,7 @@ export const characterAbilityCards: Record<
         name: "airborne skyrocket",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-airborne-skyrocket.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-airborne-skyrocket.jpeg",
         initiative: 55,
         level: 7,
       },
@@ -6416,8 +6104,7 @@ export const characterAbilityCards: Record<
         name: "ballistic barrage",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-ballistic-barrage.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-ballistic-barrage.jpeg",
         initiative: 73,
         level: 7,
       },
@@ -6433,8 +6120,7 @@ export const characterAbilityCards: Record<
         name: "chain grapnel",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-chain-grapnel.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-chain-grapnel.jpeg",
         initiative: 46,
         level: 1.5,
       },
@@ -6442,8 +6128,7 @@ export const characterAbilityCards: Record<
         name: "consistent firing",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-consistent-firing.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-consistent-firing.jpeg",
         initiative: 76,
         level: 1,
       },
@@ -6451,8 +6136,7 @@ export const characterAbilityCards: Record<
         name: "defense mechanism",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-defense-mechanism.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-defense-mechanism.jpeg",
         initiative: 18,
         level: 8,
       },
@@ -6460,8 +6144,7 @@ export const characterAbilityCards: Record<
         name: "distant retribution",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-distant-retribution.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-distant-retribution.jpeg",
         initiative: 12,
         level: 2,
       },
@@ -6469,8 +6152,7 @@ export const characterAbilityCards: Record<
         name: "double cannons",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-double-cannons.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-double-cannons.jpeg",
         initiative: 60,
         level: 1,
       },
@@ -6478,8 +6160,7 @@ export const characterAbilityCards: Record<
         name: "exploding cannonball",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-exploding-cannonball.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-exploding-cannonball.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -6487,8 +6168,7 @@ export const characterAbilityCards: Record<
         name: "forceful bolt",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-forceful-bolt.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-forceful-bolt.jpeg",
         initiative: 63,
         level: 1,
       },
@@ -6496,8 +6176,7 @@ export const characterAbilityCards: Record<
         name: "grappling hook",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-grappling-hook.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-grappling-hook.jpeg",
         initiative: 68,
         level: 1,
       },
@@ -6505,8 +6184,7 @@ export const characterAbilityCards: Record<
         name: "hurried repairs",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-hurried-repairs.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-hurried-repairs.jpeg",
         initiative: 25,
         level: 4,
       },
@@ -6514,8 +6192,7 @@ export const characterAbilityCards: Record<
         name: "ignited launch",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-ignited-launch.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-ignited-launch.jpeg",
         initiative: 81,
         level: 1,
       },
@@ -6523,8 +6200,7 @@ export const characterAbilityCards: Record<
         name: "man the cannon",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-man-the-cannon.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-man-the-cannon.jpeg",
         initiative: 21,
         level: 1.5,
       },
@@ -6532,8 +6208,7 @@ export const characterAbilityCards: Record<
         name: "meteoric blast",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-meteoric-blast.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-meteoric-blast.jpeg",
         initiative: 26,
         level: 6,
       },
@@ -6541,8 +6216,7 @@ export const characterAbilityCards: Record<
         name: "pillars of smoke",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-pillars-of-smoke.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-pillars-of-smoke.jpeg",
         initiative: 11,
         level: 1.5,
       },
@@ -6550,8 +6224,7 @@ export const characterAbilityCards: Record<
         name: "powerful buckshot",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-powerful-buckshot.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-powerful-buckshot.jpeg",
         initiative: 84,
         level: 4,
       },
@@ -6559,8 +6232,7 @@ export const characterAbilityCards: Record<
         name: "prolific perforation",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-prolific-perforation.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-prolific-perforation.jpeg",
         initiative: 62,
         level: 6,
       },
@@ -6568,8 +6240,7 @@ export const characterAbilityCards: Record<
         name: "quadruple cannons",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-quadruple-cannons.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-quadruple-cannons.jpeg",
         initiative: 86,
         level: 8,
       },
@@ -6585,8 +6256,7 @@ export const characterAbilityCards: Record<
         name: "rolling into position",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-rolling-into-position.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-rolling-into-position.jpeg",
         initiative: 14,
         level: 1,
       },
@@ -6594,8 +6264,7 @@ export const characterAbilityCards: Record<
         name: "sharpened focus",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-sharpened-focus.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-sharpened-focus.jpeg",
         initiative: 32,
         level: 5,
       },
@@ -6603,8 +6272,7 @@ export const characterAbilityCards: Record<
         name: "stationary enhancements",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-stationary-enhancements.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-stationary-enhancements.jpeg",
         initiative: 20,
         level: 3,
       },
@@ -6612,8 +6280,7 @@ export const characterAbilityCards: Record<
         name: "supercharged gunpowder",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-supercharged-gunpowder.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-supercharged-gunpowder.jpeg",
         initiative: 90,
         level: 9,
       },
@@ -6621,8 +6288,7 @@ export const characterAbilityCards: Record<
         name: "superior upgrade",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-superior-upgrade.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-superior-upgrade.jpeg",
         initiative: 9,
         level: 9,
       },
@@ -6638,8 +6304,7 @@ export const characterAbilityCards: Record<
         name: "unbreakable position",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-unbreakable-position.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-unbreakable-position.jpeg",
         initiative: 15,
         level: 5,
       },
@@ -6647,8 +6312,7 @@ export const characterAbilityCards: Record<
         name: "unexpected bombshell",
         class: "BM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/BM/cs-unexpected-bombshell.jpeg",
+        image: "character-ability-cards/crimson-scales/BM/cs-unexpected-bombshell.jpeg",
         initiative: 85,
         level: 1,
       },
@@ -6659,8 +6323,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-bombard.jpeg",
         initiative: 17,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.jpeg",
         milestone: true,
       },
     ],
@@ -6677,8 +6340,7 @@ export const characterAbilityCards: Record<
         name: "agonizing clamp",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-agonizing-clamp.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-agonizing-clamp.jpeg",
         initiative: 57,
         level: 2,
       },
@@ -6686,8 +6348,7 @@ export const characterAbilityCards: Record<
         name: "champion of chains",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-champion-of-chains.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-champion-of-chains.jpeg",
         initiative: 10,
         level: 9,
       },
@@ -6703,8 +6364,7 @@ export const characterAbilityCards: Record<
         name: "clamping snare",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-clamping-snare.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-clamping-snare.jpeg",
         initiative: 27,
         level: 7,
       },
@@ -6712,8 +6372,7 @@ export const characterAbilityCards: Record<
         name: "dizzying release",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-dizzying-release.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-dizzying-release.jpeg",
         initiative: 24,
         level: 4,
       },
@@ -6729,8 +6388,7 @@ export const characterAbilityCards: Record<
         name: "drag through dirt",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-drag-through-dirt.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-drag-through-dirt.jpeg",
         initiative: 30,
         level: 1,
       },
@@ -6738,8 +6396,7 @@ export const characterAbilityCards: Record<
         name: "follow the chains",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-follow-the-chains.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-follow-the-chains.jpeg",
         initiative: 19,
         level: 1,
       },
@@ -6755,8 +6412,7 @@ export const characterAbilityCards: Record<
         name: "impending power",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-impending-power.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-impending-power.jpeg",
         initiative: 12,
         level: 5,
       },
@@ -6772,8 +6428,7 @@ export const characterAbilityCards: Record<
         name: "latch and tow",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-latch-and-tow.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-latch-and-tow.jpeg",
         initiative: 81,
         level: 3,
       },
@@ -6781,8 +6436,7 @@ export const characterAbilityCards: Record<
         name: "locking links",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-locking-links.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-locking-links.jpeg",
         initiative: 41,
         level: 1,
       },
@@ -6790,8 +6444,7 @@ export const characterAbilityCards: Record<
         name: "merciless beatdown",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-merciless-beatdown.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-merciless-beatdown.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -6799,8 +6452,7 @@ export const characterAbilityCards: Record<
         name: "meteor hammer",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-meteor-hammer.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-meteor-hammer.jpeg",
         initiative: 45,
         level: 7,
       },
@@ -6808,8 +6460,7 @@ export const characterAbilityCards: Record<
         name: "pivot and smash",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-pivot-and-smash.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-pivot-and-smash.jpeg",
         initiative: 28,
         level: 8,
       },
@@ -6817,8 +6468,7 @@ export const characterAbilityCards: Record<
         name: "roundhouse swing",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-roundhouse-swing.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-roundhouse-swing.jpeg",
         initiative: 79,
         level: 1.5,
       },
@@ -6834,8 +6484,7 @@ export const characterAbilityCards: Record<
         name: "slamming shove",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-slamming-shove.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-slamming-shove.jpeg",
         initiative: 25,
         level: 1,
       },
@@ -6843,8 +6492,7 @@ export const characterAbilityCards: Record<
         name: "spiked knuckles",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-spiked-knuckles.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-spiked-knuckles.jpeg",
         initiative: 66,
         level: 1,
       },
@@ -6852,8 +6500,7 @@ export const characterAbilityCards: Record<
         name: "suffering steel",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-suffering-steel.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-suffering-steel.jpeg",
         initiative: 9,
         level: 6,
       },
@@ -6861,8 +6508,7 @@ export const characterAbilityCards: Record<
         name: "sweeping collision",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-sweeping-collision.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-sweeping-collision.jpeg",
         initiative: 20,
         level: 3,
       },
@@ -6870,8 +6516,7 @@ export const characterAbilityCards: Record<
         name: "syndicated assault",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-syndicated-assault.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-syndicated-assault.jpeg",
         initiative: 68,
         level: 8,
       },
@@ -6879,8 +6524,7 @@ export const characterAbilityCards: Record<
         name: "tighten the chains",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-tighten-the-chains.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-tighten-the-chains.jpeg",
         initiative: 17,
         level: 5,
       },
@@ -6888,8 +6532,7 @@ export const characterAbilityCards: Record<
         name: "titanic chainwhip",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-titanic-chainwhip.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-titanic-chainwhip.jpeg",
         initiative: 29,
         level: 6,
       },
@@ -6897,8 +6540,7 @@ export const characterAbilityCards: Record<
         name: "unending torment",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-unending-torment.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-unending-torment.jpeg",
         initiative: 33,
         level: 9,
       },
@@ -6906,8 +6548,7 @@ export const characterAbilityCards: Record<
         name: "untouchable keeper",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-untouchable-keeper.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-untouchable-keeper.jpeg",
         initiative: 14,
         level: 1,
       },
@@ -6915,8 +6556,7 @@ export const characterAbilityCards: Record<
         name: "vigorous sway",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-vigorous-sway.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-vigorous-sway.jpeg",
         initiative: 52,
         level: 1.5,
       },
@@ -6924,8 +6564,7 @@ export const characterAbilityCards: Record<
         name: "wrapped in metal",
         class: "CG",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CG/cs-wrapped-in-metal.jpeg",
+        image: "character-ability-cards/crimson-scales/CG/cs-wrapped-in-metal.jpeg",
         initiative: 82,
         level: 1,
       },
@@ -6953,8 +6592,7 @@ export const characterAbilityCards: Record<
         name: "agile predator",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-agile-predator.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-agile-predator.jpeg",
         initiative: 90,
         level: 3,
       },
@@ -6962,8 +6600,7 @@ export const characterAbilityCards: Record<
         name: "catastrophic cattle",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-catastrophic-cattle.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-catastrophic-cattle.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -6971,8 +6608,7 @@ export const characterAbilityCards: Record<
         name: "ceremonial dance",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-ceremonial-dance.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-ceremonial-dance.jpeg",
         initiative: 23,
         level: 2,
       },
@@ -6980,8 +6616,7 @@ export const characterAbilityCards: Record<
         name: "chest thumper",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-chest-thumper.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-chest-thumper.jpeg",
         initiative: 94,
         level: 5,
       },
@@ -6997,8 +6632,7 @@ export const characterAbilityCards: Record<
         name: "impervious armor",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-impervious-armor.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-impervious-armor.jpeg",
         initiative: 86,
         level: 7,
       },
@@ -7006,8 +6640,7 @@ export const characterAbilityCards: Record<
         name: "majestic mass",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-majestic-mass.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-majestic-mass.jpeg",
         initiative: 86,
         level: 8,
       },
@@ -7015,8 +6648,7 @@ export const characterAbilityCards: Record<
         name: "master the reins",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-master-the-reins.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-master-the-reins.jpeg",
         initiative: 30,
         level: 9,
       },
@@ -7024,8 +6656,7 @@ export const characterAbilityCards: Record<
         name: "medicine shield",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-medicine-shield.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-medicine-shield.jpeg",
         initiative: 19,
         level: 2,
       },
@@ -7033,8 +6664,7 @@ export const characterAbilityCards: Record<
         name: "mounded sight",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-mounded-sight.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-mounded-sight.jpeg",
         initiative: 82,
         level: 1.5,
       },
@@ -7042,8 +6672,7 @@ export const characterAbilityCards: Record<
         name: "one with nature",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-one-with-nature.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-one-with-nature.jpeg",
         initiative: 33,
         level: 6,
       },
@@ -7051,8 +6680,7 @@ export const characterAbilityCards: Record<
         name: "outrun the enemy",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-outrun-the-enemy.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-outrun-the-enemy.jpeg",
         initiative: 87,
         level: 1,
       },
@@ -7060,8 +6688,7 @@ export const characterAbilityCards: Record<
         name: "piercing darts",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-piercing-darts.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-piercing-darts.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -7069,8 +6696,7 @@ export const characterAbilityCards: Record<
         name: "pipe tomahawk",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-pipe-tomahawk.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-pipe-tomahawk.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -7078,8 +6704,7 @@ export const characterAbilityCards: Record<
         name: "positive reinforcement",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-positive-reinforcement.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-positive-reinforcement.jpeg",
         initiative: 24,
         level: 5,
       },
@@ -7087,8 +6712,7 @@ export const characterAbilityCards: Record<
         name: "prepared rations",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-prepared-rations.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-prepared-rations.jpeg",
         initiative: 91,
         level: 1.5,
       },
@@ -7112,8 +6736,7 @@ export const characterAbilityCards: Record<
         name: "skinning knife",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-skinning-knife.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-skinning-knife.jpeg",
         initiative: 54,
         level: 1,
       },
@@ -7121,8 +6744,7 @@ export const characterAbilityCards: Record<
         name: "slow and steady",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-slow-and-steady.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-slow-and-steady.jpeg",
         initiative: 93,
         level: 1,
       },
@@ -7130,8 +6752,7 @@ export const characterAbilityCards: Record<
         name: "sniffing hound",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-sniffing-hound.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-sniffing-hound.jpeg",
         initiative: 80,
         level: 1,
       },
@@ -7139,8 +6760,7 @@ export const characterAbilityCards: Record<
         name: "soul whisperer",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-soul-whisperer.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-soul-whisperer.jpeg",
         initiative: 57,
         level: 1,
       },
@@ -7148,8 +6768,7 @@ export const characterAbilityCards: Record<
         name: "spiked muzzle",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-spiked-muzzle.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-spiked-muzzle.jpeg",
         initiative: 47,
         level: 4,
       },
@@ -7157,8 +6776,7 @@ export const characterAbilityCards: Record<
         name: "strapping bullwhip",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-strapping-bullwhip.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-strapping-bullwhip.jpeg",
         initiative: 29,
         level: 7,
       },
@@ -7174,8 +6792,7 @@ export const characterAbilityCards: Record<
         name: "take the reins",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-take-the-reins.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-take-the-reins.jpeg",
         initiative: 40,
         level: 3,
       },
@@ -7183,8 +6800,7 @@ export const characterAbilityCards: Record<
         name: "tribal blessing",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-tribal-blessing.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-tribal-blessing.jpeg",
         initiative: 46,
         level: 8,
       },
@@ -7192,8 +6808,7 @@ export const characterAbilityCards: Record<
         name: "venomous mayhem",
         class: "CT",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/CT/cs-venomous-mayhem.jpeg",
+        image: "character-ability-cards/crimson-scales/CT/cs-venomous-mayhem.jpeg",
         initiative: 92,
         level: 6,
       },
@@ -7212,8 +6827,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-chieftain.jpeg",
         initiative: 10,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.jpeg",
         milestone: true,
       },
     ],
@@ -7238,8 +6852,7 @@ export const characterAbilityCards: Record<
         name: "cauterize wound",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-cauterize-wound.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-cauterize-wound.jpeg",
         initiative: 13,
         level: 8,
       },
@@ -7247,8 +6860,7 @@ export const characterAbilityCards: Record<
         name: "collective combat",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-collective-combat.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-collective-combat.jpeg",
         initiative: 64,
         level: 1,
       },
@@ -7264,8 +6876,7 @@ export const characterAbilityCards: Record<
         name: "combined effort",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-combined-effort.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-combined-effort.jpeg",
         initiative: 19,
         level: 1,
       },
@@ -7273,8 +6884,7 @@ export const characterAbilityCards: Record<
         name: "controlled aggression",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-controlled-aggression.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-controlled-aggression.jpeg",
         initiative: 77,
         level: 1,
       },
@@ -7282,8 +6892,7 @@ export const characterAbilityCards: Record<
         name: "coordinated attack",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-coordinated-attack.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-coordinated-attack.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -7291,8 +6900,7 @@ export const characterAbilityCards: Record<
         name: "crew integrity",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-crew-integrity.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-crew-integrity.jpeg",
         initiative: 20,
         level: 3,
       },
@@ -7300,8 +6908,7 @@ export const characterAbilityCards: Record<
         name: "fiery charisma",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-fiery-charisma.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-fiery-charisma.jpeg",
         initiative: 25,
         level: 1.5,
       },
@@ -7333,8 +6940,7 @@ export const characterAbilityCards: Record<
         name: "forcible entry",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-forcible-entry.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-forcible-entry.jpeg",
         initiative: 15,
         level: 1,
       },
@@ -7350,8 +6956,7 @@ export const characterAbilityCards: Record<
         name: "hook and ladder",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-hook-and-ladder.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-hook-and-ladder.jpeg",
         initiative: 32,
         level: 5,
       },
@@ -7359,8 +6964,7 @@ export const characterAbilityCards: Record<
         name: "incident commander",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-incident-commander.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-incident-commander.jpeg",
         initiative: 17,
         level: 9,
       },
@@ -7368,8 +6972,7 @@ export const characterAbilityCards: Record<
         name: "jack of all trades",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-jack-of-all-trades.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-jack-of-all-trades.jpeg",
         initiative: 27,
         level: 4,
       },
@@ -7377,8 +6980,7 @@ export const characterAbilityCards: Record<
         name: "kindled tonic",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-kindled-tonic.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-kindled-tonic.jpeg",
         initiative: 39,
         level: 4,
       },
@@ -7386,8 +6988,7 @@ export const characterAbilityCards: Record<
         name: "ladder assault",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-ladder-assault.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-ladder-assault.jpeg",
         initiative: 68,
         level: 3,
       },
@@ -7403,8 +7004,7 @@ export const characterAbilityCards: Record<
         name: "loyal companion",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-loyal-companion.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-loyal-companion.jpeg",
         initiative: 81,
         level: 1.5,
       },
@@ -7412,8 +7012,7 @@ export const characterAbilityCards: Record<
         name: "spotted hound",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-loyal-companion.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-loyal-companion.jpeg",
         initiative: 81,
         level: 1.5,
       },
@@ -7429,8 +7028,7 @@ export const characterAbilityCards: Record<
         name: "playing with fire",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-playing-with-fire.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-playing-with-fire.jpeg",
         initiative: 40,
         level: 1,
       },
@@ -7438,8 +7036,7 @@ export const characterAbilityCards: Record<
         name: "practical tools",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-practical-tools.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-practical-tools.jpeg",
         initiative: 36,
         level: 1.5,
       },
@@ -7447,8 +7044,7 @@ export const characterAbilityCards: Record<
         name: "rapid response",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-rapid-response.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-rapid-response.jpeg",
         initiative: 12,
         level: 1,
       },
@@ -7456,8 +7052,7 @@ export const characterAbilityCards: Record<
         name: "rolling flames",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-rolling-flames.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-rolling-flames.jpeg",
         initiative: 53,
         level: 7,
       },
@@ -7465,8 +7060,7 @@ export const characterAbilityCards: Record<
         name: "search and rescue",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-search-and-rescue.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-search-and-rescue.jpeg",
         initiative: 18,
         level: 7,
       },
@@ -7474,8 +7068,7 @@ export const characterAbilityCards: Record<
         name: "searing blaze",
         class: "FK",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/FK/cs-searing-blaze.jpeg",
+        image: "character-ability-cards/crimson-scales/FK/cs-searing-blaze.jpeg",
         initiative: 75,
         level: 5,
       },
@@ -7494,8 +7087,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-fire-knight.jpeg",
         initiative: 16,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/FK/cs-improvised-methods.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/FK/cs-improvised-methods.jpeg",
         milestone: true,
       },
     ],
@@ -7512,8 +7104,7 @@ export const characterAbilityCards: Record<
         name: "borrowed vitality",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-borrowed-vitality.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-borrowed-vitality.jpeg",
         initiative: 37,
         level: 1,
       },
@@ -7521,8 +7112,7 @@ export const characterAbilityCards: Record<
         name: "channel the void",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-channel-the-void.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-channel-the-void.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -7530,8 +7120,7 @@ export const characterAbilityCards: Record<
         name: "empowered assault",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-empowered-assault.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-empowered-assault.jpeg",
         initiative: 19,
         level: 3,
       },
@@ -7539,8 +7128,7 @@ export const characterAbilityCards: Record<
         name: "enduring darkness",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-enduring-darkness.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-enduring-darkness.jpeg",
         initiative: 26,
         level: 6,
       },
@@ -7548,8 +7136,7 @@ export const characterAbilityCards: Record<
         name: "enervating strike",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-enervating-strike.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-enervating-strike.jpeg",
         initiative: 25,
         level: 1,
       },
@@ -7557,8 +7144,7 @@ export const characterAbilityCards: Record<
         name: "entropy unleashed",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-entropy-unleashed.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-entropy-unleashed.jpeg",
         initiative: 28,
         level: 8,
       },
@@ -7566,8 +7152,7 @@ export const characterAbilityCards: Record<
         name: "find an opening",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-find-an-opening.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-find-an-opening.jpeg",
         initiative: 15,
         level: 1,
       },
@@ -7575,8 +7160,7 @@ export const characterAbilityCards: Record<
         name: "gateway to the abyss",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-gateway-to-the-abyss.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-gateway-to-the-abyss.jpeg",
         initiative: 66,
         level: 7,
       },
@@ -7584,8 +7168,7 @@ export const characterAbilityCards: Record<
         name: "greed before need",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-greed-before-need.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-greed-before-need.jpeg",
         initiative: 33,
         level: 1.5,
       },
@@ -7593,8 +7176,7 @@ export const characterAbilityCards: Record<
         name: "hollow embrace",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-hollow-embrace.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-hollow-embrace.jpeg",
         initiative: 53,
         level: 1.5,
       },
@@ -7610,8 +7192,7 @@ export const characterAbilityCards: Record<
         name: "majestic malevolence",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-majestic-malevolence.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-majestic-malevolence.jpeg",
         initiative: 89,
         level: 3,
       },
@@ -7619,8 +7200,7 @@ export const characterAbilityCards: Record<
         name: "nether binding",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-nether-binding.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-nether-binding.jpeg",
         initiative: 64,
         level: 2,
       },
@@ -7628,8 +7208,7 @@ export const characterAbilityCards: Record<
         name: "nether blades",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-nether-blades.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-nether-blades.jpeg",
         initiative: 55,
         level: 1,
       },
@@ -7653,8 +7232,7 @@ export const characterAbilityCards: Record<
         name: "one with nothingness",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-one-with-nothingness.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-one-with-nothingness.jpeg",
         initiative: 31,
         level: 1.5,
       },
@@ -7662,8 +7240,7 @@ export const characterAbilityCards: Record<
         name: "prescient voidmastery",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-prescient-voidmastery.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-prescient-voidmastery.jpeg",
         initiative: 11,
         level: 9,
       },
@@ -7671,8 +7248,7 @@ export const characterAbilityCards: Record<
         name: "reaching darkness",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-reaching-darkness.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-reaching-darkness.jpeg",
         initiative: 79,
         level: 1,
       },
@@ -7680,8 +7256,7 @@ export const characterAbilityCards: Record<
         name: "ruinous barrage",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-ruinous-barrage.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-ruinous-barrage.jpeg",
         initiative: 38,
         level: 7,
       },
@@ -7689,8 +7264,7 @@ export const characterAbilityCards: Record<
         name: "sever reality",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-sever-reality.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-sever-reality.jpeg",
         initiative: 78,
         level: 5,
       },
@@ -7698,8 +7272,7 @@ export const characterAbilityCards: Record<
         name: "shrouded grasp",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-shrouded-grasp.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-shrouded-grasp.jpeg",
         initiative: 23,
         level: 2,
       },
@@ -7707,8 +7280,7 @@ export const characterAbilityCards: Record<
         name: "stalking quarry",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-stalking-quarry.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-stalking-quarry.jpeg",
         initiative: 14,
         level: 5,
       },
@@ -7716,8 +7288,7 @@ export const characterAbilityCards: Record<
         name: "tendrils of night",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-tendrils-of-night.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-tendrils-of-night.jpeg",
         initiative: 44,
         level: 8,
       },
@@ -7725,8 +7296,7 @@ export const characterAbilityCards: Record<
         name: "touch of the void",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-touch-of-the-void.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-touch-of-the-void.jpeg",
         initiative: 29,
         level: 1,
       },
@@ -7734,8 +7304,7 @@ export const characterAbilityCards: Record<
         name: "untethered advance",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-untethered-advance.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-untethered-advance.jpeg",
         initiative: 46,
         level: 1,
       },
@@ -7743,8 +7312,7 @@ export const characterAbilityCards: Record<
         name: "void-enhanced armory",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-void-enhanced-armory.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-void-enhanced-armory.jpeg",
         initiative: 17,
         level: 4,
       },
@@ -7760,8 +7328,7 @@ export const characterAbilityCards: Record<
         name: "withering deluge",
         class: "HO",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HO/cs-withering-deluge.jpeg",
+        image: "character-ability-cards/crimson-scales/HO/cs-withering-deluge.jpeg",
         initiative: 47,
         level: 1,
       },
@@ -7772,8 +7339,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-hollowpact.jpeg",
         initiative: 35,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.jpeg",
         milestone: true,
       },
     ],
@@ -7798,8 +7364,7 @@ export const characterAbilityCards: Record<
         name: "beacon of hope",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-beacon-of-hope.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-beacon-of-hope.jpeg",
         initiative: 82,
         level: 4,
       },
@@ -7807,8 +7372,7 @@ export const characterAbilityCards: Record<
         name: "bringer of miracles",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-bringer-of-miracles.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-bringer-of-miracles.jpeg",
         initiative: 36,
         level: 9,
       },
@@ -7816,8 +7380,7 @@ export const characterAbilityCards: Record<
         name: "chains of light",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-chains-of-light.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-chains-of-light.jpeg",
         initiative: 31,
         level: 6,
       },
@@ -7833,8 +7396,7 @@ export const characterAbilityCards: Record<
         name: "devout assistance",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-devout-assistance.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-devout-assistance.jpeg",
         initiative: 37,
         level: 5,
       },
@@ -7842,8 +7404,7 @@ export const characterAbilityCards: Record<
         name: "divine allegiance",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-divine-allegiance.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-divine-allegiance.jpeg",
         initiative: 63,
         level: 2,
       },
@@ -7851,8 +7412,7 @@ export const characterAbilityCards: Record<
         name: "encouraged conviction",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-encouraged-conviction.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-encouraged-conviction.jpeg",
         initiative: 14,
         level: 3,
       },
@@ -7860,8 +7420,7 @@ export const characterAbilityCards: Record<
         name: "expansive permanence",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-expansive-permanence.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-expansive-permanence.jpeg",
         initiative: 9,
         level: 9,
       },
@@ -7869,8 +7428,7 @@ export const characterAbilityCards: Record<
         name: "faith calling",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-faith-calling.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-faith-calling.jpeg",
         initiative: 13,
         level: 1,
       },
@@ -7894,8 +7452,7 @@ export const characterAbilityCards: Record<
         name: "impetuous inquisition",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-impetuous-inquisition.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-impetuous-inquisition.jpeg",
         initiative: 28,
         level: 1,
       },
@@ -7903,8 +7460,7 @@ export const characterAbilityCards: Record<
         name: "inner reflection",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-inner-reflection.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-inner-reflection.jpeg",
         initiative: 53,
         level: 1,
       },
@@ -7912,8 +7468,7 @@ export const characterAbilityCards: Record<
         name: "inspired remedy",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-inspired-remedy.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-inspired-remedy.jpeg",
         initiative: 76,
         level: 1,
       },
@@ -7961,8 +7516,7 @@ export const characterAbilityCards: Record<
         name: "prosperous concord",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-prosperous-concord.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-prosperous-concord.jpeg",
         initiative: 43,
         level: 1.5,
       },
@@ -7970,8 +7524,7 @@ export const characterAbilityCards: Record<
         name: "restoring faith",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-restoring-faith.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-restoring-faith.jpeg",
         initiative: 64,
         level: 1,
       },
@@ -7979,8 +7532,7 @@ export const characterAbilityCards: Record<
         name: "revered protector",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-revered-protector.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-revered-protector.jpeg",
         initiative: 15,
         level: 7,
       },
@@ -7988,8 +7540,7 @@ export const characterAbilityCards: Record<
         name: "righteous atonement",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-righteous-atonement.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-righteous-atonement.jpeg",
         initiative: 20,
         level: 8,
       },
@@ -7997,8 +7548,7 @@ export const characterAbilityCards: Record<
         name: "rooted subjugation",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-rooted-subjugation.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-rooted-subjugation.jpeg",
         initiative: 30,
         level: 4,
       },
@@ -8022,8 +7572,7 @@ export const characterAbilityCards: Record<
         name: "soulful salvation",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-soulful-salvation.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-soulful-salvation.jpeg",
         initiative: 11,
         level: 1.5,
       },
@@ -8039,8 +7588,7 @@ export const characterAbilityCards: Record<
         name: "spiritual gains",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-spiritual-gains.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-spiritual-gains.jpeg",
         initiative: 94,
         level: 5,
       },
@@ -8048,8 +7596,7 @@ export const characterAbilityCards: Record<
         name: "standing ground",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-standing-ground.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-standing-ground.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -8057,8 +7604,7 @@ export const characterAbilityCards: Record<
         name: "symphony of oppression",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-symphony-of-oppression.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-symphony-of-oppression.jpeg",
         initiative: 86,
         level: 7,
       },
@@ -8066,8 +7612,7 @@ export const characterAbilityCards: Record<
         name: "unruly repentance",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-unruly-repentance.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-unruly-repentance.jpeg",
         initiative: 25,
         level: 1.5,
       },
@@ -8075,8 +7620,7 @@ export const characterAbilityCards: Record<
         name: "unstoppable force",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-unstoppable-force.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-unstoppable-force.jpeg",
         initiative: 21,
         level: 6,
       },
@@ -8084,8 +7628,7 @@ export const characterAbilityCards: Record<
         name: "vengeful veneration",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-vengeful-veneration.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-vengeful-veneration.jpeg",
         initiative: 78,
         level: 8,
       },
@@ -8109,8 +7652,7 @@ export const characterAbilityCards: Record<
         name: "weakened will",
         class: "HP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/HP/cs-weakened-will.jpeg",
+        image: "character-ability-cards/crimson-scales/HP/cs-weakened-will.jpeg",
         initiative: 17,
         level: 2,
       },
@@ -8121,8 +7663,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-hierophant.jpeg",
         initiative: 80,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.jpeg",
         milestone: true,
       },
     ],
@@ -8139,8 +7680,7 @@ export const characterAbilityCards: Record<
         name: "blackened rage",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-blackened-rage.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-blackened-rage.jpeg",
         initiative: 45,
         level: 3,
       },
@@ -8148,8 +7688,7 @@ export const characterAbilityCards: Record<
         name: "blazing pincers",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-blazing-pincers.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-blazing-pincers.jpeg",
         initiative: 59,
         level: 9,
       },
@@ -8157,8 +7696,7 @@ export const characterAbilityCards: Record<
         name: "burning sparks",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-burning-sparks.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-burning-sparks.jpeg",
         initiative: 33,
         level: 1,
       },
@@ -8166,8 +7704,7 @@ export const characterAbilityCards: Record<
         name: "chilling wave",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-chilling-wave.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-chilling-wave.jpeg",
         initiative: 39,
         level: 1,
       },
@@ -8175,8 +7712,7 @@ export const characterAbilityCards: Record<
         name: "colorful wavelengths",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-colorful-wavelengths.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-colorful-wavelengths.jpeg",
         initiative: 83,
         level: 5,
       },
@@ -8184,8 +7720,7 @@ export const characterAbilityCards: Record<
         name: "darkened overcast",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-darkened-overcast.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-darkened-overcast.jpeg",
         initiative: 10,
         level: 2,
       },
@@ -8193,8 +7728,7 @@ export const characterAbilityCards: Record<
         name: "dominating illumination",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-dominating-illumination.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-dominating-illumination.jpeg",
         initiative: 51,
         level: 8,
       },
@@ -8202,8 +7736,7 @@ export const characterAbilityCards: Record<
         name: "empowering rays",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-empowering-rays.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-empowering-rays.jpeg",
         initiative: 57,
         level: 4,
       },
@@ -8211,8 +7744,7 @@ export const characterAbilityCards: Record<
         name: "encompassing aura",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-encompassing-aura.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-encompassing-aura.jpeg",
         initiative: 11,
         level: 6,
       },
@@ -8220,8 +7752,7 @@ export const characterAbilityCards: Record<
         name: "flickering lights",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-flickering-lights.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-flickering-lights.jpeg",
         initiative: 19,
         level: 1,
       },
@@ -8237,8 +7768,7 @@ export const characterAbilityCards: Record<
         name: "frosty glimmer",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-frosty-glimmer.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-frosty-glimmer.jpeg",
         initiative: 55,
         level: 1,
       },
@@ -8262,8 +7792,7 @@ export const characterAbilityCards: Record<
         name: "imposing brilliance",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-imposing-brilliance.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-imposing-brilliance.jpeg",
         initiative: 86,
         level: 6,
       },
@@ -8271,8 +7800,7 @@ export const characterAbilityCards: Record<
         name: "light the way",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-light-the-way.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-light-the-way.jpeg",
         initiative: 93,
         level: 9,
       },
@@ -8296,8 +7824,7 @@ export const characterAbilityCards: Record<
         name: "optical refraction",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-optical-refraction.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-optical-refraction.jpeg",
         initiative: 37,
         level: 8,
       },
@@ -8305,8 +7832,7 @@ export const characterAbilityCards: Record<
         name: "photonic defense",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-photonic-defense.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-photonic-defense.jpeg",
         initiative: 9,
         level: 7,
       },
@@ -8314,8 +7840,7 @@ export const characterAbilityCards: Record<
         name: "radiant glare",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-radiant-glare.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-radiant-glare.jpeg",
         initiative: 36,
         level: 1,
       },
@@ -8331,8 +7856,7 @@ export const characterAbilityCards: Record<
         name: "shimmering scuttle",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-shimmering-scuttle.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-shimmering-scuttle.jpeg",
         initiative: 21,
         level: 1,
       },
@@ -8340,8 +7864,7 @@ export const characterAbilityCards: Record<
         name: "shining diversion",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-shining-diversion.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-shining-diversion.jpeg",
         initiative: 29,
         level: 3,
       },
@@ -8365,8 +7888,7 @@ export const characterAbilityCards: Record<
         name: "sparkling glow",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-sparkling-glow.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-sparkling-glow.jpeg",
         initiative: 27,
         level: 1.5,
       },
@@ -8374,8 +7896,7 @@ export const characterAbilityCards: Record<
         name: "torrid radiation",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-torrid-radiation.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-torrid-radiation.jpeg",
         initiative: 76,
         level: 1,
       },
@@ -8383,8 +7904,7 @@ export const characterAbilityCards: Record<
         name: "trickling sting",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-trickling-sting.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-trickling-sting.jpeg",
         initiative: 43,
         level: 1.5,
       },
@@ -8392,8 +7912,7 @@ export const characterAbilityCards: Record<
         name: "violent flash",
         class: "LU",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/LU/cs-violent-flash.jpeg",
+        image: "character-ability-cards/crimson-scales/LU/cs-violent-flash.jpeg",
         initiative: 40,
         level: 1,
       },
@@ -8404,8 +7923,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-luminary.jpeg",
         initiative: 47,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/LU/cs-drawn-into-the-light.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/LU/cs-drawn-into-the-light.jpeg",
         milestone: true,
       },
     ],
@@ -8422,8 +7940,7 @@ export const characterAbilityCards: Record<
         name: "airborne spores",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-airborne-spores.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-airborne-spores.jpeg",
         initiative: 21,
         level: 2,
       },
@@ -8431,8 +7948,7 @@ export const characterAbilityCards: Record<
         name: "anticoagulant",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-anticoagulant.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-anticoagulant.jpeg",
         initiative: 12,
         level: 6,
       },
@@ -8440,8 +7956,7 @@ export const characterAbilityCards: Record<
         name: "blood thinner",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-blood-thinner.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-blood-thinner.jpeg",
         initiative: 11,
         level: 1,
       },
@@ -8457,8 +7972,7 @@ export const characterAbilityCards: Record<
         name: "complex toxicology",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-complex-toxicology.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-complex-toxicology.jpeg",
         initiative: 35,
         level: 9,
       },
@@ -8466,8 +7980,7 @@ export const characterAbilityCards: Record<
         name: "compound toxin",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-compound-toxin.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-compound-toxin.jpeg",
         initiative: 61,
         level: 5,
       },
@@ -8475,8 +7988,7 @@ export const characterAbilityCards: Record<
         name: "copperneck berries",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-copperneck-berries.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-copperneck-berries.jpeg",
         initiative: 70,
         level: 1.5,
       },
@@ -8484,8 +7996,7 @@ export const characterAbilityCards: Record<
         name: "death sentence",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-death-sentence.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-death-sentence.jpeg",
         initiative: 8,
         level: 1,
       },
@@ -8501,8 +8012,7 @@ export const characterAbilityCards: Record<
         name: "ground solvent",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-ground-solvent.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-ground-solvent.jpeg",
         initiative: 63,
         level: 1,
       },
@@ -8510,8 +8020,7 @@ export const characterAbilityCards: Record<
         name: "hide and seek",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-hide-and-seek.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-hide-and-seek.jpeg",
         initiative: 43,
         level: 3,
       },
@@ -8519,8 +8028,7 @@ export const characterAbilityCards: Record<
         name: "lashing vines",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-lashing-vines.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-lashing-vines.jpeg",
         initiative: 13,
         level: 1,
       },
@@ -8528,8 +8036,7 @@ export const characterAbilityCards: Record<
         name: "lingering swamp moss",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-lingering-swamp-moss.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-lingering-swamp-moss.jpeg",
         initiative: 94,
         level: 9,
       },
@@ -8553,8 +8060,7 @@ export const characterAbilityCards: Record<
         name: "paralytic agent",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-paralytic-agent.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-paralytic-agent.jpeg",
         initiative: 76,
         level: 1,
       },
@@ -8562,8 +8068,7 @@ export const characterAbilityCards: Record<
         name: "personal poison",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-personal-poison.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-personal-poison.jpeg",
         initiative: 86,
         level: 5,
       },
@@ -8571,8 +8076,7 @@ export const characterAbilityCards: Record<
         name: "potent mixture",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-potent-mixture.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-potent-mixture.jpeg",
         initiative: 17,
         level: 3,
       },
@@ -8580,8 +8084,7 @@ export const characterAbilityCards: Record<
         name: "radiant forest fungi",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-radiant-forest-fungi.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-radiant-forest-fungi.jpeg",
         initiative: 6,
         level: 4,
       },
@@ -8589,8 +8092,7 @@ export const characterAbilityCards: Record<
         name: "serpent's kiss",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-serpents-kiss.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-serpents-kiss.jpeg",
         initiative: 89,
         level: 1,
       },
@@ -8614,8 +8116,7 @@ export const characterAbilityCards: Record<
         name: "still river algae",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-still-river-algae.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-still-river-algae.jpeg",
         initiative: 9,
         level: 1,
       },
@@ -8623,8 +8124,7 @@ export const characterAbilityCards: Record<
         name: "tainted waters",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-tainted-waters.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-tainted-waters.jpeg",
         initiative: 88,
         level: 6,
       },
@@ -8632,8 +8132,7 @@ export const characterAbilityCards: Record<
         name: "throwing daggers",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-throwing-daggers.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-throwing-daggers.jpeg",
         initiative: 49,
         level: 2,
       },
@@ -8641,8 +8140,7 @@ export const characterAbilityCards: Record<
         name: "twist the blade",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-twist-the-blade.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-twist-the-blade.jpeg",
         initiative: 19,
         level: 8,
       },
@@ -8650,8 +8148,7 @@ export const characterAbilityCards: Record<
         name: "volatile tonic",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-volatile-tonic.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-volatile-tonic.jpeg",
         initiative: 31,
         level: 1.5,
       },
@@ -8659,8 +8156,7 @@ export const characterAbilityCards: Record<
         name: "whitefire balm",
         class: "MF",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/MF/cs-whitefire-balm.jpeg",
+        image: "character-ability-cards/crimson-scales/MF/cs-whitefire-balm.jpeg",
         initiative: 20,
         level: 8,
       },
@@ -8679,8 +8175,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-mirefoot.jpeg",
         initiative: 22,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/MF/cs-giant-slayer.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/MF/cs-giant-slayer.jpeg",
         milestone: true,
       },
     ],
@@ -8697,8 +8192,7 @@ export const characterAbilityCards: Record<
         name: "annihilating contraption",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-annihilating-contraption.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-annihilating-contraption.jpeg",
         initiative: 89,
         level: 9,
       },
@@ -8706,8 +8200,7 @@ export const characterAbilityCards: Record<
         name: "double-barrel railcaster",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-double-barrel-railcaster.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-double-barrel-railcaster.jpeg",
         initiative: 37,
         level: 8,
       },
@@ -8715,8 +8208,7 @@ export const characterAbilityCards: Record<
         name: "elemental condenser",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-elemental-condenser.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-elemental-condenser.jpeg",
         initiative: 4,
         level: 2,
       },
@@ -8724,8 +8216,7 @@ export const characterAbilityCards: Record<
         name: "energy transmission",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-energy-transmission.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-energy-transmission.jpeg",
         initiative: 0.5,
         level: 4,
       },
@@ -8733,8 +8224,7 @@ export const characterAbilityCards: Record<
         name: "fragmentation grenade",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-fragmentation-grenade.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-fragmentation-grenade.jpeg",
         initiative: 45,
         level: 1,
       },
@@ -8742,8 +8232,7 @@ export const characterAbilityCards: Record<
         name: "galvanic coil",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-galvanic-coil.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-galvanic-coil.jpeg",
         initiative: 0.7,
         level: 6,
       },
@@ -8751,8 +8240,7 @@ export const characterAbilityCards: Record<
         name: "gravity inverter module",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-gravity-inverter-module.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-gravity-inverter-module.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -8760,8 +8248,7 @@ export const characterAbilityCards: Record<
         name: "improvised exosuit",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-improvised-exosuit.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-improvised-exosuit.jpeg",
         initiative: 90,
         level: 1.5,
       },
@@ -8769,8 +8256,7 @@ export const characterAbilityCards: Record<
         name: "improvised mortar",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-improvised-mortar.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-improvised-mortar.jpeg",
         initiative: 93,
         level: 1,
       },
@@ -8778,8 +8264,7 @@ export const characterAbilityCards: Record<
         name: "instant relocation matrix",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-instant-relocation-matrix.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-instant-relocation-matrix.jpeg",
         initiative: 0.9,
         level: 8,
       },
@@ -8787,8 +8272,7 @@ export const characterAbilityCards: Record<
         name: "jury-rigged machine",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-jury-rigged-machine.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-jury-rigged-machine.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -8796,8 +8280,7 @@ export const characterAbilityCards: Record<
         name: "launch skywards",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-launch-skywards.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-launch-skywards.jpeg",
         initiative: 92,
         level: 5,
       },
@@ -8805,8 +8288,7 @@ export const characterAbilityCards: Record<
         name: "march of machines",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-march-of-machines.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-march-of-machines.jpeg",
         initiative: 50,
         level: 6,
       },
@@ -8814,8 +8296,7 @@ export const characterAbilityCards: Record<
         name: "oscillating projector",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-oscillating-projector.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-oscillating-projector.jpeg",
         initiative: 22,
         level: 5,
       },
@@ -8823,8 +8304,7 @@ export const characterAbilityCards: Record<
         name: "particle ray beam",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-particle-ray-beam.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-particle-ray-beam.jpeg",
         initiative: 36,
         level: 1,
       },
@@ -8832,8 +8312,7 @@ export const characterAbilityCards: Record<
         name: "perfected exosuit",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-perfected-exosuit.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-perfected-exosuit.jpeg",
         initiative: 8,
         level: 9,
       },
@@ -8841,8 +8320,7 @@ export const characterAbilityCards: Record<
         name: "phase field emitter",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-phase-field-emitter.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-phase-field-emitter.jpeg",
         initiative: 12,
         level: 1,
       },
@@ -8850,8 +8328,7 @@ export const characterAbilityCards: Record<
         name: "power modulation",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-power-modulation.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-power-modulation.jpeg",
         initiative: 0.1,
         level: 1.5,
       },
@@ -8859,8 +8336,7 @@ export const characterAbilityCards: Record<
         name: "ransack clutter",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-ransack-clutter.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-ransack-clutter.jpeg",
         initiative: 18,
         level: 4,
       },
@@ -8868,8 +8344,7 @@ export const characterAbilityCards: Record<
         name: "recycle parts",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-recycle-parts.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-recycle-parts.jpeg",
         initiative: 24,
         level: 1,
       },
@@ -8877,8 +8352,7 @@ export const characterAbilityCards: Record<
         name: "reinforce armor",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-reinforce-armor.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-reinforce-armor.jpeg",
         initiative: 26,
         level: 7,
       },
@@ -8886,8 +8360,7 @@ export const characterAbilityCards: Record<
         name: "remote control",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-remote-control.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-remote-control.jpeg",
         initiative: 37,
         level: 1.5,
       },
@@ -8895,8 +8368,7 @@ export const characterAbilityCards: Record<
         name: "repurpose leftovers",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-repurpose-leftovers.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-repurpose-leftovers.jpeg",
         initiative: 68,
         level: 1,
       },
@@ -8904,8 +8376,7 @@ export const characterAbilityCards: Record<
         name: "retrofit weapons",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-retrofit-weapons.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-retrofit-weapons.jpeg",
         initiative: 60,
         level: 3,
       },
@@ -8913,8 +8384,7 @@ export const characterAbilityCards: Record<
         name: "salvage grappler",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-salvage-grappler.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-salvage-grappler.jpeg",
         initiative: 46,
         level: 1,
       },
@@ -8922,8 +8392,7 @@ export const characterAbilityCards: Record<
         name: "seeker missiles",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-seeker-missiles.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-seeker-missiles.jpeg",
         initiative: 77,
         level: 7,
       },
@@ -8931,8 +8400,7 @@ export const characterAbilityCards: Record<
         name: "trajectory diverter",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-trajectory-diverter.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-trajectory-diverter.jpeg",
         initiative: 0.3,
         level: 2,
       },
@@ -8940,8 +8408,7 @@ export const characterAbilityCards: Record<
         name: "trudging bulwark",
         class: "QA",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/QA/cs-trudging-bulwark.jpeg",
+        image: "character-ability-cards/crimson-scales/QA/cs-trudging-bulwark.jpeg",
         initiative: 73,
         level: 3,
       },
@@ -8952,8 +8419,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-artificer.jpeg",
         initiative: 75,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.jpeg",
         milestone: true,
       },
     ],
@@ -8970,8 +8436,7 @@ export const characterAbilityCards: Record<
         name: "belly of the beast",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-belly-of-the-beast.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-belly-of-the-beast.jpeg",
         initiative: 38,
         level: 9,
       },
@@ -8979,8 +8444,7 @@ export const characterAbilityCards: Record<
         name: "berserk barrage",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-berserk-barrage.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-berserk-barrage.jpeg",
         initiative: 53,
         level: 1,
       },
@@ -8996,8 +8460,7 @@ export const characterAbilityCards: Record<
         name: "caustic claws",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-caustic-claws.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-caustic-claws.jpeg",
         initiative: 78,
         level: 1,
       },
@@ -9005,8 +8468,7 @@ export const characterAbilityCards: Record<
         name: "cornered animal",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-cornered-animal.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-cornered-animal.jpeg",
         initiative: 12,
         level: 1.5,
       },
@@ -9014,8 +8476,7 @@ export const characterAbilityCards: Record<
         name: "corrosive spew",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-corrosive-spew.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-corrosive-spew.jpeg",
         initiative: 50,
         level: 6,
       },
@@ -9047,8 +8508,7 @@ export const characterAbilityCards: Record<
         name: "feast of flesh",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-feast-of-flesh.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-feast-of-flesh.jpeg",
         initiative: 73,
         level: 1,
       },
@@ -9064,8 +8524,7 @@ export const characterAbilityCards: Record<
         name: "ferocious fling",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-ferocious-fling.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-ferocious-fling.jpeg",
         initiative: 86,
         level: 3,
       },
@@ -9073,8 +8532,7 @@ export const characterAbilityCards: Record<
         name: "fight or flight",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-fight-or-flight.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-fight-or-flight.jpeg",
         initiative: 35,
         level: 1,
       },
@@ -9090,8 +8548,7 @@ export const characterAbilityCards: Record<
         name: "indomitable craving",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-indomitable-craving.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-indomitable-craving.jpeg",
         initiative: 22,
         level: 7,
       },
@@ -9107,8 +8564,7 @@ export const characterAbilityCards: Record<
         name: "nourishing meal",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-nourishing-meal.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-nourishing-meal.jpeg",
         initiative: 83,
         level: 1,
       },
@@ -9116,8 +8572,7 @@ export const characterAbilityCards: Record<
         name: "pouncing predator",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-pouncing-predator.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-pouncing-predator.jpeg",
         initiative: 11,
         level: 6,
       },
@@ -9125,8 +8580,7 @@ export const characterAbilityCards: Record<
         name: "ravenous roar",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-ravenous-roar.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-ravenous-roar.jpeg",
         initiative: 25,
         level: 4,
       },
@@ -9134,8 +8588,7 @@ export const characterAbilityCards: Record<
         name: "reckless attack",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-reckless-attack.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-reckless-attack.jpeg",
         initiative: 65,
         level: 1,
       },
@@ -9143,8 +8596,7 @@ export const characterAbilityCards: Record<
         name: "rend and mutilate",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-rend-and-mutilate.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-rend-and-mutilate.jpeg",
         initiative: 74,
         level: 5,
       },
@@ -9160,8 +8612,7 @@ export const characterAbilityCards: Record<
         name: "savage stalker",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-savage-stalker.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-savage-stalker.jpeg",
         initiative: 20,
         level: 3,
       },
@@ -9169,8 +8620,7 @@ export const characterAbilityCards: Record<
         name: "scrape and scrounge",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-scrape-and-scrounge.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-scrape-and-scrounge.jpeg",
         initiative: 24,
         level: 1.5,
       },
@@ -9194,8 +8644,7 @@ export const characterAbilityCards: Record<
         name: "strip the flesh",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-strip-the-flesh.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-strip-the-flesh.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -9203,8 +8652,7 @@ export const characterAbilityCards: Record<
         name: "survival instincts",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-survival-instincts.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-survival-instincts.jpeg",
         initiative: 13,
         level: 7,
       },
@@ -9212,8 +8660,7 @@ export const characterAbilityCards: Record<
         name: "terrifying howl",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-terrifying-howl.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-terrifying-howl.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -9221,8 +8668,7 @@ export const characterAbilityCards: Record<
         name: "voracious hunter",
         class: "RM",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/RM/cs-voracious-hunter.jpeg",
+        image: "character-ability-cards/crimson-scales/RM/cs-voracious-hunter.jpeg",
         initiative: 32,
         level: 5,
       },
@@ -9233,8 +8679,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-ruinmaw.jpeg",
         initiative: 67,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/RM/cs-blood-rite.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/RM/cs-blood-rite.jpeg",
         milestone: true,
       },
     ],
@@ -9259,8 +8704,7 @@ export const characterAbilityCards: Record<
         name: "chilling slice",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-chilling-slice.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-chilling-slice.jpeg",
         initiative: 66,
         level: 8,
       },
@@ -9268,8 +8712,7 @@ export const characterAbilityCards: Record<
         name: "circle of lifeless",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-circle-of-lifeless.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-circle-of-lifeless.jpeg",
         initiative: 90,
         level: 8,
       },
@@ -9277,8 +8720,7 @@ export const characterAbilityCards: Record<
         name: "confidence ritual",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-confidence-ritual.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-confidence-ritual.jpeg",
         initiative: 30,
         level: 1,
       },
@@ -9286,8 +8728,7 @@ export const characterAbilityCards: Record<
         name: "death is not defeat",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-death-is-not-defeat.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-death-is-not-defeat.jpeg",
         initiative: 97,
         level: 9,
       },
@@ -9295,8 +8736,7 @@ export const characterAbilityCards: Record<
         name: "decaying daggers",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-decaying-daggers.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-decaying-daggers.jpeg",
         initiative: 28,
         level: 3,
       },
@@ -9304,8 +8744,7 @@ export const characterAbilityCards: Record<
         name: "dimmed defense",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-dimmed-defense.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-dimmed-defense.jpeg",
         initiative: 12,
         level: 1,
       },
@@ -9313,8 +8752,7 @@ export const characterAbilityCards: Record<
         name: "eternal endurance",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-eternal-endurance.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-eternal-endurance.jpeg",
         initiative: 6,
         level: 9,
       },
@@ -9322,8 +8760,7 @@ export const characterAbilityCards: Record<
         name: "ethereal canine",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-ethereal-canine.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-ethereal-canine.jpeg",
         initiative: 27,
         level: 1,
       },
@@ -9331,8 +8768,7 @@ export const characterAbilityCards: Record<
         name: "fear the reaper",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-fear-the-reaper.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-fear-the-reaper.jpeg",
         initiative: 91,
         level: 1.5,
       },
@@ -9340,8 +8776,7 @@ export const characterAbilityCards: Record<
         name: "fierce loyalty",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-fierce-loyalty.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-fierce-loyalty.jpeg",
         initiative: 20,
         level: 6,
       },
@@ -9349,8 +8784,7 @@ export const characterAbilityCards: Record<
         name: "flurry of madness",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-flurry-of-madness.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-flurry-of-madness.jpeg",
         initiative: 42,
         level: 2,
       },
@@ -9358,8 +8792,7 @@ export const characterAbilityCards: Record<
         name: "forceful apparition",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-forceful-apparition.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-forceful-apparition.jpeg",
         initiative: 16,
         level: 1.5,
       },
@@ -9367,8 +8800,7 @@ export const characterAbilityCards: Record<
         name: "horde of bones",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-horde-of-bones.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-horde-of-bones.jpeg",
         initiative: 79,
         level: 1,
       },
@@ -9376,8 +8808,7 @@ export const characterAbilityCards: Record<
         name: "horrific nightmare",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-horrific-nightmare.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-horrific-nightmare.jpeg",
         initiative: 71,
         level: 6,
       },
@@ -9385,8 +8816,7 @@ export const characterAbilityCards: Record<
         name: "incorporeal transport",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-incorporeal-transport.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-incorporeal-transport.jpeg",
         initiative: 74,
         level: 1,
       },
@@ -9394,8 +8824,7 @@ export const characterAbilityCards: Record<
         name: "midnight feast",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-midnight-feast.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-midnight-feast.jpeg",
         initiative: 80,
         level: 1,
       },
@@ -9403,8 +8832,7 @@ export const characterAbilityCards: Record<
         name: "rise from ashes",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-rise-from-ashes.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-rise-from-ashes.jpeg",
         initiative: 55,
         level: 7,
       },
@@ -9412,8 +8840,7 @@ export const characterAbilityCards: Record<
         name: "shamanistic guard",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-shamanistic-guard.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-shamanistic-guard.jpeg",
         initiative: 18,
         level: 7,
       },
@@ -9421,8 +8848,7 @@ export const characterAbilityCards: Record<
         name: "shrieking spirit",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-shrieking-spirit.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-shrieking-spirit.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -9446,8 +8872,7 @@ export const characterAbilityCards: Record<
         name: "spirit barrage",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-spirit-barrage.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-spirit-barrage.jpeg",
         initiative: 51,
         level: 4,
       },
@@ -9455,8 +8880,7 @@ export const characterAbilityCards: Record<
         name: "spiritual energy",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-spiritual-energy.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-spiritual-energy.jpeg",
         initiative: 34,
         level: 5,
       },
@@ -9464,8 +8888,7 @@ export const characterAbilityCards: Record<
         name: "spread disease",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-spread-disease.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-spread-disease.jpeg",
         initiative: 47,
         level: 3,
       },
@@ -9481,8 +8904,7 @@ export const characterAbilityCards: Record<
         name: "unholy sacrifice",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-unholy-sacrifice.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-unholy-sacrifice.jpeg",
         initiative: 23,
         level: 1.5,
       },
@@ -9490,8 +8912,7 @@ export const characterAbilityCards: Record<
         name: "whistling winds",
         class: "SP",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/SP/cs-whistling-winds.jpeg",
+        image: "character-ability-cards/crimson-scales/SP/cs-whistling-winds.jpeg",
         initiative: 82,
         level: 1,
       },
@@ -9510,8 +8931,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-spirit-caller.jpeg",
         initiative: 33,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.jpeg",
         milestone: true,
       },
     ],
@@ -9528,8 +8948,7 @@ export const characterAbilityCards: Record<
         name: "absolute magnitude",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-absolute-magnitude.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-absolute-magnitude.jpeg",
         initiative: 20,
         level: 6,
       },
@@ -9537,8 +8956,7 @@ export const characterAbilityCards: Record<
         name: "absorbing light",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-absorbing-light.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-absorbing-light.jpeg",
         initiative: 15,
         level: 3,
       },
@@ -9546,8 +8964,7 @@ export const characterAbilityCards: Record<
         name: "aligned constellations",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-aligned-constellations.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-aligned-constellations.jpeg",
         initiative: 32,
         level: 1,
       },
@@ -9563,8 +8980,7 @@ export const characterAbilityCards: Record<
         name: "celestial maneuver",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-celestial-maneuver.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-celestial-maneuver.jpeg",
         initiative: 88,
         level: 8,
       },
@@ -9572,8 +8988,7 @@ export const characterAbilityCards: Record<
         name: "crashing flare",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-crashing-flare.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-crashing-flare.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -9581,8 +8996,7 @@ export const characterAbilityCards: Record<
         name: "defying gravity",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-defying-gravity.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-defying-gravity.jpeg",
         initiative: 22,
         level: 2,
       },
@@ -9590,8 +9004,7 @@ export const characterAbilityCards: Record<
         name: "diamond rings",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-diamond-rings.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-diamond-rings.jpeg",
         initiative: 35,
         level: 1,
       },
@@ -9631,8 +9044,7 @@ export const characterAbilityCards: Record<
         name: "gravitational flip",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-gravitational-flip.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-gravitational-flip.jpeg",
         initiative: 13,
         level: 1.5,
       },
@@ -9640,8 +9052,7 @@ export const characterAbilityCards: Record<
         name: "interplanar voyager",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-interplanar-voyager.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-interplanar-voyager.jpeg",
         initiative: 24,
         level: 9,
       },
@@ -9649,8 +9060,7 @@ export const characterAbilityCards: Record<
         name: "light pollution",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-light-pollution.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-light-pollution.jpeg",
         initiative: 44,
         level: 1,
       },
@@ -9658,8 +9068,7 @@ export const characterAbilityCards: Record<
         name: "lost in the stars",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-lost-in-the-stars.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-lost-in-the-stars.jpeg",
         initiative: 6,
         level: 1.5,
       },
@@ -9675,8 +9084,7 @@ export const characterAbilityCards: Record<
         name: "luminous blitz",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-luminous-blitz.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-luminous-blitz.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -9684,8 +9092,7 @@ export const characterAbilityCards: Record<
         name: "pierce the firmament",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-pierce-the-firmament.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-pierce-the-firmament.jpeg",
         initiative: 33,
         level: 9,
       },
@@ -9693,8 +9100,7 @@ export const characterAbilityCards: Record<
         name: "plasmatic power",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-plasmatic-power.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-plasmatic-power.jpeg",
         initiative: 10,
         level: 5,
       },
@@ -9702,8 +9108,7 @@ export const characterAbilityCards: Record<
         name: "proportional exchange",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-proportional-exchange.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-proportional-exchange.jpeg",
         initiative: 84,
         level: 2,
       },
@@ -9711,8 +9116,7 @@ export const characterAbilityCards: Record<
         name: "shifting chasma",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-shifting-chasma.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-shifting-chasma.jpeg",
         initiative: 28,
         level: 5,
       },
@@ -9720,8 +9124,7 @@ export const characterAbilityCards: Record<
         name: "shooting stars",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-shooting-stars.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-shooting-stars.jpeg",
         initiative: 54,
         level: 3,
       },
@@ -9729,8 +9132,7 @@ export const characterAbilityCards: Record<
         name: "solar eclipse",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-solar-eclipse.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-solar-eclipse.jpeg",
         initiative: 60,
         level: 1,
       },
@@ -9746,8 +9148,7 @@ export const characterAbilityCards: Record<
         name: "stone meteorite",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-stone-meteorite.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-stone-meteorite.jpeg",
         initiative: 90,
         level: 7,
       },
@@ -9771,8 +9172,7 @@ export const characterAbilityCards: Record<
         name: "wish upon a star",
         class: "ST",
         game: "cs",
-        image:
-          "character-ability-cards/crimson-scales/ST/cs-wish-upon-a-star.jpeg",
+        image: "character-ability-cards/crimson-scales/ST/cs-wish-upon-a-star.jpeg",
         initiative: 75,
         level: 4,
       },
@@ -9783,8 +9183,7 @@ export const characterAbilityCards: Record<
         image: "milestones/cs-ms-starslinger.jpeg",
         initiative: 46,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/crimson-scales/ST/cs-deflection.jpeg",
+        imageBack: "character-ability-cards/crimson-scales/ST/cs-deflection.jpeg",
         milestone: true,
       },
     ],
@@ -9803,8 +9202,7 @@ export const characterAbilityCards: Record<
         name: "alone in the end",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-alone-in-the-end.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-alone-in-the-end.jpeg",
         initiative: 74,
         level: 4,
       },
@@ -9812,8 +9210,7 @@ export const characterAbilityCards: Record<
         name: "ancestral blade",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-ancestral-blade.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-ancestral-blade.jpeg",
         initiative: 65,
         level: 1.5,
       },
@@ -9821,8 +9218,7 @@ export const characterAbilityCards: Record<
         name: "ancient banner",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-ancient-banner.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-ancient-banner.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -9830,8 +9226,7 @@ export const characterAbilityCards: Record<
         name: "aukotu's defiant resolve",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-aukotus-defiant-resolve.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-aukotus-defiant-resolve.jpeg",
         initiative: 32,
         level: 9,
       },
@@ -9839,8 +9234,7 @@ export const characterAbilityCards: Record<
         name: "awnu's retribution",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-awnus-retribution.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-awnus-retribution.jpeg",
         initiative: 19,
         level: 6,
       },
@@ -9848,8 +9242,7 @@ export const characterAbilityCards: Record<
         name: "blood of champions",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-blood-of-champions.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-blood-of-champions.jpeg",
         initiative: 82,
         level: 5,
       },
@@ -9857,8 +9250,7 @@ export const characterAbilityCards: Record<
         name: "farseer's pilum",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-farseers-pilum.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-farseers-pilum.jpeg",
         initiative: 48,
         level: 1,
       },
@@ -9874,8 +9266,7 @@ export const characterAbilityCards: Record<
         name: "gift of the dying",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-gift-of-the-dying.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-gift-of-the-dying.jpeg",
         initiative: 78,
         level: 8,
       },
@@ -9891,8 +9282,7 @@ export const characterAbilityCards: Record<
         name: "haf's reverence",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-hafs-reverence.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-hafs-reverence.jpeg",
         initiative: 34,
         level: 6,
       },
@@ -9900,8 +9290,7 @@ export const characterAbilityCards: Record<
         name: "hands of three tribes",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-hands-of-three-tribes.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-hands-of-three-tribes.jpeg",
         initiative: 70,
         level: 1,
       },
@@ -9917,8 +9306,7 @@ export const characterAbilityCards: Record<
         name: "maku's deadly aim",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-makus-deadly-aim.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-makus-deadly-aim.jpeg",
         initiative: 40,
         level: 1,
       },
@@ -9926,8 +9314,7 @@ export const characterAbilityCards: Record<
         name: "matriarch's dominance",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-matriarchs-dominance.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-matriarchs-dominance.jpeg",
         initiative: 22,
         level: 2,
       },
@@ -9935,8 +9322,7 @@ export const characterAbilityCards: Record<
         name: "memory of the hunt",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-memory-of-the-hunt.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-memory-of-the-hunt.jpeg",
         initiative: 12,
         level: 4,
       },
@@ -9952,8 +9338,7 @@ export const characterAbilityCards: Record<
         name: "remnants of the broken",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-remnants-of-the-broken.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-remnants-of-the-broken.jpeg",
         initiative: 67,
         level: 7,
       },
@@ -9961,8 +9346,7 @@ export const characterAbilityCards: Record<
         name: "savvas coreglass knife",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-savvas-coreglass-knife.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-savvas-coreglass-knife.jpeg",
         initiative: 81,
         level: 7,
       },
@@ -9970,8 +9354,7 @@ export const characterAbilityCards: Record<
         name: "the arms of oxcepi",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-the-arms-of-oxcepi.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-the-arms-of-oxcepi.jpeg",
         initiative: 56,
         level: 5,
       },
@@ -9979,8 +9362,7 @@ export const characterAbilityCards: Record<
         name: "the grave beckons",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-the-grave-beckons.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-the-grave-beckons.jpeg",
         initiative: 37,
         level: 2,
       },
@@ -9988,8 +9370,7 @@ export const characterAbilityCards: Record<
         name: "tomeg's shield-arm",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-tomegs-shield-arm.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-tomegs-shield-arm.jpeg",
         initiative: 18,
         level: 1,
       },
@@ -9997,8 +9378,7 @@ export const characterAbilityCards: Record<
         name: "vadi's last stand",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-vadis-last-stand.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-vadis-last-stand.jpeg",
         initiative: 21,
         level: 9,
       },
@@ -10006,8 +9386,7 @@ export const characterAbilityCards: Record<
         name: "vaska's cunning",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-vaskas-cunning.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-vaskas-cunning.jpeg",
         initiative: 58,
         level: 1,
       },
@@ -10015,8 +9394,7 @@ export const characterAbilityCards: Record<
         name: "vengeance of aksut",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-vengeance-of-aksut.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-vengeance-of-aksut.jpeg",
         initiative: 15,
         level: 3,
       },
@@ -10024,8 +9402,7 @@ export const characterAbilityCards: Record<
         name: "vital tether",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-vital-tether.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-vital-tether.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -10033,8 +9410,7 @@ export const characterAbilityCards: Record<
         name: "warborn's shout",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-warborns-shout.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-warborns-shout.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -10050,8 +9426,7 @@ export const characterAbilityCards: Record<
         name: "wielded memory",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-wielded-memory.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-wielded-memory.jpeg",
         initiative: 38,
         level: 1.5,
       },
@@ -10059,8 +9434,7 @@ export const characterAbilityCards: Record<
         name: "will of the huntress",
         class: "IN",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/IN/toa-will-of-the-huntress.jpeg",
+        image: "character-ability-cards/trail-of-ashes/IN/toa-will-of-the-huntress.jpeg",
         initiative: 40,
         level: 8,
       },
@@ -10071,8 +9445,7 @@ export const characterAbilityCards: Record<
         image: "milestones/toa-ms-incarnate.jpeg",
         initiative: 44,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.jpeg",
+        imageBack: "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.jpeg",
         milestone: true,
       },
     ],
@@ -10089,8 +9462,7 @@ export const characterAbilityCards: Record<
         name: "a balance struck",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-a-balance-struck.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-a-balance-struck.jpeg",
         initiative: 50,
         level: 9,
       },
@@ -10106,8 +9478,7 @@ export const characterAbilityCards: Record<
         name: "blazing streak",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-blazing-streak.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-blazing-streak.jpeg",
         initiative: 33,
         level: 1,
       },
@@ -10123,8 +9494,7 @@ export const characterAbilityCards: Record<
         name: "bulwark of ether",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-bulwark-of-ether.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-bulwark-of-ether.jpeg",
         initiative: 15,
         level: 5,
       },
@@ -10156,8 +9526,7 @@ export const characterAbilityCards: Record<
         name: "frozen grasp",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-frozen-grasp.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-frozen-grasp.jpeg",
         initiative: 21,
         level: 1,
       },
@@ -10165,8 +9534,7 @@ export const characterAbilityCards: Record<
         name: "glacial cocoon",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-glacial-cocoon.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-glacial-cocoon.jpeg",
         initiative: 14,
         level: 1.5,
       },
@@ -10182,8 +9550,7 @@ export const characterAbilityCards: Record<
         name: "heat transfer",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-heat-transfer.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-heat-transfer.jpeg",
         initiative: 64,
         level: 8,
       },
@@ -10207,8 +9574,7 @@ export const characterAbilityCards: Record<
         name: "kleptotherapy",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-kleptotherapy.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-kleptotherapy.jpeg",
         initiative: 48,
         level: 1,
       },
@@ -10216,8 +9582,7 @@ export const characterAbilityCards: Record<
         name: "pressure spike",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-pressure-spike.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-pressure-spike.jpeg",
         initiative: 54,
         level: 5,
       },
@@ -10225,8 +9590,7 @@ export const characterAbilityCards: Record<
         name: "pressure wave",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-pressure-wave.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-pressure-wave.jpeg",
         initiative: 16,
         level: 8,
       },
@@ -10258,8 +9622,7 @@ export const characterAbilityCards: Record<
         name: "scorched path",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-scorched-path.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-scorched-path.jpeg",
         initiative: 51,
         level: 1,
       },
@@ -10275,8 +9638,7 @@ export const characterAbilityCards: Record<
         name: "spreading flames",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-spreading-flames.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-spreading-flames.jpeg",
         initiative: 60,
         level: 4,
       },
@@ -10292,8 +9654,7 @@ export const characterAbilityCards: Record<
         name: "thermal weaving",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-thermal-weaving.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-thermal-weaving.jpeg",
         initiative: 32,
         level: 9,
       },
@@ -10301,8 +9662,7 @@ export const characterAbilityCards: Record<
         name: "thermotherapy",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-thermotherapy.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-thermotherapy.jpeg",
         initiative: 66,
         level: 1.5,
       },
@@ -10310,8 +9670,7 @@ export const characterAbilityCards: Record<
         name: "torrid blast",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-torrid-blast.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-torrid-blast.jpeg",
         initiative: 31,
         level: 4,
       },
@@ -10319,8 +9678,7 @@ export const characterAbilityCards: Record<
         name: "unyielding charge",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-unyielding-charge.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-unyielding-charge.jpeg",
         initiative: 26,
         level: 7,
       },
@@ -10328,8 +9686,7 @@ export const characterAbilityCards: Record<
         name: "wreathed in flame",
         class: "RH",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/RH/toa-wreathed-in-flame.jpeg",
+        image: "character-ability-cards/trail-of-ashes/RH/toa-wreathed-in-flame.jpeg",
         initiative: 63,
         level: 1.5,
       },
@@ -10340,8 +9697,7 @@ export const characterAbilityCards: Record<
         image: "milestones/toa-ms-rimehearth.jpeg",
         initiative: 30,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/trail-of-ashes/RH/toa-geyser-surge.jpeg",
+        imageBack: "character-ability-cards/trail-of-ashes/RH/toa-geyser-surge.jpeg",
         milestone: true,
       },
     ],
@@ -10358,8 +9714,7 @@ export const characterAbilityCards: Record<
         name: "amassed formation",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-amassed-formation.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-amassed-formation.jpeg",
         initiative: 16,
         level: 5,
       },
@@ -10367,8 +9722,7 @@ export const characterAbilityCards: Record<
         name: "cinnabar seeding",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-cinnabar-seeding.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-cinnabar-seeding.jpeg",
         initiative: 38,
         level: 5,
       },
@@ -10376,8 +9730,7 @@ export const characterAbilityCards: Record<
         name: "corundum shell",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-corundum-shell.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-corundum-shell.jpeg",
         initiative: 28,
         level: 2,
       },
@@ -10385,8 +9738,7 @@ export const characterAbilityCards: Record<
         name: "crystal growth",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-crystal-growth.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-crystal-growth.jpeg",
         initiative: 68,
         level: 1,
       },
@@ -10394,8 +9746,7 @@ export const characterAbilityCards: Record<
         name: "diamond skin",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-diamond-skin.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-diamond-skin.jpeg",
         initiative: 19,
         level: 8,
       },
@@ -10403,8 +9754,7 @@ export const characterAbilityCards: Record<
         name: "geode barrage",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-geode-barrage.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-geode-barrage.jpeg",
         initiative: 23,
         level: 1.5,
       },
@@ -10412,8 +9762,7 @@ export const characterAbilityCards: Record<
         name: "glistening facets",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-glistening-facets.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-glistening-facets.jpeg",
         initiative: 58,
         level: 4,
       },
@@ -10421,8 +9770,7 @@ export const characterAbilityCards: Record<
         name: "impaling spike",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-impaling-spike.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-impaling-spike.jpeg",
         initiative: 25,
         level: 1,
       },
@@ -10430,8 +9778,7 @@ export const characterAbilityCards: Record<
         name: "jubilant recovery",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-jubilant-recovery.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-jubilant-recovery.jpeg",
         initiative: 44,
         level: 1,
       },
@@ -10439,8 +9786,7 @@ export const characterAbilityCards: Record<
         name: "lightbury quartz",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-lightbury-quartz.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-lightbury-quartz.jpeg",
         initiative: 14,
         level: 4,
       },
@@ -10448,8 +9794,7 @@ export const characterAbilityCards: Record<
         name: "luminous glow",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-luminous-glow.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-luminous-glow.jpeg",
         initiative: 85,
         level: 1,
       },
@@ -10457,8 +9802,7 @@ export const characterAbilityCards: Record<
         name: "penetrating fragments",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-penetrating-fragments.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-penetrating-fragments.jpeg",
         initiative: 76,
         level: 1,
       },
@@ -10466,8 +9810,7 @@ export const characterAbilityCards: Record<
         name: "perforating bore",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-perforating-bore.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-perforating-bore.jpeg",
         initiative: 63,
         level: 2,
       },
@@ -10475,8 +9818,7 @@ export const characterAbilityCards: Record<
         name: "prismatic ward",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-prismatic-ward.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-prismatic-ward.jpeg",
         initiative: 54,
         level: 1,
       },
@@ -10484,8 +9826,7 @@ export const characterAbilityCards: Record<
         name: "radiating crust",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-radiating-crust.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-radiating-crust.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -10493,8 +9834,7 @@ export const characterAbilityCards: Record<
         name: "rapid calcification",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-rapid-calcification.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-rapid-calcification.jpeg",
         initiative: 48,
         level: 7,
       },
@@ -10502,8 +9842,7 @@ export const characterAbilityCards: Record<
         name: "reciprocal resonance",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-reciprocal-resonance.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-reciprocal-resonance.jpeg",
         initiative: 21,
         level: 1.5,
       },
@@ -10511,8 +9850,7 @@ export const characterAbilityCards: Record<
         name: "reflecting surface",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-reflecting-surface.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-reflecting-surface.jpeg",
         initiative: 35,
         level: 6,
       },
@@ -10520,8 +9858,7 @@ export const characterAbilityCards: Record<
         name: "remineralize",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-remineralize.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-remineralize.jpeg",
         initiative: 82,
         level: 1,
       },
@@ -10529,8 +9866,7 @@ export const characterAbilityCards: Record<
         name: "ruinous shard",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-ruinous-shard.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-ruinous-shard.jpeg",
         initiative: 41,
         level: 1,
       },
@@ -10538,8 +9874,7 @@ export const characterAbilityCards: Record<
         name: "searing stone",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-searing-stone.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-searing-stone.jpeg",
         initiative: 13,
         level: 3,
       },
@@ -10547,8 +9882,7 @@ export const characterAbilityCards: Record<
         name: "seismic shockwave",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-seismic-shockwave.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-seismic-shockwave.jpeg",
         initiative: 32,
         level: 8,
       },
@@ -10556,8 +9890,7 @@ export const characterAbilityCards: Record<
         name: "serrated razor",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-serrated-razor.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-serrated-razor.jpeg",
         initiative: 33,
         level: 1,
       },
@@ -10565,8 +9898,7 @@ export const characterAbilityCards: Record<
         name: "spiked carapace",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-spiked-carapace.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-spiked-carapace.jpeg",
         initiative: 26,
         level: 6,
       },
@@ -10574,8 +9906,7 @@ export const characterAbilityCards: Record<
         name: "splinter burst",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-splinter-burst.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-splinter-burst.jpeg",
         initiative: 50,
         level: 1.5,
       },
@@ -10583,8 +9914,7 @@ export const characterAbilityCards: Record<
         name: "triboluminescence",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-triboluminescence.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-triboluminescence.jpeg",
         initiative: 30,
         level: 1,
       },
@@ -10592,8 +9922,7 @@ export const characterAbilityCards: Record<
         name: "turbulent absorption",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-turbulent-absorption.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-turbulent-absorption.jpeg",
         initiative: 52,
         level: 9,
       },
@@ -10601,8 +9930,7 @@ export const characterAbilityCards: Record<
         name: "unyielding stalagmite",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-unyielding-stalagmite.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-unyielding-stalagmite.jpeg",
         initiative: 71,
         level: 7,
       },
@@ -10610,8 +9938,7 @@ export const characterAbilityCards: Record<
         name: "violent shatter",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-violent-shatter.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-violent-shatter.jpeg",
         initiative: 83,
         level: 9,
       },
@@ -10619,8 +9946,7 @@ export const characterAbilityCards: Record<
         name: "vital outburst",
         class: "SR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/SR/toa-vital-outburst.jpeg",
+        image: "character-ability-cards/trail-of-ashes/SR/toa-vital-outburst.jpeg",
         initiative: 29,
         level: 3,
       },
@@ -10631,8 +9957,7 @@ export const characterAbilityCards: Record<
         image: "milestones/toa-ms-shardrender.jpeg",
         initiative: 73,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.jpeg",
+        imageBack: "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.jpeg",
         milestone: true,
       },
     ],
@@ -10649,8 +9974,7 @@ export const characterAbilityCards: Record<
         name: "aerial dominance",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-aerial-dominance.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-aerial-dominance.jpeg",
         initiative: 39,
         level: 1.5,
       },
@@ -10674,8 +9998,7 @@ export const characterAbilityCards: Record<
         name: "arc reaction",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-arc-reaction.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-arc-reaction.jpeg",
         initiative: 33,
         level: 4,
       },
@@ -10683,8 +10006,7 @@ export const characterAbilityCards: Record<
         name: "breakneck blitz",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-breakneck-blitz.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-breakneck-blitz.jpeg",
         initiative: 4,
         level: 1,
       },
@@ -10692,8 +10014,7 @@ export const characterAbilityCards: Record<
         name: "channeled energy",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-channeled-energy.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-channeled-energy.jpeg",
         initiative: 8,
         level: 1,
       },
@@ -10701,8 +10022,7 @@ export const characterAbilityCards: Record<
         name: "electric current",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-electric-current.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-electric-current.jpeg",
         initiative: 20,
         level: 3,
       },
@@ -10710,8 +10030,7 @@ export const characterAbilityCards: Record<
         name: "electromagnetic pulse",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-electromagnetic-pulse.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-electromagnetic-pulse.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -10719,8 +10038,7 @@ export const characterAbilityCards: Record<
         name: "electrostatic bypass",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-electrostatic-bypass.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-electrostatic-bypass.jpeg",
         initiative: 15,
         level: 6,
       },
@@ -10728,8 +10046,7 @@ export const characterAbilityCards: Record<
         name: "energy siphon",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-energy-siphon.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-energy-siphon.jpeg",
         initiative: 19,
         level: 1,
       },
@@ -10737,8 +10054,7 @@ export const characterAbilityCards: Record<
         name: "flash of lightning",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-flash-of-lightning.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-flash-of-lightning.jpeg",
         initiative: 11,
         level: 1,
       },
@@ -10762,8 +10078,7 @@ export const characterAbilityCards: Record<
         name: "jetstream gust",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-jetstream-gust.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-jetstream-gust.jpeg",
         initiative: 69,
         level: 6,
       },
@@ -10779,8 +10094,7 @@ export const characterAbilityCards: Record<
         name: "nimble resilience",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-nimble-resilience.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-nimble-resilience.jpeg",
         initiative: 66,
         level: 1.5,
       },
@@ -10788,8 +10102,7 @@ export const characterAbilityCards: Record<
         name: "protective gale",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-protective-gale.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-protective-gale.jpeg",
         initiative: 2,
         level: 9,
       },
@@ -10797,8 +10110,7 @@ export const characterAbilityCards: Record<
         name: "radiant explosion",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-radiant-explosion.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-radiant-explosion.jpeg",
         initiative: 18,
         level: 7,
       },
@@ -10806,8 +10118,7 @@ export const characterAbilityCards: Record<
         name: "rejuvenating charge",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-rejuvenating-charge.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-rejuvenating-charge.jpeg",
         initiative: 21,
         level: 4,
       },
@@ -10815,8 +10126,7 @@ export const characterAbilityCards: Record<
         name: "rushing wind",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-rushing-wind.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-rushing-wind.jpeg",
         initiative: 64,
         level: 7,
       },
@@ -10824,8 +10134,7 @@ export const characterAbilityCards: Record<
         name: "scorching arcbolt",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-scorching-arcbolt.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-scorching-arcbolt.jpeg",
         initiative: 45,
         level: 1,
       },
@@ -10833,8 +10142,7 @@ export const characterAbilityCards: Record<
         name: "shock therapy",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-shock-therapy.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-shock-therapy.jpeg",
         initiative: 10,
         level: 8,
       },
@@ -10842,8 +10150,7 @@ export const characterAbilityCards: Record<
         name: "spark conduit",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-spark-conduit.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-spark-conduit.jpeg",
         initiative: 73,
         level: 5,
       },
@@ -10851,8 +10158,7 @@ export const characterAbilityCards: Record<
         name: "static shock",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-static-shock.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-static-shock.jpeg",
         initiative: 17,
         level: 1,
       },
@@ -10860,8 +10166,7 @@ export const characterAbilityCards: Record<
         name: "storm lightning",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-storm-lightning.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-storm-lightning.jpeg",
         initiative: 88,
         level: 9,
       },
@@ -10869,8 +10174,7 @@ export const characterAbilityCards: Record<
         name: "stormy retribution",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-stormy-retribution.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-stormy-retribution.jpeg",
         initiative: 77,
         level: 5,
       },
@@ -10878,8 +10182,7 @@ export const characterAbilityCards: Record<
         name: "surging storm",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-surging-storm.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-surging-storm.jpeg",
         initiative: 35,
         level: 1,
       },
@@ -10887,8 +10190,7 @@ export const characterAbilityCards: Record<
         name: "swift strike",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-swift-strike.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-swift-strike.jpeg",
         initiative: 31,
         level: 1,
       },
@@ -10896,8 +10198,7 @@ export const characterAbilityCards: Record<
         name: "voltaic burst",
         class: "TP",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TP/toa-voltaic-burst.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TP/toa-voltaic-burst.jpeg",
         initiative: 27,
         level: 1,
       },
@@ -10908,8 +10209,7 @@ export const characterAbilityCards: Record<
         image: "milestones/toa-ms-tempest.jpeg",
         initiative: 25,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.jpeg",
+        imageBack: "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.jpeg",
         milestone: true,
       },
     ],
@@ -10926,8 +10226,7 @@ export const characterAbilityCards: Record<
         name: "barbed onslaught",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-barbed-onslaught.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-barbed-onslaught.jpeg",
         initiative: 58,
         level: 5,
       },
@@ -10935,8 +10234,7 @@ export const characterAbilityCards: Record<
         name: "bed of roses",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-bed-of-roses.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-bed-of-roses.jpeg",
         initiative: 10,
         level: 9,
       },
@@ -10952,8 +10250,7 @@ export const characterAbilityCards: Record<
         name: "branched slam",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-branched-slam.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-branched-slam.jpeg",
         initiative: 45,
         level: 5,
       },
@@ -10961,8 +10258,7 @@ export const characterAbilityCards: Record<
         name: "bright skies",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-bright-skies.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-bright-skies.jpeg",
         initiative: 29,
         level: 3,
       },
@@ -10970,8 +10266,7 @@ export const characterAbilityCards: Record<
         name: "cover of green",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-cover-of-green.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-cover-of-green.jpeg",
         initiative: 34,
         level: 1,
       },
@@ -10987,8 +10282,7 @@ export const characterAbilityCards: Record<
         name: "devoured by thorns",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-devoured-by-thorns.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-devoured-by-thorns.jpeg",
         initiative: 72,
         level: 6,
       },
@@ -10996,8 +10290,7 @@ export const characterAbilityCards: Record<
         name: "encased in thorns",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-encased-in-thorns.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-encased-in-thorns.jpeg",
         initiative: 22,
         level: 1,
       },
@@ -11005,8 +10298,7 @@ export const characterAbilityCards: Record<
         name: "extended branch",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-extended-branch.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-extended-branch.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -11014,8 +10306,7 @@ export const characterAbilityCards: Record<
         name: "fissive eruption",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-fissive-eruption.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-fissive-eruption.jpeg",
         initiative: 40,
         level: 8,
       },
@@ -11023,8 +10314,7 @@ export const characterAbilityCards: Record<
         name: "floral burst",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-floral-burst.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-floral-burst.jpeg",
         initiative: 30,
         level: 2,
       },
@@ -11032,8 +10322,7 @@ export const characterAbilityCards: Record<
         name: "impaling command",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-impaling-command.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-impaling-command.jpeg",
         initiative: 19,
         level: 8,
       },
@@ -11041,8 +10330,7 @@ export const characterAbilityCards: Record<
         name: "jagged clutch",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-jagged-clutch.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-jagged-clutch.jpeg",
         initiative: 32,
         level: 1,
       },
@@ -11050,8 +10338,7 @@ export const characterAbilityCards: Record<
         name: "lashing thorns",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-lashing-thorns.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-lashing-thorns.jpeg",
         initiative: 39,
         level: 1,
       },
@@ -11067,8 +10354,7 @@ export const characterAbilityCards: Record<
         name: "nature's fury",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-natures-fury.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-natures-fury.jpeg",
         initiative: 37,
         level: 7,
       },
@@ -11076,8 +10362,7 @@ export const characterAbilityCards: Record<
         name: "outward spurs",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-outward-spurs.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-outward-spurs.jpeg",
         initiative: 43,
         level: 2,
       },
@@ -11085,8 +10370,7 @@ export const characterAbilityCards: Record<
         name: "photosynthesis",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-photosynthesis.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-photosynthesis.jpeg",
         initiative: 35,
         level: 1,
       },
@@ -11094,8 +10378,7 @@ export const characterAbilityCards: Record<
         name: "prickly situation",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-prickly-situation.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-prickly-situation.jpeg",
         initiative: 20,
         level: 4,
       },
@@ -11103,8 +10386,7 @@ export const characterAbilityCards: Record<
         name: "rabid undergrowth",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-rabid-undergrowth.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-rabid-undergrowth.jpeg",
         initiative: 27,
         level: 7,
       },
@@ -11112,8 +10394,7 @@ export const characterAbilityCards: Record<
         name: "ravaged earth",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-ravaged-earth.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-ravaged-earth.jpeg",
         initiative: 86,
         level: 9,
       },
@@ -11121,8 +10402,7 @@ export const characterAbilityCards: Record<
         name: "shrewd overgrowth",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-shrewd-overgrowth.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-shrewd-overgrowth.jpeg",
         initiative: 92,
         level: 1,
       },
@@ -11138,8 +10418,7 @@ export const characterAbilityCards: Record<
         name: "spiked embrace",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-spiked-embrace.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-spiked-embrace.jpeg",
         initiative: 31,
         level: 1.5,
       },
@@ -11147,8 +10426,7 @@ export const characterAbilityCards: Record<
         name: "superradiance",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-superradiance.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-superradiance.jpeg",
         initiative: 48,
         level: 1,
       },
@@ -11164,8 +10442,7 @@ export const characterAbilityCards: Record<
         name: "twisted thistle",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-twisted-thistle.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-twisted-thistle.jpeg",
         initiative: 26,
         level: 4,
       },
@@ -11173,8 +10450,7 @@ export const characterAbilityCards: Record<
         name: "violent sprout",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-violent-sprout.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-violent-sprout.jpeg",
         initiative: 63,
         level: 1,
       },
@@ -11182,8 +10458,7 @@ export const characterAbilityCards: Record<
         name: "welcome to the jungle",
         class: "TR",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/TR/toa-welcome-to-the-jungle.jpeg",
+        image: "character-ability-cards/trail-of-ashes/TR/toa-welcome-to-the-jungle.jpeg",
         initiative: 41,
         level: 3,
       },
@@ -11194,8 +10469,7 @@ export const characterAbilityCards: Record<
         image: "milestones/toa-ms-thornreaper.jpeg",
         initiative: 42,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.jpeg",
+        imageBack: "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.jpeg",
         milestone: true,
       },
     ],
@@ -11212,8 +10486,7 @@ export const characterAbilityCards: Record<
         name: "beckoning of the beast",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-beckoning-of-the-beast.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-beckoning-of-the-beast.jpeg",
         initiative: 26,
         level: 0.5,
       },
@@ -11229,8 +10502,7 @@ export const characterAbilityCards: Record<
         name: "blasphemous charge",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-blasphemous-charge.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-blasphemous-charge.jpeg",
         initiative: 88,
         level: 1.5,
       },
@@ -11238,8 +10510,7 @@ export const characterAbilityCards: Record<
         name: "blazing torment",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-blazing-torment.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-blazing-torment.jpeg",
         initiative: 60,
         level: 1,
       },
@@ -11247,8 +10518,7 @@ export const characterAbilityCards: Record<
         name: "bringer of grief",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-bringer-of-grief.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-bringer-of-grief.jpeg",
         initiative: 31,
         level: 0.5,
       },
@@ -11256,8 +10526,7 @@ export const characterAbilityCards: Record<
         name: "brutal awakening",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-brutal-awakening.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-brutal-awakening.jpeg",
         initiative: 95,
         level: 1.5,
       },
@@ -11265,8 +10534,7 @@ export const characterAbilityCards: Record<
         name: "condemnation",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-condemnation.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-condemnation.jpeg",
         initiative: 25,
         level: 0.5,
       },
@@ -11290,8 +10558,7 @@ export const characterAbilityCards: Record<
         name: "embrace the chaos",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-embrace-the-chaos.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-embrace-the-chaos.jpeg",
         initiative: 75,
         level: 3,
       },
@@ -11299,8 +10566,7 @@ export const characterAbilityCards: Record<
         name: "extended horns",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-extended-horns.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-extended-horns.jpeg",
         initiative: 19,
         level: 0.5,
       },
@@ -11308,8 +10574,7 @@ export const characterAbilityCards: Record<
         name: "fatal retribution",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-fatal-retribution.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-fatal-retribution.jpeg",
         initiative: 51,
         level: 4,
       },
@@ -11317,8 +10582,7 @@ export const characterAbilityCards: Record<
         name: "fiendish power",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-fiendish-power.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-fiendish-power.jpeg",
         initiative: 46,
         level: 1,
       },
@@ -11326,8 +10590,7 @@ export const characterAbilityCards: Record<
         name: "first to strike",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-first-to-strike.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-first-to-strike.jpeg",
         initiative: 16,
         level: 0.5,
       },
@@ -11335,8 +10598,7 @@ export const characterAbilityCards: Record<
         name: "forged from fire",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-forged-from-fire.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-forged-from-fire.jpeg",
         initiative: 79,
         level: 1,
       },
@@ -11352,8 +10614,7 @@ export const characterAbilityCards: Record<
         name: "infused charge",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-infused-charge.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-infused-charge.jpeg",
         initiative: 81,
         level: 5,
       },
@@ -11361,8 +10622,7 @@ export const characterAbilityCards: Record<
         name: "life in death",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-life-in-death.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-life-in-death.jpeg",
         initiative: 45,
         level: 3,
       },
@@ -11370,8 +10630,7 @@ export const characterAbilityCards: Record<
         name: "living nightmare",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-living-nightmare.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-living-nightmare.jpeg",
         initiative: 65,
         level: 1,
       },
@@ -11379,8 +10638,7 @@ export const characterAbilityCards: Record<
         name: "malicious defamation",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-malicious-defamation.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-malicious-defamation.jpeg",
         initiative: 55,
         level: 4,
       },
@@ -11388,8 +10646,7 @@ export const characterAbilityCards: Record<
         name: "out of the shadows",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-out-of-the-shadows.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-out-of-the-shadows.jpeg",
         initiative: 84,
         level: 1.5,
       },
@@ -11397,8 +10654,7 @@ export const characterAbilityCards: Record<
         name: "raging pandemonium",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-raging-pandemonium.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-raging-pandemonium.jpeg",
         initiative: 14,
         level: 0.5,
       },
@@ -11406,8 +10662,7 @@ export const characterAbilityCards: Record<
         name: "sadistic swipe",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-sadistic-swipe.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-sadistic-swipe.jpeg",
         initiative: 20,
         level: 0.5,
       },
@@ -11415,8 +10670,7 @@ export const characterAbilityCards: Record<
         name: "searing coals",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-searing-coals.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-searing-coals.jpeg",
         initiative: 73,
         level: 1,
       },
@@ -11424,8 +10678,7 @@ export const characterAbilityCards: Record<
         name: "shared suffering",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-shared-suffering.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-shared-suffering.jpeg",
         initiative: 64,
         level: 6,
       },
@@ -11433,8 +10686,7 @@ export const characterAbilityCards: Record<
         name: "silent finisher",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-silent-finisher.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-silent-finisher.jpeg",
         initiative: 77,
         level: 7,
       },
@@ -11442,8 +10694,7 @@ export const characterAbilityCards: Record<
         name: "sinister enslavement",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-sinister-enslavement.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-sinister-enslavement.jpeg",
         initiative: 50,
         level: 8,
       },
@@ -11451,8 +10702,7 @@ export const characterAbilityCards: Record<
         name: "siphoning life",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-siphoning-life.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-siphoning-life.jpeg",
         initiative: 53,
         level: 1,
       },
@@ -11460,8 +10710,7 @@ export const characterAbilityCards: Record<
         name: "slaughter the weak",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-slaughter-the-weak.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-slaughter-the-weak.jpeg",
         initiative: 56,
         level: 1,
       },
@@ -11477,8 +10726,7 @@ export const characterAbilityCards: Record<
         name: "tumultuous uproar",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-tumultuous-uproar.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-tumultuous-uproar.jpeg",
         initiative: 44,
         level: 2,
       },
@@ -11486,8 +10734,7 @@ export const characterAbilityCards: Record<
         name: "unending misery",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-unending-misery.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-unending-misery.jpeg",
         initiative: 52,
         level: 1,
       },
@@ -11495,8 +10742,7 @@ export const characterAbilityCards: Record<
         name: "unnatural control",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-unnatural-control.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-unnatural-control.jpeg",
         initiative: 85,
         level: 2,
       },
@@ -11504,8 +10750,7 @@ export const characterAbilityCards: Record<
         name: "unstoppable surge",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-unstoppable-surge.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-unstoppable-surge.jpeg",
         initiative: 96,
         level: 9,
       },
@@ -11513,8 +10758,7 @@ export const characterAbilityCards: Record<
         name: "utter catastrophe",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-utter-catastrophe.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-utter-catastrophe.jpeg",
         initiative: 62,
         level: 7,
       },
@@ -11522,8 +10766,7 @@ export const characterAbilityCards: Record<
         name: "vengeance incarnate",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-vengeance-incarnate.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-vengeance-incarnate.jpeg",
         initiative: 66,
         level: 9,
       },
@@ -11531,8 +10774,7 @@ export const characterAbilityCards: Record<
         name: "wall of flames",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-wall-of-flames.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-wall-of-flames.jpeg",
         initiative: 9,
         level: 0.5,
       },
@@ -11540,8 +10782,7 @@ export const characterAbilityCards: Record<
         name: "wings of hell",
         class: "VQ",
         game: "toa",
-        image:
-          "character-ability-cards/trail-of-ashes/VQ/toa-wings-of-hell.jpeg",
+        image: "character-ability-cards/trail-of-ashes/VQ/toa-wings-of-hell.jpeg",
         initiative: 98,
         level: 5,
       },
@@ -11552,8 +10793,7 @@ export const characterAbilityCards: Record<
         image: "milestones/toa-ms-vanquisher.jpeg",
         initiative: 69,
         level: 0.25,
-        imageBack:
-          "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.jpeg",
+        imageBack: "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.jpeg",
         milestone: true,
       },
     ],
@@ -11596,8 +10836,7 @@ export const characterAbilityCards: Record<
         name: "cascading reaction",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-cascading-reaction.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-cascading-reaction.jpeg",
         initiative: 19,
         level: 1,
       },
@@ -11621,8 +10860,7 @@ export const characterAbilityCards: Record<
         name: "experimental adjustment",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-experimental-adjustment.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-experimental-adjustment.jpeg",
         initiative: 12,
         level: 1.5,
       },
@@ -11646,8 +10884,7 @@ export const characterAbilityCards: Record<
         name: "fractured timeline",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-fractured-timeline.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-fractured-timeline.jpeg",
         initiative: 55,
         level: 9,
       },
@@ -11719,8 +10956,7 @@ export const characterAbilityCards: Record<
         name: "quantum uncertainty",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-quantum-uncertainty.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-quantum-uncertainty.jpeg",
         initiative: 35,
         level: 8,
       },
@@ -11728,8 +10964,7 @@ export const characterAbilityCards: Record<
         name: "reckless augmentation",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-reckless-augmentation.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-reckless-augmentation.jpeg",
         initiative: 10,
         level: 2,
       },
@@ -11745,8 +10980,7 @@ export const characterAbilityCards: Record<
         name: "rushed to the end",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-rushed-to-the-end.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-rushed-to-the-end.jpeg",
         initiative: 32,
         level: 7,
       },
@@ -11754,8 +10988,7 @@ export const characterAbilityCards: Record<
         name: "sand in the hourglass",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-sand-in-the-hourglass.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-sand-in-the-hourglass.jpeg",
         initiative: 52,
         level: 1.5,
       },
@@ -11787,8 +11020,7 @@ export const characterAbilityCards: Record<
         name: "temporal displacement",
         class: "BB",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BB/fh-temporal-displacement.jpeg",
+        image: "character-ability-cards/frosthaven/BB/fh-temporal-displacement.jpeg",
         initiative: 44,
         level: 1,
       },
@@ -11870,8 +11102,7 @@ export const characterAbilityCards: Record<
         name: "deflecting maneuver",
         class: "BN",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BN/fh-deflecting-maneuver.jpeg",
+        image: "character-ability-cards/frosthaven/BN/fh-deflecting-maneuver.jpeg",
         initiative: 15,
         level: 1,
       },
@@ -11879,8 +11110,7 @@ export const characterAbilityCards: Record<
         name: "driving inspiration",
         class: "BN",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BN/fh-driving-inspiration.jpeg",
+        image: "character-ability-cards/frosthaven/BN/fh-driving-inspiration.jpeg",
         initiative: 18,
         level: 1.5,
       },
@@ -11888,8 +11118,7 @@ export const characterAbilityCards: Record<
         name: "explosive epicenter",
         class: "BN",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BN/fh-explosive-epicenter.jpeg",
+        image: "character-ability-cards/frosthaven/BN/fh-explosive-epicenter.jpeg",
         initiative: 78,
         level: 5,
       },
@@ -11905,8 +11134,7 @@ export const characterAbilityCards: Record<
         name: "head of the hammer",
         class: "BN",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BN/fh-head-of-the-hammer.jpeg",
+        image: "character-ability-cards/frosthaven/BN/fh-head-of-the-hammer.jpeg",
         initiative: 87,
         level: 3,
       },
@@ -12002,8 +11230,7 @@ export const characterAbilityCards: Record<
         name: "set for the charge",
         class: "BN",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BN/fh-set-for-the-charge.jpeg",
+        image: "character-ability-cards/frosthaven/BN/fh-set-for-the-charge.jpeg",
         initiative: 6,
         level: 1,
       },
@@ -12019,8 +11246,7 @@ export const characterAbilityCards: Record<
         name: "take no prisoners",
         class: "BN",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BN/fh-take-no-prisoners.jpeg",
+        image: "character-ability-cards/frosthaven/BN/fh-take-no-prisoners.jpeg",
         initiative: 85,
         level: 9,
       },
@@ -12078,8 +11304,7 @@ export const characterAbilityCards: Record<
         name: "approach oblivion",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-approach-oblivion.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-approach-oblivion.jpeg",
         initiative: 53,
         level: 1.5,
       },
@@ -12087,8 +11312,7 @@ export const characterAbilityCards: Record<
         name: "behold the shrouded sun",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-behold-the-shrouded-sun.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-behold-the-shrouded-sun.jpeg",
         initiative: 10,
         level: 9,
       },
@@ -12104,8 +11328,7 @@ export const characterAbilityCards: Record<
         name: "command the wretched",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-command-the-wretched.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-command-the-wretched.jpeg",
         initiative: 83,
         level: 1,
       },
@@ -12185,8 +11408,7 @@ export const characterAbilityCards: Record<
         name: "flow of the black river",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-flow-of-the-black-river.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-flow-of-the-black-river.jpeg",
         initiative: 18,
         level: 1,
       },
@@ -12210,8 +11432,7 @@ export const characterAbilityCards: Record<
         name: "malicious conversion",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-malicious-conversion.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-malicious-conversion.jpeg",
         initiative: 26,
         level: 1,
       },
@@ -12243,8 +11464,7 @@ export const characterAbilityCards: Record<
         name: "rotting multitude",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-rotting-multitude.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-rotting-multitude.jpeg",
         initiative: 66,
         level: 6,
       },
@@ -12268,8 +11488,7 @@ export const characterAbilityCards: Record<
         name: "transfer of essence",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-transfer-of-essence.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-transfer-of-essence.jpeg",
         initiative: 62,
         level: 1,
       },
@@ -12293,8 +11512,7 @@ export const characterAbilityCards: Record<
         name: "unforgivable methods",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-unforgivable-methods.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-unforgivable-methods.jpeg",
         initiative: 98,
         level: 5,
       },
@@ -12310,8 +11528,7 @@ export const characterAbilityCards: Record<
         name: "wailing from beyond",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-wailing-from-beyond.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-wailing-from-beyond.jpeg",
         initiative: 73,
         level: 8,
       },
@@ -12319,8 +11536,7 @@ export const characterAbilityCards: Record<
         name: "wrath of the turned earth",
         class: "BO",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/BO/fh-wrath-of-the-turned-earth.jpeg",
+        image: "character-ability-cards/frosthaven/BO/fh-wrath-of-the-turned-earth.jpeg",
         initiative: 80,
         level: 1.5,
       },
@@ -12338,8 +11554,7 @@ export const characterAbilityCards: Record<
         name: "blood in the water",
         class: "CR",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/CR/fh-blood-in-the-water.jpeg",
+        image: "character-ability-cards/frosthaven/CR/fh-blood-in-the-water.jpeg",
         initiative: 53,
         level: 2,
       },
@@ -12347,8 +11562,7 @@ export const characterAbilityCards: Record<
         name: "chaotic refraction",
         class: "CR",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/CR/fh-chaotic-refraction.jpeg",
+        image: "character-ability-cards/frosthaven/CR/fh-chaotic-refraction.jpeg",
         initiative: 26,
         level: 4,
       },
@@ -12396,8 +11610,7 @@ export const characterAbilityCards: Record<
         name: "death on all sides",
         class: "CR",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/CR/fh-death-on-all-sides.jpeg",
+        image: "character-ability-cards/frosthaven/CR/fh-death-on-all-sides.jpeg",
         initiative: 73,
         level: 8,
       },
@@ -12405,8 +11618,7 @@ export const characterAbilityCards: Record<
         name: "down to the depths",
         class: "CR",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/CR/fh-down-to-the-depths.jpeg",
+        image: "character-ability-cards/frosthaven/CR/fh-down-to-the-depths.jpeg",
         initiative: 74,
         level: 1,
       },
@@ -12414,8 +11626,7 @@ export const characterAbilityCards: Record<
         name: "drown beneath the waves",
         class: "CR",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/CR/fh-drown-beneath-the-waves.jpeg",
+        image: "character-ability-cards/frosthaven/CR/fh-drown-beneath-the-waves.jpeg",
         initiative: 9,
         level: 7,
       },
@@ -12471,8 +11682,7 @@ export const characterAbilityCards: Record<
         name: "overwhelming wave",
         class: "CR",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/CR/fh-overwhelming-wave.jpeg",
+        image: "character-ability-cards/frosthaven/CR/fh-overwhelming-wave.jpeg",
         initiative: 86,
         level: 1,
       },
@@ -12650,8 +11860,7 @@ export const characterAbilityCards: Record<
         name: "continuous health",
         class: "DF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DF/fh-continuous-health.jpeg",
+        image: "character-ability-cards/frosthaven/DF/fh-continuous-health.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -12739,8 +11948,7 @@ export const characterAbilityCards: Record<
         name: "inevitable conclusion",
         class: "DF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DF/fh-inevitable-conclusion.jpeg",
+        image: "character-ability-cards/frosthaven/DF/fh-inevitable-conclusion.jpeg",
         initiative: 29,
         level: 8,
       },
@@ -12772,8 +11980,7 @@ export const characterAbilityCards: Record<
         name: "prudent preparation",
         class: "DF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DF/fh-prudent-preparation.jpeg",
+        image: "character-ability-cards/frosthaven/DF/fh-prudent-preparation.jpeg",
         initiative: 14,
         level: 1,
       },
@@ -12805,8 +12012,7 @@ export const characterAbilityCards: Record<
         name: "sustained momentum",
         class: "DF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DF/fh-sustained-momentum.jpeg",
+        image: "character-ability-cards/frosthaven/DF/fh-sustained-momentum.jpeg",
         initiative: 76,
         level: 1,
       },
@@ -12846,8 +12052,7 @@ export const characterAbilityCards: Record<
         name: "violent inheritance",
         class: "DF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DF/fh-violent-inheritance.jpeg",
+        image: "character-ability-cards/frosthaven/DF/fh-violent-inheritance.jpeg",
         initiative: 70,
         level: 1,
       },
@@ -12865,8 +12070,7 @@ export const characterAbilityCards: Record<
         name: "black night of the deep",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-black-night-of-the-deep.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-black-night-of-the-deep.jpeg",
         initiative: 26,
         level: 9,
       },
@@ -12890,8 +12094,7 @@ export const characterAbilityCards: Record<
         name: "consume the helpless",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-consume-the-helpless.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-consume-the-helpless.jpeg",
         initiative: 12,
         level: 9,
       },
@@ -12907,8 +12110,7 @@ export const characterAbilityCards: Record<
         name: "crushing darkness",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-crushing-darkness.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-crushing-darkness.jpeg",
         initiative: 40,
         level: 4,
       },
@@ -12956,8 +12158,7 @@ export const characterAbilityCards: Record<
         name: "haunting brutality",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-haunting-brutality.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-haunting-brutality.jpeg",
         initiative: 23,
         level: 1.5,
       },
@@ -13005,8 +12206,7 @@ export const characterAbilityCards: Record<
         name: "morbid camouflage",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-morbid-camouflage.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-morbid-camouflage.jpeg",
         initiative: 31,
         level: 1.5,
       },
@@ -13022,8 +12222,7 @@ export const characterAbilityCards: Record<
         name: "rip from the bone",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-rip-from-the-bone.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-rip-from-the-bone.jpeg",
         initiative: 11,
         level: 8,
       },
@@ -13047,8 +12246,7 @@ export const characterAbilityCards: Record<
         name: "slipping into death",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-slipping-into-death.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-slipping-into-death.jpeg",
         initiative: 89,
         level: 2,
       },
@@ -13064,8 +12262,7 @@ export const characterAbilityCards: Record<
         name: "staring into the abyss",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-staring-into-the-abyss.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-staring-into-the-abyss.jpeg",
         initiative: 63,
         level: 1,
       },
@@ -13081,8 +12278,7 @@ export const characterAbilityCards: Record<
         name: "the remorseless deep",
         class: "DT",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DT/fh-the-remorseless-deep.jpeg",
+        image: "character-ability-cards/frosthaven/DT/fh-the-remorseless-deep.jpeg",
         initiative: 22,
         level: 6,
       },
@@ -13116,8 +12312,7 @@ export const characterAbilityCards: Record<
         name: "anger of the dead",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-anger-of-the-dead.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-anger-of-the-dead.jpeg",
         initiative: 14,
         level: 1,
       },
@@ -13149,8 +12344,7 @@ export const characterAbilityCards: Record<
         name: "call to the abyss",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-call-to-the-abyss.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-call-to-the-abyss.jpeg",
         initiative: 82,
         level: 1,
       },
@@ -13174,8 +12368,7 @@ export const characterAbilityCards: Record<
         name: "deepening despair",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-deepening-despair.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-deepening-despair.jpeg",
         initiative: 11,
         level: 2,
       },
@@ -13263,8 +12456,7 @@ export const characterAbilityCards: Record<
         name: "proliferation of the abyss",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-proliferation-of-the-abyss.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-proliferation-of-the-abyss.jpeg",
         initiative: 38,
         level: 7,
       },
@@ -13280,8 +12472,7 @@ export const characterAbilityCards: Record<
         name: "rest in the shade",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-rest-in-the-shade.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-rest-in-the-shade.jpeg",
         initiative: 26,
         level: 1.5,
       },
@@ -13313,8 +12504,7 @@ export const characterAbilityCards: Record<
         name: "strength of the abyss",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-strength-of-the-abyss.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-strength-of-the-abyss.jpeg",
         initiative: 50,
         level: 1,
       },
@@ -13322,8 +12512,7 @@ export const characterAbilityCards: Record<
         name: "sunless apparition",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-sunless-apparition.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-sunless-apparition.jpeg",
         initiative: 96,
         level: 1,
       },
@@ -13331,8 +12520,7 @@ export const characterAbilityCards: Record<
         name: "the night takes shape",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-the-night-takes-shape.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-the-night-takes-shape.jpeg",
         initiative: 94,
         level: 6,
       },
@@ -13356,8 +12544,7 @@ export const characterAbilityCards: Record<
         name: "when your time comes",
         class: "DW",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/DW/fh-when-your-time-comes.jpeg",
+        image: "character-ability-cards/frosthaven/DW/fh-when-your-time-comes.jpeg",
         initiative: 72,
         level: 9,
       },
@@ -13375,8 +12562,7 @@ export const characterAbilityCards: Record<
         name: "bring down the mountain",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-bring-down-the-mountain.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-bring-down-the-mountain.jpeg",
         initiative: 9,
         level: 9,
       },
@@ -13392,8 +12578,7 @@ export const characterAbilityCards: Record<
         name: "crushing crystals",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-crushing-crystals.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-crushing-crystals.jpeg",
         initiative: 67,
         level: 2,
       },
@@ -13401,8 +12586,7 @@ export const characterAbilityCards: Record<
         name: "draw of the bedrock",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-draw-of-the-bedrock.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-draw-of-the-bedrock.jpeg",
         initiative: 10,
         level: 2,
       },
@@ -13458,8 +12642,7 @@ export const characterAbilityCards: Record<
         name: "fury of the mountain",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-fury-of-the-mountain.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-fury-of-the-mountain.jpeg",
         initiative: 23,
         level: 1,
       },
@@ -13467,8 +12650,7 @@ export const characterAbilityCards: Record<
         name: "gift of the mountain",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-gift-of-the-mountain.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-gift-of-the-mountain.jpeg",
         initiative: 73,
         level: 7,
       },
@@ -13500,8 +12682,7 @@ export const characterAbilityCards: Record<
         name: "lacerating eruption",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-lacerating-eruption.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-lacerating-eruption.jpeg",
         initiative: 51,
         level: 3,
       },
@@ -13509,8 +12690,7 @@ export const characterAbilityCards: Record<
         name: "one with the mountain",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-one-with-the-mountain.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-one-with-the-mountain.jpeg",
         initiative: 83,
         level: 1,
       },
@@ -13574,8 +12754,7 @@ export const characterAbilityCards: Record<
         name: "the mountain's fist",
         class: "FF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/FF/fh-the-mountains-fist.jpeg",
+        image: "character-ability-cards/frosthaven/FF/fh-the-mountains-fist.jpeg",
         initiative: 16,
         level: 4,
       },
@@ -13609,8 +12788,7 @@ export const characterAbilityCards: Record<
         name: "accelerated metabolism",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-accelerated-metabolism.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-accelerated-metabolism.jpeg",
         initiative: 85,
         level: 8,
       },
@@ -13618,8 +12796,7 @@ export const characterAbilityCards: Record<
         name: "alluring pheromones",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-alluring-pheromones.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-alluring-pheromones.jpeg",
         initiative: 49,
         level: 7,
       },
@@ -13691,8 +12868,7 @@ export const characterAbilityCards: Record<
         name: "flailing tendrils",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-flailing-tendrils.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-flailing-tendrils.jpeg",
         initiative: 12,
         level: 1,
       },
@@ -13716,8 +12892,7 @@ export const characterAbilityCards: Record<
         name: "harbinger of ruin",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-harbinger-of-ruin.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-harbinger-of-ruin.jpeg",
         initiative: 11,
         level: 9,
       },
@@ -13725,8 +12900,7 @@ export const characterAbilityCards: Record<
         name: "harvest the essence",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-harvest-the-essence.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-harvest-the-essence.jpeg",
         initiative: 60,
         level: 1,
       },
@@ -13742,8 +12916,7 @@ export const characterAbilityCards: Record<
         name: "hornbeetle carapace",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-hornbeetle-carapace.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-hornbeetle-carapace.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -13807,8 +12980,7 @@ export const characterAbilityCards: Record<
         name: "oscillating entity",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-oscillating-entity.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-oscillating-entity.jpeg",
         initiative: 55,
         level: 8,
       },
@@ -13824,8 +12996,7 @@ export const characterAbilityCards: Record<
         name: "reshape the guise",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-reshape-the-guise.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-reshape-the-guise.jpeg",
         initiative: 38,
         level: 1.5,
       },
@@ -13841,8 +13012,7 @@ export const characterAbilityCards: Record<
         name: "selfless offering",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-selfless-offering.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-selfless-offering.jpeg",
         initiative: 27,
         level: 1,
       },
@@ -13850,8 +13020,7 @@ export const characterAbilityCards: Record<
         name: "smoldering hatred",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-smoldering-hatred.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-smoldering-hatred.jpeg",
         initiative: 32,
         level: 1.5,
       },
@@ -13867,8 +13036,7 @@ export const characterAbilityCards: Record<
         name: "two-pronged entrapment",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-two-pronged-entrapment.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-two-pronged-entrapment.jpeg",
         initiative: 21,
         level: 7,
       },
@@ -13884,8 +13052,7 @@ export const characterAbilityCards: Record<
         name: "voice of salvation",
         class: "GE",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/GE/fh-voice-of-salvation.jpeg",
+        image: "character-ability-cards/frosthaven/GE/fh-voice-of-salvation.jpeg",
         initiative: 39,
         level: 9,
       },
@@ -13943,8 +13110,7 @@ export const characterAbilityCards: Record<
         name: "divergent destruction",
         class: "HV",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/HV/fh-divergent-destruction.jpeg",
+        image: "character-ability-cards/frosthaven/HV/fh-divergent-destruction.jpeg",
         initiative: 22,
         level: 4,
       },
@@ -13976,8 +13142,7 @@ export const characterAbilityCards: Record<
         name: "high impact projectiles",
         class: "HV",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/HV/fh-high-impact-projectiles.jpeg",
+        image: "character-ability-cards/frosthaven/HV/fh-high-impact-projectiles.jpeg",
         initiative: 16,
         level: 1,
       },
@@ -14017,8 +13182,7 @@ export const characterAbilityCards: Record<
         name: "long-range missile",
         class: "HV",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/HV/fh-long-range-missile.jpeg",
+        image: "character-ability-cards/frosthaven/HV/fh-long-range-missile.jpeg",
         initiative: 19,
         level: 2,
       },
@@ -14058,8 +13222,7 @@ export const characterAbilityCards: Record<
         name: "prepare for deployment",
         class: "HV",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/HV/fh-prepare-for-deployment.jpeg",
+        image: "character-ability-cards/frosthaven/HV/fh-prepare-for-deployment.jpeg",
         initiative: 64,
         level: 1,
       },
@@ -14099,8 +13262,7 @@ export const characterAbilityCards: Record<
         name: "reconstructive aid",
         class: "HV",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/HV/fh-reconstructive-aid.jpeg",
+        image: "character-ability-cards/frosthaven/HV/fh-reconstructive-aid.jpeg",
         initiative: 90,
         level: 1,
       },
@@ -14158,8 +13320,7 @@ export const characterAbilityCards: Record<
         name: "ancient rites of power",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-ancient-rites-of-power.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-ancient-rites-of-power.jpeg",
         initiative: 94,
         level: 9,
       },
@@ -14175,8 +13336,7 @@ export const characterAbilityCards: Record<
         name: "boon of the tempest",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-boon-of-the-tempest.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-boon-of-the-tempest.jpeg",
         initiative: 28,
         level: 1,
       },
@@ -14184,8 +13344,7 @@ export const characterAbilityCards: Record<
         name: "bounty of the earth",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-bounty-of-the-earth.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-bounty-of-the-earth.jpeg",
         initiative: 23,
         level: 1,
       },
@@ -14193,8 +13352,7 @@ export const characterAbilityCards: Record<
         name: "caress of the night",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-caress-of-the-night.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-caress-of-the-night.jpeg",
         initiative: 87,
         level: 1,
       },
@@ -14202,8 +13360,7 @@ export const characterAbilityCards: Record<
         name: "coalescing darkness",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-coalescing-darkness.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-coalescing-darkness.jpeg",
         initiative: 85,
         level: 4,
       },
@@ -14211,8 +13368,7 @@ export const characterAbilityCards: Record<
         name: "crystalline aegis",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-crystalline-aegis.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-crystalline-aegis.jpeg",
         initiative: 17,
         level: 1.5,
       },
@@ -14244,8 +13400,7 @@ export const characterAbilityCards: Record<
         name: "formless bladestorm",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-formless-bladestorm.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-formless-bladestorm.jpeg",
         initiative: 33,
         level: 1,
       },
@@ -14261,8 +13416,7 @@ export const characterAbilityCards: Record<
         name: "gemstone resonance",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-gemstone-resonance.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-gemstone-resonance.jpeg",
         initiative: 30,
         level: 5,
       },
@@ -14286,8 +13440,7 @@ export const characterAbilityCards: Record<
         name: "malachite shockwave",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-malachite-shockwave.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-malachite-shockwave.jpeg",
         initiative: 68,
         level: 7,
       },
@@ -14311,8 +13464,7 @@ export const characterAbilityCards: Record<
         name: "propulsive tailwind",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-propulsive-tailwind.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-propulsive-tailwind.jpeg",
         initiative: 91,
         level: 6,
       },
@@ -14320,8 +13472,7 @@ export const characterAbilityCards: Record<
         name: "reinforced riposte",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-reinforced-riposte.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-reinforced-riposte.jpeg",
         initiative: 18,
         level: 3,
       },
@@ -14345,8 +13496,7 @@ export const characterAbilityCards: Record<
         name: "sky-splitting strike",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-sky-splitting-strike.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-sky-splitting-strike.jpeg",
         initiative: 50,
         level: 9,
       },
@@ -14378,8 +13528,7 @@ export const characterAbilityCards: Record<
         name: "torrential cleave",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-torrential-cleave.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-torrential-cleave.jpeg",
         initiative: 83,
         level: 1,
       },
@@ -14387,8 +13536,7 @@ export const characterAbilityCards: Record<
         name: "unstoppable impulse",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-unstoppable-impulse.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-unstoppable-impulse.jpeg",
         initiative: 56,
         level: 1,
       },
@@ -14396,8 +13544,7 @@ export const characterAbilityCards: Record<
         name: "untether the shackles",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-untether-the-shackles.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-untether-the-shackles.jpeg",
         initiative: 61,
         level: 8,
       },
@@ -14405,8 +13552,7 @@ export const characterAbilityCards: Record<
         name: "veil of protection",
         class: "IF",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/IF/fh-veil-of-protection.jpeg",
+        image: "character-ability-cards/frosthaven/IF/fh-veil-of-protection.jpeg",
         initiative: 47,
         level: 2,
       },
@@ -14448,8 +13594,7 @@ export const characterAbilityCards: Record<
         name: "cryogenic hibernation",
         class: "ME",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/ME/fh-cryogenic-hibernation.jpeg",
+        image: "character-ability-cards/frosthaven/ME/fh-cryogenic-hibernation.jpeg",
         initiative: 19,
         level: 7,
       },
@@ -14465,8 +13610,7 @@ export const characterAbilityCards: Record<
         name: "curious machinery",
         class: "ME",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/ME/fh-curious-machinery.jpeg",
+        image: "character-ability-cards/frosthaven/ME/fh-curious-machinery.jpeg",
         initiative: 11,
         level: 8,
       },
@@ -14474,8 +13618,7 @@ export const characterAbilityCards: Record<
         name: "electrical discharge",
         class: "ME",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/ME/fh-electrical-discharge.jpeg",
+        image: "character-ability-cards/frosthaven/ME/fh-electrical-discharge.jpeg",
         initiative: 26,
         level: 3,
       },
@@ -14483,8 +13626,7 @@ export const characterAbilityCards: Record<
         name: "energy conversion",
         class: "ME",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/ME/fh-energy-conversion.jpeg",
+        image: "character-ability-cards/frosthaven/ME/fh-energy-conversion.jpeg",
         initiative: 23,
         level: 4,
       },
@@ -14548,8 +13690,7 @@ export const characterAbilityCards: Record<
         name: "pressure build-up",
         class: "ME",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/ME/fh-pressure-build-up.jpeg",
+        image: "character-ability-cards/frosthaven/ME/fh-pressure-build-up.jpeg",
         initiative: 20,
         level: 1,
       },
@@ -14637,8 +13778,7 @@ export const characterAbilityCards: Record<
         name: "super heat transfer",
         class: "ME",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/ME/fh-super-heat-transfer.jpeg",
+        image: "character-ability-cards/frosthaven/ME/fh-super-heat-transfer.jpeg",
         initiative: 25,
         level: 1,
       },
@@ -14672,8 +13812,7 @@ export const characterAbilityCards: Record<
         name: "burned at both ends",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-burned-at-both-ends.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-burned-at-both-ends.jpeg",
         initiative: 30,
         level: 3,
       },
@@ -14681,8 +13820,7 @@ export const characterAbilityCards: Record<
         name: "chained by despair",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-chained-by-despair.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-chained-by-despair.jpeg",
         initiative: 15,
         level: 5,
       },
@@ -14746,8 +13884,7 @@ export const characterAbilityCards: Record<
         name: "line of transference",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-line-of-transference.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-line-of-transference.jpeg",
         initiative: 25,
         level: 1,
       },
@@ -14827,8 +13964,7 @@ export const characterAbilityCards: Record<
         name: "shared affliction",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-shared-affliction.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-shared-affliction.jpeg",
         initiative: 61,
         level: 1,
       },
@@ -14844,8 +13980,7 @@ export const characterAbilityCards: Record<
         name: "the agony of others",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-the-agony-of-others.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-the-agony-of-others.jpeg",
         initiative: 78,
         level: 1,
       },
@@ -14853,8 +13988,7 @@ export const characterAbilityCards: Record<
         name: "the end of everything",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-the-end-of-everything.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-the-end-of-everything.jpeg",
         initiative: 99,
         level: 9,
       },
@@ -14862,8 +13996,7 @@ export const characterAbilityCards: Record<
         name: "transferred injury",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-transferred-injury.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-transferred-injury.jpeg",
         initiative: 74,
         level: 1,
       },
@@ -14895,8 +14028,7 @@ export const characterAbilityCards: Record<
         name: "wracked with pain",
         class: "PC",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PC/fh-wracked-with-pain.jpeg",
+        image: "character-ability-cards/frosthaven/PC/fh-wracked-with-pain.jpeg",
         initiative: 22,
         level: 8,
       },
@@ -14986,8 +14118,7 @@ export const characterAbilityCards: Record<
         name: "force of the earth",
         class: "PY",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PY/fh-force-of-the-earth.jpeg",
+        image: "character-ability-cards/frosthaven/PY/fh-force-of-the-earth.jpeg",
         initiative: 15,
         level: 1.5,
       },
@@ -15099,8 +14230,7 @@ export const characterAbilityCards: Record<
         name: "return to the source",
         class: "PY",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/PY/fh-return-to-the-source.jpeg",
+        image: "character-ability-cards/frosthaven/PY/fh-return-to-the-source.jpeg",
         initiative: 14,
         level: 6,
       },
@@ -15158,8 +14288,7 @@ export const characterAbilityCards: Record<
         name: "birds in a tempest",
         class: "SD",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SD/fh-birds-in-a-tempest.jpeg",
+        image: "character-ability-cards/frosthaven/SD/fh-birds-in-a-tempest.jpeg",
         initiative: 18,
         level: 2,
       },
@@ -15287,8 +14416,7 @@ export const characterAbilityCards: Record<
         name: "refreshing flurry",
         class: "SD",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SD/fh-refreshing-flurry.jpeg",
+        image: "character-ability-cards/frosthaven/SD/fh-refreshing-flurry.jpeg",
         initiative: 95,
         level: 6,
       },
@@ -15336,8 +14464,7 @@ export const characterAbilityCards: Record<
         name: "the endless white",
         class: "SD",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SD/fh-the-endless-white.jpeg",
+        image: "character-ability-cards/frosthaven/SD/fh-the-endless-white.jpeg",
         initiative: 5,
         level: 8,
       },
@@ -15419,8 +14546,7 @@ export const characterAbilityCards: Record<
         name: "befuddling bellow",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-befuddling-bellow.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-befuddling-bellow.jpeg",
         initiative: 18,
         level: 2,
       },
@@ -15436,8 +14562,7 @@ export const characterAbilityCards: Record<
         name: "cloaking refraction",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-cloaking-refraction.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-cloaking-refraction.jpeg",
         initiative: 11,
         level: 7,
       },
@@ -15445,8 +14570,7 @@ export const characterAbilityCards: Record<
         name: "concentrated blast",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-concentrated-blast.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-concentrated-blast.jpeg",
         initiative: 38,
         level: 4,
       },
@@ -15454,8 +14578,7 @@ export const characterAbilityCards: Record<
         name: "devastating shout",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-devastating-shout.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-devastating-shout.jpeg",
         initiative: 68,
         level: 1,
       },
@@ -15503,8 +14626,7 @@ export const characterAbilityCards: Record<
         name: "forceful vibrations",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-forceful-vibrations.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-forceful-vibrations.jpeg",
         initiative: 27,
         level: 1,
       },
@@ -15512,8 +14634,7 @@ export const characterAbilityCards: Record<
         name: "foreboding tremors",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-foreboding-tremors.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-foreboding-tremors.jpeg",
         initiative: 21,
         level: 1,
       },
@@ -15529,8 +14650,7 @@ export const characterAbilityCards: Record<
         name: "heartening harmony",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-heartening-harmony.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-heartening-harmony.jpeg",
         initiative: 30,
         level: 1,
       },
@@ -15538,8 +14658,7 @@ export const characterAbilityCards: Record<
         name: "illuminative tone",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-illuminative-tone.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-illuminative-tone.jpeg",
         initiative: 72,
         level: 1.5,
       },
@@ -15563,8 +14682,7 @@ export const characterAbilityCards: Record<
         name: "resonant frequency",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-resonant-frequency.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-resonant-frequency.jpeg",
         initiative: 88,
         level: 1,
       },
@@ -15580,8 +14698,7 @@ export const characterAbilityCards: Record<
         name: "shrieking chakram",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-shrieking-chakram.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-shrieking-chakram.jpeg",
         initiative: 8,
         level: 5,
       },
@@ -15613,8 +14730,7 @@ export const characterAbilityCards: Record<
         name: "stealth vibrations",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-stealth-vibrations.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-stealth-vibrations.jpeg",
         initiative: 35,
         level: 3,
       },
@@ -15638,8 +14754,7 @@ export const characterAbilityCards: Record<
         name: "unsustainable wave",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-unsustainable-wave.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-unsustainable-wave.jpeg",
         initiative: 36,
         level: 6,
       },
@@ -15647,8 +14762,7 @@ export const characterAbilityCards: Record<
         name: "violent vibrations",
         class: "SH",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/SH/fh-violent-vibrations.jpeg",
+        image: "character-ability-cards/frosthaven/SH/fh-violent-vibrations.jpeg",
         initiative: 5,
         level: 9,
       },
@@ -15786,8 +14900,7 @@ export const characterAbilityCards: Record<
         name: "improvised improvement",
         class: "TA",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/TA/fh-improvised-improvement.jpeg",
+        image: "character-ability-cards/frosthaven/TA/fh-improvised-improvement.jpeg",
         initiative: 58,
         level: 1.5,
       },
@@ -15795,8 +14908,7 @@ export const characterAbilityCards: Record<
         name: "lure of the snare",
         class: "TA",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/TA/fh-lure-of-the-snare.jpeg",
+        image: "character-ability-cards/frosthaven/TA/fh-lure-of-the-snare.jpeg",
         initiative: 59,
         level: 5,
       },
@@ -15812,8 +14924,7 @@ export const characterAbilityCards: Record<
         name: "mother of all traps",
         class: "TA",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/TA/fh-mother-of-all-traps.jpeg",
+        image: "character-ability-cards/frosthaven/TA/fh-mother-of-all-traps.jpeg",
         initiative: 86,
         level: 9,
       },
@@ -15829,8 +14940,7 @@ export const characterAbilityCards: Record<
         name: "persistent pitfalls",
         class: "TA",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/TA/fh-persistent-pitfalls.jpeg",
+        image: "character-ability-cards/frosthaven/TA/fh-persistent-pitfalls.jpeg",
         initiative: 13,
         level: 6,
       },
@@ -15838,8 +14948,7 @@ export const characterAbilityCards: Record<
         name: "proficient hunter",
         class: "TA",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/TA/fh-proficient-hunter.jpeg",
+        image: "character-ability-cards/frosthaven/TA/fh-proficient-hunter.jpeg",
         initiative: 26,
         level: 5,
       },
@@ -15887,8 +14996,7 @@ export const characterAbilityCards: Record<
         name: "unavoidable outcome",
         class: "TA",
         game: "fh",
-        image:
-          "character-ability-cards/frosthaven/TA/fh-unavoidable-outcome.jpeg",
+        image: "character-ability-cards/frosthaven/TA/fh-unavoidable-outcome.jpeg",
         initiative: 45,
         level: 2,
       },

@@ -24,44 +24,21 @@ const toTitleCase = (phrase: string | number) => {
     .toString()
     .toLowerCase()
     .split(" ")
-    .map((word, i) =>
-      i !== 0 && articles.has(word)
-        ? word
-        : word.charAt(0).toUpperCase() + word.slice(1)
-    )
+    .map((word, i) => (i !== 0 && articles.has(word) ? word : word.charAt(0).toUpperCase() + word.slice(1)))
     .join(" ");
 };
 
-export function verifyQueryParam(
-  param: string | string[] | null,
-  defaultValue?: string
-): string | null {
+export function verifyQueryParam(param: string | string[] | null, defaultValue?: string): string | null {
   if (!param) return defaultValue;
   if (param instanceof Array) return param[0];
   return param;
 }
 
-export function getDescription(
-  game: string,
-  subject: string,
-  cards: Card[]
-): string {
+export function getDescription(game: string, subject: string, cards: Card[]): string {
   const gameName = games.find((g) => g.id === game)?.name;
-  const description =
-    gameName +
-    " " +
-    subject +
-    "; " +
-    cards.map((c) => toTitleCase(c.name)).join(", ");
+  const description = gameName + " " + subject + "; " + cards.map((c) => toTitleCase(c.name)).join(", ");
 
-  if (
-    !gameName ||
-    !subject ||
-    !cards ||
-    cards.length == 0 ||
-    description.trim() == ""
-  )
-    return defaultDescription;
+  if (!gameName || !subject || !cards || cards.length == 0 || description.trim() == "") return defaultDescription;
 
   return description.trim();
 }
@@ -86,17 +63,12 @@ export function getCharacterColor(char: string): string {
   return characters.find((c) => c.class === char)?.colour || defaultColour;
 }
 
-export function getCharacter(
-  game: string,
-  characterClass: string
-): Character | null {
+export function getCharacter(game: string, characterClass: string): Character | null {
   const chars = game ? characters.filter((c) => c.game === game) : characters;
   let character = chars.find((c) => c.class === characterClass);
   if (character == null) {
-    const characterClassName = characterClass.toLowerCase().replace(/\s/g, "");
-    character = chars.find(
-      (c) => c.class === nameToClassKeyMapping[characterClassName]
-    );
+    const characterClassName = characterClass?.toLowerCase().replace(/\s/g, "");
+    character = chars.find((c) => c.class === nameToClassKeyMapping[characterClassName]);
   }
 
   return character;
@@ -120,10 +92,7 @@ interface SearchResult {
   name: number | string;
 }
 
-export function customSort(
-  order: string,
-  direction: string
-): (a: SearchResult, b: SearchResult) => number {
+export function customSort(order: string, direction: string): (a: SearchResult, b: SearchResult) => number {
   return (a, b) => {
     let sort = 1;
     if (a[order] > b[order]) {
@@ -137,15 +106,9 @@ export function customSort(
   };
 }
 
-export function characterSpoilerFilter(
-  spoilers: Spoilers
-): (card: CharacterAbility) => boolean {
-  const baseCharacterClasses = new Set(
-    characters.filter((c) => c.base).map((c) => c.class)
-  );
-  const hiddenCharacterClasses = new Set(
-    characters.filter((c) => c.hidden).map((c) => c.class)
-  );
+export function characterSpoilerFilter(spoilers: Spoilers): (card: CharacterAbility) => boolean {
+  const baseCharacterClasses = new Set(characters.filter((c) => c.base).map((c) => c.class));
+  const hiddenCharacterClasses = new Set(characters.filter((c) => c.hidden).map((c) => c.class));
 
   return (card) =>
     (baseCharacterClasses.has(card.class) ||
@@ -158,9 +121,7 @@ export function itemSpoilerFilter(spoilers: Spoilers): (item: Item) => boolean {
   return (card) => {
     switch (card.source) {
       case "prosperity":
-        return (
-          card.prosperity <= parseInt(String(spoilers.items.prosperity), 10)
-        );
+        return card.prosperity <= parseInt(String(spoilers.items.prosperity), 10);
       case "random-design":
         return !!spoilers.items.recipes;
       case "solo-scenario":

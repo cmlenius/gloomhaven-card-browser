@@ -197,10 +197,8 @@ export const characters: Character[] = [
     name: "Demolitionist",
     game: "jotl",
     matImage: "character-mats/jaws-of-the-lion/jotl-demolitionist.jpeg",
-    matImageBack:
-      "character-mats/jaws-of-the-lion/jotl-demolitionist-back.jpeg",
-    sheetImage:
-      "character-perks/jaws-of-the-lion/jotl-demolitionist-perks.jpeg",
+    matImageBack: "character-mats/jaws-of-the-lion/jotl-demolitionist-back.jpeg",
+    sheetImage: "character-perks/jaws-of-the-lion/jotl-demolitionist-perks.jpeg",
     base: true,
   },
   {

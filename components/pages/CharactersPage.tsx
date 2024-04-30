@@ -1,19 +1,10 @@
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
+import { Character, CharacterAbility, Option, Spoilers } from "../../common/types";
+import { characterSpoilerFilter, customSort, getBaseUrl, getCharacterClasses } from "../../common/utils";
 import { useSpoilers } from "../../hooks/useSpoilers";
-import {
-  characterSpoilerFilter,
-  getBaseUrl,
-  getCharacterClasses,
-} from "../../common/helpers";
-import {
-  Character,
-  CharacterAbility,
-  Option,
-  Spoilers,
-} from "../../common/types";
 import CardList from "..//CardList";
 import Sort from "..//Sort";
 import Empty from "../Empty";
@@ -48,17 +39,8 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
               },
             }}
           >
-            <a
-              className={`filter-icon ${
-                characterClass === char.class ? "filter-icon-selected" : ""
-              }`}
-            >
-              <img
-                alt=""
-                src={
-                  getBaseUrl() + `icons/characters/${game}/${char.class}.png`
-                }
-              />
+            <a className={`filter-icon ${characterClass === char.class ? "filter-icon-selected" : ""}`}>
+              <img alt="" src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`} />
             </a>
           </Link>
         ))}
@@ -92,6 +74,8 @@ type PageProps = {
 const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
   const [showCharacterDetails, setShowCharacterDetails] = useState(false);
+  const [sortOrder, setsortOrder] = useState("level");
+  const [sortDirection, setSortDirection] = useState("asc");
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -100,11 +84,20 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     updateSpoilers({ ...spoilers, level: newLevel });
   };
 
-  const cardList = searchResults?.filter(characterSpoilerFilter(spoilers));
+  const handleSortOrderChange = (newValue: string) => {
+    setsortOrder(newValue);
+  };
+  const handleSortDirectionChange = (newValue: string) => {
+    setSortDirection(newValue);
+  };
+
+  const cardList =
+    searchResults
+      ?.filter(characterSpoilerFilter(spoilers))
+      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
 
   useEffect(() => {
-    if (character)
-      document.documentElement.style.setProperty("--primary", character.colour);
+    if (character) document.documentElement.style.setProperty("--primary", character.colour);
   }, [character]);
 
   return (
@@ -113,7 +106,13 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         <div className="toolbar-inner">
           <div>
             <div className="flex">
-              <Sort sortOrderOptions={sortOrderOptions} />
+              <Sort
+                sortOrderOptions={sortOrderOptions}
+                handleSortOrderChange={handleSortOrderChange}
+                handleSortDirectionChange={handleSortDirectionChange}
+                sortOrder={sortOrder}
+                sortDirection={sortDirection}
+              />
             </div>
           </div>
           {!spoilers.loading && (

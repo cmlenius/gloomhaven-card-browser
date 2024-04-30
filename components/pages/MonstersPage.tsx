@@ -1,15 +1,10 @@
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
-import {
-  getBaseUrl,
-  getCharacterColor,
-  getDefaultMonster,
-  verifyQueryParam,
-} from "../../common/helpers";
 import { Monster, Option } from "../../common/types";
+import { getBaseUrl, getCharacterColor, getDefaultMonster, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Dropdown from "../../components/Dropdown";
 
@@ -20,12 +15,7 @@ type MonsterStatCardProps = {
   monster: Monster;
 };
 
-const MonsterStatCard = ({
-  game,
-  handleIndexChange,
-  index,
-  monster,
-}: MonsterStatCardProps) => {
+const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterStatCardProps) => {
   const [rotation, setRotation] = useState(monster.isVertical ? 0 : -90);
 
   const handleBtnClick = () => {
@@ -53,9 +43,7 @@ const MonsterStatCard = ({
         {monster.statCards?.map((img, idx) => (
           <img
             key={idx}
-            className={`monster-img ${
-              index === idx ? "monster-img-active" : ""
-            }`}
+            className={`monster-img ${index === idx ? "monster-img-active" : ""}`}
             alt=""
             src={getBaseUrl() + img}
             style={{ transform: `rotate(${rotation}deg)` }}
@@ -66,11 +54,7 @@ const MonsterStatCard = ({
         {displayIndex}
       </button>
       <button className="card-flip-btn" onClick={handleBtnClick}>
-        <FontAwesomeIcon
-          className="card-flip-svg"
-          icon={faRotateLeft}
-          height="48px"
-        />
+        <FontAwesomeIcon className="card-flip-svg" icon={faRotateLeft} height="48px" />
       </button>
     </div>
   );
@@ -92,10 +76,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
   const [index, setIndex] = useState(0);
   const router = useRouter();
 
-  const monsterSearch = verifyQueryParam(
-    router.query.monster,
-    getDefaultMonster(game)
-  );
+  const monsterSearch = verifyQueryParam(router.query.monster, getDefaultMonster(game));
 
   const handleIndexChange = () => {
     setIndex((index + 1) % monster?.statCards?.length);
@@ -111,10 +92,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
   };
 
   useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--primary",
-      getCharacterColor(null)
-    );
+    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
   }, []);
 
   useEffect(() => {
@@ -127,10 +105,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
       image: abilityImage,
     })) || [];
 
-  const horizontal = ![
-    "manifestation-of-corruption",
-    "enraged-vanquisher",
-  ].includes(monster?.id);
+  const horizontal = !["manifestation-of-corruption", "enraged-vanquisher"].includes(monster?.id);
 
   return (
     <>
@@ -157,12 +132,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
         }}
       >
         {monster?.statCards && monster.statCards.length > 0 && (
-          <MonsterStatCard
-            handleIndexChange={handleIndexChange}
-            game={game}
-            index={index}
-            monster={monster}
-          />
+          <MonsterStatCard handleIndexChange={handleIndexChange} game={game} index={index} monster={monster} />
         )}
         <CardList cardList={cardList} horizontal={horizontal} />
       </div>
