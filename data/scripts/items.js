@@ -887,8 +887,7 @@ let items = [
     count: 2,
     cost: 60,
     slot: "2h",
-    source:
-      'Prosperity 9\nScenario #111 (Treasure #92)\nSection 132 -> g106\n"Strangler\'s Park"',
+    source: 'Prosperity 9\nScenario #111 (Treasure #92)\nSection 132 -> g106\n"Strangler\'s Park"',
     desc: "During your single target melee attack, you can attack any single enemy within 2 hexes.",
     folder: "64-151",
     unlockProsperity: 9,
@@ -6721,8 +6720,7 @@ let secretItems = [
     gameType: "fc",
     folder: "152-165",
     specialUnlock: "envelopeE",
-    faqImage:
-      "items/forgotten-circles/152-165/fc-1036-living-armor-reference.png",
+    faqImage: "items/forgotten-circles/152-165/fc-1036-living-armor-reference.png",
   },
 ];
 
@@ -6741,12 +6739,7 @@ items = items.map((item) => {
   let id = item.id;
   if (id == null) id = 0;
 
-  if (
-    item.gameType === "gh" ||
-    item.gameType === "fh" ||
-    item.gameType === "ghss" ||
-    item.gameType === "fc"
-  ) {
+  if (item.gameType === "gh" || item.gameType === "fh" || item.gameType === "ghss" || item.gameType === "fc") {
     id = id.toString();
     while (id.length < 3) id = "0" + id;
   } else if (item.gameType === "cs") {
@@ -6760,10 +6753,7 @@ items = items.map((item) => {
     }
   }
 
-  const imageName = item.name
-    .toLowerCase()
-    .replaceAll("'", "")
-    .replaceAll(" ", "-");
+  const imageName = item.name.toLowerCase().replaceAll("'", "").replaceAll(" ", "-");
 
   let source = item.source;
   if (item.gameType === "jotl") {
@@ -6841,9 +6831,4 @@ items = items.map((item) => {
   };
 });
 
-fs.writeFile(
-  "item-cards.js",
-  JSON.stringify(groupBy(items, "game")),
-  "utf8",
-  () => console.log("items", items.length)
-);
+fs.writeFile("item-cards.js", JSON.stringify(groupBy(items, "game")), "utf8", () => console.log("items", items.length));

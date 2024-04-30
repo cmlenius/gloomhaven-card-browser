@@ -8900,22 +8900,22 @@ events = events
         break;
       case "soe":
         eventType = "outpost";
-        season = "summer"
+        season = "summer";
         break;
       case "woe":
         eventType = "outpost";
-        season = "winter"
+        season = "winter";
         break;
       case "re":
         eventType = "road";
         break;
       case "sre":
         eventType = "road";
-        season = "summer"
+        season = "summer";
         break;
       case "wre":
         eventType = "road";
-        season = "winter"
+        season = "winter";
         break;
     }
 
@@ -8931,9 +8931,6 @@ events = events
     };
   });
 
-fs.writeFile(
-  "event-cards.js",
-  JSON.stringify(groupBy(events, "game")),
-  "utf8",
-  () => console.log("events", events.length)
+fs.writeFile("event-cards.js", JSON.stringify(groupBy(events, "game")), "utf8", () =>
+  console.log("events", events.length)
 );

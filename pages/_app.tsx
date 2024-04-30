@@ -1,5 +1,5 @@
-import "../public/global.css";
 import { SpoilersProvider } from "../hooks/useSpoilers";
+import "../public/global.css";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,15 +1,11 @@
+import { GetStaticProps } from "next";
 import { useRouter } from "next/router";
-import { GetServerSideProps } from "next";
 
-import { characterSearchResults } from "./api/characters";
-import {
-  getCharacter,
-  getDefaultCharacterClass,
-  verifyQueryParam,
-} from "../common/helpers";
-import { CharacterAbility } from "../common/types";
-import CharactersPage from "../components/pages/CharactersPage";
+import { CharacterAbility, CharacterParams } from "../common/types";
+import { getCharacter, getDefaultCharacterClass, verifyQueryParam } from "../common/utils";
 import Layout from "../components/Layout";
+import CharactersPage from "../components/pages/CharactersPage";
+import { characterSearchResults } from "../common/search-results";
 
 type PageProps = {
   searchResults: CharacterAbility[];
@@ -22,17 +18,18 @@ const Characters = ({ searchResults }: PageProps) => {
 
   return (
     <Layout title="Gloomhaven Card Browser">
-      <CharactersPage
-        character={character}
-        game={game}
-        searchResults={searchResults}
-      />
+      <CharactersPage character={character} game={game} searchResults={searchResults} />
     </Layout>
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const searchResults = await characterSearchResults(context.query);
+export default Characters;
+
+export const getStaticProps: GetStaticProps<PageProps, CharacterParams> = async () => {
+  const searchResults = characterSearchResults({
+    game: "gh",
+    character: "BR",
+  });
 
   return {
     props: {
@@ -40,5 +37,3 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     },
   };
 };
-
-export default Characters;

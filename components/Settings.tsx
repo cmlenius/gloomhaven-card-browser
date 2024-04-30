@@ -1,14 +1,10 @@
-import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose, faWarning } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from "next/router";
 
-import { useSpoilers } from "../hooks/useSpoilers";
-import {
-  getBaseUrl,
-  getCharacterClasses,
-  verifyQueryParam,
-} from "../common/helpers";
 import { Character, Spoilers } from "../common/types";
+import { getBaseUrl, getCharacterClasses, verifyQueryParam } from "../common/utils";
+import { useSpoilers } from "../hooks/useSpoilers";
 
 type ItemMiscSpoiler = {
   label: string;
@@ -69,15 +65,8 @@ const ProsperitySpoiler = (props: ProsperitySpoilerProps) => {
   const { handleItemSpoilerChange, level, spoilers } = props;
 
   return (
-    <li
-      className="prosperity-option"
-      onClick={() => handleItemSpoilerChange("prosperity", level)}
-    >
-      <input
-        checked={spoilers.items.prosperity === level}
-        readOnly
-        type="radio"
-      />
+    <li className="prosperity-option" onClick={() => handleItemSpoilerChange("prosperity", level)}>
+      <input checked={spoilers.items.prosperity === level} readOnly type="radio" />
       <span>{level}</span>
     </li>
   );
@@ -90,22 +79,10 @@ type ItemSpoilerProps = {
   spoilers: Spoilers;
 };
 
-const ItemSpoiler = ({
-  handleItemSpoilerChange,
-  label,
-  path,
-  spoilers,
-}: ItemSpoilerProps) => {
+const ItemSpoiler = ({ handleItemSpoilerChange, label, path, spoilers }: ItemSpoilerProps) => {
   return (
-    <div
-      className="spoiler-check-option"
-      onClick={() => handleItemSpoilerChange(path, !spoilers.items[path])}
-    >
-      <input
-        checked={!!spoilers.items[path] || false}
-        readOnly
-        type="checkbox"
-      />
+    <div className="spoiler-check-option" onClick={() => handleItemSpoilerChange(path, !spoilers.items[path])}>
+      <input checked={!!spoilers.items[path] || false} readOnly type="checkbox" />
       <span>{label}</span>
     </div>
   );
@@ -114,9 +91,7 @@ const ItemSpoiler = ({
 const ItemSpoilers = ({ itemSpoilers }) => {
   const { spoilers, updateSpoilers } = useSpoilers();
 
-  const allItemSpoilers = Object.keys(itemSpoilers.all).every(
-    (key) => itemSpoilers.all[key] === spoilers.items[key]
-  );
+  const allItemSpoilers = Object.keys(itemSpoilers.all).every((key) => itemSpoilers.all[key] === spoilers.items[key]);
 
   const handleItemSpoilerToggleAll = () => {
     const items = allItemSpoilers ? itemSpoilers.default : itemSpoilers.all;
@@ -137,10 +112,7 @@ const ItemSpoilers = ({ itemSpoilers }) => {
 
   return (
     <div className="spoiler-section">
-      <div
-        className="spoiler-check-option spoiler-header"
-        onClick={handleItemSpoilerToggleAll}
-      >
+      <div className="spoiler-check-option spoiler-header" onClick={handleItemSpoilerToggleAll}>
         <input checked={allItemSpoilers} readOnly type="checkbox" />
         <h4>Item Spoilers</h4>
       </div>
@@ -190,9 +162,7 @@ const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
 
   const game = verifyQueryParam(router.query?.game, "gh");
 
-  const allCharacterSpoilers = classes.every((c: Character) =>
-    spoilers.characters.has(c.class)
-  );
+  const allCharacterSpoilers = classes.every((c: Character) => spoilers.characters.has(c.class));
 
   const handleCharacterSpoilerToggleAll = () => {
     const newSet = new Set(spoilers.characters);
@@ -224,20 +194,13 @@ const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
 
   return (
     <div className="spoiler-section">
-      <div
-        className="spoiler-check-option spoiler-header"
-        onClick={handleCharacterSpoilerToggleAll}
-      >
+      <div className="spoiler-check-option spoiler-header" onClick={handleCharacterSpoilerToggleAll}>
         <input checked={allCharacterSpoilers} readOnly type="checkbox" />
         <h4>Character Spoilers</h4>
       </div>
       <ul className="character-spoilers">
         {classes.map((char, idx) => (
-          <li
-            key={idx}
-            className="spoiler-check-option"
-            onClick={() => handleCharacterSpoilerToggle(char.class)}
-          >
+          <li key={idx} className="spoiler-check-option" onClick={() => handleCharacterSpoilerToggle(char.class)}>
             <input
               checked={spoilers.characters.has(char.class)}
               readOnly
@@ -267,48 +230,29 @@ const Settings = ({ open, onClose }: SettingsProps) => {
   const router = useRouter();
   const game = verifyQueryParam(router.query.game, "gh");
   const itemSpoilers = itemSpoilerConfig[game];
-  const unlockabelClasses = getCharacterClasses(game).filter(
-    (c) => !c.base && !c.hidden
-  );
+  const unlockabelClasses = getCharacterClasses(game).filter((c) => !c.base && !c.hidden);
 
   return (
     <>
-      <div
-        className="settings-overlay"
-        onClick={onClose}
-        style={{ display: open ? "block" : "none" }}
-      />
+      <div className="settings-overlay" onClick={onClose} style={{ display: open ? "block" : "none" }} />
       <div className="settings" style={!open ? { width: "0px" } : {}}>
         <div className="settings-inner">
           <div className="settings-header">
             <div style={{ width: "24px" }} />
-            <FontAwesomeIcon
-              className="spoilers-close-icon"
-              icon={faClose}
-              onClick={onClose}
-            />
+            <FontAwesomeIcon className="spoilers-close-icon" icon={faClose} onClick={onClose} />
           </div>
           <div className="spoilers">
-            {unlockabelClasses.length > 0 && (
-              <CharacterSpoilers classes={unlockabelClasses} />
-            )}
+            {unlockabelClasses.length > 0 && <CharacterSpoilers classes={unlockabelClasses} />}
             {itemSpoilers && <ItemSpoilers itemSpoilers={itemSpoilers} />}
           </div>
           {(unlockabelClasses.length > 0 || itemSpoilers) && (
             <div className="spoilers-warning">
               <FontAwesomeIcon icon={faWarning} height="48px" />
-              <span>
-                Clicking the checkboxes above will reveal spoilers for those
-                characters and items
-              </span>
+              <span>Clicking the checkboxes above will reveal spoilers for those characters and items</span>
             </div>
           )}
           <div className="issues">
-            <a
-              href="https://github.com/cmlenius/gloomhaven-card-browser/issues"
-              rel="noreferrer"
-              target="_blank"
-            >
+            <a href="https://github.com/cmlenius/gloomhaven-card-browser/issues" rel="noreferrer" target="_blank">
               Report issues or missing content
             </a>
           </div>

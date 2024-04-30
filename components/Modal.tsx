@@ -1,6 +1,6 @@
-import { useEffect, useRef } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useRef } from "react";
 
 type ModalProps = {
   content: React.ReactNode;
@@ -29,12 +29,7 @@ const Modal = ({ content, open, onClose }: ModalProps) => {
       <div ref={ref} className="modal-content">
         {content}
         <div className="close" onClick={onClose}>
-          <FontAwesomeIcon
-            color="white"
-            icon={faClose}
-            height="28px"
-            width="28px"
-          />
+          <FontAwesomeIcon color="white" icon={faClose} height="28px" width="28px" />
         </div>
       </div>
     </div>

@@ -284,8 +284,7 @@ let abilities = [
     name: "unstoppable destruction",
     points: 28,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/BE/gh-unstoppable-destruction.png",
+    image: "character-ability-cards/gloomhaven/BE/gh-unstoppable-destruction.png",
     xws: "unstoppabledestruction",
     level: "6",
     initiative: "57",
@@ -805,8 +804,7 @@ let abilities = [
     name: "overwhelming offensive",
     points: 85,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/BS/gh-overwhelming-offensive.png",
+    image: "character-ability-cards/gloomhaven/BS/gh-overwhelming-offensive.png",
     xws: "overwhelmingoffensive",
     level: "2",
     initiative: "12",
@@ -1946,8 +1944,7 @@ let abilities = [
     name: "ethereal manifestation",
     points: 215,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.png",
+    image: "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.png",
     xws: "etherealmanifestation",
     level: "9",
     initiative: "98",
@@ -2047,8 +2044,7 @@ let abilities = [
     name: "pragmatic reinforcement",
     points: 226,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.png",
+    image: "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.png",
     xws: "pragmaticreinforcement",
     level: "7",
     initiative: "56",
@@ -2908,8 +2904,7 @@ let abilities = [
     name: "nightmarish affliction",
     points: 316,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/PH/gh-nightmarish-affliction.png",
+    image: "character-ability-cards/gloomhaven/PH/gh-nightmarish-affliction.png",
     xws: "nightmarishaffliction",
     level: "4",
     initiative: "43",
@@ -3279,8 +3274,7 @@ let abilities = [
     name: "scroll of annihilation",
     points: 353,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/QM/gh-scroll-of-annihilation.png",
+    image: "character-ability-cards/gloomhaven/QM/gh-scroll-of-annihilation.png",
     xws: "scrollofannihilation",
     level: "9",
     initiative: "56",
@@ -3940,8 +3934,7 @@ let abilities = [
     name: "visage of the inevitable",
     points: 419,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/SC/gh-visage-of-the-inevitable.png",
+    image: "character-ability-cards/gloomhaven/SC/gh-visage-of-the-inevitable.png",
     xws: "visageoftheinevitable",
     level: "5",
     initiative: "88",
@@ -4301,8 +4294,7 @@ let abilities = [
     name: "captivating performance",
     points: 455,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/SS/gh-captivating-performance.png",
+    image: "character-ability-cards/gloomhaven/SS/gh-captivating-performance.png",
     xws: "captivatingperformance",
     level: "9",
     initiative: "25",
@@ -4702,8 +4694,7 @@ let abilities = [
     name: "intervening apparitions",
     points: 499,
     expansion: "Gloomhaven",
-    image:
-      "character-ability-cards/gloomhaven/SU/gh-intervening-apparitions.png",
+    image: "character-ability-cards/gloomhaven/SU/gh-intervening-apparitions.png",
     xws: "interveningapparitions",
     level: "8",
     initiative: "68",
@@ -5463,8 +5454,7 @@ let abilities = [
     name: "anguish and salvation",
     points: 588,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-anguish-and-salvation.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-anguish-and-salvation.png",
     xws: "anguishandsalvation",
     level: "8",
     initiative: "21",
@@ -5474,8 +5464,7 @@ let abilities = [
     name: "anticipate intricacies",
     points: 589,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-anticipate-intricacies.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-anticipate-intricacies.png",
     xws: "anticipateintricacies",
     level: "1",
     initiative: "79",
@@ -5495,8 +5484,7 @@ let abilities = [
     name: "call of the nether",
     points: 591,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-call-of-the-nether.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-call-of-the-nether.png",
     xws: "callofthenether",
     level: "3",
     initiative: "43",
@@ -5506,8 +5494,7 @@ let abilities = [
     name: "careful attunement",
     points: 592,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-careful-attunement.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-careful-attunement.png",
     xws: "carefulattunement",
     level: "6",
     initiative: "07",
@@ -5557,8 +5544,7 @@ let abilities = [
     name: "deep contemplation",
     points: 597,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-deep-contemplation.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-deep-contemplation.png",
     xws: "deepcontemplation",
     level: "8",
     initiative: "91",
@@ -5568,8 +5554,7 @@ let abilities = [
     name: "dimensional divide",
     points: 598,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-dimensional-divide.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-dimensional-divide.png",
     xws: "dimensionaldivide",
     level: "5",
     initiative: "13",
@@ -5579,8 +5564,7 @@ let abilities = [
     name: "dimensional transfer",
     points: 599,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-dimensional-transfer.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-dimensional-transfer.png",
     xws: "dimensionaltransfer",
     level: "1",
     initiative: "57",
@@ -5610,8 +5594,7 @@ let abilities = [
     name: "envision the course",
     points: 602,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-envision-the-course.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-envision-the-course.png",
     xws: "envisionthecourse",
     level: "3",
     initiative: "80",
@@ -5621,8 +5604,7 @@ let abilities = [
     name: "ethereal vortex",
     points: 604,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-ethereal-vortex.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-ethereal-vortex.png",
     xws: "etherealvortex",
     level: "7",
     initiative: "59",
@@ -5632,8 +5614,7 @@ let abilities = [
     name: "gift of the void",
     points: 605,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-gift-of-the-void.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-gift-of-the-void.png",
     xws: "giftofthevoid",
     level: "2",
     initiative: "72",
@@ -5643,8 +5624,7 @@ let abilities = [
     name: "hand of destiny",
     points: 606,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-hand-of-destiny.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-hand-of-destiny.png",
     xws: "handofdestiny",
     level: "9",
     initiative: "96",
@@ -5654,8 +5634,7 @@ let abilities = [
     name: "inspiration from beyond",
     points: 607,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-inspiration-from-beyond.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-inspiration-from-beyond.png",
     xws: "inspirationfrombeyond",
     level: "X",
     initiative: "23",
@@ -5665,8 +5644,7 @@ let abilities = [
     name: "otherworldly journey",
     points: 608,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-otherworldly-journey.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-otherworldly-journey.png",
     xws: "otherworldlyjourney",
     level: "1",
     initiative: "34",
@@ -5676,8 +5654,7 @@ let abilities = [
     name: "peer into battle",
     points: 609,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-peer-into-battle.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-peer-into-battle.png",
     xws: "peerintobattle",
     level: "1",
     initiative: "82",
@@ -5697,8 +5674,7 @@ let abilities = [
     name: "preordain the path",
     points: 612,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-preordain-the-path.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-preordain-the-path.png",
     xws: "preordainthepath",
     level: "4",
     initiative: "87",
@@ -5708,8 +5684,7 @@ let abilities = [
     name: "protective aura",
     points: 613,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-protective-aura.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-protective-aura.png",
     xws: "protectiveaura",
     level: "1",
     initiative: "13",
@@ -5729,8 +5704,7 @@ let abilities = [
     name: "revitalizing fount",
     points: 615,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-revitalizing-fount.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-revitalizing-fount.png",
     xws: "revitalizingfount",
     level: "2",
     initiative: "21",
@@ -5740,8 +5714,7 @@ let abilities = [
     name: "seal their fate",
     points: 616,
     expansion: "Forgotten Circles",
-    image:
-      "character-ability-cards/forgotten-circles/DR/fc-seal-their-fate.png",
+    image: "character-ability-cards/forgotten-circles/DR/fc-seal-their-fate.png",
     xws: "sealtheirfate",
     level: "5",
     initiative: "37",
@@ -5774,8 +5747,7 @@ let abilities = [
     name: "collateral damage",
     points: 842,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/DE/jl-collateral-damage.png",
+    image: "character-ability-cards/jaws-of-the-lion/DE/jl-collateral-damage.png",
     xws: "collateraldamage",
     level: "9",
     initiative: "15",
@@ -5885,8 +5857,7 @@ let abilities = [
     name: "insult to injury",
     points: 853,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/DE/jl-insult-to-injury.png",
+    image: "character-ability-cards/jaws-of-the-lion/DE/jl-insult-to-injury.png",
     xws: "insulttoinjury",
     level: "7",
     initiative: "64",
@@ -5896,8 +5867,7 @@ let abilities = [
     name: "knock out the support",
     points: 854,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/DE/jl-knock-out-the-support.png",
+    image: "character-ability-cards/jaws-of-the-lion/DE/jl-knock-out-the-support.png",
     xws: "knockoutthesupport",
     level: "1",
     initiative: "20",
@@ -5977,8 +5947,7 @@ let abilities = [
     name: "remote detonation",
     points: 862,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/DE/jl-remote-detonation.png",
+    image: "character-ability-cards/jaws-of-the-lion/DE/jl-remote-detonation.png",
     xws: "remotedetonation",
     level: "4",
     initiative: "63",
@@ -5988,8 +5957,7 @@ let abilities = [
     name: "robotic enhancement",
     points: 863,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/DE/jl-robotic-enhancement.png",
+    image: "character-ability-cards/jaws-of-the-lion/DE/jl-robotic-enhancement.png",
     xws: "roboticenhancement",
     level: "2",
     initiative: "33",
@@ -6029,8 +5997,7 @@ let abilities = [
     name: "wholesale destruction",
     points: 867,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/DE/jl-wholesale-destruction.png",
+    image: "character-ability-cards/jaws-of-the-lion/DE/jl-wholesale-destruction.png",
     xws: "wholesaledestruction",
     level: "9",
     initiative: "34",
@@ -6121,8 +6088,7 @@ let abilities = [
     name: "disorienting barrage",
     points: 888,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-disorienting-barrage.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-disorienting-barrage.png",
     xws: "disorientingbarrage",
     level: "1",
     initiative: "51",
@@ -6152,8 +6118,7 @@ let abilities = [
     name: "executioner's axe",
     points: 891,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-executioners-axe.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-executioners-axe.png",
     xws: "executionersaxe",
     level: "9",
     initiative: "79",
@@ -6183,8 +6148,7 @@ let abilities = [
     name: "fearsome efficiency",
     points: 894,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-fearsome-efficiency.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-fearsome-efficiency.png",
     xws: "fearsomeefficiency",
     level: "3",
     initiative: "58",
@@ -6234,8 +6198,7 @@ let abilities = [
     name: "quick turnaround",
     points: 899,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-quick-turnaround.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-quick-turnaround.png",
     xws: "quickturnaround",
     level: "6",
     initiative: "11",
@@ -6275,8 +6238,7 @@ let abilities = [
     name: "ripped from the flesh",
     points: 903,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-ripped-from-the-flesh.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-ripped-from-the-flesh.png",
     xws: "rippedfromtheflesh",
     level: "4",
     initiative: "20",
@@ -6296,8 +6258,7 @@ let abilities = [
     name: "sharpened blades",
     points: 905,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-sharpened-blades.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-sharpened-blades.png",
     xws: "sharpenedblades",
     level: "3",
     initiative: "44",
@@ -6337,8 +6298,7 @@ let abilities = [
     name: "the new favorite",
     points: 909,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/HA/jl-the-new-favorite.png",
+    image: "character-ability-cards/jaws-of-the-lion/HA/jl-the-new-favorite.png",
     xws: "thenewfavorite",
     level: "5",
     initiative: "15",
@@ -6358,8 +6318,7 @@ let abilities = [
     name: "barbaric instincts",
     points: 923,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-barbaric-instincts.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-barbaric-instincts.png",
     xws: "barbaricinstincts",
     level: "2",
     initiative: "12",
@@ -6389,8 +6348,7 @@ let abilities = [
     name: "burn away the dark",
     points: 926,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-burn-away-the-dark.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-burn-away-the-dark.png",
     xws: "burnawaythedark",
     level: "4",
     initiative: "31",
@@ -6410,8 +6368,7 @@ let abilities = [
     name: "fierce brilliance",
     points: 928,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-fierce-brilliance.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-fierce-brilliance.png",
     xws: "fiercebrilliance",
     level: "6",
     initiative: "22",
@@ -6482,8 +6439,7 @@ let abilities = [
     name: "horns of the beast",
     points: 935,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-horns-of-the-beast.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-horns-of-the-beast.png",
     xws: "hornsofthebeast",
     level: "7",
     initiative: "08",
@@ -6503,8 +6459,7 @@ let abilities = [
     name: "precision strike",
     points: 937,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-precision-strike.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-precision-strike.png",
     xws: "precisionstrike",
     level: "X",
     initiative: "40",
@@ -6514,8 +6469,7 @@ let abilities = [
     name: "prismatic sickle",
     points: 938,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-prismatic-sickle.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-prismatic-sickle.png",
     xws: "prismaticsickle",
     level: "8",
     initiative: "70",
@@ -6545,8 +6499,7 @@ let abilities = [
     name: "shield of the desert",
     points: 941,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-shield-of-the-desert.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-shield-of-the-desert.png",
     xws: "shieldofthedesert",
     level: "1",
     initiative: "10",
@@ -6566,8 +6519,7 @@ let abilities = [
     name: "shocking advance",
     points: 943,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-shocking-advance.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-shocking-advance.png",
     xws: "shockingadvance",
     level: "1",
     initiative: "14",
@@ -6587,8 +6539,7 @@ let abilities = [
     name: "strangling chain",
     points: 945,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-strangling-chain.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-strangling-chain.png",
     xws: "stranglingchain",
     level: "3",
     initiative: "19",
@@ -6628,8 +6579,7 @@ let abilities = [
     name: "warmth of the sun",
     points: 949,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-warmth-of-the-sun.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-warmth-of-the-sun.png",
     xws: "warmthofthesun",
     level: "3",
     initiative: "23",
@@ -6639,8 +6589,7 @@ let abilities = [
     name: "warrior of the sun",
     points: 950,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/RG/jl-warrior-of-the-sun.png",
+    image: "character-ability-cards/jaws-of-the-lion/RG/jl-warrior-of-the-sun.png",
     xws: "warriorofthesun",
     level: "X",
     initiative: "13",
@@ -6670,8 +6619,7 @@ let abilities = [
     name: "close to the abyss",
     points: 965,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-close-to-the-abyss.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-close-to-the-abyss.png",
     xws: "closetotheabyss",
     level: "1",
     initiative: "72",
@@ -6691,8 +6639,7 @@ let abilities = [
     name: "commanding presence",
     points: 967,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-commanding-presence.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-commanding-presence.png",
     xws: "commandingpresence",
     level: "3",
     initiative: "75",
@@ -6742,8 +6689,7 @@ let abilities = [
     name: "gift of the void",
     points: 972,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-gift-of-the-void.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-gift-of-the-void.png",
     xws: "giftofthevoid",
     level: "1",
     initiative: "89",
@@ -6783,8 +6729,7 @@ let abilities = [
     name: "lull into oblivion",
     points: 976,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-lull-into-oblivion.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-lull-into-oblivion.png",
     xws: "lullintooblivion",
     level: "8",
     initiative: "11",
@@ -6794,8 +6739,7 @@ let abilities = [
     name: "lure of the void",
     points: 977,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-lure-of-the-void.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-lure-of-the-void.png",
     xws: "lureofthevoid",
     level: "1",
     initiative: "67",
@@ -6805,8 +6749,7 @@ let abilities = [
     name: "master influence",
     points: 978,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-master-influence.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-master-influence.png",
     xws: "masterinfluence",
     level: "1",
     initiative: "83",
@@ -6816,8 +6759,7 @@ let abilities = [
     name: "possessed by fate",
     points: 979,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-possessed-by-fate.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-possessed-by-fate.png",
     xws: "possessedbyfate",
     level: "9",
     initiative: "66",
@@ -6857,8 +6799,7 @@ let abilities = [
     name: "signs of the void",
     points: 983,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-signs-of-the-void.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-signs-of-the-void.png",
     xws: "signsofthevoid",
     level: "1",
     initiative: "15",
@@ -6918,8 +6859,7 @@ let abilities = [
     name: "the last journey",
     points: 989,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-the-last-journey.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-the-last-journey.png",
     xws: "thelastjourney",
     level: "4",
     initiative: "38",
@@ -6929,8 +6869,7 @@ let abilities = [
     name: "turn out the lights",
     points: 990,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-turn-out-the-lights.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-turn-out-the-lights.png",
     xws: "turnoutthelights",
     level: "1",
     initiative: "49",
@@ -6950,8 +6889,7 @@ let abilities = [
     name: "withering conviction",
     points: 992,
     expansion: "Jaws Of The Lion",
-    image:
-      "character-ability-cards/jaws-of-the-lion/VW/jl-withering-conviction.png",
+    image: "character-ability-cards/jaws-of-the-lion/VW/jl-withering-conviction.png",
     xws: "witheringconviction",
     level: "6",
     initiative: "44",
@@ -6994,8 +6932,7 @@ let abilities = [
     name: "assimilate adversaries",
     points: 997,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-assimilate-adversaries.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-assimilate-adversaries.png",
     xws: "assimilateadversaries",
     level: "6",
     initiative: "50",
@@ -7045,8 +6982,7 @@ let abilities = [
     name: "coordinated infestation",
     points: 1003,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-coordinated-infestation.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-coordinated-infestation.png",
     xws: "coordinatedinfestation",
     level: "8",
     initiative: "45",
@@ -7066,8 +7002,7 @@ let abilities = [
     name: "divide and conquer",
     points: 1005,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-divide-and-conquer.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-divide-and-conquer.png",
     xws: "divideandconquer",
     level: "9",
     initiative: "97",
@@ -7087,8 +7022,7 @@ let abilities = [
     name: "erupting mandibles",
     points: 1008,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-erupting-mandibles.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-erupting-mandibles.png",
     xws: "eruptingmandibles",
     level: "8",
     initiative: "54",
@@ -7098,8 +7032,7 @@ let abilities = [
     name: "ferocious proliferation",
     points: 1009,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-ferocious-proliferation.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-ferocious-proliferation.png",
     xws: "ferociousproliferation",
     level: "4",
     initiative: "58",
@@ -7149,8 +7082,7 @@ let abilities = [
     name: "march of multitudes",
     points: 1015,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-march-of-multitudes.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-march-of-multitudes.png",
     xws: "marchofmultitudes",
     level: "X",
     initiative: "37",
@@ -7170,8 +7102,7 @@ let abilities = [
     name: "overwhelming swarm",
     points: 1017,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-overwhelming-swarm.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-overwhelming-swarm.png",
     xws: "overwhelmingswarm",
     level: "X",
     initiative: "44",
@@ -7201,8 +7132,7 @@ let abilities = [
     name: "retribution of the hive",
     points: 1021,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/AA/cs-retribution-of-the-hive.png",
+    image: "character-ability-cards/crimson-scales/AA/cs-retribution-of-the-hive.png",
     xws: "retributionofthehive",
     level: "1",
     initiative: "16",
@@ -7322,8 +7252,7 @@ let abilities = [
     name: "astronomical strike",
     points: 1036,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-astronomical-strike.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-astronomical-strike.png",
     xws: "astronomicalstrike",
     level: "7",
     initiative: "57",
@@ -7343,8 +7272,7 @@ let abilities = [
     name: "blinding lightwaves",
     points: 1039,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-blinding-lightwaves.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-blinding-lightwaves.png",
     xws: "blindinglightwaves",
     level: "1",
     initiative: "68",
@@ -7374,8 +7302,7 @@ let abilities = [
     name: "corrosive combustion",
     points: 1042,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-corrosive-combustion.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-corrosive-combustion.png",
     xws: "corrosivecombustion",
     level: "1",
     initiative: "32",
@@ -7385,8 +7312,7 @@ let abilities = [
     name: "critical hypothesis",
     points: 1043,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-critical-hypothesis.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-critical-hypothesis.png",
     xws: "criticalhypothesis",
     level: "8",
     initiative: "16",
@@ -7396,8 +7322,7 @@ let abilities = [
     name: "critical observation",
     points: 1044,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-critical-observation.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-critical-observation.png",
     xws: "criticalobservation",
     level: "1",
     initiative: "20",
@@ -7427,8 +7352,7 @@ let abilities = [
     name: "elevated chemicals",
     points: 1048,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-elevated-chemicals.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-elevated-chemicals.png",
     xws: "elevatedchemicals",
     level: "5",
     initiative: "44",
@@ -7458,8 +7382,7 @@ let abilities = [
     name: "enviromental survey",
     points: 1051,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-enviromental-survey.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-enviromental-survey.png",
     xws: "enviromentalsurvey",
     level: "X",
     initiative: "31",
@@ -7469,8 +7392,7 @@ let abilities = [
     name: "exothermic cocktail",
     points: 1052,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-exothermic-cocktail.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-exothermic-cocktail.png",
     xws: "exothermiccocktail",
     level: "1",
     initiative: "45",
@@ -7510,8 +7432,7 @@ let abilities = [
     name: "molecular hydroblast",
     points: 1056,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-molecular-hydroblast.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-molecular-hydroblast.png",
     xws: "molecularhydroblast",
     level: "6",
     initiative: "29",
@@ -7521,8 +7442,7 @@ let abilities = [
     name: "nourishing formula",
     points: 1057,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-nourishing-formula.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-nourishing-formula.png",
     xws: "nourishingformula",
     level: "7",
     initiative: "77",
@@ -7542,8 +7462,7 @@ let abilities = [
     name: "preliminary research",
     points: 1059,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-preliminary-research.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-preliminary-research.png",
     xws: "preliminaryresearch",
     level: "1",
     initiative: "24",
@@ -7563,8 +7482,7 @@ let abilities = [
     name: "transformation libation",
     points: 1061,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-transformation-libation.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-transformation-libation.png",
     xws: "transformationlibation",
     level: "2",
     initiative: "27",
@@ -7584,8 +7502,7 @@ let abilities = [
     name: "versatile concoction",
     points: 1063,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BK/cs-versatile-concoction.png",
+    image: "character-ability-cards/crimson-scales/BK/cs-versatile-concoction.png",
     xws: "versatileconcoction",
     level: "8",
     initiative: "58",
@@ -7615,8 +7532,7 @@ let abilities = [
     name: "airborne skyrocket",
     points: 1066,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-airborne-skyrocket.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-airborne-skyrocket.png",
     xws: "airborneskyrocket",
     level: "7",
     initiative: "55",
@@ -7676,8 +7592,7 @@ let abilities = [
     name: "distant retribution",
     points: 1072,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-distant-retribution.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-distant-retribution.png",
     xws: "distantretribution",
     level: "2",
     initiative: "12",
@@ -7697,8 +7612,7 @@ let abilities = [
     name: "exploding cannonball",
     points: 1074,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-exploding-cannonball.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-exploding-cannonball.png",
     xws: "explodingcannonball",
     level: "1",
     initiative: "88",
@@ -7788,8 +7702,7 @@ let abilities = [
     name: "prolific perforation",
     points: 1083,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-prolific-perforation.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-prolific-perforation.png",
     xws: "prolificperforation",
     level: "6",
     initiative: "62",
@@ -7819,8 +7732,7 @@ let abilities = [
     name: "rolling into position",
     points: 1086,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-rolling-into-position.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-rolling-into-position.png",
     xws: "rollingintoposition",
     level: "1",
     initiative: "14",
@@ -7840,8 +7752,7 @@ let abilities = [
     name: "stationary enhancements",
     points: 1088,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-stationary-enhancements.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-stationary-enhancements.png",
     xws: "stationaryenhancements",
     level: "3",
     initiative: "20",
@@ -7851,8 +7762,7 @@ let abilities = [
     name: "supercharged gunpowder",
     points: 1089,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-supercharged-gunpowder.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-supercharged-gunpowder.png",
     xws: "superchargedgunpowder",
     level: "9",
     initiative: "90",
@@ -7882,8 +7792,7 @@ let abilities = [
     name: "unbreakable position",
     points: 1092,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-unbreakable-position.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-unbreakable-position.png",
     xws: "unbreakableposition",
     level: "5",
     initiative: "15",
@@ -7893,8 +7802,7 @@ let abilities = [
     name: "unexpected bombshell",
     points: 1093,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/BM/cs-unexpected-bombshell.png",
+    image: "character-ability-cards/crimson-scales/BM/cs-unexpected-bombshell.png",
     xws: "unexpectedbombshell",
     level: "1",
     initiative: "85",
@@ -7924,8 +7832,7 @@ let abilities = [
     name: "champion of chains",
     points: 1096,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CG/cs-champion-of-chains.png",
+    image: "character-ability-cards/crimson-scales/CG/cs-champion-of-chains.png",
     xws: "championofchains",
     level: "9",
     initiative: "10",
@@ -8045,8 +7952,7 @@ let abilities = [
     name: "merciless beatdown",
     points: 1108,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CG/cs-merciless-beatdown.png",
+    image: "character-ability-cards/crimson-scales/CG/cs-merciless-beatdown.png",
     xws: "mercilessbeatdown",
     level: "1",
     initiative: "26",
@@ -8126,8 +8032,7 @@ let abilities = [
     name: "sweeping collision",
     points: 1116,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CG/cs-sweeping-collision.png",
+    image: "character-ability-cards/crimson-scales/CG/cs-sweeping-collision.png",
     xws: "sweepingcollision",
     level: "3",
     initiative: "20",
@@ -8137,8 +8042,7 @@ let abilities = [
     name: "syndicated assault",
     points: 1117,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CG/cs-syndicated-assault.png",
+    image: "character-ability-cards/crimson-scales/CG/cs-syndicated-assault.png",
     xws: "syndicatedassault",
     level: "8",
     initiative: "68",
@@ -8148,8 +8052,7 @@ let abilities = [
     name: "tighten the chains",
     points: 1118,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CG/cs-tighten-the-chains.png",
+    image: "character-ability-cards/crimson-scales/CG/cs-tighten-the-chains.png",
     xws: "tightenthechains",
     level: "5",
     initiative: "17",
@@ -8179,8 +8082,7 @@ let abilities = [
     name: "untouchable keeper",
     points: 1121,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CG/cs-untouchable-keeper.png",
+    image: "character-ability-cards/crimson-scales/CG/cs-untouchable-keeper.png",
     xws: "untouchablekeeper",
     level: "1",
     initiative: "14",
@@ -8230,8 +8132,7 @@ let abilities = [
     name: "catastrophic cattle",
     points: 1127,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CT/cs-catastrophic-cattle.png",
+    image: "character-ability-cards/crimson-scales/CT/cs-catastrophic-cattle.png",
     xws: "catastrophiccattle",
     level: "1",
     initiative: "88",
@@ -8361,8 +8262,7 @@ let abilities = [
     name: "positive reinforcement",
     points: 1146,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CT/cs-positive-reinforcement.png",
+    image: "character-ability-cards/crimson-scales/CT/cs-positive-reinforcement.png",
     xws: "positivereinforcement",
     level: "5",
     initiative: "24",
@@ -8452,8 +8352,7 @@ let abilities = [
     name: "strapping bullwhip",
     points: 1159,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/CT/cs-strapping-bullwhip.png",
+    image: "character-ability-cards/crimson-scales/CT/cs-strapping-bullwhip.png",
     xws: "strappingbullwhip",
     level: "7",
     initiative: "29",
@@ -8573,8 +8472,7 @@ let abilities = [
     name: "controlled aggression",
     points: 1172,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/FK/cs-controlled-aggression.png",
+    image: "character-ability-cards/crimson-scales/FK/cs-controlled-aggression.png",
     xws: "controlledaggression",
     level: "1",
     initiative: "77",
@@ -8584,8 +8482,7 @@ let abilities = [
     name: "coordinated attack",
     points: 1173,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/FK/cs-coordinated-attack.png",
+    image: "character-ability-cards/crimson-scales/FK/cs-coordinated-attack.png",
     xws: "coordinatedattack",
     level: "1",
     initiative: "22",
@@ -8675,8 +8572,7 @@ let abilities = [
     name: "incident commander",
     points: 1183,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/FK/cs-incident-commander.png",
+    image: "character-ability-cards/crimson-scales/FK/cs-incident-commander.png",
     xws: "incidentcommander",
     level: "9",
     initiative: "17",
@@ -8686,8 +8582,7 @@ let abilities = [
     name: "jack of all trades",
     points: 1184,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/FK/cs-jack-of-all-trades.png",
+    image: "character-ability-cards/crimson-scales/FK/cs-jack-of-all-trades.png",
     xws: "jackofalltrades",
     level: "4",
     initiative: "27",
@@ -8907,8 +8802,7 @@ let abilities = [
     name: "gateway to the abyss",
     points: 1206,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HO/cs-gateway-to-the-abyss.png",
+    image: "character-ability-cards/crimson-scales/HO/cs-gateway-to-the-abyss.png",
     xws: "gatewaytotheabyss",
     level: "7",
     initiative: "66",
@@ -8948,8 +8842,7 @@ let abilities = [
     name: "majestic malevolence",
     points: 1210,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HO/cs-majestic-malevolence.png",
+    image: "character-ability-cards/crimson-scales/HO/cs-majestic-malevolence.png",
     xws: "majesticmalevolence",
     level: "3",
     initiative: "89",
@@ -8999,8 +8892,7 @@ let abilities = [
     name: "one with nothingness",
     points: 1215,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HO/cs-one-with-nothingness.png",
+    image: "character-ability-cards/crimson-scales/HO/cs-one-with-nothingness.png",
     xws: "onewithnothingness",
     level: "X",
     initiative: "31",
@@ -9010,8 +8902,7 @@ let abilities = [
     name: "prescient voidmastery",
     points: 1216,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HO/cs-prescient-voidmastery.png",
+    image: "character-ability-cards/crimson-scales/HO/cs-prescient-voidmastery.png",
     xws: "prescientvoidmastery",
     level: "9",
     initiative: "11",
@@ -9091,8 +8982,7 @@ let abilities = [
     name: "untethered advance",
     points: 1224,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HO/cs-untethered-advance.png",
+    image: "character-ability-cards/crimson-scales/HO/cs-untethered-advance.png",
     xws: "untetheredadvance",
     level: "1",
     initiative: "46",
@@ -9102,8 +8992,7 @@ let abilities = [
     name: "void-enhanced armory",
     points: 1225,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HO/cs-void-enhanced-armory.png",
+    image: "character-ability-cards/crimson-scales/HO/cs-void-enhanced-armory.png",
     xws: "voidenhancedarmory",
     level: "4",
     initiative: "17",
@@ -9163,8 +9052,7 @@ let abilities = [
     name: "bringer of miracles",
     points: 1231,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-bringer-of-miracles.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-bringer-of-miracles.png",
     xws: "bringerofmiracles",
     level: "9",
     initiative: "36",
@@ -9214,8 +9102,7 @@ let abilities = [
     name: "encouraged conviction",
     points: 1236,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-encouraged-conviction.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-encouraged-conviction.png",
     xws: "encouragedconviction",
     level: "3",
     initiative: "14",
@@ -9225,8 +9112,7 @@ let abilities = [
     name: "expansive permanence",
     points: 1237,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-expansive-permanence.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-expansive-permanence.png",
     xws: "expansivepermanence",
     level: "9",
     initiative: "09",
@@ -9266,8 +9152,7 @@ let abilities = [
     name: "impetuous inquisition",
     points: 1241,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-impetuous-inquisition.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-impetuous-inquisition.png",
     xws: "impetuousinquisition",
     level: "1",
     initiative: "28",
@@ -9347,8 +9232,7 @@ let abilities = [
     name: "prosperous concord",
     points: 1249,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-prosperous-concord.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-prosperous-concord.png",
     xws: "prosperousconcord",
     level: "X",
     initiative: "43",
@@ -9378,8 +9262,7 @@ let abilities = [
     name: "righteous atonement",
     points: 1252,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-righteous-atonement.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-righteous-atonement.png",
     xws: "righteousatonement",
     level: "8",
     initiative: "20",
@@ -9389,8 +9272,7 @@ let abilities = [
     name: "rooted subjugation",
     points: 1253,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-rooted-subjugation.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-rooted-subjugation.png",
     xws: "rootedsubjugation",
     level: "4",
     initiative: "30",
@@ -9460,8 +9342,7 @@ let abilities = [
     name: "symphony of oppression",
     points: 1260,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-symphony-of-oppression.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-symphony-of-oppression.png",
     xws: "symphonyofoppression",
     level: "7",
     initiative: "86",
@@ -9491,8 +9372,7 @@ let abilities = [
     name: "vengeful veneration",
     points: 1263,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/HP/cs-vengeful-veneration.png",
+    image: "character-ability-cards/crimson-scales/HP/cs-vengeful-veneration.png",
     xws: "vengefulveneration",
     level: "8",
     initiative: "78",
@@ -9582,8 +9462,7 @@ let abilities = [
     name: "colorful wavelengths",
     points: 1272,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/LU/cs-colorful-wavelengths.png",
+    image: "character-ability-cards/crimson-scales/LU/cs-colorful-wavelengths.png",
     xws: "colorfulwavelengths",
     level: "5",
     initiative: "83",
@@ -9603,8 +9482,7 @@ let abilities = [
     name: "dominating illumination",
     points: 1274,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/LU/cs-dominating-illumination.png",
+    image: "character-ability-cards/crimson-scales/LU/cs-dominating-illumination.png",
     xws: "dominatingillumination",
     level: "8",
     initiative: "51",
@@ -9684,8 +9562,7 @@ let abilities = [
     name: "imposing brilliance",
     points: 1282,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/LU/cs-imposing-brilliance.png",
+    image: "character-ability-cards/crimson-scales/LU/cs-imposing-brilliance.png",
     xws: "imposingbrilliance",
     level: "6",
     initiative: "86",
@@ -9725,8 +9602,7 @@ let abilities = [
     name: "optical refraction",
     points: 1287,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/LU/cs-optical-refraction.png",
+    image: "character-ability-cards/crimson-scales/LU/cs-optical-refraction.png",
     xws: "opticalrefraction",
     level: "8",
     initiative: "37",
@@ -9766,8 +9642,7 @@ let abilities = [
     name: "shimmering scuttle",
     points: 1291,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/LU/cs-shimmering-scuttle.png",
+    image: "character-ability-cards/crimson-scales/LU/cs-shimmering-scuttle.png",
     xws: "shimmeringscuttle",
     level: "1",
     initiative: "21",
@@ -9897,8 +9772,7 @@ let abilities = [
     name: "complex toxicology",
     points: 1304,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/MF/cs-complex-toxicology.png",
+    image: "character-ability-cards/crimson-scales/MF/cs-complex-toxicology.png",
     xws: "complextoxicology",
     level: "9",
     initiative: "35",
@@ -9918,8 +9792,7 @@ let abilities = [
     name: "copperneck berries",
     points: 1306,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/MF/cs-copperneck-berries.png",
+    image: "character-ability-cards/crimson-scales/MF/cs-copperneck-berries.png",
     xws: "copperneckberries",
     level: "X",
     initiative: "70",
@@ -9979,8 +9852,7 @@ let abilities = [
     name: "lingering swamp moss",
     points: 1313,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/MF/cs-lingering-swamp-moss.png",
+    image: "character-ability-cards/crimson-scales/MF/cs-lingering-swamp-moss.png",
     xws: "lingeringswampmoss",
     level: "9",
     initiative: "94",
@@ -10040,8 +9912,7 @@ let abilities = [
     name: "radiant forest fungi",
     points: 1319,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/MF/cs-radiant-forest-fungi.png",
+    image: "character-ability-cards/crimson-scales/MF/cs-radiant-forest-fungi.png",
     xws: "radiantforestfungi",
     level: "4",
     initiative: "06",
@@ -10161,8 +10032,7 @@ let abilities = [
     name: "annihilating contraption",
     points: 1332,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-annihilating-contraption.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-annihilating-contraption.png",
     xws: "annihilatingcontraption",
     level: "9",
     initiative: "89",
@@ -10172,8 +10042,7 @@ let abilities = [
     name: "double-barrel railcaster",
     points: 1334,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-double-barrel-railcaster.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-double-barrel-railcaster.png",
     xws: "doublebarrelrailcaster",
     level: "8",
     initiative: "37",
@@ -10183,8 +10052,7 @@ let abilities = [
     name: "elemental condenser",
     points: 1335,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-elemental-condenser.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-elemental-condenser.png",
     xws: "elementalcondenser",
     level: "2",
     initiative: "04",
@@ -10194,8 +10062,7 @@ let abilities = [
     name: "energy transmission",
     points: 1336,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-energy-transmission.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-energy-transmission.png",
     xws: "energytransmission",
     level: "4",
     initiative: "0.5",
@@ -10205,8 +10072,7 @@ let abilities = [
     name: "fragmentation grenade",
     points: 1337,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-fragmentation-grenade.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-fragmentation-grenade.png",
     xws: "fragmentationgrenade",
     level: "1",
     initiative: "45",
@@ -10226,8 +10092,7 @@ let abilities = [
     name: "gravity inverter module",
     points: 1339,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-gravity-inverter-module.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-gravity-inverter-module.png",
     xws: "gravityinvertermodule",
     level: "1",
     initiative: "20",
@@ -10237,8 +10102,7 @@ let abilities = [
     name: "improvised exosuit",
     points: 1340,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-improvised-exosuit.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-improvised-exosuit.png",
     xws: "improvisedexosuit",
     level: "X",
     initiative: "90",
@@ -10258,8 +10122,7 @@ let abilities = [
     name: "instant relocation matrix",
     points: 1344,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-instant-relocation-matrix.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-instant-relocation-matrix.png",
     xws: "instantrelocationmatrix",
     level: "8",
     initiative: "0.9",
@@ -10269,8 +10132,7 @@ let abilities = [
     name: "jury-rigged machine",
     points: 1345,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-jury-rigged-machine.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-jury-rigged-machine.png",
     xws: "juryriggedmachine",
     level: "1",
     initiative: "88",
@@ -10300,8 +10162,7 @@ let abilities = [
     name: "oscillating projector",
     points: 1350,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-oscillating-projector.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-oscillating-projector.png",
     xws: "oscillatingprojector",
     level: "5",
     initiative: "22",
@@ -10331,8 +10192,7 @@ let abilities = [
     name: "phase field emitter",
     points: 1353,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-phase-field-emitter.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-phase-field-emitter.png",
     xws: "phasefieldemitter",
     level: "1",
     initiative: "12",
@@ -10392,8 +10252,7 @@ let abilities = [
     name: "repurpose leftovers",
     points: 1359,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-repurpose-leftovers.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-repurpose-leftovers.png",
     xws: "repurposeleftovers",
     level: "1",
     initiative: "68",
@@ -10433,8 +10292,7 @@ let abilities = [
     name: "trajectory diverter",
     points: 1364,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/QA/cs-trajectory-diverter.png",
+    image: "character-ability-cards/crimson-scales/QA/cs-trajectory-diverter.png",
     xws: "trajectorydiverter",
     level: "2",
     initiative: "0.3",
@@ -10464,8 +10322,7 @@ let abilities = [
     name: "belly of the beast",
     points: 1368,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/RM/cs-belly-of-the-beast.png",
+    image: "character-ability-cards/crimson-scales/RM/cs-belly-of-the-beast.png",
     xws: "bellyofthebeast",
     level: "9",
     initiative: "38",
@@ -10605,8 +10462,7 @@ let abilities = [
     name: "indomitable craving",
     points: 1382,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/RM/cs-indomitable-craving.png",
+    image: "character-ability-cards/crimson-scales/RM/cs-indomitable-craving.png",
     xws: "indomitablecraving",
     level: "7",
     initiative: "22",
@@ -10696,8 +10552,7 @@ let abilities = [
     name: "scrape and scrounge",
     points: 1391,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/RM/cs-scrape-and-scrounge.png",
+    image: "character-ability-cards/crimson-scales/RM/cs-scrape-and-scrounge.png",
     xws: "scrapeandscrounge",
     level: "X",
     initiative: "24",
@@ -10737,8 +10592,7 @@ let abilities = [
     name: "survival instincts",
     points: 1395,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/RM/cs-survival-instincts.png",
+    image: "character-ability-cards/crimson-scales/RM/cs-survival-instincts.png",
     xws: "survivalinstincts",
     level: "7",
     initiative: "13",
@@ -10798,8 +10652,7 @@ let abilities = [
     name: "circle of lifeless",
     points: 1402,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/SP/cs-circle-of-lifeless.png",
+    image: "character-ability-cards/crimson-scales/SP/cs-circle-of-lifeless.png",
     xws: "circleoflifeless",
     level: "8",
     initiative: "90",
@@ -10819,8 +10672,7 @@ let abilities = [
     name: "death is not defeat",
     points: 1404,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/SP/cs-death-is-not-defeat.png",
+    image: "character-ability-cards/crimson-scales/SP/cs-death-is-not-defeat.png",
     xws: "deathisnotdefeat",
     level: "9",
     initiative: "97",
@@ -10900,8 +10752,7 @@ let abilities = [
     name: "forceful apparition",
     points: 1419,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/SP/cs-forceful-apparition.png",
+    image: "character-ability-cards/crimson-scales/SP/cs-forceful-apparition.png",
     xws: "forcefulapparition",
     level: "X",
     initiative: "16",
@@ -10921,8 +10772,7 @@ let abilities = [
     name: "horrific nightmare",
     points: 1423,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/SP/cs-horrific-nightmare.png",
+    image: "character-ability-cards/crimson-scales/SP/cs-horrific-nightmare.png",
     xws: "horrificnightmare",
     level: "6",
     initiative: "71",
@@ -10932,8 +10782,7 @@ let abilities = [
     name: "incorporeal transport",
     points: 1425,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/SP/cs-incorporeal-transport.png",
+    image: "character-ability-cards/crimson-scales/SP/cs-incorporeal-transport.png",
     xws: "incorporealtransport",
     level: "1",
     initiative: "74",
@@ -11083,8 +10932,7 @@ let abilities = [
     name: "absolute magnitude",
     points: 1450,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-absolute-magnitude.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-absolute-magnitude.png",
     xws: "absolutemagnitude",
     level: "6",
     initiative: "20",
@@ -11104,8 +10952,7 @@ let abilities = [
     name: "aligned constellations",
     points: 1452,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-aligned-constellations.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-aligned-constellations.png",
     xws: "alignedconstellations",
     level: "1",
     initiative: "32",
@@ -11125,8 +10972,7 @@ let abilities = [
     name: "celestial maneuver",
     points: 1454,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-celestial-maneuver.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-celestial-maneuver.png",
     xws: "celestialmaneuver",
     level: "8",
     initiative: "88",
@@ -11206,8 +11052,7 @@ let abilities = [
     name: "gravitational flip",
     points: 1462,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-gravitational-flip.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-gravitational-flip.png",
     xws: "gravitationalflip",
     level: "X",
     initiative: "13",
@@ -11217,8 +11062,7 @@ let abilities = [
     name: "interplanar voyager",
     points: 1463,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-interplanar-voyager.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-interplanar-voyager.png",
     xws: "interplanarvoyager",
     level: "9",
     initiative: "24",
@@ -11268,8 +11112,7 @@ let abilities = [
     name: "pierce the firmament",
     points: 1468,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-pierce-the-firmament.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-pierce-the-firmament.png",
     xws: "piercethefirmament",
     level: "9",
     initiative: "33",
@@ -11289,8 +11132,7 @@ let abilities = [
     name: "proportional exchange",
     points: 1470,
     expansion: "Crimson Scales",
-    image:
-      "character-ability-cards/crimson-scales/ST/cs-proportional-exchange.png",
+    image: "character-ability-cards/crimson-scales/ST/cs-proportional-exchange.png",
     xws: "proportionalexchange",
     level: "2",
     initiative: "84",
@@ -11420,8 +11262,7 @@ let abilities = [
     name: "aukotu's defiant resolve",
     points: 1483,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-aukotus-defiant-resolve.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-aukotus-defiant-resolve.png",
     xws: "aukotusdefiantresolve",
     level: "9",
     initiative: "32",
@@ -11431,8 +11272,7 @@ let abilities = [
     name: "awnu's retribution",
     points: 1484,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-awnus-retribution.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-awnus-retribution.png",
     xws: "awnusretribution",
     level: "6",
     initiative: "19",
@@ -11442,8 +11282,7 @@ let abilities = [
     name: "blood of champions",
     points: 1485,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-blood-of-champions.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-blood-of-champions.png",
     xws: "bloodofchampions",
     level: "5",
     initiative: "82",
@@ -11473,8 +11312,7 @@ let abilities = [
     name: "gift of the dying",
     points: 1488,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-gift-of-the-dying.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-gift-of-the-dying.png",
     xws: "giftofthedying",
     level: "8",
     initiative: "78",
@@ -11504,8 +11342,7 @@ let abilities = [
     name: "hands of three tribes",
     points: 1491,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-hands-of-three-tribes.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-hands-of-three-tribes.png",
     xws: "handsofthreetribes",
     level: "1",
     initiative: "70",
@@ -11535,8 +11372,7 @@ let abilities = [
     name: "matriarch's dominance",
     points: 1494,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-matriarchs-dominance.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-matriarchs-dominance.png",
     xws: "matriarchsdominance",
     level: "2",
     initiative: "22",
@@ -11546,8 +11382,7 @@ let abilities = [
     name: "memory of the hunt",
     points: 1495,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-memory-of-the-hunt.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-memory-of-the-hunt.png",
     xws: "memoryofthehunt",
     level: "4",
     initiative: "12",
@@ -11567,8 +11402,7 @@ let abilities = [
     name: "remnants of the broken",
     points: 1497,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-remnants-of-the-broken.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-remnants-of-the-broken.png",
     xws: "remnantsofthebroken",
     level: "7",
     initiative: "67",
@@ -11578,8 +11412,7 @@ let abilities = [
     name: "savvas coreglass knife",
     points: 1498,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-savvas-coreglass-knife.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-savvas-coreglass-knife.png",
     xws: "savvascoreglassknife",
     level: "7",
     initiative: "81",
@@ -11589,8 +11422,7 @@ let abilities = [
     name: "the arms of oxcepi",
     points: 1499,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-the-arms-of-oxcepi.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-the-arms-of-oxcepi.png",
     xws: "thearmsofoxcepi",
     level: "5",
     initiative: "56",
@@ -11600,8 +11432,7 @@ let abilities = [
     name: "the grave beckons",
     points: 1500,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-the-grave-beckons.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-the-grave-beckons.png",
     xws: "thegravebeckons",
     level: "2",
     initiative: "37",
@@ -11611,8 +11442,7 @@ let abilities = [
     name: "tomeg's shield-arm",
     points: 1501,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-tomegs-shield-arm.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-tomegs-shield-arm.png",
     xws: "tomegsshieldarm",
     level: "1",
     initiative: "18",
@@ -11642,8 +11472,7 @@ let abilities = [
     name: "vengeance of aksut",
     points: 1504,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-vengeance-of-aksut.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-vengeance-of-aksut.png",
     xws: "vengeanceofaksut",
     level: "3",
     initiative: "15",
@@ -11693,8 +11522,7 @@ let abilities = [
     name: "will of the huntress",
     points: 1509,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/IN/toa-will-of-the-huntress.png",
+    image: "character-ability-cards/trail-of-ashes/IN/toa-will-of-the-huntress.png",
     xws: "willofthehuntress",
     level: "8",
     initiative: "40",
@@ -11984,8 +11812,7 @@ let abilities = [
     name: "unyielding charge",
     points: 1538,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/RH/toa-unyielding-charge.png",
+    image: "character-ability-cards/trail-of-ashes/RH/toa-unyielding-charge.png",
     xws: "unyieldingcharge",
     level: "7",
     initiative: "26",
@@ -11995,8 +11822,7 @@ let abilities = [
     name: "wreathed in flame",
     points: 1539,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/RH/toa-wreathed-in-flame.png",
+    image: "character-ability-cards/trail-of-ashes/RH/toa-wreathed-in-flame.png",
     xws: "wreathedinflame",
     level: "X",
     initiative: "63",
@@ -12016,8 +11842,7 @@ let abilities = [
     name: "amassed formation",
     points: 1541,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-amassed-formation.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-amassed-formation.png",
     xws: "amassedformation",
     level: "5",
     initiative: "16",
@@ -12077,8 +11902,7 @@ let abilities = [
     name: "glistening facets",
     points: 1547,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-glistening-facets.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-glistening-facets.png",
     xws: "glisteningfacets",
     level: "4",
     initiative: "58",
@@ -12098,8 +11922,7 @@ let abilities = [
     name: "jubilant recovery",
     points: 1549,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-jubilant-recovery.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-jubilant-recovery.png",
     xws: "jubilantrecovery",
     level: "1",
     initiative: "44",
@@ -12129,8 +11952,7 @@ let abilities = [
     name: "penetrating fragments",
     points: 1552,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-penetrating-fragments.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-penetrating-fragments.png",
     xws: "penetratingfragments",
     level: "1",
     initiative: "76",
@@ -12170,8 +11992,7 @@ let abilities = [
     name: "rapid calcification",
     points: 1556,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-rapid-calcification.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-rapid-calcification.png",
     xws: "rapidcalcification",
     level: "7",
     initiative: "48",
@@ -12181,8 +12002,7 @@ let abilities = [
     name: "reciprocal resonance",
     points: 1557,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-reciprocal-resonance.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-reciprocal-resonance.png",
     xws: "reciprocalresonance",
     level: "X",
     initiative: "21",
@@ -12192,8 +12012,7 @@ let abilities = [
     name: "reflecting surface",
     points: 1558,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-reflecting-surface.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-reflecting-surface.png",
     xws: "reflectingsurface",
     level: "6",
     initiative: "35",
@@ -12233,8 +12052,7 @@ let abilities = [
     name: "seismic shockwave",
     points: 1562,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-seismic-shockwave.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-seismic-shockwave.png",
     xws: "seismicshockwave",
     level: "8",
     initiative: "32",
@@ -12274,8 +12092,7 @@ let abilities = [
     name: "triboluminescence",
     points: 1566,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-triboluminescence.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-triboluminescence.png",
     xws: "triboluminescence",
     level: "1",
     initiative: "30",
@@ -12285,8 +12102,7 @@ let abilities = [
     name: "turbulent absorption",
     points: 1567,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-turbulent-absorption.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-turbulent-absorption.png",
     xws: "turbulentabsorption",
     level: "9",
     initiative: "52",
@@ -12296,8 +12112,7 @@ let abilities = [
     name: "unyielding stalagmite",
     points: 1568,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/SR/toa-unyielding-stalagmite.png",
+    image: "character-ability-cards/trail-of-ashes/SR/toa-unyielding-stalagmite.png",
     xws: "unyieldingstalagmite",
     level: "7",
     initiative: "71",
@@ -12407,8 +12222,7 @@ let abilities = [
     name: "electromagnetic pulse",
     points: 1579,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-electromagnetic-pulse.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-electromagnetic-pulse.png",
     xws: "electromagneticpulse",
     level: "1",
     initiative: "22",
@@ -12418,8 +12232,7 @@ let abilities = [
     name: "electrostatic bypass",
     points: 1580,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-electrostatic-bypass.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-electrostatic-bypass.png",
     xws: "electrostaticbypass",
     level: "6",
     initiative: "15",
@@ -12439,8 +12252,7 @@ let abilities = [
     name: "flash of lightning",
     points: 1582,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-flash-of-lightning.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-flash-of-lightning.png",
     xws: "flashoflightning",
     level: "1",
     initiative: "11",
@@ -12490,8 +12302,7 @@ let abilities = [
     name: "nimble resilience",
     points: 1587,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-nimble-resilience.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-nimble-resilience.png",
     xws: "nimbleresilience",
     level: "X",
     initiative: "66",
@@ -12511,8 +12322,7 @@ let abilities = [
     name: "radiant explosion",
     points: 1589,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-radiant-explosion.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-radiant-explosion.png",
     xws: "radiantexplosion",
     level: "7",
     initiative: "18",
@@ -12522,8 +12332,7 @@ let abilities = [
     name: "rejuvenating charge",
     points: 1590,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-rejuvenating-charge.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-rejuvenating-charge.png",
     xws: "rejuvenatingcharge",
     level: "4",
     initiative: "21",
@@ -12543,8 +12352,7 @@ let abilities = [
     name: "scorching arcbolt",
     points: 1592,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-scorching-arcbolt.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-scorching-arcbolt.png",
     xws: "scorchingarcbolt",
     level: "1",
     initiative: "45",
@@ -12594,8 +12402,7 @@ let abilities = [
     name: "stormy retribution",
     points: 1597,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TP/toa-stormy-retribution.png",
+    image: "character-ability-cards/trail-of-ashes/TP/toa-stormy-retribution.png",
     xws: "stormyretribution",
     level: "5",
     initiative: "77",
@@ -12715,8 +12522,7 @@ let abilities = [
     name: "devoured by thorns",
     points: 1609,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TR/toa-devoured-by-thorns.png",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-devoured-by-thorns.png",
     xws: "devouredbythorns",
     level: "6",
     initiative: "72",
@@ -12726,8 +12532,7 @@ let abilities = [
     name: "encased in thorns",
     points: 1610,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TR/toa-encased-in-thorns.png",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-encased-in-thorns.png",
     xws: "encasedinthorns",
     level: "1",
     initiative: "22",
@@ -12837,8 +12642,7 @@ let abilities = [
     name: "prickly situation",
     points: 1621,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TR/toa-prickly-situation.png",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-prickly-situation.png",
     xws: "pricklysituation",
     level: "4",
     initiative: "20",
@@ -12848,8 +12652,7 @@ let abilities = [
     name: "rabid undergrowth",
     points: 1622,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TR/toa-rabid-undergrowth.png",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-rabid-undergrowth.png",
     xws: "rabidundergrowth",
     level: "7",
     initiative: "27",
@@ -12869,8 +12672,7 @@ let abilities = [
     name: "shrewd overgrowth",
     points: 1624,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TR/toa-shrewd-overgrowth.png",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-shrewd-overgrowth.png",
     xws: "shrewdovergrowth",
     level: "1",
     initiative: "92",
@@ -12940,8 +12742,7 @@ let abilities = [
     name: "welcome to the jungle",
     points: 1631,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/TR/toa-welcome-to-the-jungle.png",
+    image: "character-ability-cards/trail-of-ashes/TR/toa-welcome-to-the-jungle.png",
     xws: "welcometothejungle",
     level: "3",
     initiative: "41",
@@ -12961,8 +12762,7 @@ let abilities = [
     name: "beckoning of the beast",
     points: 1633,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-beckoning-of-the-beast.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-beckoning-of-the-beast.png",
     xws: "beckoningofthebeast",
     level: "V",
     initiative: "26",
@@ -12982,8 +12782,7 @@ let abilities = [
     name: "blasphemous charge",
     points: 1635,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-blasphemous-charge.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-blasphemous-charge.png",
     xws: "blasphemouscharge",
     level: "X",
     initiative: "88",
@@ -13053,8 +12852,7 @@ let abilities = [
     name: "embrace the chaos",
     points: 1642,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-embrace-the-chaos.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-embrace-the-chaos.png",
     xws: "embracethechaos",
     level: "3",
     initiative: "75",
@@ -13074,8 +12872,7 @@ let abilities = [
     name: "fatal retribution",
     points: 1644,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-fatal-retribution.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-fatal-retribution.png",
     xws: "fatalretribution",
     level: "4",
     initiative: "51",
@@ -13155,8 +12952,7 @@ let abilities = [
     name: "malicious defamation",
     points: 1652,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-malicious-defamation.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-malicious-defamation.png",
     xws: "maliciousdefamation",
     level: "4",
     initiative: "55",
@@ -13166,8 +12962,7 @@ let abilities = [
     name: "out of the shadows",
     points: 1653,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-out-of-the-shadows.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-out-of-the-shadows.png",
     xws: "outoftheshadows",
     level: "X",
     initiative: "84",
@@ -13177,8 +12972,7 @@ let abilities = [
     name: "raging pandemonium",
     points: 1654,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-raging-pandemonium.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-raging-pandemonium.png",
     xws: "ragingpandemonium",
     level: "V",
     initiative: "14",
@@ -13228,8 +13022,7 @@ let abilities = [
     name: "sinister enslavement",
     points: 1659,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-sinister-enslavement.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-sinister-enslavement.png",
     xws: "sinisterenslavement",
     level: "8",
     initiative: "50",
@@ -13249,8 +13042,7 @@ let abilities = [
     name: "slaughter the weak",
     points: 1661,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-slaughter-the-weak.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-slaughter-the-weak.png",
     xws: "slaughtertheweak",
     level: "1",
     initiative: "56",
@@ -13270,8 +13062,7 @@ let abilities = [
     name: "tumultuous uproar",
     points: 1663,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-tumultuous-uproar.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-tumultuous-uproar.png",
     xws: "tumultuousuproar",
     level: "2",
     initiative: "44",
@@ -13291,8 +13082,7 @@ let abilities = [
     name: "unnatural control",
     points: 1665,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-unnatural-control.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-unnatural-control.png",
     xws: "unnaturalcontrol",
     level: "2",
     initiative: "85",
@@ -13302,8 +13092,7 @@ let abilities = [
     name: "unstoppable surge",
     points: 1666,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-unstoppable-surge.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-unstoppable-surge.png",
     xws: "unstoppablesurge",
     level: "9",
     initiative: "96",
@@ -13313,8 +13102,7 @@ let abilities = [
     name: "utter catastrophe",
     points: 1667,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-utter-catastrophe.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-utter-catastrophe.png",
     xws: "uttercatastrophe",
     level: "7",
     initiative: "62",
@@ -13324,8 +13112,7 @@ let abilities = [
     name: "vengeance incarnate",
     points: 1668,
     expansion: "Trail of Ashes",
-    image:
-      "character-ability-cards/trail-of-ashes/VQ/toa-vengeance-incarnate.png",
+    image: "character-ability-cards/trail-of-ashes/VQ/toa-vengeance-incarnate.png",
     xws: "vengeanceincarnate",
     level: "9",
     initiative: "66",
@@ -13425,8 +13212,7 @@ let abilities = [
     name: "experimental adjustment",
     points: 625,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/BB/fh-experimental-adjustment.png",
+    image: "character-ability-cards/frosthaven/BB/fh-experimental-adjustment.png",
     xws: "experimentaladjustment",
     level: "X",
     initiative: "12/42",
@@ -13986,8 +13772,7 @@ let abilities = [
     name: "behold the shrouded sun",
     points: 691,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/BO/fh-behold-the-shrouded-sun.png",
+    image: "character-ability-cards/frosthaven/BO/fh-behold-the-shrouded-sun.png",
     xws: "beholdtheshroudedsun",
     level: "9",
     initiative: "10",
@@ -14107,8 +13892,7 @@ let abilities = [
     name: "flow of the black river",
     points: 705,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/BO/fh-flow-of-the-black-river.png",
+    image: "character-ability-cards/frosthaven/BO/fh-flow-of-the-black-river.png",
     xws: "flowoftheblackriver",
     level: "1",
     initiative: "18",
@@ -14268,8 +14052,7 @@ let abilities = [
     name: "wrath of the turned earth",
     points: 728,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/BO/fh-wrath-of-the-turned-earth.png",
+    image: "character-ability-cards/frosthaven/BO/fh-wrath-of-the-turned-earth.png",
     xws: "wrathoftheturnedearth",
     level: "X",
     initiative: "80",
@@ -14379,8 +14162,7 @@ let abilities = [
     name: "drown beneath the waves",
     points: 739,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/CR/fh-drown-beneath-the-waves.png",
+    image: "character-ability-cards/frosthaven/CR/fh-drown-beneath-the-waves.png",
     xws: "drownbeneaththewaves",
     level: "7",
     initiative: "09",
@@ -14930,8 +14712,7 @@ let abilities = [
     name: "black night of the deep",
     points: 794,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/DT/fh-black-night-of-the-deep.png",
+    image: "character-ability-cards/frosthaven/DT/fh-black-night-of-the-deep.png",
     xws: "blacknightofthedeep",
     level: "9",
     initiative: "26",
@@ -15171,8 +14952,7 @@ let abilities = [
     name: "staring into the abyss",
     points: 818,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/DT/fh-staring-into-the-abyss.png",
+    image: "character-ability-cards/frosthaven/DT/fh-staring-into-the-abyss.png",
     xws: "staringintotheabyss",
     level: "1",
     initiative: "63",
@@ -15412,8 +15192,7 @@ let abilities = [
     name: "proliferation of the abyss",
     points: 842,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/DW/fh-proliferation-of-the-abyss.png",
+    image: "character-ability-cards/frosthaven/DW/fh-proliferation-of-the-abyss.png",
     xws: "proliferationoftheabyss",
     level: "7",
     initiative: "38",
@@ -15543,8 +15322,7 @@ let abilities = [
     name: "bring down the mountain",
     points: 857,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/FF/fh-bring-down-the-mountain.png",
+    image: "character-ability-cards/frosthaven/FF/fh-bring-down-the-mountain.png",
     xws: "bringdownthemountain",
     level: "9",
     initiative: "09",
@@ -15824,8 +15602,7 @@ let abilities = [
     name: "accelerated metabolism",
     points: 885,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/GE/fh-accelerated-metabolism.png",
+    image: "character-ability-cards/frosthaven/GE/fh-accelerated-metabolism.png",
     xws: "acceleratedmetabolism",
     level: "8",
     initiative: "85",
@@ -16135,8 +15912,7 @@ let abilities = [
     name: "two-pronged entrapment",
     points: 916,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/GE/fh-two-pronged-entrapment.png",
+    image: "character-ability-cards/frosthaven/GE/fh-two-pronged-entrapment.png",
     xws: "twoprongedentrapment",
     level: "7",
     initiative: "21",
@@ -16266,8 +16042,7 @@ let abilities = [
     name: "high impact projectiles",
     points: 933,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/HV/fh-high-impact-projectiles.png",
+    image: "character-ability-cards/frosthaven/HV/fh-high-impact-projectiles.png",
     xws: "highimpactprojectiles",
     level: "1",
     initiative: "16",
@@ -16367,8 +16142,7 @@ let abilities = [
     name: "prepare for deployment",
     points: 948,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/HV/fh-prepare-for-deployment.png",
+    image: "character-ability-cards/frosthaven/HV/fh-prepare-for-deployment.png",
     xws: "preparefordeployment",
     level: "1",
     initiative: "64",
@@ -16488,8 +16262,7 @@ let abilities = [
     name: "ancient rites of power",
     points: 965,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/IF/fh-ancient-rites-of-power.png",
+    image: "character-ability-cards/frosthaven/IF/fh-ancient-rites-of-power.png",
     xws: "ancientritesofpower",
     level: "9",
     initiative: "94",
@@ -18449,8 +18222,7 @@ let abilities = [
     name: "improvised improvement",
     points: 1170,
     expansion: "Frosthaven",
-    image:
-      "character-ability-cards/frosthaven/TA/fh-improvised-improvement.png",
+    image: "character-ability-cards/frosthaven/TA/fh-improvised-improvement.png",
     xws: "improvisedimprovement",
     level: "X",
     initiative: "58",
@@ -18583,8 +18355,7 @@ let milestones = [
     name: "razorweb puppetry",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-amber-aegis.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.png",
+    imageBack: "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.png",
     level: "M",
     initiative: "39",
     milestone: true,
@@ -18593,8 +18364,7 @@ let milestones = [
     name: "pummeling chain",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-bombard.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.png",
+    imageBack: "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.png",
     level: "M",
     initiative: "17",
     milestone: true,
@@ -18603,8 +18373,7 @@ let milestones = [
     name: "creative sparks",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-brightspark.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/BK/cs-creative-sparks.png",
+    imageBack: "character-ability-cards/crimson-scales/BK/cs-creative-sparks.png",
     level: "M",
     initiative: "40",
     milestone: true,
@@ -18622,8 +18391,7 @@ let milestones = [
     name: "call of the wild",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-chieftain.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.png",
+    imageBack: "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.png",
     level: "M",
     initiative: "10",
     milestone: true,
@@ -18632,8 +18400,7 @@ let milestones = [
     name: "improvised methods",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-fire-knight.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/FK/cs-improvised-methods.png",
+    imageBack: "character-ability-cards/crimson-scales/FK/cs-improvised-methods.png",
     level: "M",
     initiative: "16",
     milestone: true,
@@ -18642,8 +18409,7 @@ let milestones = [
     name: "the void consumes",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-hollowpact.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.png",
+    imageBack: "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.png",
     level: "M",
     initiative: "35",
     milestone: true,
@@ -18652,8 +18418,7 @@ let milestones = [
     name: "uplifting ascension",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-hierophant.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.png",
+    imageBack: "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.png",
     level: "M",
     initiative: "80",
     milestone: true,
@@ -18662,8 +18427,7 @@ let milestones = [
     name: "drawn into the light",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-luminary.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/LU/cs-drawn-into-the-light.png",
+    imageBack: "character-ability-cards/crimson-scales/LU/cs-drawn-into-the-light.png",
     level: "M",
     initiative: "47",
     milestone: true,
@@ -18681,8 +18445,7 @@ let milestones = [
     name: "adaptive engineering",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-artificer.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.png",
+    imageBack: "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.png",
     level: "M",
     initiative: "75",
     milestone: true,
@@ -18700,8 +18463,7 @@ let milestones = [
     name: "terror of the deep",
     expansion: "Crimson Scales",
     image: "milestones/cs-ms-spirit-caller.png",
-    imageBack:
-      "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.png",
+    imageBack: "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.png",
     level: "M",
     initiative: "33",
     milestone: true,
@@ -18719,8 +18481,7 @@ let milestones = [
     name: "myla's stone hammer",
     expansion: "Trail of Ashes",
     image: "milestones/toa-ms-incarnate.png",
-    imageBack:
-      "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.png",
+    imageBack: "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.png",
     level: "M",
     initiative: "44",
     milestone: true,
@@ -18738,8 +18499,7 @@ let milestones = [
     name: "crystalline refraction",
     expansion: "Trail of Ashes",
     image: "milestones/toa-ms-shardrender.png",
-    imageBack:
-      "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.png",
+    imageBack: "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.png",
     level: "M",
     initiative: "73",
     milestone: true,
@@ -18748,8 +18508,7 @@ let milestones = [
     name: "amanita spores",
     expansion: "Trail of Ashes",
     image: "milestones/toa-ms-thornreaper.png",
-    imageBack:
-      "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.png",
+    imageBack: "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.png",
     level: "M",
     initiative: "42",
     milestone: true,
@@ -18758,8 +18517,7 @@ let milestones = [
     name: "power transfer",
     expansion: "Trail of Ashes",
     image: "milestones/toa-ms-tempest.png",
-    imageBack:
-      "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.png",
+    imageBack: "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.png",
     level: "M",
     initiative: "25",
     milestone: true,
@@ -18768,8 +18526,7 @@ let milestones = [
     name: "sustained energy",
     expansion: "Trail of Ashes",
     image: "milestones/toa-ms-vanquisher.png",
-    imageBack:
-      "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.png",
+    imageBack: "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.png",
     level: "M",
     initiative: "69",
     milestone: true,
@@ -18788,9 +18545,7 @@ const groupBy = (items, key) =>
 const fs = require("fs");
 
 abilities = abilities.concat(milestones).map((ability) => {
-  let characterClass = ability.milestone
-    ? ability.imageBack.split("/")[2]
-    : ability.image.split("/")[2];
+  let characterClass = ability.milestone ? ability.imageBack.split("/")[2] : ability.image.split("/")[2];
 
   let expansion = ability.expansion;
   switch (ability.expansion) {
@@ -18839,13 +18594,8 @@ abilities = abilities.concat(milestones).map((ability) => {
 });
 
 let groupedAbilities = groupBy(abilities, "game");
-Object.keys(groupedAbilities).forEach(
-  (k) => (groupedAbilities[k] = groupBy(groupedAbilities[k], "class"))
-);
+Object.keys(groupedAbilities).forEach((k) => (groupedAbilities[k] = groupBy(groupedAbilities[k], "class")));
 
-fs.writeFile(
-  "character-ability-cards.js",
-  JSON.stringify(groupedAbilities),
-  "utf8",
-  () => console.log("abilities", abilities.length)
+fs.writeFile("character-ability-cards.json", JSON.stringify(groupedAbilities), "utf8", () =>
+  console.log("abilities", abilities.length)
 );

@@ -185,10 +185,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "cultist",
       name: "Cultist",
       game: "gh",
-      statCards: [
-        "monster-stat-cards/gloomhaven/gh-cultist-0.png",
-        "monster-stat-cards/gloomhaven/gh-cultist-4.png",
-      ],
+      statCards: ["monster-stat-cards/gloomhaven/gh-cultist-0.png", "monster-stat-cards/gloomhaven/gh-cultist-4.png"],
       abilityCards: [
         "monster-ability-cards/gloomhaven/cultist/gh-ma-cu-1.png",
         "monster-ability-cards/gloomhaven/cultist/gh-ma-cu-2.png",
@@ -385,10 +382,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "hound",
       name: "Hound",
       game: "gh",
-      statCards: [
-        "monster-stat-cards/gloomhaven/gh-hound-0.png",
-        "monster-stat-cards/gloomhaven/gh-hound-4.png",
-      ],
+      statCards: ["monster-stat-cards/gloomhaven/gh-hound-0.png", "monster-stat-cards/gloomhaven/gh-hound-4.png"],
       abilityCards: [
         "monster-ability-cards/gloomhaven/hound/gh-ma-ho-1.png",
         "monster-ability-cards/gloomhaven/hound/gh-ma-ho-2.png",
@@ -485,10 +479,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "jekserah",
       name: "Jekserah",
       game: "gh",
-      statCards: [
-        "monster-stat-cards/gloomhaven/gh-jekserah-0.png",
-        "monster-stat-cards/gloomhaven/gh-jekserah-4.png",
-      ],
+      statCards: ["monster-stat-cards/gloomhaven/gh-jekserah-0.png", "monster-stat-cards/gloomhaven/gh-jekserah-4.png"],
       abilityCards: [
         "monster-ability-cards/gloomhaven/boss/gh-ma-bo-1.png",
         "monster-ability-cards/gloomhaven/boss/gh-ma-bo-2.png",
@@ -565,10 +556,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "lurker",
       name: "Lurker",
       game: "gh",
-      statCards: [
-        "monster-stat-cards/gloomhaven/gh-lurker-0.png",
-        "monster-stat-cards/gloomhaven/gh-lurker-4.png",
-      ],
+      statCards: ["monster-stat-cards/gloomhaven/gh-lurker-0.png", "monster-stat-cards/gloomhaven/gh-lurker-4.png"],
       abilityCards: [
         "monster-ability-cards/gloomhaven/lurker/gh-ma-lu-1.png",
         "monster-ability-cards/gloomhaven/lurker/gh-ma-lu-2.png",
@@ -625,10 +613,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "ooze",
       name: "Ooze",
       game: "gh",
-      statCards: [
-        "monster-stat-cards/gloomhaven/gh-ooze-0.png",
-        "monster-stat-cards/gloomhaven/gh-ooze-4.png",
-      ],
+      statCards: ["monster-stat-cards/gloomhaven/gh-ooze-0.png", "monster-stat-cards/gloomhaven/gh-ooze-4.png"],
       abilityCards: [
         "monster-ability-cards/gloomhaven/ooze/gh-ma-oo-1.png",
         "monster-ability-cards/gloomhaven/ooze/gh-ma-oo-2.png",
@@ -1731,10 +1716,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "hound",
       name: "Hound",
       game: "fh",
-      statCards: [
-        "monster-stat-cards/frosthaven/fh-hound-0.png",
-        "monster-stat-cards/frosthaven/fh-hound-4.png",
-      ],
+      statCards: ["monster-stat-cards/frosthaven/fh-hound-0.png", "monster-stat-cards/frosthaven/fh-hound-4.png"],
       abilityCards: [
         "monster-ability-cards/frosthaven/hound/fh-ma-ho-1.png",
         "monster-ability-cards/frosthaven/hound/fh-ma-ho-2.png",
@@ -1973,10 +1955,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "ooze",
       name: "Ooze",
       game: "fh",
-      statCards: [
-        "monster-stat-cards/frosthaven/fh-ooze-0.png",
-        "monster-stat-cards/frosthaven/fh-ooze-4.png",
-      ],
+      statCards: ["monster-stat-cards/frosthaven/fh-ooze-0.png", "monster-stat-cards/frosthaven/fh-ooze-4.png"],
       abilityCards: [
         "monster-ability-cards/frosthaven/ooze/fh-ma-oo-1.png",
         "monster-ability-cards/frosthaven/ooze/fh-ma-oo-2.png",
@@ -2285,10 +2264,7 @@ export const monsterCards: Record<string, Monster[]> = {
       id: "snow-imp",
       name: "Snow Imp",
       game: "fh",
-      statCards: [
-        "monster-stat-cards/frosthaven/fh-snow-imp-0.png",
-        "monster-stat-cards/frosthaven/fh-snow-imp-4.png",
-      ],
+      statCards: ["monster-stat-cards/frosthaven/fh-snow-imp-0.png", "monster-stat-cards/frosthaven/fh-snow-imp-4.png"],
       abilityCards: [
         "monster-ability-cards/frosthaven/imp/fh-ma-im-1.png",
         "monster-ability-cards/frosthaven/imp/fh-ma-im-2.png",

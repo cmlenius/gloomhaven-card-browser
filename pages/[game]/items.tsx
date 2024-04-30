@@ -1,10 +1,11 @@
-import { useEffect, useState, ChangeEvent } from "react";
-import { GetServerSideProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
+import { ChangeEvent, useEffect, useState } from "react";
 
-import { itemSearchResults } from "../api/items";
-import { useSpoilers } from "../../hooks/useSpoilers";
+import { itemSearchResults } from "../../common/search-results";
+import { GameParams, Item, Option } from "../../common/types";
 import {
+  customSort,
   getBaseUrl,
   getCharacterColor,
   getDescription,
@@ -13,12 +14,12 @@ import {
   itemSpoilerFilter,
   parseRanges,
   verifyQueryParam,
-} from "../../common/helpers";
-import { Item, Option } from "../../common/types";
-
+} from "../../common/utils";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Sort from "../../components/Sort";
+import { itemRoutes } from "../../data/routes";
+import { useSpoilers } from "../../hooks/useSpoilers";
 
 const sortOrderOptions: Option[] = [
   { id: "id", name: "Item Number" },
@@ -40,37 +41,26 @@ const activationsFilters: Option[] = [
   { id: "spent", name: "Spent" },
 ];
 
-const ItemFilters = () => {
-  const router = useRouter();
-  const query = router.query;
+type FilterProps = {
+  activationFilter: string;
+  slotFilter: string;
+  handleActivationFilterChange: (newValue: string) => void;
+  handleSlotFilterChange: (newValue: string) => void;
+};
 
-  const handleSlotChange = (newSlot: string | null) => {
-    query.slot === newSlot ? delete query.slot : (query.slot = newSlot);
-    router.push({
-      pathname: "items",
-      query: query,
-    });
-  };
-
-  const handleActivationsChange = (newActivations: string | null) => {
-    query.activations === newActivations
-      ? delete query.activations
-      : (query.activations = newActivations);
-    router.push({
-      pathname: "items",
-      query: query,
-    });
-  };
-
+const ItemFilters = ({
+  activationFilter,
+  slotFilter,
+  handleActivationFilterChange,
+  handleSlotFilterChange,
+}: FilterProps) => {
   return (
     <div className="button-group filters">
       {slotFilters.map((slot, idx) => (
         <div
           key={idx}
-          className={`filter-icon ${
-            query.slot === slot.id ? "filter-icon-selected" : ""
-          }`}
-          onClick={() => handleSlotChange(slot.id)}
+          className={`filter-icon ${slotFilter === slot.id ? "filter-icon-selected" : ""}`}
+          onClick={() => handleSlotFilterChange(slot.id)}
         >
           <img alt="" src={getBaseUrl() + `icons/items/${slot.id}.png`} />
         </div>
@@ -79,10 +69,8 @@ const ItemFilters = () => {
       {activationsFilters.map((activation, idx) => (
         <div
           key={idx}
-          className={`filter-icon ${
-            query.activations === activation.id ? "filter-icon-selected" : ""
-          }`}
-          onClick={() => handleActivationsChange(activation.id)}
+          className={`filter-icon ${activationFilter === activation.id ? "filter-icon-selected" : ""}`}
+          onClick={() => handleActivationFilterChange(activation.id)}
         >
           <img alt="" src={getBaseUrl() + `icons/items/${activation.id}.png`} />
         </div>
@@ -97,6 +85,10 @@ type PageProps = {
 
 const Items = ({ searchResults }: PageProps) => {
   const [search, setSearch] = useState(null);
+  const [slotFilter, setSlotFilter] = useState(null);
+  const [activationFilter, setActivationFilter] = useState(null);
+  const [sortOrder, setsortOrder] = useState("id");
+  const [sortDirection, setSortDirection] = useState("asc");
   const { spoilers } = useSpoilers();
 
   const router = useRouter();
@@ -105,38 +97,64 @@ const Items = ({ searchResults }: PageProps) => {
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(parseRanges(e.target.value));
   };
+  const handleSlotFilterChange = (newValue: string) => {
+    if (newValue === slotFilter) {
+      setSlotFilter(null);
+    } else {
+      setSlotFilter(newValue);
+    }
+  };
+  const handleActivationFilterChange = (newValue: string) => {
+    if (newValue === activationFilter) {
+      setActivationFilter(null);
+    } else {
+      setActivationFilter(newValue);
+    }
+  };
+  const handleSortOrderChange = (newValue: string) => {
+    setsortOrder(newValue);
+  };
+  const handleSortDirectionChange = (newValue: string) => {
+    setSortDirection(newValue);
+  };
 
   useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--primary",
-      getCharacterColor(null)
-    );
+    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
   }, []);
 
-  const cardList = searchResults
-    ?.filter(itemSpoilerFilter(spoilers))
-    .filter((i) => !search || isInRanges(i.id, search));
+  const cardList =
+    searchResults
+      ?.filter(itemSpoilerFilter(spoilers))
+      .filter((item) => {
+        if (search !== null && !isInRanges(item.id, search)) return false;
+        if (slotFilter && item.slot !== slotFilter) return false;
+        if (activationFilter === "consumed" && !item.consumed) return false;
+        if (activationFilter === "spent" && !item.spent) return false;
+        return true;
+      })
+      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
 
   return (
-    <Layout
-      description={getDescription(game, "Item Cards", searchResults)}
-      title={getTitle(game, "Items")}
-    >
+    <Layout description={getDescription(game, "Item Cards", searchResults)} title={getTitle(game, "Items")}>
       <div className="toolbar">
         <div className="toolbar-inner">
-          <Sort sortOrderOptions={sortOrderOptions} />
-          <div
-            className="flex"
-            style={{ fontWeight: 600, justifyContent: "center" }}
-          >
+          <Sort
+            sortOrderOptions={sortOrderOptions}
+            handleSortOrderChange={handleSortOrderChange}
+            handleSortDirectionChange={handleSortDirectionChange}
+            sortOrder={sortOrder}
+            sortDirection={sortDirection}
+          />
+          <div className="flex" style={{ fontWeight: 600, justifyContent: "center" }}>
             {"Item ID:"}
-            <input
-              className="id-filter"
-              onChange={handleSearchChange}
-              placeholder="1-10,15"
-            />
+            <input className="id-filter" onChange={handleSearchChange} placeholder="1-10,15" />
           </div>
-          <ItemFilters />
+          <ItemFilters
+            activationFilter={activationFilter}
+            slotFilter={slotFilter}
+            handleActivationFilterChange={handleActivationFilterChange}
+            handleSlotFilterChange={handleSlotFilterChange}
+          />
         </div>
       </div>
       {!spoilers.loading && <CardList cardList={cardList} showId />}
@@ -144,8 +162,18 @@ const Items = ({ searchResults }: PageProps) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const searchResults = await itemSearchResults(context.query);
+export default Items;
+
+export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
+  return itemRoutes;
+};
+
+export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
+  const { game, character } = context.params;
+  const searchResults = itemSearchResults({
+    game: game,
+    character: character,
+  });
 
   return {
     props: {
@@ -153,5 +181,3 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     },
   };
 };
-
-export default Items;

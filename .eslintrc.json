@@ -1,16 +1,21 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "next/core-web-vitals", "plugin:@typescript-eslint/recommended", "prettier"],
   "plugins": ["prettier", "@typescript-eslint"],
   "rules": {
     "@next/next/no-img-element": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
     "no-unused-vars": "off",
-    "prettier/prettier": "warn"
+    "prettier/prettier": "warn",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": "off",
+        "allowSeparatedGroups": false
+      }
+    ]
   }
 }
