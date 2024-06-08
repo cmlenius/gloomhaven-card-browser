@@ -38,10 +38,9 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
                 ...(query.order && { order: query.order }),
               },
             }}
+            className={`filter-icon ${characterClass === char.class ? "filter-icon-selected" : ""}`}
           >
-            <a className={`filter-icon ${characterClass === char.class ? "filter-icon-selected" : ""}`}>
-              <img alt="" src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`} />
-            </a>
+            <img alt="" src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`} />
           </Link>
         ))}
     </div>

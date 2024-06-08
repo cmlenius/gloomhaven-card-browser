@@ -24,16 +24,16 @@ export const DropdownNav = ({ href, options, value }: DropdownProps) => {
       <div className="dropdownnav-anchor">{currentOption}</div>
       <div className="dropdownnav-content" key={value}>
         {options.map((opt) => (
-          <Link key={opt.id} href={href(opt.id)}>
-            <a
-              className="dropdownnav-option"
-              onClick={(e) => {
-                e.stopPropagation();
-                setTimeout(() => setIsHovered(false), 200);
-              }}
-            >
-              {opt.name}
-            </a>
+          <Link
+            key={opt.id}
+            href={href(opt.id)}
+            className="dropdownnav-option"
+            onClick={(e) => {
+              e.stopPropagation();
+              setTimeout(() => setIsHovered(false), 200);
+            }}
+          >
+            {opt.name}
           </Link>
         ))}
       </div>

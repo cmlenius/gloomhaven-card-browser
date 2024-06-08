@@ -6,7 +6,7 @@ import Script from "next/script";
 import { useState } from "react";
 
 import { Option } from "../common/types";
-import { defaultDescription, defaultTitle, verifyQueryParam } from "../common/utils";
+import { defaultDescription, defaultTitle, getBaseUrl, verifyQueryParam } from "../common/utils";
 import { DropdownNav } from "../components/Dropdown";
 import { games } from "../data/games";
 import Settings from "./Settings";
@@ -85,7 +85,7 @@ const Layout = ({ children, description, title }: LayoutProps) => {
         <title>{title || defaultTitle}</title>
         <meta name="description" content={description || defaultDescription} />
         <meta name="google-site-verification" content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href={getBaseUrl() + "logo.png"} />
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-FFL6ZJNJ4T" strategy="afterInteractive" />
       <Script id="google-analytics" strategy="afterInteractive">
