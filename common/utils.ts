@@ -1,6 +1,6 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import { Card, Character, CharacterAbility, Item, Spoilers } from "./types";
+import { Building, Card, Character, CharacterAbility, Item, Spoilers } from "./types";
 
 export const defaultDescription =
   "Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes";
@@ -146,6 +146,10 @@ export function itemSpoilerFilter(spoilers: Spoilers): (item: Item) => boolean {
         return false;
     }
   };
+}
+
+export function buildingSpoilerFilter(spoilers: Spoilers): (building: Building) => boolean {
+  return (building) => spoilers.buildings?.has(building.id);
 }
 
 type Ranges = { start: number; end: number }[];

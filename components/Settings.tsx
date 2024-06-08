@@ -2,9 +2,10 @@ import { faClose, faWarning } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
 
-import { Character, Spoilers } from "../common/types";
+import { Building, Character, Spoilers } from "../common/types";
 import { getBaseUrl, getCharacterClasses, verifyQueryParam } from "../common/utils";
 import { useSpoilers } from "../hooks/useSpoilers";
+import { buildingCards } from "../data/building-cards";
 
 type ItemMiscSpoiler = {
   label: string;
@@ -152,6 +153,63 @@ const ItemSpoilers = ({ itemSpoilers }) => {
   );
 };
 
+type BuildingSpoilersProps = {
+  buildings: Building[];
+};
+
+const BuildingSpoilers = ({ buildings }: BuildingSpoilersProps) => {
+  const { spoilers, updateSpoilers } = useSpoilers();
+  const router = useRouter();
+  const game = verifyQueryParam(router.query?.game, "fh");
+  const allBuildingSpoilers = buildings.every((b: Building) => spoilers.buildings.has(b.id));
+
+  const handleBuildingSpoilerToggleAll = () => {
+    const newSet = new Set(spoilers.buildings);
+
+    if (buildings.some((b: Building) => !spoilers.buildings.has(b.id))) {
+      for (const b of buildings) {
+        newSet.add(b.id);
+      }
+    } else {
+      for (const b of buildings) {
+        newSet.delete(b.id);
+      }
+    }
+
+    updateSpoilers({ ...spoilers, buildings: newSet });
+  };
+
+  const handleCharacterSpoilerToggle = (id: string) => {
+    const newSet = spoilers.buildings;
+
+    if (spoilers.buildings?.has(id)) {
+      newSet.delete(id);
+    } else {
+      newSet.add(id);
+    }
+
+    updateSpoilers({ ...spoilers, buildings: newSet });
+  };
+
+  return (
+    <div className="spoiler-section">
+      <div className="spoiler-check-option spoiler-header" onClick={handleBuildingSpoilerToggleAll}>
+        <input checked={allBuildingSpoilers} readOnly type="checkbox" />
+        <h4>Building Spoilers</h4>
+      </div>
+      <ul className="character-spoilers">
+        {buildings.map((building, idx) => (
+          <li key={idx} className="spoiler-check-option" onClick={() => handleCharacterSpoilerToggle(building.id)}>
+            <input checked={spoilers.buildings.has(building.id)} readOnly type="checkbox" />
+            <span>{building.id}</span>
+          </li>
+        ))}
+        {buildings.length % 2 == 1 && <li className="spoiler-check-option" />}
+      </ul>
+    </div>
+  );
+};
+
 type CharacterSpoilersProps = {
   classes: Character[];
 };
@@ -159,9 +217,7 @@ type CharacterSpoilersProps = {
 const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
   const router = useRouter();
-
   const game = verifyQueryParam(router.query?.game, "gh");
-
   const allCharacterSpoilers = classes.every((c: Character) => spoilers.characters.has(c.class));
 
   const handleCharacterSpoilerToggleAll = () => {
@@ -230,7 +286,8 @@ const Settings = ({ open, onClose }: SettingsProps) => {
   const router = useRouter();
   const game = verifyQueryParam(router.query.game, "gh");
   const itemSpoilers = itemSpoilerConfig[game];
-  const unlockabelClasses = getCharacterClasses(game).filter((c) => !c.base && !c.hidden);
+  const unlockabelClasses = getCharacterClasses(game).filter((c) => !c.base && !c.hidden) || [];
+  const buildings = buildingCards[game] || [];
 
   return (
     <>
@@ -244,6 +301,7 @@ const Settings = ({ open, onClose }: SettingsProps) => {
           <div className="spoilers">
             {unlockabelClasses.length > 0 && <CharacterSpoilers classes={unlockabelClasses} />}
             {itemSpoilers && <ItemSpoilers itemSpoilers={itemSpoilers} />}
+            {buildings.length > 0 && <BuildingSpoilers buildings={buildings} />}
           </div>
           {(unlockabelClasses.length > 0 || itemSpoilers) && (
             <div className="spoilers-warning">
