@@ -1,5 +1,6 @@
 import { MonsterSearch } from "../common/types";
 import { customSort, getCharacter, getDefaultCharacterClass, verifyQueryParam } from "../common/utils";
+import { buildingCards } from "../data/building-cards";
 import { characterAbilityCards } from "../data/character-ability-cards";
 import { eventCards } from "../data/event-cards";
 import { itemCards } from "../data/item-cards";
@@ -44,4 +45,9 @@ export const monsterSearchResults = (query: { [key: string]: string | string[] }
     monsterList: monsterCards[game]?.map((m) => ({ id: m.id, name: m.name })) || [],
     monster: monsterCards[game]?.find((m) => m.id === monster),
   };
+};
+
+export const buildingSearchResults = (query: { [key: string]: string | string[] }) => {
+  const game = verifyQueryParam(query.game, "gh");
+  return buildingCards[game]?.sort(customSort("id", "asc")) || [];
 };

@@ -1,0 +1,342 @@
+import { Building } from "../common/types";
+export const buildingCards: Record<string, Building[]> = {
+  fh: [
+    {
+      id: "12",
+      name: "Hunting Lodge",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-12-hunting-lodge-level-1.jpeg",
+        "buildings/frosthaven/fh-12-hunting-lodge-level-2.jpeg",
+        "buildings/frosthaven/fh-12-hunting-lodge-level-3.jpeg",
+        "buildings/frosthaven/fh-12-hunting-lodge-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-12-hunting-lodge-level-1-back.jpeg",
+        "buildings/frosthaven/fh-12-hunting-lodge-level-2-back.jpeg",
+        "buildings/frosthaven/fh-12-hunting-lodge-level-3-back.jpeg",
+        "buildings/frosthaven/fh-12-hunting-lodge-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "17",
+      name: "Logging Camp",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-17-logging-camp-level-1.jpeg",
+        "buildings/frosthaven/fh-17-logging-camp-level-2.jpeg",
+        "buildings/frosthaven/fh-17-logging-camp-level-3.jpeg",
+        "buildings/frosthaven/fh-17-logging-camp-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-17-logging-camp-level-1-back.jpeg",
+        "buildings/frosthaven/fh-17-logging-camp-level-2-back.jpeg",
+        "buildings/frosthaven/fh-17-logging-camp-level-3-back.jpeg",
+        "buildings/frosthaven/fh-17-logging-camp-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "21",
+      name: "Inn",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-21-inn-level-1.jpeg",
+        "buildings/frosthaven/fh-21-inn-level-2.jpeg",
+        "buildings/frosthaven/fh-21-inn-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-21-inn-level-1-back.jpeg",
+        "buildings/frosthaven/fh-21-inn-level-2-back.jpeg",
+        "buildings/frosthaven/fh-21-inn-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "24",
+      name: "Garden",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-24-garden-level-1.jpeg",
+        "buildings/frosthaven/fh-24-garden-level-2.jpeg",
+        "buildings/frosthaven/fh-24-garden-level-3.jpeg",
+        "buildings/frosthaven/fh-24-garden-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-24-garden-level-1-back.jpeg",
+        "buildings/frosthaven/fh-24-garden-level-2-back.jpeg",
+        "buildings/frosthaven/fh-24-garden-level-3-back.jpeg",
+        "buildings/frosthaven/fh-24-garden-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "34",
+      name: "Craftsman",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-34-craftsman-level-1.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-2.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-3.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-4.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-5.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-6.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-7.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-8.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-9.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-34-craftsman-level-1-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-2-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-3-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-4-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-5-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-6-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-7-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-8-back.jpeg",
+        "buildings/frosthaven/fh-34-craftsman-level-9-back.jpeg",
+      ],
+    },
+    {
+      id: "35",
+      name: "Alchemist",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-35-alchemist-level-1.jpeg",
+        "buildings/frosthaven/fh-35-alchemist-level-2.jpeg",
+        "buildings/frosthaven/fh-35-alchemist-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-35-alchemist-level-1-back.jpeg",
+        "buildings/frosthaven/fh-35-alchemist-level-2-back.jpeg",
+        "buildings/frosthaven/fh-35-alchemist-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "37",
+      name: "Trading Post",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-37-trading-post-level-1.jpeg",
+        "buildings/frosthaven/fh-37-trading-post-level-2.jpeg",
+        "buildings/frosthaven/fh-37-trading-post-level-3.jpeg",
+        "buildings/frosthaven/fh-37-trading-post-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-37-trading-post-level-1-back.jpeg",
+        "buildings/frosthaven/fh-37-trading-post-level-2-back.jpeg",
+        "buildings/frosthaven/fh-37-trading-post-level-3-back.jpeg",
+        "buildings/frosthaven/fh-37-trading-post-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "39",
+      name: "Jeweler",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-39-jeweler-level-1.jpeg",
+        "buildings/frosthaven/fh-39-jeweler-level-2.jpeg",
+        "buildings/frosthaven/fh-39-jeweler-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-39-jeweler-level-1-back.jpeg",
+        "buildings/frosthaven/fh-39-jeweler-level-2-back.jpeg",
+        "buildings/frosthaven/fh-39-jeweler-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "42",
+      name: "Temple",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-1.jpeg",
+        "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-2.jpeg",
+        "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-1-back.jpeg",
+        "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-2-back.jpeg",
+        "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "44",
+      name: "Enhancer",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-44-enhancer-level-1.jpeg",
+        "buildings/frosthaven/fh-44-enhancer-level-2.jpeg",
+        "buildings/frosthaven/fh-44-enhancer-level-3.jpeg",
+        "buildings/frosthaven/fh-44-enhancer-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-44-enhancer-level-1-back.jpeg",
+        "buildings/frosthaven/fh-44-enhancer-level-2-back.jpeg",
+        "buildings/frosthaven/fh-44-enhancer-level-3-back.jpeg",
+        "buildings/frosthaven/fh-44-enhancer-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "5",
+      name: "Mining Camp",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-05-mining-camp-level-1.jpeg",
+        "buildings/frosthaven/fh-05-mining-camp-level-2.jpeg",
+        "buildings/frosthaven/fh-05-mining-camp-level-3.jpeg",
+        "buildings/frosthaven/fh-05-mining-camp-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-05-mining-camp-level-1-back.jpeg",
+        "buildings/frosthaven/fh-05-mining-camp-level-2-back.jpeg",
+        "buildings/frosthaven/fh-05-mining-camp-level-3-back.jpeg",
+        "buildings/frosthaven/fh-05-mining-camp-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "65",
+      name: "Metal Depot",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-65-metal-depot-level-1.jpeg",
+        "buildings/frosthaven/fh-65-metal-depot-level-2.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-65-metal-depot-level-1-back.jpeg",
+        "buildings/frosthaven/fh-65-metal-depot-level-2-back.jpeg",
+      ],
+    },
+    {
+      id: "67",
+      name: "Lumber Depot",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-67-lumber-depot-level-1.jpeg",
+        "buildings/frosthaven/fh-67-lumber-depot-level-2.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-67-lumber-depot-level-1-back.jpeg",
+        "buildings/frosthaven/fh-67-lumber-depot-level-2-back.jpeg",
+      ],
+    },
+    {
+      id: "72",
+      name: "Hide Depot",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-72-hide-depot-level-1.jpeg",
+        "buildings/frosthaven/fh-72-hide-depot-level-2.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-72-hide-depot-level-1-back.jpeg",
+        "buildings/frosthaven/fh-72-hide-depot-level-2-back.jpeg",
+      ],
+    },
+    {
+      id: "74",
+      name: "Tavern",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-74-tavern-level-1.jpeg",
+        "buildings/frosthaven/fh-74-tavern-level-2.jpeg",
+        "buildings/frosthaven/fh-74-tavern-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-74-tavern-level-1-back.jpeg",
+        "buildings/frosthaven/fh-74-tavern-level-2-back.jpeg",
+        "buildings/frosthaven/fh-74-tavern-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "81",
+      name: "Hall of Revelry",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-81-hall-of-revelry-level-1.jpeg",
+        "buildings/frosthaven/fh-81-hall-of-revelry-level-2.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-81-hall-of-revelry-level-1-back.jpeg",
+        "buildings/frosthaven/fh-81-hall-of-revelry-level-2-back.jpeg",
+      ],
+    },
+    {
+      id: "83",
+      name: "Library",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-83-library-level-1.jpeg",
+        "buildings/frosthaven/fh-83-library-level-2.jpeg",
+        "buildings/frosthaven/fh-83-library-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-83-library-level-1-back.jpeg",
+        "buildings/frosthaven/fh-83-library-level-2-back.jpeg",
+        "buildings/frosthaven/fh-83-library-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "84",
+      name: "Workshop",
+      game: "fh",
+      image: ["buildings/frosthaven/fh-84-workshop-level-1.jpeg"],
+      imageBack: ["buildings/frosthaven/fh-84-workshop-level-1-back.jpeg"],
+    },
+    {
+      id: "85",
+      name: "Carpenter",
+      game: "fh",
+      image: ["buildings/frosthaven/fh-85-carpenter-level-1.jpeg", "buildings/frosthaven/fh-85-carpenter-level-2.jpeg"],
+      imageBack: [
+        "buildings/frosthaven/fh-85-carpenter-level-1-back.jpeg",
+        "buildings/frosthaven/fh-85-carpenter-level-2-back.jpeg",
+      ],
+    },
+    {
+      id: "88",
+      name: "Stables",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-88-stables-level-1.jpeg",
+        "buildings/frosthaven/fh-88-stables-level-2.jpeg",
+        "buildings/frosthaven/fh-88-stables-level-3.jpeg",
+        "buildings/frosthaven/fh-88-stables-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-88-stables-level-1-back.jpeg",
+        "buildings/frosthaven/fh-88-stables-level-2-back.jpeg",
+        "buildings/frosthaven/fh-88-stables-level-3-back.jpeg",
+        "buildings/frosthaven/fh-88-stables-level-4-back.jpeg",
+      ],
+    },
+    {
+      id: "90",
+      name: "Town Hall",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-90-town-hall-level-1.jpeg",
+        "buildings/frosthaven/fh-90-town-hall-level-2.jpeg",
+        "buildings/frosthaven/fh-90-town-hall-level-3.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-90-town-hall-level-1-back.jpeg",
+        "buildings/frosthaven/fh-90-town-hall-level-2-back.jpeg",
+        "buildings/frosthaven/fh-90-town-hall-level-3-back.jpeg",
+      ],
+    },
+    {
+      id: "98",
+      name: "Barracks",
+      game: "fh",
+      image: [
+        "buildings/frosthaven/fh-98-barracks-level-1.jpeg",
+        "buildings/frosthaven/fh-98-barracks-level-2.jpeg",
+        "buildings/frosthaven/fh-98-barracks-level-3.jpeg",
+        "buildings/frosthaven/fh-98-barracks-level-4.jpeg",
+      ],
+      imageBack: [
+        "buildings/frosthaven/fh-98-barracks-level-1-back.jpeg",
+        "buildings/frosthaven/fh-98-barracks-level-2-back.jpeg",
+        "buildings/frosthaven/fh-98-barracks-level-3-back.jpeg",
+        "buildings/frosthaven/fh-98-barracks-level-4-back.jpeg",
+      ],
+    },
+  ],
+};

@@ -7,6 +7,13 @@ export interface Card {
   imageBack?: string;
 }
 
+export interface MultiLevelCard {
+  id?: number | string;
+  name: number | string;
+  image: string[];
+  imageBack?: string[];
+}
+
 export type Game = {
   id: string;
   name: string;
@@ -72,9 +79,12 @@ export type Monster = {
   isVertical: boolean;
 };
 
-export type MonsterSearch = {
-  monster: Monster;
-  monsterList: Option[];
+export type Building = {
+  id: string;
+  name: string;
+  game: string;
+  image: string[];
+  imageBack?: string[];
 };
 
 export type Option = {
@@ -82,7 +92,13 @@ export type Option = {
   name: string;
 };
 
+export type MonsterSearch = {
+  monster: Monster;
+  monsterList: Option[];
+};
+
 export interface Spoilers {
+  buildings: Set<string>;
   characters: Set<string>;
   items: Record<string, string | boolean>;
   level: number;

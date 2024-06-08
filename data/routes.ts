@@ -61,3 +61,14 @@ export const monsterRoutes = {
       },
     })),
 };
+
+export const buildingRoutes = {
+  fallback: false,
+  paths: [
+    {
+      params: {
+        game: "fh",
+      },
+    },
+  ],
+};

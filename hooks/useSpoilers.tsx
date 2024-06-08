@@ -8,6 +8,7 @@ interface SpoilersContextInterface {
 }
 
 export const defaultSpoilersContextValue: Spoilers = {
+  buildings: new Set<string>(),
   characters: new Set<string>(),
   items: {
     prosperity: "1",
@@ -42,7 +43,8 @@ export const SpoilersProvider = ({ children }) => {
       return;
     }
 
-    parsedSpoilers.characters = new Set(parsedSpoilers?.characters);
+    parsedSpoilers.characters = new Set(parsedSpoilers?.characters || []);
+    parsedSpoilers.buildings = new Set(parsedSpoilers?.buildings || []);
     setSpoilers({ ...parsedSpoilers, loading: false });
   }, []);
 
@@ -57,8 +59,9 @@ export const useSpoilers = () => {
       "spoilers",
       JSON.stringify({
         ...newSpoilers,
+        buildings: Array.from(newSpoilers.buildings || []),
         characters: Array.from(newSpoilers.characters || []),
-      })
+      }),
     );
     setSpoilers(newSpoilers);
   };
