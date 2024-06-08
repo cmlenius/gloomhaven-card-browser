@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import { Monster, Option } from "../../common/types";
+import { Monster, MonsterSearch, Option } from "../../common/types";
 import { getBaseUrl, getCharacterColor, getDefaultMonster, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Dropdown from "../../components/Dropdown";
@@ -58,11 +58,6 @@ const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterSta
       </button>
     </div>
   );
-};
-
-type MonsterSearch = {
-  monster: Monster;
-  monsterList: Option[];
 };
 
 type PageProps = {

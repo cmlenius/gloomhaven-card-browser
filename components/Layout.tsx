@@ -18,6 +18,10 @@ const cardTypeOptions: Option[] = [
   { id: "monsters", name: "Monsters" },
 ];
 
+const additionalCardTypeOptions: Option[] = [
+  { id: "buildings", name: "Buildings" },
+];
+
 type SettingsAnchorProps = {
   openSettingsDrawer: () => void;
 };
@@ -62,7 +66,15 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
       <div className="topbar-inner">
         <div className="header-links">
           <DropdownNav href={handleGameChange} options={games} value={game} />
-          <DropdownNav href={handleCardTypeChange} options={cardTypeOptions} value={cardType || "characters"} />
+          <DropdownNav
+            href={handleCardTypeChange}
+            options={
+              game != "fh"
+                ? cardTypeOptions
+                : cardTypeOptions.concat(additionalCardTypeOptions)
+            }
+            value={cardType || "characters"}
+          />
         </div>
         <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />
       </div>

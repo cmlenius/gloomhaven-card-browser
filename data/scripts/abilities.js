@@ -18596,6 +18596,6 @@ abilities = abilities.concat(milestones).map((ability) => {
 let groupedAbilities = groupBy(abilities, "game");
 Object.keys(groupedAbilities).forEach((k) => (groupedAbilities[k] = groupBy(groupedAbilities[k], "class")));
 
-fs.writeFile("character-ability-cards.json", JSON.stringify(groupedAbilities), "utf8", () =>
+fs.writeFile("character-ability-cards.js", JSON.stringify(groupedAbilities), "utf8", () =>
   console.log("abilities", abilities.length)
 );
