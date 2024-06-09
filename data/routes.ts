@@ -72,3 +72,14 @@ export const buildingRoutes = {
     },
   ],
 };
+
+export const petRoutes = {
+  fallback: false,
+  paths: [
+    {
+      params: {
+        game: "fh",
+      },
+    },
+  ],
+};

@@ -5,6 +5,7 @@ import { characterAbilityCards } from "../data/character-ability-cards";
 import { eventCards } from "../data/event-cards";
 import { itemCards } from "../data/item-cards";
 import { monsterCards } from "../data/monster-cards";
+import { petCards } from "../data/pet-cards";
 
 export const characterSearchResults = (query: { [key: string]: string | string[] }) => {
   const game = verifyQueryParam(query.game, "gh");
@@ -50,4 +51,9 @@ export const monsterSearchResults = (query: { [key: string]: string | string[] }
 export const buildingSearchResults = (query: { [key: string]: string | string[] }) => {
   const game = verifyQueryParam(query.game, "gh");
   return buildingCards[game]?.sort(customSort("id", "asc")) || [];
+};
+
+export const petSearchResults = (query: { [key: string]: string | string[] }) => {
+  const game = verifyQueryParam(query.game, "gh");
+  return petCards[game]?.sort(customSort("id", "asc")) || [];
 };
