@@ -1,6 +1,6 @@
-import { characters } from "./characters";
-import { games } from "./games";
-import { monsterCards } from "./monster-cards";
+import { characters } from "../data/characters";
+import { games } from "../data/games";
+import { monsterCards } from "../data/monster-cards";
 
 export const characterRoutes = {
   fallback: false,
@@ -64,11 +64,18 @@ export const monsterRoutes = {
 
 export const buildingRoutes = {
   fallback: false,
-  paths: [
-    {
-      params: {
-        game: "fh",
-      },
+  paths: games.map((game) => ({
+    params: {
+      game: game.id,
     },
-  ],
+  })),
+};
+
+export const petRoutes = {
+  fallback: false,
+  paths: games.map((game) => ({
+    params: {
+      game: game.id,
+    },
+  })),
 };

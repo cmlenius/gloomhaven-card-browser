@@ -13,6 +13,7 @@ type CardProps = {
   card: Card;
   horizontal?: boolean;
   showId?: boolean;
+  defaultBack?: boolean;
 };
 
 const Card = ({ card, horizontal, showId }: CardProps) => {
@@ -39,13 +40,7 @@ type FlipCardProps = {
   showId?: boolean;
 };
 
-const FlipCard = ({
-  card,
-  flipped,
-  handleBtnClick,
-  horizontal,
-  showId,
-}: FlipCardProps) => {
+const FlipCard = ({ card, flipped, handleBtnClick, horizontal, showId }: FlipCardProps) => {
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
       {showId && <div className="card-id">{card.id}</div>}
@@ -77,10 +72,7 @@ const FlipCard = ({
         </div>
       </div>
       {handleBtnClick && (
-        <button
-          className={` ${flipped ? "card-flip-btn-back" : "card-flip-btn"}`}
-          onClick={handleBtnClick}
-        >
+        <button className={` ${flipped ? "card-flip-btn-back" : "card-flip-btn"}`} onClick={handleBtnClick}>
           <FontAwesomeIcon
             className={` ${flipped ? "card-flip-svg-back" : "card-flip-svg"}`}
             icon={faArrowsRotate}
@@ -92,8 +84,8 @@ const FlipCard = ({
   );
 };
 
-const FlipCardWrapper = ({ card, horizontal, showId }: CardProps) => {
-  const [flipped, setFlipped] = useState(false);
+const FlipCardWrapper = ({ card, horizontal, showId, defaultBack }: CardProps) => {
+  const [flipped, setFlipped] = useState(defaultBack ? true : false);
 
   const handleBtnClick = () => {
     setFlipped(!flipped);
@@ -153,12 +145,7 @@ const MultiLevelCard = ({ multiLevelCard }: MultiLevelCardProps) => {
           />
         </div>
       </div>
-      <FlipCard
-        key={card.image}
-        card={card}
-        flipped={flipped}
-        handleBtnClick={handleBtnClick}
-      />
+      <FlipCard key={card.image} card={card} flipped={flipped} handleBtnClick={handleBtnClick} />
     </div>
   );
 };
@@ -188,12 +175,7 @@ export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
       loadMore={loadMore}
       pageStart={0}
     >
-      {data?.map((multiLevelCard) => (
-        <MultiLevelCard
-          key={multiLevelCard.id}
-          multiLevelCard={multiLevelCard}
-        />
-      ))}
+      {data?.map((multiLevelCard) => <MultiLevelCard key={multiLevelCard.id} multiLevelCard={multiLevelCard} />)}
       {[...Array(4)].map((_, idx) => (
         <div key={idx}>
           <div className="multi-level-card-controller">
@@ -210,9 +192,10 @@ type CardListProps = {
   cardList: Card[];
   horizontal?: boolean;
   showId?: boolean;
+  defaultBack?: boolean;
 };
 
-const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
+const CardList = ({ cardList, horizontal, showId, defaultBack }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
   const loadMore = (page: number) => {
@@ -240,10 +223,11 @@ const CardList = ({ cardList, horizontal, showId }: CardListProps) => {
             card={card}
             horizontal={horizontal}
             showId={showId}
+            defaultBack={defaultBack}
           />
         ) : (
           <Card key={card.image} card={card} horizontal={horizontal} showId={showId} />
-        )
+        ),
       )}
       {[...Array(4)].map((_, idx) => (
         <div key={idx} className={horizontal ? "card-horizontal" : "card"} />

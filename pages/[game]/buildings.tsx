@@ -9,7 +9,7 @@ import { GameParams, Building, Option } from "../../common/types";
 
 import { MultiLevelCardList } from "../../components/CardList";
 import Layout from "../../components/Layout";
-import { buildingRoutes } from "../../data/routes";
+import { buildingRoutes } from "../../common/routes";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import Sort from "../../components/Sort";
 

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "data": "./data/scripts/data.sh",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

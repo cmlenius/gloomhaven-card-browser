@@ -87,6 +87,14 @@ export type Building = {
   imageBack?: string[];
 };
 
+export type Pet = {
+  id: number;
+  name: string;
+  game: string;
+  image: string;
+  imageBack?: string;
+};
+
 export type Option = {
   id: string;
   name: string;
