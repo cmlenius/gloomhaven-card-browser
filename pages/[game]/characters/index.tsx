@@ -6,7 +6,7 @@ import { CharacterAbility, CharacterParams } from "../../../common/types";
 import { getCharacter, getDefaultCharacterClass, getTitle, verifyQueryParam } from "../../../common/utils";
 import Layout from "../../../components/Layout";
 import CharactersPage from "../../../components/pages/CharactersPage";
-import { characterGameRoutes } from "../../../data/routes";
+import { characterGameRoutes } from "../../../common/routes";
 
 type PageProps = {
   searchResults: CharacterAbility[];

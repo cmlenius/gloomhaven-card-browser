@@ -12,7 +12,7 @@ import {
 } from "../../../common/utils";
 import Layout from "../../../components/Layout";
 import CharactersPage from "../../../components/pages/CharactersPage";
-import { characterRoutes } from "../../../data/routes";
+import { characterRoutes } from "../../../common/routes";
 
 type PageProps = {
   searchResults: CharacterAbility[];

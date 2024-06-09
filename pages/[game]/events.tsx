@@ -9,7 +9,7 @@ import { Event, GameParams, Option } from "../../common/types";
 import { getCharacterColor, getTitle, isInRanges, parseRanges, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
-import { eventRoutes } from "../../data/routes";
+import { eventRoutes } from "../../common/routes";
 import { useSpoilers } from "../../hooks/useSpoilers";
 
 type SeasonOption = {

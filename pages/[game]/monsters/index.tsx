@@ -6,7 +6,7 @@ import { Monster, MonsterParams, Option } from "../../../common/types";
 import { getTitle, verifyQueryParam } from "../../../common/utils";
 import Layout from "../../../components/Layout";
 import MonstersPage from "../../../components/pages/MonstersPage";
-import { monsterGameRoutes } from "../../../data/routes";
+import { monsterGameRoutes } from "../../../common/routes";
 
 type MonsterSearch = {
   monster: Monster;

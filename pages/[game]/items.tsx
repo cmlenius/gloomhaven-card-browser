@@ -18,7 +18,7 @@ import {
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Sort from "../../components/Sort";
-import { itemRoutes } from "../../data/routes";
+import { itemRoutes } from "../../common/routes";
 import { useSpoilers } from "../../hooks/useSpoilers";
 
 const sortOrderOptions: Option[] = [

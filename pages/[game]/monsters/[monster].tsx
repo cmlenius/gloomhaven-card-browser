@@ -6,7 +6,7 @@ import { MonsterParams, MonsterSearch } from "../../../common/types";
 import { getTitle, verifyQueryParam } from "../../../common/utils";
 import Layout from "../../../components/Layout";
 import MonstersPage from "../../../components/pages/MonstersPage";
-import { monsterRoutes } from "../../../data/routes";
+import { monsterRoutes } from "../../../common/routes";
 
 type PageProps = {
   searchResults: MonsterSearch;

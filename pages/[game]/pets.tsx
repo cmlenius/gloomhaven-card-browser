@@ -8,7 +8,7 @@ import { GameParams, Pet } from "../../common/types";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
-import { petRoutes } from "../../data/routes";
+import { petRoutes } from "../../common/routes";
 
 type PageProps = {
   searchResults: Pet[];
