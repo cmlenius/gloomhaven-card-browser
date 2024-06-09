@@ -266,7 +266,7 @@ const CharacterSpoilers = ({ classes }: CharacterSpoilersProps) => {
             <img
               alt=""
               className="spoiler-class-icon"
-              src={getBaseUrl() + `character-icons/${game}/${char.class}.png`}
+              src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`}
             />
             <span>{char.altName || char.name}</span>
           </li>
