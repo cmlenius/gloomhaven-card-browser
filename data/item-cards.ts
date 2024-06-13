@@ -5376,7 +5376,6 @@ export const itemCards: Record<string, Item[]> = {
       cost: 0,
       slot: "head",
       spent: true,
-      consumed: true,
     },
     {
       id: 196,

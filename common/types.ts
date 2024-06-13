@@ -1,24 +1,11 @@
 import { ParsedUrlQuery } from "querystring";
 
-export interface Card {
-  id?: number | string;
-  name: number | string;
-  image: string;
-  imageBack?: string;
-}
-
-export interface MultiLevelCard {
-  id?: number | string;
-  name: number | string;
-  image: string[];
-  imageBack?: string[];
-}
-
 export type Game = {
   id: string;
   name: string;
   defaultClass: string;
   defaultMonster: string;
+  routes: Option[];
 };
 
 export type Character = {
@@ -34,6 +21,20 @@ export type Character = {
   base?: boolean;
   hidden?: boolean;
 };
+
+export interface Card {
+  id?: number;
+  name: string;
+  image: string;
+  imageBack?: string;
+}
+
+export interface MultiLevelCard {
+  id?: number;
+  name: string;
+  image: string[];
+  imageBack?: string[];
+}
 
 export type CharacterAbility = {
   name: string;
@@ -62,7 +63,7 @@ export type Item = {
 
 export type Event = {
   id: number;
-  name: number;
+  name: string;
   game: string;
   eventType: string;
   image: string;
@@ -80,7 +81,7 @@ export type Monster = {
 };
 
 export type Building = {
-  id: string;
+  id: number;
   name: string;
   game: string;
   image: string[];
@@ -125,4 +126,8 @@ export interface MonsterParams extends ParsedUrlQuery {
 
 export interface GameParams extends ParsedUrlQuery {
   game: string;
+}
+
+export interface SearchResult {
+  name: number | string;
 }

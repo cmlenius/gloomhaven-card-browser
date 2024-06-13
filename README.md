@@ -2,9 +2,7 @@
 
 https://www.gloomhavencards.com
 
-Gloomhaven card browser is a site meant for browsing cards from the popular board game Gloomhaven. Most of the assets/images were pulled from [worldhaven](https://github.com/any2cards/worldhaven).
-
-The app was created using the [next.js](https://nextjs.org/) react framework leveraging Server Side Rendering wherever possible and deployed using [vercel](https://vercel.com/). If you'd like to run the app locally, clone the repo and run `npm run dev`.
+Gloomhaven card browser is a site meant for browsing cards from the popular board game Gloomhaven. The app was created using [next.js](https://nextjs.org/). If you'd like to run the app locally, clone the repo and run `npm run dev`.
 
 ## Features
 
@@ -13,6 +11,8 @@ The app was created using the [next.js](https://nextjs.org/) react framework lev
 - Item cards
 - Event cards
 - Monster stat & ability cards
+- Building cards
+- Pet cards
 - Sort and Filter options
 - Persistent spoiler configuration
 

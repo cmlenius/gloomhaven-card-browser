@@ -8856,7 +8856,7 @@ const groupBy = (items, key) =>
       ...result,
       [item[key]]: [...(result[item[key]] || []), item],
     }),
-    {}
+    {},
   );
 
 let fs = require("fs");
@@ -8922,7 +8922,7 @@ events = events
     let id = parseInt(event.name.split("-")[2]);
     return {
       id: id,
-      name: id,
+      name: id.toString(),
       game: expansion,
       image: event.image.replaceAll(".png", ".jpeg"),
       imageBack: event.image.replaceAll("f.png", "b.jpeg"),
@@ -8932,5 +8932,5 @@ events = events
   });
 
 fs.writeFile("event-cards.js", JSON.stringify(groupBy(events, "game")), "utf8", () =>
-  console.log("events", events.length)
+  console.log("events", events.length),
 );

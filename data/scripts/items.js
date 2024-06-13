@@ -6049,7 +6049,6 @@ let items = [
     gameType: "fh",
     image: "items/frosthaven/193-247/fh-195-tri-corner-hat.png",
     spent: true,
-    consumed: true,
     slot: "head",
   },
   {

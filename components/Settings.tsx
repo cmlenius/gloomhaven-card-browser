@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 
 import { Building, Character, Spoilers } from "../common/types";
 import { getBaseUrl, getCharacterClasses, verifyQueryParam } from "../common/utils";
-import { useSpoilers } from "../hooks/useSpoilers";
 import { buildingCards } from "../data/building-cards";
+import { useSpoilers } from "../hooks/useSpoilers";
 
 type ItemMiscSpoiler = {
   label: string;
@@ -159,27 +159,25 @@ type BuildingSpoilersProps = {
 
 const BuildingSpoilers = ({ buildings }: BuildingSpoilersProps) => {
   const { spoilers, updateSpoilers } = useSpoilers();
-  const router = useRouter();
-  const game = verifyQueryParam(router.query?.game, "fh");
-  const allBuildingSpoilers = buildings.every((b: Building) => spoilers.buildings.has(b.id));
+  const allBuildingSpoilers = buildings.every((b: Building) => spoilers.buildings.has(b.id.toString()));
 
   const handleBuildingSpoilerToggleAll = () => {
     const newSet = new Set(spoilers.buildings);
 
-    if (buildings.some((b: Building) => !spoilers.buildings.has(b.id))) {
+    if (buildings.some((b: Building) => !spoilers.buildings.has(b.id.toString()))) {
       for (const b of buildings) {
-        newSet.add(b.id);
+        newSet.add(b.id.toString());
       }
     } else {
       for (const b of buildings) {
-        newSet.delete(b.id);
+        newSet.delete(b.id.toString());
       }
     }
 
     updateSpoilers({ ...spoilers, buildings: newSet });
   };
 
-  const handleCharacterSpoilerToggle = (id: string) => {
+  const handleBuildingSpoilerToggle = (id: string) => {
     const newSet = spoilers.buildings;
 
     if (spoilers.buildings?.has(id)) {
@@ -199,8 +197,12 @@ const BuildingSpoilers = ({ buildings }: BuildingSpoilersProps) => {
       </div>
       <ul className="character-spoilers">
         {buildings.map((building, idx) => (
-          <li key={idx} className="spoiler-check-option" onClick={() => handleCharacterSpoilerToggle(building.id)}>
-            <input checked={spoilers.buildings.has(building.id)} readOnly type="checkbox" />
+          <li
+            key={idx}
+            className="spoiler-check-option"
+            onClick={() => handleBuildingSpoilerToggle(building.id.toString())}
+          >
+            <input checked={spoilers.buildings.has(building.id.toString())} readOnly type="checkbox" />
             <span>{building.id}</span>
           </li>
         ))}
@@ -309,11 +311,6 @@ const Settings = ({ open, onClose }: SettingsProps) => {
               <span>Clicking the checkboxes above will reveal spoilers for those characters and items</span>
             </div>
           )}
-          <div className="issues">
-            <a href="https://github.com/cmlenius/gloomhaven-card-browser/issues" rel="noreferrer" target="_blank">
-              Report issues or missing content
-            </a>
-          </div>
         </div>
       </div>
     </>

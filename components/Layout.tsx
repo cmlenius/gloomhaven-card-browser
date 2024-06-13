@@ -5,23 +5,10 @@ import { useRouter } from "next/router";
 import Script from "next/script";
 import { useState } from "react";
 
-import { Option } from "../common/types";
-import { defaultDescription, defaultTitle, getBaseUrl, verifyQueryParam } from "../common/utils";
+import { defaultDescription, defaultTitle, getBaseUrl, getGame, verifyQueryParam } from "../common/utils";
 import { DropdownNav } from "../components/Dropdown";
 import { games } from "../data/games";
 import Settings from "./Settings";
-
-const cardTypeOptions: Option[] = [
-  { id: "characters", name: "Characters" },
-  { id: "items", name: "Items" },
-  { id: "events", name: "Events" },
-  { id: "monsters", name: "Monsters" },
-];
-
-const additionalCardTypeOptions: Option[] = [
-  { id: "buildings", name: "Buildings" },
-  { id: "pets", name: "Pets" },
-];
 
 type SettingsAnchorProps = {
   openSettingsDrawer: () => void;
@@ -69,7 +56,7 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
           <DropdownNav href={handleGameChange} options={games} value={game} />
           <DropdownNav
             href={handleCardTypeChange}
-            options={game != "fh" ? cardTypeOptions : cardTypeOptions.concat(additionalCardTypeOptions)}
+            options={getGame(game)?.routes || []}
             value={cardType || "characters"}
           />
         </div>

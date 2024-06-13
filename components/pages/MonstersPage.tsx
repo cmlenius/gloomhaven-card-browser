@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import { Monster, MonsterSearch, Option } from "../../common/types";
-import { getBaseUrl, getCharacterColor, getDefaultMonster, verifyQueryParam } from "../../common/utils";
+import { Monster, MonsterSearch } from "../../common/types";
+import { getBaseUrl, getGame, getPageColor, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Dropdown from "../../components/Dropdown";
+import { monsterCards } from "../../data/monster-cards";
 
 type MonsterStatCardProps = {
   index: number;
@@ -67,11 +68,10 @@ type PageProps = {
 
 const MonstersPage = ({ game, searchResults }: PageProps) => {
   const { monsterList, monster } = searchResults;
-
   const [index, setIndex] = useState(0);
   const router = useRouter();
 
-  const monsterSearch = verifyQueryParam(router.query.monster, getDefaultMonster(game));
+  const monsterSearch = verifyQueryParam(router.query.monster, getGame(game)?.defaultMonster);
 
   const handleIndexChange = () => {
     setIndex((index + 1) % monster?.statCards?.length);
@@ -87,7 +87,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
   };
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
+    document.documentElement.style.setProperty("--primary", getPageColor(null));
   }, []);
 
   useEffect(() => {
@@ -133,6 +133,16 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
       </div>
     </>
   );
+};
+
+export const monsterSearchResults = (query: { [key: string]: string | string[] }): MonsterSearch => {
+  const game = verifyQueryParam(query.game, "gh");
+  const monster = verifyQueryParam(query.monster, monsterCards[game]?.[0].id);
+
+  return {
+    monsterList: monsterCards[game]?.map((m) => ({ id: m.id, name: m.name })) || [],
+    monster: monsterCards[game]?.find((m) => m.id === monster),
+  };
 };
 
 export default MonstersPage;
