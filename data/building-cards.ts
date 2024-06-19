@@ -2,7 +2,7 @@ import { Building } from "../common/types";
 export const buildingCards: Record<string, Building[]> = {
   fh: [
     {
-      id: "05",
+      id: 5,
       name: "Mining Camp",
       game: "fh",
       image: [
@@ -19,7 +19,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "12",
+      id: 12,
       name: "Hunting Lodge",
       game: "fh",
       image: [
@@ -36,7 +36,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "17",
+      id: 17,
       name: "Logging Camp",
       game: "fh",
       image: [
@@ -53,7 +53,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "21",
+      id: 21,
       name: "Inn",
       game: "fh",
       image: [
@@ -68,7 +68,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "24",
+      id: 24,
       name: "Garden",
       game: "fh",
       image: [
@@ -85,7 +85,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "34",
+      id: 34,
       name: "Craftsman",
       game: "fh",
       image: [
@@ -112,7 +112,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "35",
+      id: 35,
       name: "Alchemist",
       game: "fh",
       image: [
@@ -127,7 +127,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "37",
+      id: 37,
       name: "Trading Post",
       game: "fh",
       image: [
@@ -144,7 +144,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "39",
+      id: 39,
       name: "Jeweler",
       game: "fh",
       image: [
@@ -159,7 +159,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "42",
+      id: 42,
       name: "Temple",
       game: "fh",
       image: [
@@ -174,7 +174,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "44",
+      id: 44,
       name: "Enhancer",
       game: "fh",
       image: [
@@ -191,7 +191,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "65",
+      id: 65,
       name: "Metal Depot",
       game: "fh",
       image: [
@@ -204,7 +204,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "67",
+      id: 67,
       name: "Lumber Depot",
       game: "fh",
       image: [
@@ -217,7 +217,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "72",
+      id: 72,
       name: "Hide Depot",
       game: "fh",
       image: [
@@ -230,7 +230,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "74",
+      id: 74,
       name: "Tavern",
       game: "fh",
       image: [
@@ -245,7 +245,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "81",
+      id: 81,
       name: "Hall of Revelry",
       game: "fh",
       image: [
@@ -258,7 +258,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "83",
+      id: 83,
       name: "Library",
       game: "fh",
       image: [
@@ -273,14 +273,14 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "84",
+      id: 84,
       name: "Workshop",
       game: "fh",
       image: ["buildings/frosthaven/fh-84-workshop-level-1.jpeg"],
       imageBack: ["buildings/frosthaven/fh-84-workshop-level-1-back.jpeg"],
     },
     {
-      id: "85",
+      id: 85,
       name: "Carpenter",
       game: "fh",
       image: ["buildings/frosthaven/fh-85-carpenter-level-1.jpeg", "buildings/frosthaven/fh-85-carpenter-level-2.jpeg"],
@@ -290,7 +290,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "88",
+      id: 88,
       name: "Stables",
       game: "fh",
       image: [
@@ -307,7 +307,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "90",
+      id: 90,
       name: "Town Hall",
       game: "fh",
       image: [
@@ -322,7 +322,7 @@ export const buildingCards: Record<string, Building[]> = {
       ],
     },
     {
-      id: "98",
+      id: 98,
       name: "Barracks",
       game: "fh",
       image: [

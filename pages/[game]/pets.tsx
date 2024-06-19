@@ -1,14 +1,14 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { useEffect } from "react";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
-import { petSearchResults } from "../../common/search-results";
-import { getCharacterColor, getTitle, verifyQueryParam } from "../../common/utils";
 import { GameParams, Pet } from "../../common/types";
+import { customSort, getPageColor, getTitle, verifyQueryParam } from "../../common/utils";
 
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
-import { petRoutes } from "../../common/routes";
+import { games } from "../../data/games";
+import { petCards } from "../../data/pet-cards";
 
 type PageProps = {
   searchResults: Pet[];
@@ -20,7 +20,7 @@ const Pets = ({ searchResults }: PageProps) => {
   const game = verifyQueryParam(query.game, "gh");
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
+    document.documentElement.style.setProperty("--primary", getPageColor(null));
   }, []);
   const cardList = searchResults || [];
 
@@ -35,7 +35,19 @@ const Pets = ({ searchResults }: PageProps) => {
 export default Pets;
 
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
-  return petRoutes;
+  return {
+    fallback: false,
+    paths: games.map((game) => ({
+      params: {
+        game: game.id,
+      },
+    })),
+  };
+};
+
+const petSearchResults = (query: { [key: string]: string | string[] }) => {
+  const game = verifyQueryParam(query.game, "gh");
+  return petCards[game]?.sort(customSort("id", "asc")) || [];
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {

@@ -3,17 +3,30 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 import { Character, CharacterAbility, Option, Spoilers } from "../../common/types";
-import { characterSpoilerFilter, customSort, getBaseUrl, getCharacterClasses } from "../../common/utils";
+import { customSort, getBaseUrl, getCharacter, getCharacterClasses, getDefaultCharacterClass, verifyQueryParam } from "../../common/utils";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import CardList from "..//CardList";
 import Sort from "..//Sort";
 import Empty from "../Empty";
+import { characters } from "../../data/characters";
+import { characterAbilityCards } from "../../data/character-ability-cards";
 
 const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },
   { id: "initiative", name: "Initiative" },
   { id: "name", name: "Name" },
 ];
+
+const characterSpoilerFilter = (spoilers: Spoilers): ((card: CharacterAbility) => boolean) => {
+  const baseCharacterClasses = new Set(characters.filter((c) => c.base).map((c) => c.class));
+  const hiddenCharacterClasses = new Set(characters.filter((c) => c.hidden).map((c) => c.class));
+
+  return (card) =>
+    (baseCharacterClasses.has(card.class) ||
+      spoilers.characters?.has(card.class) ||
+      hiddenCharacterClasses.has(card.class)) &&
+    card.level < 1 + (spoilers.level || 1);
+};
 
 type ClassFilterProps = {
   characterClass: string;
@@ -154,6 +167,22 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           <CardList cardList={cardList} />
         ))}
     </>
+  );
+};
+
+export const characterSearchResults = (query: { [key: string]: string | string[] }) => {
+  const game = verifyQueryParam(query.game, "gh");
+  const className = verifyQueryParam(query.character, getDefaultCharacterClass(game));
+
+  const character = getCharacter(game, className?.toUpperCase());
+  if (character == null) {
+    return [];
+  }
+
+  return (
+    characterAbilityCards[game]?.[character?.class.toUpperCase()]
+      ?.map((card) => (card.name.endsWith("-back") ? { ...card, name: character?.name } : card))
+      .sort(customSort("level", "asc")) || []
   );
 };
 

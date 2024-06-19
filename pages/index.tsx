@@ -2,10 +2,9 @@ import { GetStaticProps } from "next";
 import { useRouter } from "next/router";
 
 import { CharacterAbility, CharacterParams } from "../common/types";
-import { getCharacter, getDefaultCharacterClass, verifyQueryParam } from "../common/utils";
+import { getCharacter, verifyQueryParam } from "../common/utils";
 import Layout from "../components/Layout";
-import CharactersPage from "../components/pages/CharactersPage";
-import { characterSearchResults } from "../common/search-results";
+import CharactersPage, { characterSearchResults } from "../components/pages/CharactersPage";
 
 type PageProps = {
   searchResults: CharacterAbility[];
@@ -14,7 +13,7 @@ type PageProps = {
 const Characters = ({ searchResults }: PageProps) => {
   const router = useRouter();
   const game = verifyQueryParam(router.query.game, "gh");
-  const character = getCharacter(game, getDefaultCharacterClass(game));
+  const character = getCharacter(game, null);
 
   return (
     <Layout title="Gloomhaven Card Browser">

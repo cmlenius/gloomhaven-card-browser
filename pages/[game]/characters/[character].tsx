@@ -1,7 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 
-import { characterSearchResults } from "../../../common/search-results";
 import { CharacterAbility, CharacterParams } from "../../../common/types";
 import {
   getCharacter,
@@ -11,8 +10,8 @@ import {
   verifyQueryParam,
 } from "../../../common/utils";
 import Layout from "../../../components/Layout";
-import CharactersPage from "../../../components/pages/CharactersPage";
-import { characterRoutes } from "../../../common/routes";
+import CharactersPage, { characterSearchResults } from "../../../components/pages/CharactersPage";
+import { characters } from "../../../data/characters";
 
 type PageProps = {
   searchResults: CharacterAbility[];
@@ -39,7 +38,15 @@ const Characters = ({ searchResults }: PageProps) => {
 export default Characters;
 
 export const getStaticPaths: GetStaticPaths<CharacterParams> = async () => {
-  return characterRoutes;
+  return {
+    fallback: false,
+    paths: characters.map((character) => ({
+      params: {
+        game: character.game,
+        character: character.class,
+      },
+    })),
+  };
 };
 
 export const getStaticProps: GetStaticProps<PageProps, CharacterParams> = async (context) => {
