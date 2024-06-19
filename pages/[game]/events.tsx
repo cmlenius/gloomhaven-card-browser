@@ -4,12 +4,12 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import { ChangeEvent, useEffect, useState } from "react";
 
-import { eventSearchResults } from "../../common/search-results";
 import { Event, GameParams, Option } from "../../common/types";
-import { getCharacterColor, getTitle, isInRanges, parseRanges, verifyQueryParam } from "../../common/utils";
+import { customSort, getPageColor, getTitle, isInRanges, parseRanges, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
-import { eventRoutes } from "../../common/routes";
+import { eventCards } from "../../data/event-cards";
+import { games } from "../../data/games";
 import { useSpoilers } from "../../hooks/useSpoilers";
 
 type SeasonOption = {
@@ -101,11 +101,11 @@ const Events = ({ searchResults }: PageProps) => {
   };
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
+    document.documentElement.style.setProperty("--primary", getPageColor(null));
   }, []);
 
   const cardList = searchResults?.filter((event) => {
-    if (search !== null && !isInRanges(event.name, search)) return false;
+    if (search !== null && !isInRanges(event.id, search)) return false;
     if (eventTypeFilter !== null && eventTypeFilter !== event.eventType) return false;
     if (
       game === "fh" &&
@@ -159,7 +159,24 @@ const Events = ({ searchResults }: PageProps) => {
 export default Events;
 
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
-  return eventRoutes;
+  return {
+    fallback: false,
+    paths: games.map((game) => ({
+      params: {
+        game: game.id,
+      },
+    })),
+  };
+};
+
+const eventSearchResults = (query: { [key: string]: string | string[] }) => {
+  const game = verifyQueryParam(query.game, "gh");
+  const season = verifyQueryParam(query.season);
+  let eventType = verifyQueryParam(query.eventType, "city");
+
+  if (game === "fh" && eventType === "city") eventType = "outpost";
+
+  return eventCards[game]?.sort(customSort("id", "asc")) || [];
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {

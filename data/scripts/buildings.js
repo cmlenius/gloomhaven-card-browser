@@ -1188,20 +1188,19 @@ buildings = buildings
       .split(" ")
       .slice(1, -2)
       .map((w, i) => (i !== 0 && (w === "of" || w === "the") ? w : w.charAt(0).toUpperCase() + w.slice(1)));
-    let id = building.id < 10 ? "0" + building.id.toString() : building.id.toString();
 
     return {
-      id: id,
+      id: building.id,
       name: name.join(" "),
       game: "fh",
       image: building.image.replaceAll(".png", ".jpeg"),
       imageBack: building.image.replaceAll(".png", "-back.jpeg"),
     };
   })
-  .sort((a, b) => parseInt(a.id, 10) > parseInt(b.id, 10));
+  .sort((a, b) => a.id > b.id);
 buildings = groupBy(buildings, "id");
 buildings = Object.keys(buildings)
-  .sort()
+  .sort((a, b) => a.id > b.id)
   .map((key) => ({
     id: buildings[key][0].id,
     name: buildings[key][0].name,

@@ -1,10 +1,10 @@
+import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
-import { getBaseUrl } from "../common/utils";
 import { Card, MultiLevelCard } from "../common/types";
+import { getBaseUrl } from "../common/utils";
 import Empty from "./Empty";
 
 const CARDS_PER_PAGE = 12;

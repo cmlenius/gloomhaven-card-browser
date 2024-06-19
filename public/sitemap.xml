@@ -1,403 +1,487 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-   <url>
-      <loc>https://www.gloomhavencards.com/</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/BR</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/CH</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/MT</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/SC</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/SW</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/TI</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/BE</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/BT</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/DS</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/EL</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/NS</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/PH</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/QM</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/SB</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/SK</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/SS</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/SU</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/characters/DR</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/BB</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/BN</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/BO</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/DF</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/DW</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/GE</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/CR</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/DT</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/FF</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/HV</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/IF</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/ME</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/PC</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/PY</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/SD</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/SH</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/characters/TA</loc>
-      <lastmod>2023-02-25T13:04:33+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/characters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/characters/DE</loc>
-      <lastmod>2023-02-25T13:12:22+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/characters/HA</loc>
-      <lastmod>2023-02-25T13:12:22+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/characters/RG</loc>
-      <lastmod>2023-02-25T13:12:22+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/characters/VW</loc>
-      <lastmod>2023-02-25T13:12:22+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/BK</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/BM</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/CG</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/CT</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/FK</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/HO</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/HP</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/LU</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/MF</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/SP</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/ST</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/AA</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/QA</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/characters/RM</loc>
-      <lastmod>2023-02-25T13:12:51+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters/IN</loc>
-      <lastmod>2023-02-25T13:13:44+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters/RH</loc>
-      <lastmod>2023-02-25T13:13:44+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters/SR</loc>
-      <lastmod>2023-02-25T13:13:44+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters/TP</loc>
-      <lastmod>2023-02-25T13:13:44+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters/TR</loc>
-      <lastmod>2023-02-25T13:13:44+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/characters/VQ</loc>
-      <lastmod>2023-02-25T13:13:44+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/items</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/events</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/gh/monsters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/items</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/events</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/fh/monsters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/items</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/events</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/jotl/monsters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/items</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/events</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/cs/monsters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/items</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/events</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://www.gloomhavencards.com/toa/monsters</loc>
-      <lastmod>2023-02-25T13:02:03+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.gloomhavencards.com/</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/items</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/events</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/monsters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/BR</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/CH</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/MT</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/SC</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/SW</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/TI</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/BE</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/BT</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/DS</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/EL</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/NS</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/PH</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/QM</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/SB</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/SK</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/SS</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/SU</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/BS</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/characters/DR</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/items</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/events</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/monsters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/buildings</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/pets</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/BB</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/BN</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/BO</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/DF</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/DW</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/GE</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/CR</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/DT</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/FF</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/HV</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/IF</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/ME</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/PC</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/PY</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/SD</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/SH</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/fh/characters/TA</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/characters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/items</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/events</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/monsters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/characters/DE</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/characters/HA</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/characters/RG</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/characters/VW</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/items</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/events</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/monsters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/BK</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/BM</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/CG</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/CT</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/FK</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/HO</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/HP</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/LU</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/MF</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/SP</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/ST</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/AA</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/QA</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/characters/RM</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/items</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/events</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/monsters</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters/IN</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters/RH</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters/SR</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters/TP</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/characters/TR</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/buildings</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/buildings</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/buildings</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/buildings</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/gh/pets</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/jotl/pets</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/cs/pets</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.gloomhavencards.com/toa/pets</loc>
+  <lastmod>2024-06-19T08:57:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>

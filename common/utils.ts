@@ -1,22 +1,15 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import { Building, Card, Character, CharacterAbility, Item, Spoilers } from "./types";
+import { Card, Character, Game, SearchResult } from "./types";
 
+export const defaultColour = "#432423";
 export const defaultDescription =
-  "Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, and Event cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes";
+  "Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, Event, Building, and Pet cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes";
 export const defaultTitle = "Gloomhaven Card Browser";
 
 export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
 }
-
-const nameToClassKeyMapping = characters.reduce((map, character) => {
-  map[character.name.toLowerCase().replace(/\s/g, "")] = character.class;
-  if (character.altName) {
-    map[character.altName.toLowerCase().replace(/\s/g, "")] = character.class;
-  }
-  return map;
-}, {});
 
 const articles = new Set(["a", "an", "and", "of", "the"]);
 const toTitleCase = (phrase: string | number) => {
@@ -28,70 +21,113 @@ const toTitleCase = (phrase: string | number) => {
     .join(" ");
 };
 
-export function verifyQueryParam(param: string | string[] | null, defaultValue?: string): string | null {
+/**
+ * Null checks param using default value if null. If array returns first element
+ * @param param a nullable param that can be either a string or array of strings
+ * @param defaultValue default value if param is not valid
+ * @returns Nonnull string representing param or default value
+ */
+export const verifyQueryParam = (param: string | string[] | null, defaultValue?: string): string => {
   if (!param) return defaultValue;
   if (param instanceof Array) return param[0];
   return param;
-}
+};
 
-export function getDescription(game: string, subject: string, cards: Card[]): string {
-  const gameName = games.find((g) => g.id === game)?.name;
+/**
+ * Generates a html page description based on the game and subject with list of card names
+ * @param gameId The id of the game (i.e. "gh")
+ * @param subject The subject of the page (i.e. "Items")
+ * @param cards List of Cards
+ * @returns Description as string text
+ */
+export const getDescription = (gameId: string, subject: string, cards: Card[]): string => {
+  const gameName = games.find((g) => g.id === gameId)?.name;
   const description = gameName + " " + subject + "; " + cards.map((c) => toTitleCase(c.name)).join(", ");
 
   if (!gameName || !subject || !cards || cards.length == 0 || description.trim() == "") return defaultDescription;
 
   return description.trim();
-}
+};
 
-export function getTitle(game: string, subject: string): string {
-  const gameName = games.find((g) => g.id === game)?.name;
+/**
+ * Generates a html page title based on the game and subject
+ * @param gameId The id of the game (i.e. "gh")
+ * @param subject The subject of the page (i.e. "Items")
+ * @returns Title as string text
+ */
+export const getTitle = (gameId: string, subject: string): string => {
+  const gameName = games.find((g) => g.id === gameId)?.name;
   const title = gameName + " " + subject;
 
   if (!gameName || !subject || title.trim() == "") return defaultTitle;
 
   return title.trim();
-}
+};
 
-export function getCharacterClasses(game: string): Character[] {
-  return characters.filter((c) => c.game === game);
-}
+/**
+ * Returns all characters for the specified game
+ * @param gameId The id of the game (i.e. "gh")
+ * @returns List of Characters
+ */
+export const getCharacterClasses = (gameId: string): Character[] => {
+  return characters.filter((c) => c.game === gameId);
+};
 
-export function getCharacterColor(char: string): string {
-  const defaultColour = "#432423";
+/**
+ * Returns color of a character class or the default color if class not provided
+ * @param characterClass The class name (i.e. "BR")
+ * @returns css color code string
+ */
+export const getPageColor = (characterClass: string): string => {
+  if (!characterClass) return defaultColour;
+  return characters.find((c) => c.class === characterClass)?.colour || defaultColour;
+};
 
-  if (!char) return defaultColour;
-  return characters.find((c) => c.class === char)?.colour || defaultColour;
-}
-
-export function getCharacter(game: string, characterClass: string): Character | null {
-  const chars = game ? characters.filter((c) => c.game === game) : characters;
-  let character = chars.find((c) => c.class === characterClass);
-  if (character == null) {
-    const characterClassName = characterClass?.toLowerCase().replace(/\s/g, "");
-    character = chars.find((c) => c.class === nameToClassKeyMapping[characterClassName]);
-  }
-
-  return character;
-}
-
-export function getDefaultCharacterClass(gameId: string): string | null {
+/**
+ * Returns character details for a the default character of a game
+ * @param gameId The id of the game (i.e. "gh")
+ * @returns Character details or null
+ */
+export const getDefaultCharacterClass = (gameId: string): string | null => {
   const game = games.find((g) => g.id === gameId);
   if (game) return game.defaultClass;
 
   return null;
-}
+};
 
-export function getDefaultMonster(gameId: string): string | null {
-  const game = games.find((g) => g.id === gameId);
-  if (game) return game.defaultMonster;
+/**
+ * Returns character details for a specific character, if characterClass is not provided returns the default character for its game.
+ * @param gameId The id of the game (i.e. "gh")
+ * @param characterClass The class name (i.e. "BR")
+ * @returns Character details or null
+ */
+export const getCharacter = (gameId: string, characterClass: string): Character | null => {
+  if (!characterClass) {
+    const game = games.find((g) => g.id === gameId);
+    if (game) characterClass = game.defaultClass;
+  }
+
+  let character = characters.find((c) => c.class === characterClass);
+  if (character) return character;
 
   return null;
-}
+};
 
-interface SearchResult {
-  name: number | string;
-}
+/**
+ * Returns game details for a specific game id
+ * @param gameId The id of the game (i.e. "gh")
+ * @returns Game details or null
+ */
+export const getGame = (gameId: string): Game | null => {
+  return games.find((g) => g.id === gameId);
+};
 
+/**
+ * Parses a string of "ranges" into an array of range objects.
+ * EG: "1-10,92" => [{ start: 1, end : 10 }, { start: 92, end: 92 }].
+ * @param str The string to parse into ranges.
+ * @returns The range objects, or null if empty input string or error.
+ */
 export function customSort(order: string, direction: string): (a: SearchResult, b: SearchResult) => number {
   return (a, b) => {
     let sort = 1;
@@ -104,52 +140,6 @@ export function customSort(order: string, direction: string): (a: SearchResult, 
     }
     return direction === "asc" ? sort : -1 * sort;
   };
-}
-
-export function characterSpoilerFilter(spoilers: Spoilers): (card: CharacterAbility) => boolean {
-  const baseCharacterClasses = new Set(characters.filter((c) => c.base).map((c) => c.class));
-  const hiddenCharacterClasses = new Set(characters.filter((c) => c.hidden).map((c) => c.class));
-
-  return (card) =>
-    (baseCharacterClasses.has(card.class) ||
-      spoilers.characters?.has(card.class) ||
-      hiddenCharacterClasses.has(card.class)) &&
-    card.level < 1 + (spoilers.level || 1);
-}
-
-export function itemSpoilerFilter(spoilers: Spoilers): (item: Item) => boolean {
-  return (card) => {
-    switch (card.source) {
-      case "prosperity":
-        return card.prosperity <= parseInt(String(spoilers.items.prosperity), 10);
-      case "random-design":
-        return !!spoilers.items.recipes;
-      case "solo-scenario":
-        return !!spoilers.items.solo;
-      case "other":
-        return !!spoilers.items.other;
-      case "fc":
-        return !!spoilers.items.fc;
-      case "jotl":
-        return true;
-      case "jotl1":
-        return !!spoilers.items.jotl1;
-      case "jotl2":
-        return !!spoilers.items.jotl2;
-      case "jotl3":
-        return !!spoilers.items.jotl3;
-      case "cs":
-      case "toa":
-      case "fh":
-        return true;
-      default:
-        return false;
-    }
-  };
-}
-
-export function buildingSpoilerFilter(spoilers: Spoilers): (building: Building) => boolean {
-  return (building) => spoilers.buildings?.has(building.id);
 }
 
 type Ranges = { start: number; end: number }[];

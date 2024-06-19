@@ -1,12 +1,11 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 
-import { monsterSearchResults } from "../../../common/search-results";
 import { Monster, MonsterParams, Option } from "../../../common/types";
 import { getTitle, verifyQueryParam } from "../../../common/utils";
 import Layout from "../../../components/Layout";
-import MonstersPage from "../../../components/pages/MonstersPage";
-import { monsterGameRoutes } from "../../../common/routes";
+import MonstersPage, { monsterSearchResults } from "../../../components/pages/MonstersPage";
+import { games } from "../../../data/games";
 
 type MonsterSearch = {
   monster: Monster;
@@ -31,7 +30,15 @@ const Monsters = ({ searchResults }: PageProps) => {
 export default Monsters;
 
 export const getStaticPaths: GetStaticPaths<MonsterParams> = async () => {
-  return monsterGameRoutes;
+  return {
+    fallback: false,
+    paths: games.map((game) => ({
+      params: {
+        game: game.id,
+        monster: game.defaultMonster,
+      },
+    })),
+  };
 };
 
 export const getStaticProps: GetStaticProps<PageProps, MonsterParams> = async (context) => {

@@ -1,22 +1,25 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { useEffect, useState } from "react";
-import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
-import { buildingSearchResults } from "../../common/search-results";
-import { buildingSpoilerFilter, customSort, getCharacterColor, getTitle, verifyQueryParam } from "../../common/utils";
-import { GameParams, Building, Option } from "../../common/types";
+import { Building, GameParams, Option, Spoilers } from "../../common/types";
+import { customSort, getPageColor, getTitle, verifyQueryParam } from "../../common/utils";
 
 import { MultiLevelCardList } from "../../components/CardList";
 import Layout from "../../components/Layout";
-import { buildingRoutes } from "../../common/routes";
-import { useSpoilers } from "../../hooks/useSpoilers";
 import Sort from "../../components/Sort";
+import { buildingCards } from "../../data/building-cards";
+import { games } from "../../data/games";
+import { useSpoilers } from "../../hooks/useSpoilers";
 
 const sortOrderOptions: Option[] = [
   { id: "id", name: "Building Number" },
   { id: "name", name: "Name" },
 ];
+
+const buildingSpoilerFilter = (spoilers: Spoilers): ((building: Building) => boolean) => {
+  return (building) => spoilers.buildings?.has(building.id.toString());
+};
 
 type PageProps = {
   searchResults: Building[];
@@ -38,7 +41,7 @@ const Buildings = ({ searchResults }: PageProps) => {
   };
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--primary", getCharacterColor(null));
+    document.documentElement.style.setProperty("--primary", getPageColor(null));
   }, []);
   const cardList =
     searchResults
@@ -66,7 +69,19 @@ const Buildings = ({ searchResults }: PageProps) => {
 export default Buildings;
 
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
-  return buildingRoutes;
+  return {
+    fallback: false,
+    paths: games.map((game) => ({
+      params: {
+        game: game.id,
+      },
+    })),
+  };
+};
+
+const buildingSearchResults = (query: { [key: string]: string | string[] }) => {
+  const game = verifyQueryParam(query.game, "gh");
+  return buildingCards[game]?.sort(customSort("id", "asc")) || [];
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
