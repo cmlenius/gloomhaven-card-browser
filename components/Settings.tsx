@@ -311,11 +311,6 @@ const Settings = ({ open, onClose }: SettingsProps) => {
               <span>Clicking the checkboxes above will reveal spoilers for those characters and items</span>
             </div>
           )}
-          <div className="issues">
-            <a href="https://github.com/cmlenius/gloomhaven-card-browser/issues" rel="noreferrer" target="_blank">
-              Report issues or missing content
-            </a>
-          </div>
         </div>
       </div>
     </>
