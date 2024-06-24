@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroller";
 
-import { Card, MultiLevelCard } from "../common/types";
+import type { Card, MultiLevelCard } from "../common/types";
 import { getBaseUrl } from "../common/utils";
 import Empty from "./Empty";
 
@@ -14,11 +14,20 @@ type CardProps = {
   horizontal?: boolean;
   showId?: boolean;
   defaultBack?: boolean;
+  buildMode?: boolean;
+  handleCardClick?: (card) => void;
 };
 
-const Card = ({ card, horizontal, showId }: CardProps) => {
+const Card = ({ card, horizontal, showId, buildMode, handleCardClick }: CardProps) => {
+  const [selected, setSelected] = useState(false)
+
+  const emitCardClick = () => {
+    handleCardClick(card)
+    setSelected(!selected)
+  }
+
   return (
-    <div className={horizontal ? "card-horizontal" : "card"}>
+    <div className={horizontal ? "card-horizontal" : "card"} onClick={emitCardClick} style={{cursor: buildMode ? 'context-menu' : 'auto'}}>
       {showId && <div className="card-id">{card.id}</div>}
       <div className="card-inner" style={{ paddingTop: horizontal ? "66%" : "150%" }}>
         <div className="card-img-front">
@@ -193,9 +202,11 @@ type CardListProps = {
   horizontal?: boolean;
   showId?: boolean;
   defaultBack?: boolean;
+  buildMode?: boolean;
+  handleCardSelection?: (Card: Card) => void;
 };
 
-const CardList = ({ cardList, horizontal, showId, defaultBack }: CardListProps) => {
+const CardList = ({ cardList, horizontal, showId, defaultBack, buildMode, handleCardSelection }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
   const loadMore = (page: number) => {
@@ -226,7 +237,7 @@ const CardList = ({ cardList, horizontal, showId, defaultBack }: CardListProps) 
             defaultBack={defaultBack}
           />
         ) : (
-          <Card key={card.image} card={card} horizontal={horizontal} showId={showId} />
+          <Card key={card.image} card={card} horizontal={horizontal} showId={showId} buildMode={buildMode} handleCardClick={handleCardSelection}/>
         ),
       )}
       {[...Array(4)].map((_, idx) => (

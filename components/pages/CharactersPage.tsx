@@ -5,11 +5,13 @@ import { useEffect, useState } from "react";
 import { Character, CharacterAbility, Option, Spoilers } from "../../common/types";
 import { customSort, getBaseUrl, getCharacter, getCharacterClasses, getDefaultCharacterClass, verifyQueryParam } from "../../common/utils";
 import { useSpoilers } from "../../hooks/useSpoilers";
-import CardList from "..//CardList";
-import Sort from "..//Sort";
+import CardList from "../CardList";
+import Sort from "../Sort";
 import Empty from "../Empty";
 import { characters } from "../../data/characters";
 import { characterAbilityCards } from "../../data/character-ability-cards";
+
+import {Card} from '../../common/types'
 
 const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },
@@ -88,6 +90,16 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   const [showCharacterDetails, setShowCharacterDetails] = useState(false);
   const [sortOrder, setsortOrder] = useState("level");
   const [sortDirection, setSortDirection] = useState("asc");
+  const [buildMode, setBuildMode] = useState(false)
+  const [mutableCardList, setMutableCardList] = useState([])
+
+  useEffect(() => {
+    const sortedCardList = searchResults
+      ?.filter(characterSpoilerFilter(spoilers))
+      .sort(customSort(sortOrder || "id", sortDirection || 'asc')) || [];
+
+    setMutableCardList(JSON.parse(JSON.stringify(sortedCardList)))
+  }, [searchResults, spoilers, sortOrder, sortDirection, buildMode])
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -96,17 +108,15 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     updateSpoilers({ ...spoilers, level: newLevel });
   };
 
-  const handleSortOrderChange = (newValue: string) => {
-    setsortOrder(newValue);
-  };
-  const handleSortDirectionChange = (newValue: string) => {
-    setSortDirection(newValue);
-  };
+  const handleSortOrderChange = (newValue: string) => setsortOrder(newValue);
+  const handleSortDirectionChange = (newValue: string) => setSortDirection(newValue);
+  const handleBuildMode = () => setBuildMode(!buildMode)
 
-  const cardList =
-    searchResults
-      ?.filter(characterSpoilerFilter(spoilers))
-      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
+  const handleHideCard = (card: Card) => {
+    if (!buildMode) return;
+    const newCardList = mutableCardList.filter(c => c !== card)
+    setMutableCardList(newCardList)   
+  }
 
   useEffect(() => {
     if (character) document.documentElement.style.setProperty("--primary", character.colour);
@@ -114,7 +124,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
 
   return (
     <>
-      <div className="toolbar">
+       <div className="toolbar" style={{flexDirection: 'column'}}>
         <div className="toolbar-inner">
           <div>
             <div className="flex">
@@ -150,6 +160,12 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
                 Ability Cards
               </button>
               <button
+                className={buildMode ? "btn-selected" : ""}
+                onClick={() => handleBuildMode()}
+              >
+                Build Mode
+              </button>
+              <button
                 className={showCharacterDetails ? "btn-selected" : ""}
                 onClick={() => setShowCharacterDetails(true)}
               >
@@ -158,13 +174,16 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
             </div>
           </div>
         </div>
+        <div className="build-toggle-tool-bar">
+          <p><b>BuildMode:</b> Click to hide a card, leaving only cards in your build.  Toggle button to reset.</p>
+        </div>
       </div>
       <ClassFilter game={game} characterClass={character?.class} />
       {!spoilers.loading &&
         (showCharacterDetails ? (
           <CharacterDetails character={character} spoilers={spoilers} />
         ) : (
-          <CardList cardList={cardList} />
+          <CardList cardList={mutableCardList} handleCardSelection={handleHideCard} buildMode={buildMode}/>
         ))}
     </>
   );
