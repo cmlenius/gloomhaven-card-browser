@@ -16,6 +16,13 @@ export const games: Game[] = [
     routes: baseRoutes,
   },
   {
+    id: "gh2",
+    name: "Gloomhaven 2nd Edition",
+    defaultClass: "BR2",
+    defaultMonster: "ancient-artillery",
+    routes: baseRoutes,
+  },
+  {
     id: "fh",
     name: "Frosthaven",
     defaultClass: "BB",

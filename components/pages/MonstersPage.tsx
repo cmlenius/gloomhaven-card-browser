@@ -17,10 +17,10 @@ type MonsterStatCardProps = {
 };
 
 const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterStatCardProps) => {
-  const [rotation, setRotation] = useState(monster.isVertical ? 0 : -90);
+  const [rotation, setRotation] = useState(monster?.isVertical ? 0 : -90);
 
   const handleBtnClick = () => {
-    if (monster.isVertical) {
+    if (monster?.isVertical) {
       setRotation(rotation - 180);
     } else {
       setRotation(rotation - 90);
@@ -28,20 +28,20 @@ const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterSta
   };
 
   useEffect(() => {
-    setRotation(monster.isVertical ? 0 : -90);
+    setRotation(monster?.isVertical ? 0 : -90);
   }, [monster]);
 
-  const displayIndex = index * (monster.isVertical ? 2 : 4);
+  const displayIndex = index * (monster?.isVertical ? 2 : 4);
 
   return (
-    <div className="monster-stat-card" key={monster.id}>
+    <div className="monster-stat-card" key={monster?.id}>
       <div
         className="monster-img-outer"
         style={{
-          paddingTop: monster.isVertical && game !== "fh" ? "150%" : "100%",
+          paddingTop: monster?.isVertical && game !== "fh" ? "150%" : "100%",
         }}
       >
-        {monster.statCards?.map((img, idx) => (
+        {monster?.statCards?.map((img, idx) => (
           <img
             key={idx}
             className={`monster-img ${index === idx ? "monster-img-active" : ""}`}
@@ -126,7 +126,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
           width: "100%",
         }}
       >
-        {monster?.statCards && monster.statCards.length > 0 && (
+        {monster?.statCards && monster?.statCards.length > 0 && (
           <MonsterStatCard handleIndexChange={handleIndexChange} game={game} index={index} monster={monster} />
         )}
         <CardList cardList={cardList} horizontal={horizontal} />
@@ -141,7 +141,7 @@ export const monsterSearchResults = (query: { [key: string]: string | string[] }
 
   return {
     monsterList: monsterCards[game]?.map((m) => ({ id: m.id, name: m.name })) || [],
-    monster: monsterCards[game]?.find((m) => m.id === monster),
+    monster: monsterCards[game]?.find((m) => m.id === monster) || null,
   };
 };
 

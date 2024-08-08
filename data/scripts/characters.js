@@ -71,6 +71,15 @@ let characters = [
   { id: "SD", game: "fh", colour: "#5995A2", name: "Snowdancer", altName: "Snowflake" },
   { id: "SH", game: "fh", colour: "#807681", name: "Shattersong", altName: "Shards" },
   { id: "TA", game: "fh", colour: "#714A2E", name: "Trapper", altName: "Trap" },
+   
+  // Gloomhaven 2e
+  { id: "BR2", game: "gh2", colour: "#16395A", base: true, name: "Bruiser" },
+  { id: "CH2", game: "gh2", colour: "#656A33", base: true, name: "Cragheart" },
+  { id: "MT2", game: "gh2", colour: "#374458", base: true, name: "Mindthief" },
+  { id: "SC2", game: "gh2", colour: "#2F4C2A", base: true, name: "SilentKnife" },
+  { id: "SW2", game: "gh2", colour: "#583D72", base: true, name: "Spellweaver" },
+  { id: "TI2", game: "gh2", colour: "#6C5A45", base: true, name: "Tinkerer" },
+
 ];
 
 let fs = require("fs");
@@ -81,6 +90,9 @@ characters = characters.map((character) => {
   switch (character.game) {
     case "gh":
       expansion = "gloomhaven";
+      break;
+    case "gh2":
+      expansion = "gloomhaven-2e";
       break;
     case "fc":
       expansion = "forgotten-circles";
