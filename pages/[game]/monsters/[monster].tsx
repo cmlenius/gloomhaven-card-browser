@@ -17,7 +17,7 @@ const Monsters = ({ searchResults }: PageProps) => {
   const { monster } = searchResults;
 
   return (
-    <Layout title={getTitle(game, monster.name)}>
+    <Layout title={getTitle(game, monster?.name)}>
       <MonstersPage game={game} searchResults={searchResults} />
     </Layout>
   );
@@ -32,8 +32,8 @@ export const getStaticPaths: GetStaticPaths<MonsterParams> = async () => {
       .flat()
       .map((monster) => ({
         params: {
-          game: monster.game,
-          monster: monster.id,
+          game: monster?.game,
+          monster: monster?.id,
         },
       })),
   };
