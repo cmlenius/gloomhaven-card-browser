@@ -14064,6 +14064,1490 @@ let abilities = [
     level: "9",
     initiative: "33",
   },
+  {
+    "name": "numb the pain",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/numb-the-pain.png",
+    "level": "1",
+    "initiative": "9"
+  },
+  {
+    "name": "shiny distraction",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/shiny-distraction.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "strength in agony",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/strength-in-agony.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "defiance of death",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/defiance-of-death.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "resolute stand",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/resolute-stand.png",
+    "level": "1",
+    "initiative": "10"
+  },
+  {
+    "name": "blood pact",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/blood-pact.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "cauterize",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/cauterize.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "dazing wound",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/dazing-wound.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "unbridled power",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/unbridled-power.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "from the brink",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/from-the-brink.png",
+    "level": "X",
+    "initiative": "24"
+  },
+  {
+    "name": "glass hammer",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/glass-hammer.png",
+    "level": "X",
+    "initiative": "43"
+  },
+  {
+    "name": "growing rage",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/growing-rage.png",
+    "level": "X",
+    "initiative": "85"
+  },
+  {
+    "name": "reckless offensive",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/reckless-offensive.png",
+    "level": "2",
+    "initiative": "21"
+  },
+  {
+    "name": "into the fight",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/into-the-fight.png",
+    "level": "2",
+    "initiative": "78"
+  },
+  {
+    "name": "final fight",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/final-fight.png",
+    "level": "3",
+    "initiative": "89"
+  },
+  {
+    "name": "tireless retribution",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BE2/tireless-retribution.png",
+    "level": "3",
+    "initiative": "7"
+  },
+  {
+    "name": "rain of arrows",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/rain-of-arrows.png",
+    "level": "1",
+    "initiative": "9"
+  },
+  {
+    "name": "race to the grave",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/race-to-the-grave.png",
+    "level": "1",
+    "initiative": "75"
+  },
+  {
+    "name": "gut shot",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/gut-shot.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "detonation",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/detonation.png",
+    "level": "1",
+    "initiative": "8"
+  },
+  {
+    "name": "murderous stalker",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/murderous-stalker.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "a moment's peace",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/a-moments-peace.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "the hunt begins",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/the-hunt-begins.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "solid bow",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/solid-bow.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "foot snare",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/foot-snare.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "forward momentum",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/forward-momentum.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "hidden danger",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/hidden-danger.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "give chase",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/give-chase.png",
+    "level": "X",
+    "initiative": "80"
+  },
+  {
+    "name": "feral aid",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/feral-aid.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "fierce fighter",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/fierce-fighter.png",
+    "level": "X",
+    "initiative": "78"
+  },
+  {
+    "name": "relentless offensive",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/relentless-offensive.png",
+    "level": "2",
+    "initiative": "63"
+  },
+  {
+    "name": "dual shot",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/dual-shot.png",
+    "level": "2",
+    "initiative": "52"
+  },
+  {
+    "name": "walking bastion",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/walking-bastion.png",
+    "level": "3",
+    "initiative": "90"
+  },
+  {
+    "name": "swift trickery",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/swift-trickery.png",
+    "level": "3",
+    "initiative": "10"
+  },
+  {
+    "name": "camouflage",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/camouflage.png",
+    "level": "4",
+    "initiative": "6"
+  },
+  {
+    "name": "coated arrows",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/coated-arrows.png",
+    "level": "4",
+    "initiative": "25"
+  },
+  {
+    "name": "felling swoop",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/felling-swoop.png",
+    "level": "4",
+    "initiative": "93"
+  },
+  {
+    "name": "expose",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/expose.png",
+    "level": "5",
+    "initiative": "31"
+  },
+  {
+    "name": "charging beast",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/DS2/charging-beast.png",
+    "level": "7",
+    "initiative": "82"
+  },
+  {
+    "name": "ice spikes",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/ice-spikes.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "malleable evocation",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/malleable-evocation.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "formless power",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/formless-power.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "shaping the ether",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/shaping-the-ether.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "stoking hail",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/stoking-hail.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "magma scales",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/magma-scales.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "infernal vortex",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/infernal-vortex.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "frigid torrent",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/frigid-torrent.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "pulsing cores",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/pulsing-cores.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "dual nature",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/dual-nature.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "lingering essence",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/lingering-essence.png",
+    "level": "X",
+    "initiative": "50"
+  },
+  {
+    "name": "flash of brilliance",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/flash-of-brilliance.png",
+    "level": "X",
+    "initiative": "67"
+  },
+  {
+    "name": "encompassing shadow",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/encompassing-shadow.png",
+    "level": "X",
+    "initiative": "12"
+  },
+  {
+    "name": "gravel guard",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/gravel-guard.png",
+    "level": "2",
+    "initiative": "10"
+  },
+  {
+    "name": "wave of frost",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/wave-of-frost.png",
+    "level": "2",
+    "initiative": "47"
+  },
+  {
+    "name": "arresting gale",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/arresting-gale.png",
+    "level": "3",
+    "initiative": "65"
+  },
+  {
+    "name": "empowering flame",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/empowering-flame.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "burial",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/burial.png",
+    "level": "4",
+    "initiative": "77"
+  },
+  {
+    "name": "chain lightning",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/chain-lightning.png",
+    "level": "4",
+    "initiative": "23"
+  },
+  {
+    "name": "obsidian shards",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/obsidian-shards.png",
+    "level": "5",
+    "initiative": "19"
+  },
+  {
+    "name": "winter's edge",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/winters-edge.png",
+    "level": "5",
+    "initiative": "43"
+  },
+  {
+    "name": "pragmatic reinforcement",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/pragmatic-reinforcement.png",
+    "level": "6",
+    "initiative": "13"
+  },
+  {
+    "name": "eye of the hurricane",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/EL2/eye-of-the-hurricane.png",
+    "level": "8",
+    "initiative": "25"
+  },
+  {
+    "name": "comorbid sting",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/comorbid-sting.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "biting gnats",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/biting-gnats.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "virulent strain",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/virulent-strain.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "contagious corpse",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/contagious-corpse.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "path of the pox",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/path-of-the-pox.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "vile pestilence",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/vile-pestilence.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "blistering buboes",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/blistering-buboes.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "festering sores",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/festering-sores.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "wretched yield",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/wretched-yield.png",
+    "level": "1",
+    "initiative": "84"
+  },
+  {
+    "name": "accelerated end",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/accelerated-end.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "delirium's dance",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/deliriums-dance.png",
+    "level": "X",
+    "initiative": "68"
+  },
+  {
+    "name": "gift of rot",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/gift-of-rot.png",
+    "level": "X",
+    "initiative": "47"
+  },
+  {
+    "name": "spread the plague",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/spread-the-plague.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "sickening strength",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/sickening-strength.png",
+    "level": "2",
+    "initiative": "19"
+  },
+  {
+    "name": "rot maggots",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/rot-maggots.png",
+    "level": "2",
+    "initiative": "69"
+  },
+  {
+    "name": "nightmarish affliction",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/nightmarish-affliction.png",
+    "level": "3",
+    "initiative": "43"
+  },
+  {
+    "name": "cloying miasma",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/cloying-miasma.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "rabid bite",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/rabid-bite.png",
+    "level": "4",
+    "initiative": "70"
+  },
+  {
+    "name": "unwilling sacrifice",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/unwilling-sacrifice.png",
+    "level": "4",
+    "initiative": "29"
+  },
+  {
+    "name": "wilt and wither",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/wilt-and-wither.png",
+    "level": "5",
+    "initiative": "91"
+  },
+  {
+    "name": "compounding infection",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/compounding-infection.png",
+    "level": "5",
+    "initiative": "62"
+  },
+  {
+    "name": "crippling malady",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/crippling-malady.png",
+    "level": "6",
+    "initiative": "26"
+  },
+  {
+    "name": "mass extinction",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/PH2/mass-extinction.png",
+    "level": "7",
+    "initiative": "94"
+  },
+  {
+    "name": "booster pack",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/booster-pack.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "readied blade",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/readied-blade.png",
+    "level": "1",
+    "initiative": "98"
+  },
+  {
+    "name": "crushing hammer",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/crushing-hammer.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "hastened step",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/hastened-step.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "bladed boomerang",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/bladed-boomerang.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "impaling spear",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/impaling-spear.png",
+    "level": "1",
+    "initiative": "62"
+  },
+  {
+    "name": "light javelin",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/light-javelin.png",
+    "level": "1",
+    "initiative": "81"
+  },
+  {
+    "name": "cleave and thrust",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/cleave-and-thrust.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "iron bulwark",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/iron-bulwark.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "proficiency",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/proficiency.png",
+    "level": "1",
+    "initiative": "52"
+  },
+  {
+    "name": "provisions",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/provisions.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "caustic bolt",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/caustic-bolt.png",
+    "level": "X",
+    "initiative": "88"
+  },
+  {
+    "name": "scroll of recall",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-of-recall.png",
+    "level": "X",
+    "initiative": "19"
+  },
+  {
+    "name": "sharpening kit",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/sharpening-kit.png",
+    "level": "X",
+    "initiative": "23"
+  },
+  {
+    "name": "scroll case",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-case.png",
+    "level": "2",
+    "initiative": "95"
+  },
+  {
+    "name": "lethal arsenal",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/lethal-arsenal.png",
+    "level": "2",
+    "initiative": "18"
+  },
+  {
+    "name": "quiver of arrows",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/quiver-of-arrows.png",
+    "level": "3",
+    "initiative": "61"
+  },
+  {
+    "name": "concussive snare",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/concussive-snare.png",
+    "level": "3",
+    "initiative": "89"
+  },
+  {
+    "name": "hammer and anvil",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/hammer-and-anvil.png",
+    "level": "4",
+    "initiative": "21"
+  },
+  {
+    "name": "giant club",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/giant-club.png",
+    "level": "4",
+    "initiative": "40"
+  },
+  {
+    "name": "scroll of judgement",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-of-judgement.png",
+    "level": "5",
+    "initiative": "12"
+  },
+  {
+    "name": "set up shop",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/set-up-shop.png",
+    "level": "5",
+    "initiative": "41"
+  },
+  {
+    "name": "scroll of lightning",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-of-lightning.png",
+    "level": "6",
+    "initiative": "77"
+  },
+  {
+    "name": "continual supply",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/continual-supply.png",
+    "level": "6",
+    "initiative": "86"
+  },
+  {
+    "name": "reinforced steel",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/reinforced-steel.png",
+    "level": "9",
+    "initiative": "56"
+  },
+  {
+    "name": "bag of holding",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/bag-of-holding.png",
+    "level": "9",
+    "initiative": "91"
+  },
+  {
+    "name": "sharpened dirk",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/sharpened-dirk.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "sturdy spear",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/sturdy-spear.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "scroll of embers",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-of-embers.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "weighted bolas",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/weighted-bolas.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "scroll of relocation",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-of-relocation.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "corrosive coating",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/corrosive-coating.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "iron plate",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/iron-plate.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "barbed strip",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/barbed-strip.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "scroll of foresight",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/QM2/scroll-of-foresight.png",
+    "level": "I",
+    "initiative": "99"
+  },
+  {
+    "name": "battlefield medicine",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/battlefield-medicine.png",
+    "level": "1",
+    "initiative": "83"
+  },
+  {
+    "name": "first aid",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/first-aid.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "curative mixture",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/curative-mixture.png",
+    "level": "1",
+    "initiative": "8"
+  },
+  {
+    "name": "bloody saw",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/bloody-saw.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "prevention is key",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/prevention-is-key.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "hand of the surgeon",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/hand-of-the-surgeon.png",
+    "level": "1",
+    "initiative": "62"
+  },
+  {
+    "name": "booster shot",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/booster-shot.png",
+    "level": "1",
+    "initiative": "42"
+  },
+  {
+    "name": "syringe",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/syringe.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "needle gun",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/needle-gun.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "vital strikes",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/vital-strikes.png",
+    "level": "1",
+    "initiative": "53"
+  },
+  {
+    "name": "vaccine",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/vaccine.png",
+    "level": "X",
+    "initiative": "15"
+  },
+  {
+    "name": "teamwork",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/teamwork.png",
+    "level": "X",
+    "initiative": "89"
+  },
+  {
+    "name": "prep for surgery",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/prep-for-surgery.png",
+    "level": "X",
+    "initiative": "22"
+  },
+  {
+    "name": "hamstring",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/hamstring.png",
+    "level": "2",
+    "initiative": "72"
+  },
+  {
+    "name": "precaution",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/precaution.png",
+    "level": "2",
+    "initiative": "9"
+  },
+  {
+    "name": "regenerative tissue",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/regenerative-tissue.png",
+    "level": "3",
+    "initiative": "52"
+  },
+  {
+    "name": "blood transfusion",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/blood-transfusion.png",
+    "level": "3",
+    "initiative": "79"
+  },
+  {
+    "name": "experimental stimulants",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/experimental-stimulants.png",
+    "level": "4",
+    "initiative": "12"
+  },
+  {
+    "name": "do no harm",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/do-no-harm.png",
+    "level": "4",
+    "initiative": "18"
+  },
+  {
+    "name": "hack to bits",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/hack-to-bits.png",
+    "level": "5",
+    "initiative": "38"
+  },
+  {
+    "name": "fortifying injection",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/fortifying-injection.png",
+    "level": "5",
+    "initiative": "5"
+  },
+  {
+    "name": "secret of the oak",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/secret-of-the-oak.png",
+    "level": "9",
+    "initiative": "10"
+  },
+  {
+    "name": "medical pack 1",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/medical-pack-1.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "medical pack 2",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/medical-pack-2.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "medical pack 3",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/medical-pack-3.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "medical pack 4",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/medical-pack-4.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "medical pack 5",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/medical-pack-5.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "medical pack 6",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SB2/medical-pack-6.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "ethereal gust",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/ethereal-gust.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "forged ferocity",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/forged-ferocity.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "living night",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/living-night.png",
+    "level": "1",
+    "initiative": "96"
+  },
+  {
+    "name": "wild animation",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/wild-animation.png",
+    "level": "1",
+    "initiative": "92"
+  },
+  {
+    "name": "planar protection",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/planar-protection.png",
+    "level": "1",
+    "initiative": "Protection"
+  },
+  {
+    "name": "mighty bond",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/mighty-bond.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "bonded might",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/bonded-might.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "burning passion",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/burning-passion.png",
+    "level": "1",
+    "initiative": "12"
+  },
+  {
+    "name": "unending dominance",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/unending-dominance.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "shadow dart",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/shadow-dart.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "burning tether",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/burning-tether.png",
+    "level": "1",
+    "initiative": "43"
+  },
+  {
+    "name": "primal assault",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/primal-assault.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "drifting stingers",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/drifting-stingers.png",
+    "level": "X",
+    "initiative": "90"
+  },
+  {
+    "name": "biting wind",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/biting-wind.png",
+    "level": "X",
+    "initiative": "82"
+  },
+  {
+    "name": "unwavering hand",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/unwavering-hand.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "intervening apparitions",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/intervening-apparitions.png",
+    "level": "2",
+    "initiative": "34"
+  },
+  {
+    "name": "void imbuement",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/void-imbuement.png",
+    "level": "2",
+    "initiative": "23"
+  },
+  {
+    "name": "shaping the void",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/shaping-the-void.png",
+    "level": "3",
+    "initiative": "41"
+  },
+  {
+    "name": "deadly mischief",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/deadly-mischief.png",
+    "level": "3",
+    "initiative": "81"
+  },
+  {
+    "name": "strength in numbers",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/strength-in-numbers.png",
+    "level": "4",
+    "initiative": "45"
+  },
+  {
+    "name": "oozing manifestation",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SU2/oozing-manifestation.png",
+    "level": "6",
+    "initiative": "86"
+  },
+  {
+    "name": "hammer blow",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/hammer-blow.png",
+    "level": "1",
+    "initiative": "55"
+  },
+  {
+    "name": "holy strike",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/holy-strike.png",
+    "level": "1",
+    "initiative": "65"
+  },
+  {
+    "name": "empowering command",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/empowering-command.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "dazzling charge",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/dazzling-charge.png",
+    "level": "1",
+    "initiative": "36"
+  },
+  {
+    "name": "lay on hands",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/lay-on-hands.png",
+    "level": "1",
+    "initiative": "90"
+  },
+  {
+    "name": "tactical order",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/tactical-order.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "brilliant prayer",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/brilliant-prayer.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "soothing light",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/soothing-light.png",
+    "level": "1",
+    "initiative": "63"
+  },
+  {
+    "name": "purifying aura",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/purifying-aura.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "protective blessing",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/protective-blessing.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "defensive stance",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/defensive-stance.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "daybreak",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/daybreak.png",
+    "level": "X",
+    "initiative": "17"
+  },
+  {
+    "name": "sanctify",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/sanctify.png",
+    "level": "X",
+    "initiative": "39"
+  },
+  {
+    "name": "beacon of light",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/beacon-of-light.png",
+    "level": "X",
+    "initiative": "80"
+  },
+  {
+    "name": "holy defense",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/holy-defense.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "mobilizing axiom",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/mobilizing-axiom.png",
+    "level": "2",
+    "initiative": "23"
+  },
+  {
+    "name": "engulfing radiance",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/engulfing-radiance.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "burning flash",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/burning-flash.png",
+    "level": "3",
+    "initiative": "51"
+  },
+  {
+    "name": "righteous strength",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/SK2/righteous-strength.png",
+    "level": "4",
+    "initiative": "72"
+  },
+  {
+    "name": "concentrated rage",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/concentrated-rage.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "maul",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/maul.png",
+    "level": "1",
+    "initiative": "67"
+  },
+  {
+    "name": "howling bolts",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/howling-bolts.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "nature's gift",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/natures-gift.png",
+    "level": "1",
+    "initiative": "42"
+  },
+  {
+    "name": "focused aggression",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/focused-aggression.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "gnaw",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/gnaw.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "disorienting roar",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/disorienting-roar.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "vitality siphon",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/vitality-siphon.png",
+    "level": "1",
+    "initiative": "56"
+  },
+  {
+    "name": "spirit swap",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/spirit-swap.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "invocation of endurance",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/invocation-of-endurance.png",
+    "level": "1",
+    "initiative": "71"
+  },
+  {
+    "name": "invocation of spirit",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/invocation-of-spirit.png",
+    "level": "X",
+    "initiative": "62"
+  },
+  {
+    "name": "gust sigil",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/gust-sigil.png",
+    "level": "X",
+    "initiative": "22"
+  },
+  {
+    "name": "forceful swipe",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/forceful-swipe.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "energizing strike",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/energizing-strike.png",
+    "level": "2",
+    "initiative": "48"
+  },
+  {
+    "name": "earthen spikes",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/earthen-spikes.png",
+    "level": "2",
+    "initiative": "11"
+  },
+  {
+    "name": "punch through",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/punch-through.png",
+    "level": "3",
+    "initiative": "29"
+  },
+  {
+    "name": "stone sigil",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/stone-sigil.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "unstoppable beast",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/unstoppable-beast.png",
+    "level": "4",
+    "initiative": "32"
+  },
+  {
+    "name": "forest's blessing",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/forests-blessing.png",
+    "level": "4",
+    "initiative": "44"
+  },
+  {
+    "name": "rampage",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/rampage.png",
+    "level": "5",
+    "initiative": "16"
+  },
+  {
+    "name": "invocation of domination",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/invocation-of-domination.png",
+    "level": "5",
+    "initiative": "10"
+  },
+  {
+    "name": "blood hunger",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/blood-hunger.png",
+    "level": "6",
+    "initiative": "41"
+  },
+  {
+    "name": "ancient ward",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/ancient-ward.png",
+    "level": "6",
+    "initiative": "59"
+  },
+  {
+    "name": "unleashed fury",
+    "expansion": "Gloomhaven 2e",
+    "image": "character-ability-cards/gloomhaven-2e/BT2/unleashed-fury.png",
+    "level": "7",
+    "initiative": "65"
+  }
 ];
 
 let milestones = [
@@ -14292,6 +15776,8 @@ abilities = abilities.concat(milestones).map((ability) => {
     level = 1.5;
   } else if (level == "M") {
     level = 0.25;
+  } else if (level == "I") {
+    level = 10;
   } else if (level.toLowerCase() != level.toUpperCase()) {
     level = 0.5;
   } else {
