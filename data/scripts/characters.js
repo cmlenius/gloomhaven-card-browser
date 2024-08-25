@@ -79,6 +79,15 @@ let characters = [
   { id: "SC2", game: "gh2", colour: "#2F4C2A", base: true, name: "SilentKnife" },
   { id: "SW2", game: "gh2", colour: "#583D72", base: true, name: "Spellweaver" },
   { id: "TI2", game: "gh2", colour: "#6C5A45", base: true, name: "Tinkerer" },
+  { id: "BE2", game: "gh2", colour: "#71382F", name: "Berserker", altName: "Lightning Bolts" },
+  { id: "BT2", game: "gh2", colour: "#634031", name: "Wildfury", altName: "Two Minis" },
+  { id: "DS2", game: "gh2", colour: "#3D7584", name: "Doomstalker", altName: "Angry Face" },
+  { id: "EL2", game: "gh2", colour: "#474747", name: "Elementalist", altName: "Triangles" },
+  { id: "PH2", game: "gh2", colour: "#31514E", name: "Plagueherald", altName: "Cthulhu" },
+  { id: "QM2", game: "gh2", colour: "#815527", name: "Quartermaster", altName: "Three Spears" },
+  { id: "SB2", game: "gh2", colour: "#3E3E3E", name: "Sawbones", altName: "Saw" },
+  { id: "SK2", game: "gh2", colour: "#7E6C34", name: "Sunkeeper", altName: "Sun" },
+  { id: "SU2", game: "gh2", colour: "#713B5C", name: "Soultetherer", altName: "Circles" },
 
 ];
 
