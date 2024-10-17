@@ -80,8 +80,10 @@ const Layout = ({ children, description, title }: LayoutProps) => {
       <Head>
         <title>{title || defaultTitle}</title>
         <meta name="description" content={description || defaultDescription} />
+        <meta name="google-adsense-account" content="ca-pub-7422931766476755" />
         <meta name="google-site-verification" content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg" />
         <link rel="icon" href={getBaseUrl() + "logo.png"} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7422931766476755" crossOrigin="anonymous"></script>
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-FFL6ZJNJ4T" strategy="afterInteractive" />
       <Script id="google-analytics" strategy="afterInteractive">
