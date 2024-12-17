@@ -7009,14 +7009,6 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         level: 1.5,
       },
       {
-        name: "spotted hound",
-        class: "FK",
-        game: "cs",
-        image: "character-ability-cards/crimson-scales/FK/cs-loyal-companion.jpeg",
-        initiative: 81,
-        level: 1.5,
-      },
-      {
         name: "mutual aid",
         class: "FK",
         game: "cs",

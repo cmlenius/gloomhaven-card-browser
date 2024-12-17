@@ -6043,13 +6043,6 @@ let abilities = [
     initiative: "81",
   },
   {
-    name: "spotted hound",
-    expansion: "Crimson Scales",
-    image: "character-ability-cards/crimson-scales/FK/cs-loyal-companion.png",
-    level: "X",
-    initiative: "81",
-  },
-  {
     name: "mutual aid",
     expansion: "Crimson Scales",
     image: "character-ability-cards/crimson-scales/FK/cs-mutual-aid.png",
