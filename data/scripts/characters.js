@@ -71,8 +71,8 @@ let characters = [
   { id: "SD", game: "fh", colour: "#5995A2", name: "Snowdancer", altName: "Snowflake" },
   { id: "SH", game: "fh", colour: "#807681", name: "Shattersong", altName: "Shards" },
   { id: "TA", game: "fh", colour: "#714A2E", name: "Trapper", altName: "Trap" },
-   
-  // Gloomhaven 2e
+
+  // Gloomhaven 2nd Edition
   { id: "BR2", game: "gh2", colour: "#16395A", base: true, name: "Bruiser" },
   { id: "CH2", game: "gh2", colour: "#656A33", base: true, name: "Cragheart" },
   { id: "MT2", game: "gh2", colour: "#374458", base: true, name: "Mindthief" },
@@ -80,15 +80,17 @@ let characters = [
   { id: "SW2", game: "gh2", colour: "#583D72", base: true, name: "Spellweaver" },
   { id: "TI2", game: "gh2", colour: "#6C5A45", base: true, name: "Tinkerer" },
   { id: "BE2", game: "gh2", colour: "#71382F", name: "Berserker", altName: "Lightning Bolts" },
-  { id: "BT2", game: "gh2", colour: "#634031", name: "Wildfury", altName: "Two Minis" },
+  { id: "BS2", game: "gh2", colour: "#403129", name: "Bladeswarm", altName: "Crossed Swords" },
   { id: "DS2", game: "gh2", colour: "#3D7584", name: "Doomstalker", altName: "Angry Face" },
   { id: "EL2", game: "gh2", colour: "#474747", name: "Elementalist", altName: "Triangles" },
+  { id: "NS2", game: "gh2", colour: "#49475F", name: "Nightshroud", altName: "Eclipse" },
   { id: "PH2", game: "gh2", colour: "#31514E", name: "Plagueherald", altName: "Cthulhu" },
   { id: "QM2", game: "gh2", colour: "#815527", name: "Quartermaster", altName: "Three Spears" },
   { id: "SB2", game: "gh2", colour: "#3E3E3E", name: "Sawbones", altName: "Saw" },
   { id: "SK2", game: "gh2", colour: "#7E6C34", name: "Sunkeeper", altName: "Sun" },
-  { id: "SU2", game: "gh2", colour: "#713B5C", name: "Soultetherer", altName: "Circles" },
-
+  { id: "SS2", game: "gh2", colour: "#75524E", name: "Soothsinger", altName: "Music Note" },
+  { id: "ST2", game: "gh2", colour: "#713B5C", name: "Soultetherer", altName: "Circles" },
+  { id: "WF2", game: "gh2", colour: "#634031", name: "Wildfury", altName: "Two Minis" },
 ];
 
 let fs = require("fs");
@@ -101,7 +103,7 @@ characters = characters.map((character) => {
       expansion = "gloomhaven";
       break;
     case "gh2":
-      expansion = "gloomhaven-2e";
+      expansion = "gloomhaven-2nd-edition";
       break;
     case "fc":
       expansion = "forgotten-circles";
@@ -139,5 +141,5 @@ characters = characters.map((character) => {
 });
 
 fs.writeFile("character-stats.js", JSON.stringify(characters), "utf8", () =>
-  console.log("characters", characters.length)
+  console.log("characters", characters.length),
 );
