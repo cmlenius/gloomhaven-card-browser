@@ -289,7 +289,7 @@ const Settings = ({ open, onClose }: SettingsProps) => {
   const game = verifyQueryParam(router.query.game, "gh");
   const itemSpoilers = itemSpoilerConfig[game];
   const unlockabelClasses = getCharacterClasses(game).filter((c) => !c.base && !c.hidden) || [];
-  const buildings = buildingCards[game] || [];
+  const buildings = buildingCards[game]?.filter((building) => !building.base) || [];
 
   return (
     <>

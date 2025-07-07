@@ -83,6 +83,7 @@ export type Monster = {
 export type Building = {
   id: number;
   name: string;
+  base: boolean;
   game: string;
   image: string[];
   imageBack?: string[];

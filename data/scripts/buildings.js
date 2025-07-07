@@ -878,6 +878,8 @@ let buildings = [
   },
 ];
 
+const baseBuildings = [34, 35, 84, 98];
+
 const groupBy = (items, key) =>
   items.reduce(
     (result, item) => ({
@@ -900,6 +902,7 @@ buildings = buildings
     return {
       id: building.id,
       name: name.join(" "),
+      base: baseBuildings.includes(building.id),
       game: "fh",
       image: building.image.replaceAll(".png", ".jpeg"),
       imageBack: building.image.replaceAll(".png", "-back.jpeg"),
@@ -912,6 +915,7 @@ buildings = Object.keys(buildings)
   .map((key) => ({
     id: buildings[key][0].id,
     name: buildings[key][0].name,
+    base: buildings[key][0].base,
     game: buildings[key][0].game,
     image: buildings[key].map((x) => x.image),
     imageBack: buildings[key].map((x) => x.imageBack),
