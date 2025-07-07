@@ -4,7 +4,7 @@
   "rules": {
     "@next/next/no-img-element": "off",
     "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-unused-vars": ["error", {}],
     "no-unused-vars": "off",
     "prettier/prettier": "warn",
     "sort-imports": [
@@ -13,7 +13,6 @@
         "ignoreCase": false,
         "ignoreDeclarationSort": false,
         "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": "off",
         "allowSeparatedGroups": false
       }
     ]
