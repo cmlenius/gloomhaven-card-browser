@@ -32,9 +32,21 @@ type TopBarProps = {
 const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
   const router = useRouter();
   const game = verifyQueryParam(router.query.game, "gh");
+  const gameRoutes = getGame(game)?.routes || [];
+
+  const path = router.asPath.split("/");
+  let cardType = path.length >= 3 ? path[2] : null;
+  if (cardType) {
+    cardType = cardType.split("?")[0];
+  }
 
   const handleGameChange = (newGame: string) => {
     let path = `/${newGame}`;
+    let newGameRoutes = getGame(newGame)?.routes || [];
+    if (!newGameRoutes.some((route) => route.id === cardType)) {
+      return path;
+    }
+
     if (cardType) path += `/${cardType}`;
     return path;
   };
@@ -43,22 +55,12 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
     return `/${game}/${newCardType}`;
   };
 
-  const path = router.asPath.split("/");
-  let cardType = path.length >= 3 ? path[2] : null;
-  if (cardType) {
-    cardType = cardType.split("?")[0];
-  }
-
   return (
     <nav className="topbar">
       <div className="topbar-inner">
         <div className="header-links">
           <DropdownNav href={handleGameChange} options={games} value={game} />
-          <DropdownNav
-            href={handleCardTypeChange}
-            options={getGame(game)?.routes || []}
-            value={cardType || "characters"}
-          />
+          <DropdownNav href={handleCardTypeChange} options={gameRoutes} value={cardType || "characters"} />
         </div>
         <SettingsAnchor openSettingsDrawer={openSettingsDrawer} />
       </div>

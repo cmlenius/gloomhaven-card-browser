@@ -18,7 +18,7 @@ const sortOrderOptions: Option[] = [
 ];
 
 const buildingSpoilerFilter = (spoilers: Spoilers): ((building: Building) => boolean) => {
-  return (building) => spoilers.buildings?.has(building.id.toString());
+  return (building) => building.base || spoilers.buildings?.has(building.id.toString());
 };
 
 type PageProps = {

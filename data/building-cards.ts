@@ -4,6 +4,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 5,
       name: "Mining Camp",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-05-mining-camp-level-1.jpeg",
@@ -21,6 +22,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 12,
       name: "Hunting Lodge",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-12-hunting-lodge-level-1.jpeg",
@@ -38,6 +40,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 17,
       name: "Logging Camp",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-17-logging-camp-level-1.jpeg",
@@ -55,6 +58,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 21,
       name: "Inn",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-21-inn-level-1.jpeg",
@@ -70,6 +74,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 24,
       name: "Garden",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-24-garden-level-1.jpeg",
@@ -87,6 +92,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 34,
       name: "Craftsman",
+      base: true,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-34-craftsman-level-1.jpeg",
@@ -114,6 +120,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 35,
       name: "Alchemist",
+      base: true,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-35-alchemist-level-1.jpeg",
@@ -129,6 +136,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 37,
       name: "Trading Post",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-37-trading-post-level-1.jpeg",
@@ -146,6 +154,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 39,
       name: "Jeweler",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-39-jeweler-level-1.jpeg",
@@ -161,6 +170,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 42,
       name: "Temple",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-42-temple-of-the-great-oak-level-1.jpeg",
@@ -176,6 +186,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 44,
       name: "Enhancer",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-44-enhancer-level-1.jpeg",
@@ -193,6 +204,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 65,
       name: "Metal Depot",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-65-metal-depot-level-1.jpeg",
@@ -206,6 +218,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 67,
       name: "Lumber Depot",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-67-lumber-depot-level-1.jpeg",
@@ -219,6 +232,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 72,
       name: "Hide Depot",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-72-hide-depot-level-1.jpeg",
@@ -232,6 +246,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 74,
       name: "Tavern",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-74-tavern-level-1.jpeg",
@@ -247,6 +262,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 81,
       name: "Hall of Revelry",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-81-hall-of-revelry-level-1.jpeg",
@@ -260,6 +276,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 83,
       name: "Library",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-83-library-level-1.jpeg",
@@ -275,6 +292,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 84,
       name: "Workshop",
+      base: true,
       game: "fh",
       image: ["buildings/frosthaven/fh-84-workshop-level-1.jpeg"],
       imageBack: ["buildings/frosthaven/fh-84-workshop-level-1-back.jpeg"],
@@ -282,6 +300,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 85,
       name: "Carpenter",
+      base: false,
       game: "fh",
       image: ["buildings/frosthaven/fh-85-carpenter-level-1.jpeg", "buildings/frosthaven/fh-85-carpenter-level-2.jpeg"],
       imageBack: [
@@ -292,6 +311,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 88,
       name: "Stables",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-88-stables-level-1.jpeg",
@@ -309,6 +329,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 90,
       name: "Town Hall",
+      base: false,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-90-town-hall-level-1.jpeg",
@@ -324,6 +345,7 @@ export const buildingCards: Record<string, Building[]> = {
     {
       id: 98,
       name: "Barracks",
+      base: true,
       game: "fh",
       image: [
         "buildings/frosthaven/fh-98-barracks-level-1.jpeg",
