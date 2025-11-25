@@ -6667,7 +6667,7 @@ const groupBy = (items, key) =>
       ...result,
       [item[key]]: [...(result[item[key]] || []), item],
     }),
-    {}
+    {},
   );
 
 let fs = require("fs");

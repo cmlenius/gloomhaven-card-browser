@@ -12,8 +12,18 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   font-size: 14px;
   background-image: url("https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/background.jpeg");
   background-repeat: repeat;
@@ -165,17 +175,13 @@ input[type="radio"] {
 
 .card-inner {
   border-radius: 12px;
-  background-image: repeating-linear-gradient(
-    -55deg,
-    #ddd,
-    #ddd 5px,
-    #ccc 5px,
-    #ccc 10px
-  );
+  background-image: repeating-linear-gradient(-55deg, #ddd, #ddd 5px, #ccc 5px, #ccc 10px);
   color: black;
   font-weight: 500;
   text-align: center;
-  transition: transform 600ms, -webkit-transform 600ms;
+  transition:
+    transform 600ms,
+    -webkit-transform 600ms;
   transform-style: preserve-3d;
   width: 100%;
   -webkit-transform-style: preserve-3d;
@@ -259,7 +265,7 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
 }
- 
+
 .multi-level-card-controller {
   margin: 16px 0;
 }
@@ -274,13 +280,7 @@ input[type="radio"] {
 }
 
 .monster-img-outer {
-  background-image: repeating-linear-gradient(
-    -55deg,
-    #ddd,
-    #ddd 5px,
-    #ccc 5px,
-    #ccc 10px
-  );
+  background-image: repeating-linear-gradient(-55deg, #ddd, #ddd 5px, #ccc 5px, #ccc 10px);
   height: 100%;
   width: 100%;
 }
@@ -292,7 +292,9 @@ input[type="radio"] {
   width: 100%;
   position: absolute;
   display: none;
-  transition: transform 500ms, -webkit-transform 500ms;
+  transition:
+    transform 500ms,
+    -webkit-transform 500ms;
 }
 
 .monster-img-active {
