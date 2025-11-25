@@ -1,0 +1,21 @@
+[
+  { "id": "BR", "game": "gh", "colour": "#335970", "base": true, "name": "Brute" },
+  { "id": "CH", "game": "gh", "colour": "#656A33", "base": true, "name": "Cragheart" },
+  { "id": "MT", "game": "gh", "colour": "#374458", "base": true, "name": "Mindthief" },
+  { "id": "SC", "game": "gh", "colour": "#415021", "base": true, "name": "Scoundrel" },
+  { "id": "SW", "game": "gh", "colour": "#583D72", "base": true, "name": "Spellweaver" },
+  { "id": "TI", "game": "gh", "colour": "#6C5A45", "base": true, "name": "Tinkerer" },
+  { "id": "BE", "game": "gh", "colour": "#71382F", "name": "Berserker", "altName": "Lightning Bolts" },
+  { "id": "BT", "game": "gh", "colour": "#634031", "name": "Beast Tyrant", "altName": "Two Minis" },
+  { "id": "DS", "game": "gh", "colour": "#3D7584", "name": "Doomstalker", "altName": "Angry Face" },
+  { "id": "EL", "game": "gh", "colour": "#474747", "name": "Elementalist", "altName": "Triangles" },
+  { "id": "NS", "game": "gh", "colour": "#49475F", "name": "Nightshroud", "altName": "Eclipse" },
+  { "id": "PH", "game": "gh", "colour": "#31514E", "name": "Plagueherald", "altName": "Cthulhu" },
+  { "id": "QM", "game": "gh", "colour": "#815527", "name": "Quartermaster", "altName": "Three Spears" },
+  { "id": "SB", "game": "gh", "colour": "#3E3E3E", "name": "Sawbones", "altName": "Saw" },
+  { "id": "SK", "game": "gh", "colour": "#7E6C34", "name": "Sunkeeper", "altName": "Sun" },
+  { "id": "SS", "game": "gh", "colour": "#75524E", "name": "Soothsinger", "altName": "Music Note" },
+  { "id": "SU", "game": "gh", "colour": "#713B5C", "name": "Summoner", "altName": "Circles" },
+  { "id": "BS", "game": "gh", "colour": "#403129", "hidden": false, "name": "Bladeswarm", "altName": "Crossed Swords" },
+  { "id": "DR", "game": "fc", "colour": "#555683", "name": "Diviner", "altName": "Diviner" }
+]

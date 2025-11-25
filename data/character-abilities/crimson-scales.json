@@ -1,0 +1,3145 @@
+[
+  {
+    "name": "aa-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-aa-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "alate dispersion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-alate-dispersion.png",
+    "level": "4",
+    "initiative": "58"
+  },
+  {
+    "name": "anti-venom",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-anti-venom.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "assimilate adversaries",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-assimilate-adversaries.png",
+    "level": "6",
+    "initiative": "50"
+  },
+  {
+    "name": "birthing chambers",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-birthing-chambers.png",
+    "level": "5",
+    "initiative": "61"
+  },
+  {
+    "name": "burning stingers",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-burning-stingers.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "burrow under",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-burrow-under.png",
+    "level": "5",
+    "initiative": "22"
+  },
+  {
+    "name": "clad in spikes",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-clad-in-spikes.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "coordinated infestation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-coordinated-infestation.png",
+    "level": "8",
+    "initiative": "45"
+  },
+  {
+    "name": "corrosive spittle",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-corrosive-spittle.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "divide and conquer",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-divide-and-conquer.png",
+    "level": "9",
+    "initiative": "97"
+  },
+  {
+    "name": "encasing webs",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-encasing-webs.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "erupting mandibles",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-erupting-mandibles.png",
+    "level": "8",
+    "initiative": "54"
+  },
+  {
+    "name": "ferocious proliferation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-ferocious-proliferation.png",
+    "level": "4",
+    "initiative": "58"
+  },
+  {
+    "name": "frantic migration",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-frantic-migration.png",
+    "level": "6",
+    "initiative": "08"
+  },
+  {
+    "name": "horned carapace",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-horned-carapace.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "lacerating horde",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-lacerating-horde.png",
+    "level": "7",
+    "initiative": "22"
+  },
+  {
+    "name": "maddening chatter",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-maddening-chatter.png",
+    "level": "3",
+    "initiative": "29"
+  },
+  {
+    "name": "march of multitudes",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-march-of-multitudes.png",
+    "level": "X",
+    "initiative": "37"
+  },
+  {
+    "name": "nurture the weak",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-nurture-the-weak.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "overwhelming swarm",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-overwhelming-swarm.png",
+    "level": "X",
+    "initiative": "44"
+  },
+  {
+    "name": "primal pheromones",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-primal-pheromones.png",
+    "level": "X",
+    "initiative": "92"
+  },
+  {
+    "name": "repel intruders",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-repel-intruders.png",
+    "level": "1",
+    "initiative": "36"
+  },
+  {
+    "name": "retribution of the hive",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-retribution-of-the-hive.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "seek nourishment",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-seek-nourishment.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "sentry swarm",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-sentry-swarm.png",
+    "level": "1",
+    "initiative": "07"
+  },
+  {
+    "name": "shelter the nest",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-shelter-the-nest.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "stalk the prey",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-stalk-the-prey.png",
+    "level": "7",
+    "initiative": "79"
+  },
+  {
+    "name": "steelsilk weaver",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-steelsilk-weaver.png",
+    "level": "2",
+    "initiative": "41"
+  },
+  {
+    "name": "supreme authority",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-supreme-authority.png",
+    "level": "9",
+    "initiative": "03"
+  },
+  {
+    "name": "violent outlash",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/AA/cs-violent-outlash.png",
+    "level": "3",
+    "initiative": "63"
+  },
+  {
+    "name": "bk-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-bk-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "acquire funding",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-acquire-funding.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "advanced research",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-advanced-research.png",
+    "level": "5",
+    "initiative": "85"
+  },
+  {
+    "name": "antibiotic boost",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-antibiotic-boost.png",
+    "level": "6",
+    "initiative": "56"
+  },
+  {
+    "name": "astronomical strike",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-astronomical-strike.png",
+    "level": "7",
+    "initiative": "57"
+  },
+  {
+    "name": "befuddling serum",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-befuddling-serum.png",
+    "level": "4",
+    "initiative": "49"
+  },
+  {
+    "name": "blinding lightwaves",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-blinding-lightwaves.png",
+    "level": "1",
+    "initiative": "68"
+  },
+  {
+    "name": "cell regeneration",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-cell-regeneration.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "contagious malady",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-contagious-malady.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "corrosive combustion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-corrosive-combustion.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "critical hypothesis",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-critical-hypothesis.png",
+    "level": "8",
+    "initiative": "16"
+  },
+  {
+    "name": "critical observation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-critical-observation.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "dynamic balance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-dynamic-balance.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "electromagnetism",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-electromagnetism.png",
+    "level": "3",
+    "initiative": "84"
+  },
+  {
+    "name": "elevated chemicals",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-elevated-chemicals.png",
+    "level": "5",
+    "initiative": "44"
+  },
+  {
+    "name": "elevated intake",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-elevated-intake.png",
+    "level": "X",
+    "initiative": "50"
+  },
+  {
+    "name": "elixir of life",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-elixir-of-life.png",
+    "level": "9",
+    "initiative": "38"
+  },
+  {
+    "name": "enviromental survey",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-enviromental-survey.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "exothermic cocktail",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-exothermic-cocktail.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "frozen explosion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-frozen-explosion.png",
+    "level": "1",
+    "initiative": "55"
+  },
+  {
+    "name": "leftover tonic",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-leftover-tonic.png",
+    "level": "X",
+    "initiative": "70"
+  },
+  {
+    "name": "magnetic field",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-magnetic-field.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "molecular hydroblast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-molecular-hydroblast.png",
+    "level": "6",
+    "initiative": "29"
+  },
+  {
+    "name": "nourishing formula",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-nourishing-formula.png",
+    "level": "7",
+    "initiative": "77"
+  },
+  {
+    "name": "nutrient overdose",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-nutrient-overdose.png",
+    "level": "2",
+    "initiative": "17"
+  },
+  {
+    "name": "preliminary research",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-preliminary-research.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "strength elixir",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-strength-elixir.png",
+    "level": "4",
+    "initiative": "19"
+  },
+  {
+    "name": "transformation libation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-transformation-libation.png",
+    "level": "2",
+    "initiative": "27"
+  },
+  {
+    "name": "ultraviolet rays",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-ultraviolet-rays.png",
+    "level": "9",
+    "initiative": "66"
+  },
+  {
+    "name": "versatile concoction",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-versatile-concoction.png",
+    "level": "8",
+    "initiative": "58"
+  },
+  {
+    "name": "weather forecast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BK/cs-weather-forecast.png",
+    "level": "3",
+    "initiative": "30"
+  },
+  {
+    "name": "bm-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-bm-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "airborne skyrocket",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-airborne-skyrocket.png",
+    "level": "7",
+    "initiative": "55"
+  },
+  {
+    "name": "ballistic barrage",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-ballistic-barrage.png",
+    "level": "7",
+    "initiative": "73"
+  },
+  {
+    "name": "barbed armor",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-barbed-armor.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "chain grapnel",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-chain-grapnel.png",
+    "level": "X",
+    "initiative": "46"
+  },
+  {
+    "name": "consistent firing",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-consistent-firing.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "defense mechanism",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-defense-mechanism.png",
+    "level": "8",
+    "initiative": "18"
+  },
+  {
+    "name": "distant retribution",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-distant-retribution.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "double cannons",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-double-cannons.png",
+    "level": "1",
+    "initiative": "60"
+  },
+  {
+    "name": "exploding cannonball",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-exploding-cannonball.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "forceful bolt",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-forceful-bolt.png",
+    "level": "1",
+    "initiative": "63"
+  },
+  {
+    "name": "grappling hook",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-grappling-hook.png",
+    "level": "1",
+    "initiative": "68"
+  },
+  {
+    "name": "hurried repairs",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-hurried-repairs.png",
+    "level": "4",
+    "initiative": "25"
+  },
+  {
+    "name": "ignited launch",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-ignited-launch.png",
+    "level": "1",
+    "initiative": "81"
+  },
+  {
+    "name": "man the cannon",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-man-the-cannon.png",
+    "level": "X",
+    "initiative": "21"
+  },
+  {
+    "name": "meteoric blast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-meteoric-blast.png",
+    "level": "6",
+    "initiative": "26"
+  },
+  {
+    "name": "pillars of smoke",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-pillars-of-smoke.png",
+    "level": "X",
+    "initiative": "11"
+  },
+  {
+    "name": "powerful buckshot",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-powerful-buckshot.png",
+    "level": "4",
+    "initiative": "84"
+  },
+  {
+    "name": "prolific perforation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-prolific-perforation.png",
+    "level": "6",
+    "initiative": "62"
+  },
+  {
+    "name": "quadruple cannons",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-quadruple-cannons.png",
+    "level": "8",
+    "initiative": "86"
+  },
+  {
+    "name": "rapid fire",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-rapid-fire.png",
+    "level": "2",
+    "initiative": "41"
+  },
+  {
+    "name": "rolling into position",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-rolling-into-position.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "sharpened focus",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-sharpened-focus.png",
+    "level": "5",
+    "initiative": "32"
+  },
+  {
+    "name": "stationary enhancements",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-stationary-enhancements.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "supercharged gunpowder",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-supercharged-gunpowder.png",
+    "level": "9",
+    "initiative": "90"
+  },
+  {
+    "name": "superior upgrade",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-superior-upgrade.png",
+    "level": "9",
+    "initiative": "09"
+  },
+  {
+    "name": "twin blast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-twin-blast.png",
+    "level": "3",
+    "initiative": "80"
+  },
+  {
+    "name": "unbreakable position",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-unbreakable-position.png",
+    "level": "5",
+    "initiative": "15"
+  },
+  {
+    "name": "unexpected bombshell",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/BM/cs-unexpected-bombshell.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "cg-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-cg-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "agonizing clamp",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-agonizing-clamp.png",
+    "level": "2",
+    "initiative": "57"
+  },
+  {
+    "name": "champion of chains",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-champion-of-chains.png",
+    "level": "9",
+    "initiative": "10"
+  },
+  {
+    "name": "chokehold",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-chokehold.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "clamping snare",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-clamping-snare.png",
+    "level": "7",
+    "initiative": "27"
+  },
+  {
+    "name": "dizzying release",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-dizzying-release.png",
+    "level": "4",
+    "initiative": "24"
+  },
+  {
+    "name": "double k.o.",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-double-ko.png",
+    "level": "4",
+    "initiative": "92"
+  },
+  {
+    "name": "drag through dirt",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-drag-through-dirt.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "follow the chains",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-follow-the-chains.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "ganging up",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-ganging-up.png",
+    "level": "X",
+    "initiative": "74"
+  },
+  {
+    "name": "impending power",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-impending-power.png",
+    "level": "5",
+    "initiative": "12"
+  },
+  {
+    "name": "iron thrust",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-iron-thrust.png",
+    "level": "2",
+    "initiative": "38"
+  },
+  {
+    "name": "latch and tow",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-latch-and-tow.png",
+    "level": "3",
+    "initiative": "81"
+  },
+  {
+    "name": "locking links",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-locking-links.png",
+    "level": "1",
+    "initiative": "41"
+  },
+  {
+    "name": "merciless beatdown",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-merciless-beatdown.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "meteor hammer",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-meteor-hammer.png",
+    "level": "7",
+    "initiative": "45"
+  },
+  {
+    "name": "pivot and smash",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-pivot-and-smash.png",
+    "level": "8",
+    "initiative": "28"
+  },
+  {
+    "name": "roundhouse swing",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-roundhouse-swing.png",
+    "level": "X",
+    "initiative": "79"
+  },
+  {
+    "name": "rusty spikes",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-rusty-spikes.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "slamming shove",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-slamming-shove.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "spiked knuckles",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-spiked-knuckles.png",
+    "level": "1",
+    "initiative": "66"
+  },
+  {
+    "name": "suffering steel",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-suffering-steel.png",
+    "level": "6",
+    "initiative": "09"
+  },
+  {
+    "name": "sweeping collision",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-sweeping-collision.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "syndicated assault",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-syndicated-assault.png",
+    "level": "8",
+    "initiative": "68"
+  },
+  {
+    "name": "tighten the chains",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-tighten-the-chains.png",
+    "level": "5",
+    "initiative": "17"
+  },
+  {
+    "name": "titanic chainwhip",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-titanic-chainwhip.png",
+    "level": "6",
+    "initiative": "29"
+  },
+  {
+    "name": "unending torment",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-unending-torment.png",
+    "level": "9",
+    "initiative": "33"
+  },
+  {
+    "name": "untouchable keeper",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-untouchable-keeper.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "vigorous sway",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-vigorous-sway.png",
+    "level": "X",
+    "initiative": "52"
+  },
+  {
+    "name": "wrapped in metal",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CG/cs-wrapped-in-metal.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "ct-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-ct-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "agile predator",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-agile-predator.png",
+    "level": "3",
+    "initiative": "90"
+  },
+  {
+    "name": "catastrophic cattle",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-catastrophic-cattle.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "ceremonial dance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-ceremonial-dance.png",
+    "level": "2",
+    "initiative": "23"
+  },
+  {
+    "name": "chest thumper",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-chest-thumper.png",
+    "level": "5",
+    "initiative": "94"
+  },
+  {
+    "name": "hunter's mark",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-hunters-mark.png",
+    "level": "X",
+    "initiative": "15"
+  },
+  {
+    "name": "impervious armor",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-impervious-armor.png",
+    "level": "7",
+    "initiative": "86"
+  },
+  {
+    "name": "majestic mass",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-majestic-mass.png",
+    "level": "8",
+    "initiative": "86"
+  },
+  {
+    "name": "master the reins",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-master-the-reins.png",
+    "level": "9",
+    "initiative": "30"
+  },
+  {
+    "name": "medicine shield",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-medicine-shield.png",
+    "level": "2",
+    "initiative": "19"
+  },
+  {
+    "name": "mounded sight",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-mounded-sight.png",
+    "level": "X",
+    "initiative": "82"
+  },
+  {
+    "name": "one with nature",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-one-with-nature.png",
+    "level": "6",
+    "initiative": "33"
+  },
+  {
+    "name": "outrun the enemy",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-outrun-the-enemy.png",
+    "level": "1",
+    "initiative": "87"
+  },
+  {
+    "name": "piercing darts",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-piercing-darts.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "pipe tomahawk",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-pipe-tomahawk.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "positive reinforcement",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-positive-reinforcement.png",
+    "level": "5",
+    "initiative": "24"
+  },
+  {
+    "name": "prepared rations",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-prepared-rations.png",
+    "level": "X",
+    "initiative": "91"
+  },
+  {
+    "name": "regal beast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-regal-beast.png",
+    "level": "9",
+    "initiative": "81"
+  },
+  {
+    "name": "resurrection",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-resurrection.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "skinning knife",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-skinning-knife.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "slow and steady",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-slow-and-steady.png",
+    "level": "1",
+    "initiative": "93"
+  },
+  {
+    "name": "sniffing hound",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-sniffing-hound.png",
+    "level": "1",
+    "initiative": "80"
+  },
+  {
+    "name": "soul whisperer",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-soul-whisperer.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "spiked muzzle",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-spiked-muzzle.png",
+    "level": "4",
+    "initiative": "47"
+  },
+  {
+    "name": "strapping bullwhip",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-strapping-bullwhip.png",
+    "level": "7",
+    "initiative": "29"
+  },
+  {
+    "name": "sucker punch",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-sucker-punch.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "take the reins",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-take-the-reins.png",
+    "level": "3",
+    "initiative": "40"
+  },
+  {
+    "name": "tribal blessing",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-tribal-blessing.png",
+    "level": "8",
+    "initiative": "46"
+  },
+  {
+    "name": "venomous mayhem",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-venomous-mayhem.png",
+    "level": "6",
+    "initiative": "92"
+  },
+  {
+    "name": "war paint",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/CT/cs-war-paint.png",
+    "level": "4",
+    "initiative": "28"
+  },
+  {
+    "name": "fk-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-fk-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "backdraft",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-backdraft.png",
+    "level": "8",
+    "initiative": "38"
+  },
+  {
+    "name": "cauterize wound",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-cauterize-wound.png",
+    "level": "8",
+    "initiative": "13"
+  },
+  {
+    "name": "collective combat",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-collective-combat.png",
+    "level": "1",
+    "initiative": "64"
+  },
+  {
+    "name": "combat medic",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-combat-medic.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "combined effort",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-combined-effort.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "controlled aggression",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-controlled-aggression.png",
+    "level": "1",
+    "initiative": "77"
+  },
+  {
+    "name": "coordinated attack",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-coordinated-attack.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "crew integrity",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-crew-integrity.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "fiery charisma",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-fiery-charisma.png",
+    "level": "X",
+    "initiative": "25"
+  },
+  {
+    "name": "fire whirl",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-fire-whirl.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "flaming axe",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-flaming-axe.png",
+    "level": "6",
+    "initiative": "23"
+  },
+  {
+    "name": "flashover",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-flashover.png",
+    "level": "9",
+    "initiative": "96"
+  },
+  {
+    "name": "forcible entry",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-forcible-entry.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "heavy irons",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-heavy-irons.png",
+    "level": "2",
+    "initiative": "79"
+  },
+  {
+    "name": "hook and ladder",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-hook-and-ladder.png",
+    "level": "5",
+    "initiative": "32"
+  },
+  {
+    "name": "incident commander",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-incident-commander.png",
+    "level": "9",
+    "initiative": "17"
+  },
+  {
+    "name": "jack of all trades",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-jack-of-all-trades.png",
+    "level": "4",
+    "initiative": "27"
+  },
+  {
+    "name": "kindled tonic",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-kindled-tonic.png",
+    "level": "4",
+    "initiative": "39"
+  },
+  {
+    "name": "ladder assault",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-ladder-assault.png",
+    "level": "3",
+    "initiative": "68"
+  },
+  {
+    "name": "light irons",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-light-irons.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "loyal companion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-loyal-companion.png",
+    "level": "X",
+    "initiative": "81"
+  },
+  {
+    "name": "mutual aid",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-mutual-aid.png",
+    "level": "6",
+    "initiative": "44"
+  },
+  {
+    "name": "playing with fire",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-playing-with-fire.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "practical tools",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-practical-tools.png",
+    "level": "X",
+    "initiative": "36"
+  },
+  {
+    "name": "rapid response",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-rapid-response.png",
+    "level": "1",
+    "initiative": "12"
+  },
+  {
+    "name": "rolling flames",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-rolling-flames.png",
+    "level": "7",
+    "initiative": "53"
+  },
+  {
+    "name": "search and rescue",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-search-and-rescue.png",
+    "level": "7",
+    "initiative": "18"
+  },
+  {
+    "name": "searing blaze",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-searing-blaze.png",
+    "level": "5",
+    "initiative": "75"
+  },
+  {
+    "name": "trauma care",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/FK/cs-trauma-care.png",
+    "level": "2",
+    "initiative": "31"
+  },
+  {
+    "name": "ho-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-ho-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "borrowed vitality",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-borrowed-vitality.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "channel the void",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-channel-the-void.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "empowered assault",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-empowered-assault.png",
+    "level": "3",
+    "initiative": "19"
+  },
+  {
+    "name": "enduring darkness",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-enduring-darkness.png",
+    "level": "6",
+    "initiative": "26"
+  },
+  {
+    "name": "enervating strike",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-enervating-strike.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "entropy unleashed",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-entropy-unleashed.png",
+    "level": "8",
+    "initiative": "28"
+  },
+  {
+    "name": "find an opening",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-find-an-opening.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "gateway to the abyss",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-gateway-to-the-abyss.png",
+    "level": "7",
+    "initiative": "66"
+  },
+  {
+    "name": "greed before need",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-greed-before-need.png",
+    "level": "X",
+    "initiative": "33"
+  },
+  {
+    "name": "hollow embrace",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-hollow-embrace.png",
+    "level": "X",
+    "initiative": "53"
+  },
+  {
+    "name": "implosion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-implosion.png",
+    "level": "6",
+    "initiative": "49"
+  },
+  {
+    "name": "majestic malevolence",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-majestic-malevolence.png",
+    "level": "3",
+    "initiative": "89"
+  },
+  {
+    "name": "nether binding",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-nether-binding.png",
+    "level": "2",
+    "initiative": "64"
+  },
+  {
+    "name": "nether blades",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-nether-blades.png",
+    "level": "1",
+    "initiative": "55"
+  },
+  {
+    "name": "no escape",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-no-escape.png",
+    "level": "9",
+    "initiative": "57"
+  },
+  {
+    "name": "obliterate",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-obliterate.png",
+    "level": "4",
+    "initiative": "13"
+  },
+  {
+    "name": "one with nothingness",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-one-with-nothingness.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "prescient voidmastery",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-prescient-voidmastery.png",
+    "level": "9",
+    "initiative": "11"
+  },
+  {
+    "name": "reaching darkness",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-reaching-darkness.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "ruinous barrage",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-ruinous-barrage.png",
+    "level": "7",
+    "initiative": "38"
+  },
+  {
+    "name": "sever reality",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-sever-reality.png",
+    "level": "5",
+    "initiative": "78"
+  },
+  {
+    "name": "shrouded grasp",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-shrouded-grasp.png",
+    "level": "2",
+    "initiative": "23"
+  },
+  {
+    "name": "stalking quarry",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-stalking-quarry.png",
+    "level": "5",
+    "initiative": "14"
+  },
+  {
+    "name": "tendrils of night",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-tendrils-of-night.png",
+    "level": "8",
+    "initiative": "44"
+  },
+  {
+    "name": "touch of the void",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-touch-of-the-void.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "untethered advance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-untethered-advance.png",
+    "level": "1",
+    "initiative": "46"
+  },
+  {
+    "name": "void-enhanced armory",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-void-enhanced-armory.png",
+    "level": "4",
+    "initiative": "17"
+  },
+  {
+    "name": "void step",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-void-step.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "withering deluge",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HO/cs-withering-deluge.png",
+    "level": "1",
+    "initiative": "47"
+  },
+  {
+    "name": "hp-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-hp-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "aspiration",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-aspiration.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "beacon of hope",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-beacon-of-hope.png",
+    "level": "4",
+    "initiative": "82"
+  },
+  {
+    "name": "bringer of miracles",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-bringer-of-miracles.png",
+    "level": "9",
+    "initiative": "36"
+  },
+  {
+    "name": "chains of light",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-chains-of-light.png",
+    "level": "6",
+    "initiative": "31"
+  },
+  {
+    "name": "devotion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-devotion.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "devout assistance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-devout-assistance.png",
+    "level": "5",
+    "initiative": "37"
+  },
+  {
+    "name": "divine allegiance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-divine-allegiance.png",
+    "level": "2",
+    "initiative": "63"
+  },
+  {
+    "name": "encouraged conviction",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-encouraged-conviction.png",
+    "level": "3",
+    "initiative": "14"
+  },
+  {
+    "name": "expansive permanence",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-expansive-permanence.png",
+    "level": "9",
+    "initiative": "09"
+  },
+  {
+    "name": "faith calling",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-faith-calling.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "grace",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-grace.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "harsh rebuke",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-harsh-rebuke.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "impetuous inquisition",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-impetuous-inquisition.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "inner reflection",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-inner-reflection.png",
+    "level": "1",
+    "initiative": "53"
+  },
+  {
+    "name": "inspired remedy",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-inspired-remedy.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "lamentation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-lamentation.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "meditation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-meditation.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "oaks embrace",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-oaks-embrace.png",
+    "level": "1",
+    "initiative": "84"
+  },
+  {
+    "name": "ordination",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-ordination.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "penitence",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-penitence.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "prosperous concord",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-prosperous-concord.png",
+    "level": "X",
+    "initiative": "43"
+  },
+  {
+    "name": "restoring faith",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-restoring-faith.png",
+    "level": "1",
+    "initiative": "64"
+  },
+  {
+    "name": "revered protector",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-revered-protector.png",
+    "level": "7",
+    "initiative": "15"
+  },
+  {
+    "name": "righteous atonement",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-righteous-atonement.png",
+    "level": "8",
+    "initiative": "20"
+  },
+  {
+    "name": "rooted subjugation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-rooted-subjugation.png",
+    "level": "4",
+    "initiative": "30"
+  },
+  {
+    "name": "sacred death",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-sacred-death.png",
+    "level": "1",
+    "initiative": "81"
+  },
+  {
+    "name": "salvation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-salvation.png",
+    "level": "P",
+    "initiative": "50"
+  },
+  {
+    "name": "soulful salvation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-soulful-salvation.png",
+    "level": "X",
+    "initiative": "11"
+  },
+  {
+    "name": "soul strike",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-soul-strike.png",
+    "level": "1",
+    "initiative": "69"
+  },
+  {
+    "name": "spiritual gains",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-spiritual-gains.png",
+    "level": "5",
+    "initiative": "94"
+  },
+  {
+    "name": "standing ground",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-standing-ground.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "symphony of oppression",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-symphony-of-oppression.png",
+    "level": "7",
+    "initiative": "86"
+  },
+  {
+    "name": "unruly repentance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-unruly-repentance.png",
+    "level": "X",
+    "initiative": "25"
+  },
+  {
+    "name": "unstoppable force",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-unstoppable-force.png",
+    "level": "6",
+    "initiative": "21"
+  },
+  {
+    "name": "vengeful veneration",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-vengeful-veneration.png",
+    "level": "8",
+    "initiative": "78"
+  },
+  {
+    "name": "vital bond",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-vital-bond.png",
+    "level": "3",
+    "initiative": "48"
+  },
+  {
+    "name": "vocal sermon",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-vocal-sermon.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "weakened will",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/HP/cs-weakened-will.png",
+    "level": "2",
+    "initiative": "17"
+  },
+  {
+    "name": "lu-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-lu-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "blackened rage",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-blackened-rage.png",
+    "level": "3",
+    "initiative": "45"
+  },
+  {
+    "name": "blazing pincers",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-blazing-pincers.png",
+    "level": "9",
+    "initiative": "59"
+  },
+  {
+    "name": "burning sparks",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-burning-sparks.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "chilling wave",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-chilling-wave.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "colorful wavelengths",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-colorful-wavelengths.png",
+    "level": "5",
+    "initiative": "83"
+  },
+  {
+    "name": "darkened overcast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-darkened-overcast.png",
+    "level": "2",
+    "initiative": "10"
+  },
+  {
+    "name": "dominating illumination",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-dominating-illumination.png",
+    "level": "8",
+    "initiative": "51"
+  },
+  {
+    "name": "empowering rays",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-empowering-rays.png",
+    "level": "4",
+    "initiative": "57"
+  },
+  {
+    "name": "encompassing aura",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-encompassing-aura.png",
+    "level": "6",
+    "initiative": "11"
+  },
+  {
+    "name": "flickering lights",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-flickering-lights.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "floodlight",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-floodlight.png",
+    "level": "4",
+    "initiative": "71"
+  },
+  {
+    "name": "frosty glimmer",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-frosty-glimmer.png",
+    "level": "1",
+    "initiative": "55"
+  },
+  {
+    "name": "gamma energy",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-gamma-energy.png",
+    "level": "7",
+    "initiative": "65"
+  },
+  {
+    "name": "heat waves",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-heat-waves.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "imposing brilliance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-imposing-brilliance.png",
+    "level": "6",
+    "initiative": "86"
+  },
+  {
+    "name": "light the way",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-light-the-way.png",
+    "level": "9",
+    "initiative": "93"
+  },
+  {
+    "name": "luminescence",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-luminescence.png",
+    "level": "2",
+    "initiative": "66"
+  },
+  {
+    "name": "moonbeam",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-moonbeam.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "optical refraction",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-optical-refraction.png",
+    "level": "8",
+    "initiative": "37"
+  },
+  {
+    "name": "photonic defense",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-photonic-defense.png",
+    "level": "7",
+    "initiative": "09"
+  },
+  {
+    "name": "radiant glare",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-radiant-glare.png",
+    "level": "1",
+    "initiative": "36"
+  },
+  {
+    "name": "shadow claws",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-shadow-claws.png",
+    "level": "5",
+    "initiative": "25"
+  },
+  {
+    "name": "shimmering scuttle",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-shimmering-scuttle.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "shining diversion",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-shining-diversion.png",
+    "level": "3",
+    "initiative": "29"
+  },
+  {
+    "name": "soft glow",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-soft-glow.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "solid light",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-solid-light.png",
+    "level": "X",
+    "initiative": "12"
+  },
+  {
+    "name": "sparkling glow",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-sparkling-glow.png",
+    "level": "X",
+    "initiative": "27"
+  },
+  {
+    "name": "torrid radiation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-torrid-radiation.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "trickling sting",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-trickling-sting.png",
+    "level": "X",
+    "initiative": "43"
+  },
+  {
+    "name": "violent flash",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/LU/cs-violent-flash.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "mf-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-mf-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "airborne spores",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-airborne-spores.png",
+    "level": "2",
+    "initiative": "21"
+  },
+  {
+    "name": "anticoagulant",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-anticoagulant.png",
+    "level": "6",
+    "initiative": "12"
+  },
+  {
+    "name": "blood thinner",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-blood-thinner.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "bogstep",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-bogstep.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "complex toxicology",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-complex-toxicology.png",
+    "level": "9",
+    "initiative": "35"
+  },
+  {
+    "name": "compound toxin",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-compound-toxin.png",
+    "level": "5",
+    "initiative": "61"
+  },
+  {
+    "name": "copperneck berries",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-copperneck-berries.png",
+    "level": "X",
+    "initiative": "70"
+  },
+  {
+    "name": "death sentence",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-death-sentence.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "fireroot sap",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-fireroot-sap.png",
+    "level": "4",
+    "initiative": "91"
+  },
+  {
+    "name": "ground solvent",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-ground-solvent.png",
+    "level": "1",
+    "initiative": "63"
+  },
+  {
+    "name": "hide and seek",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-hide-and-seek.png",
+    "level": "3",
+    "initiative": "43"
+  },
+  {
+    "name": "lashing vines",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-lashing-vines.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "lingering swamp moss",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-lingering-swamp-moss.png",
+    "level": "9",
+    "initiative": "94"
+  },
+  {
+    "name": "mudslide",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-mudslide.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "neurotoxin",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-neurotoxin.png",
+    "level": "1",
+    "initiative": "84"
+  },
+  {
+    "name": "paralytic agent",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-paralytic-agent.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "personal poison",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-personal-poison.png",
+    "level": "5",
+    "initiative": "86"
+  },
+  {
+    "name": "potent mixture",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-potent-mixture.png",
+    "level": "3",
+    "initiative": "17"
+  },
+  {
+    "name": "radiant forest fungi",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-radiant-forest-fungi.png",
+    "level": "4",
+    "initiative": "06"
+  },
+  {
+    "name": "serpent's kiss",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-serpents-kiss.png",
+    "level": "1",
+    "initiative": "89"
+  },
+  {
+    "name": "sinkhole",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-sinkhole.png",
+    "level": "X",
+    "initiative": "29"
+  },
+  {
+    "name": "sludge bomb",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-sludge-bomb.png",
+    "level": "7",
+    "initiative": "07"
+  },
+  {
+    "name": "still river algae",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-still-river-algae.png",
+    "level": "1",
+    "initiative": "09"
+  },
+  {
+    "name": "tainted waters",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-tainted-waters.png",
+    "level": "6",
+    "initiative": "88"
+  },
+  {
+    "name": "throwing daggers",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-throwing-daggers.png",
+    "level": "2",
+    "initiative": "49"
+  },
+  {
+    "name": "twist the blade",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-twist-the-blade.png",
+    "level": "8",
+    "initiative": "19"
+  },
+  {
+    "name": "volatile tonic",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-volatile-tonic.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "whitefire balm",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-whitefire-balm.png",
+    "level": "8",
+    "initiative": "20"
+  },
+  {
+    "name": "wild stings",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/MF/cs-wild-stings.png",
+    "level": "7",
+    "initiative": "71"
+  },
+  {
+    "name": "qa-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-qa-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "annihilating contraption",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-annihilating-contraption.png",
+    "level": "9",
+    "initiative": "89"
+  },
+  {
+    "name": "double-barrel railcaster",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-double-barrel-railcaster.png",
+    "level": "8",
+    "initiative": "37"
+  },
+  {
+    "name": "elemental condenser",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-elemental-condenser.png",
+    "level": "2",
+    "initiative": "04"
+  },
+  {
+    "name": "energy transmission",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-energy-transmission.png",
+    "level": "4",
+    "initiative": "0.5"
+  },
+  {
+    "name": "fragmentation grenade",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-fragmentation-grenade.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "galvanic coil",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-galvanic-coil.png",
+    "level": "6",
+    "initiative": "0.7"
+  },
+  {
+    "name": "gravity inverter module",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-gravity-inverter-module.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "improvised exosuit",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-improvised-exosuit.png",
+    "level": "X",
+    "initiative": "90"
+  },
+  {
+    "name": "improvised mortar",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-improvised-mortar.png",
+    "level": "1",
+    "initiative": "93"
+  },
+  {
+    "name": "instant relocation matrix",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-instant-relocation-matrix.png",
+    "level": "8",
+    "initiative": "0.9"
+  },
+  {
+    "name": "jury-rigged machine",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-jury-rigged-machine.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "launch skywards",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-launch-skywards.png",
+    "level": "5",
+    "initiative": "92"
+  },
+  {
+    "name": "march of machines",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-march-of-machines.png",
+    "level": "6",
+    "initiative": "50"
+  },
+  {
+    "name": "oscillating projector",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-oscillating-projector.png",
+    "level": "5",
+    "initiative": "22"
+  },
+  {
+    "name": "particle ray beam",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-particle-ray-beam.png",
+    "level": "1",
+    "initiative": "36"
+  },
+  {
+    "name": "perfected exosuit",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-perfected-exosuit.png",
+    "level": "9",
+    "initiative": "08"
+  },
+  {
+    "name": "phase field emitter",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-phase-field-emitter.png",
+    "level": "1",
+    "initiative": "12"
+  },
+  {
+    "name": "power modulation",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-power-modulation.png",
+    "level": "X",
+    "initiative": "0.1"
+  },
+  {
+    "name": "ransack clutter",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-ransack-clutter.png",
+    "level": "4",
+    "initiative": "18"
+  },
+  {
+    "name": "recycle parts",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-recycle-parts.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "reinforce armor",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-reinforce-armor.png",
+    "level": "7",
+    "initiative": "26"
+  },
+  {
+    "name": "remote control",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-remote-control.png",
+    "level": "X",
+    "initiative": "37"
+  },
+  {
+    "name": "repurpose leftovers",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-repurpose-leftovers.png",
+    "level": "1",
+    "initiative": "68"
+  },
+  {
+    "name": "retrofit weapons",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-retrofit-weapons.png",
+    "level": "3",
+    "initiative": "60"
+  },
+  {
+    "name": "salvage grappler",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-salvage-grappler.png",
+    "level": "1",
+    "initiative": "46"
+  },
+  {
+    "name": "seeker missiles",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-seeker-missiles.png",
+    "level": "7",
+    "initiative": "77"
+  },
+  {
+    "name": "trajectory diverter",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-trajectory-diverter.png",
+    "level": "2",
+    "initiative": "0.3"
+  },
+  {
+    "name": "trudging bulwark",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/QA/cs-trudging-bulwark.png",
+    "level": "3",
+    "initiative": "73"
+  },
+  {
+    "name": "rm-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-rm-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "belly of the beast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-belly-of-the-beast.png",
+    "level": "9",
+    "initiative": "38"
+  },
+  {
+    "name": "berserk barrage",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-berserk-barrage.png",
+    "level": "1",
+    "initiative": "53"
+  },
+  {
+    "name": "burning bile",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-burning-bile.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "caustic claws",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-caustic-claws.png",
+    "level": "1",
+    "initiative": "78"
+  },
+  {
+    "name": "cornered animal",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-cornered-animal.png",
+    "level": "X",
+    "initiative": "12"
+  },
+  {
+    "name": "corrosive spew",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-corrosive-spew.png",
+    "level": "6",
+    "initiative": "50"
+  },
+  {
+    "name": "devour whole",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-devour-whole.png",
+    "level": "8",
+    "initiative": "69"
+  },
+  {
+    "name": "easy prey",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-easy-prey.png",
+    "level": "1",
+    "initiative": "55"
+  },
+  {
+    "name": "fatal frenzy",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-fatal-frenzy.png",
+    "level": "2",
+    "initiative": "40"
+  },
+  {
+    "name": "feast of flesh",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-feast-of-flesh.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "feral lunge",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-feral-lunge.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "ferocious fling",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-ferocious-fling.png",
+    "level": "3",
+    "initiative": "86"
+  },
+  {
+    "name": "fight or flight",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-fight-or-flight.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "heartripper",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-heartripper.png",
+    "level": "8",
+    "initiative": "90"
+  },
+  {
+    "name": "indomitable craving",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-indomitable-craving.png",
+    "level": "7",
+    "initiative": "22"
+  },
+  {
+    "name": "lie in wait",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-lie-in-wait.png",
+    "level": "4",
+    "initiative": "15"
+  },
+  {
+    "name": "nourishing meal",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-nourishing-meal.png",
+    "level": "1",
+    "initiative": "83"
+  },
+  {
+    "name": "pouncing predator",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-pouncing-predator.png",
+    "level": "6",
+    "initiative": "11"
+  },
+  {
+    "name": "ravenous roar",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-ravenous-roar.png",
+    "level": "4",
+    "initiative": "25"
+  },
+  {
+    "name": "reckless attack",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-reckless-attack.png",
+    "level": "1",
+    "initiative": "65"
+  },
+  {
+    "name": "rend and mutilate",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-rend-and-mutilate.png",
+    "level": "5",
+    "initiative": "74"
+  },
+  {
+    "name": "rip and tear",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-rip-and-tear.png",
+    "level": "9",
+    "initiative": "42"
+  },
+  {
+    "name": "savage stalker",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-savage-stalker.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "scrape and scrounge",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-scrape-and-scrounge.png",
+    "level": "X",
+    "initiative": "24"
+  },
+  {
+    "name": "seize",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-seize.png",
+    "level": "X",
+    "initiative": "29"
+  },
+  {
+    "name": "slake thirst",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-slake-thirst.png",
+    "level": "2",
+    "initiative": "26"
+  },
+  {
+    "name": "strip the flesh",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-strip-the-flesh.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "survival instincts",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-survival-instincts.png",
+    "level": "7",
+    "initiative": "13"
+  },
+  {
+    "name": "terrifying howl",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-terrifying-howl.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "voracious hunter",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/RM/cs-voracious-hunter.png",
+    "level": "5",
+    "initiative": "32"
+  },
+  {
+    "name": "sp-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-sp-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "burning pit",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-burning-pit.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "chilling slice",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-chilling-slice.png",
+    "level": "8",
+    "initiative": "66"
+  },
+  {
+    "name": "circle of lifeless",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-circle-of-lifeless.png",
+    "level": "8",
+    "initiative": "90"
+  },
+  {
+    "name": "confidence ritual",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-confidence-ritual.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "death is not defeat",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-death-is-not-defeat.png",
+    "level": "9",
+    "initiative": "97"
+  },
+  {
+    "name": "decaying daggers",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-decaying-daggers.png",
+    "level": "3",
+    "initiative": "28"
+  },
+  {
+    "name": "dimmed defense",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-dimmed-defense.png",
+    "level": "1",
+    "initiative": "12"
+  },
+  {
+    "name": "eternal endurance",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-eternal-endurance.png",
+    "level": "9",
+    "initiative": "06"
+  },
+  {
+    "name": "ethereal canine",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-ethereal-canine.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "fear the reaper",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-fear-the-reaper.png",
+    "level": "X",
+    "initiative": "91"
+  },
+  {
+    "name": "fierce loyalty",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-fierce-loyalty.png",
+    "level": "6",
+    "initiative": "20"
+  },
+  {
+    "name": "flurry of madness",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-flurry-of-madness.png",
+    "level": "2",
+    "initiative": "42"
+  },
+  {
+    "name": "forceful apparition",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-forceful-apparition.png",
+    "level": "X",
+    "initiative": "16"
+  },
+  {
+    "name": "horde of bones",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-horde-of-bones.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "horrific nightmare",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-horrific-nightmare.png",
+    "level": "6",
+    "initiative": "71"
+  },
+  {
+    "name": "incorporeal transport",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-incorporeal-transport.png",
+    "level": "1",
+    "initiative": "74"
+  },
+  {
+    "name": "midnight feast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-midnight-feast.png",
+    "level": "1",
+    "initiative": "80"
+  },
+  {
+    "name": "rise from ashes",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-rise-from-ashes.png",
+    "level": "7",
+    "initiative": "55"
+  },
+  {
+    "name": "shamanistic guard",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-shamanistic-guard.png",
+    "level": "7",
+    "initiative": "18"
+  },
+  {
+    "name": "shrieking spirit",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-shrieking-spirit.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "smoky shroud",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-smoky-shroud.png",
+    "level": "2",
+    "initiative": "81"
+  },
+  {
+    "name": "soul harvest",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-soul-harvest.png",
+    "level": "5",
+    "initiative": "15"
+  },
+  {
+    "name": "spirit barrage",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-spirit-barrage.png",
+    "level": "4",
+    "initiative": "51"
+  },
+  {
+    "name": "spiritual energy",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-spiritual-energy.png",
+    "level": "5",
+    "initiative": "34"
+  },
+  {
+    "name": "spread disease",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-spread-disease.png",
+    "level": "3",
+    "initiative": "47"
+  },
+  {
+    "name": "toxic charm",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-toxic-charm.png",
+    "level": "1",
+    "initiative": "59"
+  },
+  {
+    "name": "unholy sacrifice",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-unholy-sacrifice.png",
+    "level": "X",
+    "initiative": "23"
+  },
+  {
+    "name": "whistling winds",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-whistling-winds.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "white glow",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/SP/cs-white-glow.png",
+    "level": "4",
+    "initiative": "77"
+  },
+  {
+    "name": "st-back",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-st-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "absolute magnitude",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-absolute-magnitude.png",
+    "level": "6",
+    "initiative": "20"
+  },
+  {
+    "name": "absorbing light",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-absorbing-light.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "aligned constellations",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-aligned-constellations.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "blue moon",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-blue-moon.png",
+    "level": "6",
+    "initiative": "79"
+  },
+  {
+    "name": "celestial maneuver",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-celestial-maneuver.png",
+    "level": "8",
+    "initiative": "88"
+  },
+  {
+    "name": "crashing flare",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-crashing-flare.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "defying gravity",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-defying-gravity.png",
+    "level": "2",
+    "initiative": "22"
+  },
+  {
+    "name": "diamond rings",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-diamond-rings.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "earthshine",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-earthshine.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "eonic blast",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-eonic-blast.png",
+    "level": "7",
+    "initiative": "50"
+  },
+  {
+    "name": "equinox",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-equinox.png",
+    "level": "4",
+    "initiative": "40"
+  },
+  {
+    "name": "force field",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-force-field.png",
+    "level": "X",
+    "initiative": "09"
+  },
+  {
+    "name": "gravitational flip",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-gravitational-flip.png",
+    "level": "X",
+    "initiative": "13"
+  },
+  {
+    "name": "interplanar voyager",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-interplanar-voyager.png",
+    "level": "9",
+    "initiative": "24"
+  },
+  {
+    "name": "light pollution",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-light-pollution.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "lost in the stars",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-lost-in-the-stars.png",
+    "level": "X",
+    "initiative": "06"
+  },
+  {
+    "name": "lucky stars",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-lucky-stars.png",
+    "level": "1",
+    "initiative": "74"
+  },
+  {
+    "name": "luminous blitz",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-luminous-blitz.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "pierce the firmament",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-pierce-the-firmament.png",
+    "level": "9",
+    "initiative": "33"
+  },
+  {
+    "name": "plasmatic power",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-plasmatic-power.png",
+    "level": "5",
+    "initiative": "10"
+  },
+  {
+    "name": "proportional exchange",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-proportional-exchange.png",
+    "level": "2",
+    "initiative": "84"
+  },
+  {
+    "name": "shifting chasma",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-shifting-chasma.png",
+    "level": "5",
+    "initiative": "28"
+  },
+  {
+    "name": "shooting stars",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-shooting-stars.png",
+    "level": "3",
+    "initiative": "54"
+  },
+  {
+    "name": "solar eclipse",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-solar-eclipse.png",
+    "level": "1",
+    "initiative": "60"
+  },
+  {
+    "name": "starstruck",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-starstruck.png",
+    "level": "1",
+    "initiative": "80"
+  },
+  {
+    "name": "stone meteorite",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-stone-meteorite.png",
+    "level": "7",
+    "initiative": "90"
+  },
+  {
+    "name": "sungaze",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-sungaze.png",
+    "level": "8",
+    "initiative": "37"
+  },
+  {
+    "name": "supernova",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-supernova.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "wish upon a star",
+    "expansion": "Crimson Scales",
+    "image": "character-ability-cards/crimson-scales/ST/cs-wish-upon-a-star.png",
+    "level": "4",
+    "initiative": "75"
+  },
+  {
+    "name": "razorweb puppetry",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-amber-aegis.png",
+    "imageBack": "character-ability-cards/crimson-scales/AA/cs-razorweb-puppetry.png",
+    "level": "M",
+    "initiative": "39",
+    "milestone": true
+  },
+  {
+    "name": "pummeling chain",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-bombard.png",
+    "imageBack": "character-ability-cards/crimson-scales/BM/cs-pummeling-chain.png",
+    "level": "M",
+    "initiative": "17",
+    "milestone": true
+  },
+  {
+    "name": "creative sparks",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-brightspark.png",
+    "imageBack": "character-ability-cards/crimson-scales/BK/cs-creative-sparks.png",
+    "level": "M",
+    "initiative": "40",
+    "milestone": true
+  },
+  {
+    "name": "rope pit",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-chainguard.png",
+    "imageBack": "character-ability-cards/crimson-scales/CG/cs-rope-pit.png",
+    "level": "M",
+    "initiative": "32",
+    "milestone": true
+  },
+  {
+    "name": "call of the wild",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-chieftain.png",
+    "imageBack": "character-ability-cards/crimson-scales/CT/cs-call-of-the-wild.png",
+    "level": "M",
+    "initiative": "10",
+    "milestone": true
+  },
+  {
+    "name": "improvised methods",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-fire-knight.png",
+    "imageBack": "character-ability-cards/crimson-scales/FK/cs-improvised-methods.png",
+    "level": "M",
+    "initiative": "16",
+    "milestone": true
+  },
+  {
+    "name": "the void consumes",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-hollowpact.png",
+    "imageBack": "character-ability-cards/crimson-scales/HO/cs-the-void-consumes.png",
+    "level": "M",
+    "initiative": "35",
+    "milestone": true
+  },
+  {
+    "name": "uplifting ascension",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-hierophant.png",
+    "imageBack": "character-ability-cards/crimson-scales/HP/cs-uplifting-ascension.png",
+    "level": "M",
+    "initiative": "80",
+    "milestone": true
+  },
+  {
+    "name": "drawn into the light",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-luminary.png",
+    "imageBack": "character-ability-cards/crimson-scales/LU/cs-drawn-into-the-light.png",
+    "level": "M",
+    "initiative": "47",
+    "milestone": true
+  },
+  {
+    "name": "giant slayer",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-mirefoot.png",
+    "imageBack": "character-ability-cards/crimson-scales/MF/cs-giant-slayer.png",
+    "level": "M",
+    "initiative": "22",
+    "milestone": true
+  },
+  {
+    "name": "adaptive engineering",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-artificer.png",
+    "imageBack": "character-ability-cards/crimson-scales/QA/cs-adaptive-engineering.png",
+    "level": "M",
+    "initiative": "75",
+    "milestone": true
+  },
+  {
+    "name": "blood rite",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-ruinmaw.png",
+    "imageBack": "character-ability-cards/crimson-scales/RM/cs-blood-rite.png",
+    "level": "M",
+    "initiative": "67",
+    "milestone": true
+  },
+  {
+    "name": "terror of the deep",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-spirit-caller.png",
+    "imageBack": "character-ability-cards/crimson-scales/SP/cs-terror-of-the-deep.png",
+    "level": "M",
+    "initiative": "33",
+    "milestone": true
+  },
+  {
+    "name": "deflection",
+    "expansion": "Crimson Scales",
+    "image": "milestones/cs-ms-starslinger.png",
+    "imageBack": "character-ability-cards/crimson-scales/ST/cs-deflection.png",
+    "level": "M",
+    "initiative": "46",
+    "milestone": true
+  }
+]

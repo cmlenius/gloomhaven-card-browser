@@ -1,0 +1,16 @@
+[
+  { "id": "BK", "game": "cs", "colour": "#AF8F42", "name": "Brightspark", "altName": "Flask" },
+  { "id": "BM", "game": "cs", "colour": "#725C3F", "name": "Bombard", "altName": "Target" },
+  { "id": "CG", "game": "cs", "colour": "#1C1919", "name": "Chainguard", "altName": "Chained Helmet" },
+  { "id": "CT", "game": "cs", "colour": "#5F8A87", "name": "Chieftain", "altName": "Tusks" },
+  { "id": "FK", "game": "cs", "colour": "#97452B", "name": "Fire Knight", "altName": "Ladder Axe" },
+  { "id": "HO", "game": "cs", "colour": "#8B5E90", "name": "Hollowpact", "altName": "Vortex" },
+  { "id": "HP", "game": "cs", "colour": "#8C8A79", "name": "Hierophant", "altName": "Leaf" },
+  { "id": "LU", "game": "cs", "colour": "#53378B", "name": "Luminary", "altName": "Crescent Sun" },
+  { "id": "MF", "game": "cs", "colour": "#334123", "name": "Mirefoot", "altName": "Sprig" },
+  { "id": "SP", "game": "cs", "colour": "#4F7F45", "name": "Spirit Caller", "altName": "Skull" },
+  { "id": "ST", "game": "cs", "colour": "#384070", "name": "Starslinger", "altName": "Galaxy" },
+  { "id": "AA", "game": "cs", "colour": "#A77037", "name": "Amber Aegis", "altName": "Beetle" },
+  { "id": "QA", "game": "cs", "colour": "#739097", "name": "Artificer", "altName": "Tools" },
+  { "id": "RM", "game": "cs", "colour": "#8D2B27", "name": "Ruinmaw", "altName": "Bleeding Claw" }
+]

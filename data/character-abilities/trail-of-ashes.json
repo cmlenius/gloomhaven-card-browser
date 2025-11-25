@@ -1,0 +1,1400 @@
+[
+  {
+    "name": "in-back",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-in-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "alone in the end",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-alone-in-the-end.png",
+    "level": "4",
+    "initiative": "74"
+  },
+  {
+    "name": "ancestral blade",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-ancestral-blade.png",
+    "level": "X",
+    "initiative": "65"
+  },
+  {
+    "name": "ancient banner",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-ancient-banner.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "aukotu's defiant resolve",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-aukotus-defiant-resolve.png",
+    "level": "9",
+    "initiative": "32"
+  },
+  {
+    "name": "awnu's retribution",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-awnus-retribution.png",
+    "level": "6",
+    "initiative": "19"
+  },
+  {
+    "name": "blood of champions",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-blood-of-champions.png",
+    "level": "5",
+    "initiative": "82"
+  },
+  {
+    "name": "farseer's pilum",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-farseers-pilum.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "firebrand",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-firebrand.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "gift of the dying",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-gift-of-the-dying.png",
+    "level": "8",
+    "initiative": "78"
+  },
+  {
+    "name": "gol's tonic",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-gols-tonic.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "haf's reverence",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-hafs-reverence.png",
+    "level": "6",
+    "initiative": "34"
+  },
+  {
+    "name": "hands of three tribes",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-hands-of-three-tribes.png",
+    "level": "1",
+    "initiative": "70"
+  },
+  {
+    "name": "kou's favor",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-kous-favor.png",
+    "level": "3",
+    "initiative": "25"
+  },
+  {
+    "name": "maku's deadly aim",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-makus-deadly-aim.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "matriarch's dominance",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-matriarchs-dominance.png",
+    "level": "2",
+    "initiative": "22"
+  },
+  {
+    "name": "memory of the hunt",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-memory-of-the-hunt.png",
+    "level": "4",
+    "initiative": "12"
+  },
+  {
+    "name": "pakh's lunge",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-pakhs-lunge.png",
+    "level": "1",
+    "initiative": "53"
+  },
+  {
+    "name": "remnants of the broken",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-remnants-of-the-broken.png",
+    "level": "7",
+    "initiative": "67"
+  },
+  {
+    "name": "savvas coreglass knife",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-savvas-coreglass-knife.png",
+    "level": "7",
+    "initiative": "81"
+  },
+  {
+    "name": "the arms of oxcepi",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-the-arms-of-oxcepi.png",
+    "level": "5",
+    "initiative": "56"
+  },
+  {
+    "name": "the grave beckons",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-the-grave-beckons.png",
+    "level": "2",
+    "initiative": "37"
+  },
+  {
+    "name": "tomeg's shield-arm",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-tomegs-shield-arm.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "vadi's last stand",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-vadis-last-stand.png",
+    "level": "9",
+    "initiative": "21"
+  },
+  {
+    "name": "vaska's cunning",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-vaskas-cunning.png",
+    "level": "1",
+    "initiative": "58"
+  },
+  {
+    "name": "vengeance of aksut",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-vengeance-of-aksut.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "vital tether",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-vital-tether.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "warborn's shout",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-warborns-shout.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "war drums",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-war-drums.png",
+    "level": "X",
+    "initiative": "27"
+  },
+  {
+    "name": "wielded memory",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-wielded-memory.png",
+    "level": "X",
+    "initiative": "38"
+  },
+  {
+    "name": "will of the huntress",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/IN/toa-will-of-the-huntress.png",
+    "level": "8",
+    "initiative": "40"
+  },
+  {
+    "name": "rh-back",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-rh-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "a balance struck",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-a-balance-struck.png",
+    "level": "9",
+    "initiative": "50"
+  },
+  {
+    "name": "biting cold",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-biting-cold.png",
+    "level": "1",
+    "initiative": "60"
+  },
+  {
+    "name": "blazing streak",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-blazing-streak.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "bonechill",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-bonechill.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "bulwark of ether",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-bulwark-of-ether.png",
+    "level": "5",
+    "initiative": "15"
+  },
+  {
+    "name": "cold snap",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-cold-snap.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "cryoseism",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-cryoseism.png",
+    "level": "6",
+    "initiative": "77"
+  },
+  {
+    "name": "frostbite",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-frostbite.png",
+    "level": "3",
+    "initiative": "62"
+  },
+  {
+    "name": "frozen grasp",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-frozen-grasp.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "glacial cocoon",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-glacial-cocoon.png",
+    "level": "X",
+    "initiative": "14"
+  },
+  {
+    "name": "hearthbolt",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-hearthbolt.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "heat transfer",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-heat-transfer.png",
+    "level": "8",
+    "initiative": "64"
+  },
+  {
+    "name": "heatwave",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-heatwave.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "homeostasis",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-homeostasis.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "kleptotherapy",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-kleptotherapy.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "pressure spike",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-pressure-spike.png",
+    "level": "5",
+    "initiative": "54"
+  },
+  {
+    "name": "pressure wave",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-pressure-wave.png",
+    "level": "8",
+    "initiative": "16"
+  },
+  {
+    "name": "raging fire",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-raging-fire.png",
+    "level": "7",
+    "initiative": "36"
+  },
+  {
+    "name": "rapid flux",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-rapid-flux.png",
+    "level": "2",
+    "initiative": "25"
+  },
+  {
+    "name": "rimeshock",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-rimeshock.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "scorched path",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-scorched-path.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "snap freeze",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-snap-freeze.png",
+    "level": "6",
+    "initiative": "08"
+  },
+  {
+    "name": "spreading flames",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-spreading-flames.png",
+    "level": "4",
+    "initiative": "60"
+  },
+  {
+    "name": "steamburst",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-steamburst.png",
+    "level": "1",
+    "initiative": "41"
+  },
+  {
+    "name": "thermal weaving",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-thermal-weaving.png",
+    "level": "9",
+    "initiative": "32"
+  },
+  {
+    "name": "thermotherapy",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-thermotherapy.png",
+    "level": "X",
+    "initiative": "66"
+  },
+  {
+    "name": "torrid blast",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-torrid-blast.png",
+    "level": "4",
+    "initiative": "31"
+  },
+  {
+    "name": "unyielding charge",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-unyielding-charge.png",
+    "level": "7",
+    "initiative": "26"
+  },
+  {
+    "name": "wreathed in flame",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/RH/toa-wreathed-in-flame.png",
+    "level": "X",
+    "initiative": "63"
+  },
+  {
+    "name": "sr-back",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-sr-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "amassed formation",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-amassed-formation.png",
+    "level": "5",
+    "initiative": "16"
+  },
+  {
+    "name": "cinnabar seeding",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-cinnabar-seeding.png",
+    "level": "5",
+    "initiative": "38"
+  },
+  {
+    "name": "corundum shell",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-corundum-shell.png",
+    "level": "2",
+    "initiative": "28"
+  },
+  {
+    "name": "crystal growth",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-crystal-growth.png",
+    "level": "1",
+    "initiative": "68"
+  },
+  {
+    "name": "diamond skin",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-diamond-skin.png",
+    "level": "8",
+    "initiative": "19"
+  },
+  {
+    "name": "geode barrage",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-geode-barrage.png",
+    "level": "X",
+    "initiative": "23"
+  },
+  {
+    "name": "glistening facets",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-glistening-facets.png",
+    "level": "4",
+    "initiative": "58"
+  },
+  {
+    "name": "impaling spike",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-impaling-spike.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "jubilant recovery",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-jubilant-recovery.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "lightbury quartz",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-lightbury-quartz.png",
+    "level": "4",
+    "initiative": "14"
+  },
+  {
+    "name": "luminous glow",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-luminous-glow.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "penetrating fragments",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-penetrating-fragments.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "perforating bore",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-perforating-bore.png",
+    "level": "2",
+    "initiative": "63"
+  },
+  {
+    "name": "prismatic ward",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-prismatic-ward.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "radiating crust",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-radiating-crust.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "rapid calcification",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-rapid-calcification.png",
+    "level": "7",
+    "initiative": "48"
+  },
+  {
+    "name": "reciprocal resonance",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-reciprocal-resonance.png",
+    "level": "X",
+    "initiative": "21"
+  },
+  {
+    "name": "reflecting surface",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-reflecting-surface.png",
+    "level": "6",
+    "initiative": "35"
+  },
+  {
+    "name": "remineralize",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-remineralize.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "ruinous shard",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-ruinous-shard.png",
+    "level": "1",
+    "initiative": "41"
+  },
+  {
+    "name": "searing stone",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-searing-stone.png",
+    "level": "3",
+    "initiative": "13"
+  },
+  {
+    "name": "seismic shockwave",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-seismic-shockwave.png",
+    "level": "8",
+    "initiative": "32"
+  },
+  {
+    "name": "serrated razor",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-serrated-razor.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "spiked carapace",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-spiked-carapace.png",
+    "level": "6",
+    "initiative": "26"
+  },
+  {
+    "name": "splinter burst",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-splinter-burst.png",
+    "level": "X",
+    "initiative": "50"
+  },
+  {
+    "name": "triboluminescence",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-triboluminescence.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "turbulent absorption",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-turbulent-absorption.png",
+    "level": "9",
+    "initiative": "52"
+  },
+  {
+    "name": "unyielding stalagmite",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-unyielding-stalagmite.png",
+    "level": "7",
+    "initiative": "71"
+  },
+  {
+    "name": "violent shatter",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-violent-shatter.png",
+    "level": "9",
+    "initiative": "83"
+  },
+  {
+    "name": "vital outburst",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/SR/toa-vital-outburst.png",
+    "level": "3",
+    "initiative": "29"
+  },
+  {
+    "name": "tp-back",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-tp-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "aerial dominance",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-aerial-dominance.png",
+    "level": "X",
+    "initiative": "39"
+  },
+  {
+    "name": "air current",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-air-current.png",
+    "level": "3",
+    "initiative": "14"
+  },
+  {
+    "name": "arcblast",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-arcblast.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "arc reaction",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-arc-reaction.png",
+    "level": "4",
+    "initiative": "33"
+  },
+  {
+    "name": "breakneck blitz",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-breakneck-blitz.png",
+    "level": "1",
+    "initiative": "04"
+  },
+  {
+    "name": "channeled energy",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-channeled-energy.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "electric current",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-electric-current.png",
+    "level": "3",
+    "initiative": "20"
+  },
+  {
+    "name": "electromagnetic pulse",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-electromagnetic-pulse.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "electrostatic bypass",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-electrostatic-bypass.png",
+    "level": "6",
+    "initiative": "15"
+  },
+  {
+    "name": "energy siphon",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-energy-siphon.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "flash of lightning",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-flash-of-lightning.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "hard target",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-hard-target.png",
+    "level": "2",
+    "initiative": "30"
+  },
+  {
+    "name": "hurricane",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-hurricane.png",
+    "level": "8",
+    "initiative": "82"
+  },
+  {
+    "name": "jetstream gust",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-jetstream-gust.png",
+    "level": "6",
+    "initiative": "69"
+  },
+  {
+    "name": "lightbender",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-lightbender.png",
+    "level": "X",
+    "initiative": "42"
+  },
+  {
+    "name": "nimble resilience",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-nimble-resilience.png",
+    "level": "X",
+    "initiative": "66"
+  },
+  {
+    "name": "protective gale",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-protective-gale.png",
+    "level": "9",
+    "initiative": "02"
+  },
+  {
+    "name": "radiant explosion",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-radiant-explosion.png",
+    "level": "7",
+    "initiative": "18"
+  },
+  {
+    "name": "rejuvenating charge",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-rejuvenating-charge.png",
+    "level": "4",
+    "initiative": "21"
+  },
+  {
+    "name": "rushing wind",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-rushing-wind.png",
+    "level": "7",
+    "initiative": "64"
+  },
+  {
+    "name": "scorching arcbolt",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-scorching-arcbolt.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "shock therapy",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-shock-therapy.png",
+    "level": "8",
+    "initiative": "10"
+  },
+  {
+    "name": "spark conduit",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-spark-conduit.png",
+    "level": "5",
+    "initiative": "73"
+  },
+  {
+    "name": "static shock",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-static-shock.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "storm lightning",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-storm-lightning.png",
+    "level": "9",
+    "initiative": "88"
+  },
+  {
+    "name": "stormy retribution",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-stormy-retribution.png",
+    "level": "5",
+    "initiative": "77"
+  },
+  {
+    "name": "surging storm",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-surging-storm.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "swift strike",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-swift-strike.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "voltaic burst",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TP/toa-voltaic-burst.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "tr-back",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-tr-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "barbed onslaught",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-barbed-onslaught.png",
+    "level": "5",
+    "initiative": "58"
+  },
+  {
+    "name": "bed of roses",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-bed-of-roses.png",
+    "level": "9",
+    "initiative": "10"
+  },
+  {
+    "name": "black rose",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-black-rose.png",
+    "level": "X",
+    "initiative": "12"
+  },
+  {
+    "name": "branched slam",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-branched-slam.png",
+    "level": "5",
+    "initiative": "45"
+  },
+  {
+    "name": "bright skies",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-bright-skies.png",
+    "level": "3",
+    "initiative": "29"
+  },
+  {
+    "name": "cover of green",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-cover-of-green.png",
+    "level": "1",
+    "initiative": "34"
+  },
+  {
+    "name": "dawn's gift",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-dawns-gift.png",
+    "level": "1",
+    "initiative": "56"
+  },
+  {
+    "name": "devoured by thorns",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-devoured-by-thorns.png",
+    "level": "6",
+    "initiative": "72"
+  },
+  {
+    "name": "encased in thorns",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-encased-in-thorns.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "extended branch",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-extended-branch.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "fissive eruption",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-fissive-eruption.png",
+    "level": "8",
+    "initiative": "40"
+  },
+  {
+    "name": "floral burst",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-floral-burst.png",
+    "level": "2",
+    "initiative": "30"
+  },
+  {
+    "name": "impaling command",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-impaling-command.png",
+    "level": "8",
+    "initiative": "19"
+  },
+  {
+    "name": "jagged clutch",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-jagged-clutch.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "lashing thorns",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-lashing-thorns.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "midsummer",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-midsummer.png",
+    "level": "1",
+    "initiative": "50"
+  },
+  {
+    "name": "nature's fury",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-natures-fury.png",
+    "level": "7",
+    "initiative": "37"
+  },
+  {
+    "name": "outward spurs",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-outward-spurs.png",
+    "level": "2",
+    "initiative": "43"
+  },
+  {
+    "name": "photosynthesis",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-photosynthesis.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "prickly situation",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-prickly-situation.png",
+    "level": "4",
+    "initiative": "20"
+  },
+  {
+    "name": "rabid undergrowth",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-rabid-undergrowth.png",
+    "level": "7",
+    "initiative": "27"
+  },
+  {
+    "name": "ravaged earth",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-ravaged-earth.png",
+    "level": "9",
+    "initiative": "86"
+  },
+  {
+    "name": "shrewd overgrowth",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-shrewd-overgrowth.png",
+    "level": "1",
+    "initiative": "92"
+  },
+  {
+    "name": "solar flare",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-solar-flare.png",
+    "level": "6",
+    "initiative": "36"
+  },
+  {
+    "name": "spiked embrace",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-spiked-embrace.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "superradiance",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-superradiance.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "thornstride",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-thornstride.png",
+    "level": "X",
+    "initiative": "24"
+  },
+  {
+    "name": "twisted thistle",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-twisted-thistle.png",
+    "level": "4",
+    "initiative": "26"
+  },
+  {
+    "name": "violent sprout",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-violent-sprout.png",
+    "level": "1",
+    "initiative": "63"
+  },
+  {
+    "name": "welcome to the jungle",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/TR/toa-welcome-to-the-jungle.png",
+    "level": "3",
+    "initiative": "41"
+  },
+  {
+    "name": "vq-back",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-vq-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "beckoning of the beast",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-beckoning-of-the-beast.png",
+    "level": "V",
+    "initiative": "26"
+  },
+  {
+    "name": "blackout",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-blackout.png",
+    "level": "V",
+    "initiative": "24"
+  },
+  {
+    "name": "blasphemous charge",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-blasphemous-charge.png",
+    "level": "X",
+    "initiative": "88"
+  },
+  {
+    "name": "blazing torment",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-blazing-torment.png",
+    "level": "1",
+    "initiative": "60"
+  },
+  {
+    "name": "bringer of grief",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-bringer-of-grief.png",
+    "level": "V",
+    "initiative": "31"
+  },
+  {
+    "name": "brutal awakening",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-brutal-awakening.png",
+    "level": "X",
+    "initiative": "95"
+  },
+  {
+    "name": "condemnation",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-condemnation.png",
+    "level": "V",
+    "initiative": "25"
+  },
+  {
+    "name": "crazed leap",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-crazed-leap.png",
+    "level": "6",
+    "initiative": "52"
+  },
+  {
+    "name": "demon's aid",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-demons-aid.png",
+    "level": "V",
+    "initiative": "18"
+  },
+  {
+    "name": "embrace the chaos",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-embrace-the-chaos.png",
+    "level": "3",
+    "initiative": "75"
+  },
+  {
+    "name": "extended horns",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-extended-horns.png",
+    "level": "V",
+    "initiative": "19"
+  },
+  {
+    "name": "fatal retribution",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-fatal-retribution.png",
+    "level": "4",
+    "initiative": "51"
+  },
+  {
+    "name": "fiendish power",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-fiendish-power.png",
+    "level": "1",
+    "initiative": "46"
+  },
+  {
+    "name": "first to strike",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-first-to-strike.png",
+    "level": "V",
+    "initiative": "16"
+  },
+  {
+    "name": "forged from fire",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-forged-from-fire.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "gravedigger",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-gravedigger.png",
+    "level": "1",
+    "initiative": "41"
+  },
+  {
+    "name": "infused charge",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-infused-charge.png",
+    "level": "5",
+    "initiative": "81"
+  },
+  {
+    "name": "life in death",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-life-in-death.png",
+    "level": "3",
+    "initiative": "45"
+  },
+  {
+    "name": "living nightmare",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-living-nightmare.png",
+    "level": "1",
+    "initiative": "65"
+  },
+  {
+    "name": "malicious defamation",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-malicious-defamation.png",
+    "level": "4",
+    "initiative": "55"
+  },
+  {
+    "name": "out of the shadows",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-out-of-the-shadows.png",
+    "level": "X",
+    "initiative": "84"
+  },
+  {
+    "name": "raging pandemonium",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-raging-pandemonium.png",
+    "level": "V",
+    "initiative": "14"
+  },
+  {
+    "name": "sadistic swipe",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-sadistic-swipe.png",
+    "level": "V",
+    "initiative": "20"
+  },
+  {
+    "name": "searing coals",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-searing-coals.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "shared suffering",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-shared-suffering.png",
+    "level": "6",
+    "initiative": "64"
+  },
+  {
+    "name": "silent finisher",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-silent-finisher.png",
+    "level": "7",
+    "initiative": "77"
+  },
+  {
+    "name": "sinister enslavement",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-sinister-enslavement.png",
+    "level": "8",
+    "initiative": "50"
+  },
+  {
+    "name": "siphoning life",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-siphoning-life.png",
+    "level": "1",
+    "initiative": "53"
+  },
+  {
+    "name": "slaughter the weak",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-slaughter-the-weak.png",
+    "level": "1",
+    "initiative": "56"
+  },
+  {
+    "name": "torn apart",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-torn-apart.png",
+    "level": "8",
+    "initiative": "46"
+  },
+  {
+    "name": "tumultuous uproar",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-tumultuous-uproar.png",
+    "level": "2",
+    "initiative": "44"
+  },
+  {
+    "name": "unending misery",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-unending-misery.png",
+    "level": "1",
+    "initiative": "52"
+  },
+  {
+    "name": "unnatural control",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-unnatural-control.png",
+    "level": "2",
+    "initiative": "85"
+  },
+  {
+    "name": "unstoppable surge",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-unstoppable-surge.png",
+    "level": "9",
+    "initiative": "96"
+  },
+  {
+    "name": "utter catastrophe",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-utter-catastrophe.png",
+    "level": "7",
+    "initiative": "62"
+  },
+  {
+    "name": "vengeance incarnate",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-vengeance-incarnate.png",
+    "level": "9",
+    "initiative": "66"
+  },
+  {
+    "name": "wall of flames",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-wall-of-flames.png",
+    "level": "V",
+    "initiative": "09"
+  },
+  {
+    "name": "wings of hell",
+    "expansion": "Trail of Ashes",
+    "image": "character-ability-cards/trail-of-ashes/VQ/toa-wings-of-hell.png",
+    "level": "5",
+    "initiative": "98"
+  },
+  {
+    "name": "myla's stone hammer",
+    "expansion": "Trail of Ashes",
+    "image": "milestones/toa-ms-incarnate.png",
+    "imageBack": "character-ability-cards/trail-of-ashes/IN/toa-mylas-stone-hammer.png",
+    "level": "M",
+    "initiative": "44",
+    "milestone": true
+  },
+  {
+    "name": "geyser surge",
+    "expansion": "Trail of Ashes",
+    "image": "milestones/toa-ms-rimehearth.png",
+    "imageBack": "character-ability-cards/trail-of-ashes/RH/toa-geyser-surge.png",
+    "level": "M",
+    "initiative": "30",
+    "milestone": true
+  },
+  {
+    "name": "crystalline refraction",
+    "expansion": "Trail of Ashes",
+    "image": "milestones/toa-ms-shardrender.png",
+    "imageBack": "character-ability-cards/trail-of-ashes/SR/toa-crystalline-refraction.png",
+    "level": "M",
+    "initiative": "73",
+    "milestone": true
+  },
+  {
+    "name": "amanita spores",
+    "expansion": "Trail of Ashes",
+    "image": "milestones/toa-ms-thornreaper.png",
+    "imageBack": "character-ability-cards/trail-of-ashes/TR/toa-amanita-spores.png",
+    "level": "M",
+    "initiative": "42",
+    "milestone": true
+  },
+  {
+    "name": "power transfer",
+    "expansion": "Trail of Ashes",
+    "image": "milestones/toa-ms-tempest.png",
+    "imageBack": "character-ability-cards/trail-of-ashes/TP/toa-power-transfer.png",
+    "level": "M",
+    "initiative": "25",
+    "milestone": true
+  },
+  {
+    "name": "sustained energy",
+    "expansion": "Trail of Ashes",
+    "image": "milestones/toa-ms-vanquisher.png",
+    "imageBack": "character-ability-cards/trail-of-ashes/VQ/toa-sustained-energy.png",
+    "level": "M",
+    "initiative": "69",
+    "milestone": true
+  }
+]

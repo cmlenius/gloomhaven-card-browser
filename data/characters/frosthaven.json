@@ -1,0 +1,19 @@
+[
+  { "id": "BB", "game": "fh", "colour": "#3E7D9B", "base": true, "name": "Blinkblade" },
+  { "id": "BN", "game": "fh", "colour": "#B29243", "base": true, "name": "Banner Spear" },
+  { "id": "BO", "game": "fh", "colour": "#347132", "base": true, "name": "Boneshaper" },
+  { "id": "DF", "game": "fh", "colour": "#8C7566", "base": true, "name": "Drifter" },
+  { "id": "DW", "game": "fh", "colour": "#747A8B", "base": true, "name": "Deathwalker" },
+  { "id": "GE", "game": "fh", "colour": "#94274E", "base": true, "name": "Geminate" },
+  { "id": "CR", "game": "fh", "colour": "#814B6B", "name": "Crashing Tide", "altName": "Coral" },
+  { "id": "DT", "game": "fh", "colour": "#624278", "name": "Deepwraith", "altName": "Kelp" },
+  { "id": "FF", "game": "fh", "colour": "#6790AE", "name": "Frozen Fist", "altName": "Fist" },
+  { "id": "HV", "game": "fh", "colour": "#BC9847", "name": "Hive", "altName": "Prism" },
+  { "id": "IF", "game": "fh", "colour": "#6B9E47", "name": "Infuser", "altName": "Astral" },
+  { "id": "ME", "game": "fh", "colour": "#A38B69", "name": "Metal Mosaic", "altName": "Drill" },
+  { "id": "PC", "game": "fh", "colour": "#4D5186", "name": "Pain Conduit", "altName": "Shackles" },
+  { "id": "PY", "game": "fh", "colour": "#BE462F", "name": "Pyroclast", "altName": "Meteor" },
+  { "id": "SD", "game": "fh", "colour": "#5995A2", "name": "Snowdancer", "altName": "Snowflake" },
+  { "id": "SH", "game": "fh", "colour": "#807681", "name": "Shattersong", "altName": "Shards" },
+  { "id": "TA", "game": "fh", "colour": "#714A2E", "name": "Trapper", "altName": "Trap" }
+]
