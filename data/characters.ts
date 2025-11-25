@@ -141,6 +141,16 @@ export const characters: Character[] = [
     sheetImage: "character-perks/crimson-scales/cs-ruinmaw-perks.jpeg",
   },
   {
+    class: "BR",
+    colour: "#335970",
+    name: "Brute",
+    game: "custom-content",
+    matImage: "character-mats/custom-content/custom-content-brute.jpeg",
+    matImageBack: "character-mats/custom-content/custom-content-brute-back.jpeg",
+    sheetImage: "character-perks/custom-content/custom-content-brute-perks.jpeg",
+    base: true,
+  },
+  {
     class: "BB",
     colour: "#3E7D9B",
     name: "Blinkblade",

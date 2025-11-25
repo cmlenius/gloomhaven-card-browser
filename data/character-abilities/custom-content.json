@@ -1,1 +1,212 @@
-[]
+[
+  {
+    "name": "br-back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/br-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "balanced measure",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/balanced-measure.png",
+    "level": "X",
+    "initiative": "77"
+  },
+  {
+    "name": "brute force",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/brute-force.png",
+    "level": "3",
+    "initiative": "51"
+  },
+  {
+    "name": "crippling offensive",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/crippling-offensive.png",
+    "level": "7",
+    "initiative": "33"
+  },
+  {
+    "name": "defensive tactics",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/defensive-tactics.png",
+    "level": "7",
+    "initiative": "26"
+  },
+  {
+    "name": "devastating hack",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/devastating-hack.png",
+    "level": "4",
+    "initiative": "27"
+  },
+  {
+    "name": "eye for an eye",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/eye-for-an-eye.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "face your end",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/face-your-end.png",
+    "level": "9",
+    "initiative": "67"
+  },
+  {
+    "name": "fatal advance",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/fatal-advance.png",
+    "level": "2",
+    "initiative": "40"
+  },
+  {
+    "name": "frenzied onslaught",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/frenzied-onslaught.png",
+    "level": "8",
+    "initiative": "41"
+  },
+  {
+    "name": "grab and go",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/grab-and-go.png",
+    "level": "1",
+    "initiative": "87"
+  },
+  {
+    "name": "hook and chain",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/hook-and-chain.png",
+    "level": "3",
+    "initiative": "42"
+  },
+  {
+    "name": "immovable phalanx",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/immovable-phalanx.png",
+    "level": "6",
+    "initiative": "17"
+  },
+  {
+    "name": "juggernaut",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/juggernaut.png",
+    "level": "2",
+    "initiative": "34"
+  },
+  {
+    "name": "king of the hill",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/king-of-the-hill.png",
+    "level": "9",
+    "initiative": "39"
+  },
+  {
+    "name": "leaping cleave",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/leaping-cleave.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "overwhelming assault",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/overwhelming-assault.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "provoking roar",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/provoking-roar.png",
+    "level": "1",
+    "initiative": "10"
+  },
+  {
+    "name": "quietus",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/quietus.png",
+    "level": "6",
+    "initiative": "57"
+  },
+  {
+    "name": "selfish retribution",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/selfish-retribution.png",
+    "level": "8",
+    "initiative": "12"
+  },
+  {
+    "name": "shield bash",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/shield-bash.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "skewer",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/skewer.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "skirmishing maneuver",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/skirmishing-maneuver.png",
+    "level": "5",
+    "initiative": "29"
+  },
+  {
+    "name": "spare dagger",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/spare-dagger.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "sweeping blow",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/sweeping-blow.png",
+    "level": "1",
+    "initiative": "64"
+  },
+  {
+    "name": "trample",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/trample.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "unstoppable charge",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/unstoppable-charge.png",
+    "level": "4",
+    "initiative": "86"
+  },
+  {
+    "name": "wall of doom",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/wall-of-doom.png",
+    "level": "X",
+    "initiative": "20"
+  },
+  {
+    "name": "warding strength",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/warding-strength.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "whirlwind",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/BR/whirlwind.png",
+    "level": "5",
+    "initiative": "28"
+  }
+]
