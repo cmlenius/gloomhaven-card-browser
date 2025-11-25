@@ -3,7 +3,14 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 import { Character, CharacterAbility, Option, Spoilers } from "../../common/types";
-import { customSort, getBaseUrl, getCharacter, getCharacterClasses, getDefaultCharacterClass, verifyQueryParam } from "../../common/utils";
+import {
+  customSort,
+  getBaseUrl,
+  getCharacter,
+  getCharacterClasses,
+  getDefaultCharacterClass,
+  verifyQueryParam,
+} from "../../common/utils";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import CardList from "..//CardList";
 import Sort from "..//Sort";

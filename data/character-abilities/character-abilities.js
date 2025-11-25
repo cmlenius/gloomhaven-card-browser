@@ -27,8 +27,8 @@ let abilities = helpers.readData("./data/character-abilities").map((ability) => 
     case "Trail of Ashes":
       expansion = "toa";
       break;
-    case "Custom":
-      expansion = "custom";
+    case "custom-content":
+      expansion = "cc";
       break;
   }
   let level = ability.level;

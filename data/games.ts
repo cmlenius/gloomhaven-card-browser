@@ -53,4 +53,11 @@ export const games: Game[] = [
     defaultMonster: "harrower-bugflute",
     routes: baseRoutes,
   },
+  {
+    id: "cc",
+    name: "Custom Content",
+    defaultClass: "XY",
+    defaultMonster: "N/A",
+    routes: [{ id: "characters", name: "Characters" }],
+  },
 ];

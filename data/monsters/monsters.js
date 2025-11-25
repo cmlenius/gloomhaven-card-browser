@@ -8369,7 +8369,7 @@ const groupBy = (items, key) =>
       ...result,
       [item[key]]: [...(result[item[key]] || []), item],
     }),
-    {}
+    {},
   );
 
 monsterAbilities = monsterAbilities
@@ -8489,5 +8489,5 @@ monsters = monsters
   });
 
 fs.writeFile("monster-cards.js", JSON.stringify(groupBy(monsters, "game")), "utf8", () =>
-  console.log("monsters", monsters.length)
+  console.log("monsters", monsters.length),
 );

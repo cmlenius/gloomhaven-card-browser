@@ -25,6 +25,9 @@ let characters = helpers.readData("./data/characters").map((character) => {
     case "toa":
       expansion = "trail-of-ashes";
       break;
+    case "cc":
+      expansion = "custom-content";
+      break;
     default:
       expansion = "";
   }
