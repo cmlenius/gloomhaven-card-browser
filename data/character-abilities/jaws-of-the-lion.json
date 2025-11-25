@@ -1,0 +1,816 @@
+[
+  {
+    "name": "de-back",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-de-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "collateral damage",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-collateral-damage.png",
+    "level": "9",
+    "initiative": "15"
+  },
+  {
+    "name": "crash protocol",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-crash-protocol.png",
+    "level": "2",
+    "initiative": "74"
+  },
+  {
+    "name": "crushing weight",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-crushing-weight.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "drill fist",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-drill-fist.png",
+    "level": "6",
+    "initiative": "62"
+  },
+  {
+    "name": "dust cloud",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-dust-cloud.png",
+    "level": "6",
+    "initiative": "15"
+  },
+  {
+    "name": "explode",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-explode.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "explosive blitz",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-explosive-blitz.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "extra fuel",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-extra-fuel.png",
+    "level": "4",
+    "initiative": "17"
+  },
+  {
+    "name": "fire bombs",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-fire-bombs.png",
+    "level": "3",
+    "initiative": "24"
+  },
+  {
+    "name": "gut punch",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-gut-punch.png",
+    "level": "8",
+    "initiative": "26"
+  },
+  {
+    "name": "implode",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-implode.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "insult to injury",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-insult-to-injury.png",
+    "level": "7",
+    "initiative": "64"
+  },
+  {
+    "name": "knock out the support",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-knock-out-the-support.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "level",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-level.png",
+    "level": "X",
+    "initiative": "61"
+  },
+  {
+    "name": "lobbed charge",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-lobbed-charge.png",
+    "level": "X",
+    "initiative": "52"
+  },
+  {
+    "name": "mech suit",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-mech-suit.png",
+    "level": "5",
+    "initiative": "80"
+  },
+  {
+    "name": "micro missiles",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-micro-missiles.png",
+    "level": "7",
+    "initiative": "16"
+  },
+  {
+    "name": "nowhere to run",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-nowhere-to-run.png",
+    "level": "3",
+    "initiative": "39"
+  },
+  {
+    "name": "one-two punch",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-one-two-punch.png",
+    "level": "1",
+    "initiative": "66"
+  },
+  {
+    "name": "piston punch",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-piston-punch.png",
+    "level": "1",
+    "initiative": "42"
+  },
+  {
+    "name": "remote detonation",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-remote-detonation.png",
+    "level": "4",
+    "initiative": "63"
+  },
+  {
+    "name": "robotic enhancement",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-robotic-enhancement.png",
+    "level": "2",
+    "initiative": "33"
+  },
+  {
+    "name": "rubble",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-rubble.png",
+    "level": "X",
+    "initiative": "55"
+  },
+  {
+    "name": "the bigger one",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-the-bigger-one.png",
+    "level": "8",
+    "initiative": "31"
+  },
+  {
+    "name": "the big one",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-the-big-one.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "wholesale destruction",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-wholesale-destruction.png",
+    "level": "9",
+    "initiative": "34"
+  },
+  {
+    "name": "windup",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/DE/jl-windup.png",
+    "level": "1",
+    "initiative": "77"
+  },
+  {
+    "name": "ha-back",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-ha-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "bombardment",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-bombardment.png",
+    "level": "6",
+    "initiative": "54"
+  },
+  {
+    "name": "brutalize",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-brutalize.png",
+    "level": "7",
+    "initiative": "22"
+  },
+  {
+    "name": "camaraderie",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-camaraderie.png",
+    "level": "8",
+    "initiative": "75"
+  },
+  {
+    "name": "care package",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-care-package.png",
+    "level": "X",
+    "initiative": "30"
+  },
+
+  {
+    "name": "center mass",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-center-mass.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "close cuts",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-close-cuts.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "disorienting barrage",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-disorienting-barrage.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "double throw",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-double-throw.png",
+    "level": "1",
+    "initiative": "64"
+  },
+  {
+    "name": "excessive force",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-excessive-force.png",
+    "level": "7",
+    "initiative": "47"
+  },
+  {
+    "name": "executioner's axe",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-executioners-axe.png",
+    "level": "9",
+    "initiative": "79"
+  },
+  {
+    "name": "extra lift",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-extra-lift.png",
+    "level": "X",
+    "initiative": "21"
+  },
+  {
+    "name": "fancy hat",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-fancy-hat.png",
+    "level": "X",
+    "initiative": "12"
+  },
+  {
+    "name": "fearsome efficiency",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-fearsome-efficiency.png",
+    "level": "3",
+    "initiative": "58"
+  },
+  {
+    "name": "follow through",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-follow-through.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "heart seeker",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-heart-seeker.png",
+    "level": "9",
+    "initiative": "32"
+  },
+  {
+    "name": "overwatch",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-overwatch.png",
+    "level": "4",
+    "initiative": "40"
+  },
+  {
+    "name": "power pitch",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-power-pitch.png",
+    "level": "1",
+    "initiative": "60"
+  },
+  {
+    "name": "quick turnaround",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-quick-turnaround.png",
+    "level": "6",
+    "initiative": "11"
+  },
+  {
+    "name": "repeat shot",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-repeat-shot.png",
+    "level": "2",
+    "initiative": "31"
+  },
+  {
+    "name": "retrieval",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-retrieval.png",
+    "level": "1",
+    "initiative": "46"
+  },
+  {
+    "name": "ricochet",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-ricochet.png",
+    "level": "2",
+    "initiative": "56"
+  },
+  {
+    "name": "ripped from the flesh",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-ripped-from-the-flesh.png",
+    "level": "4",
+    "initiative": "20"
+  },
+  {
+    "name": "second wind",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-second-wind.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "sharpened blades",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-sharpened-blades.png",
+    "level": "3",
+    "initiative": "44"
+  },
+  {
+    "name": "shrapnel",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-shrapnel.png",
+    "level": "8",
+    "initiative": "37"
+  },
+  {
+    "name": "stopping power",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-stopping-power.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "the favorite",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-the-favorite.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "the new favorite",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/HA/jl-the-new-favorite.png",
+    "level": "5",
+    "initiative": "15"
+  },
+  {
+    "name": "rg-back",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-rg-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "barbaric instincts",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-barbaric-instincts.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "blade dance",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-blade-dance.png",
+    "level": "X",
+    "initiative": "29"
+  },
+  {
+    "name": "blinding sickle",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-blinding-sickle.png",
+    "level": "1",
+    "initiative": "87"
+  },
+  {
+    "name": "burn away the dark",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-burn-away-the-dark.png",
+    "level": "4",
+    "initiative": "31"
+  },
+  {
+    "name": "desert night",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-desert-night.png",
+    "level": "1",
+    "initiative": "90"
+  },
+  {
+    "name": "fierce brilliance",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-fierce-brilliance.png",
+    "level": "6",
+    "initiative": "22"
+  },
+  {
+    "name": "flame shroud",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-flame-shroud.png",
+    "level": "1",
+    "initiative": "06"
+  },
+
+  {
+    "name": "flaming sickle",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-flaming-sickle.png",
+    "level": "1",
+    "initiative": "63"
+  },
+  {
+    "name": "flying sickle",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-flying-sickle.png",
+    "level": "6",
+    "initiative": "91"
+  },
+  {
+    "name": "harvest sickle",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-harvest-sickle.png",
+    "level": "2",
+    "initiative": "52"
+  },
+  {
+    "name": "healing sands",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-healing-sands.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "honorable fury",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-honorable-fury.png",
+    "level": "9",
+    "initiative": "89"
+  },
+  {
+    "name": "horns of the beast",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-horns-of-the-beast.png",
+    "level": "7",
+    "initiative": "08"
+  },
+  {
+    "name": "no fear",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-no-fear.png",
+    "level": "8",
+    "initiative": "01"
+  },
+  {
+    "name": "precision strike",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-precision-strike.png",
+    "level": "X",
+    "initiative": "40"
+  },
+  {
+    "name": "prismatic sickle",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-prismatic-sickle.png",
+    "level": "8",
+    "initiative": "70"
+  },
+  {
+    "name": "radiant sickle",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-radiant-sickle.png",
+    "level": "4",
+    "initiative": "79"
+  },
+  {
+    "name": "sand devil",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-sand-devil.png",
+    "level": "5",
+    "initiative": "55"
+  },
+  {
+    "name": "shield of the desert",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-shield-of-the-desert.png",
+    "level": "1",
+    "initiative": "10"
+  },
+  {
+    "name": "shield spikes",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-shield-spikes.png",
+    "level": "1",
+    "initiative": "41"
+  },
+  {
+    "name": "shocking advance",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-shocking-advance.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "soaring shield",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-soaring-shield.png",
+    "level": "9",
+    "initiative": "11"
+  },
+  {
+    "name": "strangling chain",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-strangling-chain.png",
+    "level": "3",
+    "initiative": "19"
+  },
+  {
+    "name": "swift strength",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-swift-strength.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "twirling stabs",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-twirling-stabs.png",
+    "level": "1",
+    "initiative": "38"
+  },
+  {
+    "name": "vicious ballet",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-vicious-ballet.png",
+    "level": "7",
+    "initiative": "28"
+  },
+  {
+    "name": "warmth of the sun",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-warmth-of-the-sun.png",
+    "level": "3",
+    "initiative": "23"
+  },
+  {
+    "name": "warrior of the sun",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/RG/jl-warrior-of-the-sun.png",
+    "level": "X",
+    "initiative": "13"
+  },
+  {
+    "name": "vw-back",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-vw-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "black boon",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-black-boon.png",
+    "level": "1",
+    "initiative": "43"
+  },
+  {
+    "name": "close to the abyss",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-close-to-the-abyss.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "cold embrace",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-cold-embrace.png",
+    "level": "X",
+    "initiative": "71"
+  },
+  {
+    "name": "commanding presence",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-commanding-presence.png",
+    "level": "3",
+    "initiative": "75"
+  },
+  {
+    "name": "crushing cold",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-crushing-cold.png",
+    "level": "2",
+    "initiative": "86"
+  },
+  {
+    "name": "empowered link",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-empowered-link.png",
+    "level": "8",
+    "initiative": "59"
+  },
+  {
+    "name": "eye of the void",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-eye-of-the-void.png",
+    "level": "9",
+    "initiative": "19"
+  },
+  {
+    "name": "freeze the soul",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-freeze-the-soul.png",
+    "level": "1",
+    "initiative": "58"
+  },
+  {
+    "name": "gift of the void",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-gift-of-the-void.png",
+    "level": "1",
+    "initiative": "89"
+  },
+  {
+    "name": "give and take",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-give-and-take.png",
+    "level": "2",
+    "initiative": "21"
+  },
+  {
+    "name": "grasp of doom",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-grasp-of-doom.png",
+    "level": "1",
+    "initiative": "36"
+  },
+  {
+    "name": "hateful blast",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-hateful-blast.png",
+    "level": "7",
+    "initiative": "29"
+  },
+  {
+    "name": "lull into oblivion",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-lull-into-oblivion.png",
+    "level": "8",
+    "initiative": "11"
+  },
+  {
+    "name": "lure of the void",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-lure-of-the-void.png",
+    "level": "1",
+    "initiative": "67"
+  },
+  {
+    "name": "master influence",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-master-influence.png",
+    "level": "1",
+    "initiative": "83"
+  },
+  {
+    "name": "possessed by fate",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-possessed-by-fate.png",
+    "level": "9",
+    "initiative": "66"
+  },
+  {
+    "name": "resigned frenzy",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-resigned-frenzy.png",
+    "level": "X",
+    "initiative": "26"
+  },
+  {
+    "name": "sap warmth",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-sap-warmth.png",
+    "level": "X",
+    "initiative": "59"
+  },
+  {
+    "name": "savage instinct",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-savage-instinct.png",
+    "level": "4",
+    "initiative": "51"
+  },
+  {
+    "name": "signs of the void",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-signs-of-the-void.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "spirit hunger",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-spirit-hunger.png",
+    "level": "7",
+    "initiative": "68"
+  },
+  {
+    "name": "stand fast",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-stand-fast.png",
+    "level": "5",
+    "initiative": "90"
+  },
+  {
+    "name": "suggestion",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-suggestion.png",
+    "level": "1",
+    "initiative": "23"
+  },
+  {
+    "name": "surge of power",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-surge-of-power.png",
+    "level": "6",
+    "initiative": "81"
+  },
+  {
+    "name": "taunting fate",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-taunting-fate.png",
+    "level": "3",
+    "initiative": "13"
+  },
+  {
+    "name": "the last journey",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-the-last-journey.png",
+    "level": "4",
+    "initiative": "38"
+  },
+  {
+    "name": "turn out the lights",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-turn-out-the-lights.png",
+    "level": "1",
+    "initiative": "49"
+  },
+  {
+    "name": "wicked scratch",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-wicked-scratch.png",
+    "level": "1",
+    "initiative": "68"
+  },
+  {
+    "name": "withering conviction",
+    "expansion": "Jaws Of The Lion",
+    "image": "character-ability-cards/jaws-of-the-lion/VW/jl-withering-conviction.png",
+    "level": "6",
+    "initiative": "44"
+  }
+]

@@ -1,0 +1,4013 @@
+[
+  {
+    "name": "be-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-be-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "blood pact",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-blood-pact.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "bone breaker",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-bone-breaker.png",
+    "level": "8",
+    "initiative": "41"
+  },
+  {
+    "name": "bounce back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-bounce-back.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "break the chains",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-break-the-chains.png",
+    "level": "2",
+    "initiative": "53"
+  },
+  {
+    "name": "burning hatred",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-burning-hatred.png",
+    "level": "7",
+    "initiative": "40"
+  },
+  {
+    "name": "careless charge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-careless-charge.png",
+    "level": "7",
+    "initiative": "20"
+  },
+  {
+    "name": "cauterize",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-cauterize.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "dazing wound",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-dazing-wound.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "defiance of death",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-defiance-of-death.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "devil horns",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-devil-horns.png",
+    "level": "6",
+    "initiative": "31"
+  },
+  {
+    "name": "fatal fury",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-fatal-fury.png",
+    "level": "3",
+    "initiative": "34"
+  },
+  {
+    "name": "final fight",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-final-fight.png",
+    "level": "5",
+    "initiative": "89"
+  },
+  {
+    "name": "flurry of axes",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-flurry-of-axes.png",
+    "level": "4",
+    "initiative": "27"
+  },
+  {
+    "name": "from the brink",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-from-the-brink.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "furious aid",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-furious-aid.png",
+    "level": "1",
+    "initiative": "43"
+  },
+  {
+    "name": "glass hammer",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-glass-hammer.png",
+    "level": "X",
+    "initiative": "11"
+  },
+  {
+    "name": "growing rage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-growing-rage.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "immortality",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-immortality.png",
+    "level": "9",
+    "initiative": "33"
+  },
+  {
+    "name": "numb the pain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-numb-the-pain.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "reckless offensive",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-reckless-offensive.png",
+    "level": "2",
+    "initiative": "21"
+  },
+  {
+    "name": "resolute stand",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-resolute-stand.png",
+    "level": "1",
+    "initiative": "09"
+  },
+  {
+    "name": "seeing red",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-seeing-red.png",
+    "level": "5",
+    "initiative": "22"
+  },
+  {
+    "name": "shiny distraction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-shiny-distraction.png",
+    "level": "4",
+    "initiative": "08"
+  },
+  {
+    "name": "spiked armor",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-spiked-armor.png",
+    "level": "3",
+    "initiative": "16"
+  },
+  {
+    "name": "strength in agony",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-strength-in-agony.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "the maw of madness",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-the-maw-of-madness.png",
+    "level": "9",
+    "initiative": "10"
+  },
+  {
+    "name": "unbridled power",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-unbridled-power.png",
+    "level": "X",
+    "initiative": "67"
+  },
+  {
+    "name": "unstoppable destruction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-unstoppable-destruction.png",
+    "level": "6",
+    "initiative": "57"
+  },
+  {
+    "name": "vengeful barrage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BE/gh-vengeful-barrage.png",
+    "level": "8",
+    "initiative": "38"
+  },
+  {
+    "name": "br-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-br-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "balanced measure",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-balanced-measure.png",
+    "level": "X",
+    "initiative": "77"
+  },
+  {
+    "name": "brute force",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-brute-force.png",
+    "level": "3",
+    "initiative": "51"
+  },
+  {
+    "name": "crippling offensive",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-crippling-offensive.png",
+    "level": "7",
+    "initiative": "33"
+  },
+  {
+    "name": "defensive tactics",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-defensive-tactics.png",
+    "level": "7",
+    "initiative": "26"
+  },
+  {
+    "name": "devastating hack",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-devastating-hack.png",
+    "level": "4",
+    "initiative": "27"
+  },
+  {
+    "name": "eye for an eye",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-eye-for-an-eye.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "face your end",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-face-your-end.png",
+    "level": "9",
+    "initiative": "67"
+  },
+  {
+    "name": "fatal advance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-fatal-advance.png",
+    "level": "2",
+    "initiative": "40"
+  },
+  {
+    "name": "frenzied onslaught",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-frenzied-onslaught.png",
+    "level": "8",
+    "initiative": "41"
+  },
+  {
+    "name": "grab and go",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-grab-and-go.png",
+    "level": "1",
+    "initiative": "87"
+  },
+  {
+    "name": "hook and chain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-hook-and-chain.png",
+    "level": "3",
+    "initiative": "42"
+  },
+  {
+    "name": "immovable phalanx",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-immovable-phalanx.png",
+    "level": "6",
+    "initiative": "17"
+  },
+  {
+    "name": "juggernaut",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-juggernaut.png",
+    "level": "2",
+    "initiative": "34"
+  },
+  {
+    "name": "king of the hill",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-king-of-the-hill.png",
+    "level": "9",
+    "initiative": "39"
+  },
+  {
+    "name": "leaping cleave",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-leaping-cleave.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "overwhelming assault",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-overwhelming-assault.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "provoking roar",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-provoking-roar.png",
+    "level": "1",
+    "initiative": "10"
+  },
+  {
+    "name": "quietus",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-quietus.png",
+    "level": "6",
+    "initiative": "57"
+  },
+  {
+    "name": "selfish retribution",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-selfish-retribution.png",
+    "level": "8",
+    "initiative": "12"
+  },
+  {
+    "name": "shield bash",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-shield-bash.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "skewer",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-skewer.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "skirmishing maneuver",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-skirmishing-maneuver.png",
+    "level": "5",
+    "initiative": "29"
+  },
+  {
+    "name": "spare dagger",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-spare-dagger.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "sweeping blow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-sweeping-blow.png",
+    "level": "1",
+    "initiative": "64"
+  },
+  {
+    "name": "trample",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-trample.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "unstoppable charge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-unstoppable-charge.png",
+    "level": "4",
+    "initiative": "86"
+  },
+  {
+    "name": "wall of doom",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-wall-of-doom.png",
+    "level": "X",
+    "initiative": "20"
+  },
+  {
+    "name": "warding strength",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-warding-strength.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "whirlwind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BR/gh-whirlwind.png",
+    "level": "5",
+    "initiative": "28"
+  },
+  {
+    "name": "bs-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-bs-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "armed and dangerous",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-armed-and-dangerous.png",
+    "level": "3",
+    "initiative": "78"
+  },
+  {
+    "name": "bioluminescence",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-bioluminescence.png",
+    "level": "5",
+    "initiative": "80"
+  },
+  {
+    "name": "blood drain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-blood-drain.png",
+    "level": "6",
+    "initiative": "47"
+  },
+  {
+    "name": "bone daggers",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-bone-daggers.png",
+    "level": "8",
+    "initiative": "68"
+  },
+  {
+    "name": "call of the grave",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-call-of-the-grave.png",
+    "level": "1",
+    "initiative": "49"
+  },
+  {
+    "name": "corrupting parasites",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-corrupting-parasites.png",
+    "level": "1",
+    "initiative": "97"
+  },
+  {
+    "name": "cyclone of blades",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-cyclone-of-blades.png",
+    "level": "5",
+    "initiative": "27"
+  },
+  {
+    "name": "death march",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-death-march.png",
+    "level": "1",
+    "initiative": "84"
+  },
+  {
+    "name": "deflecting blades",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-deflecting-blades.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "endless biting",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-endless-biting.png",
+    "level": "8",
+    "initiative": "41"
+  },
+  {
+    "name": "engulfing stingers",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-engulfing-stingers.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "focused scourge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-focused-scourge.png",
+    "level": "1",
+    "initiative": "50"
+  },
+  {
+    "name": "fury of the horde",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-fury-of-the-horde.png",
+    "level": "7",
+    "initiative": "86"
+  },
+  {
+    "name": "grasping advance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-grasping-advance.png",
+    "level": "X",
+    "initiative": "18"
+  },
+  {
+    "name": "hive mind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-hive-mind.png",
+    "level": "1",
+    "initiative": "05"
+  },
+  {
+    "name": "incubation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-incubation.png",
+    "level": "4",
+    "initiative": "09"
+  },
+  {
+    "name": "infest",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-infest.png",
+    "level": "2",
+    "initiative": "43"
+  },
+  {
+    "name": "oasis",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-oasis.png",
+    "level": "9",
+    "initiative": "04"
+  },
+  {
+    "name": "omniscient assault",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-omniscient-assault.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "overwhelming offensive",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-overwhelming-offensive.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "putrid grubs",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-putrid-grubs.png",
+    "level": "3",
+    "initiative": "16"
+  },
+  {
+    "name": "repulsive host",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-repulsive-host.png",
+    "level": "7",
+    "initiative": "19"
+  },
+  {
+    "name": "scattered defense",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-scattered-defense.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "sunstroke",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-sunstroke.png",
+    "level": "6",
+    "initiative": "32"
+  },
+  {
+    "name": "swarming minions",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-swarming-minions.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "the storm's edge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-the-storms-edge.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "tomb of the immortal",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-tomb-of-the-immortal.png",
+    "level": "X",
+    "initiative": "59"
+  },
+  {
+    "name": "unstoppable army",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-unstoppable-army.png",
+    "level": "X",
+    "initiative": "94"
+  },
+  {
+    "name": "vampiric tempest",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-vampiric-tempest.png",
+    "level": "4",
+    "initiative": "64"
+  },
+  {
+    "name": "wasteland",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BS/gh-wasteland.png",
+    "level": "9",
+    "initiative": "96"
+  },
+  {
+    "name": "bt-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-bt-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "ancient ward",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-ancient-ward.png",
+    "level": "4",
+    "initiative": "19"
+  },
+  {
+    "name": "bear-reference",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-bear-reference.png",
+    "level": "B",
+    "initiative": "-"
+  },
+  {
+    "name": "blood hunger",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-blood-hunger.png",
+    "level": "6",
+    "initiative": "42"
+  },
+  {
+    "name": "borrowed essence",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-borrowed-essence.png",
+    "level": "X",
+    "initiative": "56"
+  },
+  {
+    "name": "concentrated rage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-concentrated-rage.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "disappearing wounds",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-disappearing-wounds.png",
+    "level": "1",
+    "initiative": "23"
+  },
+  {
+    "name": "disorienting roar",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-disorienting-roar.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "earthen spikes",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-earthen-spikes.png",
+    "level": "2",
+    "initiative": "11"
+  },
+  {
+    "name": "energizing strike",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-energizing-strike.png",
+    "level": "2",
+    "initiative": "29"
+  },
+  {
+    "name": "focused aggression",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-focused-aggression.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "forceful swipe",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-forceful-swipe.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "howling bolts",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-howling-bolts.png",
+    "level": "1",
+    "initiative": "47"
+  },
+  {
+    "name": "jaws of death",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-jaws-of-death.png",
+    "level": "9",
+    "initiative": "48"
+  },
+  {
+    "name": "lash out",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-lash-out.png",
+    "level": "8",
+    "initiative": "18"
+  },
+  {
+    "name": "maul",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-maul.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "natural remedy",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-natural-remedy.png",
+    "level": "8",
+    "initiative": "25"
+  },
+  {
+    "name": "patch fur",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-patch-fur.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "primal blessing",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-primal-blessing.png",
+    "level": "6",
+    "initiative": "28"
+  },
+  {
+    "name": "punch through",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-punch-through.png",
+    "level": "4",
+    "initiative": "44"
+  },
+  {
+    "name": "rampage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-rampage.png",
+    "level": "5",
+    "initiative": "34"
+  },
+  {
+    "name": "relentless ally",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-relentless-ally.png",
+    "level": "1",
+    "initiative": "81"
+  },
+  {
+    "name": "soaring ally",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-soaring-ally.png",
+    "level": "X",
+    "initiative": "77"
+  },
+  {
+    "name": "spirit swap",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-spirit-swap.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "stone sigil",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-stone-sigil.png",
+    "level": "5",
+    "initiative": "95"
+  },
+  {
+    "name": "wind totem",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-storm-sigil.png",
+    "level": "7",
+    "initiative": "93"
+  },
+  {
+    "name": "tribal sigil",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-tribal-sigil.png",
+    "level": "9",
+    "initiative": "91"
+  },
+  {
+    "name": "tyrannical force",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-tyrannical-force.png",
+    "level": "7",
+    "initiative": "37"
+  },
+  {
+    "name": "unstoppable beast",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-unstoppable-beast.png",
+    "level": "3",
+    "initiative": "32"
+  },
+  {
+    "name": "venomous ally",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-venomous-ally.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "vicious ally",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/BT/gh-vicious-ally.png",
+    "level": "3",
+    "initiative": "86"
+  },
+  {
+    "name": "ch-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-ch-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "avalanche",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-avalanche.png",
+    "level": "1",
+    "initiative": "75"
+  },
+  {
+    "name": "backup ammunition",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-backup-ammunition.png",
+    "level": "1",
+    "initiative": "77"
+  },
+  {
+    "name": "blind destruction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-blind-destruction.png",
+    "level": "9",
+    "initiative": "74"
+  },
+  {
+    "name": "blunt force",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-blunt-force.png",
+    "level": "3",
+    "initiative": "21"
+  },
+  {
+    "name": "brutal momentum",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-brutal-momentum.png",
+    "level": "7",
+    "initiative": "52"
+  },
+  {
+    "name": "cataclysm",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-cataclysm.png",
+    "level": "6",
+    "initiative": "26"
+  },
+  {
+    "name": "clear the way",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-clear-the-way.png",
+    "level": "3",
+    "initiative": "43"
+  },
+  {
+    "name": "crater",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-crater.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "crushing grasp",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-crushing-grasp.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "dig pit",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-dig-pit.png",
+    "level": "6",
+    "initiative": "78"
+  },
+  {
+    "name": "dirt tornado",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-dirt-tornado.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "earthen clod",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-earthen-clod.png",
+    "level": "1",
+    "initiative": "38"
+  },
+  {
+    "name": "explosive punch",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-explosive-punch.png",
+    "level": "2",
+    "initiative": "28"
+  },
+  {
+    "name": "forceful storm",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-forceful-storm.png",
+    "level": "X",
+    "initiative": "53"
+  },
+  {
+    "name": "heaving swing",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-heaving-swing.png",
+    "level": "X",
+    "initiative": "57"
+  },
+  {
+    "name": "kinetic assault",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-kinetic-assault.png",
+    "level": "4",
+    "initiative": "19"
+  },
+  {
+    "name": "lumbering bash",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-lumbering-bash.png",
+    "level": "8",
+    "initiative": "85"
+  },
+  {
+    "name": "massive boulder",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-massive-boulder.png",
+    "level": "1",
+    "initiative": "87"
+  },
+  {
+    "name": "meteor",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-meteor.png",
+    "level": "7",
+    "initiative": "23"
+  },
+  {
+    "name": "nature's lift",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-natures-lift.png",
+    "level": "X",
+    "initiative": "64"
+  },
+  {
+    "name": "opposing strike",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-opposing-strike.png",
+    "level": "1",
+    "initiative": "46"
+  },
+  {
+    "name": "petrify",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-petrify.png",
+    "level": "5",
+    "initiative": "47"
+  },
+  {
+    "name": "pulverize",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-pulverize.png",
+    "level": "9",
+    "initiative": "31"
+  },
+  {
+    "name": "rock slide",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-rock-slide.png",
+    "level": "4",
+    "initiative": "81"
+  },
+  {
+    "name": "rock tunnel",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-rock-tunnel.png",
+    "level": "1",
+    "initiative": "41"
+  },
+  {
+    "name": "rocky end",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-rocky-end.png",
+    "level": "8",
+    "initiative": "37"
+  },
+  {
+    "name": "rumbling advance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-rumbling-advance.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "sentient growth",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-sentient-growth.png",
+    "level": "2",
+    "initiative": "78"
+  },
+  {
+    "name": "stone pummel",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-stone-pummel.png",
+    "level": "5",
+    "initiative": "32"
+  },
+  {
+    "name": "unstable upheaval",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/CH/gh-unstable-upheaval.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "ds-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-ds-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "a moment's peace",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-a-moments-peace.png",
+    "level": "1",
+    "initiative": "88"
+  },
+  {
+    "name": "camouflage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-camouflage.png",
+    "level": "6",
+    "initiative": "23"
+  },
+  {
+    "name": "crashing wave",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-crashing-wave.png",
+    "level": "7",
+    "initiative": "22"
+  },
+  {
+    "name": "crippling noose",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-crippling-noose.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "darkened skies",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-darkened-skies.png",
+    "level": "3",
+    "initiative": "25"
+  },
+  {
+    "name": "detonation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-detonation.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "expose",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-expose.png",
+    "level": "2",
+    "initiative": "13"
+  },
+  {
+    "name": "felling swoop",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-felling-swoop.png",
+    "level": "1",
+    "initiative": "75"
+  },
+  {
+    "name": "feral instincts",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-feral-instincts.png",
+    "level": "8",
+    "initiative": "35"
+  },
+  {
+    "name": "flight of flame",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-flight-of-flame.png",
+    "level": "4",
+    "initiative": "53"
+  },
+  {
+    "name": "foot snare",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-foot-snare.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "fresh kill",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-fresh-kill.png",
+    "level": "X",
+    "initiative": "65"
+  },
+  {
+    "name": "frightening curse",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-frightening-curse.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "impending end",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-impending-end.png",
+    "level": "7",
+    "initiative": "47"
+  },
+  {
+    "name": "inescapable fate",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-inescapable-fate.png",
+    "level": "5",
+    "initiative": "97"
+  },
+  {
+    "name": "lead to slaughter",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-lead-to-slaughter.png",
+    "level": "9",
+    "initiative": "40"
+  },
+  {
+    "name": "multi-pronged assault",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-multi-pronged-assault.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "nature's hunger",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-natures-hunger.png",
+    "level": "6",
+    "initiative": "82"
+  },
+  {
+    "name": "predator and prey",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-predator-and-prey.png",
+    "level": "9",
+    "initiative": "86"
+  },
+  {
+    "name": "press the attack",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-press-the-attack.png",
+    "level": "3",
+    "initiative": "10"
+  },
+  {
+    "name": "race to the grave",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-race-to-the-grave.png",
+    "level": "1",
+    "initiative": "09"
+  },
+  {
+    "name": "rain of arrows",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-rain-of-arrows.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "relentless offensive",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-relentless-offensive.png",
+    "level": "2",
+    "initiative": "52"
+  },
+  {
+    "name": "rising momentum",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-rising-momentum.png",
+    "level": "8",
+    "initiative": "12"
+  },
+  {
+    "name": "sap life",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-sap-life.png",
+    "level": "X",
+    "initiative": "14"
+  },
+  {
+    "name": "singular focus",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-singular-focus.png",
+    "level": "4",
+    "initiative": "28"
+  },
+  {
+    "name": "solid bow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-solid-bow.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "swift trickery",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-swift-trickery.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "the hunt begins",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-the-hunt-begins.png",
+    "level": "X",
+    "initiative": "71"
+  },
+  {
+    "name": "vital charge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-vital-charge.png",
+    "level": "1",
+    "initiative": "78"
+  },
+  {
+    "name": "wild command",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/DS/gh-wild-command.png",
+    "level": "5",
+    "initiative": "46"
+  },
+  {
+    "name": "el-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-el-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "boiling arc",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-boiling-arc.png",
+    "level": "2",
+    "initiative": "47"
+  },
+  {
+    "name": "brilliant flash",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-brilliant-flash.png",
+    "level": "X",
+    "initiative": "67"
+  },
+  {
+    "name": "burial",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-burial.png",
+    "level": "3",
+    "initiative": "65"
+  },
+  {
+    "name": "chain lightning",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-chain-lightning.png",
+    "level": "3",
+    "initiative": "41"
+  },
+  {
+    "name": "crystallizing blast",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-crystallizing-blast.png",
+    "level": "2",
+    "initiative": "67"
+  },
+  {
+    "name": "elemental aegis",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-elemental-aegis.png",
+    "level": "8",
+    "initiative": "14"
+  },
+  {
+    "name": "encompassing shadow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-encompassing-shadow.png",
+    "level": "X",
+    "initiative": "23"
+  },
+  {
+    "name": "eternal equilibrium",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-eternal-equilibrium.png",
+    "level": "9",
+    "initiative": "27"
+  },
+  {
+    "name": "ethereal manifestation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-ethereal-manifestation.png",
+    "level": "9",
+    "initiative": "98"
+  },
+  {
+    "name": "eye of the hurricane",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-eye-of-the-hurricane.png",
+    "level": "6",
+    "initiative": "29"
+  },
+  {
+    "name": "formless power",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-formless-power.png",
+    "level": "1",
+    "initiative": "45"
+  },
+  {
+    "name": "frigid torrent",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-frigid-torrent.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "gravel vortex",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-gravel-vortex.png",
+    "level": "4",
+    "initiative": "62"
+  },
+  {
+    "name": "ice spikes",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-ice-spikes.png",
+    "level": "1",
+    "initiative": "40"
+  },
+  {
+    "name": "infernal vortex",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-infernal-vortex.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "lava eruption",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-lava-eruption.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "malleable evocation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-malleable-evocation.png",
+    "level": "X",
+    "initiative": "50"
+  },
+  {
+    "name": "obsidian shards",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-obsidian-shards.png",
+    "level": "5",
+    "initiative": "36"
+  },
+  {
+    "name": "pragmatic reinforcement",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-pragmatic-reinforcement.png",
+    "level": "7",
+    "initiative": "56"
+  },
+  {
+    "name": "primal duality",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-primal-duality.png",
+    "level": "4",
+    "initiative": "15"
+  },
+  {
+    "name": "pure augmentation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-pure-augmentation.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "raw enhancement",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-raw-enhancement.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "shaping the ether",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-shaping-the-ether.png",
+    "level": "1",
+    "initiative": "54"
+  },
+  {
+    "name": "simulacrum",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-simulacrum.png",
+    "level": "6",
+    "initiative": "94"
+  },
+  {
+    "name": "stoking hail",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-stoking-hail.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "tremulant cyclone",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-tremulant-cyclone.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "vengeance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-vengeance.png",
+    "level": "7",
+    "initiative": "33"
+  },
+  {
+    "name": "volatile consumption",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-volatile-consumption.png",
+    "level": "8",
+    "initiative": "64"
+  },
+  {
+    "name": "winter's edge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/EL/gh-winters-edge.png",
+    "level": "5",
+    "initiative": "43"
+  },
+  {
+    "name": "mt-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-mt-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "brain leech",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-brain-leech.png",
+    "level": "3",
+    "initiative": "16"
+  },
+  {
+    "name": "corrupting embrace",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-corrupting-embrace.png",
+    "level": "6",
+    "initiative": "39"
+  },
+  {
+    "name": "cranium overload",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-cranium-overload.png",
+    "level": "4",
+    "initiative": "05"
+  },
+  {
+    "name": "dark frenzy",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-dark-frenzy.png",
+    "level": "6",
+    "initiative": "10"
+  },
+  {
+    "name": "domination",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-domination.png",
+    "level": "8",
+    "initiative": "13"
+  },
+  {
+    "name": "empathetic assault",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-empathetic-assault.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "fearsome blade",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-fearsome-blade.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "feedback loop",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-feedback-loop.png",
+    "level": "X",
+    "initiative": "79"
+  },
+  {
+    "name": "frigid apparition",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-frigid-apparition.png",
+    "level": "X",
+    "initiative": "29"
+  },
+  {
+    "name": "frozen mind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-frozen-mind.png",
+    "level": "5",
+    "initiative": "81"
+  },
+  {
+    "name": "gnawing horde",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-gnawing-horde.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "hostile takeover",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-hostile-takeover.png",
+    "level": "2",
+    "initiative": "09"
+  },
+  {
+    "name": "into the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-into-the-night.png",
+    "level": "1",
+    "initiative": "14"
+  },
+  {
+    "name": "many as one",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-many-as-one.png",
+    "level": "9",
+    "initiative": "91"
+  },
+  {
+    "name": "mass hysteria",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-mass-hysteria.png",
+    "level": "5",
+    "initiative": "12"
+  },
+  {
+    "name": "parasitic influence",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-parasitic-influence.png",
+    "level": "1",
+    "initiative": "71"
+  },
+  {
+    "name": "perverse edge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-perverse-edge.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "phantasmal killer",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-phantasmal-killer.png",
+    "level": "9",
+    "initiative": "67"
+  },
+  {
+    "name": "pilfer",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-pilfer.png",
+    "level": "4",
+    "initiative": "68"
+  },
+  {
+    "name": "possession",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-possession.png",
+    "level": "X",
+    "initiative": "51"
+  },
+  {
+    "name": "psychic projection",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-psychic-projection.png",
+    "level": "7",
+    "initiative": "92"
+  },
+  {
+    "name": "scurry",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-scurry.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "shared nightmare",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-shared-nightmare.png",
+    "level": "8",
+    "initiative": "07"
+  },
+  {
+    "name": "silent scream",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-silent-scream.png",
+    "level": "3",
+    "initiative": "73"
+  },
+  {
+    "name": "submissive affliction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-submissive-affliction.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "the mind's weakness",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-the-minds-weakness.png",
+    "level": "1",
+    "initiative": "75"
+  },
+  {
+    "name": "vicious blood",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-vicious-blood.png",
+    "level": "7",
+    "initiative": "83"
+  },
+  {
+    "name": "withering claw",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-withering-claw.png",
+    "level": "X",
+    "initiative": "77"
+  },
+  {
+    "name": "wretched creature",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/MT/gh-wretched-creature.png",
+    "level": "2",
+    "initiative": "84"
+  },
+  {
+    "name": "ns-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-ns-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "angel of death",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-angel-of-death.png",
+    "level": "9",
+    "initiative": "38"
+  },
+  {
+    "name": "armor of the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-armor-of-the-night.png",
+    "level": "3",
+    "initiative": "23"
+  },
+  {
+    "name": "black arrow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-black-arrow.png",
+    "level": "5",
+    "initiative": "11"
+  },
+  {
+    "name": "black knives",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-black-knives.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "claws of the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-claws-of-the-night.png",
+    "level": "5",
+    "initiative": "26"
+  },
+  {
+    "name": "cloak of shade",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-cloak-of-shade.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "concealed dominance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-concealed-dominance.png",
+    "level": "X",
+    "initiative": "35"
+  },
+  {
+    "name": "dancing shadows",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-dancing-shadows.png",
+    "level": "1",
+    "initiative": "09"
+  },
+  {
+    "name": "dark cloud",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-dark-cloud.png",
+    "level": "X",
+    "initiative": "74"
+  },
+  {
+    "name": "doomed breeze",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-doomed-breeze.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "empowering void",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-empowering-void.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "enervating wound",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-enervating-wound.png",
+    "level": "1",
+    "initiative": "77"
+  },
+  {
+    "name": "eyes of the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-eyes-of-the-night.png",
+    "level": "7",
+    "initiative": "35"
+  },
+  {
+    "name": "gloom darts",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-gloom-darts.png",
+    "level": "8",
+    "initiative": "78"
+  },
+  {
+    "name": "grim sustenance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-grim-sustenance.png",
+    "level": "4",
+    "initiative": "29"
+  },
+  {
+    "name": "lurking ruin",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-lurking-ruin.png",
+    "level": "8",
+    "initiative": "18"
+  },
+  {
+    "name": "nightfall",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-nightfall.png",
+    "level": "4",
+    "initiative": "73"
+  },
+  {
+    "name": "prepare for the kill",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-prepare-for-the-kill.png",
+    "level": "2",
+    "initiative": "07"
+  },
+  {
+    "name": "quiet frenzy",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-quiet-frenzy.png",
+    "level": "7",
+    "initiative": "19"
+  },
+  {
+    "name": "silent force",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-silent-force.png",
+    "level": "1",
+    "initiative": "91"
+  },
+  {
+    "name": "smoke step",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-smoke-step.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "soulfire",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-soulfire.png",
+    "level": "2",
+    "initiative": "85"
+  },
+  {
+    "name": "spirit of the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-spirit-of-the-night.png",
+    "level": "1",
+    "initiative": "84"
+  },
+  {
+    "name": "swallowed by fear",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-swallowed-by-fear.png",
+    "level": "6",
+    "initiative": "90"
+  },
+  {
+    "name": "terror blade",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-terror-blade.png",
+    "level": "3",
+    "initiative": "17"
+  },
+  {
+    "name": "unseen dread",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-unseen-dread.png",
+    "level": "6",
+    "initiative": "05"
+  },
+  {
+    "name": "voice of the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-voice-of-the-night.png",
+    "level": "9",
+    "initiative": "06"
+  },
+  {
+    "name": "wings of the night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/NS/gh-wings-of-the-night.png",
+    "level": "X",
+    "initiative": "24"
+  },
+  {
+    "name": "ph-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-ph-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "accelerated end",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-accelerated-end.png",
+    "level": "5",
+    "initiative": "62"
+  },
+  {
+    "name": "airborne toxin",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-airborne-toxin.png",
+    "level": "7",
+    "initiative": "57"
+  },
+  {
+    "name": "baneful hex",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-baneful-hex.png",
+    "level": "7",
+    "initiative": "33"
+  },
+  {
+    "name": "biting gnats",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-biting-gnats.png",
+    "level": "1",
+    "initiative": "47"
+  },
+  {
+    "name": "black tides",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-black-tides.png",
+    "level": "6",
+    "initiative": "37"
+  },
+  {
+    "name": "blistering vortex",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-blistering-vortex.png",
+    "level": "X",
+    "initiative": "21"
+  },
+  {
+    "name": "convert the flock",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-convert-the-flock.png",
+    "level": "9",
+    "initiative": "29"
+  },
+  {
+    "name": "creeping curse",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-creeping-curse.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "epidemic",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-epidemic.png",
+    "level": "X",
+    "initiative": "43"
+  },
+  {
+    "name": "fetid flurry",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-fetid-flurry.png",
+    "level": "3",
+    "initiative": "26"
+  },
+  {
+    "name": "foul wind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-foul-wind.png",
+    "level": "1",
+    "initiative": "35"
+  },
+  {
+    "name": "gathering doom",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-gathering-doom.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "grasping vermin",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-grasping-vermin.png",
+    "level": "1",
+    "initiative": "69"
+  },
+  {
+    "name": "grim bargain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-grim-bargain.png",
+    "level": "8",
+    "initiative": "46"
+  },
+  {
+    "name": "mass extinction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-mass-extinction.png",
+    "level": "9",
+    "initiative": "94"
+  },
+  {
+    "name": "nightmarish affliction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-nightmarish-affliction.png",
+    "level": "4",
+    "initiative": "43"
+  },
+  {
+    "name": "paralyzing bite",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-paralyzing-bite.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "rot maggots",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-rot-maggots.png",
+    "level": "2",
+    "initiative": "69"
+  },
+  {
+    "name": "scattered terror",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-scattered-terror.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "spreading scourge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-spreading-scourge.png",
+    "level": "8",
+    "initiative": "71"
+  },
+  {
+    "name": "spread the plague",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-spread-the-plague.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "stinging cloud",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-stinging-cloud.png",
+    "level": "6",
+    "initiative": "66"
+  },
+  {
+    "name": "storm of wings",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-storm-of-wings.png",
+    "level": "4",
+    "initiative": "91"
+  },
+  {
+    "name": "succumb to the gift",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-succumb-to-the-gift.png",
+    "level": "3",
+    "initiative": "70"
+  },
+  {
+    "name": "under the skin",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-under-the-skin.png",
+    "level": "2",
+    "initiative": "59"
+  },
+  {
+    "name": "vile pestilence",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-vile-pestilence.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "virulent strain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-virulent-strain.png",
+    "level": "X",
+    "initiative": "50"
+  },
+  {
+    "name": "willing sacrifice",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-willing-sacrifice.png",
+    "level": "5",
+    "initiative": "84"
+  },
+  {
+    "name": "winged congregation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-winged-congregation.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "wretched swarm",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/PH/gh-wretched-swarm.png",
+    "level": "1",
+    "initiative": "84"
+  },
+  {
+    "name": "qm-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-qm-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "bag of holding",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-bag-of-holding.png",
+    "level": "9",
+    "initiative": "91"
+  },
+  {
+    "name": "bladed boomerang",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-bladed-boomerang.png",
+    "level": "2",
+    "initiative": "40"
+  },
+  {
+    "name": "catastrophic bomb",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-catastrophic-bomb.png",
+    "level": "6",
+    "initiative": "46"
+  },
+  {
+    "name": "cleaving axe",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-cleaving-axe.png",
+    "level": "1",
+    "initiative": "52"
+  },
+  {
+    "name": "continual supply",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-continual-supply.png",
+    "level": "3",
+    "initiative": "86"
+  },
+  {
+    "name": "crippling bow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-crippling-bow.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "crushing hammer",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-crushing-hammer.png",
+    "level": "X",
+    "initiative": "17"
+  },
+  {
+    "name": "fortified position",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-fortified-position.png",
+    "level": "8",
+    "initiative": "10"
+  },
+  {
+    "name": "giant club",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-giant-club.png",
+    "level": "4",
+    "initiative": "61"
+  },
+  {
+    "name": "hastened step",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-hastened-step.png",
+    "level": "1",
+    "initiative": "26"
+  },
+  {
+    "name": "impaling spear",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-impaling-spear.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "iron bulwark",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-iron-bulwark.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "oversized pack",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-oversized-pack.png",
+    "level": "1",
+    "initiative": "81"
+  },
+  {
+    "name": "portable ballista",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-portable-ballista.png",
+    "level": "8",
+    "initiative": "41"
+  },
+  {
+    "name": "proficiency",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-proficiency.png",
+    "level": "1",
+    "initiative": "62"
+  },
+  {
+    "name": "quiver of arrows",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-quiver-of-arrows.png",
+    "level": "6",
+    "initiative": "31"
+  },
+  {
+    "name": "refreshment",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-refreshment.png",
+    "level": "7",
+    "initiative": "95"
+  },
+  {
+    "name": "reforge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-reforge.png",
+    "level": "2",
+    "initiative": "89"
+  },
+  {
+    "name": "reinforced steel",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-reinforced-steel.png",
+    "level": "5",
+    "initiative": "12"
+  },
+  {
+    "name": "reserved energy",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-reserved-energy.png",
+    "level": "X",
+    "initiative": "88"
+  },
+  {
+    "name": "restock",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-restock.png",
+    "level": "1",
+    "initiative": "73"
+  },
+  {
+    "name": "scroll of annihilation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-scroll-of-annihilation.png",
+    "level": "9",
+    "initiative": "56"
+  },
+  {
+    "name": "scroll of blizzards",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-scroll-of-blizzards.png",
+    "level": "7",
+    "initiative": "46"
+  },
+  {
+    "name": "scroll of judgment",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-scroll-of-judgment.png",
+    "level": "5",
+    "initiative": "66"
+  },
+  {
+    "name": "scroll of lightning",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-scroll-of-lightning.png",
+    "level": "3",
+    "initiative": "77"
+  },
+  {
+    "name": "scroll of recall",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-scroll-of-recall.png",
+    "level": "X",
+    "initiative": "98"
+  },
+  {
+    "name": "sharpening kit",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-sharpening-kit.png",
+    "level": "1",
+    "initiative": "23"
+  },
+  {
+    "name": "side pouch",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/QM/gh-side-pouch.png",
+    "level": "4",
+    "initiative": "84"
+  },
+  {
+    "name": "sb-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-sb-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "amputate",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-amputate.png",
+    "level": "5",
+    "initiative": "86"
+  },
+  {
+    "name": "battlefield medicine",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-battlefield-medicine.png",
+    "level": "1",
+    "initiative": "83"
+  },
+  {
+    "name": "bedside manner",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-bedside-manner.png",
+    "level": "8",
+    "initiative": "05"
+  },
+  {
+    "name": "blood transfusion",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-blood-transfusion.png",
+    "level": "4",
+    "initiative": "52"
+  },
+  {
+    "name": "bloody saw",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-bloody-saw.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "booster shot",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-booster-shot.png",
+    "level": "1",
+    "initiative": "42"
+  },
+  {
+    "name": "curative mixture",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-curative-mixture.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "do no harm",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-do-no-harm.png",
+    "level": "4",
+    "initiative": "76"
+  },
+  {
+    "name": "euthanize",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-euthanize.png",
+    "level": "6",
+    "initiative": "27"
+  },
+  {
+    "name": "first aid",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-first-aid.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "gentleman's anger",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-gentlemans-anger.png",
+    "level": "8",
+    "initiative": "29"
+  },
+  {
+    "name": "grisly trauma",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-grisly-trauma.png",
+    "level": "9",
+    "initiative": "81"
+  },
+  {
+    "name": "hamstring",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-hamstring.png",
+    "level": "2",
+    "initiative": "62"
+  },
+  {
+    "name": "hand of the surgeon",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-hand-of-the-surgeon.png",
+    "level": "1",
+    "initiative": "62"
+  },
+  {
+    "name": "hold back the pain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-hold-back-the-pain.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "large medical pack",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-large-medical-pack.png",
+    "level": "M",
+    "initiative": "30"
+  },
+  {
+    "name": "master physician",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-master-physician.png",
+    "level": "7",
+    "initiative": "49"
+  },
+  {
+    "name": "medical pack",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-medical-pack.png",
+    "level": "M",
+    "initiative": "50"
+  },
+  {
+    "name": "mobile response",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-mobile-response.png",
+    "level": "1",
+    "initiative": "12"
+  },
+  {
+    "name": "precaution",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-precaution.png",
+    "level": "2",
+    "initiative": "09"
+  },
+  {
+    "name": "prep for surgery",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-prep-for-surgery.png",
+    "level": "9",
+    "initiative": "22"
+  },
+  {
+    "name": "prescription",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-prescription.png",
+    "level": "6",
+    "initiative": "06"
+  },
+  {
+    "name": "prevention is key",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-prevention-is-key.png",
+    "level": "X",
+    "initiative": "13"
+  },
+  {
+    "name": "regenerative tissue",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-regenerative-tissue.png",
+    "level": "3",
+    "initiative": "46"
+  },
+  {
+    "name": "research the cure",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-research-the-cure.png",
+    "level": "5",
+    "initiative": "40"
+  },
+  {
+    "name": "surgeon's satchel",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-surgeons-satchel.png",
+    "level": "7",
+    "initiative": "10"
+  },
+  {
+    "name": "syringe",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-syringe.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "teamwork",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-teamwork.png",
+    "level": "X",
+    "initiative": "89"
+  },
+  {
+    "name": "triage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-triage.png",
+    "level": "1",
+    "initiative": "53"
+  },
+  {
+    "name": "vaccine",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-vaccine.png",
+    "level": "X",
+    "initiative": "44"
+  },
+  {
+    "name": "vital strike",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SB/gh-vital-strike.png",
+    "level": "3",
+    "initiative": "38"
+  },
+  {
+    "name": "sc-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-sc-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "backstab",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-backstab.png",
+    "level": "1",
+    "initiative": "06"
+  },
+  {
+    "name": "burning oil",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-burning-oil.png",
+    "level": "6",
+    "initiative": "95"
+  },
+  {
+    "name": "crippling poison",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-crippling-poison.png",
+    "level": "6",
+    "initiative": "30"
+  },
+  {
+    "name": "cull the weak",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-cull-the-weak.png",
+    "level": "5",
+    "initiative": "16"
+  },
+  {
+    "name": "duelist's advance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-duelists-advance.png",
+    "level": "3",
+    "initiative": "16"
+  },
+  {
+    "name": "flanking strike",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-flanking-strike.png",
+    "level": "1",
+    "initiative": "04"
+  },
+  {
+    "name": "flintlock",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-flintlock.png",
+    "level": "2",
+    "initiative": "90"
+  },
+  {
+    "name": "flurry of blades",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-flurry-of-blades.png",
+    "level": "4",
+    "initiative": "03"
+  },
+  {
+    "name": "gruesome advantage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-gruesome-advantage.png",
+    "level": "4",
+    "initiative": "62"
+  },
+  {
+    "name": "hidden daggers",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-hidden-daggers.png",
+    "level": "3",
+    "initiative": "85"
+  },
+  {
+    "name": "long con",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-long-con.png",
+    "level": "9",
+    "initiative": "02"
+  },
+  {
+    "name": "open wound",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-open-wound.png",
+    "level": "2",
+    "initiative": "11"
+  },
+  {
+    "name": "pain's end",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-pains-end.png",
+    "level": "8",
+    "initiative": "38"
+  },
+  {
+    "name": "quick hands",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-quick-hands.png",
+    "level": "1",
+    "initiative": "64"
+  },
+  {
+    "name": "single out",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-single-out.png",
+    "level": "1",
+    "initiative": "86"
+  },
+  {
+    "name": "sinister opportunity",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-sinister-opportunity.png",
+    "level": "X",
+    "initiative": "93"
+  },
+  {
+    "name": "smoke bomb",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-smoke-bomb.png",
+    "level": "1",
+    "initiative": "12"
+  },
+  {
+    "name": "special mixture",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-special-mixture.png",
+    "level": "1",
+    "initiative": "33"
+  },
+  {
+    "name": "spring the trap",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-spring-the-trap.png",
+    "level": "7",
+    "initiative": "13"
+  },
+  {
+    "name": "stick to the shadows",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-stick-to-the-shadows.png",
+    "level": "7",
+    "initiative": "26"
+  },
+  {
+    "name": "stiletto storm",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-stiletto-storm.png",
+    "level": "8",
+    "initiative": "80"
+  },
+  {
+    "name": "swift bow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-swift-bow.png",
+    "level": "X",
+    "initiative": "36"
+  },
+  {
+    "name": "thief's knack",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-thiefs-knack.png",
+    "level": "1",
+    "initiative": "23"
+  },
+  {
+    "name": "throwing knives",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-throwing-knives.png",
+    "level": "1",
+    "initiative": "10"
+  },
+  {
+    "name": "trickster's reversal",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-tricksters-reversal.png",
+    "level": "X",
+    "initiative": "09"
+  },
+  {
+    "name": "venom shiv",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-venom-shiv.png",
+    "level": "1",
+    "initiative": "60"
+  },
+  {
+    "name": "visage of the inevitable",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-visage-of-the-inevitable.png",
+    "level": "5",
+    "initiative": "88"
+  },
+  {
+    "name": "watch it burn",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SC/gh-watch-it-burn.png",
+    "level": "9",
+    "initiative": "98"
+  },
+  {
+    "name": "sk-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-sk-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "angelic ascension",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-angelic-ascension.png",
+    "level": "9",
+    "initiative": "87"
+  },
+  {
+    "name": "beacon of light",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-beacon-of-light.png",
+    "level": "X",
+    "initiative": "36"
+  },
+  {
+    "name": "bright aegis",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-bright-aegis.png",
+    "level": "7",
+    "initiative": "14"
+  },
+  {
+    "name": "brilliant prayer",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-brilliant-prayer.png",
+    "level": "1",
+    "initiative": "27"
+  },
+  {
+    "name": "burning flash",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-burning-flash.png",
+    "level": "3",
+    "initiative": "51"
+  },
+  {
+    "name": "cautious advance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-cautious-advance.png",
+    "level": "1",
+    "initiative": "23"
+  },
+  {
+    "name": "cleansing force",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-cleansing-force.png",
+    "level": "8",
+    "initiative": "25"
+  },
+  {
+    "name": "daybreak",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-daybreak.png",
+    "level": "X",
+    "initiative": "85"
+  },
+  {
+    "name": "dazzling charge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-dazzling-charge.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "defensive stance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-defensive-stance.png",
+    "level": "1",
+    "initiative": "65"
+  },
+  {
+    "name": "divine intervention",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-divine-intervention.png",
+    "level": "9",
+    "initiative": "09"
+  },
+  {
+    "name": "empowering command",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-empowering-command.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "engulfing radiance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-engulfing-radiance.png",
+    "level": "4",
+    "initiative": "20"
+  },
+  {
+    "name": "glorious bolt",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-glorious-bolt.png",
+    "level": "X",
+    "initiative": "39"
+  },
+  {
+    "name": "hammer blow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-hammer-blow.png",
+    "level": "1",
+    "initiative": "55"
+  },
+  {
+    "name": "holy strike",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-holy-strike.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "illuminate the target",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-illuminate-the-target.png",
+    "level": "6",
+    "initiative": "91"
+  },
+  {
+    "name": "inspiring sanctity",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-inspiring-sanctity.png",
+    "level": "8",
+    "initiative": "79"
+  },
+  {
+    "name": "lay on hands",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-lay-on-hands.png",
+    "level": "1",
+    "initiative": "90"
+  },
+  {
+    "name": "mobilizing axiom",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-mobilizing-axiom.png",
+    "level": "3",
+    "initiative": "23"
+  },
+  {
+    "name": "path of glory",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-path-of-glory.png",
+    "level": "5",
+    "initiative": "48"
+  },
+  {
+    "name": "practical plans",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-practical-plans.png",
+    "level": "2",
+    "initiative": "56"
+  },
+  {
+    "name": "protective blessing",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-protective-blessing.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "purifying aura",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-purifying-aura.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "righteous strength",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-righteous-strength.png",
+    "level": "4",
+    "initiative": "18"
+  },
+  {
+    "name": "scales of justice",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-scales-of-justice.png",
+    "level": "5",
+    "initiative": "68"
+  },
+  {
+    "name": "supportive chant",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-supportive-chant.png",
+    "level": "6",
+    "initiative": "11"
+  },
+  {
+    "name": "tactical order",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-tactical-order.png",
+    "level": "1",
+    "initiative": "29"
+  },
+  {
+    "name": "unwavering mandate",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-unwavering-mandate.png",
+    "level": "2",
+    "initiative": "72"
+  },
+  {
+    "name": "weapon of purity",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SK/gh-weapon-of-purity.png",
+    "level": "7",
+    "initiative": "73"
+  },
+  {
+    "name": "ss-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-ss-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "booming proclamation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-booming-proclamation.png",
+    "level": "7",
+    "initiative": "65"
+  },
+  {
+    "name": "call to action",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-call-to-action.png",
+    "level": "1",
+    "initiative": "85"
+  },
+  {
+    "name": "captivating performance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-captivating-performance.png",
+    "level": "9",
+    "initiative": "25"
+  },
+  {
+    "name": "change tempo",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-change-tempo.png",
+    "level": "2",
+    "initiative": "91"
+  },
+  {
+    "name": "commanding presence",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-commanding-presence.png",
+    "level": "8",
+    "initiative": "59"
+  },
+  {
+    "name": "crippling chorus",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-crippling-chorus.png",
+    "level": "3",
+    "initiative": "62"
+  },
+  {
+    "name": "defensive ditty",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-defensive-ditty.png",
+    "level": "1",
+    "initiative": "09"
+  },
+  {
+    "name": "disorienting dirge",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-disorienting-dirge.png",
+    "level": "4",
+    "initiative": "14"
+  },
+  {
+    "name": "echoing aria",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-echoing-aria.png",
+    "level": "3",
+    "initiative": "08"
+  },
+  {
+    "name": "inspiring anthem",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-inspiring-anthem.png",
+    "level": "4",
+    "initiative": "50"
+  },
+  {
+    "name": "marching beat",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-marching-beat.png",
+    "level": "1",
+    "initiative": "32"
+  },
+  {
+    "name": "melody and harmony",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-melody-and-harmony.png",
+    "level": "5",
+    "initiative": "78"
+  },
+  {
+    "name": "mobilizing measure",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-mobilizing-measure.png",
+    "level": "5",
+    "initiative": "06"
+  },
+  {
+    "name": "nightmare serenade",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-nightmare-serenade.png",
+    "level": "7",
+    "initiative": "13"
+  },
+  {
+    "name": "nimble knife",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-nimble-knife.png",
+    "level": "X",
+    "initiative": "27"
+  },
+  {
+    "name": "power ballad",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-power-ballad.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "provoke terror",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-provoke-terror.png",
+    "level": "6",
+    "initiative": "60"
+  },
+  {
+    "name": "pull the strings",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-pull-the-strings.png",
+    "level": "6",
+    "initiative": "20"
+  },
+  {
+    "name": "shadow puppets",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-shadow-puppets.png",
+    "level": "9",
+    "initiative": "52"
+  },
+  {
+    "name": "singing arrow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-singing-arrow.png",
+    "level": "1",
+    "initiative": "89"
+  },
+  {
+    "name": "song of speed",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-song-of-speed.png",
+    "level": "1",
+    "initiative": "05"
+  },
+  {
+    "name": "soothing lullaby",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-soothing-lullaby.png",
+    "level": "2",
+    "initiative": "11"
+  },
+  {
+    "name": "throw voice",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-throw-voice.png",
+    "level": "1",
+    "initiative": "44"
+  },
+  {
+    "name": "tranquil trill",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-tranquil-trill.png",
+    "level": "8",
+    "initiative": "10"
+  },
+  {
+    "name": "tuning the outcome",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-tuning-the-outcome.png",
+    "level": "1",
+    "initiative": "78"
+  },
+  {
+    "name": "unending chant",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-unending-chant.png",
+    "level": "X",
+    "initiative": "51"
+  },
+  {
+    "name": "warding dagger",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-warding-dagger.png",
+    "level": "1",
+    "initiative": "56"
+  },
+  {
+    "name": "wistful wounding",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SS/gh-wistful-wounding.png",
+    "level": "X",
+    "initiative": "16"
+  },
+  {
+    "name": "su-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-su-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "biting wind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-biting-wind.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "black fire",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-black-fire.png",
+    "level": "1",
+    "initiative": "24"
+  },
+  {
+    "name": "bonded might",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-bonded-might.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "conjured aid",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-conjured-aid.png",
+    "level": "5",
+    "initiative": "81"
+  },
+  {
+    "name": "divided mind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-divided-mind.png",
+    "level": "4",
+    "initiative": "55"
+  },
+  {
+    "name": "earthen steed",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-earthen-steed.png",
+    "level": "2",
+    "initiative": "13"
+  },
+  {
+    "name": "endless spikes",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-endless-spikes.png",
+    "level": "6",
+    "initiative": "97"
+  },
+  {
+    "name": "ethereal vines",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-ethereal-vines.png",
+    "level": "X",
+    "initiative": "30"
+  },
+  {
+    "name": "forged ferocity",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-forged-ferocity.png",
+    "level": "1",
+    "initiative": "96"
+  },
+  {
+    "name": "grasping the void",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-grasping-the-void.png",
+    "level": "2",
+    "initiative": "62"
+  },
+  {
+    "name": "horned majesty",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-horned-majesty.png",
+    "level": "9",
+    "initiative": "80"
+  },
+  {
+    "name": "inexorable momentum",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-inexorable-momentum.png",
+    "level": "6",
+    "initiative": "32"
+  },
+  {
+    "name": "interplanar mastery",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-interplanar-mastery.png",
+    "level": "9",
+    "initiative": "22"
+  },
+  {
+    "name": "intervening apparitions",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-intervening-apparitions.png",
+    "level": "8",
+    "initiative": "68"
+  },
+  {
+    "name": "leathery wings",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-leathery-wings.png",
+    "level": "X",
+    "initiative": "90"
+  },
+  {
+    "name": "living mountain",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-living-mountain.png",
+    "level": "4",
+    "initiative": "88"
+  },
+  {
+    "name": "living night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-living-night.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "mighty bond",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-mighty-bond.png",
+    "level": "1",
+    "initiative": "51"
+  },
+  {
+    "name": "negative energy",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-negative-energy.png",
+    "level": "7",
+    "initiative": "95"
+  },
+  {
+    "name": "oozing manifestation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-oozing-manifestation.png",
+    "level": "3",
+    "initiative": "86"
+  },
+  {
+    "name": "otherworldly rage",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-otherworldly-rage.png",
+    "level": "8",
+    "initiative": "35"
+  },
+  {
+    "name": "staff of visions",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-staff-of-visions.png",
+    "level": "7",
+    "initiative": "27"
+  },
+  {
+    "name": "strength in numbers",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-strength-in-numbers.png",
+    "level": "5",
+    "initiative": "45"
+  },
+  {
+    "name": "tear the fabric",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-tear-the-fabric.png",
+    "level": "3",
+    "initiative": "41"
+  },
+  {
+    "name": "unending dominance",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-unending-dominance.png",
+    "level": "1",
+    "initiative": "98"
+  },
+  {
+    "name": "unwavering hand",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-unwavering-hand.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "volatile flame",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-volatile-flame.png",
+    "level": "X",
+    "initiative": "94"
+  },
+  {
+    "name": "wild animation",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SU/gh-wild-animation.png",
+    "level": "1",
+    "initiative": "92"
+  },
+  {
+    "name": "sw-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-sw-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "aid from the ether",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-aid-from-the-ether.png",
+    "level": "X",
+    "initiative": "91"
+  },
+  {
+    "name": "black hole",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-black-hole.png",
+    "level": "9",
+    "initiative": "41"
+  },
+  {
+    "name": "chromatic explosion",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-chromatic-explosion.png",
+    "level": "5",
+    "initiative": "71"
+  },
+  {
+    "name": "cold fire",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-cold-fire.png",
+    "level": "3",
+    "initiative": "67"
+  },
+  {
+    "name": "cold front",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-cold-front.png",
+    "level": "8",
+    "initiative": "61"
+  },
+  {
+    "name": "crackling air",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-crackling-air.png",
+    "level": "X",
+    "initiative": "25"
+  },
+  {
+    "name": "elemental aid",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-elemental-aid.png",
+    "level": "3",
+    "initiative": "84"
+  },
+  {
+    "name": "engulfed in flames",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-engulfed-in-flames.png",
+    "level": "5",
+    "initiative": "44"
+  },
+  {
+    "name": "fire orbs",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-fire-orbs.png",
+    "level": "1",
+    "initiative": "69"
+  },
+  {
+    "name": "flame strike",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-flame-strike.png",
+    "level": "1",
+    "initiative": "36"
+  },
+  {
+    "name": "flashing burst",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-flashing-burst.png",
+    "level": "2",
+    "initiative": "26"
+  },
+  {
+    "name": "forked beam",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-forked-beam.png",
+    "level": "4",
+    "initiative": "20"
+  },
+  {
+    "name": "freezing nova",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-freezing-nova.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "frost armor",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-frost-armor.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "frozen night",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-frozen-night.png",
+    "level": "6",
+    "initiative": "46"
+  },
+  {
+    "name": "hardened spikes",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-hardened-spikes.png",
+    "level": "X",
+    "initiative": "26"
+  },
+  {
+    "name": "icy blast",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-icy-blast.png",
+    "level": "2",
+    "initiative": "66"
+  },
+  {
+    "name": "impaling eruption",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-impaling-eruption.png",
+    "level": "1",
+    "initiative": "70"
+  },
+  {
+    "name": "inferno",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-inferno.png",
+    "level": "9",
+    "initiative": "19"
+  },
+  {
+    "name": "living torch",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-living-torch.png",
+    "level": "6",
+    "initiative": "96"
+  },
+  {
+    "name": "mana bolt",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-mana-bolt.png",
+    "level": "1",
+    "initiative": "07"
+  },
+  {
+    "name": "reviving ether",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-reviving-ether.png",
+    "level": "1",
+    "initiative": "80"
+  },
+  {
+    "name": "ride the wind",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-ride-the-wind.png",
+    "level": "1",
+    "initiative": "83"
+  },
+  {
+    "name": "spirit of doom",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-spirit-of-doom.png",
+    "level": "4",
+    "initiative": "81"
+  },
+  {
+    "name": "stone fists",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-stone-fists.png",
+    "level": "7",
+    "initiative": "62"
+  },
+  {
+    "name": "twin restoration",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-twin-restoration.png",
+    "level": "7",
+    "initiative": "75"
+  },
+  {
+    "name": "zephyr wings",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/SW/gh-zephyr-wings.png",
+    "level": "8",
+    "initiative": "85"
+  },
+  {
+    "name": "ti-back",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-ti-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "auto turret",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-auto-turret.png",
+    "level": "6",
+    "initiative": "34"
+  },
+  {
+    "name": "chimeric formula",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-chimeric-formula.png",
+    "level": "9",
+    "initiative": "43"
+  },
+  {
+    "name": "crank bow",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-crank-bow.png",
+    "level": "3",
+    "initiative": "66"
+  },
+  {
+    "name": "curative aerosol",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-curative-aerosol.png",
+    "level": "7",
+    "initiative": "21"
+  },
+  {
+    "name": "dangerous contraption",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-dangerous-contraption.png",
+    "level": "4",
+    "initiative": "84"
+  },
+  {
+    "name": "disintegration beam",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-disintegration-beam.png",
+    "level": "5",
+    "initiative": "36"
+  },
+  {
+    "name": "disorienting flash",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-disorienting-flash.png",
+    "level": "2",
+    "initiative": "73"
+  },
+  {
+    "name": "energizing tonic",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-energizing-tonic.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "enhancement field",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-enhancement-field.png",
+    "level": "1",
+    "initiative": "61"
+  },
+  {
+    "name": "flamethrower",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-flamethrower.png",
+    "level": "1",
+    "initiative": "47"
+  },
+  {
+    "name": "gas canister",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-gas-canister.png",
+    "level": "6",
+    "initiative": "71"
+  },
+  {
+    "name": "harmless contraption",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-harmless-contraption.png",
+    "level": "1",
+    "initiative": "74"
+  },
+  {
+    "name": "harsh stimulants",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-harsh-stimulants.png",
+    "level": "8",
+    "initiative": "27"
+  },
+  {
+    "name": "hook gun",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-hook-gun.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "ink bomb",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-ink-bomb.png",
+    "level": "1",
+    "initiative": "74"
+  },
+  {
+    "name": "jet propulsion",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-jet-propulsion.png",
+    "level": "8",
+    "initiative": "38"
+  },
+  {
+    "name": "lethal injection",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-lethal-injection.png",
+    "level": "9",
+    "initiative": "85"
+  },
+  {
+    "name": "micro bots",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-micro-bots.png",
+    "level": "4",
+    "initiative": "22"
+  },
+  {
+    "name": "murderous contraption",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-murderous-contraption.png",
+    "level": "7",
+    "initiative": "94"
+  },
+  {
+    "name": "net shooter",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-net-shooter.png",
+    "level": "1",
+    "initiative": "19"
+  },
+  {
+    "name": "noxious vials",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-noxious-vials.png",
+    "level": "5",
+    "initiative": "75"
+  },
+  {
+    "name": "potent potables",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-potent-potables.png",
+    "level": "X",
+    "initiative": "46"
+  },
+  {
+    "name": "proximity mine",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-proximity-mine.png",
+    "level": "1",
+    "initiative": "62"
+  },
+  {
+    "name": "reinvigorating elixir",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-reinvigorating-elixir.png",
+    "level": "1",
+    "initiative": "37"
+  },
+  {
+    "name": "restorative mist",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-restorative-mist.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "reviving shock",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-reviving-shock.png",
+    "level": "X",
+    "initiative": "34"
+  },
+  {
+    "name": "stamina booster",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-stamina-booster.png",
+    "level": "2",
+    "initiative": "48"
+  },
+  {
+    "name": "stun shot",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-stun-shot.png",
+    "level": "1",
+    "initiative": "20"
+  },
+  {
+    "name": "tinkerer's tools",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-tinkerers-tools.png",
+    "level": "3",
+    "initiative": "26"
+  },
+  {
+    "name": "toxic bolt",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-toxic-bolt.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "volatile concoction",
+    "expansion": "Gloomhaven",
+    "image": "character-ability-cards/gloomhaven/TI/gh-volatile-concoction.png",
+    "level": "X",
+    "initiative": "76"
+  },
+  {
+    "name": "dr-back",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-dr-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "anguish and salvation",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-anguish-and-salvation.png",
+    "level": "8",
+    "initiative": "21"
+  },
+  {
+    "name": "anticipate intricacies",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-anticipate-intricacies.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "bad omen",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-bad-omen.png",
+    "level": "X",
+    "initiative": "66"
+  },
+  {
+    "name": "call of the nether",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-call-of-the-nether.png",
+    "level": "3",
+    "initiative": "43"
+  },
+  {
+    "name": "careful attunement",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-careful-attunement.png",
+    "level": "6",
+    "initiative": "07"
+  },
+  {
+    "name": "clairvoyance",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-clairvoyance.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "cleansing rite",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-cleansing-rite.png",
+    "level": "4",
+    "initiative": "62"
+  },
+  {
+    "name": "curative flux",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-curative-flux.png",
+    "level": "7",
+    "initiative": "40"
+  },
+  {
+    "name": "cursed ground",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-cursed-ground.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "deep contemplation",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-deep-contemplation.png",
+    "level": "8",
+    "initiative": "91"
+  },
+  {
+    "name": "dimensional divide",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-dimensional-divide.png",
+    "level": "5",
+    "initiative": "13"
+  },
+  {
+    "name": "dimensional transfer",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-dimensional-transfer.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "duality shards",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-duality-shards.png",
+    "level": "X",
+    "initiative": "39"
+  },
+  {
+    "name": "enfeebling hex",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-enfeebling-hex.png",
+    "level": "6",
+    "initiative": "52"
+  },
+  {
+    "name": "envision the course",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-envision-the-course.png",
+    "level": "3",
+    "initiative": "80"
+  },
+  {
+    "name": "ethereal vortex",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-ethereal-vortex.png",
+    "level": "7",
+    "initiative": "59"
+  },
+  {
+    "name": "gift of the void",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-gift-of-the-void.png",
+    "level": "2",
+    "initiative": "72"
+  },
+  {
+    "name": "hand of destiny",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-hand-of-destiny.png",
+    "level": "9",
+    "initiative": "96"
+  },
+  {
+    "name": "inspiration from beyond",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-inspiration-from-beyond.png",
+    "level": "X",
+    "initiative": "23"
+  },
+  {
+    "name": "otherworldly journey",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-otherworldly-journey.png",
+    "level": "1",
+    "initiative": "34"
+  },
+  {
+    "name": "peer into battle",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-peer-into-battle.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "planar fissure",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-planar-fissure.png",
+    "level": "9",
+    "initiative": "75"
+  },
+  {
+    "name": "preordain the path",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-preordain-the-path.png",
+    "level": "4",
+    "initiative": "87"
+  },
+  {
+    "name": "protective aura",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-protective-aura.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "ray of light",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-ray-of-light.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "revitalizing fount",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-revitalizing-fount.png",
+    "level": "2",
+    "initiative": "21"
+  },
+  {
+    "name": "seal their fate",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-seal-their-fate.png",
+    "level": "5",
+    "initiative": "37"
+  },
+  {
+    "name": "void snare",
+    "expansion": "Forgotten Circles",
+    "image": "character-ability-cards/forgotten-circles/DR/fc-void-snare.png",
+    "level": "1",
+    "initiative": "25"
+  }
+]
