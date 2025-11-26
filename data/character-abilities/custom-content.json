@@ -81,21 +81,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/AM/cc-harvest-lifeforce.jpeg",
 		"initiative": "72",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "critical catalyst",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/AM/cc-critical-catalyst.jpeg",
 		"initiative": "24",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "unfathomable engine",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/AM/cc-unfathomable-engine.jpeg",
 		"initiative": "82",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "transmutation contraption",
@@ -277,21 +277,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/CO/cc-controlled-stasis.jpeg",
 		"initiative": "86",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "defensive preparation",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/CO/cc-defensive-preparation.jpeg",
 		"initiative": "7",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "accelerated flywheel",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/CO/cc-accelerated-flywheel.jpeg",
 		"initiative": "92",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "overdrive reference",
@@ -564,21 +564,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/DO/cc-electrified-strike.jpeg",
 		"initiative": "30",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "voltaic emitter",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/DO/cc-voltaic-emitter.jpeg",
 		"initiative": "81",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "vengeance protocol",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/DO/cc-vengeance-protocol.jpeg",
 		"initiative": "74",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "do-back",
@@ -788,21 +788,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/EW/cc-empathy-with-the-hunted.jpeg",
 		"initiative": "85",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "myriad delusions",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/EW/cc-myriad-delusions.jpeg",
 		"initiative": "22",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "sickening wind",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/EW/cc-sickening-wind.jpeg",
 		"initiative": "16",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "dissolution of form",
@@ -956,7 +956,7 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/JT/cc-stun-the-crowd.jpeg",
 		"initiative": "51",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "twisted performance",
@@ -998,7 +998,7 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/JT/cc-unbreakable-bond.jpeg",
 		"initiative": "45",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "slapstick",
@@ -1040,7 +1040,7 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/JT/cc-lift-me-up.jpeg",
 		"initiative": "77",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "toss me!",
@@ -1201,21 +1201,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/WI/cc-focused-release.jpeg",
 		"initiative": "31",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "prismatic ripple",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/WI/cc-prismatic-ripple.jpeg",
 		"initiative": "59",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "total recall",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/WI/cc-total-recall.jpeg",
 		"initiative": "29",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "wildborn reference",
@@ -1418,21 +1418,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/GT/cc-shattering-shield.jpeg",
 		"initiative": "70",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "living glacier",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/GT/cc-living-glacier.jpeg",
 		"initiative": "12",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "weight of the mountain",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/GT/cc-weight-of-the-mountain.jpeg",
 		"initiative": "56",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "tracherous trail",
@@ -1558,21 +1558,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/LS/cc-the-past-returns.jpeg",
 		"initiative": "92",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "torrent of flame and stone",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/LS/cc-torrent-of-flame-and-stone.jpeg",
 		"initiative": "51",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "wither",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/LS/cc-wither.jpeg",
 		"initiative": "38",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "instill a silent dread",
@@ -1768,21 +1768,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/RT/cc-to-the-rescue.jpeg",
 		"initiative": "92",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "rip current",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/RT/cc-rip-current.jpeg",
 		"initiative": "68",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "sharpened coral",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/RT/cc-sharpened-coral.jpeg",
 		"initiative": "33",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "sturdy carapace",
@@ -1985,21 +1985,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/LR/cc-nimble-strike.jpeg",
 		"initiative": "24",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "fleet of foot",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/LR/cc-fleet-of-foot.jpeg",
 		"initiative": "15",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "blinding speed",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/LR/cc-blinding-speed.jpeg",
 		"initiative": "7",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "hypothesis testing",
@@ -2286,21 +2286,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/SI/cc-exasperating-blitz.jpeg",
 		"initiative": "33",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "natural bunker",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/SI/cc-natural-bunker.jpeg",
 		"initiative": "78",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "venomous volley",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/SI/cc-venomous-volley.jpeg",
 		"initiative": "27",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "gatherer's harvest",
@@ -2489,21 +2489,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-dissimilate.jpeg",
 		"initiative": "58",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "seize the moment",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-seize-the-moment.jpeg",
 		"initiative": "45",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "stellar flare",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-stellar-flare.jpeg",
 		"initiative": "83",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "arcane thievery",
@@ -2629,49 +2629,49 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-plane-of-biting-cold.jpeg",
 		"initiative": "0",
-		"level": "0.5"
+		"level": "M"
 	},
 	{
 		"name": "plane of devastation",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-plane-of-devastation.jpeg",
 		"initiative": "0",
-		"level": "0.5"
+		"level": "M"
 	},
 	{
 		"name": "plane of light",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-plane-of-light.jpeg",
 		"initiative": "0",
-		"level": "0.5"
+		"level": "M"
 	},
 	{
 		"name": "plane of night",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-plane-of-night.jpeg",
 		"initiative": "0",
-		"level": "0.5"
+		"level": "M"
 	},
 	{
 		"name": "plane of storms",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-plane-of-storms.jpeg",
 		"initiative": "0",
-		"level": "0.5"
+		"level": "M"
 	},
 	{
 		"name": "plane of wild beasts",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VP/cc-plane-of-wild-beasts.jpeg",
 		"initiative": "0",
-		"level": "0.5"
+		"level": "M"
 	},
 	{
-		"name": "the astreal plane",
+		"name": "the astral plane",
 		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VP/cc-the-astreal-plane.jpeg",
-		"initiative": "0",
-		"level": "0.9"
+		"image": "character-ability-cards/custom-content/VP/cc-the-astral-plane.jpeg",
+		"initiative": "1",
+		"level": "M"
 	},
 	{
 		"name": "pulse quickening",
@@ -2755,21 +2755,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VT/cc-gnashing-galeae.jpeg",
 		"initiative": "12",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "hostile incision",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VT/cc-hostile-incision.jpeg",
 		"initiative": "58",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "gorging gnats",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/VT/cc-gorging-gnats.jpeg",
 		"initiative": "77",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "puncturing proboscis",
@@ -2965,21 +2965,21 @@
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/WO/cc-apricity.jpeg",
 		"initiative": "31",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "eye of the storm",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/WO/cc-eye-of-the-storm.jpeg",
 		"initiative": "19",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "the first trick",
 		"expansion": "custom-content",
 		"image": "character-ability-cards/custom-content/WO/cc-the-first-trick.jpeg",
 		"initiative": "15",
-		"level": "1.5"
+		"level": "X"
 	},
 	{
 		"name": "kiss of the red desert",
