@@ -56,7 +56,7 @@ export const games: Game[] = [
   {
     id: "cc",
     name: "Custom Content",
-    defaultClass: "XY",
+    defaultClass: "AM",
     defaultMonster: "N/A",
     routes: [{ id: "characters", name: "Characters" }],
   },
