@@ -20,7 +20,7 @@ const Card = ({ card, horizontal, showId }: CardProps) => {
   return (
     <div className={horizontal ? "card-horizontal" : "card"}>
       {showId && <div className="card-id">{card.id}</div>}
-      <div className="card-inner" style={{ paddingTop: horizontal ? "66%" : "150%" }}>
+      <div className="card-inner">
         <div className="card-img-front">
           <span aria-hidden="true" className="invisible">
             {card.name}
@@ -46,7 +46,6 @@ const FlipCard = ({ card, flipped, handleBtnClick, horizontal, showId }: FlipCar
       {showId && <div className="card-id">{card.id}</div>}
       <div
         className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}
-        style={{ paddingTop: horizontal ? "66%" : "150%" }}
       >
         <div className="card-img-front">
           <span aria-hidden="true" className="invisible">
