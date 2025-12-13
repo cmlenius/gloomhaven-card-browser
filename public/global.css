@@ -167,9 +167,10 @@ input[type="radio"] {
 }
 
 .card-img {
+  display: block;
   border-radius: 12px;
   text-align: center;
-  height: 100%;
+  height: fit-content;
   width: 100%;
 }
 
@@ -178,6 +179,7 @@ input[type="radio"] {
   background-image: repeating-linear-gradient(-55deg, #ddd, #ddd 5px, #ccc 5px, #ccc 10px);
   color: black;
   font-weight: 500;
+  position: relative;
   text-align: center;
   transition:
     transform 600ms,
@@ -195,11 +197,8 @@ input[type="radio"] {
 .card-img-back {
   backface-visibility: hidden;
   transform-style: preserve-3d;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  height: 100%;
   -webkit-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
 }
@@ -207,6 +206,16 @@ input[type="radio"] {
 .card-img-back {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+}
+
+/* Only for cards that have both front and back (flip cards) */
+.card-inner:has(.card-img-back) {
+  position: relative;
+}
+
+.card-inner:has(.card-img-back) .card-img-front,
+.card-inner:has(.card-img-back) .card-img-back {
+  position: absolute;
 }
 
 .card-id {
