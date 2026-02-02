@@ -170,7 +170,6 @@ input[type="radio"] {
   display: block;
   border-radius: 12px;
   text-align: center;
-  height: fit-content;
   width: 100%;
 }
 
