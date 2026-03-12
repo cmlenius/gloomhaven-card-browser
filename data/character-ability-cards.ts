@@ -5885,10 +5885,10 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         level: 9,
       },
       {
-        name: "pc back",
+        name: "pw back",
         class: "PW",
         game: "cc",
-        image: "character-ability-cards/custom-content/PW/cc-pc-back.jpeg",
+        image: "character-ability-cards/custom-content/PW/cc-pw-back.jpeg",
         initiative: 0,
         level: 0,
       },
