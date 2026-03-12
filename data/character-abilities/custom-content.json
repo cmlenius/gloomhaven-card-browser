@@ -1763,6 +1763,216 @@
     "initiative": "15",
     "level": "2"
   },
+	{
+		"name": "barter",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-barter.jpeg",
+		"initiative": "27",
+		"level": "X"
+	},
+	{
+		"name": "mischievous endeavour",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-mischievous-endeavour.jpeg",
+		"initiative": "88",
+		"level": "X"
+	},
+	{
+		"name": "toxic vapor",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-toxic-vapor.jpeg",
+		"initiative": "25",
+		"level": "X"
+	},
+	{
+		"name": "backup munitions",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-backup-munitions.jpeg",
+		"initiative": "41",
+		"level": "1"
+	},
+	{
+		"name": "combustion",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-combustion.jpeg",
+		"initiative": "45",
+		"level": "1"
+	},
+	{
+		"name": "flame burst",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-flame-burst.jpeg",
+		"initiative": "78",
+		"level": "1"
+	},
+	{
+		"name": "locked and loaded",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-locked-and-loaded.jpeg",
+		"initiative": "28",
+		"level": "1"
+	},
+	{
+		"name": "rapid shift",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-rapid-shift.jpeg",
+		"initiative": "15",
+		"level": "1"
+	},
+	{
+		"name": "searing blaze",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-searing-blaze.jpeg",
+		"initiative": "36",
+		"level": "1"
+	},
+	{
+		"name": "share a swig",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-share-a-swig.jpeg",
+		"initiative": "32",
+		"level": "1"
+	},
+	{
+		"name": "spiked rope",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-spiked-rope.jpeg",
+		"initiative": "20",
+		"level": "1"
+	},
+	{
+		"name": "thounderous charge",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-thounderous-charge.jpeg",
+		"initiative": "73",
+		"level": "1"
+	},
+	{
+		"name": "torpedo rounds",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-torpedo-rounds.jpeg",
+		"initiative": "67",
+		"level": "1"
+	},
+	{
+		"name": "disorienting uproar",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-disorienting-uproar.jpeg",
+		"initiative": "17",
+		"level": "2"
+	},
+	{
+		"name": "grapeshot",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-grapeshot.jpeg",
+		"initiative": "43",
+		"level": "2"
+	},
+	{
+		"name": "ball bearings",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-ball-bearings.jpeg",
+		"initiative": "31",
+		"level": "3"
+	},
+	{
+		"name": "compacted shells",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-compacted-shells.jpeg",
+		"initiative": "57",
+		"level": "3"
+	},
+	{
+		"name": "implosion",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-implosion.jpeg",
+		"initiative": "37",
+		"level": "4"
+	},
+	{
+		"name": "repelling blast",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-repelling-blast.jpeg",
+		"initiative": "26",
+		"level": "4"
+	},
+	{
+		"name": "incinerate",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-incinerate.jpeg",
+		"initiative": "71",
+		"level": "5"
+	},
+	{
+		"name": "suspicious salve",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-suspicious-salve.jpeg",
+		"initiative": "11",
+		"level": "5"
+	},
+	{
+		"name": "flammable dust",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-flammable-dust.jpeg",
+		"initiative": "52",
+		"level": "6"
+	},
+	{
+		"name": "hostile acquisition",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-hostile-acquisition.jpeg",
+		"initiative": "34",
+		"level": "6"
+	},
+	{
+		"name": "death wish",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-death-wish.jpeg",
+		"initiative": "16",
+		"level": "7"
+	},
+	{
+		"name": "trick of the trade",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-trick-of-the-trade.jpeg",
+		"initiative": "23",
+		"level": "7"
+	},
+	{
+		"name": "flashbang mayhem",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-flashbang-mayhem.jpeg",
+		"initiative": "86",
+		"level": "8"
+	},
+	{
+		"name": "high impact",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-high-impact.jpeg",
+		"initiative": "42",
+		"level": "8"
+	},
+	{
+		"name": "death's daughter",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-deaths-daughter.jpeg",
+		"initiative": "90",
+		"level": "9"
+	},
+	{
+		"name": "fractured barrage",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-fractured-barrage.jpeg",
+		"initiative": "18",
+		"level": "9"
+	},
+	{
+		"name": "pc back",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/PW/cc-pc-back.jpeg",
+		"initiative": "0",
+		"level": "0"
+	},
   {
     "name": "to the rescue",
     "expansion": "custom-content",

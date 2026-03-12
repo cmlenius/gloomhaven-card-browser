@@ -221,6 +221,16 @@ export const characters: Character[] = [
     base: true,
   },
   {
+    class: "PW",
+    colour: "#ff8836",
+    name: "powdercoat",
+    game: "cc",
+    matImage: "character-mats/custom-content/cc-powdercoat.jpeg",
+    matImageBack: "character-mats/custom-content/cc-powdercoat-back.jpeg",
+    sheetImage: "character-perks/custom-content/cc-powdercoat-perks.jpeg",
+    base: true,
+  },
+  {
     class: "RT",
     colour: "#70b0c5",
     name: "reeftender",
