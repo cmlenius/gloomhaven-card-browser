@@ -1,4 +1,4 @@
-dataDir='./data'
+dataDir='data'
 
 node ${dataDir}/character-abilities/character-abilities.js
 echo "$(echo 'import { CharacterAbility} from "../common/types"; export const characterAbilityCards: Record<string, Record<string, CharacterAbility[]>> = '; cat character-ability-cards.js)" > character-ability-cards.js
