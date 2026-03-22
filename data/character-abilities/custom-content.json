@@ -2414,6 +2414,209 @@
     "initiative": "26",
     "level": "2"
   },
+	{
+		"name": "gather kindling",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-gather-kindling.jpeg",
+		"initiative": "85",
+		"level": "X"
+	},
+	{
+		"name": "fuel for the fire",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-fuel-for-the-fire.jpeg",
+		"initiative": "81",
+		"level": "X"
+	},
+	{
+		"name": "maditative violence",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-maditative-violence.jpeg",
+		"initiative": "78",
+		"level": "X"
+	},
+	{
+		"name": "cinderstrike",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-cinderstrike.jpeg",
+		"initiative": "64",
+		"level": "1"
+	},
+	{
+		"name": "lick of the flame",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-lick-of-the-flame.jpeg",
+		"initiative": "56",
+		"level": "1"
+	},
+	{
+		"name": "scorched earth",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-scorched-earth.jpeg",
+		"initiative": "38",
+		"level": "1"
+	},
+	{
+		"name": "disarming glow",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-disarming-glow.jpeg",
+		"initiative": "33",
+		"level": "1"
+	},
+	{
+		"name": "rallying blaze",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-rallying-blaze.jpeg",
+		"initiative": "24",
+		"level": "1"
+	},
+	{
+		"name": "weakening sparks",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-weakening-sparks.jpeg",
+		"initiative": "23",
+		"level": "1"
+	},
+	{
+		"name": "blazing path",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-blazing-path.jpeg",
+		"initiative": "20",
+		"level": "1"
+	},
+	{
+		"name": "hot coals",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-hot-coals.jpeg",
+		"initiative": "19",
+		"level": "1"
+	},
+	{
+		"name": "embers of protection",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-embers-of-protection.jpeg",
+		"initiative": "14",
+		"level": "1"
+	},
+	{
+		"name": "from the inferno",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-from-the-inferno.jpeg",
+		"initiative": "98",
+		"level": "9"
+	},
+	{
+		"name": "escalating heat",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-escalating-heat.jpeg",
+		"initiative": "7",
+		"level": "9"
+	},
+	{
+		"name": "choked with soot",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-choked-with-soot.jpeg",
+		"initiative": "22",
+		"level": "8"
+	},
+	{
+		"name": "songs around the campfire",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-songs-around-the-campfire.jpeg",
+		"initiative": "12",
+		"level": "8"
+	},
+	{
+		"name": "crossfire",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-crossfire.jpeg",
+		"initiative": "80",
+		"level": "7"
+	},
+	{
+		"name": "trailblazer",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-trailblazer.jpeg",
+		"initiative": "10",
+		"level": "7"
+	},
+	{
+		"name": "fan of flames",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-fan-of-flames.jpeg",
+		"initiative": "91",
+		"level": "6"
+	},
+	{
+		"name": "teach a man to fish",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-teach-a-man-to-fish.jpeg",
+		"initiative": "27",
+		"level": "6"
+	},
+	{
+		"name": "baptized in the blaze",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-baptized-in-the-blaze.jpeg",
+		"initiative": "31",
+		"level": "5"
+	},
+	{
+		"name": "kindled spirits",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-kindled-spirits.jpeg",
+		"initiative": "13",
+		"level": "5"
+	},
+	{
+		"name": "untamable pyre",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-untamable-pyre.jpeg",
+		"initiative": "25",
+		"level": "4"
+	},
+	{
+		"name": "smoke and mirrors",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-smoke-and-mirrors.jpeg",
+		"initiative": "21",
+		"level": "4"
+	},
+	{
+		"name": "into the fire",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-into-the-fire.jpeg",
+		"initiative": "37",
+		"level": "3"
+	},
+	{
+		"name": "raining charcoal",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-raining-charcoal.jpeg",
+		"initiative": "18",
+		"level": "3"
+	},
+	{
+		"name": "rejuvenating warmth",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-rejuvenating-warmth.jpeg",
+		"initiative": "74",
+		"level": "2"
+	},
+	{
+		"name": "rest here, weary traveler",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-rest-here-weary-traveler.jpeg",
+		"initiative": "29",
+		"level": "2"
+	},
+	{
+		"name": "rk back",
+		"expansion": "custom-content",
+		"image": "character-ability-cards/custom-content/RK/cc-rk-back.jpeg",
+		"initiative": "0",
+		"level": "0"
+	},
   {
     "name": "ensnaring flutter",
     "expansion": "custom-content",

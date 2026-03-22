@@ -231,6 +231,16 @@ export const characters: Character[] = [
     base: true,
   },
   {
+    class: "RK",
+    colour: "#c2845a",
+    name: "rekindled",
+    game: "cc",
+    matImage: "character-mats/custom-content/cc-rekindled.jpeg",
+    matImageBack: "character-mats/custom-content/cc-rekindled-back.jpeg",
+    sheetImage: "character-perks/custom-content/cc-rekindled-perks.jpeg",
+    base: true,
+  },
+  {
     class: "RT",
     colour: "#70b0c5",
     name: "reeftender",
