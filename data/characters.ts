@@ -231,6 +231,16 @@ export const characters: Character[] = [
     base: true,
   },
   {
+    class: "RK",
+    colour: "#c2845a",
+    name: "rekindled",
+    game: "cc",
+    matImage: "character-mats/custom-content/cc-rekindled.jpeg",
+    matImageBack: "character-mats/custom-content/cc-rekindled-back.jpeg",
+    sheetImage: "character-perks/custom-content/cc-rekindled-perks.jpeg",
+    base: true,
+  },
+  {
     class: "RT",
     colour: "#70b0c5",
     name: "reeftender",
@@ -238,6 +248,16 @@ export const characters: Character[] = [
     matImage: "character-mats/custom-content/cc-reeftender.jpeg",
     matImageBack: "character-mats/custom-content/cc-reeftender-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-reeftender-perks.jpeg",
+    base: true,
+  },
+  {
+    class: "SH",
+    colour: "#7597a0",
+    name: "swarmshift",
+    game: "cc",
+    matImage: "character-mats/custom-content/cc-swarmshift.jpeg",
+    matImageBack: "character-mats/custom-content/cc-swarmshift-back.jpeg",
+    sheetImage: "character-perks/custom-content/cc-swarmshift-perks.jpeg",
     base: true,
   },
   {
