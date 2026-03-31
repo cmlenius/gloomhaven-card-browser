@@ -6114,7 +6114,7 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         name: "rest here, weary traveler",
         class: "RK",
         game: "cc",
-        image: "character-ability-cards/custom-content/RK/cc-rest-here,-weary-traveler.jpeg",
+        image: "character-ability-cards/custom-content/RK/cc-rest-here-weary-traveler.jpeg",
         initiative: 29,
         level: 2,
       },
