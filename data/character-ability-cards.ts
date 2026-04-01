@@ -6877,10 +6877,10 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         level: 2,
       },
       {
-        name: "sh back",
+        name: "sf back",
         class: "SF",
         game: "cc",
-        image: "character-ability-cards/custom-content/SF/cc-sh-back.jpeg",
+        image: "character-ability-cards/custom-content/SF/cc-sf-back.jpeg",
         initiative: 0,
         level: 0,
       },
