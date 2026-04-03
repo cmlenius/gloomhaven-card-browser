@@ -251,7 +251,7 @@ export const characters: Character[] = [
     base: true,
   },
   {
-    class: "SH",
+    class: "SF",
     colour: "#7597a0",
     name: "swarmshift",
     game: "cc",
