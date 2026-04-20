@@ -17,6 +17,7 @@
 .DS_Store
 *.pem
 *.swp
+tsconfig.tsbuildinfo
 
 # debug
 npm-debug.log*

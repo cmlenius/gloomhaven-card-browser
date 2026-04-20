@@ -37,6 +37,7 @@ export interface MultiLevelCard {
 }
 
 export type CharacterAbility = {
+  id?: number;
   name: string;
   class: string;
   game: string;

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import { Character, CharacterAbility, Option, Spoilers } from "../../common/types";
 import {
+  assignCardIds,
   customSort,
   getBaseUrl,
   getCharacter,
@@ -15,6 +16,7 @@ import { useSpoilers } from "../../hooks/useSpoilers";
 import CardList from "..//CardList";
 import Sort from "..//Sort";
 import Empty from "../Empty";
+import ToastMessage from "../ToastMessage";
 import { characters } from "../../data/characters";
 import { characterAbilityCards } from "../../data/character-ability-cards";
 import { useCraftingStore } from "../../store/useCraftingStore";
@@ -114,7 +116,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   } = useCraftingStore();
 
   const maxHandSize =
-    searchResults?.filter((c) => c.level <= 1.5 && c.level > 0.5).length - 3 || 9;
+    searchResults?.filter((c) => c.level === 1).length || 9;
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -140,10 +142,9 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     setSortDirection(newValue);
   };
 
-  let cardList =
-    searchResults
-      ?.filter(characterSpoilerFilter(spoilers))
-      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
+  let cardList = searchResults
+    ?.filter(characterSpoilerFilter(spoilers))
+    .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
 
   if (isCraftingMode && viewActiveHand) {
     cardList = cardList.filter((card) => activeDeck.includes(card.image));
@@ -163,32 +164,35 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
 
   useEffect(() => {
     if (router.isReady && router.query.build) {
-      const decodedDeck = deserializeBuild(router.query.build as string);
-      if (decodedDeck && character?.class) {
-        // Map names back to images where possible
-        const images = decodedDeck.map(name => 
-          searchResults?.find(c => c.name === name)?.image
-        ).filter(Boolean) as string[];
-        
-        if (images.length > 0) {
-          loadState(character.class, images);
+      const decodedBuild = deserializeBuild(router.query.build as string);
+
+      if (decodedBuild && character?.class) {
+        if (decodedBuild.characterClass !== character.class) {
+          setToastMessage(`Build is for a different class (${decodedBuild.characterClass})`);
+        } else {
+          const idSet = new Set(decodedBuild.cardIds);
+          const images = searchResults
+            ?.filter((c) => idSet.has(c.id))
+            .map((c) => c.image) || [];
+
+          if (images.length > 0) {
+            loadState(character.class, images);
+          }
         }
-        
-        // Remove the query param from the URL visually
+
         const url = new URL(window.location.href);
         url.searchParams.delete("build");
         router.replace(url.pathname + url.search, undefined, { shallow: true });
       }
     }
-  }, [router.isReady, router.query.build, character?.class, loadState]);
+  }, [router.isReady, router.query.build, character?.class, searchResults, loadState, setToastMessage, router]);
 
   const handleShare = () => {
-    // reduce to just name parts to save URL space
-    const cardNames = searchResults
-      ?.filter(c => activeDeck.includes(c.image))
-      .map(c => c.name) || [];
+    const cardIds = searchResults
+      ?.filter((c) => activeDeck.includes(c.image))
+      .map((c) => c.id) || [];
 
-    const code = serializeBuild(cardNames);
+    const code = serializeBuild(character?.class, cardIds);
     const newUrl = new URL(window.location.href);
     newUrl.searchParams.set("build", code);
     navigator.clipboard.writeText(newUrl.toString());
@@ -197,25 +201,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
 
   return (
     <>
-      {toastMessage && (
-        <div style={{
-          position: "fixed",
-          top: "20px",
-          left: "50%",
-          transform: "translateX(-50%)",
-          backgroundColor: "#1e1e1e",
-          color: "white",
-          padding: "12px 24px",
-          border: `2px solid ${character?.colour || "gold"}`,
-          borderRadius: "8px",
-          zIndex: 9999,
-          boxShadow: "0px 4px 6px rgba(0,0,0,0.5)",
-          fontWeight: "bold",
-          transition: "opacity 0.3s ease-in-out"
-        }}>
-          {toastMessage}
-        </div>
-      )}
+      <ToastMessage message={toastMessage} colour={character?.colour} />
       <div className="toolbar">
         <div className="toolbar-inner">
           <div>
@@ -284,24 +270,14 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         ))}
 
       {isCraftingMode && !showCharacterDetails && (
-        <div style={{
-          position: "fixed",
-          bottom: 0,
-          left: 0,
-          right: 0,
-          padding: "16px",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "16px",
-          backgroundColor: "#1e1e1e",
-          borderTop: `4px solid ${character?.colour || "#555"}`,
-          zIndex: 1000
-        }}>
-          <span style={{ fontWeight: "bold", color: "white" }}>
+        <div
+          className="build-toolbar"
+          style={{ borderTopColor: character?.colour || "#555" }}
+        >
+          <span className="build-toolbar-label">
             Cards Selected: {activeDeck.length} / {maxHandSize}
           </span>
-          <div className="button-group" style={{ margin: 0, flexWrap: "wrap", justifyContent: "center" }}>
+          <div className="build-toolbar-buttons">
             <button
               className={!viewActiveHand ? "btn-selected" : ""}
               onClick={() => viewActiveHand && toggleViewActiveHand()}
@@ -332,11 +308,13 @@ export const characterSearchResults = (query: { [key: string]: string | string[]
     return [];
   }
 
-  return (
+  const sorted =
     characterAbilityCards[game]?.[character?.class.toUpperCase()]
       ?.map((card) => (card.name.endsWith("-back") ? { ...card, name: character?.name } : card))
-      .sort(customSort("level", "asc")) || []
-  );
+      .sort(customSort("level", "asc")) || [];
+
+  // Assign stable 1-based IDs after sorting — IDs are used for compact URL encoding
+  return assignCardIds(sorted);
 };
 
 export default CharactersPage;
