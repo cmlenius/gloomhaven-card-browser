@@ -313,7 +313,6 @@ export const characterSearchResults = (query: { [key: string]: string | string[]
       ?.map((card) => (card.name.endsWith("-back") ? { ...card, name: character?.name } : card))
       .sort(customSort("level", "asc")) || [];
 
-  // Assign stable 1-based IDs after sorting — IDs are used for compact URL encoding
   return assignCardIds(sorted);
 };
 
