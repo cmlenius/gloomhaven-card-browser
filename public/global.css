@@ -47,8 +47,9 @@ button {
   border-radius: 4px;
   box-sizing: border-box;
   cursor: pointer;
-  height: 24px;
-  padding: 2px 8px;
+  min-height: 24px;
+  padding: 4px 12px;
+  white-space: nowrap;
 }
 
 button:hover {
@@ -64,22 +65,19 @@ button:hover {
   align-items: center;
   display: flex;
   justify-content: flex-end;
-  min-width: 230px;
+  gap: 8px;
 }
 
 .button-group-left {
   align-items: center;
   display: flex;
   justify-content: flex-start;
-  min-width: 230px;
+  gap: 8px;
 }
 
-.button-group > *:not(:nth-child(1)) {
-  margin-left: 8px;
-}
-
+.button-group > *:not(:nth-child(1)),
 .button-group-left > *:not(:nth-child(1)) {
-  margin-left: 8px;
+  margin-left: 0 !important;
 }
 
 .empty {
@@ -815,22 +813,62 @@ input[type="radio"] {
   color: var(--grey-light);
 }
 
+/* --- TOAST --- */
+.toast-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1e1e1e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  z-index: 9999;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  transition: opacity 0.3s ease-in-out;
+  border: 2px solid gold; /* Overridden inline by character color */
+}
+
+/* --- BUILD TOOLBAR --- */
+.build-toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #1e1e1e;
+  border-top: 4px solid var(--primary);
+  z-index: 1000;
+}
+
+.build-toolbar-label {
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+}
+
+.build-toolbar-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* --- MEDIA QUERIES --- */
-@media (max-width: 920px) {
-  .card {
-    flex: 1 0 26.5%;
-  }
-  .card-horizontal {
-    flex: 1 0 32.75%;
+@media (max-width: 900px) {
+  .toolbar-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
   }
 }
 
 @media (max-width: 620px) {
-  .button-group,
-  .button-group-left {
-    justify-content: center;
-  }
-
   .card {
     flex: 1 0 32.75%;
   }
@@ -842,6 +880,18 @@ input[type="radio"] {
   .filters {
     justify-content: center;
     margin-top: 8px;
+  }
+  
+  .build-toolbar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+  
+  .button-group {
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .home {
@@ -872,15 +922,6 @@ input[type="radio"] {
 
   .topbar .mobile {
     display: flex;
-  }
-
-  .toolbar-inner {
-    flex-direction: column;
-    padding: 12px;
-  }
-
-  .toolbar-inner > *:not(:nth-child(1)) {
-    margin-top: 12px;
   }
 
   .toolbar .sort {

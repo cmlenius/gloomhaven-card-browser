@@ -1,11 +1,20 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import { Card, Character, Game, SearchResult } from "./types";
+import { Card, Character, CharacterAbility, Game, SearchResult } from "./types";
 
 export const defaultColour = "#432423";
 export const defaultDescription =
   "Gloomhaven Card Browser is a tool for viewing Ability, Item, Monster, Event, Building, and Pet cards from the games Gloomhaven, Frosthaven, Forgotten Circles, Jaws of the Lion, Crimson Circles, and Trail of Ashes";
 export const defaultTitle = "Gloomhaven Card Browser";
+
+/**
+ * Assigns stable 1-based sequential IDs to a sorted character ability card array.
+ * IDs must be assigned after sorting so that the same card always gets the same ID.
+ * @param cards Sorted CharacterAbility array
+ * @returns The same cards with id fields populated
+ */
+export const assignCardIds = (cards: CharacterAbility[]): CharacterAbility[] =>
+  cards.map((card, index) => ({ ...card, id: index + 1 }));
 
 export function getBaseUrl(): string {
   return "https://raw.githubusercontent.com/cmlenius/gloomhaven-card-browser/images/images/";
