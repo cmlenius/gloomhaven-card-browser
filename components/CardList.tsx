@@ -241,7 +241,7 @@ const CardList = ({ cardList, horizontal, showId, defaultBack, isCraftingMode, a
     >
       {data?.map((card) => {
         const charAbilCard = card as Card & { level?: number };
-        const isBackCard = charAbilCard.level === 0 || card.image.endsWith("-back.jpeg");
+        const isBackCard = charAbilCard.level === 0 || charAbilCard.level === 0.5 || charAbilCard.level === 0.25 || card.image.endsWith("-back.jpeg");
         const isSelected = isCraftingMode ? activeDeck?.includes(card.image) : false;
         const toggle = () => {
           if (!isBackCard && onCardToggle) onCardToggle(card.image);
@@ -261,11 +261,11 @@ const CardList = ({ cardList, horizontal, showId, defaultBack, isCraftingMode, a
             onToggle={toggle}
           />
         ) : (
-          <Card 
-            key={card.image} 
-            card={card} 
-            horizontal={horizontal} 
-            showId={showId} 
+          <Card
+            key={card.image}
+            card={card}
+            horizontal={horizontal}
+            showId={showId}
             isSelected={isSelected}
             isCraftingMode={clickable}
             characterColour={characterColour}
