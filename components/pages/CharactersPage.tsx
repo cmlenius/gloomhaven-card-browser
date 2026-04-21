@@ -232,10 +232,22 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           <div>
             <div className="button-group">
               <button
-                className={!showCharacterDetails ? "btn-selected" : ""}
-                onClick={() => setShowCharacterDetails(false)}
+                className={!showCharacterDetails && !isCraftingMode ? "btn-selected" : ""}
+                onClick={() => {
+                  setShowCharacterDetails(false);
+                  if (isCraftingMode) toggleCraftingMode();
+                }}
               >
                 Ability Cards
+              </button>
+              <button
+                className={!showCharacterDetails && isCraftingMode ? "btn-selected" : ""}
+                onClick={() => {
+                  if (showCharacterDetails) setShowCharacterDetails(false);
+                  if (!isCraftingMode) toggleCraftingMode();
+                }}
+              >
+                Build Mode
               </button>
               <button
                 className={showCharacterDetails ? "btn-selected" : ""}
@@ -243,14 +255,6 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
               >
                 Character Details
               </button>
-              {!showCharacterDetails && (
-                <button
-                  className={isCraftingMode ? "btn-selected" : ""}
-                  onClick={toggleCraftingMode}
-                >
-                  Build Mode
-                </button>
-              )}
             </div>
           </div>
         </div>
@@ -260,13 +264,15 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         (showCharacterDetails ? (
           <CharacterDetails character={character} spoilers={spoilers} />
         ) : (
-          <CardList
-            cardList={cardList}
-            isCraftingMode={isCraftingMode}
-            activeDeck={activeDeck}
-            characterColour={character?.colour}
-            onCardToggle={(image) => toggleCard(image, character?.class, maxHandSize)}
-          />
+          <div style={{ paddingBottom: isCraftingMode ? "80px" : "0" }}>
+            <CardList
+              cardList={cardList}
+              isCraftingMode={isCraftingMode}
+              activeDeck={activeDeck}
+              characterColour={character?.colour}
+              onCardToggle={(image) => toggleCard(image, character?.class, maxHandSize)}
+            />
+          </div>
         ))}
 
       {isCraftingMode && !showCharacterDetails && (
@@ -278,20 +284,17 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
             Cards Selected: {activeDeck.length} / {maxHandSize}
           </span>
           <div className="build-toolbar-buttons">
-            <button
-              className={!viewActiveHand ? "btn-selected" : ""}
-              onClick={() => viewActiveHand && toggleViewActiveHand()}
-            >
-              All Cards
-            </button>
-            <button
-              className={viewActiveHand ? "btn-selected" : ""}
-              onClick={() => !viewActiveHand && toggleViewActiveHand()}
-            >
-              Active Hand
+            <button onClick={toggleViewActiveHand}>
+              {viewActiveHand ? "View All Cards" : "View Active Hand"}
             </button>
             <button onClick={handleShare}>Share</button>
-            <button onClick={clearDeck}>Clear</button>
+            <button onClick={() => {
+              clearDeck();
+              setToastMessage("Active Hand Cleared!");
+              if (viewActiveHand) {
+                toggleViewActiveHand();
+              }
+            }}>Clear</button>
           </div>
         </div>
       )}
