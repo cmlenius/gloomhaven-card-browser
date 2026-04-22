@@ -10,14 +10,10 @@ import {
   verifyQueryParam,
 } from "../../../common/utils";
 import Layout from "../../../components/Layout";
-import CharactersPage, { SearchResult, characterSearchResults } from "../../../components/pages/CharactersPage";
+import CharactersPage, { CharacterPageProps, characterSearchResults } from "../../../components/pages/CharactersPage";
 import { characters } from "../../../data/characters";
 
-type PageProps = {
-  searchResults: SearchResult;
-};
-
-const Characters = ({ searchResults }: PageProps) => {
+const Characters = ({ searchResults }: CharacterPageProps) => {
   const router = useRouter();
 
   const game = verifyQueryParam(router.query.game, "gh");
@@ -49,7 +45,7 @@ export const getStaticPaths: GetStaticPaths<CharacterParams> = async () => {
   };
 };
 
-export const getStaticProps: GetStaticProps<PageProps, CharacterParams> = async (context) => {
+export const getStaticProps: GetStaticProps<CharacterPageProps, CharacterParams> = async (context) => {
   const { game, character } = context.params;
   const searchResults = characterSearchResults({
     game: game,
