@@ -20,7 +20,7 @@ export const games: Game[] = [
     name: "Gloomhaven 2nd Edition",
     defaultClass: "BR2",
     defaultMonster: "ancient-artillery",
-    routes: baseRoutes,
+    routes: [{ id: "characters", name: "Characters" }],
   },
   {
     id: "fh",
