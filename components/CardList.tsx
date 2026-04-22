@@ -25,7 +25,11 @@ const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, characterC
     <div
       className={`${horizontal ? "card-horizontal" : "card"} ${isSelected ? "card-selected" : ""}`}
       onClick={() => isCraftingMode && onToggle && onToggle()}
-      style={{ cursor: isCraftingMode ? "pointer" : "default", border: isSelected ? `4px solid ${characterColour || "gold"}` : "none", borderRadius: "10px" }}
+      style={{
+        cursor: isCraftingMode ? "pointer" : "default",
+        border: isSelected ? `4px solid ${characterColour || "gold"}` : "none",
+        borderRadius: "10px",
+      }}
     >
       {showId && <div className="card-id">{card.id}</div>}
       <div className="card-inner">
@@ -52,17 +56,29 @@ type FlipCardProps = {
   onToggle?: () => void;
 };
 
-const FlipCard = ({ card, flipped, handleBtnClick, horizontal, showId, isSelected, isCraftingMode, characterColour, onToggle }: FlipCardProps) => {
+const FlipCard = ({
+  card,
+  flipped,
+  handleBtnClick,
+  horizontal,
+  showId,
+  isSelected,
+  isCraftingMode,
+  characterColour,
+  onToggle,
+}: FlipCardProps) => {
   return (
     <div
       className={`${horizontal ? "card-horizontal" : "card"} ${isSelected ? "card-selected" : ""}`}
       onClick={() => isCraftingMode && onToggle && onToggle()}
-      style={{ cursor: isCraftingMode ? "pointer" : "default", border: isSelected ? `4px solid ${characterColour || "gold"}` : "none", borderRadius: "10px" }}
+      style={{
+        cursor: isCraftingMode ? "pointer" : "default",
+        border: isSelected ? `4px solid ${characterColour || "gold"}` : "none",
+        borderRadius: "10px",
+      }}
     >
       {showId && <div className="card-id">{card.id}</div>}
-      <div
-        className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}
-      >
+      <div className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}>
         <div className="card-img-front">
           <span aria-hidden="true" className="invisible">
             {card.name}
@@ -87,7 +103,13 @@ const FlipCard = ({ card, flipped, handleBtnClick, horizontal, showId, isSelecte
         </div>
       </div>
       {handleBtnClick && (
-        <button className={` ${flipped ? "card-flip-btn-back" : "card-flip-btn"}`} onClick={(e) => { e.stopPropagation(); handleBtnClick(); }}>
+        <button
+          className={` ${flipped ? "card-flip-btn-back" : "card-flip-btn"}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleBtnClick();
+          }}
+        >
           <FontAwesomeIcon
             className={` ${flipped ? "card-flip-svg-back" : "card-flip-svg"}`}
             icon={faArrowsRotate}
@@ -99,7 +121,16 @@ const FlipCard = ({ card, flipped, handleBtnClick, horizontal, showId, isSelecte
   );
 };
 
-const FlipCardWrapper = ({ card, horizontal, showId, defaultBack, isSelected, isCraftingMode, characterColour, onToggle }: CardProps) => {
+const FlipCardWrapper = ({
+  card,
+  horizontal,
+  showId,
+  defaultBack,
+  isSelected,
+  isCraftingMode,
+  characterColour,
+  onToggle,
+}: CardProps) => {
   const [flipped, setFlipped] = useState(defaultBack ? true : false);
 
   const handleBtnClick = () => {
@@ -218,7 +249,16 @@ type CardListProps = {
   onCardToggle?: (image: string) => void;
 };
 
-const CardList = ({ cardList, horizontal, showId, defaultBack, isCraftingMode, activeDeck, characterColour, onCardToggle }: CardListProps) => {
+const CardList = ({
+  cardList,
+  horizontal,
+  showId,
+  defaultBack,
+  isCraftingMode,
+  activeDeck,
+  characterColour,
+  onCardToggle,
+}: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
   const loadMore = (page: number) => {
@@ -241,7 +281,11 @@ const CardList = ({ cardList, horizontal, showId, defaultBack, isCraftingMode, a
     >
       {data?.map((card) => {
         const charAbilCard = card as Card & { level?: number };
-        const isBackCard = charAbilCard.level === 0 || charAbilCard.level === 0.5 || charAbilCard.level === 0.25 || card.image.endsWith("-back.jpeg");
+        const isBackCard =
+          charAbilCard.level === 0 ||
+          charAbilCard.level === 0.5 ||
+          charAbilCard.level === 0.25 ||
+          card.image.endsWith("-back.jpeg");
         const isSelected = isCraftingMode ? activeDeck?.includes(card.image) : false;
         const toggle = () => {
           if (!isBackCard && onCardToggle) onCardToggle(card.image);
@@ -250,7 +294,7 @@ const CardList = ({ cardList, horizontal, showId, defaultBack, isCraftingMode, a
 
         return card.imageBack ? (
           <FlipCardWrapper
-            key={card.image}
+            key={card.name}
             card={card}
             horizontal={horizontal}
             showId={showId}
@@ -262,7 +306,7 @@ const CardList = ({ cardList, horizontal, showId, defaultBack, isCraftingMode, a
           />
         ) : (
           <Card
-            key={card.image}
+            key={card.name}
             card={card}
             horizontal={horizontal}
             showId={showId}

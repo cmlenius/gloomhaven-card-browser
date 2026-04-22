@@ -97,7 +97,7 @@ const AdditionalCards = ({ sections }: AdditionalCardsProps) => {
   return (
     <>
       {sections.map((section) => (
-        <div className="additional-cards-section">
+        <div key={section.label} className="additional-cards-section">
           <CardList cardList={section.cards} horizontal={section.horizontal} />
         </div>
       ))}
