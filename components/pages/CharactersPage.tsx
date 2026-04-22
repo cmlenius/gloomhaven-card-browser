@@ -78,9 +78,15 @@ type CharacterDetailsProps = {
 };
 
 const CharacterDetails = ({ character, isCharacterUnlocked }: CharacterDetailsProps) => {
+  console.log(character.link);
   if (isCharacterUnlocked)
     return (
       <div className="character-details">
+        {character.link && (
+          <a href={character.link} className="character-details-link">
+            {character.linkLabel || character.link}
+          </a>
+        )}
         <img alt="" src={getBaseUrl() + character.matImageBack} />
         <img alt="" src={getBaseUrl() + character.matImage} />
         <img alt="" src={getBaseUrl() + character.sheetImage} />

@@ -6,7 +6,7 @@ This is a guide for uploading new classes under the `custom` game. It requires m
 
 1. Fork a branch from the `images` branch
 2. Add the new character icon to `/images/icons/characters/custom-content/CLASS_CODE.png`
-3. Add the new character ability card images to `/images/character-ability-cards/custom-content/CLASS_CODE/`
+3. Add the new character ability card and additional card (i.e.solo item) images to `/images/character-ability-cards/custom-content/CLASS_CODE/`
 4. (Optional) Add the new character mat front & back to `/images/character-mats/custom-content/cc-NAME{-back}.jepg``
 5. (Optional) Add the new character perk sheet to `/images/character-mats/custom-content/cc-NAME-perks.jpeg`
 6. Commit changes and open a Pull Request to merge into the `images` branch
@@ -17,7 +17,8 @@ To avoid long load times, images should be compressed before uploading, there ar
 
 1. Fork a branch from the `main` branch
 2. Append the character ability card data to `data/character-ability-cards/custom-content.json`
-3. Append the character data to `data/scripts/characters.js`
+3. Append the character additional card data to `data/character-additional-cards/custom-content.json`
+3. Append the character data to `data/characters/custom-content.json`
 4. Run `npm run format` to make sure all changes are formatted correctly
 5. Run `npm run data` to generate changes to the `.ts` files
 6. Test changes locally and ensure all images are loading properly

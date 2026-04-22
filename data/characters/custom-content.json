@@ -8,7 +8,7 @@
   { "id": "LS", "game": "cc", "colour": "#cb883a", "base": true, "name": "lifespeaker" },
   { "id": "LR", "game": "cc", "colour": "#d35d5d", "base": true, "name": "lightracer" },
   { "id": "PW", "game": "cc", "colour": "#ff8836", "base": true, "name": "powdercoat" },
-  { "id": "RK", "game": "cc", "colour": "#c2845a", "base": true, "name": "rekindled" },
+  { "id": "RK", "game": "cc", "colour": "#c2845a", "base": true, "name": "rekindled", "link": "https://discord.com/channels/728375347732807825/1319087322758647859", "linkLabel": "Created by Nathan" },
   { "id": "RT", "game": "cc", "colour": "#70b0c5", "base": true, "name": "reeftender" },
   { "id": "SF", "game": "cc", "colour": "#7597a0", "base": true, "name": "swarmshift" },
   { "id": "SI", "game": "cc", "colour": "#af7b51", "base": true, "name": "skitterclaw" },

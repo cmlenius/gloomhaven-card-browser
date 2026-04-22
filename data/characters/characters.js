@@ -45,6 +45,8 @@ let characters = helpers.readData("./data/characters").map((character) => {
     sheetImage: `character-perks/${path}-perks.jpeg`,
     base: character.base,
     hidden: character.hidden,
+    link: character.link,
+    linkLabel: character.linkLabel,
   };
 });
 
