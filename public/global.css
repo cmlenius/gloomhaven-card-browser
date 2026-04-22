@@ -341,15 +341,16 @@ input[type="radio"] {
   width: 100%;
 }
 
-.character-details-link {
-  align-self: center;
-  color: #5869E4;
-  font-weight: 600;
-}
-
 .character-details img {
   padding: 8px 0;
   width: 100%;
+}
+
+.character-link {
+  align-self: center;
+  color: #5869E4;
+  font-weight: 600;
+  padding-top: 8px;
 }
 
 /* --- CHARACTER ADDTIONAL CARDS --- */

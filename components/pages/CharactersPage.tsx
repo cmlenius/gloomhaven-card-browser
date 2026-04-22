@@ -82,11 +82,6 @@ const CharacterDetails = ({ character, isCharacterUnlocked }: CharacterDetailsPr
   if (isCharacterUnlocked)
     return (
       <div className="character-details">
-        {character.link && (
-          <a href={character.link} className="character-details-link">
-            {character.linkLabel || character.link}
-          </a>
-        )}
         <img alt="" src={getBaseUrl() + character.matImageBack} />
         <img alt="" src={getBaseUrl() + character.matImage} />
         <img alt="" src={getBaseUrl() + character.sheetImage} />
@@ -282,6 +277,11 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         </div>
       </div>
       <ClassFilter game={game} characterClass={character?.class} />
+      {character.link && (
+        <a href={character.link} className="character-link" target="_blank">
+          {character.linkLabel || character.link}
+        </a>
+      )}
       {!spoilers.loading &&
         (showCharacterDetails ? (
           <CharacterDetails character={character} isCharacterUnlocked={isCharacterUnlocked} />
