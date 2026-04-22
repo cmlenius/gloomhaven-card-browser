@@ -239,6 +239,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-rekindled-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-rekindled-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1319087322758647859",
+    linkLabel: "Created by Nathan",
   },
   {
     class: "RT",

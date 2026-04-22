@@ -20,6 +20,8 @@ export type Character = {
   sheetImage: string;
   base?: boolean;
   hidden?: boolean;
+  link?: string;
+  linkLabel?: string;
 };
 
 export interface Card {

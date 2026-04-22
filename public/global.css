@@ -341,6 +341,12 @@ input[type="radio"] {
   width: 100%;
 }
 
+.character-details-link {
+  align-self: center;
+  color: #5869E4;
+  font-weight: 600;
+}
+
 .character-details img {
   padding: 8px 0;
   width: 100%;
@@ -354,11 +360,6 @@ input[type="radio"] {
   width: 100%;
 }
  
-.additional-cards-section-label { 
-  font-size: 26px;
-  padding: 0 16px;
-}
-
 /* --- DROPDOWN --- */
 .dropdown {
   position: relative;
