@@ -74,11 +74,11 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
 
 type CharacterDetailsProps = {
   character: Character;
-  spoilers: Spoilers;
+  isCharacterUnlocked: boolean;
 };
 
-const CharacterDetails = ({ character, spoilers }: CharacterDetailsProps) => {
-  if (spoilers.characters.has(character.class) || character.base)
+const CharacterDetails = ({ character, isCharacterUnlocked }: CharacterDetailsProps) => {
+  if (isCharacterUnlocked)
     return (
       <div className="character-details">
         <img alt="" src={getBaseUrl() + character.matImageBack} />
@@ -134,6 +134,8 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
 
   const { abilityCards, additionalCards } = searchResults;
   const maxHandSize = abilityCards?.filter((c) => c.level === 1).length || 9;
+  const isCharacterUnlocked = spoilers.characters.has(character.class) || character.base;
+  const showAdditionalCards = additionalCards && isCharacterUnlocked && !isCraftingMode;
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -254,6 +256,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
               </button>
               <button
                 className={!showCharacterDetails && isCraftingMode ? "btn-selected" : ""}
+                disabled={!isCharacterUnlocked}
                 onClick={() => {
                   if (showCharacterDetails) setShowCharacterDetails(false);
                   if (!isCraftingMode) toggleCraftingMode();
@@ -263,6 +266,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
               </button>
               <button
                 className={showCharacterDetails ? "btn-selected" : ""}
+                disabled={!isCharacterUnlocked}
                 onClick={() => setShowCharacterDetails(true)}
               >
                 Character Details
@@ -274,7 +278,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
       <ClassFilter game={game} characterClass={character?.class} />
       {!spoilers.loading &&
         (showCharacterDetails ? (
-          <CharacterDetails character={character} spoilers={spoilers} />
+          <CharacterDetails character={character} isCharacterUnlocked={isCharacterUnlocked} />
         ) : (
           <div style={{ paddingBottom: isCraftingMode ? "80px" : "0" }}>
             <CardList
@@ -286,7 +290,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
             />
           </div>
         ))}
-      {additionalCards && !isCraftingMode && <AdditionalCards sections={additionalCards} />}
+      {showAdditionalCards && <AdditionalCards sections={additionalCards} />}
 
       {isCraftingMode && !showCharacterDetails && (
         <div className="build-toolbar" style={{ borderTopColor: character?.colour || "#555" }}>
