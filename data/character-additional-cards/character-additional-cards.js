@@ -24,7 +24,7 @@ fs.readdirSync(dir).forEach((file) => {
       case "trail-of-ashes.json":
         expansion = "toa";
         break;
-      case "custom-contentkjson":
+      case "custom-content.json":
         expansion = "cc";
         break;
     }

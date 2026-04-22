@@ -1,5 +1,39 @@
 import { CharacterAdditionalCardsSection } from "../common/types";
 export const characterAdditionalCards: Record<string, Record<string, CharacterAdditionalCardsSection[]>> = {
+  cc: {
+    RK: [
+      {
+        label: "Bonefires",
+        horizontal: true,
+        cards: [
+          {
+            name: "bonefire of cleansing",
+            image: "character-ability-cards/custom-content/RK/cc-add-bonefire-of-cleansing.jpeg",
+          },
+          {
+            name: "bonefire of fortune",
+            image: "character-ability-cards/custom-content/RK/cc-add-bonefire-of-fortune.jpeg",
+          },
+          {
+            name: "bonefire of healing",
+            image: "character-ability-cards/custom-content/RK/cc-add-bonefire-of-healing.jpeg",
+          },
+          {
+            name: "bonefire of retaliation",
+            image: "character-ability-cards/custom-content/RK/cc-add-bonefire-of-retaliation.jpeg",
+          },
+          {
+            name: "bonefire of strength",
+            image: "character-ability-cards/custom-content/RK/cc-add-bonefire-of-strength.jpeg",
+          },
+          {
+            name: "bonefire of swiftness",
+            image: "character-ability-cards/custom-content/RK/cc-add-bonefire-of-swiftness.jpeg",
+          },
+        ],
+      },
+    ],
+  },
   gh: {
     BR: [
       {
