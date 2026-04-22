@@ -18536,7 +18536,7 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         game: "gh",
         image: "character-ability-cards/gloomhaven/MT/gh-feedback-loop.jpeg",
         initiative: 79,
-        level: 1.5,
+        level: 1,
       },
       {
         name: "frigid apparition",

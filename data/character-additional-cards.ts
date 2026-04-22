@@ -248,9 +248,9 @@ export const characterAdditionalCards: Record<string, Record<string, CharacterAd
         label: "Solo Item",
         cards: [
           {
-            name: "ring of duality",
+            name: "basin of prophecy",
             image: "items/item-back.jpeg",
-            imageBack: "items/forgotten-circles/fc-152-ring-of-duality.jpeg",
+            imageBack: "items/forgotten-circles/fc-164-basin-of-prophecy.jpeg",
           },
         ],
       },

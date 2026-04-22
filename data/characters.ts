@@ -149,6 +149,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-alchemancer-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-alchemancer-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1268641237955514491",
+    linkLabel: "Created by kalamadude",
   },
   {
     class: "CO",
@@ -159,6 +161,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-core-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-core-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/880838569734852638",
+    linkLabel: "Created by dhauge",
   },
   {
     class: "DO",
@@ -169,6 +173,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-dome-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-dome-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/756851069471948800",
+    linkLabel: "Created by Dysent",
   },
   {
     class: "EW",
@@ -179,6 +185,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-echowight-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-echowight-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1262515957868269648",
+    linkLabel: "Created by Zack",
   },
   {
     class: "GT",
@@ -189,6 +197,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-glacial-torrent-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-glacial-torrent-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1307500530427498577",
+    linkLabel: "Created by Yknits",
   },
   {
     class: "JT",
@@ -199,6 +209,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-jester-twins-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-jester-twins-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/752332681718661284",
+    linkLabel: "Created by Durian",
   },
   {
     class: "LS",
@@ -209,6 +221,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-lifespeaker-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-lifespeaker-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/969329473122078740",
+    linkLabel: "Created by General CGO and Yknits",
   },
   {
     class: "LR",
@@ -219,6 +233,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-lightracer-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-lightracer-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1119392782990180453",
+    linkLabel: "Created by Emily",
   },
   {
     class: "PW",
@@ -229,6 +245,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-powdercoat-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-powdercoat-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1318946295376773211",
+    linkLabel: "Created by Sebaias",
   },
   {
     class: "RK",
@@ -251,6 +269,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-reeftender-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-reeftender-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1345885968187527179",
+    linkLabel: "Created by kalamadude",
   },
   {
     class: "SF",
@@ -261,6 +281,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-swarmshift-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-swarmshift-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1144306190214500473",
+    linkLabel: "Created by Lirion",
   },
   {
     class: "SI",
@@ -271,6 +293,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-skitterclaw-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-skitterclaw-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1115885987415998574",
+    linkLabel: "Created by Roald Hoffmann",
   },
   {
     class: "VP",
@@ -281,6 +305,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-veilpiercer-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-veilpiercer-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/756502381642121357",
+    linkLabel: "Created by Skuzz",
   },
   {
     class: "VT",
@@ -291,6 +317,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-vimthreader-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-vimthreader-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/732003202458714193",
+    linkLabel: "Created by Polyglottus and General CGO",
   },
   {
     class: "VI",
@@ -301,6 +329,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-vitalist-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-vitalist-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/1011363552726093905",
+    linkLabel: "Created by Quasilocal",
   },
   {
     class: "WI",
@@ -311,6 +341,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-wildborn-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-wildborn-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/930980643091935303",
+    linkLabel: "Created by Kemptonite",
   },
   {
     class: "WO",
@@ -321,6 +353,8 @@ export const characters: Character[] = [
     matImageBack: "character-mats/custom-content/cc-woebound-back.jpeg",
     sheetImage: "character-perks/custom-content/cc-woebound-perks.jpeg",
     base: true,
+    link: "https://discord.com/channels/728375347732807825/839489760858865714",
+    linkLabel: "Created by Quasilocal",
   },
   {
     class: "BB",
