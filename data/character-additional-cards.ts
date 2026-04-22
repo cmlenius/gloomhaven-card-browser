@@ -1,0 +1,225 @@
+import { CharacterAdditionalCardsSection } from "../common/types";
+export const characterAdditionalCards: Record<string, Record<string, CharacterAdditionalCardsSection[]>> = {
+  gh: {
+    BR: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "imposing blade",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-134-imposing-blade.jpeg",
+          },
+        ],
+      },
+    ],
+    CH: [
+      {
+        label: "Solo Item",
+        cards: [
+          { name: "stone charm", image: "items/item-back.jpeg", imageBack: "items/gloomhaven/gh-138-stone-charm.jpeg" },
+        ],
+      },
+    ],
+    MT: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "psychic knife",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-139-psychic-knife.jpeg",
+          },
+        ],
+      },
+    ],
+    SC: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "silent stiletto",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-137-silent-stiletto.jpeg",
+          },
+        ],
+      },
+    ],
+    SW: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "volatile elixir",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-136-volatile-elixir.jpeg",
+          },
+        ],
+      },
+    ],
+    TI: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "focusing ray",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-135-focusing-ray.jpeg",
+          },
+        ],
+      },
+    ],
+    BE: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "mask of death",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-145-mask-of-death.jpeg",
+          },
+        ],
+      },
+    ],
+    BT: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "staff of command",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-150-staff-of-command.jpeg",
+          },
+        ],
+      },
+    ],
+    DS: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "cloak of the hunter",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-147-cloak-of-the-hunter.jpeg",
+          },
+        ],
+      },
+    ],
+    EL: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "elemental boots",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-149-elemental-boots.jpeg",
+          },
+        ],
+      },
+    ],
+    NS: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "smoke elixir",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-143-smoke-elixir.jpeg",
+          },
+        ],
+      },
+    ],
+    PH: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "pendant of the plague",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-144-pendant-of-the-plague.jpeg",
+          },
+        ],
+      },
+    ],
+    QM: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "utility-belt",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-141-utility-belt.jpeg",
+          },
+        ],
+      },
+    ],
+    SB: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "doctors coat",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-148-doctors-coat.jpeg",
+          },
+        ],
+      },
+    ],
+    SK: [
+      {
+        label: "Solo Item",
+        cards: [
+          { name: "Sun Shield", image: "items/item-back.jpeg", imageBack: "items/gloomhaven/gh-140-sun-shield.jpeg" },
+        ],
+      },
+    ],
+    SS: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "masters lute",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-146-masters-lute.jpeg",
+          },
+        ],
+      },
+    ],
+    SU: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "phasing idol",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-142-phasing-idol.jpeg",
+          },
+        ],
+      },
+    ],
+    BS: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "sword of the sands",
+            image: "items/item-back.jpeg",
+            imageBack: "items/gloomhaven/gh-151-sword-of-the-sands.jpeg",
+          },
+        ],
+      },
+    ],
+    DR: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "ring of duality",
+            image: "items/item-back.jpeg",
+            imageBack: "items/forgotten-circles/fc-152-ring-of-duality.jpeg",
+          },
+        ],
+      },
+    ],
+  },
+};

@@ -48,6 +48,18 @@ export type CharacterAbility = {
   milestone?: boolean;
 };
 
+export type CharacterAdditionalCardsSection = {
+  label: string;
+  cards: CharacterAdditionalCard[];
+  horizontal?: boolean;
+};
+
+export type CharacterAdditionalCard = {
+  name: string;
+  image: string;
+  imageBack?: string;
+};
+
 export type Item = {
   id: number;
   name: string;

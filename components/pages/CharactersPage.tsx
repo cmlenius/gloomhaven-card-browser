@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import { Character, CharacterAbility, Option, Spoilers } from "../../common/types";
+import { Character, CharacterAbility, CharacterAdditionalCardsSection, Option, Spoilers } from "../../common/types";
 import {
   assignCardIds,
   customSort,
@@ -19,6 +19,7 @@ import Empty from "../Empty";
 import ToastMessage from "../ToastMessage";
 import { characters } from "../../data/characters";
 import { characterAbilityCards } from "../../data/character-ability-cards";
+import { characterAdditionalCards } from "../../data/character-additional-cards";
 import { useCraftingStore } from "../../store/useCraftingStore";
 import { serializeBuild, deserializeBuild } from "../../common/shareUtils";
 
@@ -88,8 +89,24 @@ const CharacterDetails = ({ character, spoilers }: CharacterDetailsProps) => {
   return <Empty />;
 };
 
+type AdditionalCardsProps = {
+  sections: CharacterAdditionalCardsSection[];
+};
+
+const AdditionalCards = ({ sections }: AdditionalCardsProps) => {
+  return (
+    <>
+      {sections.map((section) => (
+        <div className="additional-cards-section">
+          <CardList cardList={section.cards} horizontal={section.horizontal} />
+        </div>
+      ))}
+    </>
+  );
+};
+
 type PageProps = {
-  searchResults: CharacterAbility[];
+  searchResults: SearchResult;
   game: string;
   character: Character;
 };
@@ -115,8 +132,8 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     setToastMessage,
   } = useCraftingStore();
 
-  const maxHandSize =
-    searchResults?.filter((c) => c.level === 1).length || 9;
+  const { abilityCards, additionalCards } = searchResults;
+  const maxHandSize = abilityCards?.filter((c) => c.level === 1).length || 9;
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -125,9 +142,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     updateSpoilers({ ...spoilers, level: newLevel });
 
     if (isCraftingMode) {
-      const validImages = new Set(
-        searchResults?.filter((c) => c.level < 1 + newLevel).map((c) => c.image) || []
-      );
+      const validImages = new Set(abilityCards?.filter((c) => c.level < 1 + newLevel).map((c) => c.image) || []);
       const filteredDeck = activeDeck.filter((img) => validImages.has(img));
       if (filteredDeck.length !== activeDeck.length) {
         setDeck(filteredDeck);
@@ -142,9 +157,10 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     setSortDirection(newValue);
   };
 
-  let cardList = searchResults
-    ?.filter(characterSpoilerFilter(spoilers))
-    .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
+  let cardList =
+    abilityCards
+      ?.filter(characterSpoilerFilter(spoilers))
+      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
 
   if (isCraftingMode && viewActiveHand) {
     cardList = cardList.filter((card) => activeDeck.includes(card.image));
@@ -171,9 +187,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           setToastMessage(`Build is for a different class (${decodedBuild.characterClass})`);
         } else {
           const idSet = new Set(decodedBuild.cardIds);
-          const images = searchResults
-            ?.filter((c) => idSet.has(c.id))
-            .map((c) => c.image) || [];
+          const images = abilityCards?.filter((c) => idSet.has(c.id)).map((c) => c.image) || [];
 
           if (images.length > 0) {
             loadState(character.class, images);
@@ -185,12 +199,10 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         router.replace(url.pathname + url.search, undefined, { shallow: true });
       }
     }
-  }, [router.isReady, router.query.build, character?.class, searchResults, loadState, setToastMessage, router]);
+  }, [router.isReady, router.query.build, character?.class, abilityCards, loadState, setToastMessage, router]);
 
   const handleShare = () => {
-    const cardIds = searchResults
-      ?.filter((c) => activeDeck.includes(c.image))
-      .map((c) => c.id) || [];
+    const cardIds = abilityCards?.filter((c) => activeDeck.includes(c.image)).map((c) => c.id) || [];
 
     const code = serializeBuild(character?.class, cardIds);
     const newUrl = new URL(window.location.href);
@@ -274,27 +286,27 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
             />
           </div>
         ))}
+      {additionalCards && !isCraftingMode && <AdditionalCards sections={additionalCards} />}
 
       {isCraftingMode && !showCharacterDetails && (
-        <div
-          className="build-toolbar"
-          style={{ borderTopColor: character?.colour || "#555" }}
-        >
+        <div className="build-toolbar" style={{ borderTopColor: character?.colour || "#555" }}>
           <span className="build-toolbar-label">
             Cards Selected: {activeDeck.length} / {maxHandSize}
           </span>
           <div className="build-toolbar-buttons">
-            <button onClick={toggleViewActiveHand}>
-              {viewActiveHand ? "View All Cards" : "View Active Hand"}
-            </button>
+            <button onClick={toggleViewActiveHand}>{viewActiveHand ? "View All Cards" : "View Active Hand"}</button>
             <button onClick={handleShare}>Share</button>
-            <button onClick={() => {
-              clearDeck();
-              setToastMessage("Active Hand Cleared!");
-              if (viewActiveHand) {
-                toggleViewActiveHand();
-              }
-            }}>Clear</button>
+            <button
+              onClick={() => {
+                clearDeck();
+                setToastMessage("Active Hand Cleared!");
+                if (viewActiveHand) {
+                  toggleViewActiveHand();
+                }
+              }}
+            >
+              Clear
+            </button>
           </div>
         </div>
       )}
@@ -302,13 +314,21 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   );
 };
 
-export const characterSearchResults = (query: { [key: string]: string | string[] }) => {
+export type SearchResult = {
+  abilityCards: CharacterAbility[];
+  additionalCards: CharacterAdditionalCardsSection[] | null;
+};
+
+export const characterSearchResults = (query: { [key: string]: string | string[] }): SearchResult => {
   const game = verifyQueryParam(query.game, "gh");
   const className = verifyQueryParam(query.character, getDefaultCharacterClass(game));
 
   const character = getCharacter(game, className?.toUpperCase());
   if (character == null) {
-    return [];
+    return {
+      abilityCards: [],
+      additionalCards: null,
+    };
   }
 
   const sorted =
@@ -316,7 +336,12 @@ export const characterSearchResults = (query: { [key: string]: string | string[]
       ?.map((card) => (card.name.endsWith("-back") ? { ...card, name: character?.name } : card))
       .sort(customSort("level", "asc")) || [];
 
-  return assignCardIds(sorted);
+  const additionalCards = characterAdditionalCards[game]?.[character?.class.toUpperCase()];
+
+  return {
+    abilityCards: assignCardIds(sorted),
+    additionalCards: additionalCards || null,
+  };
 };
 
 export default CharactersPage;

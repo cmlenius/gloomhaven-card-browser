@@ -34,3 +34,9 @@ node ${dataDir}/pets/pets.js
 echo "$(echo 'import { Pet } from "../common/types"; export const petCards: Record<string, Pet[]> = '; cat pet-cards.js)" > pet-cards.js
 mv pet-cards.js ${dataDir}/pet-cards.ts
 prettier --write ${dataDir}/pet-cards.ts
+
+node ${dataDir}/character-additional-cards/character-additional-cards.js
+echo "$(echo 'import { CharacterAdditionalCardsSection} from "../common/types"; export const characterAdditionalCards: Record<string, Record<string, CharacterAdditionalCardsSection[]>> = '; cat character-additional-cards.js)" > character-additional-cards.js
+mv character-additional-cards.js ${dataDir}/character-additional-cards.ts
+prettier --write ${dataDir}/character-additional-cards.ts
+ 
