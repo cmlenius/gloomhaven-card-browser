@@ -20,7 +20,7 @@ import ToastMessage from "../ToastMessage";
 import { characters } from "../../data/characters";
 import { characterAbilityCards } from "../../data/character-ability-cards";
 import { characterAdditionalCards } from "../../data/character-additional-cards";
-import { useCraftingStore } from "../../store/useCraftingStore";
+import { useCraftingStore } from "../../hooks/useCraftingStore";
 import { serializeBuild, deserializeBuild } from "../../common/shareUtils";
 
 const sortOrderOptions: Option[] = [
