@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 
-import { CharacterAbility, CharacterParams } from "../../../common/types";
+import { CharacterParams } from "../../../common/types";
 import {
   getCharacter,
   getDefaultCharacterClass,
@@ -10,11 +10,11 @@ import {
   verifyQueryParam,
 } from "../../../common/utils";
 import Layout from "../../../components/Layout";
-import CharactersPage, { characterSearchResults } from "../../../components/pages/CharactersPage";
+import CharactersPage, { SearchResult, characterSearchResults } from "../../../components/pages/CharactersPage";
 import { characters } from "../../../data/characters";
 
 type PageProps = {
-  searchResults: CharacterAbility[];
+  searchResults: SearchResult;
 };
 
 const Characters = ({ searchResults }: PageProps) => {
@@ -28,7 +28,7 @@ const Characters = ({ searchResults }: PageProps) => {
 
   return (
     <Layout
-      description={getDescription(game, "Character Ability Cards", searchResults)}
+      description={getDescription(game, "Character Ability Cards", searchResults.abilityCards)}
       title={getTitle(game, name + " Class")}
     >
       <CharactersPage character={character} game={game} searchResults={searchResults} />

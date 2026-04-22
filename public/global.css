@@ -346,6 +346,19 @@ input[type="radio"] {
   width: 100%;
 }
 
+/* --- CHARACTER ADDTIONAL CARDS --- */
+.additional-cards-section { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+ 
+.additional-cards-section-label { 
+  font-size: 26px;
+  padding: 0 16px;
+}
+
 /* --- DROPDOWN --- */
 .dropdown {
   position: relative;
