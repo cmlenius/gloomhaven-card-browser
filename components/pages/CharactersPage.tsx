@@ -136,7 +136,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   const { abilityCards, additionalCards } = searchResults;
   const maxHandSize = abilityCards?.filter((c) => c.level === 1).length || 9;
   const isCharacterUnlocked = spoilers.characters.has(character.class) || character.base;
-  const showAdditionalCards = additionalCards && isCharacterUnlocked && !isCraftingMode;
+  const showAdditionalCards = additionalCards && isCharacterUnlocked && !isCraftingMode && !showCharacterDetails;
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
