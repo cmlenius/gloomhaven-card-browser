@@ -314,6 +314,10 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   );
 };
 
+export type CharacterPageProps = {
+  searchResults: SearchResult;
+};
+
 export type SearchResult = {
   abilityCards: CharacterAbility[];
   additionalCards: CharacterAdditionalCardsSection[] | null;
