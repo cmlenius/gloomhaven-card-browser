@@ -78,7 +78,6 @@ type CharacterDetailsProps = {
 };
 
 const CharacterDetails = ({ character, isCharacterUnlocked }: CharacterDetailsProps) => {
-  console.log(character.link);
   if (isCharacterUnlocked)
     return (
       <div className="character-details">

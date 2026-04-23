@@ -1,0 +1,213 @@
+[
+  {
+    "name": "ca-back",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/ca-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "anticipate intricacies",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/anticipate-intricacies.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "peer into battle",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/peer-into-battle.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "cursed ground",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/cursed-ground.png",
+    "level": "1",
+    "initiative": "05"
+  },
+  {
+    "name": "void snare",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/void-snare.png",
+    "level": "1",
+    "initiative": "17"
+  },
+  {
+    "name": "approach of the void",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/approach-of-the-void.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "duality shards",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/duality-shards.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "envision the course",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/envision-the-course.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "otherworldly journey",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/otherworldly-journey.png",
+    "level": "1",
+    "initiative": "34"
+  },
+  {
+    "name": "ray of light",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/ray-of-light.png",
+    "level": "1",
+    "initiative": "48"
+  },
+  {
+    "name": "dimensional transfer",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/dimensional-transfer.png",
+    "level": "1",
+    "initiative": "57"
+  },
+  {
+    "name": "inspiration from beyond",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/inspiration-from-beyond.png",
+    "level": "X",
+    "initiative": "13"
+  },
+  {
+    "name": "call of the nether",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/call-of-the-nether.png",
+    "level": "X",
+    "initiative": "87"
+  },
+  {
+    "name": "recurrence",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/recurrence.png",
+    "level": "X",
+    "initiative": "18"
+  },
+  {
+    "name": "dimensional divide",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/dimensional-divide.png",
+    "level": "2",
+    "initiative": "52"
+  },
+  {
+    "name": "cleansing rite",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/cleansing-rite.png",
+    "level": "2",
+    "initiative": "23"
+  },
+  {
+    "name": "past and future",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/past-and-future.png",
+    "level": "3",
+    "initiative": "40"
+  },
+  {
+    "name": "ethereal vortex",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/ethereal-vortex.png",
+    "level": "3",
+    "initiative": "72"
+  },
+  {
+    "name": "protective aura",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/protective-aura.png",
+    "level": "4",
+    "initiative": "11"
+  },
+  {
+    "name": "enfeebling hex",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/enfeebling-hex.png",
+    "level": "4",
+    "initiative": "25"
+  },
+  {
+    "name": "seal their fate",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/seal-their-fate.png",
+    "level": "5",
+    "initiative": "20"
+  },
+  {
+    "name": "constant flux",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/constant-flux.png",
+    "level": "5",
+    "initiative": "37"
+  },
+  {
+    "name": "careful attunement",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/careful-attunement.png",
+    "level": "6",
+    "initiative": "80"
+  },
+  {
+    "name": "tether the planes",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/tether-the-planes.png",
+    "level": "6",
+    "initiative": "19"
+  },
+  {
+    "name": "tear reality",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/tear-reality.png",
+    "level": "7",
+    "initiative": "59"
+  },
+  {
+    "name": "time and again",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/time-and-again.png",
+    "level": "7",
+    "initiative": "07"
+  },
+  {
+    "name": "deep contemplation",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/deep-contemplation.png",
+    "level": "8",
+    "initiative": "75"
+  },
+  {
+    "name": "planar chaos",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/planar-chaos.png",
+    "level": "8",
+    "initiative": "14"
+  },
+  {
+    "name": "convergence",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/convergence.png",
+    "level": "9",
+    "initiative": "91"
+  },
+  {
+    "name": "hand of destiny",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/CA/hand-of-destiny.png",
+    "level": "9",
+    "initiative": "96"
+  }
+]
+

@@ -30,6 +30,9 @@ let abilities = helpers.readData("./data/character-abilities").map((ability) => 
     case "custom-content":
       expansion = "cc";
       break;
+    case "Mercenary":
+      expansion = "merc";
+      break;
   }
   let level = ability.level;
   if (level === "X") {

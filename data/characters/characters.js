@@ -28,6 +28,9 @@ let characters = helpers.readData("./data/characters").map((character) => {
     case "cc":
       expansion = "custom-content";
       break;
+    case "merc":
+      expansion = "mercenary";
+      break;
     default:
       expansion = "";
   }

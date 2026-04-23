@@ -1,20 +1,164 @@
 [
-  { "id": "AM", "game": "cc", "colour": "#408766", "base": true, "name": "alchemancer",     "link": "https://discord.com/channels/728375347732807825/1268641237955514491", "linkLabel": "Created by kalamadude" },
-  { "id": "CO", "game": "cc", "colour": "#ff7700", "base": true, "name": "core",            "link": "https://discord.com/channels/728375347732807825/880838569734852638",  "linkLabel": "Created by dhauge" },
-  { "id": "DO", "game": "cc", "colour": "#6b90bd", "base": true, "name": "dome",            "link": "https://discord.com/channels/728375347732807825/756851069471948800",  "linkLabel": "Created by Dysent" },
-  { "id": "EW", "game": "cc", "colour": "#708390", "base": true, "name": "echowight",       "link": "https://discord.com/channels/728375347732807825/1262515957868269648", "linkLabel": "Created by Zack" },
-  { "id": "GT", "game": "cc", "colour": "#7ba3b9", "base": true, "name": "glacial torrent", "link": "https://discord.com/channels/728375347732807825/1307500530427498577", "linkLabel": "Created by Yknits" },
-  { "id": "JT", "game": "cc", "colour": "#a9384d", "base": true, "name": "jester twins",    "link": "https://discord.com/channels/728375347732807825/752332681718661284",  "linkLabel": "Created by Durian" },
-  { "id": "LS", "game": "cc", "colour": "#cb883a", "base": true, "name": "lifespeaker",     "link": "https://discord.com/channels/728375347732807825/969329473122078740",  "linkLabel": "Created by General CGO and Yknits" },
-  { "id": "LR", "game": "cc", "colour": "#d35d5d", "base": true, "name": "lightracer",      "link": "https://discord.com/channels/728375347732807825/1119392782990180453", "linkLabel": "Created by Emily" },
-  { "id": "PW", "game": "cc", "colour": "#ff8836", "base": true, "name": "powdercoat",      "link": "https://discord.com/channels/728375347732807825/1318946295376773211", "linkLabel": "Created by Sebaias" },
-  { "id": "RK", "game": "cc", "colour": "#c2845a", "base": true, "name": "rekindled",       "link": "https://discord.com/channels/728375347732807825/1319087322758647859", "linkLabel": "Created by Nathan" },
-  { "id": "RT", "game": "cc", "colour": "#70b0c5", "base": true, "name": "reeftender",      "link": "https://discord.com/channels/728375347732807825/1345885968187527179", "linkLabel": "Created by kalamadude" },
-  { "id": "SF", "game": "cc", "colour": "#7597a0", "base": true, "name": "swarmshift",      "link": "https://discord.com/channels/728375347732807825/1144306190214500473", "linkLabel": "Created by Lirion" },
-  { "id": "SI", "game": "cc", "colour": "#af7b51", "base": true, "name": "skitterclaw",     "link": "https://discord.com/channels/728375347732807825/1115885987415998574", "linkLabel": "Created by Roald Hoffmann" },
-  { "id": "VP", "game": "cc", "colour": "#b09b64", "base": true, "name": "veilpiercer",     "link": "https://discord.com/channels/728375347732807825/756502381642121357",  "linkLabel": "Created by Skuzz" },
-  { "id": "VT", "game": "cc", "colour": "#8f3b3b", "base": true, "name": "vimthreader",     "link": "https://discord.com/channels/728375347732807825/732003202458714193",  "linkLabel": "Created by Polyglottus and General CGO" },
-  { "id": "VI", "game": "cc", "colour": "#9b4132", "base": true, "name": "vitalist",        "link": "https://discord.com/channels/728375347732807825/1011363552726093905", "linkLabel": "Created by Quasilocal" },
-  { "id": "WI", "game": "cc", "colour": "#957b9e", "base": true, "name": "wildborn",        "link": "https://discord.com/channels/728375347732807825/930980643091935303",  "linkLabel": "Created by Kemptonite" },
-  { "id": "WO", "game": "cc", "colour": "#4c3f5b", "base": true, "name": "woebound",        "link": "https://discord.com/channels/728375347732807825/839489760858865714",  "linkLabel": "Created by Quasilocal" }
+  {
+    "id": "AM",
+    "game": "cc",
+    "colour": "#408766",
+    "base": true,
+    "name": "alchemancer",
+    "link": "https://discord.com/channels/728375347732807825/1268641237955514491",
+    "linkLabel": "Created by kalamadude"
+  },
+  {
+    "id": "CO",
+    "game": "cc",
+    "colour": "#ff7700",
+    "base": true,
+    "name": "core",
+    "link": "https://discord.com/channels/728375347732807825/880838569734852638",
+    "linkLabel": "Created by dhauge"
+  },
+  {
+    "id": "DO",
+    "game": "cc",
+    "colour": "#6b90bd",
+    "base": true,
+    "name": "dome",
+    "link": "https://discord.com/channels/728375347732807825/756851069471948800",
+    "linkLabel": "Created by Dysent"
+  },
+  {
+    "id": "EW",
+    "game": "cc",
+    "colour": "#708390",
+    "base": true,
+    "name": "echowight",
+    "link": "https://discord.com/channels/728375347732807825/1262515957868269648",
+    "linkLabel": "Created by Zack"
+  },
+  {
+    "id": "GT",
+    "game": "cc",
+    "colour": "#7ba3b9",
+    "base": true,
+    "name": "glacial torrent",
+    "link": "https://discord.com/channels/728375347732807825/1307500530427498577",
+    "linkLabel": "Created by Yknits"
+  },
+  {
+    "id": "JT",
+    "game": "cc",
+    "colour": "#a9384d",
+    "base": true,
+    "name": "jester twins",
+    "link": "https://discord.com/channels/728375347732807825/752332681718661284",
+    "linkLabel": "Created by Durian"
+  },
+  {
+    "id": "LS",
+    "game": "cc",
+    "colour": "#cb883a",
+    "base": true,
+    "name": "lifespeaker",
+    "link": "https://discord.com/channels/728375347732807825/969329473122078740",
+    "linkLabel": "Created by General CGO and Yknits"
+  },
+  {
+    "id": "LR",
+    "game": "cc",
+    "colour": "#d35d5d",
+    "base": true,
+    "name": "lightracer",
+    "link": "https://discord.com/channels/728375347732807825/1119392782990180453",
+    "linkLabel": "Created by Emily"
+  },
+  {
+    "id": "PW",
+    "game": "cc",
+    "colour": "#ff8836",
+    "base": true,
+    "name": "powdercoat",
+    "link": "https://discord.com/channels/728375347732807825/1318946295376773211",
+    "linkLabel": "Created by Sebaias"
+  },
+  {
+    "id": "RK",
+    "game": "cc",
+    "colour": "#c2845a",
+    "base": true,
+    "name": "rekindled",
+    "link": "https://discord.com/channels/728375347732807825/1319087322758647859",
+    "linkLabel": "Created by Nathan"
+  },
+  {
+    "id": "RT",
+    "game": "cc",
+    "colour": "#70b0c5",
+    "base": true,
+    "name": "reeftender",
+    "link": "https://discord.com/channels/728375347732807825/1345885968187527179",
+    "linkLabel": "Created by kalamadude"
+  },
+  {
+    "id": "SF",
+    "game": "cc",
+    "colour": "#7597a0",
+    "base": true,
+    "name": "swarmshift",
+    "link": "https://discord.com/channels/728375347732807825/1144306190214500473",
+    "linkLabel": "Created by Lirion"
+  },
+  {
+    "id": "SI",
+    "game": "cc",
+    "colour": "#af7b51",
+    "base": true,
+    "name": "skitterclaw",
+    "link": "https://discord.com/channels/728375347732807825/1115885987415998574",
+    "linkLabel": "Created by Roald Hoffmann"
+  },
+  {
+    "id": "VP",
+    "game": "cc",
+    "colour": "#b09b64",
+    "base": true,
+    "name": "veilpiercer",
+    "link": "https://discord.com/channels/728375347732807825/756502381642121357",
+    "linkLabel": "Created by Skuzz"
+  },
+  {
+    "id": "VT",
+    "game": "cc",
+    "colour": "#8f3b3b",
+    "base": true,
+    "name": "vimthreader",
+    "link": "https://discord.com/channels/728375347732807825/732003202458714193",
+    "linkLabel": "Created by Polyglottus and General CGO"
+  },
+  {
+    "id": "VI",
+    "game": "cc",
+    "colour": "#9b4132",
+    "base": true,
+    "name": "vitalist",
+    "link": "https://discord.com/channels/728375347732807825/1011363552726093905",
+    "linkLabel": "Created by Quasilocal"
+  },
+  {
+    "id": "WI",
+    "game": "cc",
+    "colour": "#957b9e",
+    "base": true,
+    "name": "wildborn",
+    "link": "https://discord.com/channels/728375347732807825/930980643091935303",
+    "linkLabel": "Created by Kemptonite"
+  },
+  {
+    "id": "WO",
+    "game": "cc",
+    "colour": "#4c3f5b",
+    "base": true,
+    "name": "woebound",
+    "link": "https://discord.com/channels/728375347732807825/839489760858865714",
+    "linkLabel": "Created by Quasilocal"
+  }
 ]
