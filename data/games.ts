@@ -33,6 +33,13 @@ export const games: Game[] = [
     ]),
   },
   {
+    id: "merc",
+    name: "Mercenary",
+    defaultClass: "CA",
+    defaultMonster: "N/A",
+    routes: [{ id: "characters", name: "Characters" }],
+  },
+  {
     id: "jotl",
     name: "Jaws of the Lion",
     defaultClass: "DE",
