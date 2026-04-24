@@ -1,3 +1,4 @@
 [
+  { "id": "AN", "game": "merc", "colour": "#983E70", "base": true, "name": "Anaphi"},
   { "id": "CA", "game": "merc", "colour": "#859AA7", "base": true, "name": "Cassandra"}
 ]
