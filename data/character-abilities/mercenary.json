@@ -1,5 +1,222 @@
 [
   {
+    "name": "an-back",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/an-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "bug-bodys bidding",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/bug-bodys-bidding.png",
+    "level": "1",
+    "initiative": "81"
+  },
+  {
+    "name": "phantasmal flurry",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/phantasmal-flurry.png",
+    "level": "1",
+    "initiative": "23"
+  },
+  {
+    "name": "sharp teeth",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/sharp-teeth.png",
+    "level": "1",
+    "initiative": "31"
+  },
+  {
+    "name": "nocturnal feeding",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/nocturnal-feeding.png",
+    "level": "1",
+    "initiative": "25"
+  },
+  {
+    "name": "vermincall",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/vermincall.png",
+    "level": "1",
+    "initiative": "07"
+  },
+  {
+    "name": "sickening betrayal",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/sickening-betrayal.png",
+    "level": "1",
+    "initiative": "15"
+  },
+  {
+    "name": "touch of atrophy",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/touch-of-atrophy.png",
+    "level": "1",
+    "initiative": "47"
+  },
+  {
+    "name": "surrounding shadows",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/surrounding-shadows.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "howling apparition",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/howling-apparition.png",
+    "level": "1",
+    "initiative": "93"
+  },
+  {
+    "name": "endless biting",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/endless-biting.png",
+    "level": "1",
+    "initiative": "72"
+  },
+  {
+    "name": "black claws",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/black-claws.png",
+    "level": "1",
+    "initiative": "79"
+  },
+  {
+    "name": "anguish",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/anguish.png",
+    "level": "X",
+    "initiative": "33"
+  },
+  {
+    "name": "consume with regret",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/consume-with-regret.png",
+    "level": "X",
+    "initiative": "75"
+  },
+  {
+    "name": "rat surprise",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/rat-surprise.png",
+    "level": "X",
+    "initiative": "89"
+  },
+  {
+    "name": "tibers tenacity",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/tibers-tenacity.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "hidden assault",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/hidden-assault.png",
+    "level": "2",
+    "initiative": "17"
+  },
+  {
+    "name": "musophobia",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/musophobia.png",
+    "level": "3",
+    "initiative": "53"
+  },
+  {
+    "name": "seeking strikes",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/seeking-strikes.png",
+    "level": "3",
+    "initiative": "10"
+  },
+  {
+    "name": "doks ferocity",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/doks-ferocity.png",
+    "level": "4",
+    "initiative": "35"
+  },
+  {
+    "name": "compulsive hoarding",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/compulsive-hoarding.png",
+    "level": "4",
+    "initiative": "62"
+  },
+  {
+    "name": "my loyal friend",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/my-loyal-friend.png",
+    "level": "5",
+    "initiative": "91"
+  },
+  {
+    "name": "nibbled to death",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/nibbled-to-death.png",
+    "level": "5",
+    "initiative": "83"
+  },
+  {
+    "name": "diamartia's dominance",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/diamartias-dominance.png",
+    "level": "6",
+    "initiative": "68"
+  },
+  {
+    "name": "revel in misery",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/revel-in-misery.png",
+    "level": "6",
+    "initiative": "22"
+  },
+  {
+    "name": "twin frenzy",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/twin-frenzy.png",
+    "level": "7",
+    "initiative": "14"
+  },
+  {
+    "name": "rat tide",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/rat-tide.png",
+    "level": "7",
+    "initiative": "85"
+  },
+  {
+    "name": "powders ingenuity",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/powders-ingenuity.png",
+    "level": "8",
+    "initiative": "39"
+  },
+  {
+    "name": "pay the piper",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/pay-the-piper.png",
+    "level": "8",
+    "initiative": "49"
+  },
+  {
+    "name": "her highness",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/her-highness.png",
+    "level": "9",
+    "initiative": "94"
+  },
+  {
+    "name": "treacherous tactics",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/AN/treacherous-tactics.png",
+    "level": "9",
+    "initiative": "59"
+  },
+  {
     "name": "ca-back",
     "expansion": "Mercenary",
     "image": "character-ability-cards/mercenary/CA/ca-back.png",
@@ -210,4 +427,3 @@
     "initiative": "96"
   }
 ]
-

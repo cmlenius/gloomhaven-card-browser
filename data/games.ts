@@ -35,7 +35,7 @@ export const games: Game[] = [
   {
     id: "merc",
     name: "Mercenary",
-    defaultClass: "CA",
+    defaultClass: "AN",
     defaultMonster: "N/A",
     routes: [{ id: "characters", name: "Characters" }],
   },
