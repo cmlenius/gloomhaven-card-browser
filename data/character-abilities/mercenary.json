@@ -425,5 +425,208 @@
     "image": "character-ability-cards/mercenary/CA/hand-of-destiny.png",
     "level": "9",
     "initiative": "96"
+  },
+  {
+    "name": "ha-back",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/ha-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "cant be bothered",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/cant-be-bothered.png",
+    "level": "1",
+    "initiative": "75"
+  },
+  {
+    "name": "interesting speciments",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/interesting-speciments.png",
+    "level": "1",
+    "initiative": "80"
+  },
+  {
+    "name": "gather reagents",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/gather-reagents.png",
+    "level": "1",
+    "initiative": "21"
+  },
+  {
+    "name": "somewhere to be",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/somewhere-to-be.png",
+    "level": "1",
+    "initiative": "10"
+  },
+  {
+    "name": "not amused",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/not-amused.png",
+    "level": "1",
+    "initiative": "47"
+  },
+  {
+    "name": "perpetual annoyance",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/perpetual-annoyance.png",
+    "level": "1",
+    "initiative": "30"
+  },
+  {
+    "name": "minor inconvenience",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/minor-inconvenience.png",
+    "level": "1",
+    "initiative": "28"
+  },
+  {
+    "name": "fleeting interest",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/fleeting-interest.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "bizarre antics",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/bizarre-antics.png",
+    "level": "1",
+    "initiative": "13"
+  },
+  {
+    "name": "leave me alone",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/leave-me-alone.png",
+    "level": "X",
+    "initiative": "70"
+  },
+  {
+    "name": "abundant nuisance",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/abundant-nuisance.png",
+    "level": "X",
+    "initiative": "90"
+  },
+  {
+    "name": "trial and success",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/trial-and-success.png",
+    "level": "X",
+    "initiative": "95"
+  },
+  {
+    "name": "experimental insights",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/experimental-insights.png",
+    "level": "2",
+    "initiative": "24"
+  },
+  {
+    "name": "outsource",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/outsource.png",
+    "level": "2",
+    "initiative": "68"
+  },
+  {
+    "name": "beneath me",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/beneath-me.png",
+    "level": "3",
+    "initiative": "85"
+  },
+  {
+    "name": "fading presence",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/fading-presence.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "fools errand",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/fools-errand.png",
+    "level": "4",
+    "initiative": "26"
+  },
+  {
+    "name": "miniaturize",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/miniaturize.png",
+    "level": "4",
+    "initiative": "86"
+  },
+  {
+    "name": "dont be a baby",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/dont-be-a-baby.png",
+    "level": "5",
+    "initiative": "33"
+  },
+  {
+    "name": "trying to remember",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/trying-to-remember.png",
+    "level": "5",
+    "initiative": "55"
+  },
+  {
+    "name": "withering stare",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/withering-stare.png",
+    "level": "6",
+    "initiative": "38"
+  },
+  {
+    "name": "dismissive comment",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/dismissive-comment.png",
+    "level": "6",
+    "initiative": "20"
+  },
+  {
+    "name": "tear a new one",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/tear-a-new-one.png",
+    "level": "7",
+    "initiative": "19"
+  },
+  {
+    "name": "collect essence",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/collect-essence.png",
+    "level": "7",
+    "initiative": "41"
+  },
+  {
+    "name": "kill that one first",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/kill-that-one-first.png",
+    "level": "8",
+    "initiative": "07"
+  },
+  {
+    "name": "closed for business",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/closed-for-business.png",
+    "level": "8",
+    "initiative": "23"
+  },
+  {
+    "name": "fired up",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/fired-up.png",
+    "level": "9",
+    "initiative": "70"
+  },
+  {
+    "name": "the power of enhancement",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/HA/the-power-of-enhancement.png",
+    "level": "9",
+    "initiative": "98"
   }
 ]

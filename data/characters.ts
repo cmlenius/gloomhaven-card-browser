@@ -958,6 +958,16 @@ export const characters: Character[] = [
     base: true,
   },
   {
+    class: "HA",
+    colour: "#DFA1AB",
+    name: "Hail",
+    game: "merc",
+    matImage: "character-mats/mercenary/merc-hail.jpeg",
+    matImageBack: "character-mats/mercenary/merc-hail-back.jpeg",
+    sheetImage: "character-perks/mercenary/merc-hail-perks.jpeg",
+    base: true,
+  },
+  {
     class: "IN",
     colour: "#7B2D40",
     name: "Incarnate",
