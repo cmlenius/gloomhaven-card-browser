@@ -285,15 +285,15 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         (showCharacterDetails ? (
           <CharacterDetails character={character} isCharacterUnlocked={isCharacterUnlocked} />
         ) : (
-          <div style={{ paddingBottom: isCraftingMode ? "80px" : "0" }}>
+          <>
             <CardList
               cardList={cardList}
               isCraftingMode={isCraftingMode}
               activeDeck={activeDeck}
-              characterColour={character?.colour}
               onCardToggle={(image) => toggleCard(image, character?.class, maxHandSize)}
             />
-          </div>
+            {isCraftingMode && <div style={{ padding: "36px" }} />}
+          </>
         ))}
       {showAdditionalCards && <AdditionalCards sections={additionalCards} />}
 

@@ -16,20 +16,15 @@ type CardProps = {
   defaultBack?: boolean;
   isSelected?: boolean;
   isCraftingMode?: boolean;
-  characterColour?: string;
   onToggle?: () => void;
 };
 
-const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, characterColour, onToggle }: CardProps) => {
+const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, onToggle }: CardProps) => {
   return (
     <div
-      className={`${horizontal ? "card-horizontal" : "card"} ${isSelected ? "card-selected" : ""}`}
+      className={`${horizontal ? "card-horizontal" : "card"} ${isCraftingMode ? "card-crafting-mode" : ""}`}
+      style={{ opacity: isCraftingMode && !isSelected ? "0.75" : "1" }}
       onClick={() => isCraftingMode && onToggle && onToggle()}
-      style={{
-        cursor: isCraftingMode ? "pointer" : "default",
-        border: isSelected ? `4px solid ${characterColour || "gold"}` : "none",
-        borderRadius: "10px",
-      }}
     >
       {showId && <div className="card-id">{card.id}</div>}
       <div className="card-inner">
@@ -52,7 +47,6 @@ type FlipCardProps = {
   showId?: boolean;
   isSelected?: boolean;
   isCraftingMode?: boolean;
-  characterColour?: string;
   onToggle?: () => void;
 };
 
@@ -64,18 +58,13 @@ const FlipCard = ({
   showId,
   isSelected,
   isCraftingMode,
-  characterColour,
   onToggle,
 }: FlipCardProps) => {
   return (
     <div
       className={`${horizontal ? "card-horizontal" : "card"} ${isSelected ? "card-selected" : ""}`}
       onClick={() => isCraftingMode && onToggle && onToggle()}
-      style={{
-        cursor: isCraftingMode ? "pointer" : "default",
-        border: isSelected ? `4px solid ${characterColour || "gold"}` : "none",
-        borderRadius: "10px",
-      }}
+      style={{ opacity: isCraftingMode && !isSelected ? "0.75" : "1" }}
     >
       {showId && <div className="card-id">{card.id}</div>}
       <div className={`card-inner ${flipped ? "card-inner-flipped" : ""}`}>
@@ -128,7 +117,6 @@ const FlipCardWrapper = ({
   defaultBack,
   isSelected,
   isCraftingMode,
-  characterColour,
   onToggle,
 }: CardProps) => {
   const [flipped, setFlipped] = useState(defaultBack ? true : false);
@@ -147,7 +135,6 @@ const FlipCardWrapper = ({
       showId={showId}
       isSelected={isSelected}
       isCraftingMode={isCraftingMode}
-      characterColour={characterColour}
       onToggle={onToggle}
     />
   );
@@ -225,7 +212,9 @@ export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
       loadMore={loadMore}
       pageStart={0}
     >
-      {data?.map((multiLevelCard) => <MultiLevelCard key={multiLevelCard.id} multiLevelCard={multiLevelCard} />)}
+      {data?.map((multiLevelCard) => (
+        <MultiLevelCard key={multiLevelCard.id} multiLevelCard={multiLevelCard} />
+      ))}
       {[...Array(4)].map((_, idx) => (
         <div key={idx}>
           <div className="multi-level-card-controller">
@@ -245,7 +234,6 @@ type CardListProps = {
   defaultBack?: boolean;
   isCraftingMode?: boolean;
   activeDeck?: string[];
-  characterColour?: string;
   onCardToggle?: (image: string) => void;
 };
 
@@ -256,7 +244,6 @@ const CardList = ({
   defaultBack,
   isCraftingMode,
   activeDeck,
-  characterColour,
   onCardToggle,
 }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
@@ -301,7 +288,6 @@ const CardList = ({
             defaultBack={defaultBack}
             isSelected={isSelected}
             isCraftingMode={clickable}
-            characterColour={characterColour}
             onToggle={toggle}
           />
         ) : (
@@ -312,7 +298,6 @@ const CardList = ({
             showId={showId}
             isSelected={isSelected}
             isCraftingMode={clickable}
-            characterColour={characterColour}
             onToggle={toggle}
           />
         );

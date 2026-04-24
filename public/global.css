@@ -165,6 +165,10 @@ input[type="radio"] {
   margin: 4px;
 }
 
+.card-crafting-mode {
+  cursor: pointer;
+}
+
 .card-img {
   display: block;
   border-radius: 12px;
