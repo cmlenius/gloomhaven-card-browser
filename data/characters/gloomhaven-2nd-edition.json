@@ -15,6 +15,6 @@
   { "id": "SB2", "game": "gh2", "colour": "#3E3E3E", "name": "Sawbones", "altName": "Saw" },
   { "id": "SK2", "game": "gh2", "colour": "#7E6C34", "name": "Sunkeeper", "altName": "Sun" },
   { "id": "SS2", "game": "gh2", "colour": "#75524E", "name": "Soothsinger", "altName": "Music Note" },
-  { "id": "ST2", "game": "gh2", "colour": "#713B5C", "name": "Soultetherer", "altName": "Circles" },
+  { "id": "ST2", "game": "gh2", "colour": "#713B5C", "name": "Soultether", "altName": "Circles" },
   { "id": "WF2", "game": "gh2", "colour": "#634031", "name": "Wildfury", "altName": "Two Minis" }
 ]

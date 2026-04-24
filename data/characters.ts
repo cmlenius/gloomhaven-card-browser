@@ -689,12 +689,12 @@ export const characters: Character[] = [
   {
     class: "ST2",
     colour: "#713B5C",
-    name: "Soultetherer",
+    name: "Soultether",
     altName: "Circles",
     game: "gh2",
-    matImage: "character-mats/gloomhaven-2nd-edition/gh2-soultetherer.jpeg",
-    matImageBack: "character-mats/gloomhaven-2nd-edition/gh2-soultetherer-back.jpeg",
-    sheetImage: "character-perks/gloomhaven-2nd-edition/gh2-soultetherer-perks.jpeg",
+    matImage: "character-mats/gloomhaven-2nd-edition/gh2-soultether.jpeg",
+    matImageBack: "character-mats/gloomhaven-2nd-edition/gh2-soultether-back.jpeg",
+    sheetImage: "character-perks/gloomhaven-2nd-edition/gh2-soultether-perks.jpeg",
   },
   {
     class: "WF2",
