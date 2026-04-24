@@ -111,12 +111,12 @@ export const getDefaultCharacterClass = (gameId: string): string | null => {
  * @returns Character details or null
  */
 export const getCharacter = (gameId: string, characterClass: string): Character | null => {
+  const game = games.find((g) => g.id === gameId);
   if (!characterClass) {
-    const game = games.find((g) => g.id === gameId);
     if (game) characterClass = game.defaultClass;
   }
 
-  let character = characters.find((c) => c.class === characterClass);
+  let character = characters.find((c) => c.game === game.id && c.class === characterClass);
   if (character) return character;
 
   return null;
