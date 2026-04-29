@@ -1,5 +1,6 @@
 [
   { "id": "AN", "game": "merc", "colour": "#983E70", "base": true, "name": "Anaphi"},
   { "id": "CA", "game": "merc", "colour": "#859AA7", "base": true, "name": "Cassandra"},
-  { "id": "HA", "game": "merc", "colour": "#DFA1AB", "base": true, "name": "Hail"}
+  { "id": "HA", "game": "merc", "colour": "#DFA1AB", "base": true, "name": "Hail"},
+  { "id": "SA", "game": "merc", "colour": "#85A2D2", "base": true, "name": "Satha"}
 ]
