@@ -628,5 +628,215 @@
     "image": "character-ability-cards/mercenary/HA/the-power-of-enhancement.png",
     "level": "9",
     "initiative": "98"
+  },
+  {
+    "name": "sa-back",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/sa-back.png",
+    "level": "-",
+    "initiative": "-"
+  },
+  {
+    "name": "shared glory",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/shared-glory.png",
+    "level": "1",
+    "initiative": "08"
+  },
+  {
+    "name": "bring them down",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/bring-them-down.png",
+    "level": "1",
+    "initiative": "16"
+  },
+  {
+    "name": "blade of the north",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/blade-of-the-north.png",
+    "level": "1",
+    "initiative": "76"
+  },
+  {
+    "name": "victory rush",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/victory-rush.png",
+    "level": "1",
+    "initiative": "63"
+  },
+  {
+    "name": "dazing sweep",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/dazing-sweep.png",
+    "level": "1",
+    "initiative": "86"
+  },
+  {
+    "name": "lead the charge",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/lead-the-charge.png",
+    "level": "1",
+    "initiative": "39"
+  },
+  {
+    "name": "spur their spirits",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/spur-their-spirits.png",
+    "level": "1",
+    "initiative": "18"
+  },
+  {
+    "name": "implacable advance",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/implacable-advance.png",
+    "level": "1",
+    "initiative": "82"
+  },
+  {
+    "name": "combined might",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/combined-might.png",
+    "level": "1",
+    "initiative": "22"
+  },
+  {
+    "name": "get behind me",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/get-behind-me.png",
+    "level": "1",
+    "initiative": "11"
+  },
+  {
+    "name": "take command",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/take-command.png",
+    "level": "X",
+    "initiative": "55"
+  },
+  {
+    "name": "wolf pack tactics",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/wolf-pack-tactics.png",
+    "level": "X",
+    "initiative": "26"
+  },
+  {
+    "name": "emboldening call",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/emboldening-call.png",
+    "level": "X",
+    "initiative": "31"
+  },
+  {
+    "name": "outmaneuver",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/outmaneuver.png",
+    "level": "2",
+    "initiative": "41"
+  },
+  {
+    "name": "stand firm",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/stand-firm.png",
+    "level": "2",
+    "initiative": "12"
+  },
+  {
+    "name": "a little help here",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/a-little-help-here.png",
+    "level": "3",
+    "initiative": "15"
+  },
+  {
+    "name": "raze",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/raze.png",
+    "level": "3",
+    "initiative": "06"
+  },
+  {
+    "name": "strike now",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/strike-now.png",
+    "level": "4",
+    "initiative": "52"
+  },
+  {
+    "name": "northern valor",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/northern-valor.png",
+    "level": "4",
+    "initiative": "84"
+  },
+  {
+    "name": "unleash the archers",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/unleash-the-archers.png",
+    "level": "5",
+    "initiative": "64"
+  },
+  {
+    "name": "armory",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/armory.png",
+    "level": "5",
+    "initiative": "14"
+  },
+  {
+    "name": "crashing steel",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/crashing-steel.png",
+    "level": "6",
+    "initiative": "29"
+  },
+  {
+    "name": "defiance",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/defiance.png",
+    "level": "6",
+    "initiative": "47"
+  },
+  {
+    "name": "send them reeling",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/send-them-reeling.png",
+    "level": "7",
+    "initiative": "20"
+  },
+  {
+    "name": "for frosthaven",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/for-frosthaven.png",
+    "level": "7",
+    "initiative": "79"
+  },
+  {
+    "name": "lead from the front",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/lead-from-the-front.png",
+    "level": "8",
+    "initiative": "10"
+  },
+  {
+    "name": "bonded through battle",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/bonded-through-battle.png",
+    "level": "8",
+    "initiative": "72"
+  },
+  {
+    "name": "fight as one",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/fight-as-one.png",
+    "level": "9",
+    "initiative": "37"
+  },
+  {
+    "name": "stand against many",
+    "expansion": "Mercenary",
+    "image": "character-ability-cards/mercenary/SA/stand-against-many.png",
+    "level": "9",
+    "initiative": "13"
   }
 ]
