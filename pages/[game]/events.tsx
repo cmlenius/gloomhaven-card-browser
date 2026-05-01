@@ -89,7 +89,7 @@ const Events = ({ searchResults }: PageProps) => {
   };
 
   const handleSeasonChange = (newSeason: string | null) => {
-    if (query.season === newSeason) {
+    if (season === newSeason) {
       setSeason(null);
     } else {
       setSeason(newSeason);

@@ -281,7 +281,7 @@ const CardList = ({
 
         return card.imageBack ? (
           <FlipCardWrapper
-            key={card.name}
+            key={card.image}
             card={card}
             horizontal={horizontal}
             showId={showId}
@@ -292,7 +292,7 @@ const CardList = ({
           />
         ) : (
           <Card
-            key={card.name}
+            key={card.image}
             card={card}
             horizontal={horizontal}
             showId={showId}
