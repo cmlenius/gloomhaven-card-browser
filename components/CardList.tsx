@@ -278,10 +278,11 @@ const CardList = ({
           if (!isBackCard && onCardToggle) onCardToggle(card.image);
         };
         const clickable = isCraftingMode && !isBackCard;
+        const key = card.name + "-" + card.image;
 
         return card.imageBack ? (
           <FlipCardWrapper
-            key={card.image}
+            key={key}
             card={card}
             horizontal={horizontal}
             showId={showId}
