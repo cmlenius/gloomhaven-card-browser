@@ -8169,6 +8169,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-blurry-jab.jpeg",
         initiative: 20,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.6209047217228602, y: 0.225 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.6933333333333334,
+            },
+          ],
+        },
       },
       {
         name: "borrowed time",
@@ -8177,6 +8198,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-borrowed-time.jpeg",
         initiative: 2,
         level: 1.5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "breakneck speed",
@@ -8185,6 +8208,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-breakneck-speed.jpeg",
         initiative: 3,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "teleport", multitarget: false, persistent: false, x: 0.616897305359821, y: 0.68 },
+          ],
+        },
       },
       {
         name: "cascading reaction",
@@ -8193,6 +8224,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-cascading-reaction.jpeg",
         initiative: 19,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.1688888888888889,
+            },
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.29777777777777775,
+            },
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.41555555555555557,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "double time",
@@ -8201,6 +8263,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-double-time.jpeg",
         initiative: 22,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.1711111111111111,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.28444444444444444,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "drive recharge",
@@ -8209,6 +8294,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-drive-recharge.jpeg",
         initiative: 69,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "experimental adjustment",
@@ -8217,6 +8304,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-experimental-adjustment.jpeg",
         initiative: 12,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "fastest alive",
@@ -8225,6 +8314,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-fastest-alive.jpeg",
         initiative: 1,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.616897305359821,
+              y: 0.7555555555555555,
+            },
+          ],
+        },
       },
       {
         name: "flashing flurry",
@@ -8233,6 +8337,12 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-flashing-flurry.jpeg",
         initiative: 40,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [{ dot: "diamond", multitarget: true, persistent: false, x: 0.426547163506486, y: 0.7 }],
+        },
       },
       {
         name: "fractured timeline",
@@ -8241,6 +8351,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-fractured-timeline.jpeg",
         initiative: 55,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.616897305359821,
+              y: 0.6711111111111111,
+            },
+          ],
+        },
       },
       {
         name: "hit and run",
@@ -8249,6 +8374,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-hit-and-run.jpeg",
         initiative: 41,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5066945916552587,
+              y: 0.21555555555555556,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "kinetic transfer",
@@ -8257,6 +8397,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-kinetic-transfer.jpeg",
         initiative: 36,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.17555555555555555,
+            },
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.623576257705552, y: 0.3 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269157338784176,
+              y: 0.6488888888888888,
+            },
+          ],
+        },
       },
       {
         name: "make it count",
@@ -8265,6 +8434,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-make-it-count.jpeg",
         initiative: 51,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.4432445443708137,
+              y: 0.1688888888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.8244444444444444,
+            },
+          ],
+        },
       },
       {
         name: "overdrive",
@@ -8273,6 +8470,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-overdrive.jpeg",
         initiative: 60,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "phasing blades",
@@ -8281,6 +8480,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-phasing-blades.jpeg",
         initiative: 63,
         level: 7,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.7022222222222222,
+            },
+          ],
+        },
       },
       {
         name: "potential energy",
@@ -8289,6 +8503,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-potential-energy.jpeg",
         initiative: 32,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6636499717799383,
+              y: 0.2577777777777778,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6636499717799383,
+              y: 0.7222222222222222,
+            },
+          ],
+        },
       },
       {
         name: "power leak",
@@ -8297,6 +8539,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-power-leak.jpeg",
         initiative: 17,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.6533333333333333,
+            },
+          ],
+        },
       },
       {
         name: "precision timing",
@@ -8305,6 +8562,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-precision-timing.jpeg",
         initiative: 15,
         level: 4,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.6444444444444445,
+            },
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.8977777777777778,
+            },
+          ],
+        },
       },
       {
         name: "quantum uncertainty",
@@ -8313,6 +8593,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-quantum-uncertainty.jpeg",
         initiative: 35,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.19111111111111112,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.7022222222222222,
+            },
+          ],
+        },
       },
       {
         name: "reckless augmentation",
@@ -8321,6 +8629,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-reckless-augmentation.jpeg",
         initiative: 10,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.2222222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.6355555555555555,
+            },
+          ],
+        },
       },
       {
         name: "reverse the flow",
@@ -8329,6 +8665,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-reverse-the-flow.jpeg",
         initiative: 58,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "rushed to the end",
@@ -8337,6 +8675,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-rushed-to-the-end.jpeg",
         initiative: 32,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.25333333333333335,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269157338784176,
+              y: 0.7222222222222222,
+            },
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.8777777777777778,
+            },
+          ],
+        },
       },
       {
         name: "sand in the hourglass",
@@ -8345,6 +8719,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-sand-in-the-hourglass.jpeg",
         initiative: 52,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.42988663967935153,
+              y: 0.6444444444444445,
+            },
+          ],
+        },
       },
       {
         name: "sap speed",
@@ -8353,6 +8742,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-sap-speed.jpeg",
         initiative: 45,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "stab them all",
@@ -8361,6 +8752,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-stab-them-all.jpeg",
         initiative: 4,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.29555555555555557,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.45111111111111113,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "systems reboot",
@@ -8369,6 +8783,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-systems-reboot.jpeg",
         initiative: 57,
         level: 2,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.49333668696379657,
+              y: 0.22444444444444445,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "temporal displacement",
@@ -8377,6 +8806,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-temporal-displacement.jpeg",
         initiative: 44,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.7511111111111111,
+            },
+          ],
+        },
       },
       {
         name: "the knife's edge",
@@ -8385,6 +8829,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-the-knifes-edge.jpeg",
         initiative: 65,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4966761631366621,
+              y: 0.6888888888888889,
+            },
+          ],
+        },
       },
       {
         name: "twin strike",
@@ -8393,6 +8852,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BB/fh-twin-strike.jpeg",
         initiative: 24,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.1688888888888889,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.41555555555555557,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.6511111111111111,
+            },
+          ],
+        },
       },
     ],
     BN: [
@@ -8411,6 +8906,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-air-support.jpeg",
         initiative: 20,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4401071284440694,
+              y: 0.2734375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.44738386882166475,
+              y: 0.715,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6803115094118107,
+              y: 0.715,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44738386882166475,
+              y: 0.7916666666666666,
+            },
+          ],
+        },
       },
       {
         name: "at all costs",
@@ -8419,6 +8958,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-at-all-costs.jpeg",
         initiative: 60,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.484952843110398,
+              y: 0.6983333333333334,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.800532227135757,
+              y: 0.6983333333333334,
+            },
+          ],
+        },
       },
       {
         name: "barricade",
@@ -8427,6 +8989,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-barricade.jpeg",
         initiative: 16,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4494992112117988,
+              y: 0.715625,
+            },
+          ],
+        },
       },
       {
         name: "boldening blow",
@@ -8435,6 +9012,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-boldening-blow.jpeg",
         initiative: 72,
         level: 4,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6256007631067249,
+              y: 0.6796875,
+            },
+            { dot: "square", plus1: "move", multitarget: true, persistent: false, x: 0.6256007631067249, y: 0.846875 },
+          ],
+        },
       },
       {
         name: "bolstering shout",
@@ -8443,6 +9036,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-bolstering-shout.jpeg",
         initiative: 75,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.5598561837326191,
+              y: 0.2421875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6232527424147926,
+              y: 0.7046875,
+            },
+            {
+              dot: "square",
+              plus1: "target",
+              multitarget: false,
+              persistent: false,
+              x: 0.5645522251164838,
+              y: 0.8109375,
+            },
+          ],
+        },
       },
       {
         name: "combined effort",
@@ -8451,6 +9080,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-combined-effort.jpeg",
         initiative: 32,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.35792640422643723,
+              y: 0.30625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6349928458744543, y: 0.68125 },
+            { dot: "square", plus1: "move", multitarget: true, persistent: false, x: 0.632644825182522, y: 0.85 },
+          ],
+        },
       },
       {
         name: "deflecting maneuver",
@@ -8459,6 +9110,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-deflecting-maneuver.jpeg",
         initiative: 15,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.1734375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.7015625,
+            },
+          ],
+        },
       },
       {
         name: "driving inspiration",
@@ -8467,6 +9146,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-driving-inspiration.jpeg",
         initiative: 18,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3861026525296254,
+              y: 0.26875,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45184723190373116,
+              y: 0.715625,
+            },
+          ],
+        },
       },
       {
         name: "explosive epicenter",
@@ -8475,6 +9182,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-explosive-epicenter.jpeg",
         initiative: 78,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "hail of spears",
@@ -8483,6 +9192,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-hail-of-spears.jpeg",
         initiative: 44,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4941116043585134,
+              y: 0.18125,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "head of the hammer",
@@ -8491,6 +9215,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-head-of-the-hammer.jpeg",
         initiative: 87,
         level: 3,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3602744249183696,
+              y: 0.2859375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6302195436934998, y: 0.67 },
+          ],
+        },
       },
       {
         name: "hold the line",
@@ -8499,6 +9244,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-hold-the-line.jpeg",
         initiative: 5,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6115126389551307,
+              y: 0.2125,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6232527424147926, y: 0.64375 },
+            {
+              dot: "circle",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6232527424147926,
+              y: 0.84375,
+            },
+          ],
+        },
       },
       {
         name: "incendiary throw",
@@ -8507,6 +9281,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-incendiary-throw.jpeg",
         initiative: 22,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49176358366658107,
+              y: 0.178125,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4753274388230546,
+              y: 0.7203125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4753274388230546,
+              y: 0.79375,
+            },
+          ],
+        },
       },
       {
         name: "javelin",
@@ -8515,6 +9325,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-javelin.jpeg",
         initiative: 21,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4964596250504458,
+              y: 0.2625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6138606596470632,
+              y: 0.6984375,
+            },
+          ],
+        },
       },
       {
         name: "lead from afar",
@@ -8523,6 +9361,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-lead-from-afar.jpeg",
         initiative: 80,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4988076457423781,
+              y: 0.2484375,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.44715119051986646,
+              y: 0.721875,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6778069111258952,
+              y: 0.7216666666666667,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6772572183292366,
+              y: 0.796875,
+            },
+          ],
+        },
       },
       {
         name: "let them come",
@@ -8531,6 +9413,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-let-them-come.jpeg",
         initiative: 24,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4448031698279341,
+              y: 0.721875,
+            },
+          ],
+        },
       },
       {
         name: "meat grinder",
@@ -8539,6 +9436,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-meat-grinder.jpeg",
         initiative: 62,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.36731848699416664,
+              y: 0.2921875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.434860877392087,
+              y: 0.8316666666666667,
+            },
+          ],
+        },
       },
       {
         name: "pincer movement",
@@ -8547,6 +9472,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-pincer-movement.jpeg",
         initiative: 69,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3602744249183696,
+              y: 0.3078125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6209047217228602, y: 0.7 },
+          ],
+        },
       },
       {
         name: "pinning charge",
@@ -8555,6 +9501,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-pinning-charge.jpeg",
         initiative: 17,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4949712362540602,
+              y: 0.19666666666666666,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: true, persistent: false, x: 0.6232527424147926, y: 0.796875 },
+          ],
+        },
       },
       {
         name: "rallying cry",
@@ -8563,6 +9530,25 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-rallying-cry.jpeg",
         initiative: 71,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "hex", multitarget: true, persistent: false, hexes: 1, x: 0.7579540562751927, y: 0.23 }],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.44988846710758035,
+              y: 0.715,
+            },
+          ],
+        },
       },
       {
         name: "regroup",
@@ -8571,6 +9557,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-regroup.jpeg",
         initiative: 25,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4448031698279341,
+              y: 0.3,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: true, persistent: false, x: 0.6302968044905896, y: 0.7921875 },
+          ],
+        },
       },
       {
         name: "resolved courage",
@@ -8579,6 +9586,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-resolved-courage.jpeg",
         initiative: 10,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "set for the charge",
@@ -8587,6 +9596,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-set-for-the-charge.jpeg",
         initiative: 6,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "sweeping aid",
@@ -8595,6 +9606,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-sweeping-aid.jpeg",
         initiative: 73,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.43775910775213706,
+              y: 0.1828125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6185567010309279,
+              y: 0.7703125,
+            },
+          ],
+        },
       },
       {
         name: "take no prisoners",
@@ -8603,6 +9642,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-take-no-prisoners.jpeg",
         initiative: 85,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4423746722498337,
+              y: 0.7216666666666667,
+            },
+          ],
+        },
       },
       {
         name: "taunting howl",
@@ -8611,6 +9665,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-taunting-howl.jpeg",
         initiative: 11,
         level: 8,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "pull", multitarget: true, persistent: false, x: 0.4095828594489489, y: 0.2234375 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6185567010309279,
+              y: 0.6703125,
+            },
+            { dot: "square", plus1: "move", multitarget: true, persistent: false, x: 0.6162086803389955, y: 0.846875 },
+          ],
+        },
       },
       {
         name: "tip of the spear",
@@ -8619,6 +9695,25 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-tip-of-the-spear.jpeg",
         initiative: 67,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "hex", multitarget: true, persistent: false, hexes: 2, x: 0.7970062736177863, y: 0.1625 }],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6256007631067249,
+              y: 0.7640625,
+            },
+          ],
+        },
       },
       {
         name: "tri-thrust",
@@ -8627,6 +9722,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-tri-thrust.jpeg",
         initiative: 27,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.35323036284257253,
+              y: 0.2984375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6349928458744543, y: 0.653125 },
+            { dot: "square", plus1: "attack", multitarget: true, persistent: false, x: 0.5011556664343104, y: 0.7625 },
+          ],
+        },
       },
       {
         name: "unbreakable wall",
@@ -8635,6 +9752,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BN/fh-unbreakable-wall.jpeg",
         initiative: 83,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     BO: [
@@ -8653,6 +9772,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-angry-spirits.jpeg",
         initiative: 76,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.44886511870597445,
+              y: 0.24305555555555555,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6888859900860944,
+              y: 0.24305555555555555,
+            },
+            {
+              dot: "square",
+              plus1: "summon-range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6888859900860944,
+              y: 0.32083333333333336,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "approach oblivion",
@@ -8661,6 +9811,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-approach-oblivion.jpeg",
         initiative: 53,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.3173754239499087,
+              y: 0.17916666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6346204017740673,
+              y: 0.7583333333333333,
+            },
+          ],
+        },
       },
       {
         name: "behold the shrouded sun",
@@ -8669,6 +9847,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-behold-the-shrouded-sun.jpeg",
         initiative: 10,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "bone dagger",
@@ -8677,6 +9857,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-bone-dagger.jpeg",
         initiative: 29,
         level: 2,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.5073049830420037, y: 0.225 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6137490216540569,
+              y: 0.6277777777777778,
+            },
+          ],
+        },
       },
       {
         name: "command the wretched",
@@ -8685,6 +9886,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-command-the-wretched.jpeg",
         initiative: 83,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "critical failure",
@@ -8693,6 +9896,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-critical-failure.jpeg",
         initiative: 95,
         level: 4,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "damned horde",
@@ -8701,6 +9906,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-damned-horde.jpeg",
         initiative: 71,
         level: 1,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.21388888888888888,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.21388888888888888,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.2916666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "target",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.7527777777777778,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.7368901643621184,
+              y: 0.7527777777777778,
+            },
+          ],
+        },
       },
       {
         name: "dark tidings",
@@ -8709,6 +9966,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-dark-tidings.jpeg",
         initiative: 43,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.7569444444444444,
+            },
+          ],
+        },
       },
       {
         name: "decaying will",
@@ -8717,6 +9989,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-decaying-will.jpeg",
         initiative: 46,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44886511870597445,
+              y: 0.2013888888888889,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "endless numbers",
@@ -8725,6 +10012,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-endless-numbers.jpeg",
         initiative: 86,
         level: 8,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.43842942864596923,
+              y: 0.1736111111111111,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6471432298460735,
+              y: 0.1736111111111111,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.43842942864596923,
+              y: 0.25,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "eternal torment",
@@ -8733,6 +10051,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-eternal-torment.jpeg",
         initiative: 70,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "exploding corpse",
@@ -8741,6 +10061,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-exploding-corpse.jpeg",
         initiative: 21,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.283981215757892,
+              y: 0.24583333333333332,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "fell remedy",
@@ -8749,6 +10084,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-fell-remedy.jpeg",
         initiative: 30,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.39668666840594835,
+              y: 0.2111111111111111,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "flesh shield",
@@ -8757,6 +10107,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-flesh-shield.jpeg",
         initiative: 16,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.3541666666666667,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "flow of the black river",
@@ -8765,6 +10130,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-flow-of-the-black-river.jpeg",
         initiative: 18,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6346204017740673,
+              y: 0.6722222222222223,
+            },
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6346204017740673, y: 0.8375 },
+          ],
+        },
       },
       {
         name: "grave digging",
@@ -8773,6 +10154,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-grave-digging.jpeg",
         initiative: 96,
         level: 3,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.21388888888888888,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.21388888888888888,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.2902777777777778,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "life in death",
@@ -8781,6 +10193,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-life-in-death.jpeg",
         initiative: 91,
         level: 1,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.49528561470447957,
+              y: 0.2125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.8005283046556848,
+              y: 0.2140625,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4929375940125472,
+              y: 0.290625,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "malicious conversion",
@@ -8789,6 +10232,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-malicious-conversion.jpeg",
         initiative: 26,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.16111111111111112,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "putrid cloud",
@@ -8797,6 +10255,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-putrid-cloud.jpeg",
         initiative: 28,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "recycled limbs",
@@ -8805,6 +10265,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-recycled-limbs.jpeg",
         initiative: 52,
         level: 7,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "returned servant",
@@ -8813,6 +10275,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-returned-servant.jpeg",
         initiative: 81,
         level: 1,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.2125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.2125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.2916666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.7513888888888889,
+            },
+          ],
+        },
       },
       {
         name: "rotting multitude",
@@ -8821,6 +10327,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-rotting-multitude.jpeg",
         initiative: 66,
         level: 6,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: true,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.2125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.2125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.2916666666666667,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "solid bones",
@@ -8829,6 +10366,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-solid-bones.jpeg",
         initiative: 32,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6387946777980694,
+              y: 0.7416666666666667,
+            },
+          ],
+        },
       },
       {
         name: "soul claim",
@@ -8837,6 +10389,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-soul-claim.jpeg",
         initiative: 23,
         level: 7,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "transfer of essence",
@@ -8845,6 +10399,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-transfer-of-essence.jpeg",
         initiative: 62,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "twisted decree",
@@ -8853,6 +10409,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-twisted-decree.jpeg",
         initiative: 85,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3987738064179494,
+              y: 0.7513888888888889,
+            },
+          ],
+        },
       },
       {
         name: "unearthed horror",
@@ -8861,6 +10432,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-unearthed-horror.jpeg",
         initiative: 94,
         level: 2,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.2375,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7974171667101487,
+              y: 0.2388888888888889,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.31527777777777777,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "unforgivable methods",
@@ -8869,6 +10471,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-unforgivable-methods.jpeg",
         initiative: 98,
         level: 5,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45095225671797545,
+              y: 0.2125,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6930602661100965,
+              y: 0.21388888888888888,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44886511870597445,
+              y: 0.2916666666666667,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "unholy prowess",
@@ -8877,6 +10510,45 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-unholy-prowess.jpeg",
         initiative: 97,
         level: 9,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.18333333333333332,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.18333333333333332,
+            },
+            {
+              dot: "square",
+              plus1: "summon-range",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.25972222222222224,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.2611111111111111,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "wailing from beyond",
@@ -8885,6 +10557,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-wailing-from-beyond.jpeg",
         initiative: 73,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3841638403339421,
+              y: 0.18611111111111112,
+            },
+            {
+              dot: "square",
+              plus1: "target",
+              multitarget: false,
+              persistent: false,
+              x: 0.6158361596660579,
+              y: 0.18472222222222223,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.6666666666666666,
+            },
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.39251239238194624,
+              y: 0.7805555555555556,
+            },
+          ],
+        },
       },
       {
         name: "wrath of the turned earth",
@@ -8893,6 +10609,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/BO/fh-wrath-of-the-turned-earth.jpeg",
         initiative: 80,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     CR: [
@@ -8911,6 +10629,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-blood-in-the-water.jpeg",
         initiative: 53,
         level: 2,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6239899306063749,
+              y: 0.1333333333333334,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6277466180964513,
+              y: 0.3279166666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6227377014430163,
+              y: 0.6954166666666666,
+            },
+          ],
+        },
       },
       {
         name: "chaotic refraction",
@@ -8919,6 +10673,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-chaotic-refraction.jpeg",
         initiative: 26,
         level: 4,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6221115868613369, y: 0.70875 },
+          ],
+        },
       },
       {
         name: "cleansing swell",
@@ -8927,6 +10689,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-cleansing-swell.jpeg",
         initiative: 45,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: true, persistent: false, x: 0.34912562924914203, y: 0.24 },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "clean sweep",
@@ -8935,6 +10705,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-clean-sweep.jpeg",
         initiative: 65,
         level: 4,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.618354899371261,
+              y: 0.6583333333333332,
+            },
+          ],
+        },
       },
       {
         name: "crashing surge",
@@ -8943,6 +10728,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-crashing-surge.jpeg",
         initiative: 34,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.41111097283539744,
+              y: 0.21750000000000005,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202332431162989,
+              y: 0.6862499999999999,
+            },
+          ],
+        },
       },
       {
         name: "cresting force",
@@ -8951,6 +10764,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-cresting-force.jpeg",
         initiative: 87,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "crush armor",
@@ -8959,6 +10774,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-crush-armor.jpeg",
         initiative: 42,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252421597697337,
+              y: 0.6733333333333332,
+            },
+          ],
+        },
       },
       {
         name: "death on all sides",
@@ -8967,6 +10797,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-death-on-all-sides.jpeg",
         initiative: 73,
         level: 8,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6164765556262227,
+              y: 0.7558333333333332,
+            },
+          ],
+        },
       },
       {
         name: "down to the depths",
@@ -8975,6 +10820,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-down-to-the-depths.jpeg",
         initiative: 74,
         level: 1,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "drown beneath the waves",
@@ -8983,6 +10830,25 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-drown-beneath-the-waves.jpeg",
         initiative: 9,
         level: 7,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252421597697337,
+              y: 0.3787499999999999,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "square", plus1: "pull", multitarget: true, persistent: false, x: 0.4668351706048592, y: 0.7 }],
+        },
       },
       {
         name: "dug in",
@@ -8991,6 +10857,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-dug-in.jpeg",
         initiative: 76,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "ebb and flow",
@@ -8999,6 +10867,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-ebb-and-flow.jpeg",
         initiative: 24,
         level: 8,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.2946536606430391,
+              y: 0.3308333333333331,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202332431162989,
+              y: 0.6579166666666667,
+            },
+          ],
+        },
       },
       {
         name: "endless cycle",
@@ -9007,6 +10903,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-endless-cycle.jpeg",
         initiative: 8,
         level: 3,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "high tide",
@@ -9015,6 +10913,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-high-tide.jpeg",
         initiative: 90,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6390166805666795,
+              y: 0.17541666666666672,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6308771910048476,
+              y: 0.32874999999999965,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "low tide",
@@ -9023,6 +10944,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-low-tide.jpeg",
         initiative: 10,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252421597697335,
+              y: 0.6683333333333336,
+            },
+          ],
+        },
       },
       {
         name: "mighty claws",
@@ -9031,6 +10967,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-mighty-claws.jpeg",
         initiative: 23,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6277466180964513,
+              y: 0.697083333333333,
+            },
+            {
+              dot: "circle",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283727326781305,
+              y: 0.7683333333333335,
+            },
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6264870788580112,
+              y: 0.6245833333333332,
+            },
+          ],
+        },
       },
       {
         name: "overwhelming wave",
@@ -9039,6 +11006,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-overwhelming-wave.jpeg",
         initiative: 86,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4349033269392126,
+              y: 0.29333333333333333,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "pool of power",
@@ -9047,6 +11029,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-pool-of-power.jpeg",
         initiative: 41,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.6333816493315652,
+              y: 0.19375000000000003,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "powerful pincer",
@@ -9055,6 +11052,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-powerful-pincer.jpeg",
         initiative: 70,
         level: 6,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.622111586861337,
+              y: 0.6991666666666665,
+            },
+          ],
+        },
       },
       {
         name: "rancid brine",
@@ -9063,6 +11075,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-rancid-brine.jpeg",
         initiative: 62,
         level: 1,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "rising flood",
@@ -9071,6 +11085,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-rising-flood.jpeg",
         initiative: 49,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "sharp chitin",
@@ -9079,6 +11095,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-sharp-chitin.jpeg",
         initiative: 25,
         level: 1,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6196131543219733,
+              y: 0.6783333333333332,
+            },
+          ],
+        },
       },
       {
         name: "shuck",
@@ -9087,6 +11118,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-shuck.jpeg",
         initiative: 55,
         level: 3,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "skitter",
@@ -9095,6 +11128,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-skitter.jpeg",
         initiative: 51,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.616476555626223,
+              y: 0.2941666666666665,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "smashing torrent",
@@ -9103,6 +11151,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-smashing-torrent.jpeg",
         initiative: 79,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "sodden soil",
@@ -9111,6 +11161,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-sodden-soil.jpeg",
         initiative: 17,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.45994791020638637,
+              y: 0.29000000000000015,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3278377334720445,
+              y: 0.8454166666666669,
+            },
+          ],
+        },
       },
       {
         name: "soft flesh",
@@ -9119,6 +11197,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-soft-flesh.jpeg",
         initiative: 75,
         level: 1,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.627746618096451,
+              y: 0.6683333333333333,
+            },
+          ],
+        },
       },
       {
         name: "submerge",
@@ -9127,6 +11220,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-submerge.jpeg",
         initiative: 68,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.48248803514684285,
+              y: 0.2341666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6264943889330925,
+              y: 0.6604166666666667,
+            },
+          ],
+        },
       },
       {
         name: "tidal blast",
@@ -9135,6 +11256,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-tidal-blast.jpeg",
         initiative: 71,
         level: 5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3203243584918922,
+              y: 0.27625000000000005,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.7241682636750705,
+              y: 0.23791666666666667,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "twilight grasp",
@@ -9143,6 +11287,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-twilight-grasp.jpeg",
         initiative: 33,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4768530039117287,
+              y: 0.20125000000000004,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "undertow",
@@ -9151,6 +11310,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/CR/fh-undertow.jpeg",
         initiative: 15,
         level: 1.5,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.48812306638195696,
+              y: 0.7041666666666666,
+            },
+          ],
+        },
       },
     ],
     DF: [
@@ -9169,6 +11343,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-accurate-strikes.jpeg",
         initiative: 56,
         level: 6,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302535308501852,
+              y: 0.6866666666666666,
+            },
+          ],
+        },
       },
       {
         name: "against all odds",
@@ -9177,6 +11366,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-against-all-odds.jpeg",
         initiative: 37,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "bloodletting",
@@ -9185,6 +11376,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-bloodletting.jpeg",
         initiative: 65,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202613375163709,
+              y: 0.19777777777777777,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5033798232591321,
+              y: 0.7533333333333333,
+            },
+          ],
+        },
       },
       {
         name: "break through",
@@ -9193,6 +11412,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-break-through.jpeg",
         initiative: 34,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6335929789916499,
+              y: 0.6711111111111111,
+            },
+          ],
+        },
       },
       {
         name: "chunk of flesh",
@@ -9201,6 +11435,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-chunk-of-flesh.jpeg",
         initiative: 62,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4799783644842743,
+              y: 0.2911111111111111,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "consume stamina",
@@ -9209,6 +11458,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-consume-stamina.jpeg",
         initiative: 21,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.493336157050133,
+              y: 0.19111111111111112,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6235746345672558,
+              y: 0.72,
+            },
+          ],
+        },
       },
       {
         name: "continuous health",
@@ -9217,6 +11494,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-continuous-health.jpeg",
         initiative: 61,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4933614077513688,
+              y: 0.2088888888888889,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "crushing weight",
@@ -9225,6 +11517,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-crushing-weight.jpeg",
         initiative: 71,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4849924934735602,
+              y: 0.6883333333333334,
+            },
+          ],
+        },
       },
       {
         name: "deadly shot",
@@ -9233,6 +11540,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-deadly-shot.jpeg",
         initiative: 32,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.43992985837663096,
+              y: 0.30666666666666664,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "destructive fury",
@@ -9241,6 +11563,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-destructive-fury.jpeg",
         initiative: 19,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.37647989349412986,
+              y: 0.28888888888888886,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.33974570329899767,
+              y: 0.7533333333333333,
+            },
+          ],
+        },
       },
       {
         name: "draining arrows",
@@ -9249,6 +11599,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-draining-arrows.jpeg",
         initiative: 23,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3965167245096565,
+              y: 0.3088888888888889,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "dual bow",
@@ -9257,6 +11622,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-dual-bow.jpeg",
         initiative: 26,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.45326277935255677,
+              y: 0.3022222222222222,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "ever forward",
@@ -9265,6 +11645,25 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-ever-forward.jpeg",
         initiative: 67,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "diamond-plus", multitarget: false, persistent: false, x: 0.4732994682013449, y: 0.36 }],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.43992985837663096,
+              y: 0.7577777777777778,
+            },
+          ],
+        },
       },
       {
         name: "everlasting",
@@ -9273,6 +11672,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-everlasting.jpeg",
         initiative: 96,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.386473816523263,
+              y: 0.6511111111111111,
+            },
+          ],
+        },
       },
       {
         name: "fierce barrage",
@@ -9281,6 +11695,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-fierce-barrage.jpeg",
         initiative: 32,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.45660222749402146,
+              y: 0.2866666666666667,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "fortitude",
@@ -9289,6 +11718,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-fortitude.jpeg",
         initiative: 31,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.48668246407952653,
+              y: 0.16666666666666666,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "gift of the prey",
@@ -9297,6 +11741,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-gift-of-the-prey.jpeg",
         initiative: 40,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "attack", multitarget: false, persistent: false, x: 0.6335929789916499, y: 0.2 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6335929789916499,
+              y: 0.6888888888888889,
+            },
+          ],
+        },
       },
       {
         name: "inevitable conclusion",
@@ -9305,6 +11770,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-inevitable-conclusion.jpeg",
         initiative: 29,
         level: 8,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3397215425427574,
+              y: 0.15333333333333332,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5033545014745271,
+              y: 0.7555555555555555,
+            },
+          ],
+        },
       },
       {
         name: "like the wind",
@@ -9313,6 +11806,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-like-the-wind.jpeg",
         initiative: 77,
         level: 7,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "no remorse",
@@ -9321,6 +11816,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-no-remorse.jpeg",
         initiative: 20,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4800035204076843,
+              y: 0.29333333333333333,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269402811882132,
+              y: 0.6711111111111111,
+            },
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269402811882132,
+              y: 0.8777777777777778,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269402811882132,
+              y: 0.7733333333333333,
+            },
+          ],
+        },
       },
       {
         name: "precision aim",
@@ -9329,6 +11868,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-precision-aim.jpeg",
         initiative: 66,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6135823938445287,
+              y: 0.6888888888888889,
+            },
+          ],
+        },
       },
       {
         name: "prudent preparation",
@@ -9337,6 +11891,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-prudent-preparation.jpeg",
         initiative: 14,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202613375163709,
+              y: 0.2222222222222222,
+            },
+            {
+              dot: "diamond-plus",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202613375163709,
+              y: 0.3422222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.48334299224360544,
+              y: 0.7577777777777778,
+            },
+          ],
+        },
       },
       {
         name: "relentless",
@@ -9345,6 +11935,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-relentless.jpeg",
         initiative: 89,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "shockwave",
@@ -9353,6 +11945,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-shockwave.jpeg",
         initiative: 17,
         level: 2,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6169218656804498,
+              y: 0.8311111111111111,
+            },
+          ],
+        },
       },
       {
         name: "survivalist",
@@ -9361,6 +11968,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-survivalist.jpeg",
         initiative: 91,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6269140827087205, y: 0.64 },
+          ],
+        },
       },
       {
         name: "sustained momentum",
@@ -9369,6 +11984,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-sustained-momentum.jpeg",
         initiative: 76,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202613375163709,
+              y: 0.21555555555555556,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "unbreakable",
@@ -9377,6 +12007,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-unbreakable.jpeg",
         initiative: 90,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "unending fight",
@@ -9385,6 +12017,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-unending-fight.jpeg",
         initiative: 25,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6235746345672558,
+              y: 0.19111111111111112,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6235746345672558,
+              y: 0.40444444444444444,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "use every part",
@@ -9393,6 +12048,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-use-every-part.jpeg",
         initiative: 18,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4899967089086683,
+              y: 0.20222222222222222,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "vile assault",
@@ -9401,6 +12071,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-vile-assault.jpeg",
         initiative: 27,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5067192950950532,
+              y: 0.2222222222222222,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5067192950950532,
+              y: 0.34444444444444444,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6236008093522921,
+              y: 0.7044444444444444,
+            },
+          ],
+        },
       },
       {
         name: "violent inheritance",
@@ -9409,6 +12115,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DF/fh-violent-inheritance.jpeg",
         initiative: 70,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202613375163709,
+              y: 0.2222222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6169218656804498,
+              y: 0.6955555555555556,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4933614077513688,
+              y: 0.8133333333333334,
+            },
+          ],
+        },
       },
     ],
     DT: [
@@ -9427,6 +12169,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-black-night-of-the-deep.jpeg",
         initiative: 26,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3998173754239499,
+              y: 0.3458333333333333,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380641,
+              y: 0.6732638888888891,
+            },
+          ],
+        },
       },
       {
         name: "black scythe",
@@ -9435,6 +12205,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-black-scythe.jpeg",
         initiative: 45,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.24861111111111112,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "claw of doom",
@@ -9443,6 +12228,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-claw-of-doom.jpeg",
         initiative: 30,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5083485520480042,
+              y: 0.26944444444444443,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.7569444444444444,
+            },
+          ],
+        },
       },
       {
         name: "consume the helpless",
@@ -9451,6 +12264,12 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-consume-the-helpless.jpeg",
         initiative: 12,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "diamond", multitarget: false, persistent: false, x: 0.3064179493869032, y: 0.284375 }],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "crippling terror",
@@ -9459,6 +12278,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-crippling-terror.jpeg",
         initiative: 15,
         level: 3,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.5062614140360031,
+              y: 0.19444444444444445,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6168797286720584,
+              y: 0.6486111111111111,
+            },
+          ],
+        },
       },
       {
         name: "crushing darkness",
@@ -9467,6 +12314,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-crushing-darkness.jpeg",
         initiative: 40,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.23333333333333334,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "death spiral",
@@ -9475,6 +12337,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-death-spiral.jpeg",
         initiative: 48,
         level: 5,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6231411427080615,
+              y: 0.8638888888888889,
+            },
+          ],
+        },
       },
       {
         name: "dire frenzy",
@@ -9483,6 +12360,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-dire-frenzy.jpeg",
         initiative: 26,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6335768327680668,
+              y: 0.2902777777777778,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6335768327680668,
+              y: 0.4527777777777778,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200625,
+              y: 0.6694444444444445,
+            },
+          ],
+        },
       },
       {
         name: "extra decoration",
@@ -9491,6 +12404,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-extra-decoration.jpeg",
         initiative: 92,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6335768327680668,
+              y: 0.18888888888888888,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6314896947560658,
+              y: 0.6722222222222223,
+            },
+          ],
+        },
       },
       {
         name: "grim trophies",
@@ -9499,6 +12440,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-grim-trophies.jpeg",
         initiative: 18,
         level: 4,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "hasten the end",
@@ -9507,6 +12450,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-hasten-the-end.jpeg",
         initiative: 65,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6273154187320636,
+              y: 0.6430555555555556,
+            },
+          ],
+        },
       },
       {
         name: "haunting brutality",
@@ -9515,6 +12473,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-haunting-brutality.jpeg",
         initiative: 23,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6267936342290634,
+              y: 0.22430555555555554,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.624184711714062,
+              y: 0.6791666666666665,
+            },
+          ],
+        },
       },
       {
         name: "hollow aura",
@@ -9523,6 +12509,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-hollow-aura.jpeg",
         initiative: 88,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49478215496999733,
+              y: 0.2625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6356639707800679,
+              y: 0.7027777777777777,
+            },
+          ],
+        },
       },
       {
         name: "ink cloud",
@@ -9531,6 +12545,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-ink-cloud.jpeg",
         initiative: 28,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3225932689799113,
+              y: 0.2638888888888889,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "lacerating stabs",
@@ -9539,6 +12568,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-lacerating-stabs.jpeg",
         initiative: 14,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6935820506130966,
+              y: 0.12916666666666665,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6941038351160971,
+              y: 0.20277777777777778,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.692016697104096,
+              y: 0.35138888888888886,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6944444444444444,
+            },
+          ],
+        },
       },
       {
         name: "lie in wait",
@@ -9547,6 +12620,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-lie-in-wait.jpeg",
         initiative: 98,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6142708061570571,
+              y: 0.7027777777777777,
+            },
+          ],
+        },
       },
       {
         name: "mantle of dread",
@@ -9555,6 +12643,12 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-mantle-of-dread.jpeg",
         initiative: 96,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "circle", multitarget: true, persistent: false, x: 0.42486303156796246, y: 0.2375 }],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "morbid camouflage",
@@ -9563,6 +12657,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-morbid-camouflage.jpeg",
         initiative: 31,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.24166666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6309679102530654, y: 0.715625 },
+          ],
+        },
       },
       {
         name: "pinning spines",
@@ -9571,6 +12686,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-pinning-spines.jpeg",
         initiative: 25,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5041742760240021,
+              y: 0.2263888888888889,
+            },
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5041742760240021,
+              y: 0.35833333333333334,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "rip from the bone",
@@ -9579,6 +12717,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-rip-from-the-bone.jpeg",
         initiative: 11,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "attack", multitarget: true, persistent: false, x: 0.39773023741194885, y: 0.225 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6314896947560658,
+              y: 0.6958333333333333,
+            },
+          ],
+        },
       },
       {
         name: "skewer the flesh",
@@ -9587,6 +12746,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-skewer-the-flesh.jpeg",
         initiative: 86,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.502087138012001,
+              y: 0.2152777777777778,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5041742760240021,
+              y: 0.37083333333333335,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6278372032350639,
+              y: 0.6881944444444446,
+            },
+          ],
+        },
       },
       {
         name: "skull collection",
@@ -9595,6 +12790,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-skull-collection.jpeg",
         initiative: 22,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.634098617271067,
+              y: 0.7593750000000006,
+            },
+          ],
+        },
       },
       {
         name: "slipping into death",
@@ -9603,6 +12813,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-slipping-into-death.jpeg",
         initiative: 89,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6215757891990608,
+              y: 0.14444444444444443,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.632011479259066,
+              y: 0.6802083333333335,
+            },
+          ],
+        },
       },
       {
         name: "soul hunger",
@@ -9611,6 +12849,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-soul-hunger.jpeg",
         initiative: 91,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.47912861987998956,
+              y: 0.32916666666666666,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "staring into the abyss",
@@ -9619,6 +12872,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-staring-into-the-abyss.jpeg",
         initiative: 63,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6356639707800679, y: 0.7 },
+          ],
+        },
       },
       {
         name: "succumb to fear",
@@ -9627,6 +12888,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-succumb-to-fear.jpeg",
         initiative: 20,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6257500652230629,
+              y: 0.705902777777778,
+            },
+          ],
+        },
       },
       {
         name: "the remorseless deep",
@@ -9635,6 +12911,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-the-remorseless-deep.jpeg",
         initiative: 22,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6231411427080615,
+              y: 0.6861111111111111,
+            },
+          ],
+        },
       },
       {
         name: "tumultuous panic",
@@ -9643,6 +12934,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-tumultuous-panic.jpeg",
         initiative: 66,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.17777777777777778,
+            },
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.2902777777777778,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.4125,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.618445082181059,
+              y: 0.6267361111111114,
+            },
+            {
+              dot: "square",
+              plus1: "teleport",
+              multitarget: false,
+              persistent: false,
+              x: 0.6179232976780589,
+              y: 0.8125,
+            },
+          ],
+        },
       },
       {
         name: "unseen horror",
@@ -9651,6 +12994,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DT/fh-unseen-horror.jpeg",
         initiative: 19,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6398382468040699,
+              y: 0.18472222222222223,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     DW: [
@@ -9669,6 +13027,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-anger-of-the-dead.jpeg",
         initiative: 14,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49176358366658107,
+              y: 0.1671875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "black barrage",
@@ -9677,6 +13050,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-black-barrage.jpeg",
         initiative: 28,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.48706754228271637,
+              y: 0.24375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.6349928458744543,
+              y: 0.7578125,
+            },
+          ],
+        },
       },
       {
         name: "black lance",
@@ -9685,6 +13086,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-black-lance.jpeg",
         initiative: 16,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5175918112778369,
+              y: 0.6890625,
+            },
+          ],
+        },
       },
       {
         name: "call of doom",
@@ -9693,6 +13109,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-call-of-doom.jpeg",
         initiative: 32,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3180100524635873,
+              y: 0.1953125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.632644825182522, y: 0.7375 },
+          ],
+        },
       },
       {
         name: "call to the abyss",
@@ -9701,6 +13138,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-call-to-the-abyss.jpeg",
         initiative: 82,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "dark fog",
@@ -9709,6 +13148,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-dark-fog.jpeg",
         initiative: 46,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: true, persistent: false, x: 0.4448031698279341, y: 0.175 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6420369079502513,
+              y: 0.7515625,
+            },
+          ],
+        },
       },
       {
         name: "dead bolt",
@@ -9717,6 +13177,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-dead-bolt.jpeg",
         initiative: 88,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4894155629746487,
+              y: 0.2421875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.632644825182522,
+              y: 0.7515625,
+            },
+          ],
+        },
       },
       {
         name: "deepening despair",
@@ -9725,6 +13213,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-deepening-despair.jpeg",
         initiative: 11,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.3555783835345049, y: 0.25 },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6256007631067249,
+              y: 0.8421875,
+            },
+          ],
+        },
       },
       {
         name: "dominate",
@@ -9733,6 +13242,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-dominate.jpeg",
         initiative: 29,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6256007631067249,
+              y: 0.1765625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6302968044905896, y: 0.734375 },
+          ],
+        },
       },
       {
         name: "eclipse",
@@ -9741,6 +13271,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-eclipse.jpeg",
         initiative: 86,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6302968044905896, y: 0.7625 },
+          ],
+        },
       },
       {
         name: "fleeting dusk",
@@ -9749,6 +13287,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-fleeting-dusk.jpeg",
         initiative: 36,
         level: 4,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.28044172139266976,
+              y: 0.23125,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "fluid night",
@@ -9757,6 +13310,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-fluid-night.jpeg",
         initiative: 24,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.1796875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "forceful spirits",
@@ -9765,6 +13333,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-forceful-spirits.jpeg",
         initiative: 34,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "frozen in fear",
@@ -9773,6 +13343,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-frozen-in-fear.jpeg",
         initiative: 21,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.759375,
+            },
+          ],
+        },
       },
       {
         name: "hungry grasps",
@@ -9781,6 +13366,43 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-hungry-grasps.jpeg",
         initiative: 25,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3203580731555197,
+              y: 0.2828125,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.5575081630406868,
+              y: 0.2828125,
+            },
+            { dot: "square", plus1: "pull", multitarget: false, persistent: false, x: 0.7970062736177863, y: 0.28125 },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.43775910775213706,
+              y: 0.7296875,
+            },
+          ],
+        },
       },
       {
         name: "lashing tendrils",
@@ -9789,6 +13411,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-lashing-tendrils.jpeg",
         initiative: 80,
         level: 8,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.6443849286421837,
+              y: 0.640625,
+            },
+          ],
+        },
       },
       {
         name: "lingering rot",
@@ -9797,6 +13434,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-lingering-rot.jpeg",
         initiative: 64,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.34149025938291083,
+              y: 0.215625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6256007631067249,
+              y: 0.7109375,
+            },
+          ],
+        },
       },
       {
         name: "medium",
@@ -9805,6 +13470,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-medium.jpeg",
         initiative: 55,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6232527424147926,
+              y: 0.1578125,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "proliferation of the abyss",
@@ -9813,6 +13493,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-proliferation-of-the-abyss.jpeg",
         initiative: 38,
         level: 7,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6209047217228602,
+              y: 0.6671875,
+            },
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.6373408665663867,
+              y: 0.8734375,
+            },
+          ],
+        },
       },
       {
         name: "pulled across",
@@ -9821,6 +13524,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-pulled-across.jpeg",
         initiative: 77,
         level: 4,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6232527424147926, y: 0.66875 },
+          ],
+        },
       },
       {
         name: "rest in the shade",
@@ -9829,6 +13540,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-rest-in-the-shade.jpeg",
         initiative: 26,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.27104963862494036,
+              y: 0.2640625,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "restless spirits",
@@ -9837,6 +13563,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-restless-spirits.jpeg",
         initiative: 20,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5081997285101075,
+              y: 0.1890625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6420369079502513,
+              y: 0.6796875,
+            },
+          ],
+        },
       },
       {
         name: "ritual sacrifice",
@@ -9845,6 +13599,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-ritual-sacrifice.jpeg",
         initiative: 13,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6232527424147926,
+              y: 0.2421875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6232527424147926, y: 0.85 },
+          ],
+        },
       },
       {
         name: "shadow step",
@@ -9853,6 +13628,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-shadow-step.jpeg",
         initiative: 19,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6232527424147926, y: 0.190625 },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6209047217228602,
+              y: 0.4015625,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6209047217228602, y: 0.6875 },
+          ],
+        },
       },
       {
         name: "strength of the abyss",
@@ -9861,6 +13658,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-strength-of-the-abyss.jpeg",
         initiative: 50,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "sunless apparition",
@@ -9869,6 +13668,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-sunless-apparition.jpeg",
         initiative: 96,
         level: 1,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.5011556664343104,
+              y: 0.2140625,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "the night takes shape",
@@ -9877,6 +13691,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-the-night-takes-shape.jpeg",
         initiative: 94,
         level: 6,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.5011556664343104,
+              y: 0.1796875,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5035036871262428,
+              y: 0.25625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6420369079502513,
+              y: 0.625,
+            },
+          ],
+        },
       },
       {
         name: "vengeful storm",
@@ -9885,6 +13735,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-vengeful-storm.jpeg",
         initiative: 18,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "range", multitarget: true, persistent: false, x: 0.632644825182522, y: 0.184375 },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "wave of anguish",
@@ -9893,6 +13751,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-wave-of-anguish.jpeg",
         initiative: 58,
         level: 1.5,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6302968044905896, y: 0.709375 },
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.6443849286421837,
+              y: 0.8203125,
+            },
+          ],
+        },
       },
       {
         name: "when your time comes",
@@ -9901,6 +13775,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/DW/fh-when-your-time-comes.jpeg",
         initiative: 72,
         level: 9,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.45184723190373116,
+              y: 0.33125,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     FF: [
@@ -9919,6 +13808,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-bring-down-the-mountain.jpeg",
         initiative: 9,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.2651969736498826,
+              y: 0.24444444444444444,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "shield", multitarget: false, persistent: false, x: 0.62001043569006, y: 0.6375 },
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.7263888888888889,
+            },
+          ],
+        },
       },
       {
         name: "cold boulder",
@@ -9927,6 +13845,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-cold-boulder.jpeg",
         initiative: 70,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6220975737020611, y: 0.7125 },
+          ],
+        },
       },
       {
         name: "crushing crystals",
@@ -9935,6 +13861,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-crushing-crystals.jpeg",
         initiative: 67,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.8083333333333333,
+            },
+          ],
+        },
       },
       {
         name: "draw of the bedrock",
@@ -9943,6 +13884,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-draw-of-the-bedrock.jpeg",
         initiative: 10,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.14722222222222223,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "pull",
+              multitarget: false,
+              persistent: false,
+              x: 0.4467779806939734,
+              y: 0.6458333333333334,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6805374380380903,
+              y: 0.6444444444444445,
+            },
+          ],
+        },
       },
       {
         name: "draw strength",
@@ -9951,6 +13928,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-draw-strength.jpeg",
         initiative: 28,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4342551526219671,
+              y: 0.19722222222222222,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "encased punch",
@@ -9959,6 +13951,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-encased-punch.jpeg",
         initiative: 19,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "freezing shell",
@@ -9967,6 +13961,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-freezing-shell.jpeg",
         initiative: 17,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.6680555555555555,
+            },
+          ],
+        },
       },
       {
         name: "frost eruption",
@@ -9975,6 +13984,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-frost-eruption.jpeg",
         initiative: 61,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "frozen over",
@@ -9983,6 +13994,20 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-frozen-over.jpeg",
         initiative: 20,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              multitarget: false,
+              persistent: false,
+              x: 0.4885207409339943,
+              y: 0.41944444444444445,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "frozen spike",
@@ -9991,6 +14016,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-frozen-spike.jpeg",
         initiative: 33,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.27771980172188887,
+              y: 0.14305555555555555,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6597222222222222,
+            },
+          ],
+        },
       },
       {
         name: "fury of the mountain",
@@ -9999,6 +14052,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-fury-of-the-mountain.jpeg",
         initiative: 23,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.6611111111111111,
+            },
+          ],
+        },
       },
       {
         name: "gift of the mountain",
@@ -10007,6 +14075,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-gift-of-the-mountain.jpeg",
         initiative: 73,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.622932462342416,
+              y: 0.6661111111111111,
+            },
+          ],
+        },
       },
       {
         name: "glacier slam",
@@ -10015,6 +14098,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-glacier-slam.jpeg",
         initiative: 84,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6137490216540569,
+              y: 0.6736111111111112,
+            },
+          ],
+        },
       },
       {
         name: "ice blast",
@@ -10023,6 +14121,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-ice-blast.jpeg",
         initiative: 32,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.38625097834594313,
+              y: 0.2611111111111111,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.6944444444444444,
+            },
+          ],
+        },
       },
       {
         name: "ice uppercut",
@@ -10031,6 +14157,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-ice-uppercut.jpeg",
         initiative: 15,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.18611111111111112,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6325332637620663,
+              y: 0.7069444444444445,
+            },
+          ],
+        },
       },
       {
         name: "lacerating eruption",
@@ -10039,6 +14193,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-lacerating-eruption.jpeg",
         initiative: 51,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.7291666666666666,
+            },
+          ],
+        },
       },
       {
         name: "one with the mountain",
@@ -10047,6 +14216,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-one-with-the-mountain.jpeg",
         initiative: 83,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.44051656665797023,
+              y: 0.7166666666666667,
+            },
+          ],
+        },
       },
       {
         name: "packed solid",
@@ -10055,6 +14239,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-packed-solid.jpeg",
         initiative: 55,
         level: 4,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.617923297678059,
+              y: 0.6652777777777777,
+            },
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.617923297678059,
+              y: 0.7875,
+            },
+          ],
+        },
       },
       {
         name: "piercing pummel",
@@ -10063,6 +14270,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-piercing-pummel.jpeg",
         initiative: 30,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5073049830420037,
+              y: 0.6166666666666667,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4426037046699713,
+              y: 0.6888888888888889,
+            },
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.7708333333333334,
+            },
+          ],
+        },
       },
       {
         name: "preserved fury",
@@ -10071,6 +14309,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-preserved-fury.jpeg",
         initiative: 49,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.24722222222222223,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "primal bellow",
@@ -10079,6 +14332,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-primal-bellow.jpeg",
         initiative: 84,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "seeing stars",
@@ -10087,6 +14342,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-seeing-stars.jpeg",
         initiative: 29,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44051656665797023,
+              y: 0.25833333333333336,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5093921210540047,
+              y: 0.7041666666666667,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5031307070180016,
+              y: 0.8319444444444445,
+            },
+          ],
+        },
       },
       {
         name: "shard launch",
@@ -10095,6 +14386,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-shard-launch.jpeg",
         initiative: 52,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.6617531959300809,
+              y: 0.2513888888888889,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "shattering blow",
@@ -10103,6 +14409,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-shattering-blow.jpeg",
         initiative: 18,
         level: 8,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.3111111111111111,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6116618836420559,
+              y: 0.6236111111111111,
+            },
+            { dot: "square", plus1: "heal", multitarget: false, persistent: false, x: 0.4885207409339943, y: 0.825 },
+          ],
+        },
       },
       {
         name: "the mountain's fist",
@@ -10111,6 +14446,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-the-mountains-fist.jpeg",
         initiative: 16,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.13055555555555556,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6346204017740673, y: 0.7125 },
+          ],
+        },
       },
       {
         name: "thick frost",
@@ -10119,6 +14475,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-thick-frost.jpeg",
         initiative: 21,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "heal", multitarget: false, persistent: false, x: 0.4885207409339943, y: 0.175 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.6347222222222222,
+            },
+          ],
+        },
       },
       {
         name: "voice from below",
@@ -10127,6 +14504,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/FF/fh-voice-from-below.jpeg",
         initiative: 22,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
     ],
     GE: [
@@ -10145,6 +14524,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-accelerated-metabolism.jpeg",
         initiative: 85,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6361111111111111,
+            },
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7556744064701278,
+              y: 0.6361111111111111,
+            },
+          ],
+        },
       },
       {
         name: "alluring pheromones",
@@ -10153,6 +14555,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-alluring-pheromones.jpeg",
         initiative: 49,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.7297938616857604,
+              y: 0.29944444444444446,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "changeling's boon",
@@ -10161,6 +14578,41 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-changelings-boon.jpeg",
         initiative: 40,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.23194444444444445,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.3486111111111111,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "diamond-plus",
+              multitarget: false,
+              persistent: false,
+              x: 0.48434646490999217,
+              y: 0.6361111111111111,
+            },
+          ],
+        },
       },
       {
         name: "chitinous horde",
@@ -10169,6 +14621,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-chitinous-horde.jpeg",
         initiative: 15,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.28055555555555556,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "corrosive acids",
@@ -10177,6 +14644,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-corrosive-acids.jpeg",
         initiative: 28,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.6387946777980694,
+              y: 0.21666666666666667,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.45512653274197756,
+              y: 0.19166666666666668,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.6652777777777777,
+            },
+          ],
+        },
       },
       {
         name: "drag down",
@@ -10185,6 +14688,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-drag-down.jpeg",
         initiative: 34,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3361596660579181,
+              y: 0.23472222222222222,
+            },
+            { dot: "hex", multitarget: true, persistent: false, hexes: 3, x: 0.62001043569006, y: 0.29583333333333334 },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5114792590660058,
+              y: 0.6833333333333333,
+            },
+          ],
+        },
       },
       {
         name: "dragonfly surge",
@@ -10193,6 +14725,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-dragonfly-surge.jpeg",
         initiative: 50,
         level: 3,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.43008087659796507,
+              y: 0.23333333333333334,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "draining pincers",
@@ -10201,6 +14748,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-draining-pincers.jpeg",
         initiative: 72,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.18333333333333332,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.5093921210540047, y: 0.7125 },
+          ],
+        },
       },
       {
         name: "feeding frenzy",
@@ -10209,6 +14777,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-feeding-frenzy.jpeg",
         initiative: 62,
         level: 1.5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "firefly swarm",
@@ -10217,6 +14787,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-firefly-swarm.jpeg",
         initiative: 76,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "flailing tendrils",
@@ -10225,6 +14797,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-flailing-tendrils.jpeg",
         initiative: 12,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 6,
+              x: 0.6867988520740934,
+              y: 0.21805555555555556,
+            },
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 6,
+              x: 0.8370727889381685,
+              y: 0.28194444444444444,
+            },
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 6,
+              x: 0.6867988520740934,
+              y: 0.34444444444444444,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "formless grace",
@@ -10233,6 +14836,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-formless-grace.jpeg",
         initiative: 75,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5114792590660058,
+              y: 0.7055555555555556,
+            },
+          ],
+        },
       },
       {
         name: "hail of thorns",
@@ -10241,6 +14859,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-hail-of-thorns.jpeg",
         initiative: 88,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.6958333333333333,
+            },
+          ],
+        },
       },
       {
         name: "harbinger of ruin",
@@ -10249,6 +14882,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-harbinger-of-ruin.jpeg",
         initiative: 11,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.8402777777777778,
+            },
+          ],
+        },
       },
       {
         name: "harvest the essence",
@@ -10257,6 +14905,33 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-harvest-the-essence.jpeg",
         initiative: 60,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "diamond-plus",
+              multitarget: false,
+              persistent: false,
+              x: 0.48017218888599006,
+              y: 0.17777777777777778,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4906078789459953,
+              y: 0.8180555555555555,
+            },
+          ],
+        },
       },
       {
         name: "hirudotherapy",
@@ -10265,6 +14940,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-hirudotherapy.jpeg",
         initiative: 92,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.43216801460996607,
+              y: 0.7319444444444444,
+            },
+          ],
+        },
       },
       {
         name: "hornbeetle carapace",
@@ -10273,6 +14963,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-hornbeetle-carapace.jpeg",
         initiative: 20,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6569444444444444,
+            },
+          ],
+        },
       },
       {
         name: "hornet stingers",
@@ -10281,6 +14986,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-hornet-stingers.jpeg",
         initiative: 23,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.6958333333333333,
+            },
+          ],
+        },
       },
       {
         name: "icebound quills",
@@ -10289,6 +15009,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-icebound-quills.jpeg",
         initiative: 14,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4822593268979911,
+              y: 0.23055555555555557,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.617923297678059,
+              y: 0.825,
+            },
+          ],
+        },
       },
       {
         name: "into my embrace",
@@ -10297,6 +15045,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-into-my-embrace.jpeg",
         initiative: 36,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3612053222019306,
+              y: 0.23055555555555557,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.44886511870597445,
+              y: 0.6958333333333333,
+            },
+          ],
+        },
       },
       {
         name: "locust host",
@@ -10305,6 +15081,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-locust-host.jpeg",
         initiative: 23,
         level: 2,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.26310983563788154,
+              y: 0.1875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6220975737020611, y: 0.7 },
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.7473258544221236,
+              y: 0.6986111111111111,
+            },
+          ],
+        },
       },
       {
         name: "luminous descent",
@@ -10313,6 +15118,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-luminous-descent.jpeg",
         initiative: 67,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.3403339420819202,
+              y: 0.24166666666666667,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.7556744064701278,
+              y: 0.24166666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5114792590660058,
+              y: 0.6708333333333333,
+            },
+          ],
+        },
       },
       {
         name: "mandible storm",
@@ -10321,6 +15162,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-mandible-storm.jpeg",
         initiative: 30,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6361111111111111,
+            },
+          ],
+        },
       },
       {
         name: "mind spike",
@@ -10329,6 +15185,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-mind-spike.jpeg",
         initiative: 18,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4238194625619619,
+              y: 0.7055555555555556,
+            },
+          ],
+        },
       },
       {
         name: "oscillating entity",
@@ -10337,6 +15208,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-oscillating-entity.jpeg",
         initiative: 55,
         level: 8,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3685103888328205,
+              y: 0.15791666666666665,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49833030630817643,
+              y: 0.1597222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.6708333333333333,
+            },
+          ],
+        },
       },
       {
         name: "reckless jab",
@@ -10345,6 +15252,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-reckless-jab.jpeg",
         initiative: 38,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.19722222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6916666666666667,
+            },
+          ],
+        },
       },
       {
         name: "reshape the guise",
@@ -10353,6 +15288,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-reshape-the-guise.jpeg",
         initiative: 38,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "scarab flight",
@@ -10361,6 +15298,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-scarab-flight.jpeg",
         initiative: 30,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: true,
+              persistent: false,
+              x: 0.7494129924341247,
+              y: 0.24027777777777778,
+            },
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.29650404382989826,
+              y: 0.3458333333333333,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "selfless offering",
@@ -10369,6 +15329,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-selfless-offering.jpeg",
         initiative: 27,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.40712235846595357,
+              y: 0.24166666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.7083333333333334,
+            },
+          ],
+        },
       },
       {
         name: "smoldering hatred",
@@ -10377,6 +15365,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-smoldering-hatred.jpeg",
         initiative: 32,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4238194625619619,
+              y: 0.18472222222222223,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5114792590660058,
+              y: 0.8180555555555555,
+            },
+          ],
+        },
       },
       {
         name: "thresh and flail",
@@ -10385,6 +15401,36 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-thresh-and-flail.jpeg",
         initiative: 43,
         level: 4,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.25555555555555554,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.3472222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "pull", multitarget: true, persistent: false, x: 0.44469084268197234, y: 0.7125 },
+            { dot: "square", plus1: "range", multitarget: true, persistent: false, x: 0.6951474041220975, y: 0.7125 },
+          ],
+        },
       },
       {
         name: "two-pronged entrapment",
@@ -10393,6 +15439,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-two-pronged-entrapment.jpeg",
         initiative: 21,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.17083333333333334,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "venomous barbs",
@@ -10401,6 +15462,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-venomous-barbs.jpeg",
         initiative: 17,
         level: 2,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5073049830420037,
+              y: 0.7611111111111111,
+            },
+          ],
+        },
       },
       {
         name: "voice of salvation",
@@ -10409,6 +15485,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/GE/fh-voice-of-salvation.jpeg",
         initiative: 39,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     HV: [
@@ -10427,6 +15505,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-aimed-assault.jpeg",
         initiative: 88,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4947821549699974,
+              y: 0.1875,
+            },
+            {
+              dot: "square",
+              plus1: "summon-range",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.2625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6325332637620663,
+              y: 0.7611111111111111,
+            },
+          ],
+        },
       },
       {
         name: "burning slash",
@@ -10435,6 +15549,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-burning-slash.jpeg",
         initiative: 29,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.5970519175580485,
+              y: 0.22083333333333333,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.7708333333333334,
+            },
+          ],
+        },
       },
       {
         name: "code geminate",
@@ -10443,6 +15585,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-code-geminate.jpeg",
         initiative: 28,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.6916666666666667,
+            },
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6325332637620663,
+              y: 0.8541666666666666,
+            },
+          ],
+        },
       },
       {
         name: "coiled limbs",
@@ -10451,6 +15616,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-coiled-limbs.jpeg",
         initiative: 82,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.38625097834594313,
+              y: 0.19444444444444445,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.38625097834594313,
+              y: 0.2916666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5135663970780068,
+              y: 0.7555555555555555,
+            },
+          ],
+        },
       },
       {
         name: "disassemble",
@@ -10459,6 +15660,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-disassemble.jpeg",
         initiative: 20,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.13194444444444445,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6325332637620663,
+              y: 0.2972222222222222,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "divergent destruction",
@@ -10467,6 +15691,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-divergent-destruction.jpeg",
         initiative: 22,
         level: 4,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.7638888888888888,
+            },
+          ],
+        },
       },
       {
         name: "faceless entity",
@@ -10475,6 +15714,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-faceless-entity.jpeg",
         initiative: 12,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "force field",
@@ -10483,6 +15724,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-force-field.jpeg",
         initiative: 78,
         level: 2,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.46347508478998173,
+              y: 0.20555555555555555,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6847117140620923,
+              y: 0.20555555555555555,
+            },
+            {
+              dot: "square",
+              plus1: "summon-range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6826245760500913,
+              y: 0.28055555555555556,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.7597222222222222,
+            },
+          ],
+        },
       },
       {
         name: "heavy metal",
@@ -10491,6 +15776,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-heavy-metal.jpeg",
         initiative: 76,
         level: 9,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45095225671797545,
+              y: 0.18194444444444444,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6805374380380903,
+              y: 0.18055555555555555,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.45095225671797545,
+              y: 0.25972222222222224,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6583333333333333,
+            },
+          ],
+        },
       },
       {
         name: "high impact projectiles",
@@ -10499,6 +15828,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-high-impact-projectiles.jpeg",
         initiative: 16,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "target",
+              multitarget: false,
+              persistent: false,
+              x: 0.5594834333420298,
+              y: 0.2902777777777778,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: true,
+              persistent: false,
+              x: 0.5073049830420037,
+              y: 0.7916666666666666,
+            },
+          ],
+        },
       },
       {
         name: "hijack",
@@ -10507,6 +15864,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-hijack.jpeg",
         initiative: 40,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "hunter-killer",
@@ -10515,6 +15874,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-hunter-killer.jpeg",
         initiative: 84,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.46347508478998173,
+              y: 0.18611111111111112,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6909731280980955,
+              y: 0.18472222222222223,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.46347508478998173,
+              y: 0.2611111111111111,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.7166666666666667,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6325332637620663,
+              y: 0.8291666666666667,
+            },
+          ],
+        },
       },
       {
         name: "interference",
@@ -10523,6 +15934,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-interference.jpeg",
         initiative: 21,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4906078789459953,
+              y: 0.29305555555555557,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6325332637620663, y: 0.65 },
+          ],
+        },
       },
       {
         name: "launch pod",
@@ -10531,6 +15963,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-launch-pod.jpeg",
         initiative: 77,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49686929298199844,
+              y: 0.19166666666666668,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.4885207409339943,
+              y: 0.8263888888888888,
+            },
+          ],
+        },
       },
       {
         name: "long-range missile",
@@ -10539,6 +15999,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-long-range-missile.jpeg",
         initiative: 19,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "mortar shells",
@@ -10547,6 +16009,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-mortar-shells.jpeg",
         initiative: 85,
         level: 7,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.44469084268197234,
+              y: 0.18611111111111112,
+            },
+            {
+              dot: "square",
+              plus1: "summon-range",
+              multitarget: true,
+              persistent: false,
+              x: 0.6742760240020872,
+              y: 0.2625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.7611111111111111,
+            },
+          ],
+        },
       },
       {
         name: "net dispersal",
@@ -10555,6 +16053,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-net-dispersal.jpeg",
         initiative: 94,
         level: 5,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4092094964779546,
+              y: 0.19583333333333333,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4092094964779546,
+              y: 0.3055555555555556,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "plague protocol",
@@ -10563,6 +16084,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-plague-protocol.jpeg",
         initiative: 98,
         level: 4,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4697364988259849,
+              y: 0.1986111111111111,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6847117140620923,
+              y: 0.2,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.46764936081398384,
+              y: 0.275,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6638888888888889,
+            },
+          ],
+        },
       },
       {
         name: "plated defense",
@@ -10571,6 +16136,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-plated-defense.jpeg",
         initiative: 80,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4655622228019828,
+              y: 0.19722222222222222,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6930602661100965,
+              y: 0.19722222222222222,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4655622228019828,
+              y: 0.2722222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.7083333333333334,
+            },
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.8263888888888888,
+            },
+          ],
+        },
       },
       {
         name: "prepare for deployment",
@@ -10579,6 +16196,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-prepare-for-deployment.jpeg",
         initiative: 64,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.49269501695799633,
+              y: 0.29444444444444445,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6367075397860683,
+              y: 0.7597222222222222,
+            },
+          ],
+        },
       },
       {
         name: "rapid fire",
@@ -10587,6 +16232,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-rapid-fire.jpeg",
         initiative: 92,
         level: 3,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            { dot: "square", plus1: "summon-hp", multitarget: false, persistent: false, x: 0.4655622228019828, y: 0.2 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6346204017740673,
+              y: 0.6833333333333333,
+            },
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: true,
+              persistent: false,
+              x: 0.6346204017740673,
+              y: 0.8583333333333333,
+            },
+          ],
+        },
       },
       {
         name: "reaper function",
@@ -10595,6 +16269,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-reaper-function.jpeg",
         initiative: 32,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.5740933994260371,
+              y: 0.23194444444444445,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "reassemble",
@@ -10603,6 +16292,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-reassemble.jpeg",
         initiative: 27,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.8597222222222223,
+            },
+          ],
+        },
       },
       {
         name: "recall",
@@ -10611,6 +16315,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-recall.jpeg",
         initiative: 91,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "reconstructive aid",
@@ -10619,6 +16325,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-reconstructive-aid.jpeg",
         initiative: 90,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4342551526219671,
+              y: 0.1875,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6596660579180799,
+              y: 0.1875,
+            },
+            {
+              dot: "square",
+              plus1: "summon-range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6596660579180799,
+              y: 0.2625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4426037046699713,
+              y: 0.7583333333333333,
+            },
+          ],
+        },
       },
       {
         name: "remote control",
@@ -10627,6 +16377,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-remote-control.jpeg",
         initiative: 48,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "shocking pulse",
@@ -10635,6 +16387,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-shocking-pulse.jpeg",
         initiative: 86,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.42173232454996085,
+              y: 0.19583333333333333,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6513175058700756,
+              y: 0.19444444444444445,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "spinning blades",
@@ -10643,6 +16418,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-spinning-blades.jpeg",
         initiative: 79,
         level: 6,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4363422906339682,
+              y: 0.1986111111111111,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.663840333942082,
+              y: 0.19722222222222222,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4363422906339682,
+              y: 0.28888888888888886,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6346204017740673,
+              y: 0.7069444444444445,
+            },
+          ],
+        },
       },
       {
         name: "swarming bulwark",
@@ -10651,6 +16470,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-swarming-bulwark.jpeg",
         initiative: 96,
         level: 8,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.4363422906339682,
+              y: 0.19583333333333333,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.665927471954083,
+              y: 0.19444444444444445,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4363422906339682,
+              y: 0.2722222222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6304461257500652,
+              y: 0.6652777777777777,
+            },
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6325332637620663,
+              y: 0.8791666666666667,
+            },
+          ],
+        },
       },
       {
         name: "triage program",
@@ -10659,6 +16530,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/HV/fh-triage-program.jpeg",
         initiative: 13,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4885207409339943,
+              y: 0.2916666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4906078789459953,
+              y: 0.8847222222222222,
+            },
+          ],
+        },
       },
     ],
     IF: [
@@ -10677,6 +16576,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-ancient-rites-of-power.jpeg",
         initiative: 94,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.4399050681979481,
+              y: 0.6555555555555556,
+            },
+          ],
+        },
       },
       {
         name: "battle prowess",
@@ -10685,6 +16599,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-battle-prowess.jpeg",
         initiative: 78,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.616897305359821,
+              y: 0.27111111111111114,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "boon of the tempest",
@@ -10693,6 +16622,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-boon-of-the-tempest.jpeg",
         initiative: 28,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269157338784176,
+              y: 0.7288888888888889,
+            },
+          ],
+        },
       },
       {
         name: "bounty of the earth",
@@ -10701,6 +16645,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-bounty-of-the-earth.jpeg",
         initiative: 23,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "caress of the night",
@@ -10709,6 +16655,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-caress-of-the-night.jpeg",
         initiative: 87,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "coalescing darkness",
@@ -10717,6 +16665,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-coalescing-darkness.jpeg",
         initiative: 85,
         level: 4,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.6870263049899971,
+              y: 0.6844444444444444,
+            },
+            {
+              dot: "square",
+              plus1: "pull",
+              multitarget: true,
+              persistent: false,
+              x: 0.35641816387631,
+              y: 0.6888888888888889,
+            },
+          ],
+        },
       },
       {
         name: "crystalline aegis",
@@ -10725,6 +16696,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-crystalline-aegis.jpeg",
         initiative: 17,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "desperate throw",
@@ -10733,6 +16706,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-desperate-throw.jpeg",
         initiative: 16,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              multitarget: false,
+              persistent: false,
+              x: 0.4866577346180655,
+              y: 0.4111111111111111,
+            },
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.29296811659186495, y: 0.18 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6135578291869555,
+              y: 0.6555555555555556,
+            },
+          ],
+        },
       },
       {
         name: "diamondization",
@@ -10741,6 +16742,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-diamondization.jpeg",
         initiative: 10,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.616897305359821,
+              y: 0.15777777777777777,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "emerald edge",
@@ -10749,6 +16765,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-emerald-edge.jpeg",
         initiative: 70,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "formless bladestorm",
@@ -10757,6 +16775,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-formless-bladestorm.jpeg",
         initiative: 33,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.6488888888888888,
+            },
+          ],
+        },
       },
       {
         name: "gale barrage",
@@ -10765,6 +16798,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-gale-barrage.jpeg",
         initiative: 44,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "pierce",
+              multitarget: true,
+              persistent: false,
+              x: 0.680347352644266,
+              y: 0.2688888888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6135578291869555,
+              y: 0.6377777777777778,
+            },
+          ],
+        },
       },
       {
         name: "gemstone resonance",
@@ -10773,6 +16834,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-gemstone-resonance.jpeg",
         initiative: 30,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.40651030646929287,
+              y: 0.3466666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6302552100512832, y: 0.66 },
+          ],
+        },
       },
       {
         name: "guide the flow",
@@ -10781,6 +16863,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-guide-the-flow.jpeg",
         initiative: 35,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6135578291869555,
+              y: 0.1688888888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6135578291869555,
+              y: 0.6488888888888888,
+            },
+          ],
+        },
       },
       {
         name: "imbue with life",
@@ -10789,6 +16899,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-imbue-with-life.jpeg",
         initiative: 42,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45994192523514127,
+              y: 0.21777777777777776,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6903657811628626,
+              y: 0.21777777777777776,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4799787822723344,
+              y: 0.6444444444444445,
+            },
+          ],
+        },
       },
       {
         name: "malachite shockwave",
@@ -10797,6 +16943,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-malachite-shockwave.jpeg",
         initiative: 68,
         level: 7,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3196839259747892,
+              y: 0.24666666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6327597087945754,
+              y: 0.6644444444444444,
+            },
+          ],
+        },
       },
       {
         name: "obsidian spear",
@@ -10805,6 +16979,43 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-obsidian-spear.jpeg",
         initiative: 84,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: true, persistent: false, x: 0.6302552100512832, y: 0.18 },
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 2,
+              x: 0.7538158284473075,
+              y: 0.39555555555555555,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3864734494320997,
+              y: 0.7711111111111111,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269157338784176,
+              y: 0.7711111111111111,
+            },
+          ],
+        },
       },
       {
         name: "onyx shards",
@@ -10813,6 +17024,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-onyx-shards.jpeg",
         initiative: 20,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6669894479528039,
+              y: 0.24888888888888888,
+            },
+            { dot: "diamond", multitarget: false, persistent: false, x: 0.41986821116075496, y: 0.24888888888888888 },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "propulsive tailwind",
@@ -10821,6 +17048,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-propulsive-tailwind.jpeg",
         initiative: 91,
         level: 6,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6269157338784176,
+              y: 0.8288888888888889,
+            },
+          ],
+        },
       },
       {
         name: "reinforced riposte",
@@ -10829,6 +17071,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-reinforced-riposte.jpeg",
         initiative: 18,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6302552100512832, y: 0.88 },
+          ],
+        },
       },
       {
         name: "remote impact",
@@ -10837,6 +17087,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-remote-impact.jpeg",
         initiative: 72,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.870697494497601,
+              y: 0.23777777777777778,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4098497826421584,
+              y: 0.24666666666666667,
+            },
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 3,
+              x: 0.5668051627668381,
+              y: 0.36666666666666664,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "rising momentum",
@@ -10845,6 +17126,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-rising-momentum.jpeg",
         initiative: 25,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.18444444444444444,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.6466666666666666,
+            },
+          ],
+        },
       },
       {
         name: "sky-splitting strike",
@@ -10853,6 +17162,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-sky-splitting-strike.jpeg",
         initiative: 50,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302552100512832,
+              y: 0.16666666666666666,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "slashing cyclone",
@@ -10861,6 +17185,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-slashing-cyclone.jpeg",
         initiative: 14,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "attack", multitarget: true, persistent: false, x: 0.3230234021476547, y: 0.24 },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.623576257705552,
+              y: 0.6755555555555556,
+            },
+          ],
+        },
       },
       {
         name: "stoic vigilance",
@@ -10869,6 +17214,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-stoic-vigilance.jpeg",
         initiative: 12,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.22444444444444445,
+            },
+            {
+              dot: "square",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.616897305359821,
+              y: 0.35555555555555557,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6202367815326866,
+              y: 0.6355555555555555,
+            },
+          ],
+        },
       },
       {
         name: "swift pivot",
@@ -10877,6 +17258,30 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-swift-pivot.jpeg",
         initiative: 8,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.39315240177783073,
+              y: 0.6244444444444445,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3898129256049652,
+              y: 0.7377777777777778,
+            },
+            { dot: "hex", multitarget: true, persistent: false, hexes: 3, x: 0.800568494867425, y: 0.8311111111111111 },
+          ],
+        },
       },
       {
         name: "torrential cleave",
@@ -10885,6 +17290,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-torrential-cleave.jpeg",
         initiative: 83,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 2,
+              x: 0.8373027327689457,
+              y: 0.26222222222222225,
+            },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: true,
+              persistent: false,
+              x: 0.4866577346180655,
+              y: 0.30444444444444446,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 2,
+              x: 0.6603104956070729,
+              y: 0.8444444444444444,
+            },
+          ],
+        },
       },
       {
         name: "unstoppable impulse",
@@ -10893,6 +17334,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-unstoppable-impulse.jpeg",
         initiative: 56,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302552100512832,
+              y: 0.24888888888888888,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302552100512832,
+              y: 0.9222222222222223,
+            },
+          ],
+        },
       },
       {
         name: "untether the shackles",
@@ -10901,6 +17370,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-untether-the-shackles.jpeg",
         initiative: 61,
         level: 8,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45994192523514127,
+              y: 0.17777777777777778,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6694855648562004,
+              y: 0.1776388888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5100340678281242,
+              y: 0.7311111111111112,
+            },
+          ],
+        },
       },
       {
         name: "veil of protection",
@@ -10909,6 +17414,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/IF/fh-veil-of-protection.jpeg",
         initiative: 47,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.6135578291869555,
+              y: 0.24222222222222223,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     ME: [
@@ -10927,6 +17447,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-ancient-drill.jpeg",
         initiative: 90,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4895643099399948,
+              y: 0.19027777777777777,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6236629272110619,
+              y: 0.6774305555555555,
+            },
+          ],
+        },
       },
       {
         name: "beam axe",
@@ -10935,6 +17483,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-beam-axe.jpeg",
         initiative: 29,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "attack", multitarget: true, persistent: false, x: 0.6231411427080615, y: 0.1875 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6638888888888889,
+            },
+          ],
+        },
       },
       {
         name: "bronze plating",
@@ -10943,6 +17512,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-bronze-plating.jpeg",
         initiative: 18,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "cryogenic hibernation",
@@ -10951,6 +17522,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-cryogenic-hibernation.jpeg",
         initiative: 19,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "curious gear",
@@ -10959,6 +17532,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-curious-gear.jpeg",
         initiative: 12,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "curious machinery",
@@ -10967,6 +17542,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-curious-machinery.jpeg",
         initiative: 11,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6226193582050612,
+              y: 0.6194444444444447,
+            },
+          ],
+        },
       },
       {
         name: "electrical discharge",
@@ -10975,6 +17565,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-electrical-discharge.jpeg",
         initiative: 26,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5041742760240021,
+              y: 0.15555555555555556,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6189668666840595,
+              y: 0.6263888888888889,
+            },
+          ],
+        },
       },
       {
         name: "energy conversion",
@@ -10983,6 +17601,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-energy-conversion.jpeg",
         initiative: 23,
         level: 4,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6278372032350641,
+              y: 0.15625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6236629272110619,
+              y: 0.6343750000000001,
+            },
+          ],
+        },
       },
       {
         name: "heat conduction",
@@ -10991,6 +17637,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-heat-conduction.jpeg",
         initiative: 11,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "shield",
+              multitarget: false,
+              persistent: false,
+              x: 0.615836159666058,
+              y: 0.2604166666666667,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "heated drill",
@@ -10999,6 +17660,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-heated-drill.jpeg",
         initiative: 80,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.15416666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.48591181841899295,
+              y: 0.7833333333333334,
+            },
+          ],
+        },
       },
       {
         name: "magnetic field",
@@ -11007,6 +17696,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-magnetic-field.jpeg",
         initiative: 21,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6205322201930603,
+              y: 0.1371527777777778,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "memory drive",
@@ -11015,6 +17719,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-memory-drive.jpeg",
         initiative: 64,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6247064962170622,
+              y: 0.7190972222222223,
+            },
+          ],
+        },
       },
       {
         name: "piston barrage",
@@ -11023,6 +17742,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-piston-barrage.jpeg",
         initiative: 33,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6226193582050613,
+              y: 0.13923611111111112,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6215757891990606,
+              y: 0.6361111111111113,
+            },
+          ],
+        },
       },
       {
         name: "polarity shift",
@@ -11031,6 +17778,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-polarity-shift.jpeg",
         initiative: 79,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "pull",
+              multitarget: true,
+              persistent: false,
+              x: 0.4472997651969736,
+              y: 0.4586805555555556,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "power core",
@@ -11039,6 +17801,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-power-core.jpeg",
         initiative: 83,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.48695538742499345,
+              y: 0.6326388888888885,
+            },
+          ],
+        },
       },
       {
         name: "pressure build-up",
@@ -11047,6 +17824,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-pressure-build-up.jpeg",
         initiative: 20,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.19166666666666668,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.7805555555555556,
+            },
+          ],
+        },
       },
       {
         name: "processing",
@@ -11055,6 +17860,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-processing.jpeg",
         initiative: 95,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "radiation",
@@ -11063,6 +17870,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-radiation.jpeg",
         initiative: 37,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5067831985390034,
+              y: 0.19375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6189668666840595,
+              y: 0.6333333333333333,
+            },
+          ],
+        },
       },
       {
         name: "recursion",
@@ -11071,6 +17906,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-recursion.jpeg",
         initiative: 50,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6205322201930601,
+              y: 0.16875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.6468750000000001,
+            },
+          ],
+        },
       },
       {
         name: "release valve",
@@ -11079,6 +17942,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-release-valve.jpeg",
         initiative: 30,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6930555555555555,
+            },
+          ],
+        },
       },
       {
         name: "rocket boots",
@@ -11087,6 +17965,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-rocket-boots.jpeg",
         initiative: 22,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.48904252543699456,
+              y: 0.26319444444444445,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5083485520480042,
+              y: 0.6555555555555556,
+            },
+          ],
+        },
       },
       {
         name: "scalding blast",
@@ -11095,6 +18001,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-scalding-blast.jpeg",
         initiative: 45,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.48330289590399167,
+              y: 0.7305555555555555,
+            },
+          ],
+        },
       },
       {
         name: "steam armor",
@@ -11103,6 +18024,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-steam-armor.jpeg",
         initiative: 17,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6147925906600574, y: 0.6375 },
+          ],
+        },
       },
       {
         name: "steam core",
@@ -11111,6 +18040,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-steam-core.jpeg",
         initiative: 71,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.48330289590399167,
+              y: 0.15208333333333335,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.6635416666666667,
+            },
+          ],
+        },
       },
       {
         name: "steel piston",
@@ -11119,6 +18076,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-steel-piston.jpeg",
         initiative: 40,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.6168797286720584, y: 0.2 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6569444444444444,
+            },
+          ],
+        },
       },
       {
         name: "stress vents",
@@ -11127,6 +18105,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-stress-vents.jpeg",
         initiative: 15,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6205322201930602,
+              y: 0.6361111111111113,
+            },
+          ],
+        },
       },
       {
         name: "super heat transfer",
@@ -11135,6 +18128,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-super-heat-transfer.jpeg",
         initiative: 25,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "unstable core",
@@ -11143,6 +18138,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/ME/fh-unstable-core.jpeg",
         initiative: 10,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
     ],
     PC: [
@@ -11161,6 +18158,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-blood-ritual.jpeg",
         initiative: 56,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5011556664343104,
+              y: 0.228125,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "burned at both ends",
@@ -11169,6 +18181,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-burned-at-both-ends.jpeg",
         initiative: 30,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.6484375,
+            },
+          ],
+        },
       },
       {
         name: "chained by despair",
@@ -11177,6 +18204,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-chained-by-despair.jpeg",
         initiative: 15,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6256007631067249, y: 0.65625 },
+          ],
+        },
       },
       {
         name: "chained by spite",
@@ -11185,6 +18220,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-chained-by-spite.jpeg",
         initiative: 15,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6256007631067249, y: 0.675 },
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.4894155629746487,
+              y: 0.7859375,
+            },
+          ],
+        },
       },
       {
         name: "cleansing fire",
@@ -11193,6 +18244,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-cleansing-fire.jpeg",
         initiative: 64,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.46123931467146057,
+              y: 0.1984375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.632644825182522, y: 0.7578125 },
+          ],
+        },
       },
       {
         name: "delayed malady",
@@ -11201,6 +18273,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-delayed-malady.jpeg",
         initiative: 90,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "down to the dirt",
@@ -11209,6 +18283,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-down-to-the-dirt.jpeg",
         initiative: 39,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4964596250504458,
+              y: 0.2078125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6302968044905896, y: 0.66875 },
+          ],
+        },
       },
       {
         name: "explosive wounds",
@@ -11217,6 +18312,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-explosive-wounds.jpeg",
         initiative: 43,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6209047217228602,
+              y: 0.6890625,
+            },
+          ],
+        },
       },
       {
         name: "hopelessness",
@@ -11225,6 +18335,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-hopelessness.jpeg",
         initiative: 83,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6279487837986573,
+              y: 0.6828125,
+            },
+          ],
+        },
       },
       {
         name: "infection purge",
@@ -11233,6 +18358,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-infection-purge.jpeg",
         initiative: 45,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "line of transference",
@@ -11241,6 +18368,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-line-of-transference.jpeg",
         initiative: 25,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6772572183292366,
+              y: 0.171875,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4354110870602047,
+              y: 0.1734375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.632644825182522, y: 0.7484375 },
+          ],
+        },
       },
       {
         name: "mirrored misery",
@@ -11249,6 +18405,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-mirrored-misery.jpeg",
         initiative: 72,
         level: 4,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6302968044905896, y: 0.65 },
+          ],
+        },
       },
       {
         name: "penance",
@@ -11257,6 +18421,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-penance.jpeg",
         initiative: 12,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6185567010309279,
+              y: 0.6546875,
+            },
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.4894155629746487,
+              y: 0.765625,
+            },
+          ],
+        },
       },
       {
         name: "phantom limb",
@@ -11265,6 +18452,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-phantom-limb.jpeg",
         initiative: 75,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5081997285101075,
+              y: 0.1703125,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "heal", multitarget: true, persistent: false, x: 0.423670983600543, y: 0.659375 },
+          ],
+        },
       },
       {
         name: "pleasure in pain",
@@ -11273,6 +18481,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-pleasure-in-pain.jpeg",
         initiative: 47,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.2827897420846021,
+              y: 0.2921875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6232527424147926, y: 0.64375 },
+            { dot: "diamond", multitarget: true, persistent: false, x: 0.3438382800748432, y: 0.7703125 },
+          ],
+        },
       },
       {
         name: "redemption",
@@ -11281,6 +18511,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-redemption.jpeg",
         initiative: 33,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "reject the gift",
@@ -11289,6 +18521,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-reject-the-gift.jpeg",
         initiative: 20,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6209047217228602, y: 0.66875 },
+          ],
+        },
       },
       {
         name: "reprisal",
@@ -11297,6 +18537,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-reprisal.jpeg",
         initiative: 70,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6162086803389955,
+              y: 0.3015625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.632644825182522, y: 0.8234375 },
+          ],
+        },
       },
       {
         name: "reversal of fate",
@@ -11305,6 +18566,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-reversal-of-fate.jpeg",
         initiative: 23,
         level: 2,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4448031698279341,
+              y: 0.21875,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4588912939795282,
+              y: 0.3546875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "scarred effigy",
@@ -11313,6 +18597,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-scarred-effigy.jpeg",
         initiative: 19,
         level: 1,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.42836702498440765,
+              y: 0.2015625,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6091646182631985,
+              y: 0.2015625,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.42836702498440765,
+              y: 0.2984375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6279487837986573,
+              y: 0.6984375,
+            },
+            {
+              dot: "square",
+              plus1: "retaliate",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.8375,
+            },
+          ],
+        },
       },
       {
         name: "shared affliction",
@@ -11321,6 +18657,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-shared-affliction.jpeg",
         initiative: 61,
         level: 1,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6232527424147926,
+              y: 0.6453125,
+            },
+          ],
+        },
       },
       {
         name: "swift vengeance",
@@ -11329,6 +18680,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-swift-vengeance.jpeg",
         initiative: 21,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.6655171148695748,
+              y: 0.2328125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6185567010309279, y: 0.659375 },
+          ],
+        },
       },
       {
         name: "the agony of others",
@@ -11337,6 +18709,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-the-agony-of-others.jpeg",
         initiative: 78,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4964596250504458,
+              y: 0.2296875,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "the end of everything",
@@ -11345,6 +18732,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-the-end-of-everything.jpeg",
         initiative: 99,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "transferred injury",
@@ -11353,6 +18742,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-transferred-injury.jpeg",
         initiative: 74,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "range", multitarget: false, persistent: false, x: 0.6044685768793338, y: 0.1375 },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6209047217228602,
+              y: 0.3703125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "heal", multitarget: false, persistent: false, x: 0.484719521590784, y: 0.6984375 },
+          ],
+        },
       },
       {
         name: "unending torment",
@@ -11361,6 +18772,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-unending-torment.jpeg",
         initiative: 29,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "heal", multitarget: false, persistent: false, x: 0.4941116043585134, y: 0.209375 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.49176358366658107,
+              y: 0.684375,
+            },
+          ],
+        },
       },
       {
         name: "unstable effigy",
@@ -11369,6 +18801,37 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-unstable-effigy.jpeg",
         initiative: 18,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.42836702498440765,
+              y: 0.234375,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6115126389551307,
+              y: 0.2359375,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.42836702498440765,
+              y: 0.33125,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "wave of anguish",
@@ -11377,6 +18840,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-wave-of-anguish.jpeg",
         initiative: 68,
         level: 8,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "move", multitarget: false, persistent: false, x: 0.6302968044905896, y: 0.709375 },
+            {
+              dot: "square",
+              plus1: "other-move",
+              multitarget: true,
+              persistent: false,
+              x: 0.6443849286421837,
+              y: 0.8203125,
+            },
+          ],
+        },
       },
       {
         name: "wracked with pain",
@@ -11385,6 +18864,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PC/fh-wracked-with-pain.jpeg",
         initiative: 22,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4988076457423781,
+              y: 0.7109375,
+            },
+          ],
+        },
       },
     ],
     PY: [
@@ -11403,6 +18897,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-calamity.jpeg",
         initiative: 35,
         level: 9,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "cinder lance",
@@ -11411,6 +18907,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-cinder-lance.jpeg",
         initiative: 90,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6185567010309279,
+              y: 0.196875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4659353560553252,
+              y: 0.8109375,
+            },
+          ],
+        },
       },
       {
         name: "cloud of ash",
@@ -11419,6 +18943,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-cloud-of-ash.jpeg",
         initiative: 23,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6209047217228602,
+              y: 0.6671875,
+            },
+          ],
+        },
       },
       {
         name: "cooling",
@@ -11427,6 +18966,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-cooling.jpeg",
         initiative: 75,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: true,
+          dots: [
+            { dot: "circle", plus1: "heal", multitarget: false, persistent: false, x: 0.4800234802069193, y: 0.621875 },
+          ],
+        },
       },
       {
         name: "deep fury",
@@ -11435,6 +18982,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-deep-fury.jpeg",
         initiative: 38,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.632644825182522, y: 0.15 },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.49176358366658107,
+              y: 0.634375,
+            },
+          ],
+        },
       },
       {
         name: "erupting rage",
@@ -11443,6 +19011,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-erupting-rage.jpeg",
         initiative: 70,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.43071504567634,
+              y: 0.1796875,
+            },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: false,
+              persistent: false,
+              x: 0.6913453424808306,
+              y: 0.1765625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6256007631067249,
+              y: 0.7609375,
+            },
+          ],
+        },
       },
       {
         name: "eruption",
@@ -11451,6 +19055,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-eruption.jpeg",
         initiative: 47,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6349928458744543,
+              y: 0.7296875,
+            },
+          ],
+        },
       },
       {
         name: "feed the beast",
@@ -11459,6 +19078,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-feed-the-beast.jpeg",
         initiative: 27,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6373408665663867, y: 0.646875 },
+          ],
+        },
       },
       {
         name: "flowing fire",
@@ -11467,6 +19094,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-flowing-fire.jpeg",
         initiative: 20,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.47297941813112226,
+              y: 0.1734375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6232527424147926,
+              y: 0.6421875,
+            },
+          ],
+        },
       },
       {
         name: "force of the earth",
@@ -11475,6 +19130,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-force-of-the-earth.jpeg",
         initiative: 15,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.3790585904538284,
+              y: 0.296875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "hand of flame",
@@ -11483,6 +19153,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-hand-of-flame.jpeg",
         initiative: 29,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5105477492020398,
+              y: 0.2046875,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5081997285101075,
+              y: 0.7609375,
+            },
+          ],
+        },
       },
       {
         name: "hardened spike",
@@ -11491,6 +19189,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-hardened-spike.jpeg",
         initiative: 80,
         level: 3,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6209047217228602,
+              y: 0.6390625,
+            },
+          ],
+        },
       },
       {
         name: "heat wave",
@@ -11499,6 +19212,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-heat-wave.jpeg",
         initiative: 8,
         level: 4,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6162086803389955, y: 0.671875 },
+          ],
+        },
       },
       {
         name: "igneous path",
@@ -11507,6 +19228,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-igneous-path.jpeg",
         initiative: 18,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "lava bomb",
@@ -11515,6 +19238,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-lava-bomb.jpeg",
         initiative: 53,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.43071504567634,
+              y: 0.1953125,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6913453424808306,
+              y: 0.1953125,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6279487837986573, y: 0.75 },
+          ],
+        },
       },
       {
         name: "liquid stone",
@@ -11523,6 +19275,28 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-liquid-stone.jpeg",
         initiative: 28,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.4354110870602047, y: 0.3 },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: false,
+              persistent: false,
+              x: 0.6889973217888983,
+              y: 0.3015625,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6256007631067249, y: 0.653125 },
+          ],
+        },
       },
       {
         name: "living magma",
@@ -11531,6 +19305,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-living-magma.jpeg",
         initiative: 22,
         level: 3,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.632644825182522, y: 0.66875 },
+          ],
+        },
       },
       {
         name: "magma orbs",
@@ -11539,6 +19321,29 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-magma-orbs.jpeg",
         initiative: 82,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3907986939134901,
+              y: 0.253125,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.7218696114759511,
+              y: 0.2546875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "melted armor",
@@ -11547,6 +19352,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-melted-armor.jpeg",
         initiative: 62,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6279487837986573,
+              y: 0.1828125,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "metamorphic rock",
@@ -11555,6 +19375,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-metamorphic-rock.jpeg",
         initiative: 68,
         level: 1.5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6185567010309279,
+              y: 0.8328125,
+            },
+          ],
+        },
       },
       {
         name: "obsidian shield",
@@ -11563,6 +19398,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-obsidian-shield.jpeg",
         initiative: 19,
         level: 6,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6162086803389955, y: 0.628125 },
+          ],
+        },
       },
       {
         name: "quenched rage",
@@ -11571,6 +19414,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-quenched-rage.jpeg",
         initiative: 30,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "push", multitarget: false, persistent: false, x: 0.6349928458744543, y: 0.153125 },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "rain of fire",
@@ -11579,6 +19430,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-rain-of-fire.jpeg",
         initiative: 21,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.5152437905859045, y: 0.75625 },
+          ],
+        },
       },
       {
         name: "return to the source",
@@ -11587,6 +19446,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-return-to-the-source.jpeg",
         initiative: 14,
         level: 6,
+        top: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4354110870602047,
+              y: 0.1375,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6185567010309279,
+              y: 0.6296875,
+            },
+          ],
+        },
       },
       {
         name: "searing smoke",
@@ -11595,6 +19482,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-searing-smoke.jpeg",
         initiative: 45,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.5128957698939722, y: 0.721875 },
+          ],
+        },
       },
       {
         name: "stone armor",
@@ -11603,6 +19498,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-stone-armor.jpeg",
         initiative: 9,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5175918112778369,
+              y: 0.6453125,
+            },
+          ],
+        },
       },
       {
         name: "swelter",
@@ -11611,6 +19521,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-swelter.jpeg",
         initiative: 32,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "under pressure",
@@ -11619,6 +19531,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-under-pressure.jpeg",
         initiative: 85,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6302968044905896,
+              y: 0.21875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "wildfire",
@@ -11627,6 +19554,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/PY/fh-wildfire.jpeg",
         initiative: 72,
         level: 1.5,
+        top: { loss: false, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6185567010309279, y: 0.65 },
+          ],
+        },
       },
     ],
     SD: [
@@ -11645,6 +19580,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-birds-in-a-tempest.jpeg",
         initiative: 18,
         level: 2,
+        top: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.447821549699974,
+              y: 0.2263888888888889,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6857552830680929,
+              y: 0.225,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44625619619097323,
+              y: 0.3034722222222222,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6210540046960605,
+              y: 0.6847222222222222,
+            },
+          ],
+        },
       },
       {
         name: "biting frost",
@@ -11653,6 +19632,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-biting-frost.jpeg",
         initiative: 16,
         level: 4,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.22256944444444443,
+            },
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6247064962170623,
+              y: 0.3017361111111111,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.7003472222222225,
+            },
+          ],
+        },
       },
       {
         name: "blinding vortex",
@@ -11661,6 +19676,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-blinding-vortex.jpeg",
         initiative: 31,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 6,
+              x: 0.7671536655361336,
+              y: 0.37916666666666665,
+            },
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.4352987216279676, y: 0.175 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5166971040960082,
+              y: 0.7611111111111111,
+            },
+          ],
+        },
       },
       {
         name: "blizzard",
@@ -11669,6 +19713,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-blizzard.jpeg",
         initiative: 71,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44990868771197495,
+              y: 0.1388888888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6294025567440648, y: 0.7 },
+          ],
+        },
       },
       {
         name: "chilling impact",
@@ -11677,6 +19742,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-chilling-impact.jpeg",
         initiative: 31,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.7027777777777777,
+            },
+          ],
+        },
       },
       {
         name: "cold snap",
@@ -11685,6 +19765,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-cold-snap.jpeg",
         initiative: 86,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.365901382728933,
+              y: 0.7472222222222227,
+            },
+          ],
+        },
       },
       {
         name: "cold therapy",
@@ -11693,6 +19788,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-cold-therapy.jpeg",
         initiative: 20,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.45408296373597706,
+              y: 0.25277777777777777,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "cross winds",
@@ -11701,6 +19811,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-cross-winds.jpeg",
         initiative: 32,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6231411427080615,
+              y: 0.2902777777777778,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6231411427080615,
+              y: 0.38055555555555554,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.8305555555555556,
+            },
+          ],
+        },
       },
       {
         name: "enticing breeze",
@@ -11709,6 +19855,25 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-enticing-breeze.jpeg",
         initiative: 76,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4290373075919645,
+              y: 0.21805555555555556,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [{ dot: "square", plus1: "pull", multitarget: true, persistent: false, x: 0.5, y: 0.6513888888888889 }],
+        },
       },
       {
         name: "freezing storm",
@@ -11717,6 +19882,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-freezing-storm.jpeg",
         initiative: 81,
         level: 7,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4358205061309679,
+              y: 0.19340277777777778,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6273154187320636, y: 0.6375 },
+          ],
+        },
       },
       {
         name: "frigid growth",
@@ -11725,6 +19911,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-frigid-growth.jpeg",
         initiative: 70,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5187842421080094,
+              y: 0.7347222222222223,
+            },
+          ],
+        },
       },
       {
         name: "frozen brand",
@@ -11733,6 +19934,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-frozen-brand.jpeg",
         initiative: 33,
         level: 6,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5166971040960083,
+              y: 0.7305555555555555,
+            },
+          ],
+        },
       },
       {
         name: "gathering force",
@@ -11741,6 +19957,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-gathering-force.jpeg",
         initiative: 89,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "lifting gust",
@@ -11749,6 +19967,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-lifting-gust.jpeg",
         initiative: 27,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4352987216279676,
+              y: 0.2652777777777778,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5187842421080093,
+              y: 0.7267361111111112,
+            },
+          ],
+        },
       },
       {
         name: "nature's breath",
@@ -11757,6 +20003,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-natures-breath.jpeg",
         initiative: 90,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.5125228280720062,
+              y: 0.19409722222222223,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5125228280720062,
+              y: 0.26944444444444443,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.8094182102791546,
+              y: 0.19409722222222223,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5187842421080094,
+              y: 0.7305555555555555,
+            },
+          ],
+        },
       },
       {
         name: "polar vortex",
@@ -11765,6 +20055,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-polar-vortex.jpeg",
         initiative: 61,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "pull",
+              multitarget: true,
+              persistent: false,
+              x: 0.35859639968692936,
+              y: 0.3020833333333333,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.4582572397599791,
+              y: 0.6791666666666667,
+            },
+          ],
+        },
       },
       {
         name: "refreshing flurry",
@@ -11773,6 +20091,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-refreshing-flurry.jpeg",
         initiative: 95,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.43947299765196973,
+              y: 0.2013888888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45408296373597706,
+              y: 0.7138888888888889,
+            },
+            {
+              dot: "square",
+              plus1: "summon-attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4540829637359771,
+              y: 0.7888888888888889,
+            },
+            {
+              dot: "square",
+              plus1: "summon-move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6883642055830942,
+              y: 0.7131944444444447,
+            },
+          ],
+        },
       },
       {
         name: "shifting snow",
@@ -11781,6 +20143,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-shifting-snow.jpeg",
         initiative: 17,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6189668666840595,
+              y: 0.6684027777777779,
+            },
+          ],
+        },
       },
       {
         name: "snowball",
@@ -11789,6 +20166,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-snowball.jpeg",
         initiative: 23,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.4415601356639708,
+              y: 0.25833333333333336,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "snowblind",
@@ -11797,6 +20189,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-snowblind.jpeg",
         initiative: 83,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.303809026871902,
+              y: 0.24722222222222223,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "storm wall",
@@ -11805,6 +20212,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-storm-wall.jpeg",
         initiative: 30,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "surging blow",
@@ -11813,6 +20222,58 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-surging-blow.jpeg",
         initiative: 73,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.48539003391599267,
+              y: 0.19027777777777777,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.48330289590399167,
+              y: 0.31666666666666665,
+            },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: false,
+              persistent: false,
+              x: 0.7483694234281242,
+              y: 0.18888888888888888,
+            },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: false,
+              persistent: false,
+              x: 0.7462822854161232,
+              y: 0.31527777777777777,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond-plus",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.2751108792068876,
+              y: 0.7510416666666666,
+            },
+          ],
+        },
       },
       {
         name: "the endless white",
@@ -11821,6 +20282,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-the-endless-white.jpeg",
         initiative: 5,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6231411427080615,
+              y: 0.7333333333333333,
+            },
+          ],
+        },
       },
       {
         name: "the spirit's call",
@@ -11829,6 +20305,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-the-spirits-call.jpeg",
         initiative: 45,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49791286198799894,
+              y: 0.2388888888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "pull",
+              multitarget: false,
+              persistent: false,
+              x: 0.3580746151839291,
+              y: 0.7225694444444446,
+            },
+          ],
+        },
       },
       {
         name: "tornado",
@@ -11837,6 +20341,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-tornado.jpeg",
         initiative: 59,
         level: 2,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.33302895903991653,
+              y: 0.16666666666666666,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5146099660840073,
+              y: 0.6638888888888889,
+            },
+          ],
+        },
       },
       {
         name: "whipping gale",
@@ -11845,6 +20377,22 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-whipping-gale.jpeg",
         initiative: 79,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.32728932950691364,
+              y: 0.26284722222222223,
+            },
+            { dot: "square", plus1: "pull", multitarget: true, persistent: false, x: 0.7812418471171406, y: 0.2625 },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "whiteout",
@@ -11853,6 +20401,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-whiteout.jpeg",
         initiative: 21,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.38781633185494396,
+              y: 0.18229166666666666,
+            },
+            {
+              dot: "square",
+              plus1: "target",
+              multitarget: false,
+              persistent: false,
+              x: 0.6054004696060526,
+              y: 0.18402777777777776,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6189668666840595,
+              y: 0.8319444444444445,
+            },
+          ],
+        },
       },
       {
         name: "white winds",
@@ -11861,6 +20445,43 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-white-winds.jpeg",
         initiative: 11,
         level: 1.5,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            { dot: "hex", multitarget: true, persistent: false, hexes: 6, x: 0.7734150795721367, y: 0.2125 },
+            {
+              dot: "hex",
+              multitarget: true,
+              persistent: false,
+              hexes: 6,
+              x: 0.6774067310200887,
+              y: 0.33611111111111114,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.42068875554396035,
+              y: 0.6628472222222224,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6695799634750847,
+              y: 0.6631944444444446,
+            },
+          ],
+        },
       },
       {
         name: "winds of change",
@@ -11869,6 +20490,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-winds-of-change.jpeg",
         initiative: 15,
         level: 9,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.3930341768849465,
+              y: 0.16979166666666667,
+            },
+            {
+              dot: "square",
+              plus1: "target",
+              multitarget: false,
+              persistent: false,
+              x: 0.6043569006000522,
+              y: 0.16944444444444445,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6288807722410644,
+              y: 0.6329861111111112,
+            },
+          ],
+        },
       },
       {
         name: "zephyr barrier",
@@ -11877,6 +20534,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SD/fh-zephyr-barrier.jpeg",
         initiative: 40,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: true,
+              persistent: false,
+              x: 0.403991651447952,
+              y: 0.24166666666666667,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
     ],
     SH: [
@@ -11895,6 +20567,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-barbaric-yawp.jpeg",
         initiative: 66,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6194886511870599,
+              y: 0.628819444444445,
+            },
+          ],
+        },
       },
       {
         name: "befuddling bellow",
@@ -11903,6 +20590,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-befuddling-bellow.jpeg",
         initiative: 18,
         level: 2,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "calamitous yawp",
@@ -11911,6 +20600,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-calamitous-yawp.jpeg",
         initiative: 65,
         level: 1.5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6168797286720584,
+              y: 0.6527777777777778,
+            },
+          ],
+        },
       },
       {
         name: "cloaking refraction",
@@ -11919,6 +20623,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-cloaking-refraction.jpeg",
         initiative: 11,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6294025567440648,
+              y: 0.21666666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200628,
+              y: 0.6420138888888889,
+            },
+          ],
+        },
       },
       {
         name: "concentrated blast",
@@ -11927,6 +20659,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-concentrated-blast.jpeg",
         initiative: 38,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.49582572397599795,
+              y: 0.21666666666666667,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6168797286720584,
+              y: 0.6541666666666667,
+            },
+          ],
+        },
       },
       {
         name: "devastating shout",
@@ -11935,6 +20695,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-devastating-shout.jpeg",
         initiative: 68,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6513175058700756,
+              y: 0.2881944444444444,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.7666666666666667,
+            },
+          ],
+        },
       },
       {
         name: "din of battle",
@@ -11943,6 +20731,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-din-of-battle.jpeg",
         initiative: 14,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.46347508478998173,
+              y: 0.221875,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "elemental pulse",
@@ -11951,6 +20754,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-elemental-pulse.jpeg",
         initiative: 25,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.6168797286720584, y: 0.175 },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "empowering note",
@@ -11959,6 +20770,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-empowering-note.jpeg",
         initiative: 45,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6527777777777778,
+            },
+          ],
+        },
       },
       {
         name: "empowering pulse",
@@ -11967,6 +20793,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-empowering-pulse.jpeg",
         initiative: 22,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.495825723975998,
+              y: 0.20798611111111112,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "feedback",
@@ -11975,6 +20816,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-feedback.jpeg",
         initiative: 24,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6278372032350641,
+              y: 0.632638888888889,
+            },
+          ],
+        },
       },
       {
         name: "forceful vibrations",
@@ -11983,6 +20839,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-forceful-vibrations.jpeg",
         initiative: 27,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4958257239759979,
+              y: 0.24722222222222223,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5156535350900078,
+              y: 0.6642361111111112,
+            },
+          ],
+        },
       },
       {
         name: "foreboding tremors",
@@ -11991,6 +20875,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-foreboding-tremors.jpeg",
         initiative: 21,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.34137751108792064,
+              y: 0.24895833333333334,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6189668666840595,
+              y: 0.674652777777778,
+            },
+          ],
+        },
       },
       {
         name: "future sense",
@@ -11999,6 +20911,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-future-sense.jpeg",
         initiative: 28,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.391990607878946,
+              y: 0.21006944444444442,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.7254109052961127,
+              y: 0.20972222222222223,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.509913905557005,
+              y: 0.6711805555555554,
+            },
+          ],
+        },
       },
       {
         name: "heartening harmony",
@@ -12007,6 +20955,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-heartening-harmony.jpeg",
         initiative: 30,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.502087138012001,
+              y: 0.2902777777777778,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "illuminative tone",
@@ -12015,6 +20978,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-illuminative-tone.jpeg",
         initiative: 72,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.47130185233498567,
+              y: 0.24270833333333333,
+            },
+          ],
+        },
+        bottom: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6085311766240544,
+              y: 0.6954861111111115,
+            },
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.32468040699191236,
+              y: 0.8013888888888889,
+            },
+          ],
+        },
       },
       {
         name: "lifting voice",
@@ -12023,6 +21022,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-lifting-voice.jpeg",
         initiative: 29,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "precious gems",
@@ -12031,6 +21032,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-precious-gems.jpeg",
         initiative: 10,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.2326388888888889,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6210540046960605,
+              y: 0.6513888888888889,
+            },
+          ],
+        },
       },
       {
         name: "resonant frequency",
@@ -12039,6 +21068,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-resonant-frequency.jpeg",
         initiative: 88,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "shape the path",
@@ -12047,6 +21078,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-shape-the-path.jpeg",
         initiative: 40,
         level: 3,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6247064962170624,
+              y: 0.7000000000000004,
+            },
+          ],
+        },
       },
       {
         name: "shrieking chakram",
@@ -12055,6 +21101,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-shrieking-chakram.jpeg",
         initiative: 8,
         level: 5,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "soft spots",
@@ -12063,6 +21111,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-soft-spots.jpeg",
         initiative: 47,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "range", multitarget: true, persistent: false, x: 0.6502739368640751, y: 0.24375 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6621527777777778,
+            },
+          ],
+        },
       },
       {
         name: "sonic shock",
@@ -12071,6 +21140,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-sonic-shock.jpeg",
         initiative: 58,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4373858596399687,
+              y: 0.24722222222222223,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6821027915470912,
+              y: 0.24687499999999998,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6247064962170623,
+              y: 0.6777777777777776,
+            },
+          ],
+        },
       },
       {
         name: "sound therapy",
@@ -12079,6 +21184,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-sound-therapy.jpeg",
         initiative: 73,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.487998956430994,
+              y: 0.7211805555555557,
+            },
+          ],
+        },
       },
       {
         name: "stealth vibrations",
@@ -12087,6 +21207,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-stealth-vibrations.jpeg",
         initiative: 35,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.49895643099399956,
+              y: 0.2423611111111111,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.7013888888888888,
+            },
+          ],
+        },
       },
       {
         name: "transparency",
@@ -12095,6 +21243,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-transparency.jpeg",
         initiative: 13,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.5, y: 0.18715277777777778 },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "unrelenting wail",
@@ -12103,6 +21259,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-unrelenting-wail.jpeg",
         initiative: 26,
         level: 1,
+        top: {
+          loss: true,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.403991651447952,
+              y: 0.29305555555555557,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6231411427080615,
+              y: 0.6930555555555555,
+            },
+          ],
+        },
       },
       {
         name: "unsustainable wave",
@@ -12111,6 +21295,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-unsustainable-wave.jpeg",
         initiative: 36,
         level: 6,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "violent vibrations",
@@ -12119,6 +21305,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/SH/fh-violent-vibrations.jpeg",
         initiative: 5,
         level: 9,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6252282807200626,
+              y: 0.6597222222222222,
+            },
+          ],
+        },
       },
     ],
     TA: [
@@ -12137,6 +21338,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-boar-catcher.jpeg",
         initiative: 20,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "attack", multitarget: false, persistent: false, x: 0.5532220193060267, y: 0.25 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5093921210540047,
+              y: 0.7638888888888888,
+            },
+          ],
+        },
       },
       {
         name: "cage of thorns",
@@ -12145,6 +21367,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-cage-of-thorns.jpeg",
         initiative: 55,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.44051656665797023,
+              y: 0.25555555555555554,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6847117140620923,
+              y: 0.2569444444444444,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.6722222222222223,
+            },
+          ],
+        },
       },
       {
         name: "caltrops",
@@ -12153,6 +21411,34 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-caltrops.jpeg",
         initiative: 25,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.668014609966084,
+              y: 0.30416666666666664,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.7611111111111111,
+            },
+          ],
+        },
       },
       {
         name: "dangerous cargo",
@@ -12161,6 +21447,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-dangerous-cargo.jpeg",
         initiative: 23,
         level: 9,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.7291666666666666,
+            },
+          ],
+        },
       },
       {
         name: "dangerous ground",
@@ -12169,6 +21470,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-dangerous-ground.jpeg",
         initiative: 31,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.6701017479780851,
+              y: 0.3055555555555556,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "dismantle",
@@ -12177,6 +21493,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-dismantle.jpeg",
         initiative: 72,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.24861111111111112,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "electrified net",
@@ -12185,6 +21516,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-electrified-net.jpeg",
         initiative: 53,
         level: 1,
+        top: { loss: true, persistent: false, dots: [] },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "enticing bait",
@@ -12193,6 +21526,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-enticing-bait.jpeg",
         initiative: 30,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.5991390555700495,
+              y: 0.2708333333333333,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: false, dots: [] },
       },
       {
         name: "exploding decoy",
@@ -12201,6 +21549,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-exploding-decoy.jpeg",
         initiative: 62,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.31111400991390553,
+              y: 0.30277777777777776,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.5448734672580224,
+              y: 0.30416666666666664,
+            },
+            {
+              dot: "square",
+              plus1: "pull",
+              multitarget: false,
+              persistent: false,
+              x: 0.8036785807461518,
+              y: 0.30416666666666664,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.617923297678059,
+              y: 0.7388888888888889,
+            },
+          ],
+        },
       },
       {
         name: "extra teeth",
@@ -12209,6 +21601,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-extra-teeth.jpeg",
         initiative: 22,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.5511348812940255,
+              y: 0.25833333333333336,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6262718497260631, y: 0.6375 },
+          ],
+        },
       },
       {
         name: "flurry of nails",
@@ -12217,6 +21630,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-flurry-of-nails.jpeg",
         initiative: 68,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4238194625619619,
+              y: 0.29583333333333334,
+            },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: false,
+              persistent: false,
+              x: 0.6909731280980955,
+              y: 0.29583333333333334,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5135663970780068,
+              y: 0.7069444444444445,
+            },
+          ],
+        },
       },
       {
         name: "foxhole",
@@ -12225,6 +21674,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-foxhole.jpeg",
         initiative: 90,
         level: 7,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.5553091573180277,
+              y: 0.24027777777777778,
+            },
+          ],
+        },
+        bottom: { loss: true, persistent: true, dots: [] },
       },
       {
         name: "furry facade",
@@ -12233,6 +21697,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-furry-facade.jpeg",
         initiative: 85,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: true,
+          dots: [
+            {
+              dot: "square",
+              plus1: "summon-hp",
+              multitarget: false,
+              persistent: false,
+              x: 0.45512653274197756,
+              y: 0.6861111111111111,
+            },
+          ],
+        },
       },
       {
         name: "grasping hazards",
@@ -12241,6 +21720,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-grasping-hazards.jpeg",
         initiative: 8,
         level: 7,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.62001043569006,
+              y: 0.8736111111111111,
+            },
+          ],
+        },
       },
       {
         name: "honeypot",
@@ -12249,6 +21743,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-honeypot.jpeg",
         initiative: 18,
         level: 1,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.6986111111111111,
+            },
+          ],
+        },
       },
       {
         name: "improvised improvement",
@@ -12257,6 +21766,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-improvised-improvement.jpeg",
         initiative: 58,
         level: 1.5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.45512653274197756,
+              y: 0.29444444444444445,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6304461257500652, y: 0.6875 },
+          ],
+        },
       },
       {
         name: "lure of the snare",
@@ -12265,6 +21795,50 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-lure-of-the-snare.jpeg",
         initiative: 59,
         level: 5,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.30276545786590137,
+              y: 0.29583333333333334,
+            },
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: false,
+              persistent: false,
+              x: 0.5469606052700234,
+              y: 0.29444444444444445,
+            },
+            {
+              dot: "square",
+              plus1: "pull",
+              multitarget: false,
+              persistent: false,
+              x: 0.7995043047221497,
+              y: 0.29583333333333334,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.5135663970780068,
+              y: 0.8111111111111111,
+            },
+          ],
+        },
       },
       {
         name: "magnetic shards",
@@ -12273,6 +21847,42 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-magnetic-shards.jpeg",
         initiative: 37,
         level: 8,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: true,
+              persistent: false,
+              x: 0.329898252021915,
+              y: 0.3055555555555556,
+            },
+            {
+              dot: "square",
+              plus1: "push",
+              multitarget: true,
+              persistent: false,
+              x: 0.7848943386381424,
+              y: 0.3055555555555556,
+            },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "heal",
+              multitarget: false,
+              persistent: false,
+              x: 0.48017218888599006,
+              y: 0.7208333333333333,
+            },
+          ],
+        },
       },
       {
         name: "mother of all traps",
@@ -12281,6 +21891,27 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-mother-of-all-traps.jpeg",
         initiative: 86,
         level: 9,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "attack", multitarget: false, persistent: false, x: 0.3465953561179233, y: 0.2875 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6241847117140621,
+              y: 0.6791666666666667,
+            },
+          ],
+        },
       },
       {
         name: "path of pain",
@@ -12289,6 +21920,35 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-path-of-pain.jpeg",
         initiative: 38,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "diamond",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.4363422906339682,
+              y: 0.2375,
+            },
+            { dot: "square", plus1: "push", multitarget: false, persistent: false, x: 0.6888859900860944, y: 0.2375 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.6262718497260631,
+              y: 0.7694444444444445,
+            },
+          ],
+        },
       },
       {
         name: "persistent pitfalls",
@@ -12297,6 +21957,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-persistent-pitfalls.jpeg",
         initiative: 13,
         level: 6,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "attack",
+              multitarget: false,
+              persistent: false,
+              x: 0.47808505087398906,
+              y: 0.30277777777777776,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "proficient hunter",
@@ -12305,6 +21980,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-proficient-hunter.jpeg",
         initiative: 26,
         level: 5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6220975737020611,
+              y: 0.6972222222222222,
+            },
+          ],
+        },
       },
       {
         name: "pyrotechnics",
@@ -12313,6 +22003,20 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-pyrotechnics.jpeg",
         initiative: 80,
         level: 3,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "heal", multitarget: false, persistent: false, x: 0.5448734672580224, y: 0.275 },
+          ],
+        },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "circle", plus1: "move", multitarget: false, persistent: false, x: 0.6220975737020611, y: 0.675 },
+          ],
+        },
       },
       {
         name: "spike pit",
@@ -12321,6 +22025,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-spike-pit.jpeg",
         initiative: 47,
         level: 1,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "square", plus1: "attack", multitarget: false, persistent: false, x: 0.5281763631620141, y: 0.2625 },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "spike strip",
@@ -12329,6 +22041,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-spike-strip.jpeg",
         initiative: 67,
         level: 8,
+        top: { loss: false, persistent: false, dots: [] },
+        bottom: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "circle",
+              plus1: "move",
+              multitarget: false,
+              persistent: false,
+              x: 0.6283589877380642,
+              y: 0.7069444444444445,
+            },
+          ],
+        },
       },
       {
         name: "spring-loaded",
@@ -12337,6 +22064,8 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-spring-loaded.jpeg",
         initiative: 15,
         level: 1.5,
+        top: { loss: true, persistent: true, dots: [] },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
       {
         name: "stalker's spoils",
@@ -12345,6 +22074,21 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-stalkers-spoils.jpeg",
         initiative: 10,
         level: 4,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            {
+              dot: "square",
+              plus1: "range",
+              multitarget: true,
+              persistent: false,
+              x: 0.668014609966084,
+              y: 0.2986111111111111,
+            },
+          ],
+        },
+        bottom: { loss: false, persistent: false, dots: [] },
       },
       {
         name: "unavoidable outcome",
@@ -12353,6 +22097,14 @@ export const characterAbilityCards: Record<string, Record<string, CharacterAbili
         image: "character-ability-cards/frosthaven/TA/fh-unavoidable-outcome.jpeg",
         initiative: 45,
         level: 2,
+        top: {
+          loss: false,
+          persistent: false,
+          dots: [
+            { dot: "diamond", plus1: "attack", multitarget: false, persistent: false, x: 0.4947821549699974, y: 0.25 },
+          ],
+        },
+        bottom: { loss: false, persistent: true, dots: [] },
       },
     ],
   },

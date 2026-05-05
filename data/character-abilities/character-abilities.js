@@ -58,6 +58,8 @@ let abilities = helpers.readData("./data/character-abilities").map((ability) => 
       imageBack: ability.imageBack.replaceAll(".png", ".jpeg"),
     }),
     ...(ability.milestone && { milestone: ability.milestone }),
+    top: ability.top,
+    bottom: ability.bottom,
   };
 });
 

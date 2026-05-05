@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import { Character, CharacterAbility, CharacterAdditionalCardsSection, Option, Spoilers } from "../../common/types";
+import { Card, Character, CharacterAbility, CharacterAdditionalCardsSection, Option, Spoilers } from "../../common/types";
 import {
   assignCardIds,
   customSort,
@@ -22,6 +22,7 @@ import { characterAbilityCards } from "../../data/character-ability-cards";
 import { characterAdditionalCards } from "../../data/character-additional-cards";
 import { useCraftingStore } from "../../hooks/useCraftingStore";
 import { serializeBuild, deserializeBuild } from "../../common/shareUtils";
+import EnhancementModal from "../EnhancementModal";
 
 const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },
@@ -120,8 +121,13 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   const {
     isCraftingMode,
     toggleCraftingMode,
+    enhancingMode,
+    setEnhancingMode,
+    addEnhancement,
+    getEnhancement,
     activeDeck,
     activeDeckClass,
+    activeEnhancements,
     clearDeck,
     setDeck,
     toggleCard,
@@ -159,24 +165,21 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     setSortDirection(newValue);
   };
 
-  let cardList =
+  const cardList: CharacterAbility[] =
     abilityCards
       ?.filter(characterSpoilerFilter(spoilers))
-      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
-
-  if (isCraftingMode && viewActiveHand) {
-    cardList = cardList.filter((card) => activeDeck.includes(card.image));
-  }
+      ?.sort(customSort(sortOrder || "id", sortDirection || "asc"))
+      ?.filter(card => isCraftingMode && viewActiveHand ? activeDeck.includes(card.image) : true) ?? [];
 
   useEffect(() => {
     if (character) document.documentElement.style.setProperty("--primary", character.colour);
   }, [character]);
 
   useEffect(() => {
-    if (isCraftingMode && activeDeckClass && character?.class && activeDeckClass !== character.class) {
+    if (character?.class && activeDeckClass !== character.class) {
       clearDeck();
     }
-  }, [character?.class, activeDeckClass, isCraftingMode, clearDeck]);
+  }, [character?.class, activeDeckClass, clearDeck]);
 
   const router = useRouter();
 
@@ -192,7 +195,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           const images = abilityCards?.filter((c) => idSet.has(c.id)).map((c) => c.image) || [];
 
           if (images.length > 0) {
-            loadState(character.class, images);
+            loadState(character.class, images, {});
           }
         }
 
@@ -213,9 +216,50 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     setToastMessage("Build link copied to clipboard!");
   };
 
+  const onCardClick = (id: number, x: number, y: number, clientX: number, clientY: number) => {
+    if (isCraftingMode) return;
+
+    const tolerance = 0.02;
+    const card = cardList.find(e => e.id == id);
+    if (!card) return;
+
+    for (const actionType of ['top', 'bottom'] as const) {
+      const action = card[actionType];
+      const dots = action?.dots;
+      if (!dots) continue;
+
+      const index = dots.findIndex(dot => {
+        return (dot && Math.abs(x - dot.x) < tolerance && Math.abs(y - dot.y) < tolerance);
+      });
+      if (index === -1) continue;
+
+      if (getEnhancement(id, actionType, index)) {
+        return addEnhancement(id, actionType, index, null);
+      }
+
+      return setEnhancingMode({
+        id,
+        game: card.game,
+        level: Math.floor(card.level),
+        action: actionType,
+        loss: action.loss,
+        persistent: action.persistent,
+        index,
+        dot: dots[index],
+        x: clientX,
+        y: clientY,
+      });
+    }
+  }
+
   return (
     <>
       <ToastMessage message={toastMessage} colour={character?.colour} />
+      {enhancingMode && <EnhancementModal
+        data={enhancingMode}
+        onClick={(id) => addEnhancement(enhancingMode.id, enhancingMode.action, enhancingMode.index, id)}
+        onClose={() => setEnhancingMode(null)}
+      />}
       <div className="toolbar">
         <div className="toolbar-inner">
           <div>
@@ -287,10 +331,31 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         ) : (
           <>
             <CardList
-              cardList={cardList}
+              cardList={cardList
+                .map<Card>(card => ({
+                  ...card,
+                  overlay: (['top', 'bottom'] as const).flatMap(action => {
+                    return card[action]?.dots?.map((dot, i) => {
+                      const enhancement = getEnhancement(card.id, action, i);
+                      if (!enhancement) return null;
+
+                      const getBaseUrl = () => {
+                        return '/images/'
+                      }
+                      return {
+                        id: card.id,
+                        image: `${getBaseUrl()}enhancements/${enhancement}.png`,
+                        x: dot.x,
+                        y: dot.y,
+                      };
+                    }) ?? [];
+                  }).filter(e => !!e),
+                }))
+              }
               isCraftingMode={isCraftingMode}
               activeDeck={activeDeck}
               onCardToggle={(image) => toggleCard(image, character?.class, maxHandSize)}
+              onCardClick={onCardClick}
             />
             {isCraftingMode && <div style={{ padding: "36px" }} />}
           </>

@@ -3,12 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useRef } from "react";
 
 type ModalProps = {
-  content: React.ReactNode;
   open: boolean;
   onClose: () => void;
-};
+} & React.PropsWithChildren;
 
-const Modal = ({ content, open, onClose }: ModalProps) => {
+const Modal = ({ children, open, onClose }: ModalProps) => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -27,7 +26,7 @@ const Modal = ({ content, open, onClose }: ModalProps) => {
   return (
     <div className="modal" style={{ display: open ? "flex" : "none" }}>
       <div ref={ref} className="modal-content">
-        {content}
+        {children}
         <div className="close" onClick={onClose}>
           <FontAwesomeIcon color="white" icon={faClose} height="28px" width="28px" />
         </div>

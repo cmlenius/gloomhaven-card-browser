@@ -17,9 +17,10 @@ type CardProps = {
   isSelected?: boolean;
   isCraftingMode?: boolean;
   onToggle?: () => void;
+  onImageClick?: (card: Card, event: React.MouseEvent<HTMLImageElement>) => void;
 };
 
-const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, onToggle }: CardProps) => {
+const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, onToggle, onImageClick: onClick }: CardProps) => {
   return (
     <div
       className={`${horizontal ? "card-horizontal" : "card"} ${isCraftingMode ? "card-crafting-mode" : ""}`}
@@ -32,7 +33,26 @@ const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, onToggle }
           <span aria-hidden="true" className="invisible">
             {card.name}
           </span>
-          <img alt={String(card.name)} className="card-img" key={card.image} src={getBaseUrl() + card.image} />
+          <img
+            alt={String(card.name)}
+            className="card-img"
+            key={card.image}
+            src={getBaseUrl() + card.image}
+            onClick={(e) => onClick(card, e)}
+          />
+          {card.overlay && card.overlay.map((e, i) => <img
+            key={i}
+            src={e.image}
+            style={{
+              pointerEvents: 'none',
+              position: 'fixed',
+              left: `calc(${e.x * 100}% - 5%)`,
+              top: `calc(${e.y * 100}% - 5%)`,
+              width: '10%',
+              height: '10%',
+              objectFit: 'contain',
+            }}
+          />)}
         </div>
       </div>
     </div>
@@ -235,6 +255,7 @@ type CardListProps = {
   isCraftingMode?: boolean;
   activeDeck?: string[];
   onCardToggle?: (image: string) => void;
+  onCardClick?: (id: number, x: number, y: number, clientX: number, clientY: number) => void;
 };
 
 const CardList = ({
@@ -245,6 +266,7 @@ const CardList = ({
   isCraftingMode,
   activeDeck,
   onCardToggle,
+  onCardClick,
 }: CardListProps) => {
   const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
 
@@ -257,6 +279,24 @@ const CardList = ({
   }, [cardList]);
 
   if (data?.length === 0) return <Empty />;
+
+  const onImageClick = (card: Card, event: React.MouseEvent<HTMLImageElement>) => {
+    const img = event.currentTarget;
+    const rect = img.getBoundingClientRect();
+
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+
+    // scaling factors
+    const scaleX = img.naturalWidth / rect.width;
+    const scaleY = img.naturalHeight / rect.height;
+
+    // convert to original image coordinates
+    const originalX = mouseX * scaleX;
+    const originalY = mouseY * scaleY;
+
+    onCardClick(card.id, originalX / img.naturalWidth, originalY / img.naturalHeight, event.pageX, event.pageY);
+  }
 
   return (
     <InfiniteScroll
@@ -300,6 +340,7 @@ const CardList = ({
             isSelected={isSelected}
             isCraftingMode={clickable}
             onToggle={toggle}
+            onImageClick={onImageClick}
           />
         );
       })}

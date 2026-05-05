@@ -29,6 +29,13 @@ export interface Card {
   name: string;
   image: string;
   imageBack?: string;
+  overlay?: CardOverlay[];
+}
+
+export interface CardOverlay {
+  image: string;
+  x: number;
+  y: number;
 }
 
 export interface MultiLevelCard {
@@ -48,7 +55,64 @@ export type CharacterAbility = {
   level: number;
   imageBack?: string;
   milestone?: boolean;
+  top?: CharacterAbilityAction;
+  bottom?: CharacterAbilityAction;
 };
+
+export type CharacterAbilityAction = {
+  loss?: boolean;
+  persistent?: boolean;
+  dots: CharacterAbilityEnhancement[];
+};
+
+export type CharacterAbilityEnhancementCoords = {
+  multitarget: boolean;
+  persistent: boolean;
+  x: number;
+  y: number;
+};
+
+export type CharacterAbilityEnhancementPlus1 = {
+  dot:
+    | "square"
+    | "circle"
+    | "diamond"
+    | "diamond-plus";
+  plus1:
+    | "move"
+    | "attack"
+    | "range"
+    | "target"
+    | "shield"
+    | "retaliate"
+    | "pierce"
+    | "heal"
+    | "push"
+    | "pull"
+    | "teleport"
+    | "summon-hp"
+    | "summon-move"
+    | "summon-attack"
+    | "summon-range"
+    | "other-move";
+} & CharacterAbilityEnhancementCoords;
+
+export type CharacterAbilityEnhancementHex = {
+  dot: "hex"
+  hexes: number;
+} & CharacterAbilityEnhancementCoords;
+
+export type CharacterAbilityEnhancementOther = {
+  dot:
+    | "circle"
+    | "diamond"
+    | "diamond-plus";
+} & CharacterAbilityEnhancementCoords;
+
+export type CharacterAbilityEnhancement = 
+  | CharacterAbilityEnhancementPlus1
+  | CharacterAbilityEnhancementHex
+  | CharacterAbilityEnhancementOther;
 
 export type CharacterAdditionalCardsSection = {
   label: string;
