@@ -34,6 +34,208 @@ export const characterAdditionalCards: Record<string, Record<string, CharacterAd
       },
     ],
   },
+  fh: {
+    BB: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "recalibration trigger",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-249-recalibration-trigger.jpeg",
+          },
+        ],
+      },
+    ],
+    BN: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "spear of justice",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-250-spear-of-justice.jpeg",
+          },
+        ],
+      },
+    ],
+    BO: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "black earth codex",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-252-black-earth-codex.jpeg",
+          },
+        ],
+      },
+    ],
+    DF: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "wanderers club",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-248-wanderers-club.jpeg",
+          },
+        ],
+      },
+    ],
+    DW: [
+      {
+        label: "Solo Item",
+        cards: [
+          { name: "soul urn", image: "items/item-back.jpeg", imageBack: "items/frosthaven/fh-251-soul-urn.jpeg" },
+        ],
+      },
+    ],
+    GE: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "mask of duality",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-253-mask-of-duality.jpeg",
+          },
+        ],
+      },
+    ],
+    CR: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "spiraled medallion",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-264-spiraled-medallion.jpeg",
+          },
+        ],
+      },
+    ],
+    DT: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "warlords skull",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-263-warlords-skull.jpeg",
+          },
+        ],
+      },
+    ],
+    FF: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "freezing orb",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-260-freezing-orb.jpeg",
+          },
+        ],
+      },
+    ],
+    HV: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "energized module",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-261-energized-module.jpeg",
+          },
+        ],
+      },
+    ],
+    IF: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "ancestral blade",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-254-ancestral-blade.jpeg",
+          },
+        ],
+      },
+    ],
+    ME: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "exhaust boots",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-262-exhaust-boots.jpeg",
+          },
+        ],
+      },
+    ],
+    PC: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "skull of agony",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-258-skull-of-agony.jpeg",
+          },
+        ],
+      },
+    ],
+    PY: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "mountains heart",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-255-mountains-heart.jpeg",
+          },
+        ],
+      },
+    ],
+    SD: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "storm carving",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-259-storm-carving.jpeg",
+          },
+        ],
+      },
+    ],
+    SH: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "sonorous shard",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-256-sonorous-shard.jpeg",
+          },
+        ],
+      },
+    ],
+    TA: [
+      {
+        label: "Solo Item",
+        cards: [
+          {
+            name: "sly camouflage",
+            image: "items/item-back.jpeg",
+            imageBack: "items/frosthaven/fh-257-sly-camouflage.jpeg",
+          },
+        ],
+      },
+    ],
+  },
   gh: {
     BR: [
       {
