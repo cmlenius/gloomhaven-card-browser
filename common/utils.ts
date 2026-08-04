@@ -132,10 +132,9 @@ export const getGame = (gameId: string): Game | null => {
 };
 
 /**
- * Parses a string of "ranges" into an array of range objects.
- * EG: "1-10,92" => [{ start: 1, end : 10 }, { start: 92, end: 92 }].
- * @param str The string to parse into ranges.
- * @returns The range objects, or null if empty input string or error.
+ * Comparator that sorts on the given `order` key, with fallback to the .name field.
+ * @param order Primary sort key
+ * @param direction "asc" or "desc"
  */
 export function customSort(order: string, direction: string): (a: SearchResult, b: SearchResult) => number {
   return (a, b) => {
@@ -144,8 +143,12 @@ export function customSort(order: string, direction: string): (a: SearchResult, 
       sort = 1;
     } else if (a[order] < b[order]) {
       sort = -1;
+    } else if (a.name > b.name) {
+      sort = 1;
+    } else if (a.name < b.name) {
+      sort = -1;
     } else {
-      return a.name > b.name ? 1 : -1;
+      sort = 0;
     }
     return direction === "asc" ? sort : -1 * sort;
   };
