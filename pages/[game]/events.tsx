@@ -176,7 +176,8 @@ const eventSearchResults = (query: { [key: string]: string | string[] }) => {
 
   if (game === "fh" && eventType === "city") eventType = "outpost";
 
-  return eventCards[game]?.sort(customSort("id", "asc")) || [];
+  // Copy first: sort() reorders in place, and this is the shared module-level array.
+  return [...(eventCards[game] || [])].sort(customSort("id", "asc"));
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
