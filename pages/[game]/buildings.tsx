@@ -81,7 +81,8 @@ export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
 
 const buildingSearchResults = (query: { [key: string]: string | string[] }) => {
   const game = verifyQueryParam(query.game, "gh");
-  return buildingCards[game]?.sort(customSort("id", "asc")) || [];
+  // Copy first: sort() reorders in place, and this is the shared module-level array.
+  return [...(buildingCards[game] || [])].sort(customSort("id", "asc"));
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
