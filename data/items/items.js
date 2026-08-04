@@ -6433,6 +6433,7 @@ let items = [
     expansion: "Frosthaven",
     gameType: "fh",
     image: "items/frosthaven/193-247/fh-245a-ancient-coin.png",
+    displayId: "245a",
     slot: "",
   },
   {
@@ -6441,6 +6442,7 @@ let items = [
     expansion: "Frosthaven",
     gameType: "fh",
     image: "items/frosthaven/193-247/fh-245b-ancient-coin.png",
+    displayId: "245b",
     slot: "",
   },
   {
@@ -6449,6 +6451,7 @@ let items = [
     expansion: "Frosthaven",
     gameType: "fh",
     image: "items/frosthaven/193-247/fh-245c-ancient-coin.png",
+    displayId: "245c",
     slot: "",
   },
   {
@@ -6457,6 +6460,7 @@ let items = [
     expansion: "Frosthaven",
     gameType: "fh",
     image: "items/frosthaven/193-247/fh-245d-ancient-coin.png",
+    displayId: "245d",
     slot: "",
   },
   {
@@ -6767,5 +6771,19 @@ items = items.map((item) => {
     prosperity: item.unlockProsperity,
   };
 });
+
+// Two items sharing an image path become indistinguishable records, which also
+// collide as React keys in the card list. Catch it here rather than shipping it.
+const seen = new Map();
+for (const item of items) {
+  seen.set(item.image, (seen.get(item.image) || 0) + 1);
+}
+const collisions = [...seen].filter(([, count]) => count > 1);
+if (collisions.length) {
+  throw new Error(
+    "duplicate image paths generated (give each variant a distinct displayId):\n" +
+      collisions.map(([image, count]) => `  ${image} x${count}`).join("\n"),
+  );
+}
 
 fs.writeFile("item-cards.js", JSON.stringify(groupBy(items, "game")), "utf8", () => console.log("items", items.length));
