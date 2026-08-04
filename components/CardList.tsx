@@ -9,6 +9,17 @@ import Empty from "./Empty";
 
 const CARDS_PER_PAGE = 12;
 
+// Some edge case cards like FH245 (Ancient Coin) can trigger React map key
+// collisions, leading to leaks.  Dedupe with a suffix for these edge cases.
+const makeKeyDeduper = () => {
+  const seen = new Map<string, number>();
+  return (base: string) => {
+    const count = (seen.get(base) || 0) + 1;
+    seen.set(base, count);
+    return count === 1 ? base : `${base}#${count}`;
+  };
+};
+
 type CardProps = {
   card: Card;
   horizontal?: boolean;
@@ -204,6 +215,8 @@ export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
 
   if (data?.length === 0) return <Empty />;
 
+  const dedupeKey = makeKeyDeduper();
+
   return (
     <InfiniteScroll
       className="card-list"
@@ -213,7 +226,7 @@ export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
       pageStart={0}
     >
       {data?.map((multiLevelCard) => (
-        <MultiLevelCard key={multiLevelCard.id} multiLevelCard={multiLevelCard} />
+        <MultiLevelCard key={dedupeKey(String(multiLevelCard.id))} multiLevelCard={multiLevelCard} />
       ))}
       {[...Array(4)].map((_, idx) => (
         <div key={idx}>
@@ -258,6 +271,8 @@ const CardList = ({
 
   if (data?.length === 0) return <Empty />;
 
+  const dedupeKey = makeKeyDeduper();
+
   return (
     <InfiniteScroll
       className="card-list"
@@ -278,7 +293,7 @@ const CardList = ({
           if (!isBackCard && onCardToggle) onCardToggle(card.image);
         };
         const clickable = isCraftingMode && !isBackCard;
-        const key = card.name + "-" + card.image;
+        const key = dedupeKey(card.imageBack ? card.name + "-" + card.image : card.image);
 
         return card.imageBack ? (
           <FlipCardWrapper
@@ -293,7 +308,7 @@ const CardList = ({
           />
         ) : (
           <Card
-            key={card.image}
+            key={key}
             card={card}
             horizontal={horizontal}
             showId={showId}
