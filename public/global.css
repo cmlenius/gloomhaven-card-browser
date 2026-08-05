@@ -458,8 +458,8 @@ input[type="radio"] {
   height: 24px;
   margin: 0 8px;
   padding: 2px 8px;
-  text-align: right;
-  width: 65px;
+  text-align: center;
+  width: 124px;
 }
 
 .filters {
