@@ -18,11 +18,11 @@ To avoid long load times, images should be compressed before uploading, there ar
 1. Fork a branch from the `main` branch
 2. Append the character ability card data to `data/character-ability-cards/custom-content.json`
 3. Append the character additional card data to `data/character-additional-cards/custom-content.json`
-3. Append the character data to `data/characters/custom-content.json`
-4. Run `npm run format` to make sure all changes are formatted correctly
-5. Run `npm run data` to generate changes to the `.ts` files
-6. Test changes locally and ensure all images are loading properly
-7. Commit changes and open a Pull Request to merge into the `main` branch
+4. Append the character data to `data/characters/custom-content.json`
+5. Run `npm run format` to make sure all changes are formatted correctly
+6. Run `npm run data` to generate changes to the `.ts` files
+7. Test changes locally and ensure all images are loading properly
+8. Commit changes and open a Pull Request to merge into the `main` branch
 
 Ability card data should be in the following format. For level you can also put a character such as `"X"`. Introduction of unique card levels such as `"M"` used by Sawbones will require updating `/data/scripts/abilites.js` to define the sort order.
 

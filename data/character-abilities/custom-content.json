@@ -1045,7 +1045,7 @@
   {
     "name": "toss me!",
     "expansion": "custom-content",
-    "image": "character-ability-cards/custom-content/JT/cc-toss-me!.jpeg",
+    "image": "character-ability-cards/custom-content/JT/cc-toss-me.jpeg",
     "initiative": "70",
     "level": "4"
   },
@@ -1094,7 +1094,7 @@
   {
     "name": "cannonball!",
     "expansion": "custom-content",
-    "image": "character-ability-cards/custom-content/JT/cc-cannonball!.jpeg",
+    "image": "character-ability-cards/custom-content/JT/cc-cannonball.jpeg",
     "initiative": "92",
     "level": "7"
   },
@@ -1763,419 +1763,419 @@
     "initiative": "15",
     "level": "2"
   },
-	{
-		"name": "barter",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-barter.jpeg",
-		"initiative": "27",
-		"level": "X"
-	},
-	{
-		"name": "mischievous endeavour",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-mischievous-endeavour.jpeg",
-		"initiative": "88",
-		"level": "X"
-	},
-	{
-		"name": "toxic vapor",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-toxic-vapor.jpeg",
-		"initiative": "25",
-		"level": "X"
-	},
-	{
-		"name": "backup munitions",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-backup-munitions.jpeg",
-		"initiative": "41",
-		"level": "1"
-	},
-	{
-		"name": "combustion",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-combustion.jpeg",
-		"initiative": "45",
-		"level": "1"
-	},
-	{
-		"name": "flame burst",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-flame-burst.jpeg",
-		"initiative": "78",
-		"level": "1"
-	},
-	{
-		"name": "locked and loaded",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-locked-and-loaded.jpeg",
-		"initiative": "28",
-		"level": "1"
-	},
-	{
-		"name": "rapid shift",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-rapid-shift.jpeg",
-		"initiative": "15",
-		"level": "1"
-	},
-	{
-		"name": "searing blaze",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-searing-blaze.jpeg",
-		"initiative": "36",
-		"level": "1"
-	},
-	{
-		"name": "share a swig",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-share-a-swig.jpeg",
-		"initiative": "32",
-		"level": "1"
-	},
-	{
-		"name": "spiked rope",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-spiked-rope.jpeg",
-		"initiative": "20",
-		"level": "1"
-	},
-	{
-		"name": "thounderous charge",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-thounderous-charge.jpeg",
-		"initiative": "73",
-		"level": "1"
-	},
-	{
-		"name": "torpedo rounds",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-torpedo-rounds.jpeg",
-		"initiative": "67",
-		"level": "1"
-	},
-	{
-		"name": "disorienting uproar",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-disorienting-uproar.jpeg",
-		"initiative": "17",
-		"level": "2"
-	},
-	{
-		"name": "grapeshot",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-grapeshot.jpeg",
-		"initiative": "43",
-		"level": "2"
-	},
-	{
-		"name": "ball bearings",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-ball-bearings.jpeg",
-		"initiative": "31",
-		"level": "3"
-	},
-	{
-		"name": "compacted shells",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-compacted-shells.jpeg",
-		"initiative": "57",
-		"level": "3"
-	},
-	{
-		"name": "implosion",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-implosion.jpeg",
-		"initiative": "37",
-		"level": "4"
-	},
-	{
-		"name": "repelling blast",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-repelling-blast.jpeg",
-		"initiative": "26",
-		"level": "4"
-	},
-	{
-		"name": "incinerate",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-incinerate.jpeg",
-		"initiative": "71",
-		"level": "5"
-	},
-	{
-		"name": "suspicious salve",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-suspicious-salve.jpeg",
-		"initiative": "11",
-		"level": "5"
-	},
-	{
-		"name": "flammable dust",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-flammable-dust.jpeg",
-		"initiative": "52",
-		"level": "6"
-	},
-	{
-		"name": "hostile acquisition",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-hostile-acquisition.jpeg",
-		"initiative": "34",
-		"level": "6"
-	},
-	{
-		"name": "death wish",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-death-wish.jpeg",
-		"initiative": "16",
-		"level": "7"
-	},
-	{
-		"name": "trick of the trade",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-trick-of-the-trade.jpeg",
-		"initiative": "23",
-		"level": "7"
-	},
-	{
-		"name": "flashbang mayhem",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-flashbang-mayhem.jpeg",
-		"initiative": "86",
-		"level": "8"
-	},
-	{
-		"name": "high impact",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-high-impact.jpeg",
-		"initiative": "42",
-		"level": "8"
-	},
-	{
-		"name": "death's daughter",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-deaths-daughter.jpeg",
-		"initiative": "90",
-		"level": "9"
-	},
-	{
-		"name": "fractured barrage",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-fractured-barrage.jpeg",
-		"initiative": "18",
-		"level": "9"
-	},
-	{
-		"name": "pw back",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/PW/cc-pw-back.jpeg",
-		"initiative": "0",
-		"level": "0"
-	},
   {
-		"name": "gather kindling",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-gather-kindling.jpeg",
-		"initiative": "85",
-		"level": "X"
-	},
-	{
-		"name": "fuel for the fire",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-fuel-for-the-fire.jpeg",
-		"initiative": "81",
-		"level": "X"
-	},
-	{
-		"name": "maditative violence",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-maditative-violence.jpeg",
-		"initiative": "78",
-		"level": "X"
-	},
-	{
-		"name": "cinderstrike",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-cinderstrike.jpeg",
-		"initiative": "64",
-		"level": "1"
-	},
-	{
-		"name": "lick of the flame",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-lick-of-the-flame.jpeg",
-		"initiative": "56",
-		"level": "1"
-	},
-	{
-		"name": "scorched earth",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-scorched-earth.jpeg",
-		"initiative": "38",
-		"level": "1"
-	},
-	{
-		"name": "disarming glow",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-disarming-glow.jpeg",
-		"initiative": "33",
-		"level": "1"
-	},
-	{
-		"name": "rallying blaze",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-rallying-blaze.jpeg",
-		"initiative": "24",
-		"level": "1"
-	},
-	{
-		"name": "weakening sparks",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-weakening-sparks.jpeg",
-		"initiative": "23",
-		"level": "1"
-	},
-	{
-		"name": "blazing path",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-blazing-path.jpeg",
-		"initiative": "20",
-		"level": "1"
-	},
-	{
-		"name": "hot coals",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-hot-coals.jpeg",
-		"initiative": "19",
-		"level": "1"
-	},
-	{
-		"name": "embers of protection",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-embers-of-protection.jpeg",
-		"initiative": "14",
-		"level": "1"
-	},
-	{
-		"name": "from the inferno",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-from-the-inferno.jpeg",
-		"initiative": "98",
-		"level": "9"
-	},
-	{
-		"name": "escalating heat",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-escalating-heat.jpeg",
-		"initiative": "7",
-		"level": "9"
-	},
-	{
-		"name": "choked with soot",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-choked-with-soot.jpeg",
-		"initiative": "22",
-		"level": "8"
-	},
-	{
-		"name": "songs around the campfire",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-songs-around-the-campfire.jpeg",
-		"initiative": "12",
-		"level": "8"
-	},
-	{
-		"name": "crossfire",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-crossfire.jpeg",
-		"initiative": "80",
-		"level": "7"
-	},
-	{
-		"name": "trailblazer",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-trailblazer.jpeg",
-		"initiative": "10",
-		"level": "7"
-	},
-	{
-		"name": "fan of flames",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-fan-of-flames.jpeg",
-		"initiative": "91",
-		"level": "6"
-	},
-	{
-		"name": "teach a man to fish",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-teach-a-man-to-fish.jpeg",
-		"initiative": "27",
-		"level": "6"
-	},
-	{
-		"name": "baptized in the blaze",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-baptized-in-the-blaze.jpeg",
-		"initiative": "31",
-		"level": "5"
-	},
-	{
-		"name": "kindled spirits",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-kindled-spirits.jpeg",
-		"initiative": "13",
-		"level": "5"
-	},
-	{
-		"name": "untamable pyre",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-untamable-pyre.jpeg",
-		"initiative": "25",
-		"level": "4"
-	},
-	{
-		"name": "smoke and mirrors",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-smoke-and-mirrors.jpeg",
-		"initiative": "21",
-		"level": "4"
-	},
-	{
-		"name": "into the fire",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-into-the-fire.jpeg",
-		"initiative": "37",
-		"level": "3"
-	},
-	{
-		"name": "raining charcoal",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-raining-charcoal.jpeg",
-		"initiative": "18",
-		"level": "3"
-	},
-	{
-		"name": "rejuvenating warmth",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-rejuvenating-warmth.jpeg",
-		"initiative": "74",
-		"level": "2"
-	},
-	{
-		"name": "rest here, weary traveler",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-rest-here-weary-traveler.jpeg",
-		"initiative": "29",
-		"level": "2"
-	},
-	{
-		"name": "rk back",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/RK/cc-rk-back.jpeg",
-		"initiative": "0",
-		"level": "0"
-	},
+    "name": "barter",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-barter.jpeg",
+    "initiative": "27",
+    "level": "X"
+  },
+  {
+    "name": "mischievous endeavour",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-mischievous-endeavour.jpeg",
+    "initiative": "88",
+    "level": "X"
+  },
+  {
+    "name": "toxic vapor",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-toxic-vapor.jpeg",
+    "initiative": "25",
+    "level": "X"
+  },
+  {
+    "name": "backup munitions",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-backup-munitions.jpeg",
+    "initiative": "41",
+    "level": "1"
+  },
+  {
+    "name": "combustion",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-combustion.jpeg",
+    "initiative": "45",
+    "level": "1"
+  },
+  {
+    "name": "flame burst",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-flame-burst.jpeg",
+    "initiative": "78",
+    "level": "1"
+  },
+  {
+    "name": "locked and loaded",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-locked-and-loaded.jpeg",
+    "initiative": "28",
+    "level": "1"
+  },
+  {
+    "name": "rapid shift",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-rapid-shift.jpeg",
+    "initiative": "15",
+    "level": "1"
+  },
+  {
+    "name": "searing blaze",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-searing-blaze.jpeg",
+    "initiative": "36",
+    "level": "1"
+  },
+  {
+    "name": "share a swig",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-share-a-swig.jpeg",
+    "initiative": "32",
+    "level": "1"
+  },
+  {
+    "name": "spiked rope",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-spiked-rope.jpeg",
+    "initiative": "20",
+    "level": "1"
+  },
+  {
+    "name": "thounderous charge",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-thounderous-charge.jpeg",
+    "initiative": "73",
+    "level": "1"
+  },
+  {
+    "name": "torpedo rounds",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-torpedo-rounds.jpeg",
+    "initiative": "67",
+    "level": "1"
+  },
+  {
+    "name": "disorienting uproar",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-disorienting-uproar.jpeg",
+    "initiative": "17",
+    "level": "2"
+  },
+  {
+    "name": "grapeshot",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-grapeshot.jpeg",
+    "initiative": "43",
+    "level": "2"
+  },
+  {
+    "name": "ball bearings",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-ball-bearings.jpeg",
+    "initiative": "31",
+    "level": "3"
+  },
+  {
+    "name": "compacted shells",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-compacted-shells.jpeg",
+    "initiative": "57",
+    "level": "3"
+  },
+  {
+    "name": "implosion",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-implosion.jpeg",
+    "initiative": "37",
+    "level": "4"
+  },
+  {
+    "name": "repelling blast",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-repelling-blast.jpeg",
+    "initiative": "26",
+    "level": "4"
+  },
+  {
+    "name": "incinerate",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-incinerate.jpeg",
+    "initiative": "71",
+    "level": "5"
+  },
+  {
+    "name": "suspicious salve",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-suspicious-salve.jpeg",
+    "initiative": "11",
+    "level": "5"
+  },
+  {
+    "name": "flammable dust",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-flammable-dust.jpeg",
+    "initiative": "52",
+    "level": "6"
+  },
+  {
+    "name": "hostile acquisition",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-hostile-acquisition.jpeg",
+    "initiative": "34",
+    "level": "6"
+  },
+  {
+    "name": "death wish",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-death-wish.jpeg",
+    "initiative": "16",
+    "level": "7"
+  },
+  {
+    "name": "trick of the trade",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-trick-of-the-trade.jpeg",
+    "initiative": "23",
+    "level": "7"
+  },
+  {
+    "name": "flashbang mayhem",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-flashbang-mayhem.jpeg",
+    "initiative": "86",
+    "level": "8"
+  },
+  {
+    "name": "high impact",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-high-impact.jpeg",
+    "initiative": "42",
+    "level": "8"
+  },
+  {
+    "name": "death's daughter",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-deaths-daughter.jpeg",
+    "initiative": "90",
+    "level": "9"
+  },
+  {
+    "name": "fractured barrage",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-fractured-barrage.jpeg",
+    "initiative": "18",
+    "level": "9"
+  },
+  {
+    "name": "pw back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/PW/cc-pw-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "gather kindling",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-gather-kindling.jpeg",
+    "initiative": "85",
+    "level": "X"
+  },
+  {
+    "name": "fuel for the fire",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-fuel-for-the-fire.jpeg",
+    "initiative": "81",
+    "level": "X"
+  },
+  {
+    "name": "maditative violence",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-maditative-violence.jpeg",
+    "initiative": "78",
+    "level": "X"
+  },
+  {
+    "name": "cinderstrike",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-cinderstrike.jpeg",
+    "initiative": "64",
+    "level": "1"
+  },
+  {
+    "name": "lick of the flame",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-lick-of-the-flame.jpeg",
+    "initiative": "56",
+    "level": "1"
+  },
+  {
+    "name": "scorched earth",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-scorched-earth.jpeg",
+    "initiative": "38",
+    "level": "1"
+  },
+  {
+    "name": "disarming glow",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-disarming-glow.jpeg",
+    "initiative": "33",
+    "level": "1"
+  },
+  {
+    "name": "rallying blaze",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-rallying-blaze.jpeg",
+    "initiative": "24",
+    "level": "1"
+  },
+  {
+    "name": "weakening sparks",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-weakening-sparks.jpeg",
+    "initiative": "23",
+    "level": "1"
+  },
+  {
+    "name": "blazing path",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-blazing-path.jpeg",
+    "initiative": "20",
+    "level": "1"
+  },
+  {
+    "name": "hot coals",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-hot-coals.jpeg",
+    "initiative": "19",
+    "level": "1"
+  },
+  {
+    "name": "embers of protection",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-embers-of-protection.jpeg",
+    "initiative": "14",
+    "level": "1"
+  },
+  {
+    "name": "from the inferno",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-from-the-inferno.jpeg",
+    "initiative": "98",
+    "level": "9"
+  },
+  {
+    "name": "escalating heat",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-escalating-heat.jpeg",
+    "initiative": "7",
+    "level": "9"
+  },
+  {
+    "name": "choked with soot",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-choked-with-soot.jpeg",
+    "initiative": "22",
+    "level": "8"
+  },
+  {
+    "name": "songs around the campfire",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-songs-around-the-campfire.jpeg",
+    "initiative": "12",
+    "level": "8"
+  },
+  {
+    "name": "crossfire",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-crossfire.jpeg",
+    "initiative": "80",
+    "level": "7"
+  },
+  {
+    "name": "trailblazer",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-trailblazer.jpeg",
+    "initiative": "10",
+    "level": "7"
+  },
+  {
+    "name": "fan of flames",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-fan-of-flames.jpeg",
+    "initiative": "91",
+    "level": "6"
+  },
+  {
+    "name": "teach a man to fish",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-teach-a-man-to-fish.jpeg",
+    "initiative": "27",
+    "level": "6"
+  },
+  {
+    "name": "baptized in the blaze",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-baptized-in-the-blaze.jpeg",
+    "initiative": "31",
+    "level": "5"
+  },
+  {
+    "name": "kindled spirits",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-kindled-spirits.jpeg",
+    "initiative": "13",
+    "level": "5"
+  },
+  {
+    "name": "untamable pyre",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-untamable-pyre.jpeg",
+    "initiative": "25",
+    "level": "4"
+  },
+  {
+    "name": "smoke and mirrors",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-smoke-and-mirrors.jpeg",
+    "initiative": "21",
+    "level": "4"
+  },
+  {
+    "name": "into the fire",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-into-the-fire.jpeg",
+    "initiative": "37",
+    "level": "3"
+  },
+  {
+    "name": "raining charcoal",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-raining-charcoal.jpeg",
+    "initiative": "18",
+    "level": "3"
+  },
+  {
+    "name": "rejuvenating warmth",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-rejuvenating-warmth.jpeg",
+    "initiative": "74",
+    "level": "2"
+  },
+  {
+    "name": "rest here, weary traveler",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-rest-here-weary-traveler.jpeg",
+    "initiative": "29",
+    "level": "2"
+  },
+  {
+    "name": "rk back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/RK/cc-rk-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
   {
     "name": "to the rescue",
     "expansion": "custom-content",
@@ -2618,222 +2618,222 @@
     "level": "2"
   },
   {
-		"name": "flying menace",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-flying-menace.jpeg",
-		"initiative": "91",
-		"level": "X"
-	},
-	{
-		"name": "hive renewal",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-hive-renewal.jpeg",
-		"initiative": "11",
-		"level": "X"
-	},
-	{
-		"name": "razorcarapace",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-razorcarapace.jpeg",
-		"initiative": "15",
-		"level": "X"
-	},
-	{
-		"name": "swarming tide",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-swarming-tide.jpeg",
-		"initiative": "24",
-		"level": "1"
-	},
-	{
-		"name": "paralyzing stinger",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-paralyzing-stinger.jpeg",
-		"initiative": "73",
-		"level": "1"
-	},
-	{
-		"name": "instilled fear",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-instilled-fear.jpeg",
-		"initiative": "84",
-		"level": "1"
-	},
-	{
-		"name": "crawling embrace",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-crawling-embrace.jpeg",
-		"initiative": "37",
-		"level": "1"
-	},
-	{
-		"name": "furious swarm",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-furious-swarm.jpeg",
-		"initiative": "25",
-		"level": "1"
-	},
-	{
-		"name": "broodmist",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-broodmist.jpeg",
-		"initiative": "72",
-		"level": "1"
-	},
-	{
-		"name": "through the cracks",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-through-the-cracks.jpeg",
-		"initiative": "30",
-		"level": "1"
-	},
-	{
-		"name": "overwhelming presence",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-overwhelming-presence.jpeg",
-		"initiative": "13",
-		"level": "1"
-	},
-	{
-		"name": "leeching assault",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-leeching-assault.jpeg",
-		"initiative": "47",
-		"level": "1"
-	},
-	{
-		"name": "infecting the core",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-infecting-the-core.jpeg",
-		"initiative": "34",
-		"level": "1"
-	},
-	{
-		"name": "attack from within",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-attack-from-within.jpeg",
-		"initiative": "43",
-		"level": "1"
-	},
-	{
-		"name": "raging hivecall",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-raging-hivecall.jpeg",
-		"initiative": "79",
-		"level": "9"
-	},
-	{
-		"name": "engulfing assault",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-engulfing-assault.jpeg",
-		"initiative": "7",
-		"level": "9"
-	},
-	{
-		"name": "cluster of wasps",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-cluster-of-wasps.jpeg",
-		"initiative": "22",
-		"level": "8"
-	},
-	{
-		"name": "host eruption",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-host-eruption.jpeg",
-		"initiative": "64",
-		"level": "8"
-	},
-	{
-		"name": "overwhelming retribution",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-overwhelming-retribution.jpeg",
-		"initiative": "10",
-		"level": "7"
-	},
-	{
-		"name": "enraging pheromones",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-enraging-pheromones.jpeg",
-		"initiative": "87",
-		"level": "7"
-	},
-	{
-		"name": "imbedded parasite",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-imbedded-parasite.jpeg",
-		"initiative": "18",
-		"level": "6"
-	},
-	{
-		"name": "swam revitalization",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-swam-revitalization.jpeg",
-		"initiative": "42",
-		"level": "6"
-	},
-	{
-		"name": "shared fate",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-shared-fate.jpeg",
-		"initiative": "67",
-		"level": "5"
-	},
-	{
-		"name": "contaminating bites",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-contaminating-bites.jpeg",
-		"initiative": "21",
-		"level": "5"
-	},
-	{
-		"name": "probing for weakness",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-probing-for-weakness.jpeg",
-		"initiative": "45",
-		"level": "4"
-	},
-	{
-		"name": "spreading panic",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-spreading-panic.jpeg",
-		"initiative": "89",
-		"level": "4"
-	},
-	{
-		"name": "solidifying carapace",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-solidifying-carapace.jpeg",
-		"initiative": "17",
-		"level": "3"
-	},
-	{
-		"name": "release the swarm",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-release-the-swarm.jpeg",
-		"initiative": "9",
-		"level": "3"
-	},
-	{
-		"name": "invading the mind",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-invading-the-mind.jpeg",
-		"initiative": "33",
-		"level": "2"
-	},
-	{
-		"name": "cloud of agony",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-cloud-of-agony.jpeg",
-		"initiative": "29",
-		"level": "2"
-	},
-	{
-		"name": "sf back",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/SF/cc-sf-back.jpeg",
-		"initiative": "0",
-		"level": "0"
-	},
+    "name": "flying menace",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-flying-menace.jpeg",
+    "initiative": "91",
+    "level": "X"
+  },
+  {
+    "name": "hive renewal",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-hive-renewal.jpeg",
+    "initiative": "11",
+    "level": "X"
+  },
+  {
+    "name": "razorcarapace",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-razorcarapace.jpeg",
+    "initiative": "15",
+    "level": "X"
+  },
+  {
+    "name": "swarming tide",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-swarming-tide.jpeg",
+    "initiative": "24",
+    "level": "1"
+  },
+  {
+    "name": "paralyzing stinger",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-paralyzing-stinger.jpeg",
+    "initiative": "73",
+    "level": "1"
+  },
+  {
+    "name": "instilled fear",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-instilled-fear.jpeg",
+    "initiative": "84",
+    "level": "1"
+  },
+  {
+    "name": "crawling embrace",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-crawling-embrace.jpeg",
+    "initiative": "37",
+    "level": "1"
+  },
+  {
+    "name": "furious swarm",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-furious-swarm.jpeg",
+    "initiative": "25",
+    "level": "1"
+  },
+  {
+    "name": "broodmist",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-broodmist.jpeg",
+    "initiative": "72",
+    "level": "1"
+  },
+  {
+    "name": "through the cracks",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-through-the-cracks.jpeg",
+    "initiative": "30",
+    "level": "1"
+  },
+  {
+    "name": "overwhelming presence",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-overwhelming-presence.jpeg",
+    "initiative": "13",
+    "level": "1"
+  },
+  {
+    "name": "leeching assault",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-leeching-assault.jpeg",
+    "initiative": "47",
+    "level": "1"
+  },
+  {
+    "name": "infecting the core",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-infecting-the-core.jpeg",
+    "initiative": "34",
+    "level": "1"
+  },
+  {
+    "name": "attack from within",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-attack-from-within.jpeg",
+    "initiative": "43",
+    "level": "1"
+  },
+  {
+    "name": "raging hivecall",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-raging-hivecall.jpeg",
+    "initiative": "79",
+    "level": "9"
+  },
+  {
+    "name": "engulfing assault",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-engulfing-assault.jpeg",
+    "initiative": "7",
+    "level": "9"
+  },
+  {
+    "name": "cluster of wasps",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-cluster-of-wasps.jpeg",
+    "initiative": "22",
+    "level": "8"
+  },
+  {
+    "name": "host eruption",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-host-eruption.jpeg",
+    "initiative": "64",
+    "level": "8"
+  },
+  {
+    "name": "overwhelming retribution",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-overwhelming-retribution.jpeg",
+    "initiative": "10",
+    "level": "7"
+  },
+  {
+    "name": "enraging pheromones",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-enraging-pheromones.jpeg",
+    "initiative": "87",
+    "level": "7"
+  },
+  {
+    "name": "imbedded parasite",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-imbedded-parasite.jpeg",
+    "initiative": "18",
+    "level": "6"
+  },
+  {
+    "name": "swam revitalization",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-swam-revitalization.jpeg",
+    "initiative": "42",
+    "level": "6"
+  },
+  {
+    "name": "shared fate",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-shared-fate.jpeg",
+    "initiative": "67",
+    "level": "5"
+  },
+  {
+    "name": "contaminating bites",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-contaminating-bites.jpeg",
+    "initiative": "21",
+    "level": "5"
+  },
+  {
+    "name": "probing for weakness",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-probing-for-weakness.jpeg",
+    "initiative": "45",
+    "level": "4"
+  },
+  {
+    "name": "spreading panic",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-spreading-panic.jpeg",
+    "initiative": "89",
+    "level": "4"
+  },
+  {
+    "name": "solidifying carapace",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-solidifying-carapace.jpeg",
+    "initiative": "17",
+    "level": "3"
+  },
+  {
+    "name": "release the swarm",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-release-the-swarm.jpeg",
+    "initiative": "9",
+    "level": "3"
+  },
+  {
+    "name": "invading the mind",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-invading-the-mind.jpeg",
+    "initiative": "33",
+    "level": "2"
+  },
+  {
+    "name": "cloud of agony",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-cloud-of-agony.jpeg",
+    "initiative": "29",
+    "level": "2"
+  },
+  {
+    "name": "sf back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SF/cc-sf-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
   {
     "name": "ensnaring flutter",
     "expansion": "custom-content",
@@ -3521,208 +3521,208 @@
     "level": "0"
   },
   {
-		"name": "controlled vitality",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-controlled-vitality.jpeg",
-		"initiative": "18",
-		"level": "1"
-	},
-	{
-		"name": "finetuning",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-finetuning.jpeg",
-		"initiative": "19",
-		"level": "1"
-	},
-	{
-		"name": "released power",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-released-power.jpeg",
-		"initiative": "22",
-		"level": "1"
-	},
-	{
-		"name": "forked energy",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-forked-energy.jpeg",
-		"initiative": "25",
-		"level": "1"
-	},
-	{
-		"name": "go with the flow",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-go-with-the-flow.jpeg",
-		"initiative": "29",
-		"level": "1"
-	},
-	{
-		"name": "leap of faith",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-leap-of-faith.jpeg",
-		"initiative": "31",
-		"level": "1"
-	},
-	{
-		"name": "tranquility",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-tranquility.jpeg",
-		"initiative": "49",
-		"level": "1"
-	},
-	{
-		"name": "bloodsport",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-bloodsport.jpeg",
-		"initiative": "74",
-		"level": "1"
-	},
-	{
-		"name": "interwined essence",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-interwined-essence.jpeg",
-		"initiative": "83",
-		"level": "1"
-	},
-	{
-		"name": "adrenal surge",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-adrenal-surge.jpeg",
-		"initiative": "15",
-		"level": "X"
-	},
-	{
-		"name": "cold-blooded",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-cold-blooded.jpeg",
-		"initiative": "30",
-		"level": "X"
-	},
-	{
-		"name": "spirit bolt",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-spirit-bolt.jpeg",
-		"initiative": "34",
-		"level": "X"
-	},
-	{
-		"name": "protective aura",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-protective-aura.jpeg",
-		"initiative": "21",
-		"level": "2"
-	},
-	{
-		"name": "vital flow",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-vital-flow.jpeg",
-		"initiative": "71",
-		"level": "2"
-	},
-	{
-		"name": "arcane blast",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-arcane-blast.jpeg",
-		"initiative": "24",
-		"level": "3"
-	},
-	{
-		"name": "embrace life",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-embrace-life.jpeg",
-		"initiative": "42",
-		"level": "3"
-	},
-	{
-		"name": "fight or flight",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-fight-or-flight.jpeg",
-		"initiative": "27",
-		"level": "4"
-	},
-	{
-		"name": "ignition",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-ignition.jpeg",
-		"initiative": "68",
-		"level": "4"
-	},
-	{
-		"name": "eternal craft",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-eternal-craft.jpeg",
-		"initiative": "17",
-		"level": "5"
-	},
-	{
-		"name": "forgotten arts",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-forgotten-arts.jpeg",
-		"initiative": "86",
-		"level": "5"
-	},
-	{
-		"name": "trusty springknife",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-trusty-springknife.jpeg",
-		"initiative": "20",
-		"level": "6"
-	},
-	{
-		"name": "delicately attuned",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-delicately-attuned.jpeg",
-		"initiative": "44",
-		"level": "6"
-	},
-	{
-		"name": "pulse check",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-pulse-check.jpeg",
-		"initiative": "9",
-		"level": "7"
-	},
-	{
-		"name": "duality of man",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-duality-of-man.jpeg",
-		"initiative": "50",
-		"level": "7"
-	},
-	{
-		"name": "brilliant bolt",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-brilliant-bolt.jpeg",
-		"initiative": "11",
-		"level": "8"
-	},
-	{
-		"name": "march to the beat",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-march-to-the-beat.jpeg",
-		"initiative": "89",
-		"level": "8"
-	},
-	{
-		"name": "plasmatic bulwark",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-plasmatic-bulwark.jpeg",
-		"initiative": "10",
-		"level": "9"
-	},
-	{
-		"name": "perfectly attuned",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-perfectly-attuned.jpeg",
-		"initiative": "28",
-		"level": "9"
-	},
-	{
-		"name": "vi-back",
-		"expansion": "custom-content",
-		"image": "character-ability-cards/custom-content/VI/cc-vi-back.jpeg",
-		"initiative": "0",
-		"level": "0"
-	},
+    "name": "controlled vitality",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-controlled-vitality.jpeg",
+    "initiative": "18",
+    "level": "1"
+  },
+  {
+    "name": "finetuning",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-finetuning.jpeg",
+    "initiative": "19",
+    "level": "1"
+  },
+  {
+    "name": "released power",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-released-power.jpeg",
+    "initiative": "22",
+    "level": "1"
+  },
+  {
+    "name": "forked energy",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-forked-energy.jpeg",
+    "initiative": "25",
+    "level": "1"
+  },
+  {
+    "name": "go with the flow",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-go-with-the-flow.jpeg",
+    "initiative": "29",
+    "level": "1"
+  },
+  {
+    "name": "leap of faith",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-leap-of-faith.jpeg",
+    "initiative": "31",
+    "level": "1"
+  },
+  {
+    "name": "tranquility",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-tranquility.jpeg",
+    "initiative": "49",
+    "level": "1"
+  },
+  {
+    "name": "bloodsport",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-bloodsport.jpeg",
+    "initiative": "74",
+    "level": "1"
+  },
+  {
+    "name": "interwined essence",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-interwined-essence.jpeg",
+    "initiative": "83",
+    "level": "1"
+  },
+  {
+    "name": "adrenal surge",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-adrenal-surge.jpeg",
+    "initiative": "15",
+    "level": "X"
+  },
+  {
+    "name": "cold-blooded",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-cold-blooded.jpeg",
+    "initiative": "30",
+    "level": "X"
+  },
+  {
+    "name": "spirit bolt",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-spirit-bolt.jpeg",
+    "initiative": "34",
+    "level": "X"
+  },
+  {
+    "name": "protective aura",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-protective-aura.jpeg",
+    "initiative": "21",
+    "level": "2"
+  },
+  {
+    "name": "vital flow",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-vital-flow.jpeg",
+    "initiative": "71",
+    "level": "2"
+  },
+  {
+    "name": "arcane blast",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-arcane-blast.jpeg",
+    "initiative": "24",
+    "level": "3"
+  },
+  {
+    "name": "embrace life",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-embrace-life.jpeg",
+    "initiative": "42",
+    "level": "3"
+  },
+  {
+    "name": "fight or flight",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-fight-or-flight.jpeg",
+    "initiative": "27",
+    "level": "4"
+  },
+  {
+    "name": "ignition",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-ignition.jpeg",
+    "initiative": "68",
+    "level": "4"
+  },
+  {
+    "name": "eternal craft",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-eternal-craft.jpeg",
+    "initiative": "17",
+    "level": "5"
+  },
+  {
+    "name": "forgotten arts",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-forgotten-arts.jpeg",
+    "initiative": "86",
+    "level": "5"
+  },
+  {
+    "name": "trusty springknife",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-trusty-springknife.jpeg",
+    "initiative": "20",
+    "level": "6"
+  },
+  {
+    "name": "delicately attuned",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-delicately-attuned.jpeg",
+    "initiative": "44",
+    "level": "6"
+  },
+  {
+    "name": "pulse check",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-pulse-check.jpeg",
+    "initiative": "9",
+    "level": "7"
+  },
+  {
+    "name": "duality of man",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-duality-of-man.jpeg",
+    "initiative": "50",
+    "level": "7"
+  },
+  {
+    "name": "brilliant bolt",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-brilliant-bolt.jpeg",
+    "initiative": "11",
+    "level": "8"
+  },
+  {
+    "name": "march to the beat",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-march-to-the-beat.jpeg",
+    "initiative": "89",
+    "level": "8"
+  },
+  {
+    "name": "plasmatic bulwark",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-plasmatic-bulwark.jpeg",
+    "initiative": "10",
+    "level": "9"
+  },
+  {
+    "name": "perfectly attuned",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-perfectly-attuned.jpeg",
+    "initiative": "28",
+    "level": "9"
+  },
+  {
+    "name": "vi-back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/VI/cc-vi-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
   {
     "name": "black ice",
     "expansion": "custom-content",
@@ -3930,6 +3930,1386 @@
     "name": "wo-back",
     "expansion": "custom-content",
     "image": "character-ability-cards/custom-content/WO/cc-wo-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "blinding swarm",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-blinding-swarm.jpeg",
+    "initiative": "33",
+    "level": "1"
+  },
+  {
+    "name": "claim the hunted",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-claim-the-hunted.jpeg",
+    "initiative": "16",
+    "level": "1"
+  },
+  {
+    "name": "frozen in fear",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-frozen-in-fear.jpeg",
+    "initiative": "56",
+    "level": "1"
+  },
+  {
+    "name": "haunting slice",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-haunting-slice.jpeg",
+    "initiative": "71",
+    "level": "1"
+  },
+  {
+    "name": "out of the shadows",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-out-of-the-shadows.jpeg",
+    "initiative": "76",
+    "level": "1"
+  },
+  {
+    "name": "reap the spoils",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-reap-the-spoils.jpeg",
+    "initiative": "21",
+    "level": "1"
+  },
+  {
+    "name": "seize control",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-seize-control.jpeg",
+    "initiative": "9",
+    "level": "1"
+  },
+  {
+    "name": "silkstring puppetry",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-silkstring-puppetry.jpeg",
+    "initiative": "18",
+    "level": "1"
+  },
+  {
+    "name": "skittering underfoot",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-skittering-underfoot.jpeg",
+    "initiative": "86",
+    "level": "1"
+  },
+  {
+    "name": "there and gone",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-there-and-gone.jpeg",
+    "initiative": "30",
+    "level": "1"
+  },
+  {
+    "name": "controlled by terror",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-controlled-by-terror.jpeg",
+    "initiative": "46",
+    "level": "X"
+  },
+  {
+    "name": "live bait",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-live-bait.jpeg",
+    "initiative": "40",
+    "level": "X"
+  },
+  {
+    "name": "right behind you",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-right-behind-you.jpeg",
+    "initiative": "80",
+    "level": "X"
+  },
+  {
+    "name": "razor wings",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-razor-wings.jpeg",
+    "initiative": "51",
+    "level": "2"
+  },
+  {
+    "name": "whispered nightmares",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-whispered-nightmares.jpeg",
+    "initiative": "22",
+    "level": "2"
+  },
+  {
+    "name": "hay fever",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-hay-fever.jpeg",
+    "initiative": "59",
+    "level": "3"
+  },
+  {
+    "name": "wasting away",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-wasting-away.jpeg",
+    "initiative": "73",
+    "level": "3"
+  },
+  {
+    "name": "silent reaping",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-silent-reaping.jpeg",
+    "initiative": "13",
+    "level": "4"
+  },
+  {
+    "name": "spreading horror",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-spreading-horror.jpeg",
+    "initiative": "63",
+    "level": "4"
+  },
+  {
+    "name": "cloud of locusts",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-cloud-of-locusts.jpeg",
+    "initiative": "54",
+    "level": "5"
+  },
+  {
+    "name": "scavenge the remains",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-scavenge-the-remains.jpeg",
+    "initiative": "19",
+    "level": "5"
+  },
+  {
+    "name": "ritualistic harvest",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-ritualistic-harvest.jpeg",
+    "initiative": "29",
+    "level": "6"
+  },
+  {
+    "name": "silken cocoon",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-silken-cocoon.jpeg",
+    "initiative": "24",
+    "level": "6"
+  },
+  {
+    "name": "chaotic swarming",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-chaotic-swarming.jpeg",
+    "initiative": "33",
+    "level": "7"
+  },
+  {
+    "name": "marked for harvest",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-marked-for-harvest.jpeg",
+    "initiative": "7",
+    "level": "7"
+  },
+  {
+    "name": "inevitable doom",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-inevitable-doom.jpeg",
+    "initiative": "38",
+    "level": "8"
+  },
+  {
+    "name": "your time has come",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-your-time-has-come.jpeg",
+    "initiative": "95",
+    "level": "8"
+  },
+  {
+    "name": "dancing marionette",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-dancing-marionette.jpeg",
+    "initiative": "27",
+    "level": "9"
+  },
+  {
+    "name": "never alone",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-never-alone.jpeg",
+    "initiative": "90",
+    "level": "9"
+  },
+  {
+    "name": "drd-back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/DRD/cc-drd-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "astral infusion",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-astral-infusion.jpeg",
+    "initiative": "18",
+    "level": "1"
+  },
+  {
+    "name": "clear night",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-clear-night.jpeg",
+    "initiative": "48",
+    "level": "1"
+  },
+  {
+    "name": "convoke the elements",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-convoke-the-elements.jpeg",
+    "initiative": "83",
+    "level": "1"
+  },
+  {
+    "name": "pitch black",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-pitch-black.jpeg",
+    "initiative": "27",
+    "level": "1"
+  },
+  {
+    "name": "stare into the sky",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-stare-into-the-sky.jpeg",
+    "initiative": "35",
+    "level": "1"
+  },
+  {
+    "name": "starsurge",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-starsurge.jpeg",
+    "initiative": "54",
+    "level": "1"
+  },
+  {
+    "name": "stellar flare",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-stellar-flare.jpeg",
+    "initiative": "23",
+    "level": "1"
+  },
+  {
+    "name": "the spirit's guidance",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-the-spirits-guidance.jpeg",
+    "initiative": "96",
+    "level": "1"
+  },
+  {
+    "name": "the stars aligned",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-the-stars-aligned.jpeg",
+    "initiative": "69",
+    "level": "1"
+  },
+  {
+    "name": "moonbeam",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-moonbeam.jpeg",
+    "initiative": "14",
+    "level": "X"
+  },
+  {
+    "name": "solar eclipse",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-solar-eclipse.jpeg",
+    "initiative": "57",
+    "level": "X"
+  },
+  {
+    "name": "sun's reflection",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-suns-reflection.jpeg",
+    "initiative": "64",
+    "level": "X"
+  },
+  {
+    "name": "celestial rebuke",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-celestial-rebuke.jpeg",
+    "initiative": "16",
+    "level": "2"
+  },
+  {
+    "name": "desert gust",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-desert-gust.jpeg",
+    "initiative": "62",
+    "level": "2"
+  },
+  {
+    "name": "ancestral call",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-ancestral-call.jpeg",
+    "initiative": "50",
+    "level": "3"
+  },
+  {
+    "name": "three-body problem",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-three-body-problem.jpeg",
+    "initiative": "33",
+    "level": "3"
+  },
+  {
+    "name": "cosmic rapidity",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-cosmic-rapidity.jpeg",
+    "initiative": "37",
+    "level": "4"
+  },
+  {
+    "name": "waning twilight",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-waning-twilight.jpeg",
+    "initiative": "25",
+    "level": "4"
+  },
+  {
+    "name": "the spirit's judgement",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-the-spirits-judgement.jpeg",
+    "initiative": "71",
+    "level": "5"
+  },
+  {
+    "name": "unravel the elements",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-unravel-the-elements.jpeg",
+    "initiative": "45",
+    "level": "5"
+  },
+  {
+    "name": "aurora",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-aurora.jpeg",
+    "initiative": "8",
+    "level": "6"
+  },
+  {
+    "name": "dark nebula",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-dark-nebula.jpeg",
+    "initiative": "21",
+    "level": "6"
+  },
+  {
+    "name": "mystical touch",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-mystical-touch.jpeg",
+    "initiative": "29",
+    "level": "7"
+  },
+  {
+    "name": "supernova",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-supernova.jpeg",
+    "initiative": "88",
+    "level": "7"
+  },
+  {
+    "name": "bad omen",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-bad-omen.jpeg",
+    "initiative": "13",
+    "level": "8"
+  },
+  {
+    "name": "shooting star",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-shooting-star.jpeg",
+    "initiative": "77",
+    "level": "8"
+  },
+  {
+    "name": "one with the elements",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-one-with-the-elements.jpeg",
+    "initiative": "58",
+    "level": "9"
+  },
+  {
+    "name": "the spirit realm",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-the-spirit-realm.jpeg",
+    "initiative": "41",
+    "level": "9"
+  },
+  {
+    "name": "sky-back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-sky-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "aksut's execution",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-aksut-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-aksuts-execution.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "awnu's curse",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-awnu-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-awnus-curse.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "haf's blessing",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-haf-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-hafs-blessing.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "maku's barrage",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-maku-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-makus-barrage.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "pakh's advance",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-pakh-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-pakhs-advance.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "tomeg's protection",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-tomeg-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-tomegs-protection.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "vaska's ambush",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-vaska-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-vaskas-ambush.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "vadi's invocation",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SKY/cc-vadi-back.jpeg",
+    "imageBack": "character-ability-cards/custom-content/SKY/cc-vadis-invocation.jpeg",
+    "initiative": "50",
+    "level": "C"
+  },
+  {
+    "name": "brilliant bliss",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-brilliant-bliss.jpeg",
+    "initiative": "28",
+    "level": "1"
+  },
+  {
+    "name": "converging luminescence",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-converging-luminescence.jpeg",
+    "initiative": "43",
+    "level": "1"
+  },
+  {
+    "name": "devouring darkness",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-devouring-darkness.jpeg",
+    "initiative": "80",
+    "level": "1"
+  },
+  {
+    "name": "dusk darts",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-dusk-darts.jpeg",
+    "initiative": "24",
+    "level": "1"
+  },
+  {
+    "name": "entwining shadows",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-entwining-shadows.jpeg",
+    "initiative": "40",
+    "level": "1"
+  },
+  {
+    "name": "helping hand",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-helping-hand.jpeg",
+    "initiative": "18",
+    "level": "1"
+  },
+  {
+    "name": "illuminating improve",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-illuminating-improve.jpeg",
+    "initiative": "36",
+    "level": "1"
+  },
+  {
+    "name": "orbs of obscurity",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-orbs-of-obscurity.jpeg",
+    "initiative": "72",
+    "level": "1"
+  },
+  {
+    "name": "pierce the veil",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-pierce-the-veil.jpeg",
+    "initiative": "30",
+    "level": "1"
+  },
+  {
+    "name": "radiant refraction",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-radiant-refraction.jpeg",
+    "initiative": "88",
+    "level": "1"
+  },
+  {
+    "name": "requisition the light",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-requisition-the-light.jpeg",
+    "initiative": "91",
+    "level": "1"
+  },
+  {
+    "name": "sheltering shade",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-sheltering-shade.jpeg",
+    "initiative": "34",
+    "level": "1"
+  },
+  {
+    "name": "shimmering shield",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-shimmering-shield.jpeg",
+    "initiative": "12",
+    "level": "1"
+  },
+  {
+    "name": "stygian shadows",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-stygian-shadows.jpeg",
+    "initiative": "19",
+    "level": "1"
+  },
+  {
+    "name": "cursed crescent",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-cursed-crescent.jpeg",
+    "initiative": "38",
+    "level": "X"
+  },
+  {
+    "name": "eclipsing control",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-eclipsing-control.jpeg",
+    "initiative": "13",
+    "level": "X"
+  },
+  {
+    "name": "evoke the dark",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-evoke-the-dark.jpeg",
+    "initiative": "90",
+    "level": "X"
+  },
+  {
+    "name": "guiding gleam",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-guiding-gleam.jpeg",
+    "initiative": "76",
+    "level": "X"
+  },
+  {
+    "name": "aurora assault",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-aurora-assault.jpeg",
+    "initiative": "67",
+    "level": "2"
+  },
+  {
+    "name": "nocturnal nova",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-nocturnal-nova.jpeg",
+    "initiative": "27",
+    "level": "2"
+  },
+  {
+    "name": "gleaming sunset",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-gleaming-sunset.jpeg",
+    "initiative": "53",
+    "level": "3"
+  },
+  {
+    "name": "shadowed sunrise",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-shadowed-sunrise.jpeg",
+    "initiative": "21",
+    "level": "3"
+  },
+  {
+    "name": "eventide impact",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-eventide-impact.jpeg",
+    "initiative": "10",
+    "level": "4"
+  },
+  {
+    "name": "morningtide renewal",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-morningtide-renewal.jpeg",
+    "initiative": "84",
+    "level": "4"
+  },
+  {
+    "name": "endowment of the dawn",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-endowment-of-the-dawn.jpeg",
+    "initiative": "62",
+    "level": "5"
+  },
+  {
+    "name": "legacy of the dusk",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-legacy-of-the-dusk.jpeg",
+    "initiative": "9",
+    "level": "5"
+  },
+  {
+    "name": "oblivion onslaught",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-oblivion-onslaught.jpeg",
+    "initiative": "92",
+    "level": "6"
+  },
+  {
+    "name": "resplendent reincarnation",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-resplendent-reincarnation.jpeg",
+    "initiative": "15",
+    "level": "6"
+  },
+  {
+    "name": "samsara strike",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-samsara-strike.jpeg",
+    "initiative": "41",
+    "level": "7"
+  },
+  {
+    "name": "supernova",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-supernova.jpeg",
+    "initiative": "95",
+    "level": "7"
+  },
+  {
+    "name": "death's deliverance",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-deaths-deliverance.jpeg",
+    "initiative": "31",
+    "level": "8"
+  },
+  {
+    "name": "life's balance",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-lifes-balance.jpeg",
+    "initiative": "70",
+    "level": "8"
+  },
+  {
+    "name": "chiral coalescence",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-chiral-coalescence.jpeg",
+    "initiative": "11",
+    "level": "9"
+  },
+  {
+    "name": "convergence of cycles",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-convergence-of-cycles.jpeg",
+    "initiative": "37",
+    "level": "9"
+  },
+  {
+    "name": "twi-back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TWI/cc-twi-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "rumbles below the earth",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-rumbles-below-the-earth.jpeg",
+    "initiative": "12",
+    "level": "1"
+  },
+  {
+    "name": "secret tunnel",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-secret-tunnel.jpeg",
+    "initiative": "14",
+    "level": "1"
+  },
+  {
+    "name": "excavation",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-excavation.jpeg",
+    "initiative": "28",
+    "level": "1"
+  },
+  {
+    "name": "drilling",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-drilling.jpeg",
+    "initiative": "30",
+    "level": "1"
+  },
+  {
+    "name": "undermine",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-undermine.jpeg",
+    "initiative": "32",
+    "level": "1"
+  },
+  {
+    "name": "comminution",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-comminution.jpeg",
+    "initiative": "36",
+    "level": "1"
+  },
+  {
+    "name": "stay on task!",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-stay-on-task.jpeg",
+    "initiative": "48",
+    "level": "1"
+  },
+  {
+    "name": "safe passage",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-safe-passage.jpeg",
+    "initiative": "58",
+    "level": "1"
+  },
+  {
+    "name": "submerge",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-submerge.jpeg",
+    "initiative": "68",
+    "level": "1"
+  },
+  {
+    "name": "explosive exit",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-explosive-exit.jpeg",
+    "initiative": "78",
+    "level": "1"
+  },
+  {
+    "name": "expedited operations",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-expedited-operations.jpeg",
+    "initiative": "23",
+    "level": "X"
+  },
+  {
+    "name": "motherlode",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-motherlode.jpeg",
+    "initiative": "59",
+    "level": "X"
+  },
+  {
+    "name": "crude sternotomy",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-crude-sternotomy.jpeg",
+    "initiative": "70",
+    "level": "X"
+  },
+  {
+    "name": "hazardous work",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-hazardous-work.jpeg",
+    "initiative": "27",
+    "level": "2"
+  },
+  {
+    "name": "safety protocol",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-safety-protocol.jpeg",
+    "initiative": "52",
+    "level": "2"
+  },
+  {
+    "name": "follow the path",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-follow-the-path.jpeg",
+    "initiative": "19",
+    "level": "3"
+  },
+  {
+    "name": "keep digging",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-keep-digging.jpeg",
+    "initiative": "89",
+    "level": "3"
+  },
+  {
+    "name": "see it through",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-see-it-through.jpeg",
+    "initiative": "40",
+    "level": "4"
+  },
+  {
+    "name": "spin",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-spin.jpeg",
+    "initiative": "64",
+    "level": "4"
+  },
+  {
+    "name": "cozy burrow",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-cozy-burrow.jpeg",
+    "initiative": "16",
+    "level": "5"
+  },
+  {
+    "name": "through the mountains",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-through-the-mountains.jpeg",
+    "initiative": "44",
+    "level": "5"
+  },
+  {
+    "name": "sinkhole",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-sinkhole.jpeg",
+    "initiative": "17",
+    "level": "6"
+  },
+  {
+    "name": "cyanidation",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-cyanidation.jpeg",
+    "initiative": "67",
+    "level": "6"
+  },
+  {
+    "name": "watch your head!",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-watch-your-head.jpeg",
+    "initiative": "33",
+    "level": "7"
+  },
+  {
+    "name": "ceaseless boring",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-ceaseless-boring.jpeg",
+    "initiative": "57",
+    "level": "7"
+  },
+  {
+    "name": "expanded operations",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-expanded-operations.jpeg",
+    "initiative": "26",
+    "level": "8"
+  },
+  {
+    "name": "clear the way!",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-clear-the-way.jpeg",
+    "initiative": "95",
+    "level": "8"
+  },
+  {
+    "name": "wind tunnel",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-wind-tunnel.jpeg",
+    "initiative": "9",
+    "level": "9"
+  },
+  {
+    "name": "earthquake",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-earthquake.jpeg",
+    "initiative": "38",
+    "level": "9"
+  },
+  {
+    "name": "tf back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/TF/cc-tf-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "close quarters",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-close-quarters.jpeg",
+    "initiative": "12",
+    "level": "1"
+  },
+  {
+    "name": "debilitating daze",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-debilitating-daze.jpeg",
+    "initiative": "70",
+    "level": "X"
+  },
+  {
+    "name": "fortune from the sands",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-fortune-from-the-sands.jpeg",
+    "initiative": "47",
+    "level": "X"
+  },
+  {
+    "name": "acid spit",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-acid-spit.jpeg",
+    "initiative": "59",
+    "level": "1"
+  },
+  {
+    "name": "stalk the weak",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-stalk-the-weak.jpeg",
+    "initiative": "22",
+    "level": "1"
+  },
+  {
+    "name": "cold blood",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-cold-blood.jpeg",
+    "initiative": "38",
+    "level": "1"
+  },
+  {
+    "name": "concentrated venom",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-concentrated-venom.jpeg",
+    "initiative": "82",
+    "level": "X"
+  },
+  {
+    "name": "draw in",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-draw-in.jpeg",
+    "initiative": "52",
+    "level": "1"
+  },
+  {
+    "name": "envenomed sting",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-envenomed-sting.jpeg",
+    "initiative": "26",
+    "level": "1"
+  },
+  {
+    "name": "furious pincer",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-furious-pincer.jpeg",
+    "initiative": "76",
+    "level": "1"
+  },
+  {
+    "name": "on your toes",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-on-your-toes.jpeg",
+    "initiative": "41",
+    "level": "1"
+  },
+  {
+    "name": "psychic snap",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-psychic-snap.jpeg",
+    "initiative": "20",
+    "level": "1"
+  },
+  {
+    "name": "sensory overload",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-sensory-overload.jpeg",
+    "initiative": "23",
+    "level": "1"
+  },
+  {
+    "name": "shimmering chitin",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-shimmering-chitin.jpeg",
+    "initiative": "28",
+    "level": "1"
+  },
+  {
+    "name": "tail swipe",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-tail-swipe.jpeg",
+    "initiative": "66",
+    "level": "1"
+  },
+  {
+    "name": "thrash",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-thrash.jpeg",
+    "initiative": "30",
+    "level": "1"
+  },
+  {
+    "name": "calm mind",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-calm-mind.jpeg",
+    "initiative": "43",
+    "level": "2"
+  },
+  {
+    "name": "telson strike",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-telson-strike.jpeg",
+    "initiative": "32",
+    "level": "2"
+  },
+  {
+    "name": "kick up a storm",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-kick-up-a-storm.jpeg",
+    "initiative": "19",
+    "level": "3"
+  },
+  {
+    "name": "psychic bulwark",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-psychic-bulwark.jpeg",
+    "initiative": "64",
+    "level": "3"
+  },
+  {
+    "name": "ravage",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-ravage.jpeg",
+    "initiative": "46",
+    "level": "4"
+  },
+  {
+    "name": "mind flare",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-mind-flare.jpeg",
+    "initiative": "60",
+    "level": "4"
+  },
+  {
+    "name": "deathstalker",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-deathstalker.jpeg",
+    "initiative": "49",
+    "level": "5"
+  },
+  {
+    "name": "synaptic snap",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-synaptic-snap.jpeg",
+    "initiative": "91",
+    "level": "5"
+  },
+  {
+    "name": "necrotic reaction",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-necrotic-reaction.jpeg",
+    "initiative": "68",
+    "level": "6"
+  },
+  {
+    "name": "within the grasp",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-within-the-grasp.jpeg",
+    "initiative": "21",
+    "level": "6"
+  },
+  {
+    "name": "deflecting ward",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-deflecting-ward.jpeg",
+    "initiative": "15",
+    "level": "7"
+  },
+  {
+    "name": "splashing neurotoxin",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-splashing-neurotoxin.jpeg",
+    "initiative": "25",
+    "level": "7"
+  },
+  {
+    "name": "regenerative carapace",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-regenerative-carapace.jpeg",
+    "initiative": "14",
+    "level": "8"
+  },
+  {
+    "name": "shattered mind",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-shattered-mind.jpeg",
+    "initiative": "36",
+    "level": "8"
+  },
+  {
+    "name": "psychic superiority",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-psychic-superiority.jpeg",
+    "initiative": "53",
+    "level": "9"
+  },
+  {
+    "name": "stinger of ugly death",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-stinger-of-ugly-death.jpeg",
+    "initiative": "74",
+    "level": "9"
+  },
+  {
+    "name": "sds back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/SDS/cc-sds-back.jpeg",
+    "initiative": "0",
+    "level": "0"
+  },
+  {
+    "name": "sturdy as stone",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-sturdy-as-stone.jpeg",
+    "initiative": "16",
+    "level": "1"
+  },
+  {
+    "name": "hunker down",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-hunker-down.jpeg",
+    "initiative": "18",
+    "level": "1"
+  },
+  {
+    "name": "on the winds",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-on-the-winds.jpeg",
+    "initiative": "22",
+    "level": "1"
+  },
+  {
+    "name": "amped followthrough",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-amped-followthrough.jpeg",
+    "initiative": "24",
+    "level": "1"
+  },
+  {
+    "name": "assault protocol",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-assault-protocol.jpeg",
+    "initiative": "30",
+    "level": "1"
+  },
+  {
+    "name": "charged fists",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-charged-fists.jpeg",
+    "initiative": "40",
+    "level": "1"
+  },
+  {
+    "name": "pyrotechnics",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-pyrotechnics.jpeg",
+    "initiative": "65",
+    "level": "1"
+  },
+  {
+    "name": "covering fire",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-covering-fire.jpeg",
+    "initiative": "72",
+    "level": "1"
+  },
+  {
+    "name": "crash down",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-crash-down.jpeg",
+    "initiative": "76",
+    "level": "1"
+  },
+  {
+    "name": "pulse cannon",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-pulse-cannon.jpeg",
+    "initiative": "82",
+    "level": "1"
+  },
+  {
+    "name": "embrace the cold",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-embrace-the-cold.jpeg",
+    "initiative": "88",
+    "level": "1"
+  },
+  {
+    "name": "powered up",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-powered-up.jpeg",
+    "initiative": "35",
+    "level": "X"
+  },
+  {
+    "name": "energy shell",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-energy-shell.jpeg",
+    "initiative": "38",
+    "level": "X"
+  },
+  {
+    "name": "looking for parts",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-looking-for-parts.jpeg",
+    "initiative": "55",
+    "level": "X"
+  },
+  {
+    "name": "surging missiles",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-surging-missiles.jpeg",
+    "initiative": "68",
+    "level": "2"
+  },
+  {
+    "name": "thermal conduction",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-thermal-conduction.jpeg",
+    "initiative": "78",
+    "level": "2"
+  },
+  {
+    "name": "crashing stonecase",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-crashing-stonecase.jpeg",
+    "initiative": "21",
+    "level": "3"
+  },
+  {
+    "name": "blazing impact",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-blazing-impact.jpeg",
+    "initiative": "26",
+    "level": "3"
+  },
+  {
+    "name": "cryonic skewering",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-cryonic-skewering.jpeg",
+    "initiative": "32",
+    "level": "4"
+  },
+  {
+    "name": "molten framework",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-molten-framework.jpeg",
+    "initiative": "90",
+    "level": "4"
+  },
+  {
+    "name": "flash freeze",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-flash-freeze.jpeg",
+    "initiative": "48",
+    "level": "5"
+  },
+  {
+    "name": "searing blitz",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-searing-blitz.jpeg",
+    "initiative": "52",
+    "level": "5"
+  },
+  {
+    "name": "shockwave pistons",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-shockwave-pistons.jpeg",
+    "initiative": "28",
+    "level": "6"
+  },
+  {
+    "name": "accelerated munitions",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-accelerated-munitions.jpeg",
+    "initiative": "43",
+    "level": "6"
+  },
+  {
+    "name": "optimized routing",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-optimized-routing.jpeg",
+    "initiative": "7",
+    "level": "7"
+  },
+  {
+    "name": "hellfire armaments",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-hellfire-armaments.jpeg",
+    "initiative": "81",
+    "level": "7"
+  },
+  {
+    "name": "frozen fortress",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-frozen-fortress.jpeg",
+    "initiative": "9",
+    "level": "8"
+  },
+  {
+    "name": "rolling thunder",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-rolling-thunder.jpeg",
+    "initiative": "60",
+    "level": "8"
+  },
+  {
+    "name": "full power",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-full-power.jpeg",
+    "initiative": "36",
+    "level": "9"
+  },
+  {
+    "name": "weapon platform",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-weapon-platform.jpeg",
+    "initiative": "85",
+    "level": "9"
+  },
+  {
+    "name": "mec back",
+    "expansion": "custom-content",
+    "image": "character-ability-cards/custom-content/MEC/cc-mec-back.jpeg",
     "initiative": "0",
     "level": "0"
   }

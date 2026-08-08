@@ -27,6 +27,15 @@
     "linkLabel": "Created by Dysent"
   },
   {
+    "id": "DRD",
+    "game": "cc",
+    "colour": "#B44B47",
+    "base": true,
+    "name": "dreadscourge",
+    "link": "https://discord.com/channels/728375347732807825/1397454015310332014",
+    "linkLabel": "Created by kalamadude"
+  },
+  {
     "id": "EW",
     "game": "cc",
     "colour": "#708390",
@@ -72,6 +81,15 @@
     "linkLabel": "Created by Emily"
   },
   {
+    "id": "MEC",
+    "game": "cc",
+    "colour": "#007ecb",
+    "base": "true",
+    "name": "mechanist",
+    "link": "https://discord.com/channels/728375347732807825/1357170086766711015",
+    "linkLabel": "Created by kunkudunk"
+  },
+  {
     "id": "PW",
     "game": "cc",
     "colour": "#ff8836",
@@ -99,6 +117,15 @@
     "linkLabel": "Created by kalamadude"
   },
   {
+    "id": "SDS",
+    "game": "cc",
+    "colour": "#b57a62",
+    "base": "true",
+    "name": "sandstinger",
+    "link": "https://discord.com/channels/728375347732807825/1272606598333726873",
+    "linkLabel": "Created by Sebaias"
+  },
+  {
     "id": "SF",
     "game": "cc",
     "colour": "#7597a0",
@@ -115,6 +142,33 @@
     "name": "skitterclaw",
     "link": "https://discord.com/channels/728375347732807825/1115885987415998574",
     "linkLabel": "Created by Roald Hoffmann"
+  },
+  {
+    "id": "SKY",
+    "game": "cc",
+    "colour": "#7A92AA",
+    "base": true,
+    "name": "skyreader",
+    "link": "https://discord.com/channels/728375347732807825/1347978727199473777",
+    "linkLabel": "Created by Skuzz"
+  },
+  {
+    "id": "TF",
+    "game": "cc",
+    "colour": "#bf9a6a",
+    "base": "true",
+    "name": "tunnelforged",
+    "link": "https://discord.com/channels/728375347732807825/1385429557921841252",
+    "linkLabel": "Created by DurianFruit"
+  },
+  {
+    "id": "TWI",
+    "game": "cc",
+    "colour": "#C3A865",
+    "base": true,
+    "name": "Twilight",
+    "link": "https://discord.com/channels/728375347732807825/1355359695681880124",
+    "linkLabel": "Created by Blizzabelle"
   },
   {
     "id": "VP",
