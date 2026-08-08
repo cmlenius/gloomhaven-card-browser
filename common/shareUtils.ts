@@ -9,18 +9,16 @@ export const serializeBuild = (characterClass: string, cardIds: number[]): strin
   return `${characterClass}_${cardIds.join("-")}`;
 };
 
-export const deserializeBuild = (
-  encoded: string
-): { characterClass: string; cardIds: number[] } | null => {
+export const deserializeBuild = (encoded: string): { characterClass: string; cardIds: number[] } | null => {
   try {
     if (!encoded || !encoded.includes("_")) return null;
 
     const [characterClass, idsStr] = encoded.split("_");
     const cardIds = idsStr
       ? idsStr
-        .split("-")
-        .map(Number)
-        .filter((n) => Number.isInteger(n) && n > 0)
+          .split("-")
+          .map(Number)
+          .filter((n) => Number.isInteger(n) && n > 0)
       : [];
 
     // Safeguard: limit to 15 cards to prevent memory/UI abuse
