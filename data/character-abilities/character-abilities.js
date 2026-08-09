@@ -51,11 +51,11 @@ let abilities = helpers.readData("./data/character-abilities").map((ability) => 
     name: ability.name.toLowerCase(),
     class: characterClass,
     game: expansion,
-    image: ability.image.replaceAll(".png", ".jpeg"),
+    image: ability.image,
     initiative: parseFloat(ability.initiative) || 0,
     level: level,
     ...(ability.imageBack && {
-      imageBack: ability.imageBack.replaceAll(".png", ".jpeg"),
+      imageBack: ability.imageBack,
     }),
     ...(ability.milestone && { milestone: ability.milestone }),
   };

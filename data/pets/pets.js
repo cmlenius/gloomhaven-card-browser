@@ -2,122 +2,122 @@ let pets = [
   {
     name: "01 piranha pig",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-01-piranha-pig.png",
+    image: "pets/frosthaven/fh-01-piranha-pig.jpeg",
   },
   {
     name: "01 piranha pig",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-01-piranha-pig-back.png",
+    image: "pets/frosthaven/fh-01-piranha-pig-back.jpeg",
   },
   {
     name: "02 hound",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-02-hound.png",
+    image: "pets/frosthaven/fh-02-hound.jpeg",
   },
   {
     name: "02 hound",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-02-hound-back.png",
+    image: "pets/frosthaven/fh-02-hound-back.jpeg",
   },
   {
     name: "03 spitting drake",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-03-spitting-drake.png",
+    image: "pets/frosthaven/fh-03-spitting-drake.jpeg",
   },
   {
     name: "03 spitting drake",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-03-spitting-drake-back.png",
+    image: "pets/frosthaven/fh-03-spitting-drake-back.jpeg",
   },
   {
     name: "04 rending drake",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-04-rending-drake.png",
+    image: "pets/frosthaven/fh-04-rending-drake.jpeg",
   },
   {
     name: "04 rending drake",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-04-rending-drake-back.png",
+    image: "pets/frosthaven/fh-04-rending-drake-back.jpeg",
   },
   {
     name: "05 black imp",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-05-black-imp.png",
+    image: "pets/frosthaven/fh-05-black-imp.jpeg",
   },
   {
     name: "05 black imp",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-05-black-imp-back.png",
+    image: "pets/frosthaven/fh-05-black-imp-back.jpeg",
   },
   {
     name: "06 forest imp",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-06-forest-imp.png",
+    image: "pets/frosthaven/fh-06-forest-imp.jpeg",
   },
   {
     name: "06 forest imp",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-06-forest-imp-back.png",
+    image: "pets/frosthaven/fh-06-forest-imp-back.jpeg",
   },
   {
     name: "07 snow imp",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-07-snow-imp.png",
+    image: "pets/frosthaven/fh-07-snow-imp.jpeg",
   },
   {
     name: "07 snow imp",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-07-snow-imp-back.png",
+    image: "pets/frosthaven/fh-07-snow-imp-back.jpeg",
   },
   {
     name: "08 ooze",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-08-ooze.png",
+    image: "pets/frosthaven/fh-08-ooze.jpeg",
   },
   {
     name: "08 ooze",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-08-ooze-back.png",
+    image: "pets/frosthaven/fh-08-ooze-back.jpeg",
   },
   {
     name: "09 ruined machine",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-09-ruined-machine.png",
+    image: "pets/frosthaven/fh-09-ruined-machine.jpeg",
   },
   {
     name: "09 ruined machine",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-09-ruined-machine-back.png",
+    image: "pets/frosthaven/fh-09-ruined-machine-back.jpeg",
   },
   {
     name: "10 lightning eel",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-10-lightning-eel.png",
+    image: "pets/frosthaven/fh-10-lightning-eel.jpeg",
   },
   {
     name: "10 lightning eel",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-10-lightning-eel-back.png",
+    image: "pets/frosthaven/fh-10-lightning-eel-back.jpeg",
   },
   {
     name: "11 heroics",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-11-heroics.png",
+    image: "pets/frosthaven/fh-11-heroics.jpeg",
   },
   {
     name: "11 heroics",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-11-heroics-back.png",
+    image: "pets/frosthaven/fh-11-heroics-back.jpeg",
   },
   {
     name: "12 brummix",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-12-brummix.png",
+    image: "pets/frosthaven/fh-12-brummix.jpeg",
   },
   {
     name: "12 brummix",
     expansion: "Frosthaven",
-    image: "pets/frosthaven/fh-12-brummix-back.png",
+    image: "pets/frosthaven/fh-12-brummix-back.jpeg",
   },
 ];
 
@@ -133,7 +133,7 @@ const groupBy = (items, key) =>
 let fs = require("fs");
 
 pets = pets
-  .filter((pets) => !pets.image.endsWith("back.png"))
+  .filter((pets) => !pets.image.endsWith("back.jpeg"))
   .map((pet) => {
     let name = pet.name
       .split(" ")
@@ -144,8 +144,8 @@ pets = pets
       id: parseInt(pet.name.split(" ")[0], 10),
       name: name.join(" "),
       game: "fh",
-      image: pet.image.replaceAll(".png", ".jpeg"),
-      imageBack: pet.image.replaceAll(".png", "-back.jpeg"),
+      image: pet.image,
+      imageBack: pet.image.replaceAll(".jpeg", "-back.jpeg"),
     };
   });
 
