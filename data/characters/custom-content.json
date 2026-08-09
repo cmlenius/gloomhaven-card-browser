@@ -84,7 +84,7 @@
     "id": "MEC",
     "game": "cc",
     "colour": "#007ecb",
-    "base": "true",
+    "base": true,
     "name": "mechanist",
     "link": "https://discord.com/channels/728375347732807825/1357170086766711015",
     "linkLabel": "Created by kunkudunk"
@@ -120,7 +120,7 @@
     "id": "SDS",
     "game": "cc",
     "colour": "#b57a62",
-    "base": "true",
+    "base": true,
     "name": "sandstinger",
     "link": "https://discord.com/channels/728375347732807825/1272606598333726873",
     "linkLabel": "Created by Sebaias"
@@ -156,7 +156,7 @@
     "id": "TF",
     "game": "cc",
     "colour": "#bf9a6a",
-    "base": "true",
+    "base": true,
     "name": "tunnelforged",
     "link": "https://discord.com/channels/728375347732807825/1385429557921841252",
     "linkLabel": "Created by DurianFruit"
