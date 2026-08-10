@@ -30,7 +30,7 @@ type CardProps = {
   onToggle?: () => void;
 };
 
-const Card = ({ card, horizontal, showId, isSelected, isCraftingMode, onToggle }: CardProps) => {
+const CardComponent = ({ card, horizontal, showId, isSelected, isCraftingMode, onToggle }: CardProps) => {
   return (
     <div
       className={`${horizontal ? "card-horizontal" : "card"} ${isCraftingMode ? "card-crafting-mode" : ""}`}
@@ -155,7 +155,7 @@ type MultiLevelCardProps = {
   multiLevelCard: MultiLevelCard;
 };
 
-const MultiLevelCard = ({ multiLevelCard }: MultiLevelCardProps) => {
+const MultiLevelCardComponent = ({ multiLevelCard }: MultiLevelCardProps) => {
   const [level, setLevel] = useState(1);
   const [flipped, setFlipped] = useState(false);
   const maxLevel = multiLevelCard.image.length;
@@ -226,7 +226,7 @@ export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
       pageStart={0}
     >
       {data?.map((multiLevelCard) => (
-        <MultiLevelCard key={dedupeKey(String(multiLevelCard.id))} multiLevelCard={multiLevelCard} />
+        <MultiLevelCardComponent key={dedupeKey(String(multiLevelCard.id))} multiLevelCard={multiLevelCard} />
       ))}
       {[...Array(4)].map((_, idx) => (
         <div key={idx}>
@@ -307,7 +307,7 @@ const CardList = ({
             onToggle={toggle}
           />
         ) : (
-          <Card
+          <CardComponent
             key={key}
             card={card}
             horizontal={horizontal}
