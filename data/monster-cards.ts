@@ -1,4 +1,5 @@
 import { Monster } from "../common/types";
+
 export const monsterCards: Record<string, Monster[]> = {
   gh: [
     {

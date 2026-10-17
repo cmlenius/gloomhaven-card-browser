@@ -1,4 +1,5 @@
 import { Character } from "../common/types";
+
 export const characters: Character[] = [
   {
     class: "BK",

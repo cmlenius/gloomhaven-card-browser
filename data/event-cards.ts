@@ -1,4 +1,5 @@
 import { Event } from "../common/types";
+
 export const eventCards: Record<string, Event[]> = {
   gh: [
     {

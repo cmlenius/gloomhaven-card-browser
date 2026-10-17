@@ -1,4 +1,5 @@
 import { Pet } from "../common/types";
+
 export const petCards: Record<string, Pet[]> = {
   fh: [
     {

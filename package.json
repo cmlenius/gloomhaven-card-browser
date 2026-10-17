@@ -13,10 +13,10 @@
   },
   "prettier": {
     "printWidth": 120,
+    "plugins": [
+      "@trivago/prettier-plugin-sort-imports"
+    ],
     "importOrder": [
-      "^@core/(.*)$",
-      "^@server/(.*)$",
-      "^@ui/(.*)$",
       "^[./]"
     ],
     "importOrderSeparation": true,

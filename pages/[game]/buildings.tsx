@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 import { Building, GameParams, Option, Spoilers } from "../../common/types";
 import { customSort, getPageColor, getTitle, verifyQueryParam } from "../../common/utils";
-
 import { MultiLevelCardList } from "../../components/CardList";
 import Layout from "../../components/Layout";
 import Sort from "../../components/Sort";

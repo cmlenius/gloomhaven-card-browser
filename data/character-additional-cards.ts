@@ -1,4 +1,5 @@
 import { CharacterAdditionalCardsSection } from "../common/types";
+
 export const characterAdditionalCards: Record<string, Record<string, CharacterAdditionalCardsSection[]>> = {
   cc: {
     RK: [

@@ -1,4 +1,5 @@
 import { CharacterAbility } from "../common/types";
+
 export const characterAbilityCards: Record<string, Record<string, CharacterAbility[]>> = {
   cs: {
     AA: [

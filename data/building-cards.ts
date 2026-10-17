@@ -1,4 +1,5 @@
 import { Building } from "../common/types";
+
 export const buildingCards: Record<string, Building[]> = {
   fh: [
     {

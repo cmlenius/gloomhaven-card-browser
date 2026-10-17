@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
+import { deserializeBuild, serializeBuild } from "../../common/shareUtils";
 import { Character, CharacterAbility, CharacterAdditionalCardsSection, Option, Spoilers } from "../../common/types";
 import {
   assignCardIds,
@@ -12,16 +13,15 @@ import {
   getDefaultCharacterClass,
   verifyQueryParam,
 } from "../../common/utils";
+import { characterAbilityCards } from "../../data/character-ability-cards";
+import { characterAdditionalCards } from "../../data/character-additional-cards";
+import { characters } from "../../data/characters";
+import { useCraftingStore } from "../../hooks/useCraftingStore";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import CardList from "..//CardList";
 import Sort from "..//Sort";
 import Empty from "../Empty";
 import ToastMessage from "../ToastMessage";
-import { characters } from "../../data/characters";
-import { characterAbilityCards } from "../../data/character-ability-cards";
-import { characterAdditionalCards } from "../../data/character-additional-cards";
-import { useCraftingStore } from "../../hooks/useCraftingStore";
-import { serializeBuild, deserializeBuild } from "../../common/shareUtils";
 
 const sortOrderOptions: Option[] = [
   { id: "level", name: "Level" },

@@ -4,7 +4,6 @@ import { useEffect } from "react";
 
 import { GameParams, Pet } from "../../common/types";
 import { customSort, getPageColor, getTitle, verifyQueryParam } from "../../common/utils";
-
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
 import { games } from "../../data/games";
