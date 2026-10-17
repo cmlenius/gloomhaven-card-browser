@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "data": "./data/data.sh",
+    "test:data": "./data/verify-data.sh",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint --ext .ts,.tsx . && prettier --check .",
     "format": "prettier --write ."
   },
   "prettier": {

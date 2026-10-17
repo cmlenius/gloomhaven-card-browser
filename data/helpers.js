@@ -11,11 +11,13 @@ const groupBy = (items, key) =>
 
 const readData = (dir) => {
   let data = [];
-  fs.readdirSync(dir).forEach((file) => {
-    if (file.endsWith(".json")) {
-      data = data.concat(JSON.parse(fs.readFileSync(`${dir}/${file}`)));
-    }
-  });
+  fs.readdirSync(dir)
+    .sort()
+    .forEach((file) => {
+      if (file.endsWith(".json")) {
+        data = data.concat(JSON.parse(fs.readFileSync(`${dir}/${file}`)));
+      }
+    });
   return data;
 };
 
