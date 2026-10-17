@@ -1,0 +1,23 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: ["images"]
+
+jobs:
+  images:
+    name: Verify Images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (metadata only, no image blobs)
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Verify no referenced images were removed
+        run: node .github/scripts/verify-images.js
