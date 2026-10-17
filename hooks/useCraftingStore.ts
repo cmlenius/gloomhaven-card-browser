@@ -56,7 +56,9 @@ export const useCraftingStore = create<CraftingState>((set, get) => ({
       } else {
         try {
           get().setToastMessage(`Max hand size of ${maxHandSize} reached!`);
-        } catch (e) {}
+        } catch (e) {
+          // ignore
+        }
       }
     }
   },

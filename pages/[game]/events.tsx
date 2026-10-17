@@ -171,7 +171,6 @@ export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
 
 const eventSearchResults = (query: { [key: string]: string | string[] }) => {
   const game = verifyQueryParam(query.game, "gh");
-  const season = verifyQueryParam(query.season);
   let eventType = verifyQueryParam(query.eventType, "city");
 
   if (game === "fh" && eventType === "city") eventType = "outpost";

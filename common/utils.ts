@@ -116,7 +116,7 @@ export const getCharacter = (gameId: string, characterClass: string): Character 
     if (game) characterClass = game.defaultClass;
   }
 
-  let character = characters.find((c) => c.game === game.id && c.class === characterClass);
+  const character = characters.find((c) => c.game === game.id && c.class === characterClass);
   if (character) return character;
 
   return null;

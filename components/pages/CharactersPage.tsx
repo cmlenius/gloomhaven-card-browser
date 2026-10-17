@@ -277,7 +277,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
       </div>
       <ClassFilter game={game} characterClass={character?.class} />
       {character.link && (
-        <a href={character.link} className="character-link" target="_blank">
+        <a href={character.link} className="character-link" target="_blank" rel="noreferrer">
           {character.linkLabel || character.link}
         </a>
       )}

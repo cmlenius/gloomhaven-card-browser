@@ -42,7 +42,7 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
 
   const handleGameChange = (newGame: string) => {
     let path = `/${newGame}`;
-    let newGameRoutes = getGame(newGame)?.routes || [];
+    const newGameRoutes = getGame(newGame)?.routes || [];
     if (!newGameRoutes.some((route) => route.id === cardType)) {
       return path;
     }
