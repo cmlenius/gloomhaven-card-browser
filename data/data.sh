@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 dataDir='./data'
 
 node ${dataDir}/character-abilities/character-abilities.js
