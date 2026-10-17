@@ -1,0 +1,25 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Verify generated data files
+        run: npm run test:data
+      - name: Lint and format check
+        run: npm run lint
+      - name: Build with Next.js
+        run: npm run build
