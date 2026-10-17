@@ -1045,7 +1045,7 @@
   {
     "name": "toss me!",
     "expansion": "custom-content",
-    "image": "character-ability-cards/custom-content/JT/cc-toss-me.jpeg",
+    "image": "character-ability-cards/custom-content/JT/cc-toss-me!.jpeg",
     "initiative": "70",
     "level": "4"
   },
@@ -1094,7 +1094,7 @@
   {
     "name": "cannonball!",
     "expansion": "custom-content",
-    "image": "character-ability-cards/custom-content/JT/cc-cannonball.jpeg",
+    "image": "character-ability-cards/custom-content/JT/cc-cannonball!.jpeg",
     "initiative": "92",
     "level": "7"
   },

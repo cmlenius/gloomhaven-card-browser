@@ -6,6 +6,7 @@
     "dev": "next dev",
     "data": "./data/data.sh",
     "test:data": "./data/verify-data.sh",
+    "test:images": "node ./data/verify-images.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint --ext .ts,.tsx . && prettier --check .",
