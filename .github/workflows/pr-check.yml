@@ -5,7 +5,26 @@ on:
     branches: ["main"]
 
 jobs:
-  check:
+  build-and-lint:
+    name: Build & Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint and format check
+        run: npm run lint
+      - name: Build with Next.js
+        run: npm run build
+
+  data:
+    name: Verify Data
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +38,16 @@ jobs:
         run: npm ci
       - name: Verify generated data files
         run: npm run test:data
-      - name: Lint and format check
-        run: npm run lint
-      - name: Build with Next.js
-        run: npm run build
+
+  images:
+    name: Verify Images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Verify referenced images exist on images branch
+        run: npm run test:images

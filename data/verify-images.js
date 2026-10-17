@@ -1,12 +1,10 @@
 const { execSync } = require("child_process");
+const fs = require("fs");
 
-// Fetch only tree/commit metadata (no image blobs) for main and images branches
-execSync(
-  "git fetch --no-tags --filter=blob:none origin +refs/heads/main:refs/remotes/origin/main +refs/heads/images:refs/remotes/origin/images",
-  {
-    stdio: "inherit",
-  },
-);
+// Fetch only tree/commit metadata (no image blobs) for the images branch
+execSync("git fetch --no-tags --filter=blob:none origin +refs/heads/images:refs/remotes/origin/images", {
+  stdio: "inherit",
+});
 
 const imageTreeOutput = execSync("git ls-tree -r --name-only origin/images", {
   encoding: "utf8",
@@ -14,28 +12,22 @@ const imageTreeOutput = execSync("git ls-tree -r --name-only origin/images", {
 });
 const imageTree = new Set(imageTreeOutput.trim().split("\n"));
 
-const diffOutput = execSync("git diff -U0 origin/main -- 'data/*.ts'", {
-  encoding: "utf8",
-  maxBuffer: 50 * 1024 * 1024,
-});
-
-const addedImages = new Set();
+const referencedImages = new Set();
 const imageRegex = /"([^"\s]+\.(?:jpeg|png|jpg))"/gi;
 
-for (const line of diffOutput.split("\n")) {
-  if (line.startsWith("+") && !line.startsWith("+++")) {
-    for (const match of line.matchAll(imageRegex)) {
-      addedImages.add(match[1]);
-    }
+const tsFiles = fs
+  .readdirSync("./data")
+  .filter((file) => file.endsWith(".ts"))
+  .sort();
+
+for (const file of tsFiles) {
+  const content = fs.readFileSync(`./data/${file}`, "utf8");
+  for (const match of content.matchAll(imageRegex)) {
+    referencedImages.add(match[1]);
   }
 }
 
-if (addedImages.size === 0) {
-  console.log("No added or modified image references in data/*.ts.");
-  process.exit(0);
-}
-
-const missingImages = [...addedImages].filter((img) => !imageTree.has(`images/${img}`));
+const missingImages = [...referencedImages].filter((img) => !imageTree.has(`images/${img}`));
 
 if (missingImages.length > 0) {
   console.error(
@@ -47,4 +39,4 @@ if (missingImages.length > 0) {
   process.exit(1);
 }
 
-console.log(`Verified ${addedImages.size} added/modified image reference(s) exist on the 'images' branch.`);
+console.log(`Verified ${referencedImages.size} image reference(s) exist on the 'images' branch.`);
