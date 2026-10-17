@@ -81,9 +81,9 @@ const CharacterDetails = ({ character, isCharacterUnlocked }: CharacterDetailsPr
   if (isCharacterUnlocked)
     return (
       <div className="character-details">
-        <img alt="" src={getBaseUrl() + character.matImageBack} />
-        <img alt="" src={getBaseUrl() + character.matImage} />
-        <img alt="" src={getBaseUrl() + character.sheetImage} />
+        {character.matImageBack && <img alt="" src={getBaseUrl() + character.matImageBack} />}
+        {character.matImage && <img alt="" src={getBaseUrl() + character.matImage} />}
+        {character.sheetImage && <img alt="" src={getBaseUrl() + character.sheetImage} />}
       </div>
     );
   return <Empty />;

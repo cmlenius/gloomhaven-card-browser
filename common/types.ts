@@ -14,10 +14,10 @@ export type Character = {
   name: string;
   altName?: string;
   game: string;
-  matImage: string;
-  matImageBack: string;
+  matImage?: string;
+  matImageBack?: string;
   source?: string;
-  sheetImage: string;
+  sheetImage?: string;
   base?: boolean;
   hidden?: boolean;
   link?: string;
