@@ -222,7 +222,7 @@ export const characters: Character[] = [
     sheetImage: "character-perks/custom-content/cc-jester-twins-perks.jpeg",
     base: true,
     link: "https://discord.com/channels/728375347732807825/752332681718661284",
-    linkLabel: "Created by Durian",
+    linkLabel: "Created by DurianFruit",
   },
   {
     class: "LS",
