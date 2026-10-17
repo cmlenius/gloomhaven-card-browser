@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 
 // Fetch only tree/commit metadata (no image blobs) for main and images branches
 execSync(
-  "git fetch --no-tags --depth=1 --filter=blob:none origin +refs/heads/main:refs/remotes/origin/main +refs/heads/images:refs/remotes/origin/images",
+  "git fetch --no-tags --filter=blob:none origin +refs/heads/main:refs/remotes/origin/main +refs/heads/images:refs/remotes/origin/images",
   {
     stdio: "inherit",
   },
