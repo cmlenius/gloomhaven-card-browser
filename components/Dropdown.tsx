@@ -26,7 +26,7 @@ export const DropdownNav = ({ href, options, value }: DropdownProps) => {
         {options.map((opt) => (
           <Link
             key={opt.id}
-            href={href(opt.id)}
+            href={href?.(opt.id) || "#"}
             className="dropdownnav-option"
             onClick={(e) => {
               e.stopPropagation();
@@ -43,7 +43,7 @@ export const DropdownNav = ({ href, options, value }: DropdownProps) => {
 
 const Dropdown = ({ onChange, options, value }: DropdownProps) => {
   const handleOptionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    onChange(event.target.value);
+    onChange?.(event.target.value);
   };
 
   return (

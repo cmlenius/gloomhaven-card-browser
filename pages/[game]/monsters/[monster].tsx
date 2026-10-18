@@ -40,7 +40,7 @@ export const getStaticPaths: GetStaticPaths<MonsterParams> = async () => {
 };
 
 export const getStaticProps: GetStaticProps<PageProps, MonsterParams> = async (context) => {
-  const { game, monster } = context.params;
+  const { game, monster } = context.params!;
   const searchResults = monsterSearchResults({
     game: game,
     monster: monster,

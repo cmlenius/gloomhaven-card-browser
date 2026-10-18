@@ -70,11 +70,13 @@ export default Buildings;
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
   return {
     fallback: false,
-    paths: games.map((game) => ({
-      params: {
-        game: game.id,
-      },
-    })),
+    paths: games
+      .filter((game) => game.routes.some((route) => route.id === "buildings"))
+      .map((game) => ({
+        params: {
+          game: game.id,
+        },
+      })),
   };
 };
 
@@ -85,7 +87,7 @@ const buildingSearchResults = (query: { [key: string]: string | string[] }) => {
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
-  const { game } = context.params;
+  const { game } = context.params!;
   const searchResults = buildingSearchResults({
     game: game,
   });

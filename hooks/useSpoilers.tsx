@@ -26,7 +26,7 @@ const SpoilersContext = createContext<SpoilersContextInterface>({
   setSpoilers: () => {},
 });
 
-export const SpoilersProvider = ({ children }) => {
+export const SpoilersProvider = ({ children }: { children: React.ReactNode }) => {
   const [spoilers, setSpoilers] = useState<Spoilers>(defaultSpoilersContextValue);
 
   useEffect(() => {

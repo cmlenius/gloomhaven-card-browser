@@ -4,7 +4,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import { ChangeEvent, useEffect, useState } from "react";
 
-import { Event, GameParams, Option } from "../../common/types";
+import { Event, GameParams, Option, Ranges } from "../../common/types";
 import { customSort, getPageColor, getTitle, isInRanges, parseRanges, verifyQueryParam } from "../../common/utils";
 import CardList from "../../components/CardList";
 import Layout from "../../components/Layout";
@@ -45,7 +45,7 @@ const seasonFilters: SeasonOption[] = [
 ];
 
 type EventFiltersProps = {
-  eventTypeFilter: string;
+  eventTypeFilter: string | null;
   handleEventTypeFilterChange: (newValue: string) => void;
 };
 
@@ -79,9 +79,9 @@ const Events = ({ searchResults }: PageProps) => {
   const query = router.query;
   const game = verifyQueryParam(query.game, "gh");
 
-  const [search, setSearch] = useState(null);
-  const [season, setSeason] = useState(null);
-  const [eventTypeFilter, setEventTypeFilter] = useState(game === "fh" ? "outpost" : "city");
+  const [search, setSearch] = useState<Ranges | null>(null);
+  const [season, setSeason] = useState<string | null>(null);
+  const [eventTypeFilter, setEventTypeFilter] = useState<string | null>(game === "fh" ? "outpost" : "city");
 
   const handleEventTypeFilterChange = (newEventType: string | null) => {
     if (eventTypeFilter === newEventType) return;
@@ -161,11 +161,13 @@ export default Events;
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
   return {
     fallback: false,
-    paths: games.map((game) => ({
-      params: {
-        game: game.id,
-      },
-    })),
+    paths: games
+      .filter((game) => game.routes.some((route) => route.id === "events"))
+      .map((game) => ({
+        params: {
+          game: game.id,
+        },
+      })),
   };
 };
 
@@ -180,7 +182,7 @@ const eventSearchResults = (query: { [key: string]: string | string[] }) => {
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
-  const { game } = context.params;
+  const { game } = context.params!;
   const searchResults = eventSearchResults({
     game: game,
   });

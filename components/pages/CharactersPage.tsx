@@ -73,12 +73,12 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
 };
 
 type CharacterDetailsProps = {
-  character: Character;
+  character: Character | null;
   isCharacterUnlocked: boolean;
 };
 
 const CharacterDetails = ({ character, isCharacterUnlocked }: CharacterDetailsProps) => {
-  if (isCharacterUnlocked)
+  if (isCharacterUnlocked && character)
     return (
       <div className="character-details">
         {character.matImageBack && <img alt="" src={getBaseUrl() + character.matImageBack} />}
@@ -108,7 +108,7 @@ const AdditionalCards = ({ sections }: AdditionalCardsProps) => {
 type PageProps = {
   searchResults: SearchResult;
   game: string;
-  character: Character;
+  character: Character | null;
 };
 
 const CharactersPage = ({ character, game, searchResults }: PageProps) => {
@@ -134,7 +134,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
 
   const { abilityCards, additionalCards } = searchResults;
   const maxHandSize = abilityCards?.filter((c) => c.level === 1).length || 9;
-  const isCharacterUnlocked = spoilers.characters.has(character.class) || character.base;
+  const isCharacterUnlocked = Boolean(character && (spoilers.characters.has(character.class) || character.base));
   const showAdditionalCards = additionalCards && isCharacterUnlocked && !isCraftingMode && !showCharacterDetails;
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -189,7 +189,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           setToastMessage(`Build is for a different class (${decodedBuild.characterClass})`);
         } else {
           const idSet = new Set(decodedBuild.cardIds);
-          const images = abilityCards?.filter((c) => idSet.has(c.id)).map((c) => c.image) || [];
+          const images = abilityCards?.filter((c) => c.id !== undefined && idSet.has(c.id)).map((c) => c.image) || [];
 
           if (images.length > 0) {
             loadState(character.class, images);
@@ -204,9 +204,14 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
   }, [router.isReady, router.query.build, character?.class, abilityCards, loadState, setToastMessage, router]);
 
   const handleShare = () => {
-    const cardIds = abilityCards?.filter((c) => activeDeck.includes(c.image)).map((c) => c.id) || [];
+    if (!character) return;
+    const cardIds =
+      abilityCards
+        ?.filter((c) => activeDeck.includes(c.image))
+        .map((c) => c.id)
+        .filter((id): id is number => id !== undefined) || [];
 
-    const code = serializeBuild(character?.class, cardIds);
+    const code = serializeBuild(character.class, cardIds);
     const newUrl = new URL(window.location.href);
     newUrl.searchParams.set("build", code);
     navigator.clipboard.writeText(newUrl.toString());
@@ -275,8 +280,8 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           </div>
         </div>
       </div>
-      <ClassFilter game={game} characterClass={character?.class} />
-      {character.link && (
+      <ClassFilter game={game} characterClass={character?.class || ""} />
+      {character?.link && (
         <a href={character.link} className="character-link" target="_blank" rel="noreferrer">
           {character.linkLabel || character.link}
         </a>
@@ -290,7 +295,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
               cardList={cardList}
               isCraftingMode={isCraftingMode}
               activeDeck={activeDeck}
-              onCardToggle={(image) => toggleCard(image, character?.class, maxHandSize)}
+              onCardToggle={(image) => character && toggleCard(image, character.class, maxHandSize)}
             />
             {isCraftingMode && <div style={{ padding: "36px" }} />}
           </>

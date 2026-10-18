@@ -89,7 +89,7 @@ const ItemSpoiler = ({ handleItemSpoilerChange, label, path, spoilers }: ItemSpo
   );
 };
 
-const ItemSpoilers = ({ itemSpoilers }) => {
+const ItemSpoilers = ({ itemSpoilers }: { itemSpoilers: ItemSpoilerConfig }) => {
   const { spoilers, updateSpoilers } = useSpoilers();
 
   const allItemSpoilers = Object.keys(itemSpoilers.all).every((key) => itemSpoilers.all[key] === spoilers.items[key]);
