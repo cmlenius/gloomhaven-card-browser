@@ -16,7 +16,6 @@ import {
 } from "../../common/utils";
 import { characterAbilityCards } from "../../data/character-ability-cards";
 import { characterAdditionalCards } from "../../data/character-additional-cards";
-import { characters } from "../../data/characters";
 import { useCraftingStore } from "../../hooks/useCraftingStore";
 import { useSpoilers } from "../../hooks/useSpoilers";
 import CardList from "..//CardList";
@@ -31,14 +30,7 @@ const sortOrderOptions: Option[] = [
 ];
 
 const characterSpoilerFilter = (spoilers: Spoilers): ((card: CharacterAbility) => boolean) => {
-  const baseCharacterClasses = new Set(characters.filter((c) => c.base).map((c) => c.class));
-  const hiddenCharacterClasses = new Set(characters.filter((c) => c.hidden).map((c) => c.class));
-
-  return (card) =>
-    (baseCharacterClasses.has(card.class) ||
-      spoilers.characters?.has(card.class) ||
-      hiddenCharacterClasses.has(card.class)) &&
-    card.level < 1 + (spoilers.level || 1);
+  return (card) => card.level < 1 + (spoilers.level || 1);
 };
 
 type ClassFilterProps = {
@@ -339,8 +331,8 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           {character.linkLabel || character.link}
         </a>
       )}
-      {!spoilers.loading &&
-        (!isCharacterUnlocked && character ? (
+      {!isCharacterUnlocked && character ? (
+        <div className="spoiler-card-container">
           <SpoilerGate
             character={character}
             game={game}
@@ -348,19 +340,23 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
             totalCards={totalAbilityCards}
             onUnlock={handleUnlockCharacter}
           />
-        ) : showCharacterDetails ? (
-          <CharacterDetails character={character} isCharacterUnlocked={isCharacterUnlocked} />
-        ) : (
-          <>
-            <CardList
-              cardList={cardList}
-              isCraftingMode={isCraftingMode}
-              activeDeck={activeDeck}
-              onCardToggle={(image) => character && toggleCard(image, character.class, maxHandSize)}
-            />
-            {isCraftingMode && <div style={{ padding: "36px" }} />}
-          </>
-        ))}
+          <div className="spoiler-blurred-cards">
+            <CardList cardList={cardList} />
+          </div>
+        </div>
+      ) : showCharacterDetails ? (
+        <CharacterDetails character={character} isCharacterUnlocked={isCharacterUnlocked} />
+      ) : (
+        <>
+          <CardList
+            cardList={cardList}
+            isCraftingMode={isCraftingMode}
+            activeDeck={activeDeck}
+            onCardToggle={(image) => character && toggleCard(image, character.class, maxHandSize)}
+          />
+          {isCraftingMode && <div style={{ padding: "36px" }} />}
+        </>
+      )}
       {showAdditionalCards && <AdditionalCards sections={additionalCards} />}
 
       {isCraftingMode && !showCharacterDetails && (
