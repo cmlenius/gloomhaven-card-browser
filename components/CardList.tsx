@@ -1,13 +1,45 @@
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect, useState } from "react";
-import InfiniteScroll from "react-infinite-scroller";
+import { useEffect, useRef, useState } from "react";
 
 import { Card, MultiLevelCard } from "../common/types";
 import { getBaseUrl } from "../common/utils";
 import Empty from "./Empty";
 
 const CARDS_PER_PAGE = 12;
+
+const useInfiniteSlice = <T,>(items: T[]) => {
+  const [visibleCount, setVisibleCount] = useState(CARDS_PER_PAGE);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  const hasMore = visibleCount < (items?.length || 0);
+
+  useEffect(() => {
+    setVisibleCount(CARDS_PER_PAGE);
+  }, [items]);
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel || !hasMore) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + CARDS_PER_PAGE, items.length));
+        }
+      },
+      { rootMargin: "250px" },
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasMore, items?.length, visibleCount]);
+
+  return {
+    data: items?.slice(0, visibleCount) || [],
+    hasMore,
+    sentinelRef,
+  };
+};
 
 // Some edge case cards like FH245 (Ancient Coin) can trigger React map key
 // collisions, leading to leaks.  Dedupe with a suffix for these edge cases.
@@ -214,29 +246,15 @@ type MultiLevelCardListProp = {
 };
 
 export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
-  const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
+  const { data, hasMore, sentinelRef } = useInfiniteSlice(cardList);
 
-  const loadMore = (page: number) => {
-    setData(cardList?.slice(0, (page + 1) * CARDS_PER_PAGE));
-  };
-
-  useEffect(() => {
-    setData(cardList?.slice(0, CARDS_PER_PAGE));
-  }, [cardList]);
-
-  if (data?.length === 0) return <Empty />;
+  if (data.length === 0) return <Empty />;
 
   const dedupeKey = makeKeyDeduper();
 
   return (
-    <InfiniteScroll
-      className="card-list"
-      hasMore={data?.length < cardList.length}
-      loader={<h4 key={0}>Loading...</h4>}
-      loadMore={loadMore}
-      pageStart={0}
-    >
-      {data?.map((multiLevelCard) => (
+    <div className="card-list">
+      {data.map((multiLevelCard) => (
         <MultiLevelCardComponent key={dedupeKey(String(multiLevelCard.id))} multiLevelCard={multiLevelCard} />
       ))}
       {[...Array(4)].map((_, idx) => (
@@ -247,7 +265,12 @@ export const MultiLevelCardList = ({ cardList }: MultiLevelCardListProp) => {
           <div className={"card"} />
         </div>
       ))}
-    </InfiniteScroll>
+      {hasMore && (
+        <div ref={sentinelRef} style={{ width: "100%", textAlign: "center" }}>
+          <h4>Loading...</h4>
+        </div>
+      )}
+    </div>
   );
 };
 
@@ -270,29 +293,15 @@ const CardList = ({
   activeDeck,
   onCardToggle,
 }: CardListProps) => {
-  const [data, setData] = useState(cardList.slice(0, CARDS_PER_PAGE));
+  const { data, hasMore, sentinelRef } = useInfiniteSlice(cardList);
 
-  const loadMore = (page: number) => {
-    setData(cardList?.slice(0, (page + 1) * CARDS_PER_PAGE));
-  };
-
-  useEffect(() => {
-    setData(cardList?.slice(0, CARDS_PER_PAGE));
-  }, [cardList]);
-
-  if (data?.length === 0) return <Empty />;
+  if (data.length === 0) return <Empty />;
 
   const dedupeKey = makeKeyDeduper();
 
   return (
-    <InfiniteScroll
-      className="card-list"
-      hasMore={data?.length < cardList.length}
-      loader={<h4 key={0}>Loading...</h4>}
-      loadMore={loadMore}
-      pageStart={0}
-    >
-      {data?.map((card) => {
+    <div className="card-list">
+      {data.map((card) => {
         const charAbilCard = card as Card & { level?: number };
         const isBackCard =
           charAbilCard.level === 0 ||
@@ -332,7 +341,12 @@ const CardList = ({
       {[...Array(4)].map((_, idx) => (
         <div key={idx} className={horizontal ? "card-horizontal" : "card"} />
       ))}
-    </InfiniteScroll>
+      {hasMore && (
+        <div ref={sentinelRef} style={{ width: "100%", textAlign: "center" }}>
+          <h4>Loading...</h4>
+        </div>
+      )}
+    </div>
   );
 };
 
