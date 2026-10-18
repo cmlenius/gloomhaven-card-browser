@@ -687,6 +687,51 @@ input[type="radio"] {
   display: flex;
 }
 
+.spoiler-gate {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 24px 12px;
+  max-width: 480px;
+  padding: 24px;
+  text-align: center;
+}
+
+.spoiler-gate-icon {
+  height: 48px;
+  margin-bottom: 12px;
+  width: 48px;
+}
+
+.spoiler-gate-title {
+  color: var(--primary);
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.spoiler-gate-description {
+  color: #333;
+  line-height: 1.4;
+  margin: 0 0 16px;
+}
+
+.spoiler-gate-btn {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.spoiler-gate-btn:hover {
+  background-color: var(--primary);
+  opacity: 0.9;
+}
+
 /* --- SLIDER --- */
 .slider {
   align-items: center;

@@ -11,6 +11,7 @@ import {
   getCharacter,
   getCharacterClasses,
   getDefaultCharacterClass,
+  getGame,
   verifyQueryParam,
 } from "../../common/utils";
 import { characterAbilityCards } from "../../data/character-ability-cards";
@@ -68,6 +69,37 @@ const ClassFilter = ({ characterClass, game }: ClassFilterProps) => {
             <img alt="" src={getBaseUrl() + `icons/characters/${game}/${char.class}.png`} />
           </Link>
         ))}
+    </div>
+  );
+};
+
+type SpoilerGateProps = {
+  character: Character;
+  game: string;
+  maxHandSize: number;
+  totalCards: number;
+  onUnlock: () => void;
+};
+
+const SpoilerGate = ({ character, game, maxHandSize, totalCards, onUnlock }: SpoilerGateProps) => {
+  const displayName = character.altName || character.name;
+  const gameName = getGame(game)?.name || "Gloomhaven";
+
+  return (
+    <div className="spoiler-gate">
+      <img
+        alt={displayName}
+        className="spoiler-gate-icon"
+        src={getBaseUrl() + `icons/characters/${game}/${character.class}.png`}
+      />
+      <h2 className="spoiler-gate-title">{displayName} Class — Spoiler Protected</h2>
+      <p className="spoiler-gate-description">
+        This unlockable {gameName} class ({totalCards} ability cards, hand size {maxHandSize}) is hidden to prevent
+        spoilers.
+      </p>
+      <button className="spoiler-gate-btn" onClick={onUnlock}>
+        Reveal {displayName} Spoilers
+      </button>
     </div>
   );
 };
@@ -138,8 +170,18 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
 
   const { abilityCards, additionalCards } = searchResults;
   const maxHandSize = abilityCards?.filter((c) => c.level === 1).length || 9;
-  const isCharacterUnlocked = Boolean(character && (spoilers.characters.has(character.class) || character.base));
+  const totalAbilityCards = abilityCards?.filter((c) => c.level >= 1).length || 0;
+  const isCharacterUnlocked = Boolean(
+    character && (spoilers.characters.has(character.class) || character.base || character.hidden),
+  );
   const showAdditionalCards = additionalCards && isCharacterUnlocked && !isCraftingMode && !showCharacterDetails;
+
+  const handleUnlockCharacter = () => {
+    if (!character) return;
+    const newCharacters = new Set(spoilers.characters);
+    newCharacters.add(character.class);
+    updateSpoilers({ ...spoilers, characters: newCharacters });
+  };
 
   const updateLevel = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLevel = parseInt(event.target.value);
@@ -298,7 +340,15 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         </a>
       )}
       {!spoilers.loading &&
-        (showCharacterDetails ? (
+        (!isCharacterUnlocked && character ? (
+          <SpoilerGate
+            character={character}
+            game={game}
+            maxHandSize={maxHandSize}
+            totalCards={totalAbilityCards}
+            onUnlock={handleUnlockCharacter}
+          />
+        ) : showCharacterDetails ? (
           <CharacterDetails character={character} isCharacterUnlocked={isCharacterUnlocked} />
         ) : (
           <>
