@@ -45,7 +45,7 @@ const seasonFilters: SeasonOption[] = [
 ];
 
 type EventFiltersProps = {
-  eventTypeFilter: string | null;
+  eventTypeFilter: string;
   handleEventTypeFilterChange: (newValue: string) => void;
 };
 
@@ -81,9 +81,9 @@ const Events = ({ searchResults }: PageProps) => {
 
   const [search, setSearch] = useState<Ranges | null>(null);
   const [season, setSeason] = useState<string | null>(null);
-  const [eventTypeFilter, setEventTypeFilter] = useState<string | null>(game === "fh" ? "outpost" : "city");
+  const [eventTypeFilter, setEventTypeFilter] = useState<string>(game === "fh" ? "outpost" : "city");
 
-  const handleEventTypeFilterChange = (newEventType: string | null) => {
+  const handleEventTypeFilterChange = (newEventType: string) => {
     if (eventTypeFilter === newEventType) return;
     setEventTypeFilter(newEventType);
   };
@@ -106,7 +106,7 @@ const Events = ({ searchResults }: PageProps) => {
 
   const cardList = searchResults?.filter((event) => {
     if (search !== null && !isInRanges(event.id, search)) return false;
-    if (eventTypeFilter !== null && eventTypeFilter !== event.eventType) return false;
+    if (eventTypeFilter !== event.eventType) return false;
     if (
       game === "fh" &&
       (eventTypeFilter === "outpost" || eventTypeFilter === "road") &&

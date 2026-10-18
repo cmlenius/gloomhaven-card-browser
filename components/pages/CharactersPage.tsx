@@ -189,7 +189,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
           setToastMessage(`Build is for a different class (${decodedBuild.characterClass})`);
         } else {
           const idSet = new Set(decodedBuild.cardIds);
-          const images = abilityCards?.filter((c) => c.id !== undefined && idSet.has(c.id)).map((c) => c.image) || [];
+          const images = abilityCards?.filter((c) => c.id != null && idSet.has(c.id)).map((c) => c.image) || [];
 
           if (images.length > 0) {
             loadState(character.class, images);
@@ -209,7 +209,7 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
       abilityCards
         ?.filter((c) => activeDeck.includes(c.image))
         .map((c) => c.id)
-        .filter((id): id is number => id !== undefined) || [];
+        .filter((id): id is number => id != null) || [];
 
     const code = serializeBuild(character.class, cardIds);
     const newUrl = new URL(window.location.href);
