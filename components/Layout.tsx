@@ -71,10 +71,11 @@ const TopBar = ({ openSettingsDrawer }: TopBarProps) => {
 type LayoutProps = {
   children?: React.ReactNode;
   description?: string;
+  structuredData?: Record<string, unknown>;
   title?: string;
 };
 
-const Layout = ({ children, description, title }: LayoutProps) => {
+const Layout = ({ children, description, structuredData, title }: LayoutProps) => {
   const [settingDrawerOpen, setSettingDrawerOpen] = useState(false);
 
   return (
@@ -84,6 +85,9 @@ const Layout = ({ children, description, title }: LayoutProps) => {
         <meta name="description" content={description || defaultDescription} />
         <meta name="google-site-verification" content="dyv7-lOXQn9xEOYXMD6s0oQYUYuQzTGN-KkjuPlILxg" />
         <link rel="icon" href={getBaseUrl() + "logo.png"} />
+        {structuredData && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+        )}
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-FFL6ZJNJ4T" strategy="afterInteractive" />
       <Script id="google-analytics" strategy="afterInteractive">

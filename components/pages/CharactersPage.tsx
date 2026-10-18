@@ -326,6 +326,12 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
         </div>
       </div>
       <ClassFilter game={game} characterClass={character?.class || ""} />
+      {character && (
+        <h1 className="character-heading">
+          {getGame(game)?.name || "Gloomhaven"} —{" "}
+          {isCharacterUnlocked ? character.name : character.altName || character.name} Class
+        </h1>
+      )}
       {character?.link && (
         <a href={character.link} className="character-link" target="_blank" rel="noreferrer">
           {character.linkLabel || character.link}
