@@ -46,6 +46,8 @@ const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterSta
             key={idx}
             className={`monster-img ${index === idx ? "monster-img-active" : ""}`}
             alt=""
+            decoding="async"
+            loading="lazy"
             src={getBaseUrl() + img}
             style={{ transform: `rotate(${rotation}deg)` }}
           />
