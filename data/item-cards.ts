@@ -5924,7 +5924,7 @@ export const itemCards: Record<string, Item[]> = {
       source: "toa",
       image: "items/trail-of-ashes/toa-114-runic-boots-of-travel.jpeg",
       cost: 35,
-      slot: "boots",
+      slot: "legs",
       spent: true,
     },
     {
