@@ -10,12 +10,16 @@ const CARDS_PER_PAGE = 12;
 
 const useInfiniteSlice = <T,>(items: T[]) => {
   const [visibleCount, setVisibleCount] = useState(CARDS_PER_PAGE);
+  const [prevItems, setPrevItems] = useState(items);
   const sentinelRef = useRef<HTMLDivElement>(null);
-  const hasMore = visibleCount < (items?.length || 0);
 
-  useEffect(() => {
+  if (items !== prevItems) {
+    setPrevItems(items);
     setVisibleCount(CARDS_PER_PAGE);
-  }, [items]);
+  }
+
+  const effectiveVisibleCount = items !== prevItems ? CARDS_PER_PAGE : visibleCount;
+  const hasMore = effectiveVisibleCount < (items?.length || 0);
 
   useEffect(() => {
     const sentinel = sentinelRef.current;
@@ -32,10 +36,10 @@ const useInfiniteSlice = <T,>(items: T[]) => {
 
     observer.observe(sentinel);
     return () => observer.disconnect();
-  }, [hasMore, items?.length, visibleCount]);
+  }, [hasMore, items?.length, effectiveVisibleCount]);
 
   return {
-    data: items?.slice(0, visibleCount) || [],
+    data: items?.slice(0, effectiveVisibleCount) || [],
     hasMore,
     sentinelRef,
   };

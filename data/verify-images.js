@@ -1,17 +1,7 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
-const vm = require("vm");
-
-function loadTsData(filePath) {
-  const code = fs
-    .readFileSync(filePath, "utf8")
-    .replace(/^import\s+.*$/gm, "")
-    .replace(/export\s+const\s+(\w+)\s*:[^=]+=/g, "exports.$1 =")
-    .replace(/const\s+(\w+)\s*:[^=]+=/g, "const $1 =");
-  const sandbox = { exports: {} };
-  vm.runInNewContext(code, sandbox, { filename: filePath });
-  return sandbox.exports;
-}
+const path = require("path");
+const { loadTsData } = require("./helpers");
 
 // Fetch only tree/commit metadata (no image blobs) for the images branch
 execSync("git fetch --no-tags --filter=blob:none origin +refs/heads/images:refs/remotes/origin/images", {
@@ -28,19 +18,19 @@ const referencedImages = new Set();
 const imageRegex = /"([^"\s]+\.(?:jpeg|png|jpg))"/gi;
 
 const tsFiles = fs
-  .readdirSync("./data")
+  .readdirSync(__dirname)
   .filter((file) => file.endsWith(".ts"))
   .sort();
 
 for (const file of tsFiles) {
-  const content = fs.readFileSync(`./data/${file}`, "utf8");
+  const content = fs.readFileSync(path.join(__dirname, file), "utf8");
   for (const match of content.matchAll(imageRegex)) {
     referencedImages.add(match[1]);
   }
 }
 
 // Character class icons (used in CharactersPage.tsx and Settings.tsx)
-const { characters } = loadTsData("./data/characters.ts");
+const { characters } = loadTsData("characters.ts");
 for (const char of characters) {
   referencedImages.add(`icons/characters/${char.game}/${char.class}.png`);
 }

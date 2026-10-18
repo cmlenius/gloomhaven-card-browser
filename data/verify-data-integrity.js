@@ -1,26 +1,14 @@
-const fs = require("fs");
-const vm = require("vm");
+const { loadTsData } = require("./helpers");
 
-function loadTsData(filePath) {
-  const code = fs
-    .readFileSync(filePath, "utf8")
-    .replace(/^import\s+.*$/gm, "")
-    .replace(/export\s+const\s+(\w+)\s*:[^=]+=/g, "exports.$1 =")
-    .replace(/const\s+(\w+)\s*:[^=]+=/g, "const $1 =");
-  const sandbox = { exports: {} };
-  vm.runInNewContext(code, sandbox, { filename: filePath });
-  return sandbox.exports;
-}
-
-const { games } = loadTsData("./data/games.ts");
-const { characters } = loadTsData("./data/characters.ts");
-const { characterAbilityCards } = loadTsData("./data/character-ability-cards.ts");
-const { characterAdditionalCards } = loadTsData("./data/character-additional-cards.ts");
-const { itemCards } = loadTsData("./data/item-cards.ts");
-const { eventCards } = loadTsData("./data/event-cards.ts");
-const { monsterCards } = loadTsData("./data/monster-cards.ts");
-const { buildingCards } = loadTsData("./data/building-cards.ts");
-const { petCards } = loadTsData("./data/pet-cards.ts");
+const { games } = loadTsData("games.ts");
+const { characters } = loadTsData("characters.ts");
+const { characterAbilityCards } = loadTsData("character-ability-cards.ts");
+const { characterAdditionalCards } = loadTsData("character-additional-cards.ts");
+const { itemCards } = loadTsData("item-cards.ts");
+const { eventCards } = loadTsData("event-cards.ts");
+const { monsterCards } = loadTsData("monster-cards.ts");
+const { buildingCards } = loadTsData("building-cards.ts");
+const { petCards } = loadTsData("pet-cards.ts");
 
 const errors = [];
 
