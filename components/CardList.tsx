@@ -43,7 +43,14 @@ const CardComponent = ({ card, horizontal, showId, isSelected, isCraftingMode, o
           <span aria-hidden="true" className="invisible">
             {card.name}
           </span>
-          <img alt={String(card.name)} className="card-img" key={card.image} src={getBaseUrl() + card.image} />
+          <img
+            alt={String(card.name)}
+            className="card-img"
+            decoding="async"
+            key={card.image}
+            loading="lazy"
+            src={getBaseUrl() + card.image}
+          />
         </div>
       </div>
     </div>
@@ -86,6 +93,8 @@ const FlipCard = ({
           <img
             alt={String(card.name)}
             className="card-img"
+            decoding="async"
+            loading="lazy"
             src={getBaseUrl() + card.image}
             key={card.image + "-front"}
           />
@@ -97,6 +106,8 @@ const FlipCard = ({
           <img
             alt={String(card.name)}
             className="card-img"
+            decoding="async"
+            loading="lazy"
             src={getBaseUrl() + card.imageBack}
             key={card.image + "-back"}
           />
