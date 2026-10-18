@@ -36,11 +36,13 @@ export default Pets;
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
   return {
     fallback: false,
-    paths: games.map((game) => ({
-      params: {
-        game: game.id,
-      },
-    })),
+    paths: games
+      .filter((game) => game.routes.some((route) => route.id === "pets"))
+      .map((game) => ({
+        params: {
+          game: game.id,
+        },
+      })),
   };
 };
 
@@ -51,7 +53,7 @@ const petSearchResults = (query: { [key: string]: string | string[] }) => {
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
-  const { game } = context.params;
+  const { game } = context.params!;
   const searchResults = petSearchResults({
     game: game,
   });

@@ -24,17 +24,19 @@ export default Characters;
 export const getStaticPaths: GetStaticPaths<CharacterParams> = async () => {
   return {
     fallback: false,
-    paths: games.map((game) => ({
-      params: {
-        game: game.id,
-        character: game.defaultClass,
-      },
-    })),
+    paths: games
+      .filter((game) => game.routes.some((route) => route.id === "characters"))
+      .map((game) => ({
+        params: {
+          game: game.id,
+          character: game.defaultClass,
+        },
+      })),
   };
 };
 
 export const getStaticProps: GetStaticProps<CharacterPageProps, CharacterParams> = async (context) => {
-  const { game, character } = context.params;
+  const { game, character } = context.params!;
   const searchResults = characterSearchResults({
     game: game,
     character: character,

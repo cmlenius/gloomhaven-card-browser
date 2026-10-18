@@ -13,7 +13,7 @@ type MonsterStatCardProps = {
   index: number;
   game: string;
   handleIndexChange: () => void;
-  monster: Monster;
+  monster: Monster | null;
 };
 
 const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterStatCardProps) => {
@@ -74,7 +74,9 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
   const monsterSearch = verifyQueryParam(router.query.monster, getGame(game)?.defaultMonster);
 
   const handleIndexChange = () => {
-    setIndex((index + 1) % monster?.statCards?.length);
+    if (monster?.statCards?.length) {
+      setIndex((index + 1) % monster.statCards.length);
+    }
   };
 
   const handleMonsterChange = (newMonster: string) => {
@@ -100,7 +102,7 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
       image: abilityImage,
     })) || [];
 
-  const horizontal = !["manifestation-of-corruption", "enraged-vanquisher"].includes(monster?.id);
+  const horizontal = !["manifestation-of-corruption", "enraged-vanquisher"].includes(monster?.id || "");
 
   return (
     <>

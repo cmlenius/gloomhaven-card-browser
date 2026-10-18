@@ -1,6 +1,6 @@
 import { characters } from "../data/characters";
 import { games } from "../data/games";
-import { Card, Character, CharacterAbility, Game, SearchResult } from "./types";
+import { Card, Character, CharacterAbility, Game, Ranges, SearchResult } from "./types";
 
 export const defaultColour = "#432423";
 export const defaultDescription =
@@ -36,8 +36,8 @@ const toTitleCase = (phrase: string | number) => {
  * @param defaultValue default value if param is not valid
  * @returns Nonnull string representing param or default value
  */
-export const verifyQueryParam = (param: string | string[] | null, defaultValue?: string): string => {
-  if (!param) return defaultValue;
+export const verifyQueryParam = (param: string | string[] | null | undefined, defaultValue?: string | null): string => {
+  if (!param) return defaultValue || "";
   if (param instanceof Array) return param[0];
   return param;
 };
@@ -64,7 +64,7 @@ export const getDescription = (gameId: string, subject: string, cards: Card[]): 
  * @param subject The subject of the page (i.e. "Items")
  * @returns Title as string text
  */
-export const getTitle = (gameId: string, subject: string): string => {
+export const getTitle = (gameId: string, subject?: string): string => {
   const gameName = games.find((g) => g.id === gameId)?.name;
   const title = gameName + " " + subject;
 
@@ -87,7 +87,7 @@ export const getCharacterClasses = (gameId: string): Character[] => {
  * @param characterClass The class name (i.e. "BR")
  * @returns css color code string
  */
-export const getPageColor = (characterClass: string): string => {
+export const getPageColor = (characterClass?: string | null): string => {
   if (!characterClass) return defaultColour;
   return characters.find((c) => c.class === characterClass)?.colour || defaultColour;
 };
@@ -110,10 +110,11 @@ export const getDefaultCharacterClass = (gameId: string): string | null => {
  * @param characterClass The class name (i.e. "BR")
  * @returns Character details or null
  */
-export const getCharacter = (gameId: string, characterClass: string): Character | null => {
+export const getCharacter = (gameId: string, characterClass?: string | null): Character | null => {
   const game = games.find((g) => g.id === gameId);
+  if (!game) return null;
   if (!characterClass) {
-    if (game) characterClass = game.defaultClass;
+    characterClass = game.defaultClass;
   }
 
   const character = characters.find((c) => c.game === game.id && c.class === characterClass);
@@ -128,7 +129,7 @@ export const getCharacter = (gameId: string, characterClass: string): Character 
  * @returns Game details or null
  */
 export const getGame = (gameId: string): Game | null => {
-  return games.find((g) => g.id === gameId);
+  return games.find((g) => g.id === gameId) || null;
 };
 
 /**
@@ -138,10 +139,12 @@ export const getGame = (gameId: string): Game | null => {
  */
 export function customSort(order: string, direction: string): (a: SearchResult, b: SearchResult) => number {
   return (a, b) => {
+    const aRecord = a as unknown as Record<string, number | string>;
+    const bRecord = b as unknown as Record<string, number | string>;
     let sort = 1;
-    if (a[order] > b[order]) {
+    if (aRecord[order] > bRecord[order]) {
       sort = 1;
-    } else if (a[order] < b[order]) {
+    } else if (aRecord[order] < bRecord[order]) {
       sort = -1;
     } else if (a.name > b.name) {
       sort = 1;
@@ -153,8 +156,6 @@ export function customSort(order: string, direction: string): (a: SearchResult, 
     return direction === "asc" ? sort : -1 * sort;
   };
 }
-
-type Ranges = { start: number; end: number }[];
 
 /**
  * Parses a string of "ranges" into an array of range objects.
@@ -195,6 +196,7 @@ export function parseRanges(str: string): Ranges | null {
  * @param ranges The ranges to check
  * @returns `true` if n is in any range, `false` otherwise
  */
-export function isInRanges(n: number, ranges: Ranges): boolean {
+export function isInRanges(n: number | null | undefined, ranges: Ranges): boolean {
+  if (n === null || n === undefined) return false;
   return ranges.some((range) => range.start <= n && n <= range.end);
 }

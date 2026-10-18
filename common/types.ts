@@ -25,7 +25,7 @@ export type Character = {
 };
 
 export interface Card {
-  id?: number;
+  id?: number | null;
   name: string;
   image: string;
   imageBack?: string;
@@ -77,7 +77,7 @@ export type Item = {
 };
 
 export type Event = {
-  id: number;
+  id: number | null;
   name: string;
   game: string;
   eventType: string;
@@ -118,7 +118,7 @@ export type Option = {
 };
 
 export type MonsterSearch = {
-  monster: Monster;
+  monster: Monster | null;
   monsterList: Option[];
 };
 
@@ -143,6 +143,8 @@ export interface MonsterParams extends ParsedUrlQuery {
 export interface GameParams extends ParsedUrlQuery {
   game: string;
 }
+
+export type Ranges = { start: number; end: number }[];
 
 export interface SearchResult {
   name: number | string;

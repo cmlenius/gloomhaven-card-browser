@@ -46,7 +46,7 @@ export const getStaticPaths: GetStaticPaths<CharacterParams> = async () => {
 };
 
 export const getStaticProps: GetStaticProps<CharacterPageProps, CharacterParams> = async (context) => {
-  const { game, character } = context.params;
+  const { game, character } = context.params!;
   const searchResults = characterSearchResults({
     game: game,
     character: character,

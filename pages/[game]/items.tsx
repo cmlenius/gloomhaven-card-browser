@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import { ChangeEvent, useEffect, useState } from "react";
 
-import { GameParams, Item, Option, Spoilers } from "../../common/types";
+import { GameParams, Item, Option, Ranges, Spoilers } from "../../common/types";
 import {
   customSort,
   getBaseUrl,
@@ -44,7 +44,7 @@ const itemSpoilerFilter = (spoilers: Spoilers): ((item: Item) => boolean) => {
   return (card) => {
     switch (card.source) {
       case "prosperity":
-        return card.prosperity <= parseInt(String(spoilers.items.prosperity), 10);
+        return (card.prosperity ?? 0) <= parseInt(String(spoilers.items.prosperity), 10);
       case "random-design":
         return !!spoilers.items.recipes;
       case "solo-scenario":
@@ -72,8 +72,8 @@ const itemSpoilerFilter = (spoilers: Spoilers): ((item: Item) => boolean) => {
 };
 
 type FilterProps = {
-  activationFilter: string;
-  slotFilter: string;
+  activationFilter: string | null;
+  slotFilter: string | null;
   handleActivationFilterChange: (newValue: string) => void;
   handleSlotFilterChange: (newValue: string) => void;
 };
@@ -114,9 +114,9 @@ type PageProps = {
 };
 
 const Items = ({ searchResults }: PageProps) => {
-  const [search, setSearch] = useState(null);
-  const [slotFilter, setSlotFilter] = useState(null);
-  const [activationFilter, setActivationFilter] = useState(null);
+  const [search, setSearch] = useState<Ranges | null>(null);
+  const [slotFilter, setSlotFilter] = useState<string | null>(null);
+  const [activationFilter, setActivationFilter] = useState<string | null>(null);
   const [sortOrder, setsortOrder] = useState("id");
   const [sortDirection, setSortDirection] = useState("asc");
   const { spoilers } = useSpoilers();
@@ -197,11 +197,13 @@ export default Items;
 export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
   return {
     fallback: false,
-    paths: games.map((game) => ({
-      params: {
-        game: game.id,
-      },
-    })),
+    paths: games
+      .filter((game) => game.routes.some((route) => route.id === "items"))
+      .map((game) => ({
+        params: {
+          game: game.id,
+        },
+      })),
   };
 };
 
@@ -212,7 +214,7 @@ const itemSearchResults = (query: { [key: string]: string | string[] }) => {
 };
 
 export const getStaticProps: GetStaticProps<PageProps, GameParams> = async (context) => {
-  const { game } = context.params;
+  const { game } = context.params!;
   const searchResults = itemSearchResults({
     game: game,
   });
