@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 
-import { CharacterParams } from "../../../common/types";
+import { GameParams } from "../../../common/types";
 import { getCharacter, getTitle, verifyQueryParam } from "../../../common/utils";
 import Layout from "../../../components/Layout";
 import CharactersPage, { CharacterPageProps, characterSearchResults } from "../../../components/pages/CharactersPage";
@@ -21,7 +21,7 @@ const Characters = ({ searchResults }: CharacterPageProps) => {
 
 export default Characters;
 
-export const getStaticPaths: GetStaticPaths<CharacterParams> = async () => {
+export const getStaticPaths: GetStaticPaths<GameParams> = async () => {
   return {
     fallback: false,
     paths: games
@@ -29,17 +29,15 @@ export const getStaticPaths: GetStaticPaths<CharacterParams> = async () => {
       .map((game) => ({
         params: {
           game: game.id,
-          character: game.defaultClass,
         },
       })),
   };
 };
 
-export const getStaticProps: GetStaticProps<CharacterPageProps, CharacterParams> = async (context) => {
-  const { game, character } = context.params!;
+export const getStaticProps: GetStaticProps<CharacterPageProps, GameParams> = async (context) => {
+  const { game } = context.params!;
   const searchResults = characterSearchResults({
     game: game,
-    character: character,
   });
 
   return {
