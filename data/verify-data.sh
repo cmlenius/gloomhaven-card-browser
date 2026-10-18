@@ -3,14 +3,15 @@ set -euo pipefail
 
 npm run data
 
-if ! git diff --exit-code -- data/*.ts; then
+if ! git diff --exit-code -- data/*.ts public/sitemap.xml; then
   echo ""
-  echo "Error: Generated .ts files in /data are out of date with the source data files."
-  echo "Please run 'npm run data' and commit the updated .ts files."
+  echo "Error: Generated files in /data or public/sitemap.xml are out of date with the source data files."
+  echo "Please run 'npm run data' and commit the updated files."
   exit 1
 fi
 
-echo "All generated data/*.ts files are up to date."
+echo "All generated data/*.ts files and public/sitemap.xml are up to date."
 
 node ./data/verify-data-integrity.js
+
 
