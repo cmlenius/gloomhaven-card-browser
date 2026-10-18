@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { deserializeBuild, serializeBuild } from "../../common/shareUtils";
 import { Character, CharacterAbility, CharacterAdditionalCardsSection, Option, Spoilers } from "../../common/types";
@@ -163,14 +163,21 @@ const CharactersPage = ({ character, game, searchResults }: PageProps) => {
     setSortDirection(newValue);
   };
 
-  let cardList =
-    abilityCards
-      ?.filter(characterSpoilerFilter(spoilers))
-      .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [];
+  const filteredSortedCards = useMemo(
+    () =>
+      abilityCards
+        ?.filter(characterSpoilerFilter(spoilers))
+        .sort(customSort(sortOrder || "id", sortDirection || "asc")) || [],
+    [abilityCards, spoilers, sortOrder, sortDirection],
+  );
 
-  if (isCraftingMode && viewActiveHand) {
-    cardList = cardList.filter((card) => activeDeck.includes(card.image));
-  }
+  const cardList = useMemo(
+    () =>
+      isCraftingMode && viewActiveHand
+        ? filteredSortedCards.filter((card) => activeDeck.includes(card.image))
+        : filteredSortedCards,
+    [filteredSortedCards, isCraftingMode, viewActiveHand, activeDeck],
+  );
 
   useEffect(() => {
     if (character) document.documentElement.style.setProperty("--primary", character.colour);

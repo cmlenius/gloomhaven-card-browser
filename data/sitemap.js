@@ -1,19 +1,9 @@
 const fs = require("fs");
-const vm = require("vm");
+const path = require("path");
+const { loadTsData } = require("./helpers");
 
-function loadTsData(filePath) {
-  const code = fs
-    .readFileSync(filePath, "utf8")
-    .replace(/^import\s+.*$/gm, "")
-    .replace(/export\s+const\s+(\w+)\s*:[^=]+=/g, "exports.$1 =")
-    .replace(/const\s+(\w+)\s*:[^=]+=/g, "const $1 =");
-  const sandbox = { exports: {} };
-  vm.runInNewContext(code, sandbox, { filename: filePath });
-  return sandbox.exports;
-}
-
-const { games } = loadTsData("./data/games.ts");
-const { characters } = loadTsData("./data/characters.ts");
+const { games } = loadTsData("games.ts");
+const { characters } = loadTsData("characters.ts");
 
 const baseUrl = "https://gloomhavencards.com";
 const urls = [{ loc: `${baseUrl}/`, priority: "1.00" }];
@@ -57,5 +47,5 @@ ${xmlEntries}
 </urlset>
 `;
 
-fs.writeFileSync("./public/sitemap.xml", sitemapXml);
+fs.writeFileSync(path.resolve(__dirname, "../public/sitemap.xml"), sitemapXml);
 console.log(`sitemap ${urls.length}`);

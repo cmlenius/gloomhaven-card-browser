@@ -1,7 +1,7 @@
 import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { Monster, MonsterSearch } from "../../common/types";
 import { getBaseUrl, getGame, getPageColor, verifyQueryParam } from "../../common/utils";
@@ -47,7 +47,6 @@ const MonsterStatCard = ({ game, handleIndexChange, index, monster }: MonsterSta
             className={`monster-img ${index === idx ? "monster-img-active" : ""}`}
             alt=""
             decoding="async"
-            loading="lazy"
             src={getBaseUrl() + img}
             style={{ transform: `rotate(${rotation}deg)` }}
           />
@@ -98,11 +97,14 @@ const MonstersPage = ({ game, searchResults }: PageProps) => {
     setIndex(0);
   }, [game]);
 
-  const cardList =
-    monster?.abilityCards?.map((abilityImage) => ({
-      name: "",
-      image: abilityImage,
-    })) || [];
+  const cardList = useMemo(
+    () =>
+      monster?.abilityCards?.map((abilityImage) => ({
+        name: "",
+        image: abilityImage,
+      })) || [],
+    [monster?.abilityCards],
+  );
 
   const horizontal = !["manifestation-of-corruption", "enraged-vanquisher"].includes(monster?.id || "");
 
