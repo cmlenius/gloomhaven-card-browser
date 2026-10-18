@@ -11,3 +11,6 @@ if ! git diff --exit-code -- data/*.ts; then
 fi
 
 echo "All generated data/*.ts files are up to date."
+
+node ./data/verify-data-integrity.js
+
