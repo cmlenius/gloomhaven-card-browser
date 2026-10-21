@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { CharacterParams } from "../../../common/types";
 import {
   getCharacter,
+  getCharacterStructuredData,
   getDefaultCharacterClass,
   getDescription,
   getTitle,
@@ -25,6 +26,7 @@ const Characters = ({ searchResults }: CharacterPageProps) => {
   return (
     <Layout
       description={getDescription(game, "Character Ability Cards", searchResults.abilityCards)}
+      structuredData={getCharacterStructuredData(game, character, searchResults.abilityCards)}
       title={getTitle(game, name + " Class")}
     >
       <CharactersPage character={character} game={game} searchResults={searchResults} />
