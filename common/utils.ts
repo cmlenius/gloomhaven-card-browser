@@ -74,6 +74,42 @@ export const getTitle = (gameId: string, subject?: string): string => {
 };
 
 /**
+ * Generates Schema.org CollectionPage JSON-LD structured data for a character page
+ * @param gameId The id of the game (i.e. "gh")
+ * @param character The character object
+ * @param cards List of CharacterAbility cards
+ * @returns JSON-LD structured data object or undefined
+ */
+export const getCharacterStructuredData = (
+  gameId: string,
+  character: Character | null,
+  cards: Card[],
+): Record<string, unknown> | undefined => {
+  if (!character || !cards || cards.length === 0) return undefined;
+  const gameName = games.find((g) => g.id === gameId)?.name || "Gloomhaven";
+  const displayName = character.altName || character.name;
+  const baseUrl = getBaseUrl();
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${gameName} ${displayName} Class`,
+    description: getDescription(gameId, "Character Ability Cards", cards),
+    mainEntity: {
+      "@type": "ItemList",
+      name: `${gameName} ${displayName} Ability Cards`,
+      numberOfItems: cards.length,
+      itemListElement: cards.map((card, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: toTitleCase(card.name),
+        image: baseUrl + card.image,
+      })),
+    },
+  };
+};
+
+/**
  * Returns all characters for the specified game
  * @param gameId The id of the game (i.e. "gh")
  * @returns List of Characters

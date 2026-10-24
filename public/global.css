@@ -350,6 +350,14 @@ input[type="radio"] {
   width: 100%;
 }
 
+.character-heading {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 12px 0;
+  text-align: center;
+}
+
 .character-link {
   align-self: center;
   color: #5869e4;
